@@ -2,7 +2,7 @@
 
 Searchable flat-text (YFM) database of all rwxrob videos.
 
-## Sample video metadata markdown file
+## Sample Video Metadata Markdown File
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
@@ -21,15 +21,15 @@ YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes vi
 
 YouTube uses simple inline syntax to trigger rich features in descriptions:
 
-| Feature | Syntax | Rules & Behavior |
-| :— | :— | :— |
-| **Bold** | `*text*` | No spaces between the asterisks and the text; avoid touching punctuation directly against the outer asterisks. |
-| **Italics** | `_text_` | Wrap words or phrases in single underscores. |
-| **Strikethrough** | `-text-` | Wrap words or phrases in single hyphens. |
-| **Bullet Lists** | `* Item`, `- Item`, or `+ Item` | Must be placed at the very start of a new line, immediately followed by a single space. |
-| **Video Chapters** | `0:00 Chapter Title` | Must start with `0:00`, include at least **3 timestamps** in ascending order, and each chapter must be at least **10 seconds** long. |
-| **Mentions** | `@ChannelHandle` | Creates a clickable badge linking directly to that creator's channel. |
-| **Hashtags** | `#Topic` | No spaces allowed; spaces break the tag. |
-| **Corrections** | `Correction:` + timestamp | Adding `Correction:` on a line with a timestamp (e.g., `Correction: 1:45 - Fixed the audio`) triggers an interactive "View corrections" info card on the video player. |
+| Feature            | Syntax                          | Rules & Behavior                                                                                                                                                       |
+| :----------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bold**           | `*text*`                        | No spaces between the asterisks and the text; avoid touching punctuation directly against the outer asterisks.                                                         |
+| **Italics**        | `_text_`                        | Wrap words or phrases in single underscores.                                                                                                                           |
+| **Strikethrough**  | `-text-`                        | Wrap words or phrases in single hyphens.                                                                                                                               |
+| **Bullet Lists**   | `* Item`, `- Item`, or `+ Item` | Must be placed at the very start of a new line, immediately followed by a single space.                                                                                |
+| **Video Chapters** | `0:00 Chapter Title`            | Must start with `0:00`, include at least **3 timestamps** in ascending order, and each chapter must be at least **10 seconds** long.                                   |
+| **Mentions**       | `@ChannelHandle`                | Creates a clickable badge linking directly to that creator's channel.                                                                                                  |
+| **Hashtags**       | `#Topic`                        | No spaces allowed; spaces break the tag.                                                                                                                               |
+| **Corrections**    | `Correction:` + timestamp       | Adding `Correction:` on a line with a timestamp (e.g., `Correction: 1:45 - Fixed the audio`) triggers an interactive "View corrections" info card on the video player. |
 
 > **Tip:** On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.

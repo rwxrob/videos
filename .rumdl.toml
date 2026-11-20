@@ -6,14 +6,14 @@
 # Global configuration options
 [global]
 # List of rules to disable (uncomment and modify as needed)
-disable = ["MD013"]
+# disable = ["MD013"]
 
 # List of rules to enable exclusively (replaces defaults; only these rules will run)
 # enable = ["MD001", "MD003", "MD004"]
 
 # Additional rules to enable on top of defaults (additive, does not replace)
 # Use this to activate opt-in rules like MD060, MD063, MD072, MD073, MD074
-# extend-enable = ["MD060", "MD063"]
+extend-enable = ["MD060", "MD063"]
 
 # Additional rules to disable on top of the disable list (additive)
 # extend-disable = ["MD041"]
@@ -59,8 +59,8 @@ flavor = "gfm"
 # [MD007]
 # indent = 4  # Unordered list indentation
 
-#[MD013]
-# line-length = 100  # Line length
+[MD013]
+line-length = 1000  # Line length
 #code-blocks = false  # Exclude code blocks from line length check
 # tables = false  # Exclude tables from line length check
 # headings = true  # Include headings in line length check
@@ -68,3 +68,6 @@ flavor = "gfm"
 # [MD044]
 # names = ["rumdl", "Markdown", "GitHub"]  # Proper names that should be capitalized correctly
 # code-blocks = false  # Check code blocks for proper names (default: false, skips code blocks)
+
+[MD060]
+style = "aligned"
