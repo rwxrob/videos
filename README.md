@@ -43,13 +43,13 @@ For those interested in knowing how I produce videos so that they can be consume
 1. Upload to YouTube using web interface
 1. Add a simple title and description with three main hashtags
 1. Copy the UID of video
-1. Create a new YFM file under [data](data) named for UID of video
+1. Create a new empty YFM (`.md`) file under [data](data) named for UID of video
 1. Wait for upload to complete
-1. Task AI to transcribe video locally and create YFM description
+1. Task AI to transcribe video locally and fill the YFM file
 1. Update YouTube description to match
 
 ### Future plans
 
-- Have AI pull down and create the data for all existing videos
-- Create an MCP that's based on the data and transcriptions from all published videos
-- Command-line tool and web frontend that fronts the MCP for queries against video data.
+* Have AI pull down and create the data for all existing videos
+* Create an MCP that's based on the data and transcriptions from all published videos
+* Command-line tool and web frontend that fronts the MCP for queries against video data.
