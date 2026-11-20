@@ -22,7 +22,7 @@ YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes vi
 YouTube uses simple inline syntax to trigger rich features in descriptions:
 
 | Feature            | Syntax                          | Rules & Behavior                                                                                                                                                       |
-| :—————-- | :—————————— | :——————————————————————————————————————————————————————— |
+| :----------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Bold**           | `*text*`                        | No spaces between the asterisks and the text; avoid touching punctuation directly against the outer asterisks.                                                         |
 | **Italics**        | `_text_`                        | Wrap words or phrases in single underscores.                                                                                                                           |
 | **Strikethrough**  | `-text-`                        | Wrap words or phrases in single hyphens.                                                                                                                               |
