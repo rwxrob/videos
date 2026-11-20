@@ -2,13 +2,13 @@
 
 Searchable flat-text (YFM) database of all rwxrob videos.
 
-## Sample Video Metadata Markdown File
+## Sample video metadata markdown file
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
 YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes via the API) and prohibit angle brackets (`<` and `>`), while supporting lightweight Markdown-like syntax for text styling, lists, timestamps, and links.
 
-### Core Limitations
+### Core limitations
 
 * **Total Length:** Videos and playlists allow up to **5,000 characters** (roughly 800 words), whereas channel "About" descriptions are capped at **1,000 characters**. The YouTube Data API enforces this strictly as **5,000 bytes**—meaning emojis and non-Latin characters (2–4 bytes each) consume your limit faster.
 * **Visible Preview Cutoff:** Only the first **125 to 157 characters** (about 2–3 lines) appear before viewers must click "...more" to expand the text.
@@ -17,7 +17,7 @@ YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes vi
 * **Clickable Links:** External links only become clickable once your channel unlocks YouTube Advanced Features (via video verification, valid ID, or channel history) and must include `http://` or `https://`.
 * **Policy Restrictions:** Tag stuffing (listing blocks of unformatted keywords), doxing, excessive profanity, and links to spam or prohibited sites violate YouTube's metadata policies.
 
-### Special Syntax & Formatting
+#### Special syntax & formatting
 
 YouTube uses simple inline syntax to trigger rich features in descriptions:
 
@@ -34,3 +34,22 @@ YouTube uses simple inline syntax to trigger rich features in descriptions:
 
 > [!TIP]
 > On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.
+
+### Video production workflow
+
+For those interested in knowing how I produce videos so that they can be consumed quickly while still being developed quickly without any editing at all, read this section.
+
+1. Record a video with OBS (usually while live streaming)
+1. Upload to YouTube using web interface
+1. Add a simple title and description with three main hashtags
+1. Copy the UID of video
+1. Create a new YFM file under [data](data) named for UID of video
+1. Wait for upload to complete
+1. Task AI to transcribe video locally and create YFM description
+1. Update YouTube description to match
+
+### Future plans
+
+- Have AI pull down and create the data for all existing videos
+- Create an MCP that's based on the data and transcriptions from all published videos
+- Command-line tool and web frontend that fronts the MCP for queries against video data.
