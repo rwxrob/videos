@@ -8,7 +8,7 @@ The text files that contain information about a video are designed to be cut and
 
 YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes via the API) and prohibit angle brackets (`<` and `>`), while supporting lightweight Markdown-like syntax for text styling, lists, timestamps, and links.
 
-## Core Limitations
+### Core Limitations
 
 * **Total Length:** Videos and playlists allow up to **5,000 characters** (roughly 800 words), whereas channel "About" descriptions are capped at **1,000 characters**. The YouTube Data API enforces this strictly as **5,000 bytes**—meaning emojis and non-Latin characters (2–4 bytes each) consume your limit faster.
 * **Visible Preview Cutoff:** Only the first **125 to 157 characters** (about 2–3 lines) appear before viewers must click "...more" to expand the text.
@@ -17,12 +17,12 @@ YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes vi
 * **Clickable Links:** External links only become clickable once your channel unlocks YouTube Advanced Features (via video verification, valid ID, or channel history) and must include `http://` or `https://`.
 * **Policy Restrictions:** Tag stuffing (listing blocks of unformatted keywords), doxing, excessive profanity, and links to spam or prohibited sites violate YouTube's metadata policies.
 
-## Special Syntax & Formatting
+### Special Syntax & Formatting
 
 YouTube uses simple inline syntax to trigger rich features in descriptions:
 
 | Feature            | Syntax                          | Rules & Behavior                                                                                                                                                       |
-| :----------------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :—————-- | :—————————— | :——————————————————————————————————————————————————————— |
 | **Bold**           | `*text*`                        | No spaces between the asterisks and the text; avoid touching punctuation directly against the outer asterisks.                                                         |
 | **Italics**        | `_text_`                        | Wrap words or phrases in single underscores.                                                                                                                           |
 | **Strikethrough**  | `-text-`                        | Wrap words or phrases in single hyphens.                                                                                                                               |
@@ -32,4 +32,4 @@ YouTube uses simple inline syntax to trigger rich features in descriptions:
 | **Hashtags**       | `#Topic`                        | No spaces allowed; spaces break the tag.                                                                                                                               |
 | **Corrections**    | `Correction:` + timestamp       | Adding `Correction:` on a line with a timestamp (e.g., `Correction: 1:45 - Fixed the audio`) triggers an interactive "View corrections" info card on the video player. |
 
-> **Tip:** On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.
+> [!TIP] On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.
