@@ -32,4 +32,5 @@ YouTube uses simple inline syntax to trigger rich features in descriptions:
 | **Hashtags**       | `#Topic`                        | No spaces allowed; spaces break the tag.                                                                                                                               |
 | **Corrections**    | `Correction:` + timestamp       | Adding `Correction:` on a line with a timestamp (e.g., `Correction: 1:45 - Fixed the audio`) triggers an interactive "View corrections" info card on the video player. |
 
-> [!TIP] On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.
+> [!TIP]
+> On desktop in YouTube Studio, you can also highlight text and use the formatting toolbar at the bottom of the description box to apply bold, italics, and strikethrough without typing symbols manually.
