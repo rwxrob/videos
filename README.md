@@ -75,6 +75,8 @@ Everything runs locally; no accounts or API keys are needed.
 
 ### Future plans
 
-* Have AI pull down and create the data for all existing videos
+* Have AI backfill the data files for all existing videos: titles and descriptions come from the YouTube pages, but transcripts need the audio, so either the original recordings or a downloader such as `yt-dlp`
+* Write an ALE linter for the YouTube-flavored Markdown in descriptions and data files (see the [limitations](#core-limitations) above)
+* Try a larger Whisper model for better accuracy on technical terms
 * Create an MCP that's based on the data and transcriptions from all published videos
 * Command-line tool and web frontend that fronts the MCP for queries against video data.
