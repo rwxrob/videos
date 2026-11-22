@@ -4,7 +4,7 @@
 
 - Create `data/<UID>.md`, where `<UID>` is the YouTube video ID.
 - Start the file with the video title as a `#` heading.
-- Follow it with the YouTube description, then the hashtags on their own line, then a `## Transcription` heading with the transcript as a single paragraph.
+- Follow it with the YouTube description, then the hashtags on their own line, then a `## Transcription` heading with the timestamped transcript, one segment per line as `[HH:MM:SS] text`. Always keep timestamps so chapter headings can be created from them.
 - Wrap the hashtag line in backticks so Markdown doesn't treat `#` as a heading.
 - Blank line between each section. Example (transcript shortened):
 
@@ -17,7 +17,8 @@
 
   ## Transcription
 
-  Okay, linters and fixers. These are things that I did not really understand...
+  [00:00:00] Okay, linters and fixers.
+  [00:00:03] These are things that I did not really understand...
   ```
 - Get the title and description from the YouTube page. No `yt-dlp` is needed.
 - Always assume the latest file in `~/Movies` (by modification time) is the video to transcribe. Do not ask for confirmation.
@@ -26,5 +27,7 @@
 
   ```sh
   ffmpeg -i "$HOME/Movies/<file>.mov" -ar 16000 -ac 1 -c:a pcm_s16le audio.wav
-  whisper-cli -m ~/whisper-work/models/ggml-base.en.bin -f audio.wav -nt -otxt -of transcript
+  whisper-cli -m ~/whisper-work/models/ggml-base.en.bin -f audio.wav -osrt -of transcript
   ```
+
+  Do not pass `-nt`. Convert the `.srt` into `[HH:MM:SS] text` lines for the markdown file, and also save the `.srt` as `data/<UID>.srt`.
