@@ -48,6 +48,17 @@ For those interested in knowing how I produce videos so that they can be consume
 1. Task AI to transcribe video locally and fill the YFM file
 1. Update YouTube description to match
 
+### Dependencies
+
+Everything runs locally; no accounts or API keys are needed.
+
+* **[OBS](https://obsproject.com)** records the video (usually while live streaming).
+* **[Homebrew](https://brew.sh)** installs the tools below on macOS.
+* **[ffmpeg](https://ffmpeg.org)** extracts 16 kHz mono WAV audio from the video file (`brew install ffmpeg`).
+* **[whisper-cpp](https://github.com/ggml-org/whisper.cpp)** provides `whisper-cli`, which transcribes the audio locally (`brew install whisper-cpp`).
+* **[ggml-base.en model](https://huggingface.co/ggerganov/whisper.cpp)** is the Whisper model `whisper-cli` loads (about 141 MB). Larger models are more accurate with technical terms.
+* **An AI coding agent** fetches the title and description from the YouTube page and fills the YFM file (see [AGENTS.md](AGENTS.md)).
+
 ### Future plans
 
 * Have AI pull down and create the data for all existing videos
