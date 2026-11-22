@@ -6,6 +6,20 @@ Searchable flat-text (YFM) database of all rwxrob videos.
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
+Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the transcript as a single paragraph under a `## Transcription` heading.
+
+```markdown
+# Use explicit ALE linters and fixers
+
+These days ALE linters and fixers are the way to keep your code clean...
+
+`#vim #tips #editors`
+
+## Transcription
+
+Okay, linters and fixers. These are things that I did not really understand...
+```
+
 YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes via the API) and prohibit angle brackets (`<` and `>`), while supporting lightweight Markdown-like syntax for text styling, lists, timestamps, and links.
 
 ### Core limitations
@@ -45,7 +59,7 @@ For those interested in knowing how I produce videos so that they can be consume
 1. Copy the UID of video
 1. Create a new empty YFM (`.md`) file under [data](data) named for UID of video
 1. Wait for upload to complete
-1. Task AI to transcribe video locally and fill the YFM file
+1. Task AI to fill the YFM file: it pulls the title and description from the YouTube page and transcribes the latest video in `~/Movies` locally (see [AGENTS.md](AGENTS.md))
 1. Update YouTube description to match
 
 ### Dependencies
