@@ -6,7 +6,7 @@ Searchable flat-text (YFM) database of all rwxrob videos.
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
-Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the transcript as a single paragraph under a `## Transcription` heading.
+Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the timestamped transcript, one `[HH:MM:SS] text` line per segment, under a `## Transcription` heading. The timestamps make it possible to generate chapter headings. The raw captions are also saved alongside as `data/<UID>.srt`.
 
 ```markdown
 # Use explicit ALE linters and fixers
@@ -17,7 +17,8 @@ These days ALE linters and fixers are the way to keep your code clean...
 
 ## Transcription
 
-Okay, linters and fixers. These are things that I did not really understand...
+[00:00:00] Okay, linters and fixers.
+[00:00:03] These are things that I did not really understand...
 ```
 
 YouTube video descriptions are capped at **5,000 characters** (or 5,000 bytes via the API) and prohibit angle brackets (`<` and `>`), while supporting lightweight Markdown-like syntax for text styling, lists, timestamps, and links.
@@ -60,11 +61,52 @@ For those interested in knowing how I produce videos so that they can be consume
 1. Create a new empty YFM (`.md`) file under [data](data) named for UID of video
 1. Wait for upload to complete
 1. Task AI to fill the YFM file: it pulls the title and description from the YouTube page and transcribes the latest video in `~/Movies` locally (see [AGENTS.md](AGENTS.md))
-1. Update YouTube description to match
+1. Have AI add a summary and chapters (from the timestamps) to the description in the YFM file
+1. Update the YouTube description to match, either by pasting it in or with `bin/yt-update <UID>` (see [Updating YouTube from the command line](#updating-youtube-from-the-command-line))
+
+### Updating YouTube from the command line
+
+`bin/yt-update <UID>` pushes the title and description (including chapters and hashtags) from `data/<UID>.md` to YouTube using the YouTube Data API. It is optional; everything else here works without it. It needs `bash`, `curl`, and [`jq`](https://jqlang.org) (`brew install jq`).
+
+One-time setup, because changing a video requires OAuth as the channel owner (an API key is not enough):
+
+1. In the [Google Cloud console](https://console.cloud.google.com) create a project.
+1. Go to **APIs & Services → Library** and enable **YouTube Data API v3**.
+1. Go to **APIs & Services → OAuth consent screen** (Google Auth Platform), choose **External**, and fill in the required fields. Add your own Google account as a test user.
+1. **Publish the app** (set publishing status to "In production"). Left in "Testing", refresh tokens expire after 7 days. Google will warn that the app is unverified when you sign in; that is fine for your own use.
+1. Go to **Credentials → Create credentials → OAuth client ID**, choose **Web application**, and add `https://developers.google.com/oauthplayground` as an authorized redirect URI. Copy the client ID and client secret.
+1. Open the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground), click the gear icon, check **Use your own OAuth credentials**, and paste in the client ID and secret.
+1. In step 1 of the Playground enter the scope `https://www.googleapis.com/auth/youtube`, click **Authorize APIs**, and sign in as the account (or brand account) that owns the channel.
+1. In step 2 click **Exchange authorization code for tokens** and copy the **refresh token**.
+1. Save the credentials outside the repo and lock them down:
+
+   ```sh
+   mkdir -p ~/.config/videos && chmod 700 ~/.config/videos
+   cat > ~/.config/videos/yt-token.json <<'EOF'
+   {
+     "client_id": "…",
+     "client_secret": "…",
+     "refresh_token": "…"
+   }
+   EOF
+   chmod 600 ~/.config/videos/yt-token.json
+   ```
+
+   Set `YT_TOKEN_FILE` to use a different path.
+
+Usage:
+
+```sh
+bin/yt-update -n <UID>   # dry run: only show the parsed title and description
+bin/yt-update <UID>      # show current vs. new description, confirm, then update
+bin/yt-update -y <UID>   # skip the confirmation prompt
+```
+
+The script fetches the video's current metadata first and sends it back with only the title and description changed, so category and tags are preserved. Each update costs about 50 of the 10,000 daily API quota units. Never commit the credentials file.
 
 ### Dependencies
 
-Everything runs locally; no accounts or API keys are needed.
+Transcription runs entirely locally; no accounts or API keys are needed. Only `bin/yt-update` talks to YouTube.
 
 * **[OBS](https://obsproject.com)** records the video (usually while live streaming).
 * **[Homebrew](https://brew.sh)** installs the tools below on macOS.

@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+# yt-update: push title and description from data/<UID>.md to YouTube.
+#
+# Usage: yt-update [-n] [-y] <UID>
+#   -n  dry run: only parse the markdown and print the title/description
+#   -y  skip the confirmation prompt
+#
+# Credentials: JSON file (default ~/.config/videos/yt-token.json, override with
+# YT_TOKEN_FILE) holding client_id, client_secret and refresh_token.
+# Keep it outside the repo.
+
+set -euo pipefail
+
+dry=no yes=no
+while getopts ny opt; do
+  case $opt in
+    n) dry=yes ;;
+    y) yes=yes ;;
+    *) echo "usage: yt-update [-n] [-y] <UID>" >&2; exit 2 ;;
+  esac
+done
+shift $((OPTIND - 1))
+uid=${1:?usage: yt-update [-n] [-y] <UID>}
+
+root=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+md=$root/data/$uid.md
+[[ -f $md ]] || { echo "no such file: $md" >&2; exit 1; }
+
+# Title is the first "# " heading.
+title=$(sed -n '1s/^# //p' "$md")
+[[ -n $title ]] || { echo "no # title on line 1 of $md" >&2; exit 1; }
+
+# Description is everything between the title and "## Transcription", with
+# the backticks around the hashtag line removed and blank edges trimmed.
+desc=$(awk '
+  NR == 1 { next }
+  /^## Transcription/ { exit }
+  { print }
+' "$md" | sed -E 's/^`(#.*)`$/\1/' | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d')
+
+if [[ $dry == yes ]]; then
+  printf 'TITLE: %s\n\nDESCRIPTION:\n%s\n' "$title" "$desc"
+  exit 0
+fi
+
+command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
+
+tokfile=${YT_TOKEN_FILE:-$HOME/.config/videos/yt-token.json}
+[[ -f $tokfile ]] || { echo "missing credentials file: $tokfile" >&2; exit 1; }
+
+# Exchange the refresh token for a short-lived access token.
+access=$(curl -fsS https://oauth2.googleapis.com/token \
+  --data-urlencode "client_id=$(jq -r .client_id "$tokfile")" \
+  --data-urlencode "client_secret=$(jq -r .client_secret "$tokfile")" \
+  --data-urlencode "refresh_token=$(jq -r .refresh_token "$tokfile")" \
+  --data-urlencode "grant_type=refresh_token" | jq -r .access_token)
+[[ -n $access && $access != null ]] || { echo "could not get access token" >&2; exit 1; }
+
+api=https://www.googleapis.com/youtube/v3/videos
+
+# Fetch the current snippet. videos.update replaces the whole snippet, so we
+# must send back everything (title, categoryId, ...) with only ours changed.
+cur=$(curl -fsS -H "Authorization: Bearer $access" "$api?part=snippet&id=$uid")
+[[ $(jq '.items | length' <<<"$cur") -eq 1 ]] || { echo "video $uid not found on your channel" >&2; exit 1; }
+
+body=$(jq --arg id "$uid" --arg t "$title" --arg d "$desc" '
+  .items[0] | {id: $id, snippet: (.snippet | .title = $t | .description = $d
+    | {title, description, categoryId, tags, defaultLanguage})
+    | with_entries(select(.value != null))}' <<<"$cur")
+
+echo "--- current description"
+jq -r '.items[0].snippet.description' <<<"$cur"
+echo "--- new title:  $title"
+echo "--- new description"
+printf '%s\n' "$desc"
+echo "---"
+
+if [[ $yes != yes ]]; then
+  read -r -p "Update $uid on YouTube? [y/N] " ans
+  [[ $ans == y || $ans == Y ]] || { echo "aborted"; exit 1; }
+fi
+
+curl -fsS -X PUT -H "Authorization: Bearer $access" -H 'Content-Type: application/json' \
+  -d "$body" "$api?part=snippet" | jq '{id, title: .snippet.title, updated: true}'
