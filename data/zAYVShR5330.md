@@ -1,8 +1,23 @@
 # Use explicit ALE linters and fixers
 
+Explains what linters and fixers are in Vim and Neovim and how the ALE plugin runs them, including fix on save. Covers why the author is dropping the old fallback Go formatting code from their vimrc, and shows how to use ALEInfo to see which linters are being picked up automatically. Recommends explicitly listing linters and fixers such as shellcheck and shfmt in your vimrc.
+
 These days ALE linters and fixers are the way to keep your code clean and readable and free of bugs when and if you actually have to edit it by hand (and not by agent).
 
-`#vim #tips #editors`
+Chapters:
+0:00 Intro to linters and fixers
+0:34 How editing has changed with agents
+1:29 Why a portable vimrc mattered
+2:50 What linters and fixers do
+4:18 Removing the old Go formatting fallback
+6:06 Finding linter sources with ALEInfo
+7:30 Why to list linters explicitly
+
+`#vim #ale #linters #neovim #shellcheck #bash #vimrc #terminal #tips #editors`
+
+## Category
+
+Education
 
 ## Transcription
 
