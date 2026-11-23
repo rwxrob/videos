@@ -1,6 +1,44 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 4
 
-`#techjobs #beginners #livestream`
+A beginner-focused session on the terminal and Unix/Linux file system, covering shell prompts, root versus regular users, running containers with Podman, and using AI tools like ChatGPT and Claude for learning and coding. It then explains inodes, hard and symbolic links, permissions, and basic commands such as ls, cd, mv, rm and ln.
+
+Chapters:
+0:00 Intro and playlist housekeeping
+3:02 Using AI to learn tech
+9:04 Choosing a terminal to use
+12:01 Shell prompts and a shutdown mishap
+18:05 Root user and sudo
+21:03 Containers and ephemeral systems
+27:00 Essential commands and multicall binaries
+33:01 Hard links and the bonsai project
+39:01 Bash versus zsh default shells
+42:03 Voice and agentic AI in terminal
+50:00 Coding with Claude in 2026
+1:00:00 Terminal history and teletypes
+1:06:00 Command line and REPL explained
+1:09:02 Files, directories and the file system
+1:15:21 Everything is an inode
+1:23:00 Proc, dev and virtual file systems
+1:27:02 Disk usage and inode tables
+1:36:00 Man pages versus asking AI
+1:45:01 Listing files and the working directory
+1:48:01 Long listings and inode details
+1:54:03 Removing files safely
+1:57:04 Why not to rm directories
+2:03:02 Permissions and rwx bits
+2:09:01 Numeric permissions explained
+2:12:05 Moving and renaming with mv
+2:18:01 Moving files between directories
+2:21:08 Creating links with ln
+2:24:01 Hard link counts and deleting
+2:30:00 Symbolic links and relative paths
+2:39:00 Home directory dotfiles and linking
+
+`#linux #terminal #beginners #unix #bash #techcareer #filesystem #devcareer #techjobs #livestream`
+
+## Category
+
+Education
 
 ## Transcription
 
