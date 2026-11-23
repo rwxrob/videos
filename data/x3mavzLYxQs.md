@@ -1,19 +1,20 @@
 # 🤷🏻‍♂️ "How are BSD UNIX and Linux different?"
 
-Rob explains how FreeBSD and Linux differ: they are independent Unix-like systems with different histories, libraries, and communities. He covers where BSD is used (routers, embedded and security-focused systems, and as the basis of Apple's Darwin), why Linux containers (LXC, Docker, Kubernetes) are the biggest practical distinction, and why beginners don't need to study BSD first.
+Compares BSD and Linux as separate Unix-like operating systems that evolved independently, covering where BSD is used, its resistance to change, and its role as the basis of macOS Darwin. Highlights Linux containers (LXC) as the major practical difference, and advises beginners that learning Linux and POSIX commands transfers to BSD and other Unixes.
 
 Chapters:
 0:00 BSD and Linux are not the same
 1:58 Where BSD is used and its culture
-3:28 BSD, Darwin, and macOS
-6:25 Separate origins of BSD and Linux
-8:57 Linux containers (LXC) as the key difference
-11:40 Embedded hardware vs. Linux adoption
+3:30 BSD as the basis of macOS Darwin
+6:25 Independent origins of BSD and Linux
+9:05 LXC, Docker and containers on Linux
+10:40 BSD jails and the micro VM shift
+11:40 Where each system is used today
 12:45 Should beginners learn BSD?
-13:35 Other Unixes and the vi story
-14:45 Unix skills transfer; first Linux memories
+13:35 Other Unixes and the vi surprise
+15:25 Learning Unix and Linux transfers
 
-`#linux #bsd #unix #freebsd #containers #terminal #beginners #techjobs #education #learning`
+`#bsd #linux #unix #freebsd #containers #lxc #macos #posix #beginners #techjobs #education #learning`
 
 ## Category
 
