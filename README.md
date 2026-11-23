@@ -109,6 +109,10 @@ Transcription runs entirely locally; no accounts or API keys are needed. Only `b
 * **[ggml-base.en model](https://huggingface.co/ggerganov/whisper.cpp)** is the Whisper model `whisper-cli` loads (about 141 MB). Larger models are more accurate with technical terms.
 * **An AI coding agent** fetches the title and description from the YouTube page and fills the YFM file (see [AGENTS.md](AGENTS.md)).
 
+### Support
+
+If you find this useful, I'd rather you [sponsor me on GitHub](https://github.com/sponsors/rwxrob) than any other way, because GitHub doesn't take a cut of sponsorships. More ways to support are at [linktr.ee/rwxrob](https://linktr.ee/rwxrob).
+
 ### Future plans
 
 * Have AI backfill the data files for all existing videos: titles and descriptions come from the YouTube pages, but transcripts need the audio, so either the original recordings or a downloader such as `yt-dlp`
