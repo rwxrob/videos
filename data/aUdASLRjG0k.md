@@ -1,8 +1,14 @@
 # 💢 YouTube should fire whoever made their LiveStreaming chat API
 
+A short rant about the YouTube Live Streaming chat API, which requires HTTP polling and a daily quota of about 10,000 units that gets used up within a couple of hours when reading every chat message. The speaker contrasts it with Twitch's approach and asks YouTube to offer an event-based WebSocket client with no quota for real-time chat.
+
 The live streaming YouTube chat API requires polling of HTTP and easily exhausts all of the tokens they'll give you for the quota within 2 hours just to read messages so that you see them ever 5 seconds. It's total crap! Don't even bother. It's amazing how stupid the engineers were who made this decision, like they never even watched a Twitch stream before making it.
 
-`#youtube #fails #livestreaming`
+`#youtube #livestreaming #api #twitch #websocket #rant #webdev #fails`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
