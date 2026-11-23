@@ -1,6 +1,6 @@
 # 🤖 Your agentic AI template is the new dotfiles
 
-Rob explains why every developer should keep an agentic AI template repo containing an AGENTS.md with their coding preferences, writing style, and conventions, and reuse it across new projects. He shows how it saves setup time, signals skilled AI use on a GitHub profile, and can be synced into existing repos by an agent. He also recommends running terminal-based agents inside tmux and previews a future tmux video.
+Explains why keeping a reusable agentic AI template repo, built around a shared AGENTS.md of personal conventions and preferences, saves setup time across projects and signals skilled AI use much as dotfiles once did. Covers using it as a GitHub template, having an agent sync it into existing repos, keeping AGENTS.md separate from the README, and running multiple terminal agents in tmux.
 
 A decade ago, the first thing a serious developer did when setting up a
 new machine was clone their dotfiles repo. Their shell config, their
@@ -89,14 +89,14 @@ the most. They will be the ones who built the best relationship with it
 that relationship lives.
 
 Chapters:
-0:00 Why I need an agentic template
-1:00 Building a GitHub template with AGENTS.md
-1:58 What your template says about you
-2:55 Syncing AGENTS.md into existing repos
-3:52 Running agents in tmux
-4:40 Get started and use AI everywhere
+0:00 Why an agentic template matters
+0:58 Building the template and AGENTS.md
+1:58 What the template says about you
+2:52 Syncing AGENTS.md into existing repos
+3:52 Running terminal agents in tmux
+4:43 Next steps and using AI everywhere
 
-`#agenticai #agentsmd #ai #dotfiles #tmux #github #claudecode #developer #terminal #devtools #career #techjobs #buildinpublic #softwaredevelopment #coding`
+`#agenticai #agentsmd #dotfiles #aicoding #tmux #github #claudecode #developers #terminal #ai #devtools #career #techjobs #buildinpublic #softwaredevelopment`
 
 ## Category
 
