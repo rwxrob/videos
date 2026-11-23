@@ -238,7 +238,7 @@ cmd_run() {
     rm -rf "$lock"; mkdir "$lock"
   fi
   echo $$ > "$lock/pid"
-  trap 'rm -rf "$lock"' EXIT
+  trap "rm -rf '$lock'" EXIT
   setup_worktree
   local n=0 id
   while IFS= read -r id; do
