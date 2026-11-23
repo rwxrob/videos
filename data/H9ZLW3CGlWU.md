@@ -1,6 +1,6 @@
 # 🤖 You are now a startup
 
-Rob argues that anyone working in tech now needs to operate like a startup founder, directing multiple AI agents instead of doing rote work themselves. He shares his own weekend project, a storage manager app built for about $30 in tokens, and explains why creativity, domain knowledge and problem-solving matter more than punch-clock work. He warns that people who can't work this way are already being let go.
+Argues that anyone working in tech now needs to operate like a startup founder, managing AI agents as a team and focusing on solving real problems. Covers building a personal SaaS app over a weekend for about $30 in tokens, using AI to both do and teach the work, and why founder skills like creativity and domain knowledge matter most. Warns that punch-clock tech jobs are disappearing.
 
 In 2026, you are not just a job seeker. You are a startup.
 
@@ -15,14 +15,14 @@ Build in public. Document what you learned. Show the numbers. Keep shipping.
 You are not waiting for a chance to start. You already started.
 
 Chapters:
-0:00 Introduction: you are a startup
-0:35 Agents as your team
-2:05 My storage manager app built with AI
+0:00 You are now a startup
+0:37 Agents as your team
+2:05 Building a SaaS app for $30
 2:52 Using AI to do and learn
-3:49 Founder skills every technologist needs
-4:45 Layoffs and the startup-only culture
+3:53 Founder skills every technologist needs
+4:44 Who gets let go and who stays
 
-`#ai #startups #aiagents #softwaredevelopment #techcareers #mindset #saas #tech #career #startup #buildinpublic #coding #jobs #techjobs #intrapreneurship`
+`#ai #startup #aiagents #softwaredevelopment #techcareers #saas #buildinpublic #programming #tech #career #coding #jobs #techjobs #intrapreneurship`
 
 ## Category
 
