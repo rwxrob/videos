@@ -74,25 +74,18 @@ One-time setup, because changing a video requires OAuth as the channel owner (an
 1. Go to **APIs & Services → Library** and enable **YouTube Data API v3**.
 1. Go to **APIs & Services → OAuth consent screen** (Google Auth Platform), choose **External**, and fill in the required fields. Add your own Google account as a test user.
 1. **Publish the app** (set publishing status to "In production"). Left in "Testing", refresh tokens expire after 7 days. Google will warn that the app is unverified when you sign in; that is fine for your own use.
-1. Go to **Credentials → Create credentials → OAuth client ID**, choose **Web application**, and add `https://developers.google.com/oauthplayground` as an authorized redirect URI. Copy the client ID and client secret.
-1. Open the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground), click the gear icon, check **Use your own OAuth credentials**, and paste in the client ID and secret.
-1. In step 1 of the Playground enter the scope `https://www.googleapis.com/auth/youtube`, click **Authorize APIs**, and sign in as the account (or brand account) that owns the channel.
-1. In step 2 click **Exchange authorization code for tokens** and copy the **refresh token**.
-1. Save the credentials outside the repo and lock them down:
+1. Go to **Credentials → Create credentials → OAuth client ID**, choose **Desktop app**, and download the JSON. (A **Web application** client also works if you add `http://127.0.0.1:8085` as an authorized redirect URI.)
+1. Save the download outside the repo and lock it down:
 
    ```sh
    mkdir -p ~/.config/videos && chmod 700 ~/.config/videos
-   cat > ~/.config/videos/yt-token.json <<'EOF'
-   {
-     "client_id": "…",
-     "client_secret": "…",
-     "refresh_token": "…"
-   }
-   EOF
-   chmod 600 ~/.config/videos/yt-token.json
+   mv ~/Downloads/client_secret_*.json ~/.config/videos/client_secret.json
+   chmod 600 ~/.config/videos/client_secret.json
    ```
 
-   Set `YT_TOKEN_FILE` to use a different path.
+1. Run `bin/yt-update auth`. It opens your browser, you sign in as the account (or brand account) that owns the channel, and it saves the refresh token to `~/.config/videos/token.json`. You never copy a token by hand.
+
+If the token is ever missing, expired, or revoked, `bin/yt-update` logs in again automatically. Set `YT_CONFIG_DIR` to use a different config directory.
 
 Usage:
 
@@ -100,6 +93,7 @@ Usage:
 bin/yt-update -n <UID>   # dry run: only show the parsed title and description
 bin/yt-update <UID>      # show current vs. new description, confirm, then update
 bin/yt-update -y <UID>   # skip the confirmation prompt
+bin/yt-update auth       # log in again and exit
 ```
 
 The script fetches the video's current metadata first and sends it back with only the title and description changed, so category and tags are preserved. Each update costs about 50 of the 10,000 daily API quota units. Never commit the credentials file.
