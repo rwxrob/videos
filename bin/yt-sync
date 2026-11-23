@@ -10,6 +10,8 @@
 #               (plus data/<UID>.srt) for every file without a transcript
 #   run         list, meta, then transcribe everything (safe to re-run; this is
 #               what the background job runs)
+#   srt2md UID  rebuild the transcript in data/UID.md from data/UID.srt (after you
+#               fix the SRT by hand); the header is kept as is
 #   status      show counts
 #   launchd     print a macOS launchd plist that runs `yt-sync run` hourly
 #   -l N        with transcribe/run: stop after N videos (useful for testing)
@@ -39,11 +41,11 @@ limit=0
 while getopts l: opt; do
   case $opt in
     l) limit=$OPTARG ;;
-    *) echo "usage: yt-sync [-l N] list|meta|transcribe|run|status|launchd" >&2; exit 2 ;;
+    *) echo "usage: yt-sync [-l N] list|meta|transcribe|run|srt2md|status|launchd" >&2; exit 2 ;;
   esac
 done
 shift $((OPTIND - 1))
-cmd=${1:?usage: yt-sync [-l N] list|meta|transcribe|run|status|launchd}
+cmd=${1:?usage: yt-sync [-l N] list|meta|transcribe|run|srt2md|status|launchd}
 
 here=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 root=$(dirname "$here")
@@ -158,12 +160,12 @@ transcribe_one() { # id
   fi
   ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" </dev/null || return 1
   whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
-  [[ -s $work/t.srt ]] || return 1
+  [[ -e $work/t.srt ]] || return 1   # an empty SRT just means no speech was recognized
   # Keep everything through the "## Transcription" heading, replace the rest.
   head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")
-  { printf '%s\n\n' "$head"; srt_to_lines < "$work/t.srt"; } > "$data/$id.md.tmp"
+  { printf '%s\n\n' "$head"; if [[ -s $work/t.srt ]]; then srt_to_lines < "$work/t.srt"; else echo "[00:00:00] (no speech detected)"; fi; } > "$data/$id.md.tmp"
   mv "$data/$id.md.tmp" "$data/$id.md"
-  cp "$work/t.srt" "$data/$id.srt"
+  [[ ! -s $work/t.srt ]] || cp "$work/t.srt" "$data/$id.srt"
 }
 
 cmd_transcribe() {
@@ -229,6 +231,15 @@ cmd_status() {
   echo "failed:            $failed"
 }
 
+cmd_srt2md() {
+  local id=${1:?usage: yt-sync srt2md <UID>} head
+  [[ -f $data/$id.md && -f $data/$id.srt ]] || { echo "need $data/$id.md and $data/$id.srt" >&2; exit 1; }
+  head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")
+  { printf '%s\n\n' "$head"; srt_to_lines < "$data/$id.srt"; } > "$data/$id.md.tmp"
+  mv "$data/$id.md.tmp" "$data/$id.md"
+  log "rebuilt transcript of $id from its SRT ($(grep -c '^\[' "$data/$id.md") lines)"
+}
+
 cmd_launchd() {
   cat <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -263,6 +274,7 @@ case $cmd in
   meta) cmd_meta ;;
   transcribe) cmd_transcribe ;;
   run) cmd_run ;;
+  srt2md) shift; cmd_srt2md "$@" ;;
   status) cmd_status ;;
   launchd) cmd_launchd ;;
   *) echo "unknown command: $cmd" >&2; exit 2 ;;

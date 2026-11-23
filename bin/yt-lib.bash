@@ -73,7 +73,8 @@ ensure_access() {
   [[ -n $access ]] || { echo "could not get access token" >&2; exit 1; }
 }
 
-# selected_ids: IDs we are allowed to process, newest first. Needs $manifest.
+# selected_ids: IDs we are allowed to process, newest first, plus include.txt.
+# Needs $manifest.
 # Only public videos by default (YT_PRIVACY="public,unlisted" to widen; private
 # is never processed); YT_MAX_MINUTES skips longer videos.
 selected_ids() {
@@ -83,8 +84,8 @@ selected_ids() {
     ($p | split(",") | map(select(. != "private"))) as $ok
     | .[] | select(.live == "none" and (.privacy as $x | $ok | index($x))
                    and ($max == 0 or (.duration | secs) <= $max * 60)) | .id' "$manifest" \
-    | keep_filter \
-    | cat - <(include_ids)
+    | cat - <(include_ids) \
+    | awk '!seen[$0]++'
 }
 
 # include_ids: IDs from include.txt (YT_INCLUDE_FILE overrides) that are in the
@@ -97,14 +98,3 @@ include_ids() {
     | .[] | select(.live == "none" and .privacy != "private" and (.id as $i | $want | index($i))) | .id' "$manifest"
 }
 
-# keep_filter: if keep.txt exists (YT_KEEP_FILE overrides), pass through only
-# the IDs listed in it, preserving order. No keep.txt means no filtering.
-_yt_lib_dir=$(dirname "${BASH_SOURCE[0]}")
-keep_filter() {
-  local f=${YT_KEEP_FILE:-$_yt_lib_dir/../keep.txt}
-  if [[ -f $f ]]; then
-    grep -Fxf <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | awk 'NF') || true
-  else
-    cat
-  fi
-}

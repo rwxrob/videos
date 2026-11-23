@@ -31,3 +31,10 @@
   ```
 
   Do not pass `-nt`. Convert the `.srt` into `[HH:MM:SS] text` lines for the markdown file, and also save the `.srt` as `data/<UID>.srt`.
+
+## After a video is processed
+
+- Keep timestamps in the transcript. If the `.srt` is fixed by hand, run `bin/yt-sync srt2md <UID>` to rebuild the markdown transcript from it.
+- Only public videos belong in `data/`. Unlisted ones are processed only if listed in `include.txt`; private ones never.
+- To publish a description, run `bin/yt-update <UID>` (it shows the old and new text and asks first). Descriptions are built from the part of the markdown file before the first `##` heading; `## Category` sets the YouTube category.
+- Background jobs (`yt-sync`, `yt-enrich`) are described in [README.md](README.md). Never run `yt-update` or change privacy for a video without the user's say-so.

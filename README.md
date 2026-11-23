@@ -113,6 +113,7 @@ bin/yt-sync list         # fetch every upload into a manifest (~/.cache/videos/m
 bin/yt-sync meta         # write data/<UID>.md with title, description, hashtags (never overwrites)
 bin/yt-sync transcribe   # yt-dlp + ffmpeg + whisper-cli, adds timestamped transcripts (slow)
 bin/yt-sync run          # list, meta, transcribe; safe to re-run, resumes where it left off
+bin/yt-sync srt2md <UID> # rebuild a data file's transcript from its (hand-fixed) .srt
 bin/yt-sync status       # counts
 bin/yt-sync -l 5 run     # stop after 5 transcriptions (good for a first try)
 bin/yt-sync launchd      # print a macOS launchd plist that runs `run` hourly in the background
@@ -120,7 +121,9 @@ bin/yt-sync launchd      # print a macOS launchd plist that runs `run` hourly in
 
 Things worth knowing:
 
-* **Privacy.** By default only `public` videos are processed, because the data files are meant to be committed. Set `YT_PRIVACY=public,unlisted` to include unlisted ones. Private videos are never processed. Think before publishing text from unlisted videos.
+* **Privacy.** Public means in the database: by default only `public` videos are processed, because the data files are meant to be committed. List an ID in `include.txt` to prepare an unlisted video (for example one you are about to re-publish); `YT_PRIVACY=public,unlisted` includes every unlisted video. Private videos are never processed. Think before publishing text from unlisted videos.
+* **YouTube bot checks.** If YouTube answers `yt-dlp` with "confirm you're not a bot", the run stops and tries again next time (nothing is marked failed). To get past it, export your YouTube cookies (Netscape format) to `~/.config/videos/cookies.txt` with mode 600; they are used automatically. Keep that file out of the repo. Downloads are paced with a short random pause to avoid triggering the check.
+* **No speech.** A clip whisper hears no speech in gets a `(no speech detected)` line instead of being retried forever.
 * **Time.** Transcription is the slow part, roughly 10x real time on Apple Silicon with the `base.en` model. Use `YT_MAX_MINUTES=60` to skip very long videos, or a smaller model via `YT_WHISPER_MODEL`.
 * **Resumable.** A video that already has a timestamped transcript is skipped. A video that fails is recorded in `~/.cache/videos/failed/` and not retried until you delete its marker file.
 * **Overrides.** `YT_CONFIG_DIR`, `YT_CACHE_DIR`, `YT_DATA_DIR`, `YT_WHISPER_MODEL`.
@@ -139,7 +142,7 @@ bin/yt-enrich status      # counts
 bin/yt-enrich launchd     # print a macOS launchd plist that runs `run` hourly
 ```
 
-Results are committed, one commit per video, on the `enrich` branch in a separate worktree (`~/.cache/videos/enrich-worktree`), so your working checkout and the transcription job are never touched. Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log enrich`, merge when happy, then publish a video with `bin/yt-update <UID>`.
+Videos listed in `disclaimers.txt` (opinion or status videos from the past) get "From {YYYY}. I may have changed my mind on some of this." as the first line of the description. Results are committed, one commit per video, on the `enrich` branch in a separate worktree (`~/.cache/videos/enrich-worktree`), so your working checkout and the transcription job are never touched. Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log enrich`, merge when happy, then publish a video with `bin/yt-update <UID>`.
 
 ### Dependencies
 
