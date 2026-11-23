@@ -1,5 +1,7 @@
 # 🤖 You are now a startup
 
+Rob argues that anyone working in tech now needs to operate like a startup founder, directing multiple AI agents instead of doing rote work themselves. He shares his own weekend project, a storage manager app built for about $30 in tokens, and explains why creativity, domain knowledge and problem-solving matter more than punch-clock work. He warns that people who can't work this way are already being let go.
+
 In 2026, you are not just a job seeker. You are a startup.
 
 AI has changed what one person can build, ship, and maintain on their own. The cost of going from idea to working product has never been lower. That means the old excuse — "I need a team, a budget, a job offer first" — no longer holds. You have everything you need to start right now.
@@ -12,7 +14,19 @@ Build in public. Document what you learned. Show the numbers. Keep shipping.
 
 You are not waiting for a chance to start. You already started.
 
-`#tech #career #startup #AI #buildinpublic #coding #softwaredevelopment #jobs #techjobs #intrapreneurship`
+Chapters:
+0:00 Introduction: you are a startup
+0:35 Agents as your team
+2:05 My storage manager app built with AI
+2:52 Using AI to do and learn
+3:49 Founder skills every technologist needs
+4:45 Layoffs and the startup-only culture
+
+`#ai #startups #aiagents #softwaredevelopment #techcareers #mindset #saas #tech #career #startup #buildinpublic #coding #jobs #techjobs #intrapreneurship`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
