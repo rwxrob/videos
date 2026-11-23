@@ -1,0 +1,8 @@
+# disclaimers.txt: videos whose description gets the note
+# "From {YYYY}. I may have changed my mind on some of this."
+# One YouTube video ID per line; anything after # is a comment.
+TWca-7q94SU  # How to Learn Vim Quickly and Correctly
+vbNpbNsrySQ  # I Used VSCode for Two Full Years, Then Ran Back to Vim
+Vdd2MTv6vrs  # Lynx Text Web Browser FTW!
+zH3CH6zXTew  # Do NOT Use Vim Pane Splitting (Use TMUX Instead)
+krXhsb1FSDU  # My Window Manager is TMUX

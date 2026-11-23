@@ -83,7 +83,18 @@ selected_ids() {
     ($p | split(",") | map(select(. != "private"))) as $ok
     | .[] | select(.live == "none" and (.privacy as $x | $ok | index($x))
                    and ($max == 0 or (.duration | secs) <= $max * 60)) | .id' "$manifest" \
-    | keep_filter
+    | keep_filter \
+    | cat - <(include_ids)
+}
+
+# include_ids: IDs from include.txt (YT_INCLUDE_FILE overrides) that are in the
+# manifest, not live and not private, even if they are not public.
+include_ids() {
+  local f=${YT_INCLUDE_FILE:-$_yt_lib_dir/../include.txt}
+  [[ -f $f ]] || return 0
+  jq -r --rawfile ids <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | awk 'NF') '
+    ($ids | split("\n") | map(select(. != ""))) as $want
+    | .[] | select(.live == "none" and .privacy != "private" and (.id as $i | $want | index($i))) | .id' "$manifest"
 }
 
 # keep_filter: if keep.txt exists (YT_KEEP_FILE overrides), pass through only

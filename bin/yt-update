@@ -98,7 +98,7 @@ if [[ $mode == channel ]]; then
   if [[ $dry == yes ]]; then printf 'CHANNEL DESCRIPTION (%d chars):\n%s\n' "${#desc}" "$desc"; exit 0; fi
   (( ${#desc} <= 1000 )) || { echo "channel description is ${#desc} chars; limit is 1000" >&2; exit 1; }
 else
-md=$root/data/$uid.md
+md=${YT_DATA_DIR:-$root/data}/$uid.md
 [[ -f $md ]] || { echo "no such file: $md" >&2; exit 1; }
 
 # Title is the first "# " heading.

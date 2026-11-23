@@ -26,6 +26,8 @@
 #   YT_CACHE_DIR    manifest, failures, lock, logs (default ~/.cache/videos)
 #   YT_DATA_DIR     where the .md/.srt files go (default <repo>/data)
 #   YT_WHISPER_MODEL
+#   YT_COOKIES      optional yt-dlp cookies file (default ~/.config/videos/cookies.txt);
+#                   used when YouTube answers "confirm you're not a bot"
 #   YT_PRIVACY      comma list of privacy states to process (default "public").
 #                   Add "unlisted" only if you are happy to publish those
 #                   videos' text; "private" is never processed.
@@ -49,6 +51,7 @@ data=${YT_DATA_DIR:-$root/data}
 cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
 manifest=$cache/manifest.json
 model=${YT_WHISPER_MODEL:-$HOME/whisper-work/models/ggml-base.en.bin}
+cookiefile=${YT_COOKIES:-$HOME/.config/videos/cookies.txt}  # optional yt-dlp cookies (Netscape format)
 
 # shellcheck source=yt-lib.bash
 source "$here/yt-lib.bash"
@@ -145,7 +148,14 @@ transcribe_one() { # id
   work=$(mktemp -d "${TMPDIR:-/tmp}/yt-sync.XXXXXX")
   # shellcheck disable=SC2064
   trap "rm -rf '$work'" RETURN
-  yt-dlp -q --no-warnings -f bestaudio -o "$work/audio.%(ext)s" "https://www.youtube.com/watch?v=$id" </dev/null || return 1
+  local cookies=()
+  [[ -f $cookiefile ]] && cookies=(--cookies "$cookiefile")
+  if ! yt-dlp -q --no-warnings -f bestaudio "${cookies[@]}" -o "$work/audio.%(ext)s" "https://www.youtube.com/watch?v=$id" </dev/null 2>"$work/ytdlp.err"; then
+    # A bot check or 403 blocks every video, not just this one: it is transient.
+    if grep -Eqi "not a bot|HTTP Error 403|HTTP Error 429|rate.?limit" "$work/ytdlp.err"; then return 75; fi
+    head -c 300 "$work/ytdlp.err" >&2
+    return 1
+  fi
   ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" </dev/null || return 1
   whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
   [[ -s $work/t.srt ]] || return 1
@@ -162,15 +172,21 @@ cmd_transcribe() {
     command -v "$c" >/dev/null || { echo "$c is required" >&2; exit 1; }
   done
   [[ -f $model ]] || { echo "whisper model not found: $model (set YT_WHISPER_MODEL)" >&2; exit 1; }
-  local done_n=0 id
+  local done_n=0 id rc
   while IFS= read -r id; do
     [[ -f $data/$id.md ]] || continue
     has_transcript "$id" && continue
     [[ -f $cache/failed/$id ]] && continue
     log "transcribing $id"
-    if transcribe_one "$id"; then
+    rc=0
+    transcribe_one "$id" || rc=$?
+    if (( rc == 0 )); then
       done_n=$((done_n + 1))
       log "done $id"
+      sleep $((RANDOM % 30 + 15))  # be gentle: bursts trigger YouTube's bot check
+    elif (( rc == 75 )); then
+      log "YouTube is blocking downloads right now; stopping this run (nothing marked failed)"
+      break
     else
       log "FAILED $id (will not retry; delete $cache/failed/$id to retry)"
       date > "$cache/failed/$id"

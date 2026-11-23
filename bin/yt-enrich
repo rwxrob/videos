@@ -28,7 +28,7 @@
 
 set -euo pipefail
 
-PROMPT_VERSION=1
+PROMPT_VERSION=2
 
 limit=${YT_ENRICH_MAX:-10}
 while getopts l: opt; do
@@ -55,6 +55,9 @@ failed=$cache/enrich-failed
 mkdir -p "$marks" "$orig" "$failed"
 
 command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
+
+# is_done <id>: enriched with the current prompt version.
+is_done() { [[ -f $marks/$1 && $(cat "$marks/$1") == "$PROMPT_VERSION" ]]; }
 
 log() { printf '%s %s\n' "$(date '+%F %T')" "$*" >&2; }
 
@@ -101,7 +104,9 @@ $3
 
 Return ONLY a JSON object, no prose and no code fences, with exactly these keys:
 - "summary": 1-3 plain sentences describing what the video covers. No hype,
-  no emojis, no first-person marketing language.
+  no emojis, no marketing language. Write it impersonally and never name or
+  refer to the speaker (no "Rob", "the speaker", "he", "I"): start with a verb
+  or the topic, for example "Explains why...", "Walks through...", "Compares...".
 - "chapters": an array of {"s": <start second, integer>, "title": <string>}.
   Only meaningful if the video is at least 3 minutes long, otherwise return [].
   The first chapter must start at 0. Use at least 3 chapters, each at least
@@ -150,6 +155,12 @@ validate() {
   ' 2>/dev/null
 }
 
+# has_disclaimer <id>: true if the ID is listed in disclaimers.txt.
+has_disclaimer() {
+  local f=${YT_DISCLAIMER_FILE:-$root/disclaimers.txt}
+  [[ -f $f ]] && sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | grep -Fxq -- "$1"
+}
+
 # ------------------------------------------------------------ one video
 enrich_one() { # id
   local id=$1 src=$data/$id.md work hdr title tagsline origbody dur prompt json reply attempt
@@ -173,8 +184,9 @@ enrich_one() { # id
   build_prompt "$id" "$title" "$origbody" "$dur" "$work/transcript.txt" > "$work/prompt.txt"
 
   json=
-  for attempt in 1 2; do
+  for attempt in 1 2 3; do
     reply=$(ask_claude "$work/prompt.txt" 2>"$work/err.txt") || { log "claude failed: $(head -c 300 "$work/err.txt")"; continue; }
+    if [[ -n ${YT_ENRICH_DEBUG:-} ]]; then mkdir -p "$cache/enrich-debug"; printf '%s\n' "$reply" > "$cache/enrich-debug/$id.$attempt.txt"; fi
     json=$(extract_json <<<"$reply" | validate "$dur" || true)
     [[ -n $json ]] && break
     log "attempt $attempt for $id gave invalid output"
@@ -184,6 +196,10 @@ enrich_one() { # id
   # Compose the new header.
   {
     printf '# %s\n\n' "$title"
+    if has_disclaimer "$id"; then
+      printf 'From %s. I may have changed my mind on some of this.\n\n' \
+        "$(jq -r --arg id "$id" '.[] | select(.id == $id) | .publishedAt[:4]' "$manifest")"
+    fi
     jq -r '.summary' <<<"$json"; echo
     if [[ -n $origbody ]]; then printf '%s\n\n' "$origbody"; fi
     if jq -e '.chapters | length > 0' <<<"$json" >/dev/null; then
@@ -201,7 +217,7 @@ enrich_one() { # id
   } > "$work/new.md"
   # Description size limit is 5,000 bytes (header minus title and category).
   local bytes; bytes=$(awk '/^## /{exit} NR>2' "$work/new.md" | wc -c | tr -d ' ')
-  (( bytes <= 4800 )) || { log "description too long ($bytes bytes) for $id"; return 1; }
+  (( bytes <= 4950 )) || { log "description too long ($bytes bytes) for $id"; return 1; }
 
   # Write into the enrich worktree: new header + the transcript as it is in main.
   mkdir -p "$wt/data"
@@ -244,7 +260,7 @@ cmd_run() {
   while IFS= read -r id; do
     (( limit == 0 || n < limit )) || break
     [[ -f $data/$id.md ]] && has_transcript "$id" || continue
-    [[ -f $marks/$id ]] && continue
+    is_done "$id" && continue
     [[ -f $failed/$id ]] && continue
     log "enriching $id"
     if enrich_one "$id" </dev/null; then log "done $id"; else log "FAILED $id (delete $failed/$id to retry)"; date > "$failed/$id"; fi
@@ -263,11 +279,11 @@ cmd_one() {
 
 cmd_status() {
   local done_n fail_n ready=0 id
-  done_n=$(find "$marks" -type f | wc -l | tr -d ' ')
+  done_n=0; for f in "$marks"/*; do [[ -f $f && $(cat "$f") == "$PROMPT_VERSION" ]] && done_n=$((done_n + 1)); done
   fail_n=$(find "$failed" -type f | wc -l | tr -d ' ')
   if [[ -f $manifest ]]; then
     while IFS= read -r id; do
-      [[ -f $data/$id.md ]] && has_transcript "$id" && [[ ! -f $marks/$id ]] && ready=$((ready + 1))
+      [[ -f $data/$id.md ]] && has_transcript "$id" && ! is_done "$id" && ready=$((ready + 1))
     done < <(selected_ids)
   fi
   echo "enriched:          $done_n"

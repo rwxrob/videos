@@ -1,0 +1,13 @@
+# include.txt: videos to process even though they are not public yet (for
+# example unlisted videos being prepared for re-publishing). One YouTube video
+# ID per line; anything after # is a comment. Private videos are never processed.
+QhtF0b4hwms  # Think like a hacker (or die)
+26X2onaKGc0  # Q: What app do you use to take notes?
+krXhsb1FSDU  # My Window Manager is TMUX
+zH3CH6zXTew  # Do NOT Use Vim Pane Splitting (Use TMUX Instead)
+-RqoPoOQd7w  # The (Actual) UNIX Philosophy
+4aZXUCOng4I  # Linux Matrix Terminal Transparency
+x3mavzLYxQs  # How are BSD UNIX and Linux different?
+TWca-7q94SU  # How to Learn Vim Quickly and Correctly
+vbNpbNsrySQ  # I Used VSCode for Two Full Years, Then Ran Back to Vim
+Vdd2MTv6vrs  # Lynx Text Web Browser FTW!
