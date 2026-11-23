@@ -1,5 +1,7 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 6
 
+Rob discusses how agentic AI has changed tech careers and what beginners should learn, then uses an AI agent to evaluate every tool and skill from past Boosts and SKILSTAK for the agentic era. He covers why typing speed and editor tweaking matter less, why git, Markdown, terminal, tmux and containers remain essential, and why learning to use AI as a teacher is the key skill. He also edits the Boost README and articles live, including advice on trusting AI and treating a tech career like medicine.
+
 Today on the Beginner Boost we wrote several new articles and made significant updates to the 2026 curriculum.
 
 🔥 NEW: "Boost tools then and now" — A comprehensive evaluation of every tool and skill taught across previous Boosts and SKILSTAK (since 2013), honestly assessed for the agentic AI era. Covers why tech careers now require medical-school depth, why AI-assisted learning is THE meta-skill, and why you should trust AI exactly as much as a stranger on Stack Exchange. Featured prominently at the top of the Boost README.
@@ -20,7 +22,35 @@ Key takeaways:
 • Typing speed and editor configs = diminishing returns
 • GitLab = missing the integrations that matter
 
-`#techjobs #LearnToCode #AgenticAI #GitHubCopilot #ClaudeCode #SKILSTAK #TechCareer #AIAssistedLearning #Superwhisper #tmux #Git #Markdown #Linux #Containers #Proxmox #Terraform #VoiceInput #CodingForBeginners #TechSkills2026 #rwxrob`
+Chapters:
+0:00 Welcome and Why AI Changed Everything
+3:03 AI Company Economics and Bait and Switch
+6:07 Mythos and Security Risks
+9:05 AI Impact on Jobs Beyond Software
+12:00 Learn Agentic AI Now
+15:03 Adopting AI Versus Dismissing It
+18:04 Integrating AI Into Everything
+21:03 Typing Is Optional and Voice Input
+24:04 Conversational Coding and Bonsai
+27:06 Editor Configuration Rabbit Hole
+30:07 Touch Typing and Voice Workflow
+33:04 AI Evaluates Boost and SKILSTAK Tools
+39:00 Git, GitHub and Worktrees
+45:06 tmux and Reading Code
+54:02 Markdown Style and Agent Rules
+1:00:02 Containers, Root Access and Agents
+1:06:25 Python, Go and Language Choice
+1:12:00 Vim, Pipes and Unix Tools
+1:15:04 Using AI to Teach You
+1:23:21 Tech Careers Like Medicine
+1:27:02 Tell the AI You Are Learning
+1:33:00 Trusting AI and Building Things
+
+`#ai #agenticai #techcareer #beginners #linux #git #tmux #terminal #agentsmd #livestream #techjobs #learntocode #githubcopilot #claudecode #skilstak`
+
+## Category
+
+Education
 
 ## Transcription
 
