@@ -1,6 +1,6 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 7
 
-Day 7 of the Beginner Boost answers chat questions about AI-assisted development, then demonstrates using GitHub Copilot with free models to create issues, generate a learning plan for remote tech careers, and learn Git concepts. Rob also covers choosing a harness, speaking prompts aloud, Copilot billing, and saving notes and plans in GitHub rather than chat sessions.
+Walks through using GitHub Copilot's free models and the GitHub web interface to build a personal learning plan for a remote tech career, including creating an issue, assigning it to an agent, and reviewing the generated research on distributed companies. Covers choosing models and billing, voice-driven prompting, and using an AI harness to explain Git commands, commits, branches, and POSIX shell concepts. Ends with committing notes to a repo, opening pull requests, labeling issues, and the case for using GitHub to save and share work.
 
 Want a high-paying, location-independent tech career? Day 7 of the Beginner Boost shows concrete steps and tools to get there. Watch to learn:
 - Why the Agentic AI Foundation (AAIF) matters: Linux Foundation stewardship, open standards for agentic systems, and how conference presence (AGNTCon, MCPCon) signals modern dev/ops readiness.
@@ -13,31 +13,28 @@ Repo & resources: https://github.com/rwxrob/boost
 Issue / learning plan: https://github.com/rwxrob/boost/issues/83
 
 Chapters:
-0:00 Welcome and Day 7 Intro
-3:09 Responding to AI Skeptics and Critics
-9:03 Why Beginners Still Need This
-15:00 Learning Agentic Tools and Setup
-21:05 Clarifying GitHub Copilot Billing
-24:01 Creating a GitHub Issue for a Plan
-30:02 Thinking, Speaking, and Voice Input
-33:04 Choosing AI Models and Assigning Copilot
-39:03 Sharing Notes and Dotfiles Plans
+0:00 Welcome and Day 7 Kickoff
+3:09 Using AI to Build Real Projects
+9:03 Answering the Vibe Coding Skeptics
+15:00 Learning Agentic Tools and Harnesses
+21:05 Copilot Billing and Model Choices
+24:01 Creating a Learning Plan Issue
+30:02 Skills: Thinking and Voice Input
+33:04 Choosing Models and Assigning to Copilot
+39:03 Notes Repo and Dotfiles Preview
 45:05 Remote Tech Career Research Results
-52:05 Companies for Distributed Work
-1:00:01 Writing Plans with the Harness
-1:03:01 Wrapping the Plan Exercise
-1:09:01 Learning Git with Free Models
-1:15:04 Git Branches, Commits, and Repos
-1:21:02 Saving Notes and Committing Changes
-1:27:02 POSIX and Agentic Engineer Terms
-1:30:05 Committing the Daily Summary
+1:02:05 Reviewing Fully Distributed Companies
+1:03:01 Using the Harness for Planning
+1:09:01 Learning Shell and Free Models
+1:12:05 Asking AI to Explain Git Commands
+1:23:00 Committing and Pushing Notes Safely
+1:27:02 POSIX Explained and Daily Summary
 1:33:02 Agent Instructions Misbehaving
 1:36:02 Opening Issues and Pull Requests
-1:42:02 Reviewing the Generated Document
-1:45:00 Adding Labels and Searching the Repo
+1:45:00 Labeling Issues and Searching the Repo
 1:51:00 Why to Get Good with GitHub
 
-`#beginnerboost #github #githubcopilot #agenticai #git #techcareer #linux #remotework #aitools #digitalnomad #aaif #superwhisper #copilot #ci #voicecoding`
+`#github #githubcopilot #agenticai #git #beginners #techcareer #linux #remotework #ai #beginnerboost #digitalnomad #aaif #superwhisper #copilot #ci`
 
 ## Category
 
