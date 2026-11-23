@@ -191,7 +191,7 @@ cmd_run() {
     rm -rf "$lock"; mkdir "$lock"
   fi
   echo $$ > "$lock/pid"
-  trap 'rm -rf "$lock"' EXIT
+  trap "rm -rf '$lock'" EXIT
   # Listing costs ~100 API quota units, so reuse a manifest under a day old.
   if [[ -z $(find "$manifest" -mmin -1440 2>/dev/null) ]]; then cmd_list; else log "manifest is fresh; skipping list"; fi
   cmd_meta
