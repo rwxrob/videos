@@ -2,7 +2,7 @@
 
 From 2020. I may have changed my mind on some of this.
 
-Shows how to set up and use the Links text-mode web browser for fast searching from the terminal, including vi key bindings, DuckDuckGo search aliases, and opening results in a graphical browser when needed. Walks through the links.cfg and links.lss config files, a bash exported command function that points Links at those files, and why exported functions work better than aliases or Zsh.
+Explains how to set up and use the Links text-mode web browser for fast searching, with vi keybindings and DuckDuckGo search shortcuts. Walks through the links.cfg and links.lss config files, a bash exported command function that points Links at them, and aliases that URL-encode queries for search. Also covers why command functions beat aliases and how to write pages that read well in text browsers.
 
 Lynx is objectively the fastest and safest way to browse and search the web. So why do so few people know about it? Because it's old. But if you are not using it you are wasting time. Learn to blow away the search times of others and why "intellisense" is anything but intelligent when you can find more stuff faster with Lynx. Need graphics? No problem. Just click on the link to bring up your graphic browser once you find the best page. -- Watch live at https://www.twitch.tv/rwxrob
 
@@ -15,23 +15,21 @@ https://gitlab.com/rwxrob/dotfiles
 Chapters:
 0:00 Fast searching with Links demo
 0:39 Why Links beats other text browsers
-1:33 Installing Links and its config quirks
-3:53 Customizing links.cfg and vi keys
-4:40 Opening graphical browser from Links
-5:20 DuckDuckGo versus Google in Links
-6:18 HTTPS support and config details
-7:19 Colors and styles in links.lss
-8:11 Bash command function to launch Links
-11:57 Writing Links-friendly web pages
-13:46 Functions versus aliases and symlinked configs
+1:33 Installing Links and config overview
+3:40 Opening graphical pages from Links
+5:25 DuckDuckGo versus Google, and HTTPS
+7:15 Colors and styles in links.lss
+8:38 Bash command function for Links
+11:56 Text-friendly web page design
+14:35 Command functions versus aliases
 15:25 Search aliases and URL encoding
-17:17 Questions and wrap-up
+17:10 Getting help and wrap-up
 
-`#lynx #links #terminal #linux #bash #vim #textbrowser #commandline #duckduckgo`
+`#links #textbrowser #terminal #bash #linux #vim #duckduckgo #commandline #dotfiles`
 
 ## Category
 
-Education
+Science & Technology
 
 ## Transcription
 
