@@ -1,18 +1,19 @@
 # 🤑 We found GitHub's AI financial backdoor (save $100s while you still can)
 
-Explains how GitHub Copilot's premium request billing works: a long, detailed prompt submitted as an issue counts as a single request multiplied by the model's rate, while each interactive prompt in the harness costs a full premium request. Covers using free or cheaper models for interactive tasks like issue management and documentation, pulling down and testing PRs yourself with a make deploy step, and why systems design and clear specifications matter most when working with agentic AI.
+Explains how GitHub Copilot's premium request billing counts a long, detailed issue prompt as a single request, while every interactive prompt in the harness costs one request times the model multiplier. Covers using free models for routine issue management, pulling down and testing pull requests locally with make deploy, and why precise systems-design thinking saves money.
 
 Here's why M$ is rushing as fast as possible to get on a "tokens" based financial model. Here's how to game the system while you still can.
 
 Chapters:
 0:00 The Copilot premium request loophole
-1:33 How I discovered the cost difference
-3:54 Gaming the system with long prompts
-4:57 Testing PRs yourself without AI costs
-5:45 Why systems design matters most
-6:40 Free models and the Opus warning
+1:00 Interactive prompts burn premium requests
+2:54 Free models versus Haiku and Opus
+3:54 Gaming it with long detailed issues
+4:40 Testing PRs locally and from a phone
+5:37 Systems design as the key skill
+6:42 Why interactive Opus is wrong
 
-`#githubcopilot #agenticai #claude #ai #github #softwaredevelopment #systemsdesign #programming #copilot #money`
+`#githubcopilot #agenticai #ai #claudeopus #softwaredevelopment #systemsdesign #promptengineering #beginners #github #copilot #money`
 
 ## Category
 
