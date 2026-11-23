@@ -99,6 +99,30 @@ bin/yt-update auth       # log in again and exit
 
 The script fetches the video's current metadata first and sends it back with only the title and description changed, so category and tags are preserved. Each update costs about 50 of the 10,000 daily API quota units. Never commit the credentials file.
 
+### Backfilling a whole channel (`bin/yt-sync`)
+
+`bin/yt-sync` builds `data/<UID>.md` (and `data/<UID>.srt`) for every video already on your channel. It only reads from YouTube; it never changes anything there (use `yt-update` for that). Anyone can use it for their own channel: do the one-time [OAuth setup](#updating-youtube-from-the-command-line) above, install the dependencies below, and run it from a clone of this repo.
+
+```sh
+bin/yt-sync list         # fetch every upload into a manifest (~/.cache/videos/manifest.json)
+bin/yt-sync meta         # write data/<UID>.md with title, description, hashtags (never overwrites)
+bin/yt-sync transcribe   # yt-dlp + ffmpeg + whisper-cli, adds timestamped transcripts (slow)
+bin/yt-sync run          # list, meta, transcribe; safe to re-run, resumes where it left off
+bin/yt-sync status       # counts
+bin/yt-sync -l 5 run     # stop after 5 transcriptions (good for a first try)
+bin/yt-sync launchd      # print a macOS launchd plist that runs `run` hourly in the background
+```
+
+Things worth knowing:
+
+* **Privacy.** By default only `public` videos are processed, because the data files are meant to be committed. Set `YT_PRIVACY=public,unlisted` to include unlisted ones. Private videos are never processed. Think before publishing text from unlisted videos.
+* **Time.** Transcription is the slow part, roughly 10x real time on Apple Silicon with the `base.en` model. Use `YT_MAX_MINUTES=60` to skip very long videos, or a smaller model via `YT_WHISPER_MODEL`.
+* **Resumable.** A video that already has a timestamped transcript is skipped. A video that fails is recorded in `~/.cache/videos/failed/` and not retried until you delete its marker file.
+* **Overrides.** `YT_CONFIG_DIR`, `YT_CACHE_DIR`, `YT_DATA_DIR`, `YT_WHISPER_MODEL`.
+* **Not committed for you.** It only writes files; review and commit them yourself.
+
+Extra dependencies for this script: [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) (`brew install yt-dlp`) in addition to the tools under Dependencies below.
+
 ### Dependencies
 
 Transcription runs entirely locally; no accounts or API keys are needed. Only `bin/yt-update` talks to YouTube.
@@ -116,7 +140,8 @@ If you find this useful, I'd rather you [sponsor me on GitHub](https://github.co
 
 ### Future plans
 
-* Have AI backfill the data files for all existing videos: titles and descriptions come from the YouTube pages, but transcripts need the audio, so either the original recordings or a downloader such as `yt-dlp`
+* Review the unlisted (about 2,050) and private (about 150) videos with AI and decide which, if any, to make public; only public videos are in this database until then (`yt-sync` skips the rest by default)
+* Have AI add summaries and chapters to the back-filled data files, then push them with `yt-update` (the files themselves come from `yt-sync`)
 * Write an ALE linter for the YouTube-flavored Markdown in descriptions and data files (see the [limitations](#core-limitations) above)
 * Try a larger Whisper model for better accuracy on technical terms
 * Create an MCP that's based on the data and transcriptions from all published videos

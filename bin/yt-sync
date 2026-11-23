@@ -1,0 +1,260 @@
+#!/usr/bin/env bash
+# yt-sync: back-fill data/<UID>.md for every video on your YouTube channel.
+#
+# Usage: yt-sync [-l N] <command>
+#   list        fetch every upload on your channel into a manifest
+#   meta        write data/<UID>.md (title, description, hashtags) for videos
+#               that do not have one yet; never overwrites an existing file
+#   transcribe  download audio with yt-dlp, transcribe locally with whisper,
+#               and write timestamped [HH:MM:SS] lines into data/<UID>.md
+#               (plus data/<UID>.srt) for every file without a transcript
+#   run         list, meta, then transcribe everything (safe to re-run; this is
+#               what the background job runs)
+#   status      show counts
+#   launchd     print a macOS launchd plist that runs `yt-sync run` hourly
+#   -l N        with transcribe/run: stop after N videos (useful for testing)
+#
+# Read-only against YouTube: it only reads your channel and writes to data/.
+# It never changes anything on YouTube; use yt-update for that.
+#
+# Needs: bash, curl, jq, ffmpeg, whisper-cli (whisper-cpp), yt-dlp, and a
+# whisper model (YT_WHISPER_MODEL, default ~/whisper-work/models/ggml-base.en.bin).
+# Auth is shared with yt-update (see yt-lib.bash and the README).
+#
+# Environment overrides:
+#   YT_CONFIG_DIR   credentials dir (default ~/.config/videos)
+#   YT_CACHE_DIR    manifest, failures, lock, logs (default ~/.cache/videos)
+#   YT_DATA_DIR     where the .md/.srt files go (default <repo>/data)
+#   YT_WHISPER_MODEL
+#   YT_PRIVACY      comma list of privacy states to process (default "public").
+#                   Add "unlisted" only if you are happy to publish those
+#                   videos' text; "private" is never processed.
+#   YT_MAX_MINUTES  skip videos longer than this many minutes (default: no cap)
+
+set -euo pipefail
+
+limit=0
+while getopts l: opt; do
+  case $opt in
+    l) limit=$OPTARG ;;
+    *) echo "usage: yt-sync [-l N] list|meta|transcribe|run|status|launchd" >&2; exit 2 ;;
+  esac
+done
+shift $((OPTIND - 1))
+cmd=${1:?usage: yt-sync [-l N] list|meta|transcribe|run|status|launchd}
+
+here=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+root=$(dirname "$here")
+data=${YT_DATA_DIR:-$root/data}
+cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
+manifest=$cache/manifest.json
+model=${YT_WHISPER_MODEL:-$HOME/whisper-work/models/ggml-base.en.bin}
+
+# shellcheck source=yt-lib.bash
+source "$here/yt-lib.bash"
+
+mkdir -p "$cache/failed" "$data"
+
+log() { printf '%s %s\n' "$(date '+%F %T')" "$*" >&2; }
+api() { curl -fsS -H "Authorization: Bearer $access" "$@"; }
+
+# ---------------------------------------------------------------- list
+cmd_list() {
+  ensure_access
+  local base=https://www.googleapis.com/youtube/v3 uploads token page ids all='[]' chunk
+  uploads=$(api "$base/channels?part=contentDetails&mine=true" \
+    | jq -r '.items[0].contentDetails.relatedPlaylists.uploads // empty')
+  [[ -n $uploads ]] || { echo "could not find your uploads playlist" >&2; exit 1; }
+
+  ids=()
+  token=
+  while :; do
+    page=$(api "$base/playlistItems?part=contentDetails&maxResults=50&playlistId=$uploads${token:+&pageToken=$token}")
+    while IFS= read -r id; do ids+=("$id"); done < <(jq -r '.items[].contentDetails.videoId' <<<"$page")
+    token=$(jq -r '.nextPageToken // empty' <<<"$page")
+    [[ -n $token ]] || break
+  done
+  log "found ${#ids[@]} uploads"
+
+  local i
+  for ((i = 0; i < ${#ids[@]}; i += 50)); do
+    chunk=$(IFS=,; echo "${ids[*]:i:50}")
+    all=$(jq -c --argjson new "$(api "$base/videos?part=snippet,contentDetails,status&maxResults=50&id=$chunk")" \
+      '. + [$new.items[] | {
+         id, title: .snippet.title, description: .snippet.description,
+         publishedAt: .snippet.publishedAt, duration: .contentDetails.duration,
+         privacy: .status.privacyStatus, live: (.snippet.liveBroadcastContent // "none")}]' <<<"$all")
+  done
+  jq 'unique_by(.id) | sort_by(.publishedAt) | reverse' <<<"$all" > "$manifest.tmp" && mv "$manifest.tmp" "$manifest"
+  log "wrote $manifest ($(jq length "$manifest") videos)"
+}
+
+# selected_ids: IDs we are allowed to process, newest first.
+selected_ids() {
+  jq -r --arg p "${YT_PRIVACY:-public}" --argjson max "${YT_MAX_MINUTES:-0}" '
+    def secs: capture("PT(?:(?<h>[0-9]+)H)?(?:(?<m>[0-9]+)M)?(?:(?<s>[0-9]+)S)?")
+      | ((.h // "0" | tonumber) * 3600 + (.m // "0" | tonumber) * 60 + (.s // "0" | tonumber));
+    ($p | split(",") | map(select(. != "private"))) as $ok
+    | .[] | select(.live == "none" and (.privacy as $x | $ok | index($x))
+                   and ($max == 0 or (.duration | secs) <= $max * 60)) | .id' "$manifest"
+}
+
+need_manifest() { [[ -f $manifest ]] || { echo "no manifest; run: yt-sync list" >&2; exit 1; }; }
+
+# ---------------------------------------------------------------- meta
+# Split a description into body and trailing hashtag-only line (if any), and
+# write the data file in the repo format.
+write_md() { # id title description
+  local id=$1 title=$2 desc=$3 out=$data/$1.md body tags last
+  body=$desc
+  tags=
+  # Last non-blank line made only of #hashtags becomes the backtick line.
+  last=$(awk 'NF{l=$0} END{print l}' <<<"$desc")
+  if [[ $last =~ ^[[:space:]]*(#[^[:space:]#]+[[:space:]]*)+$ ]]; then
+    tags=$(tr -s ' \t' ' ' <<<"$last" | sed 's/^ //; s/ $//')
+    # Everything before the last non-blank line.
+    body=$(awk '{l[NR]=$0} END{n=NR; while(n>0 && l[n] ~ /^[[:space:]]*$/) n--; for(i=1;i<n;i++) print l[i]}' <<<"$desc")
+  fi
+  body=$(sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' <<<"$body" | sed '/./,$!d')
+  {
+    printf '# %s\n\n' "$title"
+    [[ -z $body ]] || printf '%s\n\n' "$body"
+    [[ -z $tags ]] || printf '`%s`\n\n' "$tags"
+    printf '## Transcription\n\n'
+  } > "$out"
+}
+
+cmd_meta() {
+  need_manifest
+  local n=0 id title desc
+  while IFS= read -r id; do
+    [[ -f $data/$id.md ]] && continue
+    title=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .title' "$manifest")
+    desc=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .description' "$manifest")
+    write_md "$id" "$title" "$desc"
+    n=$((n + 1))
+  done < <(selected_ids)
+  log "wrote $n new data files"
+}
+
+# ---------------------------------------------------------------- transcribe
+has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/$1.md"; }
+
+srt_to_lines() {
+  awk 'BEGIN{RS="";FS="\n"} {
+    split($2, t, " --> "); ts = substr(t[1], 1, 8); txt = ""
+    for (i = 3; i <= NF; i++) txt = txt (i > 3 ? " " : "") $i
+    gsub(/^ +| +$/, "", txt)
+    if (txt != "") print "[" ts "] " txt }'
+}
+
+transcribe_one() { # id
+  local id=$1 work head
+  work=$(mktemp -d "${TMPDIR:-/tmp}/yt-sync.XXXXXX")
+  # shellcheck disable=SC2064
+  trap "rm -rf '$work'" RETURN
+  yt-dlp -q --no-warnings -f bestaudio -o "$work/audio.%(ext)s" "https://www.youtube.com/watch?v=$id" || return 1
+  ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" || return 1
+  whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" >/dev/null 2>&1 || return 1
+  [[ -s $work/t.srt ]] || return 1
+  # Keep everything through the "## Transcription" heading, replace the rest.
+  head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")
+  { printf '%s\n\n' "$head"; srt_to_lines < "$work/t.srt"; } > "$data/$id.md.tmp"
+  mv "$data/$id.md.tmp" "$data/$id.md"
+  cp "$work/t.srt" "$data/$id.srt"
+}
+
+cmd_transcribe() {
+  need_manifest
+  for c in yt-dlp ffmpeg whisper-cli; do
+    command -v "$c" >/dev/null || { echo "$c is required" >&2; exit 1; }
+  done
+  [[ -f $model ]] || { echo "whisper model not found: $model (set YT_WHISPER_MODEL)" >&2; exit 1; }
+  local done_n=0 id
+  while IFS= read -r id; do
+    [[ -f $data/$id.md ]] || continue
+    has_transcript "$id" && continue
+    [[ -f $cache/failed/$id ]] && continue
+    log "transcribing $id"
+    if transcribe_one "$id"; then
+      done_n=$((done_n + 1))
+      log "done $id"
+    else
+      log "FAILED $id (will not retry; delete $cache/failed/$id to retry)"
+      date > "$cache/failed/$id"
+    fi
+    (( limit == 0 || done_n < limit )) || break
+  done < <(selected_ids)
+  log "transcribed $done_n videos"
+}
+
+# ---------------------------------------------------------------- run / status
+cmd_run() {
+  # One run at a time: a stale lock (dead pid) is cleared.
+  local lock=$cache/lock
+  if ! mkdir "$lock" 2>/dev/null; then
+    if kill -0 "$(cat "$lock/pid" 2>/dev/null)" 2>/dev/null; then
+      log "another run is in progress"; exit 0
+    fi
+    rm -rf "$lock"; mkdir "$lock"
+  fi
+  echo $$ > "$lock/pid"
+  trap 'rm -rf "$lock"' EXIT
+  cmd_list
+  cmd_meta
+  cmd_transcribe
+}
+
+cmd_status() {
+  need_manifest
+  local total have tr=0 id failed
+  total=$(jq length "$manifest")
+  have=$(find "$data" -maxdepth 1 -name '*.md' | wc -l | tr -d ' ')
+  while IFS= read -r id; do
+    [[ -f $data/$id.md ]] && has_transcript "$id" && tr=$((tr + 1))
+  done < <(selected_ids)
+  failed=$(find "$cache/failed" -type f | wc -l | tr -d ' ')
+  echo "videos on channel: $total (processing: $(selected_ids | wc -l | tr -d ' '))"
+  echo "data files:        $have"
+  echo "with transcript:   $tr"
+  echo "failed:            $failed"
+}
+
+cmd_launchd() {
+  cat <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>local.yt-sync</string>
+  <key>ProgramArguments</key>
+  <array><string>$here/yt-sync</string><string>run</string></array>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+  <key>RunAtLoad</key><true/>
+  <key>StartInterval</key><integer>3600</integer>
+  <key>StandardOutPath</key><string>$cache/yt-sync.log</string>
+  <key>StandardErrorPath</key><string>$cache/yt-sync.log</string>
+</dict>
+</plist>
+EOF
+  cat >&2 <<EOF
+
+To install:
+  yt-sync launchd > ~/Library/LaunchAgents/local.yt-sync.plist
+  launchctl bootstrap gui/\$(id -u) ~/Library/LaunchAgents/local.yt-sync.plist
+To stop:
+  launchctl bootout gui/\$(id -u) ~/Library/LaunchAgents/local.yt-sync.plist
+Log: $cache/yt-sync.log
+EOF
+}
+
+case $cmd in
+  list) cmd_list ;;
+  meta) cmd_meta ;;
+  transcribe) cmd_transcribe ;;
+  run) cmd_run ;;
+  status) cmd_status ;;
+  launchd) cmd_launchd ;;
+  *) echo "unknown command: $cmd" >&2; exit 2 ;;
+esac
