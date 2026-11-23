@@ -1,6 +1,6 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 6
 
-Rob discusses how agentic AI has changed tech careers and what beginners should learn, then uses an AI agent to evaluate every tool and skill from past Boosts and SKILSTAK for the agentic era. He covers why typing speed and editor tweaking matter less, why git, Markdown, terminal, tmux and containers remain essential, and why learning to use AI as a teacher is the key skill. He also edits the Boost README and articles live, including advice on trusting AI and treating a tech career like medicine.
+Explains how agentic AI has changed advice for tech beginners, covering why AI-assisted learning is the central skill and why tech careers now demand broad, deep expertise. Walks through an AI-generated evaluation of tools such as git, tmux, containers, Go, Python, vim and typing speed, along with updates to the Boost articles and README. Also covers voice input, avoiding editor-config rabbit holes, telling the AI you are learning via AGENTS.md, and trusting AI as much as a stranger.
 
 Today on the Beginner Boost we wrote several new articles and made significant updates to the 2026 curriculum.
 
@@ -23,30 +23,28 @@ Key takeaways:
 • GitLab = missing the integrations that matter
 
 Chapters:
-0:00 Welcome and Why AI Changed Everything
-3:03 AI Company Economics and Bait and Switch
-6:07 Mythos and Security Risks
-9:05 AI Impact on Jobs Beyond Software
-12:00 Learn Agentic AI Now
-15:03 Adopting AI Versus Dismissing It
-18:04 Integrating AI Into Everything
-21:03 Typing Is Optional and Voice Input
-24:04 Conversational Coding and Bonsai
-27:06 Editor Configuration Rabbit Hole
-30:07 Touch Typing and Voice Workflow
-33:04 AI Evaluates Boost and SKILSTAK Tools
-39:00 Git, GitHub and Worktrees
-45:06 tmux and Reading Code
-54:02 Markdown Style and Agent Rules
-1:00:02 Containers, Root Access and Agents
-1:06:25 Python, Go and Language Choice
-1:12:00 Vim, Pipes and Unix Tools
-1:15:04 Using AI to Teach You
-1:23:21 Tech Careers Like Medicine
-1:27:02 Tell the AI You Are Learning
-1:33:00 Trusting AI and Building Things
+0:00 Welcome and why AI changed everything
+3:03 AI company economics and bait and switch
+6:07 Mythos and security implications
+9:05 Job impact and adopting AI now
+15:00 Why AI skeptics fall behind
+21:03 Typing is optional: voice and conversation
+27:06 Editor config rabbit hole
+30:07 Voice input speeds up changes
+36:06 Asking AI to evaluate Boost tools
+39:00 Git, GitHub and worktrees for agents
+45:06 tmux and reading code
+54:02 Writing rules in AGENTS.md templates
+1:00:02 Containers, Podman and root access
+1:06:05 Python, Go and language choice
+1:12:00 Vim, pipes and text tools
+1:15:04 Using AI to teach you
+1:22:00 Tech careers are like medicine
+1:27:02 Tell the AI you are learning
+1:30:00 README updates and trusting AI
+1:36:02 Building things with AI
 
-`#ai #agenticai #techcareer #beginners #linux #git #tmux #terminal #agentsmd #livestream #techjobs #learntocode #githubcopilot #claudecode #skilstak`
+`#ai #agenticai #careeradvice #beginners #tmux #git #linux #voiceinput #golang #livestream #techjobs #learntocode #githubcopilot #claudecode #skilstak`
 
 ## Category
 
