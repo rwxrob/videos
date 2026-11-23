@@ -2,7 +2,7 @@
 
 From 2021. I may have changed my mind on some of this.
 
-Rob explains why tmux serves as his window manager, showing a full-screen terminal with nested tmux sessions, status bars, and pane and window splitting. He demonstrates portability by copying his tmux config into a bare Debian Docker container, working through several mistakes along the way, then recaps the benefits: a single portable config file, availability on nearly any system, screen-like behavior, avoiding plugins, and usefulness during certification exams.
+Argues for using tmux as a sole window manager, demonstrating nested sessions, pane and window splitting, and a status bar in a full-screen terminal. Shows copying a tmux config into a bare Debian Docker container to prove portability, working through several mistakes along the way. Closes by recapping the benefits: a single portable config file, availability on nearly any system including certification exams, and use for monitoring setups.
 
 1.  Configuration centralized and portable in a single file
 2.  You can put it on anything.
@@ -25,18 +25,19 @@ https://github.com/rwxrob/zet/tree/main/20210728013938
 
 Chapters:
 0:00 Why tmux is my window manager
-0:26 Nested tmux and status bars
-1:29 Splitting panes and managing windows
-2:00 No need for i3, config portability
-2:56 Docker demo: starting a Debian container
+1:00 Nested tmux and status bars
+1:30 Splitting panes and managing windows
+2:00 No need for i3 or other WMs
+2:40 Portable config and certification exams
+3:05 Starting a Debian Docker container
 4:00 Copying tmux config into the container
-7:00 Troubleshooting users and symlinks
-10:00 Config finally loads in container
+5:40 Troubleshooting config loading and users
+9:00 Fixing the symlink problem
+10:35 Config working in the container
 11:10 Recap of tmux benefits
-12:20 Certification exams and monitoring stations
-13:55 Persistent sessions coming next
+12:30 Exams, monitoring stations, and persistence
 
-`#tmux #linux #terminal #docker #windowmanager #dotfiles #commandline #devops`
+`#tmux #terminal #linux #docker #windowmanager #dotfiles #devops #kubernetes`
 
 ## Category
 
