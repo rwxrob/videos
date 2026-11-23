@@ -1,8 +1,14 @@
 # 🛑 DO NOT BUY CLAUDE! (You probably get it for free on GitHub CoPilot.)
 
+The video argues that Claude Code subscribers may be overpaying, since the Claude Opus 4.6 model is available through GitHub Copilot, which many employers already approve. It compares the GitHub Copilot CLI (written in Go, stable, modeled on the Claude CLI) with Claude Code, and notes that teachers and maintainers of widely used projects can get Copilot Pro for free.
+
 I paid $215 for a year of Claude with claude-code and boy do I regret it. I could have been using claude-opus-4.6 for free this entire time through gh copilot instead. Also, gh copilot is APPROVED AT WORK and claude-code is not (for me). The claude-code CLI has nothing I miss except for the voice interaction, which is really buggy anyway.
 
-`#ai #techjobs #claude`
+`#githubcopilot #claudecode #claude #ai #cli #developertools #opensource #techjobs`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
