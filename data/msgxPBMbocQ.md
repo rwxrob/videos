@@ -1,5 +1,7 @@
 # Cleanup bashrc with AI (opencode running Claude Code Pro)
 
+A four-hour unedited livestream of Rob cleaning up his .bashrc and dotfiles with AI (opencode using a Claude Code Pro subscription) while reviewing each change. Topics include removing dead config, consolidating colors and themes, the CDPATH security risk, a new `ask` command that uses AI as a shell and Vim filter, completions strategy, a per-machine setup script, git identity merging, SSH key handling, portability, and squash versus merge commits.
+
 A four-hour, unedited livestream of me cleaning up my .bashrc and the rest of my dotfiles with AI (opencode connected to Claude Code Pro) doing the heavy lifting while I review every change.
 
 Along the way: removing dead and personal-only config, consolidating colors and themes, the security danger of CDPATH, a new `ask` command that keeps one AI session going from the shell and pipes Markdown through bat/glow, using AI output as a Unix filter inside Vim, a smarter completions strategy, a per-machine setup script, git config and identity merging, SSH key and secrets thoughts, portability gotchas, and why you should squash and merge PRs.
@@ -35,7 +37,42 @@ Chapters:
 4:06:06 Squash and merge vs merge commits
 4:12:01 Wrap-up
 
-`#bash #livestream #dotfiles #ai #opencode`
+Chapters:
+0:00 Setup: opencode, Claude Code Pro, cleanup PR
+6:00 Reviewing the PR and working-tree changes
+9:06 Escape sequences: echo -e vs $'...'
+21:19 Removing dead code and broken source-if
+27:00 Consolidating colors, themes, bat and man pager
+36:13 Installers and tool detection
+42:06 Here-docs, filter commands and title helpers
+57:01 Why CDPATH is a hacker vector
+1:00:01 Shell history, prompt and tmux
+1:06:01 Python virtual environments and uv
+1:18:01 Single-line commands vs functions, alias resets
+1:24:03 Running opencode from the command line
+1:51:20 The new ask command: AI as shell filter
+2:03:03 Replacing text in Vim with AI (!!ask)
+2:15:01 Auto-fixing Markdown titles on save
+2:24:04 Aliases, editor and environment wrap-up
+2:27:05 A cd helper that stays in directory
+2:30:02 Completions, plugins and generators
+2:48:01 Prompt: git branch and Python venv
+2:54:03 Per-machine config with fallbacks
+3:00:01 Why bashrc must work everywhere in 2027
+3:06:06 Setup script and forkable dotfiles
+3:30:14 Keeping the safe CDPATH handling
+3:33:07 Git config and identity merging
+3:39:02 SSH keys and secrets
+3:57:00 Portability: case sensitivity and GNUisms
+4:00:03 Idea: AI-generated chapter headings
+4:06:06 Squash and merge vs merge commits
+4:12:01 Wrap-up
+
+`#bash #dotfiles #opencode #linux #vim #claudecode #terminal #unix #git #livestream #ai`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
