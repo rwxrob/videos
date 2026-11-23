@@ -1,5 +1,7 @@
 # 🎵 Upgrading from Grafana 12.3 to 13.0 using rendered manifest pattern in Helm charts.
 
+A short overview of the Grafana 13.0 release and what it means for upgrades from 12.x, including the move of Helm charts to the grafana-community organization. It explains why to stop using Bitnami Grafana charts and describes using the rendered manifest pattern with helm template and kubectl apply to compare changes between versions.
+
 Upgrading Grafana 12.3 → 13.0.1 and ditching Bitnami charts
 
 Grafana 13.0.1 is now stable—and it's time to migrate off Bitnami Helm charts to the officially maintained grafana-community charts.
@@ -26,7 +28,11 @@ What you need to do:
 
 Migration is straightforward but requires planning. I've documented the full upgrade path, breaking changes, and rollback procedures in the boost repo.
 
-`#Grafana #Kubernetes #Helm #DevOps #Infrastructure #Monitoring`
+`#grafana #helm #kubernetes #devops #bitnami #gitops #observability #infrastructure #monitoring`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
