@@ -1,18 +1,18 @@
 # 🧠 Think like a hacker (or die)
 
-Rob explains why learning to think like a hacker makes someone a better technologist, using the original definition of a hacker as someone with deep knowledge of a system who finds uses for it beyond its intended design. He illustrates the idea with a Mr. Robot quote, examples like bike hacking, and the habit of asking how others might twist the systems you build.
+Explains the original meaning of 'hacker' as someone with deep knowledge of a system who finds uses it was never designed for, rather than someone who breaks into systems. Argues that this mindset, illustrated with a Mr. Robot quote about learning fast from white papers, makes for better technologists who build more robust and creative tools.
 
 Seriously.
 
 Chapters:
 0:00 Why think like a hacker
-1:00 Hacker skills versus hacking tools
-1:34 Darlene's quote on learning fast
-3:14 Deep system knowledge and alternative thinking
+0:58 Hacker skills versus Metasploit myths
+1:33 Darlene and deep system knowledge
+3:19 Better systems through alternative thinking
 4:45 Seeing alternative uses as a superpower
-5:42 The original definition of hacker
+5:46 The original definition of hacker
 
-`#hacker #mindset #beginners #technology #career #learning #security #mrrobot #techjobs #education #hacking`
+`#hacker #mindset #beginners #technology #careeradvice #learning #mrrobot #hackermindset #techjobs #education #hacking`
 
 ## Category
 
