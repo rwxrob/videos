@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
-# yt-update: push title and description from data/<UID>.md to YouTube.
+# yt-update: push title and description from data/<UID>.md to YouTube, or the
+# channel description from channel.md.
 #
 # Usage: yt-update [-n] [-y] <UID>
+#        yt-update channel
 #        yt-update auth
 #   -n  dry run: only parse the markdown and print the title/description
 #   -y  skip the confirmation prompt
+#   channel  update the channel description from channel.md
 #   auth  log in (get a new refresh token) and exit
 #
 # Config dir (default ~/.config/videos, override with YT_CONFIG_DIR), kept
@@ -21,11 +24,16 @@ while getopts ny opt; do
   case $opt in
     n) dry=yes ;;
     y) yes=yes ;;
-    *) echo "usage: yt-update [-n] [-y] <UID> | auth" >&2; exit 2 ;;
+    *) echo "usage: yt-update [-n] [-y] <UID> | channel | auth" >&2; exit 2 ;;
   esac
 done
 shift $((OPTIND - 1))
-if [[ ${1:-} == auth ]]; then login=yes; else uid=${1:?usage: yt-update [-n] [-y] <UID> | auth}; fi
+mode=video
+case ${1:-} in
+  auth) login=yes ;;
+  channel) mode=channel ;;
+  *) uid=${1:?usage: yt-update [-n] [-y] <UID> | channel | auth} ;;
+esac
 
 conf=${YT_CONFIG_DIR:-$HOME/.config/videos}
 secret=$conf/client_secret.json
@@ -76,6 +84,17 @@ if [[ $login == yes ]]; then
 fi
 
 root=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+
+# trim: strip leading and trailing blank lines from stdin.
+trim() { sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d'; }
+
+if [[ $mode == channel ]]; then
+  chfile=$root/channel.md
+  [[ -f $chfile ]] || { echo "no such file: $chfile" >&2; exit 1; }
+  desc=$(trim < "$chfile")
+  if [[ $dry == yes ]]; then printf 'CHANNEL DESCRIPTION (%d chars):\n%s\n' "${#desc}" "$desc"; exit 0; fi
+  (( ${#desc} <= 1000 )) || { echo "channel description is ${#desc} chars; limit is 1000" >&2; exit 1; }
+else
 md=$root/data/$uid.md
 [[ -f $md ]] || { echo "no such file: $md" >&2; exit 1; }
 
@@ -89,11 +108,12 @@ desc=$(awk '
   NR == 1 { next }
   /^## Transcription/ { exit }
   { print }
-' "$md" | sed -E 's/^`(#.*)`$/\1/' | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d')
+' "$md" | sed -E 's/^`(#.*)`$/\1/' | trim)
 
 if [[ $dry == yes ]]; then
   printf 'TITLE: %s\n\nDESCRIPTION:\n%s\n' "$title" "$desc"
   exit 0
+fi
 fi
 
 command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
@@ -118,6 +138,29 @@ fi
 [[ -n $access ]] || { echo "could not get access token" >&2; exit 1; }
 
 api=https://www.googleapis.com/youtube/v3/videos
+
+if [[ $mode == channel ]]; then
+  chapi=https://www.googleapis.com/youtube/v3/channels
+  # channels.update replaces the whole brandingSettings part, so fetch it and
+  # send it all back with only the description changed.
+  cur=$(curl -fsS -H "Authorization: Bearer $access" "$chapi?part=brandingSettings&mine=true")
+  [[ $(jq '.items | length' <<<"$cur") -eq 1 ]] || { echo "no channel found for this account" >&2; exit 1; }
+  chid=$(jq -r '.items[0].id' <<<"$cur")
+  body=$(jq --arg d "$desc" '.items[0] | {id, brandingSettings: (.brandingSettings | .channel.description = $d)}' <<<"$cur")
+  echo "--- channel $chid"
+  echo "--- current description"
+  jq -r '.items[0].brandingSettings.channel.description // ""' <<<"$cur"
+  echo "--- new description"
+  printf '%s\n' "$desc"
+  echo "---"
+  if [[ $yes != yes ]]; then
+    read -r -p "Update channel description on YouTube? [y/N] " ans
+    [[ $ans == y || $ans == Y ]] || { echo "aborted"; exit 1; }
+  fi
+  curl -fsS -X PUT -H "Authorization: Bearer $access" -H 'Content-Type: application/json' \
+    -d "$body" "$chapi?part=brandingSettings" | jq '{id, updated: true}'
+  exit 0
+fi
 
 # Fetch the current snippet. videos.update replaces the whole snippet, so we
 # must send back everything (title, categoryId, ...) with only ours changed.

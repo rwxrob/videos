@@ -93,6 +93,7 @@ Usage:
 bin/yt-update -n <UID>   # dry run: only show the parsed title and description
 bin/yt-update <UID>      # show current vs. new description, confirm, then update
 bin/yt-update -y <UID>   # skip the confirmation prompt
+bin/yt-update channel    # update the channel description from channel.md (same confirm step)
 bin/yt-update auth       # log in again and exit
 ```
 
