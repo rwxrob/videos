@@ -1,6 +1,6 @@
 # The (Actual) UNIX Philosophy
 
-Rob explains the original Unix philosophy as attributed to Doug McIlroy: write programs that do one thing well, write programs that work together, and use text streams as the universal interface. He walks through Mike Gancarz's list of Unix principles and demonstrates filters and pipes in vi and with tr. He also argues that monolithic tools like Emacs go against the philosophy and that the power of the terminal comes from combining small tools.
+Explains the full Unix philosophy as stated by Doug McIlroy: programs that do one thing well, work together, and handle text streams as a universal interface. Covers Mike Gancarz's list of clarifications and demonstrates filters and pipes with vi/vim shell filters and tr. Argues that monolithic tools conflict with this philosophy and that the power of the terminal comes from combining small tools.
 
 "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface. (Doug McIlroy)
 
@@ -37,17 +37,15 @@ See http://rwxrob.tv/schedule for scheduled streams.
 https://github.com/rwxrob/zet/tree/main/20210823020554
 
 Chapters:
-0:00 Intro: what is the Unix philosophy
+0:00 Introduction and why it matters
 0:43 Doug McIlroy's three-part definition
-1:37 Why monolithic tools miss the point
-2:05 Mike Gancarz's Unix principles list
-3:30 Filters and Unix pipes explained
-3:43 Demo: vi filters with date and bash
-5:25 Why the whole ecosystem matters
-6:37 Emacs and the monolithic approach
-7:44 Pipes with tr and everything is a file
+2:05 Mike Gancarz's list of principles
+3:30 Filters and pipes in vi
+5:30 Using the whole terminal ecosystem
+6:45 Monolithic tools versus the philosophy
+7:44 Piping with tr and wrap-up
 
-`#unix #philosophy #linux #bash #vim #pipes #terminal #shell`
+`#unix #philosophy #linux #pipes #filters #vim #bash #terminal`
 
 ## Category
 
