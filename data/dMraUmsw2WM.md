@@ -1,6 +1,6 @@
 # 🚀 Tech Career Beginner Boost - Get Ready
 
-Explains the prerequisites for following the Beginner Boost program toward a tech career: a computer, a GitHub account with a Copilot subscription, and at least an hour a day of AI-assisted learning. Also covers what kind of computer to buy, why Linux isn't needed yet, and the patience and time commitment required to reach an entry-level job.
+Lays out the prerequisites for starting the Beginner Boost: a computer that can install software, a GitHub account with a Copilot subscription, and at least an hour a day of AI-assisted learning. Recommends an inexpensive Windows 11 laptop or a Mac over installing Linux, and sets expectations that an entry-level tech job will take at least a year of daily effort.
 
 Before you spend a single minute on Beginner Boost, you need a computer on which you can install software ($250), a GitHub account with Copilot subscription ($10/month), and an hour per day to dedicate to AI-assisted learning. No one can help you until you are at least willing and able to prepare yourself.
 
@@ -18,12 +18,12 @@ At least a year even if you dedicate an hour per day learning. Most people won't
 
 Chapters:
 0:00 Why this prerequisites video comes first
-0:29 Computer, GitHub Copilot, and AI skills
-1:54 Committing an hour a day
-3:19 Which computer should you buy?
-4:08 Set up GitHub Copilot on your own
+0:29 Computer, GitHub, and Copilot requirements
+1:51 Committing an hour a day
+2:56 What computer to buy
+3:57 Figuring out setup on your own
 
-`#techcareer #beginnerboost #githubcopilot #learntocode #ai #careeradvice #beginners`
+`#techcareer #beginnerboost #githubcopilot #learntocode #ai #careeradvice #windows11 #mac`
 
 ## Category
 
