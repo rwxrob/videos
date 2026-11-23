@@ -1,8 +1,38 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 5
 
+Day 5 of the Beginner Boost discusses how AI has changed tech careers and hiring, and why beginners should focus on skills that complement AI. It then walks through setting up the GitHub CLI and GitHub Copilot CLI, cloning a notes repo, writing an AGENTS.md with conventional commit rules, and having the AI generate a job-focused learning plan.
+
 Screeeech! Hold up. Rethink everything you know about learning and getting a job in tech. If you are not using an AI to assist you in your learning (either because you don't have the money or desire) just stop waisting your time right now. You'll never keep up.
 
-`#techjobs #learning #beginners`
+Chapters:
+0:00 Intro and shorter 90-minute format
+3:04 Why tech career advice has changed
+6:02 Building a deployed app in two hours
+9:00 What this means for junior jobs
+12:02 Skills that interviews now filter for
+18:02 AI going mainstream in 2026 teams
+21:02 On-prem ML and enterprise Copilot
+27:00 Learn a domain, not just computers
+30:01 Why to avoid Claude Code for now
+33:05 Installing the GitHub CLI on WSL
+36:02 Logging in and organizing repos
+42:08 Cloning repos with the gh command
+45:06 Why Copilot Pro is worth $10
+51:08 Launching Copilot CLI and trusting folders
+54:03 Notes repos and AI memory limits
+1:00:00 Tokens, pricing and data training settings
+1:06:02 Writing AGENTS.md and Markdown importance
+1:12:03 Conventional commits and pushing changes
+1:18:02 Skipping the boost script
+1:27:04 AI-suggested skills and checking sources
+1:36:01 Generating a job-focused learning plan
+1:42:02 Sharing knowledge bases and wrap-up
+
+`#beginnerboost #techcareer #githubcopilot #aiassistedcoding #githubcli #markdown #linux #learntocode #techjobs #learning #beginners`
+
+## Category
+
+Education
 
 ## Transcription
 
