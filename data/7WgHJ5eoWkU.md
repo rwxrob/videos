@@ -1,21 +1,21 @@
 # 🚀 AI Sessions: Interactive vs. Single PR
 
-Compares two ways of working with AI coding agents: submitting one detailed prompt that becomes an issue and an unattended PR, versus a live interactive terminal session with a cheaper model like Haiku. Covers cost per request, controlling what the AI remembers via memory and agents.md, how prompts get refined into issues and PR plans, and why regression testing matters for agentic development.
+Compares submitting a comprehensive prompt that runs unattended and opens a GitHub PR against a live interactive terminal session with a cheaper model like Haiku. Covers request-based cost tradeoffs, controlling AI memory through agents.md files instead of ChatGPT's opaque memory, and how prompts get refined through the issue and PR steps. Closes with the importance of regression testing and trial-and-error validation for large AI-assisted changes.
 
 Two fundamentally different ways to work with AI agents: live interactive conversations where you steer in real-time, versus submitting a comprehensive prompt that runs unattended and opens a PR. Each has tradeoffs—cost, control, iteration speed—and knowing when to use each is critical for effective AI-assisted development.
 
 Chapters:
 0:00 The question: single prompt vs back-and-forth
-0:37 Sending PRs through Copilot in Nomad IRL
+0:57 PR workflow from the Nomad IRL app
 1:58 Live interactive session with Haiku
-3:55 Why I stopped using ChatGPT
-6:45 Controlling memory with agents.md
-10:40 Interactive terminal vs PR-based development
-12:30 How prompts get refined into PR plans
-14:25 Regression testing and the 28,000-line PR
-16:30 Trial and error, cams, and DNA
+3:40 Why terminal beats ChatGPT for planning
+6:40 Controlling memory with agents.md
+10:40 Fresh sessions and preserved state
+12:20 Issues and PRs as prompt refinement
+14:30 Regression testing and large PRs
+16:25 Trial and error as how things evolve
 
-`#agenticai #githubcopilot #aicoding #terminal #claude #prompting #devworkflow #agentsmd #aiagents #aidevelopment #devops #gitworkflow #softwareengineering #pullrequests #github`
+`#agenticai #githubcopilot #aicoding #terminal #claude #promptengineering #agentsmd #devworkflow #aiagents #aidevelopment #devops #gitworkflow #softwareengineering #pullrequests #github`
 
 ## Category
 
