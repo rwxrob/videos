@@ -1,8 +1,24 @@
 # Dangers of CDPATH
 
+Explains why CDPATH can break shell scripts and AI agent workflows: when cd resolves through CDPATH it prints the destination directory to standard output, corrupting captured output. Demonstrates the problem, shows the fix of setting CDPATH= before cd in scripts (and a leading . entry in CDPATH), and recommends against setting CDPATH in your rc files. Also recommends running scripts through ShellCheck.
+
 Here's why you should always add CDPATH= when using cd in scripts and probably just not add CDPATH to your rc files despite the convenience.
 
-`#shell #tips #bash`
+Chapters:
+0:00 Introduction to CDPATH and the problem
+0:54 Demo: cd install resolving unexpectedly
+2:05 Why scripts and agents expect plain cd
+3:00 Using ShellCheck on shell scripts
+4:25 Fix: empty CDPATH and add dot entry
+5:10 cd output corrupting captured stdout
+6:57 Safe cd, do work, cd back idiom
+8:58 Two takeaways
+
+`#bash #cdpath #shell #linux #shellcheck #terminal #scripting #ai #tips`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
