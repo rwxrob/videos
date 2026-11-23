@@ -1,0 +1,1208 @@
+1
+00:00:00,000 --> 00:00:04,560
+ Okay, I may have already made this video, but I'm going to make another one.
+
+2
+00:00:04,560 --> 00:00:08,760
+ So I keep getting asked why POSIX or PIRL, that's my mantra for 2025.
+
+3
+00:00:08,760 --> 00:00:11,340
+ POSIX or PIRL, that's the title of the video.
+
+4
+00:00:11,340 --> 00:00:13,520
+ I'm already talking about this, I'm going to talk about it again because there's a lot
+
+5
+00:00:13,520 --> 00:00:21,160
+ of new information coming out, so, you know, let's get into it as they say on YouTube.
+
+6
+00:00:21,160 --> 00:00:24,600
+ The first reason that I'm getting rid of bash is bash and burn me bad.
+
+7
+00:00:24,600 --> 00:00:31,320
+ I've been using bash as my primary doc files scripting language for four years and, you
+
+8
+00:00:31,320 --> 00:00:32,760
+ know, gave up POSIX.
+
+9
+00:00:32,760 --> 00:00:36,000
+ So four years ago, there was videos of this to me.
+
+10
+00:00:36,000 --> 00:00:40,400
+ Four years ago, everything in my doc files was either PIRL or POSIX.
+
+11
+00:00:40,400 --> 00:00:44,000
+ And then I found Go, there was a little bit of Node in there for a while.
+
+12
+00:00:44,000 --> 00:00:46,560
+ And for, you know, command line scripts in my doc files.
+
+13
+00:00:46,560 --> 00:00:51,080
+ And, you know, as you know, I've been re-going through all my doc files, I'm like, well,
+
+14
+00:00:51,080 --> 00:00:52,080
+ what do I want to do?
+
+15
+00:00:52,080 --> 00:00:54,760
+ The only new approach is that I just want to be able to anything that's got get on it
+
+16
+00:00:54,760 --> 00:00:58,880
+ and pretty much just everywhere, including multi-user, you know, systems that are jump
+
+17
+00:00:58,880 --> 00:01:02,400
+ boxes for my work and everything, I can use GitHub and I can just do git pull and I can
+
+18
+00:01:02,400 --> 00:01:03,400
+ get everything down.
+
+19
+00:01:03,400 --> 00:01:04,400
+ Right?
+
+20
+00:01:04,400 --> 00:01:05,400
+ So I can pull all the scripts.
+
+21
+00:01:05,400 --> 00:01:09,480
+ So, and so there's a couple of reasons, so let's first talk about, so let me just kind
+
+22
+00:01:09,480 --> 00:01:10,480
+ of net out what we're going to talk about.
+
+23
+00:01:10,480 --> 00:01:13,360
+ We're going to talk about why I'm not using bash anymore.
+
+24
+00:01:13,360 --> 00:01:16,800
+ In terms of bash, we're going to talk about POSIX and the things that I've complained
+
+25
+00:01:16,800 --> 00:01:21,040
+ about with POSIX and why I don't agree with those complaints anymore now that we have
+
+26
+00:01:21,040 --> 00:01:22,640
+ a shell check and thing.
+
+27
+00:01:22,640 --> 00:01:26,640
+ And the third thing is going to be all the mistakes I made around putting things that
+
+28
+00:01:26,640 --> 00:01:32,400
+ to go, which don't belong and go and how Pearl fixes all of that.
+
+29
+00:01:32,400 --> 00:01:33,720
+ And I really want to talk about this.
+
+30
+00:01:33,720 --> 00:01:34,720
+ I've talked about it a lot already.
+
+31
+00:01:34,720 --> 00:01:35,720
+ I've written about it a lot.
+
+32
+00:01:35,720 --> 00:01:41,880
+ If you want to get the details summary, but the bottom line, so the first thing is bash.
+
+33
+00:01:41,880 --> 00:01:45,600
+ Bash has absolutely abysmally bad regular expression handling.
+
+34
+00:01:45,600 --> 00:01:48,400
+ If you don't know what I'm talking about, just go try to do any regular expressions in
+
+35
+00:01:48,400 --> 00:01:53,600
+ bash, you use the double brackets, and then you get the non escaping thing.
+
+36
+00:01:53,600 --> 00:01:59,120
+ That's how I found out that bash does not do any kind of expansion within double brackets,
+
+37
+00:01:59,120 --> 00:02:04,440
+ which is cool and safer than POSIX, but it's still, and then the first time I got burned
+
+38
+00:02:04,440 --> 00:02:08,120
+ by this is I tried to do a pro regular expression in my match, couldn't do it.
+
+39
+00:02:08,120 --> 00:02:12,120
+ Another thing you couldn't do is you can't do exclamation point tilde, which I could put
+
+40
+00:02:12,120 --> 00:02:16,600
+ on the screen, but I'm not going to, which says if it doesn't match this regular expression,
+
+41
+00:02:16,600 --> 00:02:20,600
+ which you can do in Pearl, so you have to put the plus, you know, the negative thing above
+
+42
+00:02:20,600 --> 00:02:25,240
+ and, and, you know, but it's just not, it's not pretty, it's not pretty at all.
+
+43
+00:02:25,240 --> 00:02:28,320
+ And, and not to mention the fact that when you try to get those particular fields and
+
+44
+00:02:28,320 --> 00:02:32,320
+ you, you know, because they're extended regular expressions are not Pearl regular expressions,
+
+45
+00:02:32,320 --> 00:02:37,320
+ which is define the industry, then you have to put a slash in front of the parenthesis.
+
+46
+00:02:37,320 --> 00:02:40,160
+ I'm sorry, in front of the, it's not right.
+
+47
+00:02:40,160 --> 00:02:42,360
+ Yeah, parenthesis in order to get a field.
+
+48
+00:02:42,360 --> 00:02:44,840
+ And then that field, you have to, in order to use the field someplace else, you don't
+
+49
+00:02:44,840 --> 00:02:50,240
+ just use dollar one, you can't do that, you can't, you can't do that in bash.
+
+50
+00:02:50,240 --> 00:02:57,160
+ So you have to actually do bash rematch one, which is this big long ass thing, just to
+
+51
+00:02:57,160 --> 00:02:58,400
+ get the first field.
+
+52
+00:02:58,400 --> 00:03:01,640
+ And then you have to do bash rematch, you know, two or three or whatever, it's, it's
+
+53
+00:03:01,640 --> 00:03:02,640
+ horrible.
+
+54
+00:03:02,640 --> 00:03:03,640
+ It's absolutely horrible.
+
+55
+00:03:03,640 --> 00:03:07,880
+ I, I kind of look the other way, I kind of made excuses for it as like, okay, there's
+
+56
+00:03:07,880 --> 00:03:12,800
+ a lot of other great things about bash, particularly parameter expansion, which we'll get to.
+
+57
+00:03:12,800 --> 00:03:18,280
+ And the parameter expansion stuff was cool and all, but okay, so the reg X thing just
+
+58
+00:03:18,280 --> 00:03:19,320
+ doesn't do it, right?
+
+59
+00:03:19,320 --> 00:03:24,400
+ So, so I found myself reaching for Pearl and, and calling out to a sub shell or something
+
+60
+00:03:24,400 --> 00:03:26,440
+ like that because it did it properly.
+
+61
+00:03:26,440 --> 00:03:32,120
+ I mean, that's a mention that bash has no clue about Unicode regular expressions and any
+
+62
+00:03:32,120 --> 00:03:36,440
+ of the stuff that's been redefined in Pearl to, to match regular expression, to match
+
+63
+00:03:36,440 --> 00:03:37,440
+ Unicode families.
+
+64
+00:03:37,440 --> 00:03:40,400
+ And if you don't know what Unicode is, go read about it.
+
+65
+00:03:40,400 --> 00:03:45,320
+ But if you, if you can't in, in, in Pearl, you can actually use capital P and stuff like
+
+66
+00:03:45,320 --> 00:03:48,840
+ that to match entire families of Unicode code points.
+
+67
+00:03:48,840 --> 00:03:50,880
+ And you can't do any of that in bash.
+
+68
+00:03:50,880 --> 00:03:52,660
+ You can't, you can't do any of that in bash.
+
+69
+00:03:52,660 --> 00:03:57,520
+ You have to use the stupid POSIX things that are with like the two colons and all that.
+
+70
+00:03:57,520 --> 00:03:58,520
+ That's horrible.
+
+71
+00:03:58,520 --> 00:04:00,320
+ It's absolutely horrible that you come from Pearl.
+
+72
+00:04:00,320 --> 00:04:03,360
+ It's been a pain point, it's been a pain point for the last three years that I've been
+
+73
+00:04:03,360 --> 00:04:04,360
+ overlooking.
+
+74
+00:04:04,360 --> 00:04:08,600
+ And quite frankly, that leads me to another pain point, which is a lot of times you just
+
+75
+00:04:08,600 --> 00:04:10,240
+ want to do a find and replace, right?
+
+76
+00:04:10,240 --> 00:04:12,400
+ So you can get away with that using parameter expansion.
+
+77
+00:04:12,400 --> 00:04:15,320
+ Well, that doesn't work in POSIX at all.
+
+78
+00:04:15,320 --> 00:04:19,160
+ Making everything into lowercase with, you know, a parameter expansion with two commas,
+
+79
+00:04:19,160 --> 00:04:21,720
+ a parameter expansion with two cares to make it all uppercase.
+
+80
+00:04:21,720 --> 00:04:25,800
+ These are all things that Pearl has in two characters, LC, UC, and a bunch of these things
+
+81
+00:04:25,800 --> 00:04:27,480
+ are all covered by Pearl already.
+
+82
+00:04:27,480 --> 00:04:33,520
+ So the longest order that is the, the only thing, the only thing that bash gets you, the
+
+83
+00:04:33,520 --> 00:04:38,840
+ only thing that bash gets you is a little bit more power for a shell script on a system
+
+84
+00:04:38,840 --> 00:04:40,880
+ that's going to default to bash.
+
+85
+00:04:40,880 --> 00:04:46,600
+ And so if you only, and I write, I regularly write bash for work, even though the, the,
+
+86
+00:04:46,600 --> 00:04:49,280
+ the installer scripts that I write should be written in Pearl.
+
+87
+00:04:49,280 --> 00:04:50,280
+ They really should be.
+
+88
+00:04:50,280 --> 00:04:51,280
+ That's the sweet, sweet spot.
+
+89
+00:04:51,280 --> 00:04:55,560
+ They're doing a lot of text manipulation, bash is horrible for text manipulation.
+
+90
+00:04:55,560 --> 00:04:57,920
+ It's absolutely horrible for it.
+
+91
+00:04:57,920 --> 00:05:05,080
+ I have put bash through all kinds of convoluted things, you know, to, to put it to the test.
+
+92
+00:05:05,080 --> 00:05:10,000
+ So I can say this very confidently from a place of love for bash and wanting to like
+
+93
+00:05:10,000 --> 00:05:14,120
+ improve it, but, but it's just no, just, just no.
+
+94
+00:05:14,120 --> 00:05:17,480
+ And so let me, let me go back to, let me show you.
+
+95
+00:05:17,480 --> 00:05:19,240
+ So here's, here's my clip program, right?
+
+96
+00:05:19,240 --> 00:05:24,560
+ And we, we've been doing a, we're doing a whole series of me porting this thing here.
+
+97
+00:05:24,560 --> 00:05:27,400
+ This code right here, people say that Pearl is hard to read, right?
+
+98
+00:05:27,400 --> 00:05:29,600
+ They say, Oh, it's like read, write, write once.
+
+99
+00:05:29,600 --> 00:05:32,960
+ This is bash doing the same thing that Pearl would do, right?
+
+100
+00:05:32,960 --> 00:05:34,120
+ It's just as dense.
+
+101
+00:05:34,120 --> 00:05:35,760
+ It's just, it's even harder to read.
+
+102
+00:05:35,760 --> 00:05:40,360
+ Let's imagine the fact that you only get integer mathematics with bash.
+
+103
+00:05:40,360 --> 00:05:43,000
+ You don't get, you can't do any actual math here.
+
+104
+00:05:43,000 --> 00:05:45,120
+ You have to like shell out to BC to get it with Pearl.
+
+105
+00:05:45,120 --> 00:05:49,360
+ You get it built in, you know, you, not only that, you get binary packability.
+
+106
+00:05:49,360 --> 00:05:50,360
+ So you can pack an unpack.
+
+107
+00:05:50,360 --> 00:05:51,360
+ You can use map.
+
+108
+00:05:51,360 --> 00:05:54,000
+ You can use very functional based programming map grip.
+
+109
+00:05:54,000 --> 00:05:55,320
+ You can like iterate over thing.
+
+110
+00:05:55,320 --> 00:05:56,320
+ It's just crazy.
+
+111
+00:05:56,320 --> 00:06:00,800
+ Let's imagine the fact that Pearl is like one half the side, no, one quarter of the size
+
+112
+00:06:00,800 --> 00:06:02,680
+ of bash in memory consumption.
+
+113
+00:06:02,680 --> 00:06:03,680
+ So there's less shelling out.
+
+114
+00:06:03,680 --> 00:06:08,440
+ And I mean, if you do shell out and you use Pearl as a, as a, as a shell on steroids,
+
+115
+00:06:08,440 --> 00:06:09,440
+ which is how I use it.
+
+116
+00:06:09,440 --> 00:06:11,440
+ I don't use it as a Python replacement.
+
+117
+00:06:11,440 --> 00:06:17,520
+ Um, we actually had somebody report that somebody was saying that Python, that Pearl
+
+118
+00:06:17,520 --> 00:06:19,640
+ was inspired by Python and it came from Python.
+
+119
+00:06:19,640 --> 00:06:21,160
+ I thought that was so funny.
+
+120
+00:06:21,160 --> 00:06:22,400
+ We just heard that the other day.
+
+121
+00:06:22,400 --> 00:06:26,280
+ Anyway, you can't, you can't do any of this embedded documentation or anything.
+
+122
+00:06:26,280 --> 00:06:29,880
+ Pearl does all of that automatically, you, you use, use Pearl doc and then you can make
+
+123
+00:06:29,880 --> 00:06:32,680
+ your Pearl program be its own man page.
+
+124
+00:06:32,680 --> 00:06:35,000
+ You cannot do that in bash at all.
+
+125
+00:06:35,000 --> 00:06:37,280
+ This is me trying to do it right here.
+
+126
+00:06:37,280 --> 00:06:42,080
+ This setting of default values is like crazy, stupid compared to Pearl, compared to Pearl,
+
+127
+00:06:42,080 --> 00:06:45,680
+ which you can use multiple options and you can have them resolved based on the person
+
+128
+00:06:45,680 --> 00:06:52,600
+ that it's true, ish, true, you know, true if I, um, and then so, yeah, so that this is,
+
+129
+00:06:52,600 --> 00:06:54,440
+ this is what we're doing.
+
+130
+00:06:54,440 --> 00:06:55,440
+ This is a reason.
+
+131
+00:06:55,440 --> 00:06:57,560
+ I mean, these parameter expansion things are much easier.
+
+132
+00:06:57,560 --> 00:07:00,320
+ They're actually easier to understand in Pearl.
+
+133
+00:07:00,320 --> 00:07:02,120
+ So this, I'm just done with bash.
+
+134
+00:07:02,120 --> 00:07:04,400
+ I tried so hard to love it.
+
+135
+00:07:04,400 --> 00:07:05,640
+ I really did.
+
+136
+00:07:05,640 --> 00:07:06,640
+ And I did.
+
+137
+00:07:06,640 --> 00:07:12,520
+ I became a huge bash fanboy and, um, you know, the whole time, you know, it wasn't until
+
+138
+00:07:12,520 --> 00:07:17,600
+ I started doing some really serious text manipulation, uh, that I started going, man, this is not
+
+139
+00:07:17,600 --> 00:07:18,600
+ covering it.
+
+140
+00:07:18,600 --> 00:07:19,600
+ But here's the worst part.
+
+141
+00:07:19,600 --> 00:07:26,200
+ And I almost don't want to admit this because because I, I'm actually really, really embarrassed
+
+142
+00:07:26,200 --> 00:07:27,200
+ by this.
+
+143
+00:07:27,200 --> 00:07:29,040
+ So you guys know I made Banzai, right?
+
+144
+00:07:29,040 --> 00:07:30,040
+ I made Banzai.
+
+145
+00:07:30,040 --> 00:07:31,320
+ I wrote my own command line framework.
+
+146
+00:07:31,320 --> 00:07:33,160
+ Why did I make it?
+
+147
+00:07:33,160 --> 00:07:35,580
+ I made it because I wanted command line completion.
+
+148
+00:07:35,580 --> 00:07:37,080
+ I wanted better documentation.
+
+149
+00:07:37,080 --> 00:07:40,960
+ I want to command line completion and I want a full blown regular expression parsing and
+
+150
+00:07:40,960 --> 00:07:43,600
+ all the other things, great things that come with go.
+
+151
+00:07:43,600 --> 00:07:46,040
+ And I wrote Banzai specifically for one purpose.
+
+152
+00:07:46,040 --> 00:07:50,720
+ The purpose for bonds initially that is usually purpose for bonsai wasn't to make multi call
+
+153
+00:07:50,720 --> 00:07:53,520
+ awesome, multi call binaries, you know, akin to busy box and alpine.
+
+154
+00:07:53,520 --> 00:07:54,960
+ That wasn't the primary reason.
+
+155
+00:07:54,960 --> 00:07:58,720
+ The primary reason was I wanted to get rid of my 360 shell scripts and put them all into
+
+156
+00:07:58,720 --> 00:08:01,440
+ one monolith bonsai, uh, thing.
+
+157
+00:08:01,440 --> 00:08:03,520
+ And that's why I made it.
+
+158
+00:08:03,520 --> 00:08:04,600
+ Why?
+
+159
+00:08:04,600 --> 00:08:06,800
+ Because I was using bash.
+
+160
+00:08:06,800 --> 00:08:11,760
+ You know what's this is, this kind of makes me angry because, you know, I, I, I, the reason
+
+161
+00:08:11,760 --> 00:08:13,560
+ I did, and I still think that that's a good thing.
+
+162
+00:08:13,560 --> 00:08:16,720
+ And if you're a hacker and you want to make a root kid or a home kid or something like
+
+163
+00:08:16,720 --> 00:08:20,040
+ that, if you want a multi call binary, you want a single minus got everything in it,
+
+164
+00:08:20,040 --> 00:08:21,040
+ great.
+
+165
+00:08:21,040 --> 00:08:22,200
+ You can use go and go embed its spouses.
+
+166
+00:08:22,200 --> 00:08:24,200
+ I'm still a huge fan of go.
+
+167
+00:08:24,200 --> 00:08:29,480
+ But as you can already tell, in fact, I've got another thing here, um, it's called sure
+
+168
+00:08:29,480 --> 00:08:30,880
+ a shell Pearl go bliss.
+
+169
+00:08:30,880 --> 00:08:31,880
+ This is in my blogging.
+
+170
+00:08:31,880 --> 00:08:32,880
+ Go read it.
+
+171
+00:08:32,880 --> 00:08:36,000
+ Uh, but this, this is really, this is really bliss right here.
+
+172
+00:08:36,000 --> 00:08:40,960
+ And I, I'm still pro go, but, but the point with my, that I regret about bonsai is I made
+
+173
+00:08:40,960 --> 00:08:43,900
+ bonsai because I didn't have Pearl.
+
+174
+00:08:43,900 --> 00:08:47,480
+ And if, if I had had Pearl to do all of the manipulation, everything, I'd be able to
+
+175
+00:08:47,480 --> 00:08:50,840
+ write 10, 20 scripts a day, which is sometimes what I end up doing.
+
+176
+00:08:50,840 --> 00:08:54,000
+ I could have, I could have busted those things out without a problem.
+
+177
+00:08:54,000 --> 00:08:57,160
+ And I, I could never ever have done it that fast and go.
+
+178
+00:08:57,160 --> 00:09:01,320
+ And if I did, it would have been annoying because I had to redeploy my, my binary and
+
+179
+00:09:01,320 --> 00:09:02,320
+ all that stuff.
+
+180
+00:09:02,320 --> 00:09:05,640
+ Whereas I've got a shell script, you just get pulled down from your prox box over here
+
+181
+00:09:05,640 --> 00:09:07,560
+ and I got the shell script.
+
+182
+00:09:07,560 --> 00:09:13,640
+ I can't, I can't do that workflow with my compiled go code as cool as it is.
+
+183
+00:09:13,640 --> 00:09:18,000
+ Because the compiled go code can't just be pulled down on a, I could, I could say binaries
+
+184
+00:09:18,000 --> 00:09:21,600
+ in my, in my GitHub repo, if I wanted to, I actually did that for a while, but I don't
+
+185
+00:09:21,600 --> 00:09:22,600
+ want to do that.
+
+186
+00:09:22,600 --> 00:09:27,160
+ You, do you know what works really well and that kind of scenario with that kind of workflow,
+
+187
+00:09:27,160 --> 00:09:30,520
+ shell scripts and Python and Pearl and that kind of thing, right?
+
+188
+00:09:30,520 --> 00:09:33,400
+ So you want to do get pull and, and that kind of thing, right?
+
+189
+00:09:33,400 --> 00:09:38,600
+ So we're, I'm going to do a whole curse on, on Pearl now, and because, because I've been
+
+190
+00:09:38,600 --> 00:09:42,800
+ rediscovering how absolutely amazing it is as, as a shell on steroids.
+
+191
+00:09:42,800 --> 00:09:43,800
+ That's what it is.
+
+192
+00:09:43,800 --> 00:09:45,400
+ It's way better than bash.
+
+193
+00:09:45,400 --> 00:09:49,360
+ I'm still using bash as an interactive shell and I'm still using Z shell as an interactive,
+
+194
+00:09:49,360 --> 00:09:51,800
+ I will consider using Z shells interactive.
+
+195
+00:09:51,800 --> 00:09:52,800
+ So you know why?
+
+196
+00:09:52,800 --> 00:09:53,800
+ Because they don't care.
+
+197
+00:09:53,800 --> 00:09:54,800
+ I don't care anymore.
+
+198
+00:09:54,800 --> 00:09:57,480
+ All my RC scripts are going to be in POSIX shell.
+
+199
+00:09:57,480 --> 00:09:58,920
+ They'll work on anything.
+
+200
+00:09:58,920 --> 00:10:02,320
+ And I have multiples of them because this doesn't matter because I'm planning on pulling
+
+201
+00:10:02,320 --> 00:10:06,400
+ down the repo using get pull from a master repo.
+
+202
+00:10:06,400 --> 00:10:11,760
+ That's got all my config and then that, that frees me to make 300, 400, 600 Pearl scripts
+
+203
+00:10:11,760 --> 00:10:13,080
+ and POSIX scripts.
+
+204
+00:10:13,080 --> 00:10:16,660
+ I don't care because they're all going to come down instantaneously when I do a get
+
+205
+00:10:16,660 --> 00:10:17,660
+ pull.
+
+206
+00:10:17,660 --> 00:10:22,000
+ The reason I made bonsai is because I was not really, I made another video about my conversion
+
+207
+00:10:22,000 --> 00:10:26,560
+ over this idea of having everything in a, in a repo as opposed to, oh, I've got two or
+
+208
+00:10:26,560 --> 00:10:27,560
+ three files.
+
+209
+00:10:27,560 --> 00:10:28,560
+ I got an SCP or FTP over.
+
+210
+00:10:28,560 --> 00:10:29,560
+ I already did a whole video now.
+
+211
+00:10:29,560 --> 00:10:33,400
+ I got to watch that, but now that I know that I can, who cares how much stuff is in
+
+212
+00:10:33,400 --> 00:10:34,400
+ my dot files?
+
+213
+00:10:34,400 --> 00:10:39,000
+ As long as it's not big ass binary files that are going to bloke my thing out of control,
+
+214
+00:10:39,000 --> 00:10:42,720
+ then I can get pull my dot files and rebase every once in a while and I can have three,
+
+215
+00:10:42,720 --> 00:10:43,720
+ 400 scripts in there.
+
+216
+00:10:43,720 --> 00:10:44,720
+ It doesn't matter.
+
+217
+00:10:44,720 --> 00:10:46,760
+ And they can build me one liners.
+
+218
+00:10:46,760 --> 00:10:51,000
+ And I, the, the reason I like this is because when it comes to dot files and when it comes
+
+219
+00:10:51,000 --> 00:10:55,640
+ to my own personal configuration and writing my own on the fly filters for them and everything
+
+220
+00:10:55,640 --> 00:10:58,360
+ like that, flexibility is king.
+
+221
+00:10:58,360 --> 00:11:02,560
+ It's really paramount that I am able to like immediately write something as fast as I'm
+
+222
+00:11:02,560 --> 00:11:04,640
+ thinking about it and then move on to a thing.
+
+223
+00:11:04,640 --> 00:11:08,040
+ And I've, I've written like, by over six Twitch, you know, integration scripts just
+
+224
+00:11:08,040 --> 00:11:12,480
+ tonight that basically, you know, Pearl is the king of glue languages.
+
+225
+00:11:12,480 --> 00:11:15,720
+ And so I can like pull together JQ, which has been written that I can pull together
+
+226
+00:11:15,720 --> 00:11:17,360
+ the Twitch API command line tool.
+
+227
+00:11:17,360 --> 00:11:21,640
+ I can pull together the GH, uh, get up to, I can pull them, get all together and paste
+
+228
+00:11:21,640 --> 00:11:26,160
+ them together to do, you know, what, what pearls greatest strengths is, is a shell on steroids
+
+229
+00:11:26,160 --> 00:11:29,200
+ that pulls together, glues together, all the other things.
+
+230
+00:11:29,200 --> 00:11:33,380
+ And then, and then if I have something that's rudimentary, it becomes shell, positive shell.
+
+231
+00:11:33,380 --> 00:11:38,440
+ So as soon as I start needing to do extra things, I like reaching for Pearl.
+
+232
+00:11:38,440 --> 00:11:41,840
+ And as soon as I'm starting to do things that really don't like a lot of external dependencies
+
+233
+00:11:41,840 --> 00:11:46,480
+ or maybe I want to, you know, run some middleware or stuff or something like that, or I want,
+
+234
+00:11:46,480 --> 00:11:49,160
+ you know, I want to call binary or I want to make a container out of something.
+
+235
+00:11:49,160 --> 00:11:51,000
+ Then yeah, go makes a lot of sense.
+
+236
+00:11:51,000 --> 00:11:56,480
+ The point of it is I would not have spent so much time, uh, I love go, but I would not
+
+237
+00:11:56,480 --> 00:12:02,880
+ have spent so much time writing go to replace my shell scripts had I had Pearl had had Pearl.
+
+238
+00:12:02,880 --> 00:12:05,640
+ It would have been Pearl all the way the whole entire time.
+
+239
+00:12:05,640 --> 00:12:09,360
+ And, and, and quite honestly, I, we're doing this thing where we're like, we're converting
+
+240
+00:12:09,360 --> 00:12:11,640
+ this bash script to go.
+
+241
+00:12:11,640 --> 00:12:16,840
+ And I still feel like that's the best choice there because my clips tool can run on windows.
+
+242
+00:12:16,840 --> 00:12:17,840
+ It can run on anything.
+
+243
+00:12:17,840 --> 00:12:18,840
+ It can run.
+
+244
+00:12:18,840 --> 00:12:21,880
+ I'm not talking about windows running shell, it's going to, it can be, it can be run on
+
+245
+00:12:21,880 --> 00:12:26,780
+ windows, like by itself using PowerShell if you want, that would be a reason to use go.
+
+246
+00:12:26,780 --> 00:12:28,720
+ It's a really solid reason to use go.
+
+247
+00:12:28,720 --> 00:12:30,880
+ That is, you know, that was kind of things you don't want for Pearl.
+
+248
+00:12:30,880 --> 00:12:35,520
+ But, but for my own, for my own bash replacements that are just in my doff files, and by the
+
+249
+00:12:35,520 --> 00:12:40,720
+ way, I've made other videos about how important it is to not use suffixes on your scripts.
+
+250
+00:12:40,720 --> 00:12:46,400
+ This is why this is exactly the reason why I have 360 show scripts that have to change.
+
+251
+00:12:46,400 --> 00:12:48,800
+ And most of those are going to be changed from bash to Pearl.
+
+252
+00:12:48,800 --> 00:12:53,040
+ If I had dot SH on all of those suffixes and all of those scripts were interacting with
+
+253
+00:12:53,040 --> 00:12:58,960
+ one another by name, I would be royally broken right now.
+
+254
+00:12:58,960 --> 00:13:03,240
+ And because I did it right, I followed the unique convention of naming and executable
+
+255
+00:13:03,240 --> 00:13:04,680
+ whatever nobody cares.
+
+256
+00:13:04,680 --> 00:13:06,000
+ I'm able to switch around.
+
+257
+00:13:06,000 --> 00:13:09,840
+ I could, some of the scripts might actually be better as Python and I can switch to script
+
+258
+00:13:09,840 --> 00:13:13,320
+ and make it Python instead of Pearl or instead of bash, right, I can go back to positive
+
+259
+00:13:13,320 --> 00:13:14,320
+ shell.
+
+260
+00:13:14,320 --> 00:13:15,760
+ It doesn't matter because they don't have a suffix.
+
+261
+00:13:15,760 --> 00:13:20,720
+ So if you are still putting suffixes on the end of your shell scripts, stop, please stop.
+
+262
+00:13:20,720 --> 00:13:24,000
+ For the good of humanity, you're going to kill the children.
+
+263
+00:13:24,000 --> 00:13:27,040
+ Don't do it.
+
+264
+00:13:27,040 --> 00:13:29,560
+ People sent out, uh, send an ock for text manipulation.
+
+265
+00:13:29,560 --> 00:13:31,080
+ Bash is definitely terrible.
+
+266
+00:13:31,080 --> 00:13:32,240
+ Bash is terrible for it.
+
+267
+00:13:32,240 --> 00:13:36,600
+ Set in ock are horrible for text manipulation, absolutely horrible.
+
+268
+00:13:36,600 --> 00:13:39,360
+ Set dash I and octosh I are not supported.
+
+269
+00:13:39,360 --> 00:13:40,560
+ They're not POSIX.
+
+270
+00:13:40,560 --> 00:13:42,560
+ You can't do in place edits.
+
+271
+00:13:42,560 --> 00:13:48,360
+ The, uh, with ocken said, unless you in grep, even grep, you have to like go out of your
+
+272
+00:13:48,360 --> 00:13:53,120
+ way to use a Pearl compatible regular expression on something that may or may not be installed.
+
+273
+00:13:53,120 --> 00:13:59,720
+ If you have Pearl, you have all of that for free for one, fourth, the RAM size consumption.
+
+274
+00:13:59,720 --> 00:14:04,400
+ This is that blew me away when I saw when I saw that the Pearl execute, the Pearl interpreters
+
+275
+00:14:04,400 --> 00:14:08,760
+ smaller than ock and we're not talking because it's just dynamically dynamically in libraries.
+
+276
+00:14:08,760 --> 00:14:11,120
+ It's just, it's fundamentally smaller.
+
+277
+00:14:11,120 --> 00:14:12,120
+ That blew my mind.
+
+278
+00:14:12,120 --> 00:14:15,960
+ It's actually blew my mind that people are still, you know, saying bad things and trash
+
+279
+00:14:15,960 --> 00:14:18,280
+ talking, uh, Pearl and this era.
+
+280
+00:14:18,280 --> 00:14:23,040
+ So, uh, most platforms, Pearl work anywhere that there's a Git.
+
+281
+00:14:23,040 --> 00:14:25,920
+ So anywhere that there is a Git, there will be Pearl.
+
+282
+00:14:25,920 --> 00:14:29,000
+ And one of the really important things I need to tell you, I think I may have said it already,
+
+283
+00:14:29,000 --> 00:14:33,920
+ but, but the Git project, the Git project announced that in first quarter 2025, they
+
+284
+00:14:33,920 --> 00:14:41,560
+ are requiring Pearl version 5.26, which is amazing because they're already up to like
+
+285
+00:14:41,560 --> 00:14:46,680
+ 5.38 on things and so, you know, it's going to be, it's going to be really great to take
+
+286
+00:14:46,680 --> 00:14:47,680
+ part in that.
+
+287
+00:14:47,680 --> 00:14:52,040
+ And, and if, if anything, you know, I was always afraid that the Git project was going
+
+288
+00:14:52,040 --> 00:14:56,120
+ to pull Pearl out of the project and instead they're upgrading it.
+
+289
+00:14:56,120 --> 00:14:57,120
+ You go bigger.
+
+290
+00:14:57,120 --> 00:15:00,760
+ And I think it's because they actually realize how amazing it is for text processing.
+
+291
+00:15:00,760 --> 00:15:04,000
+ There is nothing better on the planet for text processing.
+
+292
+00:15:04,000 --> 00:15:06,960
+ I swear to God, I will go to my grave on that.
+
+293
+00:15:06,960 --> 00:15:11,680
+ There is no better language on planet earth for text processing.
+
+294
+00:15:11,680 --> 00:15:18,800
+ And, and most of systems, DE work and system administration and a large amount of DevOps
+
+295
+00:15:18,800 --> 00:15:24,040
+ and Kubernetes, YAML, all of that stuff, it's all text processing people.
+
+296
+00:15:24,040 --> 00:15:25,040
+ It's all Unix.
+
+297
+00:15:25,040 --> 00:15:26,200
+ It's all text processing.
+
+298
+00:15:26,200 --> 00:15:30,280
+ And if, if you are not taking advantage of the most powerful text processing language
+
+299
+00:15:30,280 --> 00:15:34,800
+ on the planet, I don't care how old it is, you're doing yourself a disservice.
+
+300
+00:15:34,800 --> 00:15:35,800
+ You really are.
+
+301
+00:15:35,800 --> 00:15:36,800
+ That's all.
+
+302
+00:15:36,800 --> 00:15:45,800
+ [BLANK_AUDIO]
+

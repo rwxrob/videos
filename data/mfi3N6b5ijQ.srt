@@ -1,0 +1,1408 @@
+1
+00:00:00,000 --> 00:00:07,160
+ all right I'm making a quick little video about licenses in 2026 the question
+
+2
+00:00:07,160 --> 00:00:09,840
+ come up about which license you should use and someone who said maybe I should
+
+3
+00:00:09,840 --> 00:00:16,560
+ use a pharaoh GPL which is down here he spelled it wrong I see so I'm gonna
+
+4
+00:00:16,560 --> 00:00:19,680
+ summarize the licenses really quick I am not a lawyer obviously you need to make
+
+5
+00:00:19,680 --> 00:00:24,480
+ your own decision I'm also kind of on a chill Friday night so my my voice is a
+
+6
+00:00:24,480 --> 00:00:28,720
+ little chill and I'm gonna go through this I've actually had a lot of history
+
+7
+00:00:28,720 --> 00:00:33,840
+ with licenses I was I was instrumental in taking down Facebook's licensing bullshit
+
+8
+00:00:33,840 --> 00:00:37,580
+ that they did for react which was causing react and not be used for many
+
+9
+00:00:37,580 --> 00:00:41,260
+ many years it was spawning the creation of pre-act and a bunch of other things
+
+10
+00:00:41,260 --> 00:00:45,720
+ that had an actual license and I will tell that story in a bit when I get to it
+
+11
+00:00:45,720 --> 00:00:51,400
+ but the easiest the easiest license you let me let me just put the criteria out
+
+12
+00:00:51,400 --> 00:01:01,280
+ there for you right so for me the criteria are criteria for me are like
+
+13
+00:01:01,280 --> 00:01:14,200
+ favors so the criteria for me are number one can I use my own code or projects
+
+14
+00:01:14,200 --> 00:01:20,200
+ at work and I know that doesn't seem like the intuitive obvious reason to use
+
+15
+00:01:20,200 --> 00:01:26,000
+ it but it really for me it is because I want to I want to write projects on my
+
+16
+00:01:26,000 --> 00:01:33,120
+ own time which I've been doing tonight that can be used by work and there's a
+
+17
+00:01:33,120 --> 00:01:39,640
+ thing called fossa which is you know open source association to figure out
+
+18
+00:01:39,640 --> 00:01:43,960
+ whether you can use code or not and a lot of a lot of big corporations will
+
+19
+00:01:43,960 --> 00:01:49,840
+ subscribe to Spassa service to decide whether code can be used now big
+
+20
+00:01:49,840 --> 00:01:52,720
+ court in order to understand why corporations have to do this have to
+
+21
+00:01:52,720 --> 00:02:00,320
+ explain a little bit so the first thing is the corporations are deathly
+
+22
+00:02:00,320 --> 00:02:08,800
+ terrified of litigation and therefore they won't even if something is under a
+
+23
+00:02:08,800 --> 00:02:12,800
+ good license if it's a big piece of something a product offering that they
+
+24
+00:02:12,800 --> 00:02:17,200
+ want to do they will do their own research and their own legal team to do
+
+25
+00:02:17,200 --> 00:02:23,200
+ their own research about the heredity of a project who's been involved with it
+
+26
+00:02:23,200 --> 00:02:27,120
+ sometimes like it's so down to earth they'll actually go through and look at
+
+27
+00:02:27,120 --> 00:02:30,120
+ all the individual contributors to the project and make sure every one of them
+
+28
+00:02:30,120 --> 00:02:35,880
+ had a DCO you know and all the proper things this is why any decent project
+
+29
+00:02:35,880 --> 00:02:41,480
+ will have verified contributors because if you're not a verified
+
+30
+00:02:41,480 --> 00:02:44,880
+ contributor then they can't prove it was you who signed the DCO and therefore
+
+31
+00:02:44,880 --> 00:02:48,600
+ they can't prove it's you know you could claim it wasn't you because they can't
+
+32
+00:02:48,600 --> 00:02:52,200
+ prove it but if you are a verified contributor to get a project which
+
+33
+00:02:52,200 --> 00:02:56,600
+ requires you know set up a certificates for yourself and everything they can do
+
+34
+00:02:56,600 --> 00:03:01,480
+ that so one of the ways to spot a good project on the line a good open source
+
+35
+00:03:01,480 --> 00:03:08,680
+ project is number one it'll have a a license that everybody is okay with for
+
+36
+00:03:08,680 --> 00:03:13,800
+ the most part including corporations so that everybody can use it despite what
+
+37
+00:03:13,800 --> 00:03:17,520
+ Richard Stallman might say about me saying that I don't give a shit and the
+
+38
+00:03:17,520 --> 00:03:23,760
+ second piece of it would be how well have they organized their projects so
+
+39
+00:03:23,760 --> 00:03:26,800
+ they're they're insured that they're not going to get contributions from people
+
+40
+00:03:26,800 --> 00:03:33,120
+ that are you know and if you want to actually a really fun rabbit hole to go
+
+41
+00:03:33,120 --> 00:03:41,800
+ down go study all of the you know hoopla about the the Minecraft purchase by
+
+42
+00:03:41,800 --> 00:03:48,840
+ Microsoft and how unhinged the entire Minecraft mod community came even though
+
+43
+00:03:48,840 --> 00:03:55,520
+ they were modifying the software illegally it's a really fun rabbit hole
+
+44
+00:03:55,520 --> 00:04:01,240
+ they were actually suing them for using their contributions to code they were
+
+45
+00:04:01,240 --> 00:04:06,720
+ never supposed to be modified in the first place it's really funny so let me
+
+46
+00:04:06,720 --> 00:04:11,920
+ just come back to this so my criteria is if I make a project can I turn around and
+
+47
+00:04:11,920 --> 00:04:16,040
+ use it at work with a high degree of confidence that it's going to be usable
+
+48
+00:04:16,040 --> 00:04:21,080
+ at work and a lot of times I will write libraries on my own time that I want to
+
+49
+00:04:21,080 --> 00:04:23,920
+ use it work and it's a you know it's a kind of a great area you got to be
+
+50
+00:04:23,920 --> 00:04:30,440
+ careful there's a very famous Silicon Valley episode about this where you know
+
+51
+00:04:30,440 --> 00:04:34,720
+ he uses his work computer just to log in to make one commit to his code base
+
+52
+00:04:34,720 --> 00:04:39,880
+ and that caused the entire code base to be owned by the company because he's a
+
+53
+00:04:39,880 --> 00:04:43,960
+ company computer to do that that is that is real that actually happens that kind
+
+54
+00:04:43,960 --> 00:04:48,320
+ of stuff does happen so you know it's up to you to assess how big and how
+
+55
+00:04:48,320 --> 00:04:53,000
+ important the project is how much money it's worth I actually had a lawyer from
+
+56
+00:04:53,000 --> 00:04:56,920
+ a company that shall not be named call me because I was so paranoid about this
+
+57
+00:04:56,920 --> 00:05:00,880
+ very sort of thing and they said yeah I don't worry about it this is and you
+
+58
+00:05:00,880 --> 00:05:04,760
+ you're fine because I had written some pearl code that I wanted to use at work
+
+59
+00:05:04,760 --> 00:05:09,440
+ but I had written it as an open source project separate and at the time the
+
+60
+00:05:09,440 --> 00:05:14,160
+ company that I worked for claimed to own everything including your dreams it
+
+61
+00:05:14,160 --> 00:05:17,800
+ was all theirs and they would litigate against you to get it and I don't work
+
+62
+00:05:17,800 --> 00:05:22,000
+ there anymore thank God but that you know you got to be careful as a
+
+63
+00:05:22,000 --> 00:05:25,320
+ developer out there I mean there's a bunch of legal issues as a developer
+
+64
+00:05:25,320 --> 00:05:29,440
+ any that doesn't get us a software to I'm talking about anybody who writes any
+
+65
+00:05:29,440 --> 00:05:33,920
+ kind of code at all because you you know you got to be you got to be careful
+
+66
+00:05:33,920 --> 00:05:39,600
+ about that and I walk a pretty fine line between there because I do work on I do
+
+67
+00:05:39,600 --> 00:05:44,880
+ like like change up ideas and explore different architectural approaches in
+
+68
+00:05:44,880 --> 00:05:49,200
+ the public space mostly to get consensus and buy-in from my peer group
+
+69
+00:05:49,200 --> 00:05:52,760
+ professionally which I would do if I went to a meetup same sort of thing I would
+
+70
+00:05:52,760 --> 00:05:55,880
+ do I just do it publicly I'm talking about things that concern me at work
+
+71
+00:05:55,880 --> 00:05:59,640
+ even though I'm not talking about specific work projects necessarily and so
+
+72
+00:05:59,640 --> 00:06:03,080
+ you know that that's important fine line to walk and it's probably a separate
+
+73
+00:06:03,080 --> 00:06:07,160
+ video but when it comes to licensing that whole thing gets really really
+
+74
+00:06:07,160 --> 00:06:13,200
+ easy if you pick a license that you know your company is gonna love and that is
+
+75
+00:06:13,200 --> 00:06:17,320
+ the ask-backward different approach from what the people who created open source
+
+76
+00:06:17,320 --> 00:06:23,720
+ wants you to do they want you to pick licenses that force corporations to tow
+
+77
+00:06:23,720 --> 00:06:29,080
+ the line and to release everything they want that software as as others have
+
+78
+00:06:29,080 --> 00:06:34,480
+ called it to be viral so that it forces not only that software to be released
+
+79
+00:06:34,480 --> 00:06:39,680
+ to the public but everything that uses it and everything that uses it is
+
+80
+00:06:39,680 --> 00:06:44,520
+ there for pulled along for the ride and the intention of these rather radical
+
+81
+00:06:44,520 --> 00:06:50,840
+ free software foundation people is to force all corporate software to be given
+
+82
+00:06:50,840 --> 00:06:55,760
+ for free and if you don't believe me go watch Richard Stallman directly
+
+83
+00:06:55,760 --> 00:07:01,640
+ suggest that any kid who makes cookies and brings a cookie to school must give
+
+84
+00:07:01,640 --> 00:07:06,320
+ everybody else the cookies otherwise he's being selfish and he uses that as a
+
+85
+00:07:06,320 --> 00:07:11,760
+ comment as it's to say that if you write code and you want to bring that code to
+
+86
+00:07:11,760 --> 00:07:15,560
+ the world then you have to give that code to everybody and it's a very horrible
+
+87
+00:07:15,560 --> 00:07:23,240
+ idea it's a horrible idea is not moral in any level in my opinion and so you see
+
+88
+00:07:23,240 --> 00:07:31,120
+ these other licenses which have written like walked the very very narrow path
+
+89
+00:07:31,120 --> 00:07:35,480
+ in between these two things and yes they have been abused by corporations like
+
+90
+00:07:35,480 --> 00:07:42,760
+ Apple for example who basically stole BSD Unix repackaged it as next as it's
+
+91
+00:07:42,760 --> 00:07:47,120
+ now running on this computer right now there are corporations who are going to
+
+92
+00:07:47,120 --> 00:07:50,920
+ take it this is the same reason that Apple didn't release the most recent
+
+93
+00:07:50,920 --> 00:07:56,800
+ version of bash because bash B2 was the last version that released under GPL V2
+
+94
+00:07:56,800 --> 00:08:01,760
+ and therefore the last version that could be used without pulling along all
+
+95
+00:08:01,760 --> 00:08:05,160
+ of the other issue all of the other things which we'll get to when we talk
+
+96
+00:08:05,160 --> 00:08:09,240
+ about GPL V3 and there could be ton of hate in the comments here I'm ready for
+
+97
+00:08:09,240 --> 00:08:12,840
+ I don't care probably turn comments off I'm sick and tired of defending myself
+
+98
+00:08:12,840 --> 00:08:16,680
+ against free software foundation households who think that everybody's
+
+99
+00:08:16,680 --> 00:08:20,760
+ who writes anything it should be given it should be given it for free including
+
+100
+00:08:20,760 --> 00:08:24,200
+ you know some of the some of the famous ones by the way and a lot of the people
+
+101
+00:08:24,200 --> 00:08:27,920
+ that are pushing for these things are dirt poor and they have nothing to show
+
+102
+00:08:27,920 --> 00:08:32,320
+ for it so you know the idea that you should give all your stuff away for free
+
+103
+00:08:32,320 --> 00:08:38,000
+ is wrong it's wrong there I'm done okay so so I want to be able to use my
+
+104
+00:08:38,000 --> 00:08:42,960
+ projects for work that means the most famous and then the other thing too is
+
+105
+00:08:42,960 --> 00:08:58,160
+ I want to see I want to be protected when my projects fail others this is my
+
+106
+00:08:58,160 --> 00:09:02,600
+ number two thing like if my stuff breaks your shit I don't want you coming out
+
+107
+00:09:02,600 --> 00:09:12,840
+ for me right so that's it and I and I I guess I want to be able to share my code
+
+108
+00:09:12,840 --> 00:09:18,640
+ with everyone and I mean everyone right and the other one I put you should say
+
+109
+00:09:18,640 --> 00:09:28,440
+ is like I don't want you making money on my code without mentioning me at
+
+110
+00:09:28,440 --> 00:09:37,960
+ least there's a lot of people that will do this all right so that's what these
+
+111
+00:09:37,960 --> 00:09:41,960
+ code these are these things do so the the number one license by far the most
+
+112
+00:09:41,960 --> 00:09:48,280
+ happily adopted lost license by everybody's Apache the real reason Apache is so
+
+113
+00:09:48,280 --> 00:09:53,040
+ popular is because it's really really long and it's really legal legal
+
+114
+00:09:53,040 --> 00:09:56,960
+ teams and corporations lawyers they love it because it's very very explicit and
+
+115
+00:09:56,960 --> 00:10:01,840
+ it very explicitly grads patent rights which is something some of the other
+
+116
+00:10:01,840 --> 00:10:07,520
+ MIT does not do not do so patent rights are a huge thing to the corporate world
+
+117
+00:10:07,520 --> 00:10:10,400
+ and all the other licenses pretty much missed the boat now some of them might
+
+118
+00:10:10,400 --> 00:10:13,400
+ have caught up and have new versions of it I don't know but that last I checked
+
+119
+00:10:13,400 --> 00:10:18,680
+ Apache has always been really good at doing that and they have you know been in
+
+120
+00:10:18,680 --> 00:10:22,160
+ the business for a very long time so they're the most trusted license in my
+
+121
+00:10:22,160 --> 00:10:27,120
+ opinion it kind of goes without saying to do that I should probably put creative
+
+122
+00:10:27,120 --> 00:10:32,080
+ comments to that's a kind of a different license we'll talk about software
+
+123
+00:10:32,080 --> 00:10:36,520
+ licenses for today MIT is a really good license this is a very short license it
+
+124
+00:10:36,520 --> 00:10:39,160
+ gives everything away for free but it doesn't grant patent rights and therefore
+
+125
+00:10:39,160 --> 00:10:46,040
+ it's not as popular with corporations in fact it's very unlikely that you'll get
+
+126
+00:10:46,040 --> 00:10:50,080
+ an MIT project approved by a big corporation as much as it would be for
+
+127
+00:10:50,080 --> 00:10:53,480
+ Apache when so you know they're both the same except for the patent rights
+
+128
+00:10:53,480 --> 00:10:57,720
+ thing so why not just do Apache I mean if you can think of a good reason for
+
+129
+00:10:57,720 --> 00:11:00,980
+ that please put that in the comments instead of some hate
+
+130
+00:11:00,980 --> 00:11:09,400
+ GPOB 2 is the current license that's been released for for for all Linux
+
+131
+00:11:09,400 --> 00:11:16,680
+ software and Linus Torvalds has a very good video speaking to the question is a
+
+132
+00:11:16,680 --> 00:11:20,560
+ pre-software foundation person asked in the question point blank why do you hate
+
+133
+00:11:20,560 --> 00:11:23,800
+ free software so much or something like that there's a great great video I'm
+
+134
+00:11:23,800 --> 00:11:29,120
+ gonna let you go find it of him defending GPOB 2 and him considering he
+
+135
+00:11:29,120 --> 00:11:35,520
+ actually says that it was immoral of the FSF to release the GPOB 3 the way they
+
+136
+00:11:35,520 --> 00:11:39,560
+ did they they it's a totally different license which he's totally okay with
+
+137
+00:11:39,560 --> 00:11:44,160
+ people having but they try to make you think it's an extension of GPOB 2 or the
+
+138
+00:11:44,160 --> 00:11:50,320
+ GPL and it is not and so let me talk about that this is super important GPOB 3
+
+139
+00:11:50,320 --> 00:11:57,280
+ forces forces anybody who's producing firmware for any hardware to make that
+
+140
+00:11:57,280 --> 00:12:03,560
+ firmware completely open to be changed by the user and you're asking yourself
+
+141
+00:12:03,560 --> 00:12:06,920
+ what does it have to do with free software it has nothing to do with free
+
+142
+00:12:06,920 --> 00:12:11,600
+ software nothing it has nothing to do with it it's called the Tivoization is
+
+143
+00:12:11,600 --> 00:12:15,320
+ supposedly fighting the Tivoization of the world where people take Linux
+
+144
+00:12:15,320 --> 00:12:19,400
+ operating systems they put him on closed hardware and essentially it becomes
+
+145
+00:12:19,400 --> 00:12:23,400
+ proprietary because nobody can get in there to change it when the intention of
+
+146
+00:12:23,400 --> 00:12:27,640
+ the open source movement was supposed to be that the user of the product can
+
+147
+00:12:27,640 --> 00:12:31,360
+ always go in there and change their stuff I tend to agree with that but that's
+
+148
+00:12:31,360 --> 00:12:37,200
+ not up to the license to decide and if it it was never in any other license so
+
+149
+00:12:37,200 --> 00:12:41,280
+ the GPL V2 is still the preferred license and the only license that Linux
+
+150
+00:12:41,280 --> 00:12:46,680
+ revolves will use because he refuses to force people putting Linux on things
+
+151
+00:12:46,680 --> 00:12:52,680
+ just to to create extra work for themselves to so that the users of the
+
+152
+00:12:52,680 --> 00:12:55,840
+ product can get here not only is that more work and more expensive for a
+
+153
+00:12:55,840 --> 00:13:00,040
+ company but it's also insecure because that means you're now opening some of
+
+154
+00:13:00,040 --> 00:13:05,080
+ this closed-source hardware to change now for the better or worse right now
+
+155
+00:13:05,080 --> 00:13:09,800
+ you can make a huge debate here because because you know the Tivo and a lot of
+
+156
+00:13:09,800 --> 00:13:14,560
+ set top boxes and routers have been vulnerable have to buy a new device in
+
+157
+00:13:14,560 --> 00:13:18,720
+ order to get the update of firmware because they lock down the operating
+
+158
+00:13:18,720 --> 00:13:23,120
+ system on it you can't even flash it and so they you know they force it to be
+
+159
+00:13:23,120 --> 00:13:29,000
+ done but but towards point and I completely agree is that that is not up
+
+160
+00:13:29,000 --> 00:13:34,840
+ to the developer of the software that is up to the hardware vendor to make that
+
+161
+00:13:34,840 --> 00:13:38,720
+ decision and forcing a hardware vendor to make a decision about their hardware
+
+162
+00:13:38,720 --> 00:13:43,320
+ just because of the software they want to run on is is immoral and I agree and
+
+163
+00:13:43,320 --> 00:13:47,680
+ let me give you a very specific case where this this is really bad so Linux
+
+164
+00:13:47,680 --> 00:13:52,360
+ is really good at making smaller and smaller devices accessible you can put
+
+165
+00:13:52,360 --> 00:13:57,040
+ Linux on you know a lapel pin or a tiny little speaker that you use on your ear
+
+166
+00:13:57,040 --> 00:14:02,240
+ or something and that's fantastic but the smaller the thing gets Linux is
+
+167
+00:14:02,240 --> 00:14:07,920
+ already pretty big right so it becomes to force somebody to put a device to
+
+168
+00:14:07,920 --> 00:14:12,080
+ to create accessibility points like how the hell are you supposed to flash the
+
+169
+00:14:12,080 --> 00:14:15,360
+ software and change it and look at it in on a little device unless you're doing
+
+170
+00:14:15,360 --> 00:14:18,560
+ it over Bluetooth or something which is what most of them do the point of it is
+
+171
+00:14:18,560 --> 00:14:24,960
+ that you're kind of forcing extra interfaces into the device you're forcing
+
+172
+00:14:24,960 --> 00:14:30,440
+ hardware architecture to be to have extra things like Bluetooth
+
+173
+00:14:30,440 --> 00:14:34,520
+ accessibility for the firmware or or all this and that goes for anything that
+
+174
+00:14:34,520 --> 00:14:39,320
+ could be something running inside of the Mars rover right and that that thing now
+
+175
+00:14:39,320 --> 00:14:42,960
+ has to be open you know for the users to go in and make a change to it or
+
+176
+00:14:42,960 --> 00:14:46,880
+ something there there comes a point at which that's the which is kind of
+
+177
+00:14:46,880 --> 00:14:53,400
+ interesting given Torvald's hate of the NVIDIA team and never giving over it got
+
+178
+00:14:53,400 --> 00:14:59,080
+ better but never giving over a resource to their drivers you know it's just
+
+179
+00:14:59,080 --> 00:15:02,840
+ interesting to hear him argue for hey I don't want to fake force hardware people
+
+180
+00:15:02,840 --> 00:15:07,480
+ to do things based on the license and then have him also flip off NVIDIA for
+
+181
+00:15:07,480 --> 00:15:12,200
+ not allowing their drivers to their hardware to be open source so you know
+
+182
+00:15:12,200 --> 00:15:17,520
+ that's the thing so GPOB2 is the pick for me this is this this all this does
+
+183
+00:15:17,520 --> 00:15:23,960
+ very simply it says and it has no patent rights granted it it says look if you
+
+184
+00:15:23,960 --> 00:15:27,120
+ make any changes to software just make sure you give them back to us because
+
+185
+00:15:27,120 --> 00:15:30,880
+ we you know we don't want you to make changes and then you know throw them out
+
+186
+00:15:30,880 --> 00:15:35,800
+ Apache and MIT don't don't force that that's why corporations love them because
+
+187
+00:15:35,800 --> 00:15:39,960
+ if you make a change to an Apache MIT project you can expand on it you can
+
+188
+00:15:39,960 --> 00:15:45,560
+ sell it you have to make you have to make this stuff that's in there disclose
+
+189
+00:15:45,560 --> 00:15:50,280
+ that has to be attributed that you're using it which Apple doesn't do but you
+
+190
+00:15:50,280 --> 00:15:53,280
+ know you have to say that you're using the software and who who helped write it
+
+191
+00:15:53,280 --> 00:15:57,360
+ and all that but you don't have to do anything else so you can totally you know
+
+192
+00:15:57,360 --> 00:16:01,120
+ wrap it up put your own thing on there and just move on it's really great for
+
+193
+00:16:01,120 --> 00:16:04,760
+ business that's why they like them GPOB2 however is different than that that
+
+194
+00:16:04,760 --> 00:16:10,320
+ means that if you make any change to the software at all so you adapt it for
+
+195
+00:16:10,320 --> 00:16:14,800
+ your hardware or something like that that change has to be released to the
+
+196
+00:16:14,800 --> 00:16:18,280
+ public because if you don't have to sell it it doesn't you know you can still sell
+
+197
+00:16:18,280 --> 00:16:21,880
+ the software you can sell your change to it but you still have to have that
+
+198
+00:16:21,880 --> 00:16:25,880
+ change visible so that everyone else can benefit from your change to that
+
+199
+00:16:25,880 --> 00:16:31,840
+ software so if you customize the kernel in the case of Linux you have got to
+
+200
+00:16:31,840 --> 00:16:35,680
+ give those customizations to everybody else and there's lgpl which is a
+
+201
+00:16:35,680 --> 00:16:40,120
+ different one that's related to libraries and the interface between them
+
+202
+00:16:40,120 --> 00:16:44,160
+ which gets really complicated the project that's most prominent using that is a
+
+203
+00:16:44,160 --> 00:16:49,480
+ QT project which is now gone entirely proprietary except for the X project
+
+204
+00:16:49,480 --> 00:16:53,120
+ they've given a perpetual license to forever because it's become that's
+
+205
+00:16:53,120 --> 00:16:56,160
+ that particular software has become the number one tool for dashboards and
+
+206
+00:16:56,160 --> 00:17:01,000
+ cars and stuff and and this is wildly successful profitable company now
+
+207
+00:17:01,000 --> 00:17:07,840
+ because they closed it all down BSD is a great license this Berkeley license is
+
+208
+00:17:07,840 --> 00:17:13,240
+ it's kind of like MIT the problem with BSD is how many variations of them there
+
+209
+00:17:13,240 --> 00:17:17,200
+ are there are like four or five variations of the BSD licenses like which
+
+210
+00:17:17,200 --> 00:17:21,200
+ were you talking about and it's because of that flexibility in the variations in
+
+211
+00:17:21,200 --> 00:17:26,440
+ the license that Facebook tried to get around the general protection of BSD and
+
+212
+00:17:26,440 --> 00:17:31,920
+ put a clause in the their version of the BSD is called BSD plus patents and you
+
+213
+00:17:31,920 --> 00:17:36,080
+ can go do another rabbit hole you can go research this on Facebook one of my blog
+
+214
+00:17:36,080 --> 00:17:39,720
+ posts about this was one of the React is not free software you can go do the
+
+215
+00:17:39,720 --> 00:17:42,800
+ search for that and React is not free software you can go read that whole
+
+216
+00:17:42,800 --> 00:17:46,760
+ blog that blew the lid off this and the Apache Foundation came out and said you
+
+217
+00:17:46,760 --> 00:17:50,240
+ cannot participate any any Apache project whatsoever and that includes
+
+218
+00:17:50,240 --> 00:17:55,160
+ lots of this not Apache or Eclipse cannot release anything under this
+
+219
+00:17:55,160 --> 00:17:59,920
+ license not only that but the developers who use that license were also suspect
+
+220
+00:17:59,920 --> 00:18:04,120
+ because they were like they wanted to shut it down why would they be so angry
+
+221
+00:18:04,120 --> 00:18:08,760
+ about a Facebook license because it was called BSD plus patents what it was it
+
+222
+00:18:08,760 --> 00:18:13,880
+ looked like a BSD license but what it really had was if it it wasn't patent
+
+223
+00:18:13,880 --> 00:18:19,120
+ was something like if you ever sued Facebook in any capacity for anything
+
+224
+00:18:19,120 --> 00:18:23,640
+ for patent infringement or for any other reason if you ever sued Facebook then
+
+225
+00:18:23,640 --> 00:18:28,240
+ they pulled your license automatically that means the BSD license that they
+
+226
+00:18:28,240 --> 00:18:33,200
+ released an under no longer was valid so that it added a condition if you see our
+
+227
+00:18:33,200 --> 00:18:38,080
+ company this license no longer stands that mean it was such a big deal that the
+
+228
+00:18:38,080 --> 00:18:42,080
+ VMware Corporation back when it was a corporation and I have the video I have
+
+229
+00:18:42,080 --> 00:18:45,640
+ the screenshots of the emails from the guy who was talking to the lawyer team
+
+230
+00:18:45,640 --> 00:18:51,800
+ that they they submitted their stuff and to the lawyer legal team and the
+
+231
+00:18:51,800 --> 00:18:55,000
+ legal team was no this is like two sketch we don't want this at all and so
+
+232
+00:18:55,000 --> 00:19:00,320
+ they banished anything with BSD plus patents and they reached out to
+
+233
+00:19:00,320 --> 00:19:03,320
+ Facebook saying hey we want to use react but we can't because your stupid
+
+234
+00:19:03,320 --> 00:19:07,520
+ license our legal team won't accept it and they said oh well and so then you had
+
+235
+00:19:07,520 --> 00:19:11,600
+ pre-act and a bunch of other tools that were kind of clones of react come up
+
+236
+00:19:11,600 --> 00:19:14,720
+ you got really popular read about that time because everybody was like I'm not
+
+237
+00:19:14,720 --> 00:19:18,020
+ using react and for corporate because I can't I can't be sure it's not gonna
+
+238
+00:19:18,020 --> 00:19:21,760
+ they're gonna come back at us my legal no legal team on the planet's gonna accept
+
+239
+00:19:21,760 --> 00:19:25,120
+ it because you could have sued him over any other thing and they're gonna pull
+
+240
+00:19:25,120 --> 00:19:28,600
+ the license to your core software why would you ever risk writing a software
+
+241
+00:19:28,600 --> 00:19:33,140
+ with that patent like with that license in it and it was so bad that the Apache
+
+242
+00:19:33,140 --> 00:19:38,160
+ project itself finally did it and then Facebook relented and they said oh we're
+
+243
+00:19:38,160 --> 00:19:44,480
+ so sorry yeah we meant to put this as MIT the whole time and they tried to
+
+244
+00:19:44,480 --> 00:19:51,120
+ save base and they re-released react under MIT and that pleased everyone but
+
+245
+00:19:51,120 --> 00:19:55,440
+ they would not put it under Apache was just kind of ironic because it was a
+
+246
+00:19:55,440 --> 00:20:00,720
+ better license but I know what am I done or did I enter MIT that the idea that
+
+247
+00:20:00,720 --> 00:20:05,560
+ that a company would think that they could release open software that had a
+
+248
+00:20:05,560 --> 00:20:10,480
+ contingency that the license was invalid if you sued them just blows my mind how
+
+249
+00:20:10,480 --> 00:20:16,000
+ stupid that company is in fact if there's one reason that I cannot recommend
+
+250
+00:20:16,000 --> 00:20:20,520
+ anybody work for Facebook not only are they one of the most amoral companies on
+
+251
+00:20:20,520 --> 00:20:26,400
+ the planet immoral not even a moral they're just like so bad and they're so
+
+252
+00:20:26,400 --> 00:20:31,560
+ stupid the people in the company are across the board stupid or are making
+
+253
+00:20:31,560 --> 00:20:36,600
+ these decisions some of the engineers are amazing you know the engineer the
+
+254
+00:20:36,600 --> 00:20:42,200
+ engineers do amazing things but that is that is not you know that they're doing
+
+255
+00:20:42,200 --> 00:20:46,320
+ it irrespective of how stupid that company is I mean the whole meta project
+
+256
+00:20:46,320 --> 00:20:51,200
+ oh my god I just can't even deal without dumb that company is and yet people still
+
+257
+00:20:51,200 --> 00:20:56,560
+ want to work there I have no idea why anyway there's also another license
+
+258
+00:20:56,560 --> 00:21:05,080
+ call the unlicensed there's the unlicensed is kind of cool there's there's also the
+
+259
+00:21:05,080 --> 00:21:13,520
+ public domain license which I have used and okay so the Mozilla license is really
+
+260
+00:21:13,520 --> 00:21:19,200
+ weird a lot of projects are released on the Mozilla license including what was
+
+261
+00:21:19,200 --> 00:21:24,760
+ the one I recently that I cared about was it obsidian I don't remember I don't
+
+262
+00:21:24,760 --> 00:21:29,400
+ think so but what the Mozilla license does is it allows it allows different
+
+263
+00:21:29,400 --> 00:21:33,920
+ pieces of the software to be released with different licenses and that does
+
+264
+00:21:33,920 --> 00:21:37,520
+ provide some flexibility because if your project has lots of like little
+
+265
+00:21:37,520 --> 00:21:40,480
+ different types of things and you want this to be released with this license
+
+266
+00:21:40,480 --> 00:21:45,120
+ and this not to be and you can like mix and match in but the downside of Mozilla
+
+267
+00:21:45,120 --> 00:21:51,240
+ I actually try to use Mozilla for a long time is it Mozilla requires you to have
+
+268
+00:21:51,240 --> 00:21:55,680
+ that particular part of the software really well documented and know what the
+
+269
+00:21:55,680 --> 00:22:00,160
+ scope of that part of the software is and I'm probably misstating this you know
+
+270
+00:22:00,160 --> 00:22:06,800
+ but all I remember it was such an hassle to make you know everything work
+
+271
+00:22:06,800 --> 00:22:11,920
+ the reason I came across this because I was trying to release my my documentation
+
+272
+00:22:11,920 --> 00:22:15,800
+ under Creative Commons and my source code under a different license which is a
+
+273
+00:22:15,800 --> 00:22:19,120
+ common problem like how do you if you're an educator in particular how do you
+
+274
+00:22:19,120 --> 00:22:23,080
+ license the examples from the book under one thing so they can be used in public
+
+275
+00:22:23,080 --> 00:22:26,600
+ domain no problem that people can use those examples that work without fear but
+
+276
+00:22:26,600 --> 00:22:31,360
+ yet keep a hold of your copyright on on the copy and the pros and everything
+
+277
+00:22:31,360 --> 00:22:34,200
+ else you can either sell the book or make sure it doesn't get sold for money if
+
+278
+00:22:34,200 --> 00:22:38,960
+ that depending on what you want to do so mixing those licenses is is hard and
+
+279
+00:22:38,960 --> 00:22:44,800
+ Mozilla kind of provide a little bit of help there the unlicensed is the sort of
+
+280
+00:22:44,800 --> 00:22:49,240
+ do what you want with it license it's it's it's it tries to say you know do
+
+281
+00:22:49,240 --> 00:22:53,440
+ whatever and don't bother us it it's a stupid license I used to think it was
+
+282
+00:22:53,440 --> 00:22:59,840
+ really cool it has no legal weight at all so there's there's no way in hell
+
+283
+00:22:59,840 --> 00:23:04,920
+ you're ever gonna get anybody at work to ever accept an unlicensed they might
+
+284
+00:23:04,920 --> 00:23:10,240
+ accept a license in the public domain but again public domain licenses don't
+
+285
+00:23:10,240 --> 00:23:15,160
+ grant patent rights neither does the unlicensed so a company if a company wants
+
+286
+00:23:15,160 --> 00:23:18,600
+ to adopt a thing they don't just want to be able to use it for free like MIT they
+
+287
+00:23:18,600 --> 00:23:21,960
+ want to be able to be sure that you're giving them patent rights as well so
+
+288
+00:23:21,960 --> 00:23:25,360
+ that only the only license in this group that does that is Apache to my
+
+289
+00:23:25,360 --> 00:23:31,960
+ knowledge so so public domain is fun and and great and everything everybody can
+
+290
+00:23:31,960 --> 00:23:38,200
+ use it forever but you know it's like I don't know I think if I were going to
+
+291
+00:23:38,200 --> 00:23:42,000
+ release it even even the snippets in a in a book I would I was still really
+
+292
+00:23:42,000 --> 00:23:44,680
+ someone or Apache didn't even though I have licenses today that's a public
+
+293
+00:23:44,680 --> 00:23:50,040
+ domain there are a couple licenses I would never ever want anybody to touch
+
+294
+00:23:50,040 --> 00:23:55,960
+ GPLV 3 I've already talked about because of the TVization of everything it
+
+295
+00:23:55,960 --> 00:24:01,800
+ it basically rips away your ownership of a hardware that you made and I do not
+
+296
+00:24:01,800 --> 00:24:07,600
+ think it's a good idea then there's AGPL which is the Baro GPL which is even
+
+297
+00:24:07,600 --> 00:24:13,560
+ more viral than the GPL AGPLV 3 is probably one of the worst licenses in
+
+298
+00:24:13,560 --> 00:24:19,680
+ history because not only does it cover the software that's where it's running but
+
+299
+00:24:19,680 --> 00:24:26,440
+ it covers any service that means if it sends up a web page anything that uses
+
+300
+00:24:26,440 --> 00:24:34,720
+ the web page is also affected by the license that's right so you know I I
+
+301
+00:24:34,720 --> 00:24:40,160
+ know a Baro is it seems to be the most you know viral and awesome and and forces
+
+302
+00:24:40,160 --> 00:24:45,520
+ open source everywhere I don't I don't agree I think they made it because they
+
+303
+00:24:45,520 --> 00:24:49,140
+ wanted to release so let's say you're running a web server and all the the
+
+304
+00:24:49,140 --> 00:24:55,920
+ back-end software is running is using a Baro so it it you know it's all if
+
+305
+00:24:55,920 --> 00:24:59,920
+ somebody wanted to get to that software right but but that's what they want to
+
+306
+00:24:59,920 --> 00:25:04,000
+ put the license on is is the is the progressive web app that's that's going
+
+307
+00:25:04,000 --> 00:25:09,400
+ into the web browser right so the AGPL stuff actually the licensing of the
+
+308
+00:25:09,400 --> 00:25:13,680
+ software so let's say you make a server with a Baro GPL as I understand it as I
+
+309
+00:25:13,680 --> 00:25:17,520
+ understand it I'm not a lawyer but as I understand it the GPL applies to all the
+
+310
+00:25:17,520 --> 00:25:22,240
+ server software but it also applies to any software that is served from that
+
+311
+00:25:22,240 --> 00:25:29,040
+ software so like if you serve up a a web page or progressive web app then that
+
+312
+00:25:29,040 --> 00:25:33,560
+ web app that's being served by that server also has to be released under the
+
+313
+00:25:33,560 --> 00:25:38,560
+ GPL which means that the source code for your website has to be released under
+
+314
+00:25:38,560 --> 00:25:43,320
+ a GPL and I I could be getting that wrong with the the license is at least
+
+315
+00:25:43,320 --> 00:25:49,000
+ ambiguous enough that somebody could come at you and say ooh we love your web app
+
+316
+00:25:49,000 --> 00:25:53,280
+ are you serving this from a server that's a GPL and if so why are you not giving
+
+317
+00:25:53,280 --> 00:25:57,800
+ us the source code of your website which is that's kind of what they're
+
+318
+00:25:57,800 --> 00:26:01,000
+ talking about and that that's like completely out of bounds I mean that's
+
+319
+00:26:01,000 --> 00:26:06,000
+ like absolutely crazy I just don't like that idea at all all right so I'm gonna
+
+320
+00:26:06,000 --> 00:26:12,520
+ take yeah you have 24 hours to send the source
+
+321
+00:26:12,520 --> 00:26:17,760
+ code to you and all software you are using right so oh and actually I'm
+
+322
+00:26:17,760 --> 00:26:25,640
+ really glad you talked about that so be aware of GPL trolls okay so this is
+
+323
+00:26:25,640 --> 00:26:30,360
+ another really really fun rabbit hole to go down so one of the core contributors
+
+324
+00:26:30,360 --> 00:26:37,600
+ to the Linux project I don't remember where decided to sue everybody that
+
+325
+00:26:37,600 --> 00:26:45,520
+ used GPL and he went out and aggressively sued them because and he told you have
+
+326
+00:26:45,520 --> 00:26:49,560
+ you have this much time to turn around and give me the money because you're in
+
+327
+00:26:49,560 --> 00:26:55,160
+ your in violation and he was operating completely outside the band of the
+
+328
+00:26:55,160 --> 00:26:58,880
+ Linux Foundation you're gonna have to go read your own conclusions on this
+
+329
+00:26:58,880 --> 00:27:03,040
+ whole thing but it actually happened in fact it was such a big deal that they
+
+330
+00:27:03,040 --> 00:27:08,680
+ changed part of the gplv 2 I think I can't remember all the story I'm getting it
+
+331
+00:27:08,680 --> 00:27:15,560
+ wrong but they're they changed the license the gplv 3 actually changes to
+
+332
+00:27:15,560 --> 00:27:20,240
+ give some time for remediation and I think that actually made it into gplv 2
+
+333
+00:27:20,240 --> 00:27:24,000
+ as well I don't remember but that's one of the things they added to v3 that was
+
+334
+00:27:24,000 --> 00:27:30,960
+ kind of nice they gave a a grace period for remediation so that these GPL trolls
+
+335
+00:27:30,960 --> 00:27:35,880
+ couldn't come attack companies and say oh you didn't make it in time now you
+
+336
+00:27:35,880 --> 00:27:39,680
+ owe me ten thousand dollars and this person actually got as I remember right
+
+337
+00:27:39,680 --> 00:27:43,320
+ he actually got paid out it got paid settlements and shit he was like because
+
+338
+00:27:43,320 --> 00:27:46,320
+ a lot of lawyers from these big corporations they don't care which just
+
+339
+00:27:46,320 --> 00:27:51,280
+ you know I just I can't put words into like how shitty that is I mean it's like
+
+340
+00:27:51,280 --> 00:27:55,920
+ there these people these free software people like that person not all but that
+
+341
+00:27:55,920 --> 00:27:59,560
+ specific free software person who's pushing open source for the world is then
+
+342
+00:27:59,560 --> 00:28:03,840
+ now suing people over the license so he could get money on this side I mean what
+
+343
+00:28:03,840 --> 00:28:10,440
+ the hell I just the level of hypocrisy in the free software foundation which
+
+344
+00:28:10,440 --> 00:28:16,880
+ Linus Torvalds like totally specifically calls out to their face in that video
+
+345
+00:28:16,880 --> 00:28:20,800
+ he's like I can't believe I won't give him my money go give your money to the
+
+346
+00:28:20,800 --> 00:28:25,160
+ E of up you know as opposed to the episode and I completely agree with that
+
+347
+00:28:25,160 --> 00:28:29,280
+ and this is one reason I don't use Debian either because the people in the
+
+348
+00:28:29,280 --> 00:28:34,320
+ Debian team are just not the kind of people that I would ever want to be
+
+349
+00:28:34,320 --> 00:28:38,120
+ around or aspire to be or help other people I'm gonna get total hate on this
+
+350
+00:28:38,120 --> 00:28:42,840
+ video I don't care you've watched it you've got my opinion and now you what you
+
+351
+00:28:42,840 --> 00:28:47,800
+ know what what software license to pick if you want your project to be used at
+
+352
+00:28:47,800 --> 00:28:51,880
+ work, which is my criteria. That's all.
+

@@ -1,0 +1,1616 @@
+1
+00:00:00,000 --> 00:00:06,920
+ Alright, quick video about the evolution of your home lab.
+
+2
+00:00:06,920 --> 00:00:09,440
+ This is a very opinionated video.
+
+3
+00:00:09,440 --> 00:00:11,680
+ I welcome your opinions in the comments as well.
+
+4
+00:00:11,680 --> 00:00:18,840
+ Be nice and this is not necessarily based on how my history of learning Linux came to
+
+5
+00:00:18,840 --> 00:00:19,840
+ be.
+
+6
+00:00:19,840 --> 00:00:22,360
+ I will talk about that at the end if you want to pass it over to that, what I actually
+
+7
+00:00:22,360 --> 00:00:23,360
+ did.
+
+8
+00:00:23,360 --> 00:00:29,680
+ But this is my recommendation to you as an absolute noob who wants to get into tech and
+
+9
+00:00:29,680 --> 00:00:33,800
+ wants to slowly and gradually incur the cost of a new home lab.
+
+10
+00:00:33,800 --> 00:00:40,080
+ This is the primary considerations of this video are cost for an absolute beginner.
+
+11
+00:00:40,080 --> 00:00:44,840
+ Assuming you're in school, you don't have a job, you're a server or whatever and you
+
+12
+00:00:44,840 --> 00:00:49,360
+ need to be aware of the cost of all the stuff that you're buying.
+
+13
+00:00:49,360 --> 00:00:55,760
+ The second main concern here is that you have exposure to as many types of things that
+
+14
+00:00:55,760 --> 00:00:58,640
+ you will encounter in the tech world.
+
+15
+00:00:58,640 --> 00:01:04,960
+ For that reason, there are things in here that Linux purists are going to really gristle
+
+16
+00:01:04,960 --> 00:01:05,960
+ on.
+
+17
+00:01:05,960 --> 00:01:07,720
+ They're going to get really angry.
+
+18
+00:01:07,720 --> 00:01:08,720
+ And I don't care.
+
+19
+00:01:08,720 --> 00:01:09,720
+ This is not for them.
+
+20
+00:01:09,720 --> 00:01:10,920
+ This is for you.
+
+21
+00:01:10,920 --> 00:01:15,680
+ This is for a beginner who's trying to get into tech and have a well-balanced, non-dogmatic
+
+22
+00:01:15,680 --> 00:01:20,720
+ opinion of the world, which is not 90% of YouTube.
+
+23
+00:01:20,720 --> 00:01:27,400
+ So the very first thing that you need to have is a good router, a good one.
+
+24
+00:01:27,400 --> 00:01:32,440
+ This thing is probably going to cost you $150, if not more, which is interesting because
+
+25
+00:01:32,440 --> 00:01:36,960
+ some of the routers cost more than an entry-level laptop, which we'll get into.
+
+26
+00:01:36,960 --> 00:01:38,720
+ I have a NICU or Nighthawk.
+
+27
+00:01:38,720 --> 00:01:40,280
+ I have it bridged.
+
+28
+00:01:40,280 --> 00:01:44,040
+ I have it running open WRT.
+
+29
+00:01:44,040 --> 00:01:47,160
+ Don't worry if you don't know what you're getting.
+
+30
+00:01:47,160 --> 00:01:53,320
+ Get a router that has, and we'll make a separate video about routers, picking routers.
+
+31
+00:01:53,320 --> 00:01:55,600
+ I have separate videos about every one of these pieces.
+
+32
+00:01:55,600 --> 00:01:58,080
+ So this is kind of the overview that brings them all together.
+
+33
+00:01:58,080 --> 00:02:03,320
+ I'll try to link the videos to those other things in the description eventually.
+
+34
+00:02:03,320 --> 00:02:05,240
+ But get a good router.
+
+35
+00:02:05,240 --> 00:02:06,760
+ So a lot of you are like, "Do I need a router?
+
+36
+00:02:06,760 --> 00:02:07,760
+ I can just use the one at home."
+
+37
+00:02:07,760 --> 00:02:08,760
+ That's what I'm doing.
+
+38
+00:02:08,760 --> 00:02:09,760
+ I'm using mine at home.
+
+39
+00:02:09,760 --> 00:02:15,920
+ But it's causing problems because I can't go onto the router and I can't set IP addresses
+
+40
+00:02:15,920 --> 00:02:20,040
+ and I can't see what's happening.
+
+41
+00:02:20,040 --> 00:02:24,600
+ I can't log into my network from outside, you know, at home.
+
+42
+00:02:24,600 --> 00:02:25,600
+ I can't.
+
+43
+00:02:25,600 --> 00:02:26,600
+ It's called a VPN.
+
+44
+00:02:26,600 --> 00:02:27,920
+ You can be in a hotel.
+
+45
+00:02:27,920 --> 00:02:32,080
+ And if you do it right, you can make it so that your laptops down here are as if they
+
+46
+00:02:32,080 --> 00:02:33,080
+ are at home.
+
+47
+00:02:33,080 --> 00:02:36,840
+ But that only happens if you buy a higher end router.
+
+48
+00:02:36,840 --> 00:02:39,880
+ I'm talking about a higher end gaming router, which you probably want anyway.
+
+49
+00:02:39,880 --> 00:02:44,960
+ I'm talking about a higher end gaming router that has the capacity to do the other things
+
+50
+00:02:44,960 --> 00:02:51,720
+ you want to do, such as being bridged and having some sort of VPN and open WRT and things
+
+51
+00:02:51,720 --> 00:02:54,400
+ like an open access to that.
+
+52
+00:02:54,400 --> 00:02:57,760
+ So invest in a good router.
+
+53
+00:02:57,760 --> 00:03:01,640
+ The thing that's great about that is that you can move around to any apartment and pretty
+
+54
+00:03:01,640 --> 00:03:05,960
+ much every apartment complex these days has automatic included Wi-Fi.
+
+55
+00:03:05,960 --> 00:03:10,680
+ And they almost always have a CAT6 cable that you can plug into the wall or check.
+
+56
+00:03:10,680 --> 00:03:12,000
+ My two of mine are dead.
+
+57
+00:03:12,000 --> 00:03:13,560
+ I found out the hard way.
+
+58
+00:03:13,560 --> 00:03:15,520
+ I had to have them come fix them.
+
+59
+00:03:15,520 --> 00:03:16,520
+ Because nobody uses that.
+
+60
+00:03:16,520 --> 00:03:18,360
+ They just use them to bought Wi-Fi.
+
+61
+00:03:18,360 --> 00:03:23,080
+ But you can actually plug this fancy router of yours into that and then you can do something
+
+62
+00:03:23,080 --> 00:03:24,440
+ super cool.
+
+63
+00:03:24,440 --> 00:03:32,240
+ You can have an entire safe network in a DMZ, a demilitarized zone that runs there.
+
+64
+00:03:32,240 --> 00:03:38,920
+ So you can experiment with all kinds of really fun things like ARP storming and all the stuff
+
+65
+00:03:38,920 --> 00:03:42,720
+ that would take down all the other devices on your home network.
+
+66
+00:03:42,720 --> 00:03:47,280
+ I do have a funny story about that about a kid who ran a denial of service attack against
+
+67
+00:03:47,280 --> 00:03:49,480
+ this entire home network.
+
+68
+00:03:49,480 --> 00:03:54,440
+ And it had to come and set up the firearms and the wires out of the walls because he did
+
+69
+00:03:54,440 --> 00:03:59,360
+ that sort of thing on his home network with all his smart devices in his big rich house.
+
+70
+00:03:59,360 --> 00:04:00,360
+ Bad idea.
+
+71
+00:04:00,360 --> 00:04:05,480
+ So if you get a fancy router, then you can plug that in and everything that connects
+
+72
+00:04:05,480 --> 00:04:13,120
+ to that router through wires or Wi-Fi is off of the network, of the other network.
+
+73
+00:04:13,120 --> 00:04:20,000
+ So this is the cheapest, easiest, simplest way to protect your household from your experimentations
+
+74
+00:04:20,000 --> 00:04:21,000
+ with your network.
+
+75
+00:04:21,000 --> 00:04:22,000
+ Okay.
+
+76
+00:04:22,000 --> 00:04:23,000
+ So that's the first thing you need.
+
+77
+00:04:23,000 --> 00:04:24,520
+ You need to get one of those.
+
+78
+00:04:24,520 --> 00:04:26,920
+ If you don't have that, you don't have the money for that right away and you just want
+
+79
+00:04:26,920 --> 00:04:28,160
+ to go straight to a laptop.
+
+80
+00:04:28,160 --> 00:04:30,720
+ You can do that and just use the laptop from the house.
+
+81
+00:04:30,720 --> 00:04:34,000
+ But eventually you're going to probably want to invest in one of those.
+
+82
+00:04:34,000 --> 00:04:35,000
+ All right.
+
+83
+00:04:35,000 --> 00:04:39,800
+ So the next, yeah, there are a lot open to VRT, Gleenette routers are really awesome.
+
+84
+00:04:39,800 --> 00:04:42,400
+ We'll talk about routers as a separate video.
+
+85
+00:04:42,400 --> 00:04:46,800
+ The second thing you need is if you're going to, I'm not talking about, you know, your
+
+86
+00:04:46,800 --> 00:04:51,840
+ gaming interests and your homework for school and all of that.
+
+87
+00:04:51,840 --> 00:04:54,480
+ That's outside of the scope of these decisions, right?
+
+88
+00:04:54,480 --> 00:04:59,040
+ So you need a Linux laptop and I did a whole video about this this morning.
+
+89
+00:04:59,040 --> 00:05:04,040
+ You need a laptop that you can throw away under $300 in 2026, used to be under 200, but
+
+90
+00:05:04,040 --> 00:05:05,040
+ whatever.
+
+91
+00:05:05,040 --> 00:05:09,920
+ You need a laptop that you can break, that you can experiment with.
+
+92
+00:05:09,920 --> 00:05:13,480
+ You can throw new operating system on every two seconds and it's not going to impact your
+
+93
+00:05:13,480 --> 00:05:14,820
+ life in any way.
+
+94
+00:05:14,820 --> 00:05:19,060
+ It's going to allow you to be really flexible and to really test out new things.
+
+95
+00:05:19,060 --> 00:05:21,360
+ You can try arch by the way.
+
+96
+00:05:21,360 --> 00:05:24,400
+ So you know, you can do all those fun things on that laptop.
+
+97
+00:05:24,400 --> 00:05:30,840
+ That is the most essential part of your core learning about Linux and Windows and desk
+
+98
+00:05:30,840 --> 00:05:31,840
+ tops and all of that.
+
+99
+00:05:31,840 --> 00:05:36,200
+ Now, I would suggest you also get a second one because they're cheap enough.
+
+100
+00:05:36,200 --> 00:05:40,600
+ And by the way, you can find these usually, these don't have to be something that you buy.
+
+101
+00:05:40,600 --> 00:05:44,120
+ You can, you know, I bought both of those things for under $600, right?
+
+102
+00:05:44,120 --> 00:05:48,760
+ But you can usually find these things out there, right?
+
+103
+00:05:48,760 --> 00:05:50,400
+ You can find them out in the wild.
+
+104
+00:05:50,400 --> 00:05:53,720
+ You can go ask your family at Thanksgiving, hey, does anybody got an old laptop?
+
+105
+00:05:53,720 --> 00:05:54,720
+ They don't use anymore.
+
+106
+00:05:54,720 --> 00:05:56,720
+ Oh, yeah, we have one that our taxes are on them.
+
+107
+00:05:56,720 --> 00:05:57,720
+ We never got rid of it.
+
+108
+00:05:57,720 --> 00:05:58,720
+ Can you wipe it for me?
+
+109
+00:05:58,720 --> 00:05:59,720
+ Yeah.
+
+110
+00:05:59,720 --> 00:06:00,720
+ Okay.
+
+111
+00:06:00,720 --> 00:06:01,720
+ So you do that and you get a pre-lapse up.
+
+112
+00:06:01,720 --> 00:06:04,720
+ You put Linux on there and you don't care how powerful it is because all you're doing is
+
+113
+00:06:04,720 --> 00:06:06,560
+ practicing setting it up.
+
+114
+00:06:06,560 --> 00:06:10,760
+ In fact, sometimes older hardware is the best to use because it'll work better with Linux
+
+115
+00:06:10,760 --> 00:06:15,280
+ because Linux is usually lags behind on the latest and greatest and it doesn't have as
+
+116
+00:06:15,280 --> 00:06:17,760
+ much security with UEFI on the BIOS.
+
+117
+00:06:17,760 --> 00:06:21,160
+ There's lots of reasons that old hardware works really fine and wonderful on Linux.
+
+118
+00:06:21,160 --> 00:06:26,680
+ In fact, you can breathe new life into old hardware by bringing, you know, kicking Windows
+
+119
+00:06:26,680 --> 00:06:27,680
+ off of there.
+
+120
+00:06:27,680 --> 00:06:32,440
+ I kicked Windows XP off of a computer and put a bare-blown Linux server and it's just
+
+121
+00:06:32,440 --> 00:06:33,440
+ on it.
+
+122
+00:06:33,440 --> 00:06:35,440
+ Minecraft servers on the thing.
+
+123
+00:06:35,440 --> 00:06:36,440
+ It was amazing.
+
+124
+00:06:36,440 --> 00:06:37,560
+ It was way more powerful than a Raspberry Pi.
+
+125
+00:06:37,560 --> 00:06:40,120
+ It was free and it was sitting at somebody's garage.
+
+126
+00:06:40,120 --> 00:06:41,120
+ Okay.
+
+127
+00:06:41,120 --> 00:06:46,480
+ So this is where I'm going to segue and I'm going to tell you how I did it.
+
+128
+00:06:46,480 --> 00:06:47,480
+ Okay.
+
+129
+00:06:47,480 --> 00:06:51,360
+ When I learned all of this stuff, I had the family computers, I had the kids gaming computers.
+
+130
+00:06:51,360 --> 00:06:52,520
+ I was obsessed with Linux.
+
+131
+00:06:52,520 --> 00:06:53,920
+ I put Linux on everything eventually.
+
+132
+00:06:53,920 --> 00:06:55,400
+ I made my kids use Linux.
+
+133
+00:06:55,400 --> 00:06:57,720
+ I was like, "There will be no Windows in this household."
+
+134
+00:06:57,720 --> 00:07:00,480
+ That's how serious I was in my 20s and 30s.
+
+135
+00:07:00,480 --> 00:07:01,480
+ Not that guy anymore.
+
+136
+00:07:01,480 --> 00:07:10,240
+ But at the time, and they grew up watching Strongbad on Red Hat Linux, I think, or Fedora Linux.
+
+137
+00:07:10,240 --> 00:07:17,120
+ So I would buy really cheap computers and I would put my wife winning her first eBay
+
+138
+00:07:17,120 --> 00:07:20,680
+ bid and she was running on a Linux computer.
+
+139
+00:07:20,680 --> 00:07:27,440
+ I have a picture of her like doing a little victory dance and anyway, so I just have good
+
+140
+00:07:27,440 --> 00:07:28,440
+ memories of the area.
+
+141
+00:07:28,440 --> 00:07:33,140
+ I ran my own mail server at home, I learned about a send mail, which ended up helping
+
+142
+00:07:33,140 --> 00:07:34,240
+ me get it.
+
+143
+00:07:34,240 --> 00:07:36,040
+ They didn't have anybody at work to do it.
+
+144
+00:07:36,040 --> 00:07:40,760
+ So I became the postmaster for the send mail process for the job I was on.
+
+145
+00:07:40,760 --> 00:07:46,680
+ All of the experimentation through, first time I ever caught a hacker was on all of
+
+146
+00:07:46,680 --> 00:07:47,680
+ this old computers.
+
+147
+00:07:47,680 --> 00:07:51,840
+ And one of the computers I've told the story, I had a guy gave me goes, "Hey, I got this
+
+148
+00:07:51,840 --> 00:07:57,080
+ old one and his cat had slept in and it smelled like CapEx, but that server was fine."
+
+149
+00:07:57,080 --> 00:08:03,280
+ So I have this polished approach, this one, two, three approach for you, but you can replace
+
+150
+00:08:03,280 --> 00:08:09,580
+ steps two and three with, or you can supplement steps two and three with random computers
+
+151
+00:08:09,580 --> 00:08:10,600
+ out there on the internet.
+
+152
+00:08:10,600 --> 00:08:15,720
+ You can go on eBay and get computers for 60 bucks and put Linux on there and be good
+
+153
+00:08:15,720 --> 00:08:16,720
+ to go.
+
+154
+00:08:16,720 --> 00:08:21,840
+ You can go to, you can get, at one point I had a garage, I had like eight or nine different
+
+155
+00:08:21,840 --> 00:08:25,200
+ computers in there and they were all running a different version of Linux.
+
+156
+00:08:25,200 --> 00:08:28,520
+ That's the first time I got hacked, by the way, because I didn't break, I didn't run
+
+157
+00:08:28,520 --> 00:08:34,840
+ bestie on a box and I registered a domain, which is when hackers troll you is when you
+
+158
+00:08:34,840 --> 00:08:39,160
+ register a domain and sure enough they were in on the first day because I hadn't patched
+
+159
+00:08:39,160 --> 00:08:40,160
+ anything.
+
+160
+00:08:40,160 --> 00:08:45,080
+ So lots of stories there, but all you need to know if you want to be simple about this
+
+161
+00:08:45,080 --> 00:08:51,880
+ is invest, you know, at least $300, if you need to, get a really, really entry, I can
+
+162
+00:08:51,880 --> 00:08:56,320
+ break it laptop and then buy some really cheap USB sticks.
+
+163
+00:08:56,320 --> 00:08:59,880
+ I did not mention this in the video, but make sure you see the blue there.
+
+164
+00:08:59,880 --> 00:09:04,240
+ Make sure you get USB 3, it'll make your life better and it'll go faster.
+
+165
+00:09:04,240 --> 00:09:08,640
+ You got to be careful though, because on some of those older PCs, they don't do USB 3.
+
+166
+00:09:08,640 --> 00:09:15,600
+ So if you're okay with a little bit of slowness, buy yourself some like $5 USB 2's that will
+
+167
+00:09:15,600 --> 00:09:19,760
+ work with your grandma's old computer, you just put Linux on, right, that these will
+
+168
+00:09:19,760 --> 00:09:21,280
+ not work with that.
+
+169
+00:09:21,280 --> 00:09:24,360
+ So I don't believe they'll work anyway, I've never tried it.
+
+170
+00:09:24,360 --> 00:09:27,360
+ So you need one or two or three of these.
+
+171
+00:09:27,360 --> 00:09:32,080
+ I have a, I have a little pouch that's got them all in it.
+
+172
+00:09:32,080 --> 00:09:35,880
+ There are more efficient ways to do this, but this is the, this is, this is the gold
+
+173
+00:09:35,880 --> 00:09:38,680
+ standard because this will never go wrong.
+
+174
+00:09:38,680 --> 00:09:42,080
+ There's a cool little thing where you can do where you put all the images in a single
+
+175
+00:09:42,080 --> 00:09:43,080
+ USB.
+
+176
+00:09:43,080 --> 00:09:44,080
+ It doesn't always work.
+
+177
+00:09:44,080 --> 00:09:45,080
+ That's all I'm going to tell you.
+
+178
+00:09:45,080 --> 00:09:49,600
+ It doesn't always work, but what always works is, is imaging, you know, putting Linux
+
+179
+00:09:49,600 --> 00:09:54,040
+ on this, putting Windows 10 on this, putting Windows 11 on this, putting FreeBSD on another
+
+180
+00:09:54,040 --> 00:09:55,040
+ one.
+
+181
+00:09:55,040 --> 00:09:58,120
+ And you have a little happy little thing and you like open it up, you got all your operating
+
+182
+00:09:58,120 --> 00:10:02,280
+ systems right there and you just pick up an operating system saying, what operating system
+
+183
+00:10:02,280 --> 00:10:03,280
+ will I have today?
+
+184
+00:10:03,280 --> 00:10:05,920
+ And then you put that operating system on there.
+
+185
+00:10:05,920 --> 00:10:10,880
+ So I put Linux here in steps two and three and three is Windows, but it doesn't have
+
+186
+00:10:10,880 --> 00:10:11,880
+ to be right.
+
+187
+00:10:11,880 --> 00:10:15,200
+ You can, you can run one Linux laptop, it can be red hat.
+
+188
+00:10:15,200 --> 00:10:17,200
+ Maybe you don't want, you don't want that to be more stable.
+
+189
+00:10:17,200 --> 00:10:19,080
+ You don't want to be re-imaging all the time.
+
+190
+00:10:19,080 --> 00:10:22,480
+ Your other one, you can put Windows 10 on, you can put Windows 11, you can practice using
+
+191
+00:10:22,480 --> 00:10:29,200
+ FreeBSD and do all of that cool stuff with BSD, which is Unix, not Linux, which is a good
+
+192
+00:10:29,200 --> 00:10:31,400
+ segue into step four.
+
+193
+00:10:31,400 --> 00:10:35,640
+ And this is the one I'm going to get the most crap about in the comments.
+
+194
+00:10:35,640 --> 00:10:41,360
+ I am recommending that everybody who is going to enter into the technology field get a MacBook
+
+195
+00:10:41,360 --> 00:10:42,360
+ Pro.
+
+196
+00:10:42,360 --> 00:10:48,680
+ I despise Apple, but I have the Apple ecosystem, I use Moblin for my streaming.
+
+197
+00:10:48,680 --> 00:10:53,200
+ There are certain things that you have to accept in life, it's like I either, I can either
+
+198
+00:10:53,200 --> 00:10:58,260
+ like destroy my productivity and my ability to perform in the world by, you know, sticking
+
+199
+00:10:58,260 --> 00:11:01,520
+ to my principles and never buying anything from any company I disagree with, which is
+
+200
+00:11:01,520 --> 00:11:04,560
+ pretty much every single company if you look deep enough.
+
+201
+00:11:04,560 --> 00:11:05,560
+ Or you can do that.
+
+202
+00:11:05,560 --> 00:11:08,360
+ And I'm not going to talk anymore about that.
+
+203
+00:11:08,360 --> 00:11:13,040
+ My entire team runs off MacBook Pros and they are top of the line tech professionals
+
+204
+00:11:13,040 --> 00:11:18,520
+ who hate Apple and believe in open source, but they still use a MacBook Pro.
+
+205
+00:11:18,520 --> 00:11:21,600
+ MacBook Pros are official Unix systems.
+
+206
+00:11:21,600 --> 00:11:25,280
+ They are Unix predates Linux by more than a decade.
+
+207
+00:11:25,280 --> 00:11:30,040
+ So Unix has a big lead on Linux and I made videos about this.
+
+208
+00:11:30,040 --> 00:11:31,040
+ I stand by them.
+
+209
+00:11:31,040 --> 00:11:36,520
+ Unix is a superior operating system for at the operating system level, but it's got a lot
+
+210
+00:11:36,520 --> 00:11:37,520
+ of problems.
+
+211
+00:11:37,520 --> 00:11:40,520
+ Like, for example, you can't run containers on Unix.
+
+212
+00:11:40,520 --> 00:11:42,520
+ You can run jails, but not containers.
+
+213
+00:11:42,520 --> 00:11:45,960
+ You can't, you have to have Linux to run LXC containers.
+
+214
+00:11:45,960 --> 00:11:49,720
+ So the entire enterprise world runs off containers right now, right?
+
+215
+00:11:49,720 --> 00:11:52,000
+ So you have to have containers.
+
+216
+00:11:52,000 --> 00:11:56,080
+ And if you invest the money and you save up your money to get it back with Pro, now you've
+
+217
+00:11:56,080 --> 00:11:57,920
+ got something you can use at school.
+
+218
+00:11:57,920 --> 00:12:00,720
+ You've got something that you can DJ with, which I do.
+
+219
+00:12:00,720 --> 00:12:04,200
+ You can, something you can livestream reliably with, which is what I'm livestream with right
+
+220
+00:12:04,200 --> 00:12:05,200
+ now.
+
+221
+00:12:05,200 --> 00:12:08,080
+ You have something that you can minimally game on if you want.
+
+222
+00:12:08,080 --> 00:12:10,280
+ I don't, but you can.
+
+223
+00:12:10,280 --> 00:12:15,040
+ And you can, you can do all of the things that can become your daily driver.
+
+224
+00:12:15,040 --> 00:12:20,920
+ And I strongly recommend that your first expensive daily driver computer be a MacBook
+
+225
+00:12:20,920 --> 00:12:21,920
+ Pro.
+
+226
+00:12:21,920 --> 00:12:26,080
+ And this is coming from a guy who did not allow anything but Linux at his house for
+
+227
+00:12:26,080 --> 00:12:28,480
+ the first 10 years of his marriage.
+
+228
+00:12:28,480 --> 00:12:35,000
+ I am very much an open source advocate to the point where I agree with it, but so consider
+
+229
+00:12:35,000 --> 00:12:36,000
+ this.
+
+230
+00:12:36,000 --> 00:12:41,080
+ If for no other reason, then you have every single operating system represented in your
+
+231
+00:12:41,080 --> 00:12:43,560
+ home lab from the beginning.
+
+232
+00:12:43,560 --> 00:12:44,560
+ Why would you need that?
+
+233
+00:12:44,560 --> 00:12:49,080
+ Well, because you don't want to be an operating system bigot, you're going to be expected
+
+234
+00:12:49,080 --> 00:12:52,960
+ to perform on all types of operating systems.
+
+235
+00:12:52,960 --> 00:12:55,680
+ If you go to somebody handed you a Windows machine and you don't even know where to go
+
+236
+00:12:55,680 --> 00:13:00,280
+ to set the settings or anything because you've never even seen it before, that's an irresponsible
+
+237
+00:13:00,280 --> 00:13:02,040
+ technologist in my opinion.
+
+238
+00:13:02,040 --> 00:13:05,240
+ That is somebody who I would not hire.
+
+239
+00:13:05,240 --> 00:13:10,680
+ If you, if you are so hell bent on using only Linux that you've never used a Windows machine
+
+240
+00:13:10,680 --> 00:13:15,060
+ and wouldn't use one if I were going to give you one at work or you would not help your
+
+241
+00:13:15,060 --> 00:13:18,920
+ grandmother or somebody work on their Windows machine to get it fixed and get it working.
+
+242
+00:13:18,920 --> 00:13:21,840
+ If you're hell that hell bent, then this video is not for you.
+
+243
+00:13:21,840 --> 00:13:28,880
+ This video is for people who want to be well-rounded, non-dogmatic technologists who provide value
+
+244
+00:13:28,880 --> 00:13:30,960
+ for their companies and their families.
+
+245
+00:13:30,960 --> 00:13:33,840
+ And those people need to know all of it.
+
+246
+00:13:33,840 --> 00:13:36,280
+ They don't need to fight about which Linux to throw.
+
+247
+00:13:36,280 --> 00:13:39,080
+ They can, but that's not their main goal.
+
+248
+00:13:39,080 --> 00:13:43,880
+ So the main goal is to have one of everything so that you can get good with everything.
+
+249
+00:13:43,880 --> 00:13:50,880
+ You have a Linux box, you have a BSD box, you have a Windows box, Mac Pros, or BSD UNIX.
+
+250
+00:13:50,880 --> 00:13:55,480
+ But you could also have BSD on your laptop or your extra computer that you got from your
+
+251
+00:13:55,480 --> 00:13:56,480
+ friend.
+
+252
+00:13:56,480 --> 00:13:58,320
+ Maybe you got a PowerPC computer.
+
+253
+00:13:58,320 --> 00:14:05,120
+ You can practice using PowerPC Linux and make Dennis very happy, it's an inside joke.
+
+254
+00:14:05,120 --> 00:14:09,800
+ So you know, you can't get Solaris, unfortunately, you could if you had the money, but there
+
+255
+00:14:09,800 --> 00:14:13,800
+ are other systems out there that you might want to add to your life, to your collection
+
+256
+00:14:13,800 --> 00:14:15,560
+ of skills.
+
+257
+00:14:15,560 --> 00:14:19,800
+ But having a Linux laptop gives you desktop skills with Linux, which I've made arguments
+
+258
+00:14:19,800 --> 00:14:21,560
+ about necessarily needing.
+
+259
+00:14:21,560 --> 00:14:27,280
+ But it is, desktop Linux is very problematic and it continues to fail for people.
+
+260
+00:14:27,280 --> 00:14:32,320
+ Just this week, I had a good friend on stream, my Bellum, who could not get his sound drivers
+
+261
+00:14:32,320 --> 00:14:33,320
+ to work.
+
+262
+00:14:33,320 --> 00:14:36,920
+ He's 26 on the most stable distribution of Linux.
+
+263
+00:14:36,920 --> 00:14:41,600
+ There is Linux Mint and he still couldn't get his Linux driver, so this is not user error.
+
+264
+00:14:41,600 --> 00:14:44,800
+ This is because Linux desktop is a moving target.
+
+265
+00:14:44,800 --> 00:14:46,200
+ That's very annoying.
+
+266
+00:14:46,200 --> 00:14:51,960
+ So that is why you need to do Papa West, totally black screen, my machine.
+
+267
+00:14:51,960 --> 00:14:57,520
+ So you don't want, I don't, like I'm going to get so beat up by this.
+
+268
+00:14:57,520 --> 00:15:01,280
+ I personally don't think you want Linux as your daily driver.
+
+269
+00:15:01,280 --> 00:15:06,680
+ I did use Unix as my daily driver for 10 years while I worked at IBM, I use Winora.
+
+270
+00:15:06,680 --> 00:15:10,920
+ If you do that, make sure you know how to administer it and then you can keep it solid.
+
+271
+00:15:10,920 --> 00:15:14,760
+ MacBook Pros as a daily driver will never do you wrong.
+
+272
+00:15:14,760 --> 00:15:16,640
+ I swear to God, knock on wood.
+
+273
+00:15:16,640 --> 00:15:20,600
+ I have never had a MacBook Pro ever do me wrong, ever.
+
+274
+00:15:20,600 --> 00:15:25,880
+ I've had the screens break, that's a different problem, but so anyway, I've spent way too
+
+275
+00:15:25,880 --> 00:15:28,000
+ much time on two, three, and four, right?
+
+276
+00:15:28,000 --> 00:15:29,280
+ Do you guys agree?
+
+277
+00:15:29,280 --> 00:15:30,280
+ Maybe not.
+
+278
+00:15:30,280 --> 00:15:33,080
+ If you do agree, put it in the comments, if you do agree, tell me why.
+
+279
+00:15:33,080 --> 00:15:38,560
+ If you don't think it's necessary to know Linux, Windows, and Mac, and understand all
+
+280
+00:15:38,560 --> 00:15:41,160
+ of them, then you don't make your case.
+
+281
+00:15:41,160 --> 00:15:47,480
+ I'll hear you out, but I think everybody hearing this should make that decision.
+
+282
+00:15:47,480 --> 00:15:49,600
+ Now you're starting to get serious, right?
+
+283
+00:15:49,600 --> 00:15:53,160
+ So now you're starting to, Linux does not normally run as a laptop.
+
+284
+00:15:53,160 --> 00:15:57,240
+ If you want to get a job with Linux, then you don't care about Linux desktop, what you
+
+285
+00:15:57,240 --> 00:16:00,160
+ care about is running Linux on a server.
+
+286
+00:16:00,160 --> 00:16:04,400
+ That means you connect to the server and you put your container engine on there, you put
+
+287
+00:16:04,400 --> 00:16:10,280
+ Kubernetes, and Slurm, and a Minecraft, or maybe a TF2 server, whatever you want, but
+
+288
+00:16:10,280 --> 00:16:14,160
+ you've got to get good setting up Linux on a server.
+
+289
+00:16:14,160 --> 00:16:18,000
+ So that's where the whole garage lab comes in, right?
+
+290
+00:16:18,000 --> 00:16:21,640
+ But if you don't want to do the garage lab thing and make those into servers, which you
+
+291
+00:16:21,640 --> 00:16:26,640
+ can also do, probably the most efficient way, is to get a big server like this.
+
+292
+00:16:26,640 --> 00:16:28,920
+ Mine happens to be an HP Z640.
+
+293
+00:16:28,920 --> 00:16:36,240
+ I hate HPs or laptops, but HPs for enterprise hardware are pretty good.
+
+294
+00:16:36,240 --> 00:16:42,360
+ You know, there's other brands out there, but you can get an HP Z640 for $800 to $700.
+
+295
+00:16:42,360 --> 00:16:46,960
+ I'll make a whole video on that I have, actually, and then you can chop it up using technology
+
+296
+00:16:46,960 --> 00:16:52,400
+ called Proxmox, which I will actually add here.
+
+297
+00:16:52,400 --> 00:16:58,320
+ There's other technologies to do this, but we're going to put, we're going to call those
+
+298
+00:16:58,320 --> 00:17:02,680
+ Proxmox here, and we'll make this one, let me make it white.
+
+299
+00:17:02,680 --> 00:17:08,320
+ All right, so Proxmox is just the easiest way to chop up a single machine into lots
+
+300
+00:17:08,320 --> 00:17:10,160
+ of little tiny machines.
+
+301
+00:17:10,160 --> 00:17:11,560
+ That's what's represented here.
+
+302
+00:17:11,560 --> 00:17:17,960
+ You'll need a cheap console for this, like, I don't know, like a $100 television to plug
+
+303
+00:17:17,960 --> 00:17:18,960
+ into it.
+
+304
+00:17:18,960 --> 00:17:24,400
+ It doesn't need to be a high-end 4K monitor, it just needs something to see the text on
+
+305
+00:17:24,400 --> 00:17:29,360
+ the console and get that connected there and do make that good.
+
+306
+00:17:29,360 --> 00:17:36,720
+ So, this is currently my Proxmox server right now, and I'll just show you really quick.
+
+307
+00:17:36,720 --> 00:17:42,400
+ You know, you have all these little machines on here, including one, which is rather weird.
+
+308
+00:17:42,400 --> 00:17:49,960
+ Check this one out, yep, that's right, that's a Windows machine, my friends, that's a Windows
+
+309
+00:17:49,960 --> 00:17:56,280
+ machine running on, and Windows on a virtual machine on Proxmox.
+
+310
+00:17:56,280 --> 00:18:02,120
+ Now, I've come to conclude that this is not the best way to have Windows in your environment
+
+311
+00:18:02,120 --> 00:18:06,840
+ for testing because it's a virtual machine and not a real machine, which, the reason
+
+312
+00:18:06,840 --> 00:18:11,600
+ I did it was because I wanted to set up a container engine on here, and I had all kinds
+
+313
+00:18:11,600 --> 00:18:16,080
+ of problems with that because it's a virtual machine, and containers usually work better
+
+314
+00:18:16,080 --> 00:18:20,800
+ when they're on hardware, not always, but you know, that's just generally a thing.
+
+315
+00:18:20,800 --> 00:18:23,520
+ But so, yeah, I've got Windows running in Proxmox here.
+
+316
+00:18:23,520 --> 00:18:28,240
+ I also got a bunch of other Linux machines, and you can set those all together, and there's
+
+317
+00:18:28,240 --> 00:18:38,360
+ a separate video about my breaking lab lab, and speaking of labs, you don't have to go
+
+318
+00:18:38,360 --> 00:18:42,160
+ big, but I'll end this by going big, I've got to get on my other meeting.
+
+319
+00:18:42,160 --> 00:18:47,040
+ So the last step of this is you want to start actually doing things on hardware, right?
+
+320
+00:18:47,040 --> 00:18:52,000
+ So now you're starting to buy a little tiny, Optiplex computers, they cost like $150 bucks,
+
+321
+00:18:52,000 --> 00:18:56,080
+ and they're these little servers, they're designed to be servers, they're mini computers.
+
+322
+00:18:56,080 --> 00:19:01,880
+ At one point, I had 16 Mac minis running Linux because I had them left over, and you put
+
+323
+00:19:01,880 --> 00:19:04,920
+ all these things together, when you start doing this, you're starting to talk about
+
+324
+00:19:04,920 --> 00:19:11,240
+ buying a server tower, I've had two of them, like at the same time, you're talking about
+
+325
+00:19:11,240 --> 00:19:16,720
+ a higher power demand, you're talking about, but to do this, you get to learn, you buy
+
+326
+00:19:16,720 --> 00:19:22,240
+ yourself a managed switch, or a VLAN switch, you start to learn about networking, about
+
+327
+00:19:22,240 --> 00:19:28,720
+ how to do management intelligence, and get really into the hardware architecture role,
+
+328
+00:19:28,720 --> 00:19:33,880
+ and this is architected like this to have three control planes, and then have a cluster
+
+329
+00:19:33,880 --> 00:19:38,960
+ here of Kubernetes items, we can also have it double as Slurm, I had actually two Kubernetes
+
+330
+00:19:38,960 --> 00:19:44,440
+ clusters running on hardware, and there's just no better way to model an enterprise
+
+331
+00:19:44,440 --> 00:19:48,560
+ environment than that, in fact my development server, when I had it running like that, my
+
+332
+00:19:48,560 --> 00:19:54,240
+ development cluster was better than the development cluster, we have it at work, but it cost me
+
+333
+00:19:54,240 --> 00:20:02,160
+ in time, power, space, moving it around, and just the overall hassle of keeping it running
+
+334
+00:20:02,160 --> 00:20:08,160
+ and up and all the time, but I learned a ton in doing that, so I, since that time since
+
+335
+00:20:08,160 --> 00:20:12,400
+ I am bouncing around apartments and leaning out of my car these days, on occasion, you
+
+336
+00:20:12,400 --> 00:20:19,640
+ know, to go climb or whatever, I now have maxed out at step five, because everything I need
+
+337
+00:20:19,640 --> 00:20:25,640
+ to do, you know, you just saw, you know, I pop up, I need to, you know, cut up a whole
+
+338
+00:20:25,640 --> 00:20:30,720
+ bunch of virtual machines running Slurm, and I can emulate my work environment using Slurm,
+
+339
+00:20:30,720 --> 00:20:37,000
+ even though these machines don't have GPUs, so that I can actually, you know, simulate
+
+340
+00:20:37,000 --> 00:20:43,780
+ my work environment, and if you want to get super crazy, this is my actual conceptual
+
+341
+00:20:43,780 --> 00:20:47,920
+ air gap home knob network, it was $25,000 of leftover hardware from my company that I
+
+342
+00:20:47,920 --> 00:20:53,360
+ used to run, and I donated all of this, but I had a complete air gap network with two
+
+343
+00:20:53,360 --> 00:20:58,520
+ full networks, I had an open sense router that was just, you know, distributing the two,
+
+344
+00:20:58,520 --> 00:21:03,200
+ I had, I had two clusters, this was a GPU cluster that was running old Trident computers
+
+345
+00:21:03,200 --> 00:21:08,160
+ that had GPUs in them that I could use for machine learning simulation, and then I had
+
+346
+00:21:08,160 --> 00:21:14,020
+ this Kubernetes cluster down here, I had a managed switch and an unmanaged switch, managed
+
+347
+00:21:14,020 --> 00:21:19,120
+ switch means that you can, you can get power on over ethernet, I had a Raspberry Pi cluster
+
+348
+00:21:19,120 --> 00:21:23,400
+ with a whole bunch of stuff in there, and I didn't use any of it, it was really fun
+
+349
+00:21:23,400 --> 00:21:28,280
+ building it all and everything, but I ended up donating all of the community college,
+
+350
+00:21:28,280 --> 00:21:31,920
+ because they didn't need it, I didn't need it for my job, I need it, it was really fun
+
+351
+00:21:31,920 --> 00:21:36,520
+ to build it and everything, but I didn't, I really didn't need it, I also included in
+
+352
+00:21:36,520 --> 00:21:41,520
+ here my IRL streaming stuff, my IRL streaming with my justinata, which is not, I don't use
+
+353
+00:21:41,520 --> 00:21:48,560
+ that anymore, I use a, I use an Orange Pi plus, and, and so, you know, and then I had,
+
+354
+00:21:48,560 --> 00:21:53,640
+ I had the central, central access system, but if you want to get really into our networking
+
+355
+00:21:53,640 --> 00:21:57,720
+ architecture and stuff, then you might want to go crazy like this, but I'm telling you
+
+356
+00:21:57,720 --> 00:22:02,120
+ right now, you don't need to, the first thing you need is a, is a reliable good router, so
+
+357
+00:22:02,120 --> 00:22:06,920
+ you can, you know, access your stuff in a consistent way and build up your network,
+
+358
+00:22:06,920 --> 00:22:11,960
+ and then you need a Linux laptop, maybe a Windows 10 laptop or an Arch Linux laptop,
+
+359
+00:22:11,960 --> 00:22:17,360
+ maybe a Red Hat, two laptops to mess around with, you get for free, or you buy for super
+
+360
+00:22:17,360 --> 00:22:22,880
+ cheap on sale at Target or, or Walmart, wherever, and then eventually you work up to getting
+
+361
+00:22:22,880 --> 00:22:26,720
+ a MacBook Pro, you learn Unix, you use that as your daily driver, you take that to all
+
+362
+00:22:26,720 --> 00:22:30,480
+ your meetups, if you want to take your Linux laptop to the meetup instead of MacBook Pro
+
+363
+00:22:30,480 --> 00:22:34,440
+ fine, again, these things don't have to be powerful, your laptops don't have to be
+
+364
+00:22:34,440 --> 00:22:37,080
+ powerful, your MacBook Pro kind of needs to be powerful, you want to start streaming,
+
+365
+00:22:37,080 --> 00:22:41,280
+ which I encourage you to do, streaming is the best way to get a job, I got my current job
+
+366
+00:22:41,280 --> 00:22:44,720
+ from Twitch, somebody that I met on Twitch, it's not a Twitch job, it's a company you
+
+367
+00:22:44,720 --> 00:22:49,160
+ would not guess, but I got a job through Twitch and live streaming, I strongly encourage you
+
+368
+00:22:49,160 --> 00:22:53,040
+ start doing that, and an MacBook Pro is the fastest way to get into live streaming and
+
+369
+00:22:53,040 --> 00:22:59,680
+ everything else you want to do as a tech professional, and then if you want to not be derided at
+
+370
+00:22:59,680 --> 00:23:03,280
+ the Linux meetup, you can take your Linux laptop to the meetup and then like, oh, look
+
+371
+00:23:03,280 --> 00:23:06,920
+ at your tiny little Linux laptop, I'm like, yeah, that's because I'm on an approximate
+
+372
+00:23:06,920 --> 00:23:12,400
+ server with like 55, 55 individual, you know, I got ARCH, I got ARCH in there, and I got
+
+373
+00:23:12,400 --> 00:23:16,720
+ my some B, a little bit of BSD in there, and you know, I got some Red Hat and everything,
+
+374
+00:23:16,720 --> 00:23:22,360
+ so yeah, my laptop's just, it's just a console, man, it's just a console, bro, it's just,
+
+375
+00:23:22,360 --> 00:23:28,040
+ you know, it gets the job done, yeah, Tmux is my window manager, I don't fight over i3
+
+376
+00:23:28,040 --> 00:23:33,320
+ or anything like that, I just live on the terminal, yo.
+
+377
+00:23:33,320 --> 00:23:36,840
+ That's how you hold face in a Linux meetup, because you just tell them that, and by the
+
+378
+00:23:36,840 --> 00:23:41,040
+ way, that's how hackers do it too, right, any good hacker doesn't hack from their laptop,
+
+379
+00:23:41,040 --> 00:23:48,840
+ they hack from a cute computer that's like 7 or 10 or 20 hops away, because that's actually
+
+380
+00:23:48,840 --> 00:23:53,560
+ something in the movies, it's real, you know, it's so far away that they don't deal with
+
+381
+00:23:53,560 --> 00:23:59,240
+ it, right, so they go far, far away, and then they hack from that computer that it's not
+
+382
+00:23:59,240 --> 00:24:05,120
+ even theirs, it's a computer that they hacked, so you know, if you, if you show up at a Linux
+
+383
+00:24:05,120 --> 00:24:10,640
+ meetup with a laptop, Linux laptop that's underpowered, anybody that judges you is just judging
+
+384
+00:24:10,640 --> 00:24:18,360
+ themselves really, except for showing up at the, at the offensive security windows, what's it
+
+385
+00:24:18,360 --> 00:24:26,080
+ called, Windows, what is it called, Windows exploit development camp, in which case you
+
+386
+00:24:26,080 --> 00:24:33,080
+ must have, and I kid you not, a Windows 10 computer that can run 8 VMs simultaneously,
+
+387
+00:24:33,080 --> 00:24:36,160
+ because the goal of that training is Windows hacking.
+
+388
+00:24:36,160 --> 00:24:39,720
+ Another reason to have Windows 10 and Windows 11 around is if you want to hack, how you're
+
+389
+00:24:39,720 --> 00:24:45,800
+ going to hack it, if you don't have a copy of it, you can, you can sort of hack a VM,
+
+390
+00:24:45,800 --> 00:24:50,760
+ but it's actually, you know, it's, and you do learn to hack a VMs, but actually having
+
+391
+00:24:50,760 --> 00:24:55,840
+ the one on hardware, it's also kind of useful, so, especially since you can kick it off immediately
+
+392
+00:24:55,840 --> 00:25:00,080
+ and put Linux, there are, Linux back on there, because it's an Intel box, by the way, all
+
+393
+00:25:00,080 --> 00:25:05,360
+ of these things are Intel, and instead of ARM except for the MacBook Pro, the MacBook
+
+394
+00:25:05,360 --> 00:25:10,360
+ Pro will be ARM, and that's okay, that's okay because you're not going to be doing, you're
+
+395
+00:25:10,360 --> 00:25:14,080
+ going to be making containers on it, you're going to be making containers on your Proxmox
+
+396
+00:25:14,080 --> 00:25:18,560
+ box, or you're going to be making containers on your Linux laptop, or God forbid, your
+
+397
+00:25:18,560 --> 00:25:21,280
+ Windows laptop, that's how you're going to do it.
+
+398
+00:25:21,280 --> 00:25:25,640
+ This is the evolution of a home lab, this is that I recommend, it's not even the evolution
+
+399
+00:25:25,640 --> 00:25:30,280
+ that I followed, mine was a lot of hodgepodge come, you know, get the free stuff I can
+
+400
+00:25:30,280 --> 00:25:36,180
+ get, I still, you can still do that, but I wanted to provide a guide in a video that
+
+401
+00:25:36,180 --> 00:25:42,480
+ kind of helps you put parameters around what you need, because you're going to get so many
+
+402
+00:25:42,480 --> 00:25:46,880
+ opinions about how to get going with Linux and the tech community and everything, I've
+
+403
+00:25:46,880 --> 00:25:52,560
+ given you my opinion, take it with a grain of salt, make your own decisions, and go give
+
+404
+00:25:52,560 --> 00:25:53,380
+ it a shot.
+

@@ -1,0 +1,356 @@
+1
+00:00:00,000 --> 00:00:06,880
+ As somebody recently asked me what I think of the pyramid that Johnny asked that, and
+
+2
+00:00:06,880 --> 00:00:07,880
+ I didn't know about it.
+
+3
+00:00:07,880 --> 00:00:08,880
+ So I was like, okay, let's look at this.
+
+4
+00:00:08,880 --> 00:00:13,440
+ We were talking about organizing your notes, which is an never ending conversation topic
+
+5
+00:00:13,440 --> 00:00:15,160
+ for me.
+
+6
+00:00:15,160 --> 00:00:26,600
+ And it became clear that to me, again, that the best way to take notes is to use obsidian
+
+7
+00:00:26,600 --> 00:00:35,600
+ and to use lowercase names, you know, that will also result to URLs and to use in addition
+
+8
+00:00:35,600 --> 00:00:40,840
+ to that a header so that you have the freedom to put emojis and stuff into the header.
+
+9
+00:00:40,840 --> 00:00:43,840
+ So that I'll do a whole video on this.
+
+10
+00:00:43,840 --> 00:00:46,240
+ This actually resolves links.
+
+11
+00:00:46,240 --> 00:00:49,940
+ So when you move things around like this one here, it moves over here and it links
+
+12
+00:00:49,940 --> 00:00:50,940
+ to this.
+
+13
+00:00:50,940 --> 00:00:53,880
+ So what that does is it gives you the freedom to move this stuff anywhere.
+
+14
+00:00:53,880 --> 00:00:57,640
+ It's like, I want to move JIT by learning back in the main, it'll tell you I updated
+
+15
+00:00:57,640 --> 00:01:00,080
+ the link and I looked the link again.
+
+16
+00:01:00,080 --> 00:01:01,640
+ The link has now been updated, right?
+
+17
+00:01:01,640 --> 00:01:04,720
+ So this is the main reason to use obsidian, right?
+
+18
+00:01:04,720 --> 00:01:09,440
+ One point was anti obsidian mostly because it didn't use standard markdown links, which
+
+19
+00:01:09,440 --> 00:01:10,600
+ why would you do that?
+
+20
+00:01:10,600 --> 00:01:12,320
+ There was no reason for that.
+
+21
+00:01:12,320 --> 00:01:14,800
+ So I'm going to put JIT learning back in education.
+
+22
+00:01:14,800 --> 00:01:18,880
+ You can see how it just moves everything around really seamlessly.
+
+23
+00:01:18,880 --> 00:01:21,240
+ This is a knowledge base that I started, by the way.
+
+24
+00:01:21,240 --> 00:01:24,840
+ This is the beginner boost/docs directory.
+
+25
+00:01:24,840 --> 00:01:28,460
+ So you can put a knowledge base mixed in with another project that's got other code
+
+26
+00:01:28,460 --> 00:01:29,460
+ or something in it.
+
+27
+00:01:29,460 --> 00:01:32,960
+ Another thing about it too, in this particular way, is that all of this stuff is immediately
+
+28
+00:01:32,960 --> 00:01:34,640
+ available as a website.
+
+29
+00:01:34,640 --> 00:01:39,080
+ So you just tap on activate, get up pages and boom, you got a website on top of that.
+
+30
+00:01:39,080 --> 00:01:41,360
+ You don't have to do any static site generation.
+
+31
+00:01:41,360 --> 00:01:45,760
+ Anything you want to do in addition to that is fluff on the top.
+
+32
+00:01:45,760 --> 00:01:46,760
+ It's not required.
+
+33
+00:01:46,760 --> 00:01:48,320
+ It's something you can put on the top.
+
+34
+00:01:48,320 --> 00:01:52,880
+ So long as you have some sort of link from the top that leads into everything.
+
+35
+00:01:52,880 --> 00:01:55,760
+ But the most important part of this is that if somebody wants all your notes, all they
+
+36
+00:01:55,760 --> 00:01:58,120
+ have to do is share your Git.
+
+37
+00:01:58,120 --> 00:01:59,960
+ They just have to share your Git repo.
+
+38
+00:01:59,960 --> 00:02:05,520
+ I'm still going to keep the knowledge exchange graph, but this is now going to become sharing
+
+39
+00:02:05,520 --> 00:02:12,100
+ different people's Git repos and having each one of those Git repos be a keg, so to speak.
+
+40
+00:02:12,100 --> 00:02:17,160
+ That is a knowledge base of documentation that's largely just organized with obsidian
+
+41
+00:02:17,160 --> 00:02:19,320
+ in this way.
+
+42
+00:02:19,320 --> 00:02:22,600
+ But the question was, do you want to use the paramet that I was like, what's the paramet
+
+43
+00:02:22,600 --> 00:02:23,600
+ that?
+
+44
+00:02:23,600 --> 00:02:32,640
+ So the paramet that is organizing your content into projects, areas, resources, and archive.
+
+45
+00:02:32,640 --> 00:02:38,360
+ And my very quick answer to that is no, just tag it.
+
+46
+00:02:38,360 --> 00:02:46,200
+ The endless debate about how to categorize thing can be summarized by just use tags.
+
+47
+00:02:46,200 --> 00:02:53,880
+ And the organization of content should be 100% about keeping too many files out of the
+
+48
+00:02:53,880 --> 00:02:54,880
+ top level.
+
+49
+00:02:54,880 --> 00:02:56,280
+ That's it.
+
+50
+00:02:56,280 --> 00:03:01,960
+ Because every other aspect of this is controlled through hyperlinking the way God intended,
+
+51
+00:03:01,960 --> 00:03:04,920
+ God being Tim Berners-Lee.
+
+52
+00:03:04,920 --> 00:03:10,720
+ So there's really no need, especially since all the links are being internally managed
+
+53
+00:03:10,720 --> 00:03:15,320
+ by obsidian and they auto-repressed through the indexing cache.
+
+54
+00:03:15,320 --> 00:03:19,260
+ There's really no reason to do anything besides tagging, besides that.
+
+55
+00:03:19,260 --> 00:03:23,080
+ Because the first thing that breaks, let me give you an example of why a pair of breaks.
+
+56
+00:03:23,080 --> 00:03:29,560
+ So there's a thing here, a project and an area.
+
+57
+00:03:29,560 --> 00:03:31,920
+ So let's say the clip project, right?
+
+58
+00:03:31,920 --> 00:03:38,720
+ So I made a clip project which is to help you make Flash YouTube clips on a live stream.
+
+59
+00:03:38,720 --> 00:03:40,320
+ Where does it go?
+
+60
+00:03:40,320 --> 00:03:41,800
+ Is that a project?
+
+61
+00:03:41,800 --> 00:03:44,800
+ Or is that an area?
+
+62
+00:03:44,800 --> 00:03:47,160
+ Flash streaming is an ongoing responsibility that I have.
+
+63
+00:03:47,160 --> 00:03:50,920
+ It's where I do everything and that clips project specifically helps me with that.
+
+64
+00:03:50,920 --> 00:03:52,960
+ How about my topic project?
+
+65
+00:03:52,960 --> 00:03:59,380
+ Which sets my title and my topic in GitHub status, the Twitter, Twitch, it used to send
+
+66
+00:03:59,380 --> 00:04:00,380
+ Twitter link.
+
+67
+00:04:00,380 --> 00:04:07,520
+ It doesn't anymore, Twitch, YouTube, GitHub and on the screen at the top.
+
+68
+00:04:07,520 --> 00:04:08,600
+ All in one shot.
+
+69
+00:04:08,600 --> 00:04:09,600
+ Where does that go?
+
+70
+00:04:09,600 --> 00:04:10,840
+ That was a project.
+
+71
+00:04:10,840 --> 00:04:13,520
+ That's a project that helps me do ongoing live stream things.
+
+72
+00:04:13,520 --> 00:04:18,360
+ Do I put all that content under an area called live streaming or do I put it under a project?
+
+73
+00:04:18,360 --> 00:04:20,480
+ It already breaks this taxonomy.
+
+74
+00:04:20,480 --> 00:04:25,600
+ So this is still a hierarchical broken categorization.
+
+75
+00:04:25,600 --> 00:04:30,640
+ Anything that uses like a folder is already broken.
+
+76
+00:04:30,640 --> 00:04:32,480
+ This is why symbolic links in the world.
+
+77
+00:04:32,480 --> 00:04:38,500
+ This is why the biology thing, species, blah, blah, blah, blah, blah, file on all that stuff
+
+78
+00:04:38,500 --> 00:04:44,760
+ is already broken because there are animals that break that hierarchy constantly and so
+
+79
+00:04:44,760 --> 00:04:45,760
+ what do they do?
+
+80
+00:04:45,760 --> 00:04:49,680
+ They have nowhere to put them because they don't fit in a nice, happy hierarchy.
+
+81
+00:04:49,680 --> 00:04:53,480
+ Anything that has a hierarchy is already broken because there will always be something that
+
+82
+00:04:53,480 --> 00:04:55,920
+ exists in both places.
+
+83
+00:04:55,920 --> 00:04:56,920
+ How do you do that?
+
+84
+00:04:56,920 --> 00:05:01,800
+ Well, if you're using tags, then you just tag both things and then a thing will pop up
+
+85
+00:05:01,800 --> 00:05:04,000
+ in both places.
+
+86
+00:05:04,000 --> 00:05:05,000
+ That's it.
+
+87
+00:05:05,000 --> 00:05:06,800
+ I don't think this is worth even pursuing.
+
+88
+00:05:06,800 --> 00:05:09,040
+ So yeah, I don't think pair is worth following.
+
+89
+00:05:09,040 --> 00:05:11,120
+ I just used tags at the end.
+

@@ -1,0 +1,520 @@
+1
+00:00:00,000 --> 00:00:09,600
+ All right, I have a scary story about free code camp and before I tell you this story,
+
+2
+00:00:09,600 --> 00:00:17,080
+ I want you to understand that I think any resource that you learn from no matter what
+
+3
+00:00:17,080 --> 00:00:20,920
+ is a good thing and everybody's got a different learning style.
+
+4
+00:00:20,920 --> 00:00:27,800
+ They've got a different, you know, approach to both teaching it as well as to learning
+
+5
+00:00:27,800 --> 00:00:34,120
+ it. Obviously, I have a very quirky words that I'm wearing a hoodie for God's sake.
+
+6
+00:00:34,120 --> 00:00:38,360
+ You know, and so I have to be careful because what I'm going to say is going to sound extremely
+
+7
+00:00:38,360 --> 00:00:47,120
+ critical of free code camp and it is critical of it and but I want to back it up.
+
+8
+00:00:47,120 --> 00:00:55,400
+ So this video is going to be linked both from the web part as well as from kind of the where
+
+9
+00:00:55,400 --> 00:01:00,480
+ should I learn? Who should I learn from part? But I was reminded of the story today when
+
+10
+00:01:00,480 --> 00:01:10,120
+ we were doing web development and I mentioned casually that after learning the basic structure
+
+11
+00:01:10,120 --> 00:01:16,080
+ of a website that I used to give people a sort of a challenge and I would say, "Okay,
+
+12
+00:01:16,080 --> 00:01:22,280
+ now next week when you come back, let's have you, let's see how long it takes you to make
+
+13
+00:01:22,280 --> 00:01:27,400
+ a web page from scratch." And I always have jokers, you know, come in and do HTML5 and
+
+14
+00:01:27,400 --> 00:01:32,480
+ then use the template from VS Code and it would auto-complete and they'd say, "I'm done,
+
+15
+00:01:32,480 --> 00:01:36,120
+ Mr. Rob." And I was like, "No, you can't do that. You got to actually do it from scratch."
+
+16
+00:01:36,120 --> 00:01:41,440
+ And that meant that they had to remember how to do the elements in order, how to, you know,
+
+17
+00:01:41,440 --> 00:01:45,840
+ what they were, you know, what the head and the body were different and maybe, you know,
+
+18
+00:01:45,840 --> 00:01:52,200
+ put a paragraph tag in there. And it's kind of a fun way, informally, to test them and
+
+19
+00:01:52,200 --> 00:01:56,720
+ have them see how much they learn. And it is actually one of those things where kind of
+
+20
+00:01:56,720 --> 00:02:02,440
+ memorizing it makes sense, right? Because you don't always have access to AI or to, you
+
+21
+00:02:02,440 --> 00:02:07,160
+ know, to a template system is going to fill it out for you. It is true that memorizing
+
+22
+00:02:07,160 --> 00:02:13,160
+ things like how do I start doing anything, any kind of boilerplate is completely being
+
+23
+00:02:13,160 --> 00:02:18,760
+ replaced by AI, helping us create the boilerplate for everything. And that's awesome. But the
+
+24
+00:02:18,760 --> 00:02:22,800
+ point of that particular exercise would just help them get to know it. And, but that's
+
+25
+00:02:22,800 --> 00:02:29,320
+ not even really the main point of this video. The main point of this video is how little
+
+26
+00:02:29,320 --> 00:02:39,400
+ these people learn from a pre-code camp. So I am very sad to say that I'm going to share
+
+27
+00:02:39,400 --> 00:02:43,720
+ with you the statistics. It's going to look very bad on me. And there's going to be one
+
+28
+00:02:43,720 --> 00:02:47,000
+ person in the comments that's going to say, "Well, that's just because you're a sucky
+
+29
+00:02:47,000 --> 00:02:52,600
+ teacher or a bad mentor." Fine. If you want to say that, great. I'm still going to tell
+
+30
+00:02:52,600 --> 00:03:01,280
+ you the story. So I took 35 or 40 people that I was mentoring. And one year I said, "Look,
+
+31
+00:03:01,280 --> 00:03:07,000
+ I am tired of reinventing the wheel on everything. I want to get behind the efforts of others
+
+32
+00:03:07,000 --> 00:03:15,040
+ that are promoting education out there." And so I sent all 40, 45 people from my, that
+
+33
+00:03:15,040 --> 00:03:22,560
+ particular mentored semester through pre-code camps, web development project. And every week
+
+34
+00:03:22,560 --> 00:03:27,240
+ we would go through it. And I would help them do their things. And I had a couple people
+
+35
+00:03:27,240 --> 00:03:31,080
+ figure out how to hack the things so they could get credit even though they didn't do
+
+36
+00:03:31,080 --> 00:03:36,440
+ it, which was totally cool. But I was like, "You're not learning it just because you
+
+37
+00:03:36,440 --> 00:03:42,800
+ learned how to hack it." And it was really funny. That's what happens when you teach
+
+38
+00:03:42,800 --> 00:03:46,240
+ everybody to think like a hacker. I mean, they're like, "How can I pass this without
+
+39
+00:03:46,240 --> 00:03:55,440
+ having..." Anyway. So they ended up doing... They did go through the thing, but the problem...
+
+40
+00:03:55,440 --> 00:04:04,000
+ And honest to God, I don't know my best guess about the problem with the web development
+
+41
+00:04:04,000 --> 00:04:10,720
+ certificate. And they all got the certificate. They, for all 45 or so of them, got the certificate.
+
+42
+00:04:10,720 --> 00:04:16,680
+ So they were all officially web developers according to free code camp. And so I decided
+
+43
+00:04:16,680 --> 00:04:23,680
+ to test them. I gave them the challenge that I just mentioned to you. I gave them the challenge.
+
+44
+00:04:23,680 --> 00:04:27,920
+ I said they came in one day after they had their certificates and they printed it out
+
+45
+00:04:27,920 --> 00:04:31,240
+ and they were showing it to their parents. And their parents thought they were awesome.
+
+46
+00:04:31,240 --> 00:04:37,280
+ Parents love flashy pieces of paper and t-shirts and crap like that. They don't... When the
+
+47
+00:04:37,280 --> 00:04:40,920
+ parent says, "What is my kid going to get knowledge and learning and potentially the
+
+48
+00:04:40,920 --> 00:04:45,700
+ job?" They're like, "Oh." But do they get a certificate or do they get a trophy? They
+
+49
+00:04:45,700 --> 00:04:50,320
+ get something I can show the other parents how awesome my kid is. It was a challenge.
+
+50
+00:04:50,320 --> 00:04:53,760
+ It was a challenge. And free code camp definitely did that. Free code camp gave them these big
+
+51
+00:04:53,760 --> 00:05:00,920
+ fancy certificates saying they were web developers. And it was like signed and they printed it
+
+52
+00:05:00,920 --> 00:05:07,520
+ out and they hung it in their room. And then I tested them on it. You know where the story
+
+53
+00:05:07,520 --> 00:05:16,580
+ is going, right? Not... No, that's not true. Two. Two of them. All of the 45 or so of these
+
+54
+00:05:16,580 --> 00:05:24,040
+ kids could finish making a web page at all on their own. Only two of them. They went
+
+55
+00:05:24,040 --> 00:05:28,920
+ through the entire thing. They had a certificate and I sat them down and I said, "Fine, make
+
+56
+00:05:28,920 --> 00:05:34,960
+ me a web page." And they couldn't do it. They had no idea. And they said, "Okay. Well,
+
+57
+00:05:34,960 --> 00:05:39,560
+ let's do this. Let's at least get you a server." Because pre-code camp doesn't teach you how
+
+58
+00:05:39,560 --> 00:05:43,440
+ to set up a live server so you can preview your site at all. It makes you completely
+
+59
+00:05:43,440 --> 00:05:48,120
+ dependent on their service in order to even view anything. It doesn't talk about how to
+
+60
+00:05:48,120 --> 00:05:52,680
+ make a web server. It doesn't talk about where you could host on GitHub for free. It doesn't
+
+61
+00:05:52,680 --> 00:05:56,920
+ talk about... About how to preview your stuff in real time live. None of that. None of that
+
+62
+00:05:56,920 --> 00:06:04,840
+ was covered. Did it cover the meta tag? Yeah, it did. But not a single one of these people
+
+63
+00:06:04,840 --> 00:06:09,240
+ could create a website. Not none of them. And I kept saying, "Okay. I'm going to get
+
+64
+00:06:09,240 --> 00:06:14,440
+ you a little bit of help here." Okay. So here you got a server now. All right. Ready. Go.
+
+65
+00:06:14,440 --> 00:06:19,400
+ And I said, "Look. Okay. You got your server. Now all I want you to do is just make a basic
+
+66
+00:06:19,400 --> 00:06:24,480
+ web document with like a header of the title and one paragraph." And none of them could
+
+67
+00:06:24,480 --> 00:06:30,200
+ do it except for two. And the two that we're able to do it were those who I had already
+
+68
+00:06:30,200 --> 00:06:35,920
+ taken through this challenge. And I had taught them this thing myself one at a time and a
+
+69
+00:06:35,920 --> 00:06:46,240
+ thing. And this isn't about me. This is about the dependability of four education websites.
+
+70
+00:06:46,240 --> 00:06:56,800
+ The takeaway from this is that in my experience or education tools suck. They totally suck.
+
+71
+00:06:56,800 --> 00:07:02,520
+ And they don't teach you actual skills. They teach you the theory or they get you to do
+
+72
+00:07:02,520 --> 00:07:09,200
+ a thing. But they didn't even know what index.html. I'm not even kidding. My friends. My friends.
+
+73
+00:07:09,200 --> 00:07:18,480
+ I am not making this up. None of these people knew what to name the file. They didn't even
+
+74
+00:07:18,480 --> 00:07:25,920
+ know what the file was or where it would go. Or why is it ended with that HTML? They may
+
+75
+00:07:25,920 --> 00:07:36,680
+ have known one or two or three or the tags. That was in 2019. That was in 2019. Now is
+
+76
+00:07:36,680 --> 00:07:42,080
+ it true that free code camp has probably improved their materials a lot since then? Yes, it is.
+
+77
+00:07:42,080 --> 00:07:46,240
+ Another one was code academy. Code academy. Same exact problem. I sent people through
+
+78
+00:07:46,240 --> 00:07:53,680
+ there. Couldn't do it either. And that was when I realized and this really is the takeaway.
+
+79
+00:07:53,680 --> 00:08:03,160
+ The takeaway is that four education simulations constantly suffer from missing all of the
+
+80
+00:08:03,160 --> 00:08:09,720
+ material. My personal theory on the free code camp approach was number one, it wasn't based
+
+81
+00:08:09,720 --> 00:08:15,640
+ on any pedagogy that has ever worked in an IT sector period. It was just based on, okay,
+
+82
+00:08:15,640 --> 00:08:18,640
+ we're going to do this thing. And then it would immediately send them another video and another
+
+83
+00:08:18,640 --> 00:08:24,160
+ thing and they would do was necessary to pass that level. And it didn't add on to the previous
+
+84
+00:08:24,160 --> 00:08:29,240
+ knowledge. It just kept giving them new knowledge without reinforcing their old knowledge. You
+
+85
+00:08:29,240 --> 00:08:34,600
+ know what would have reinforced their old knowledge the whole time by making an actual
+
+86
+00:08:34,600 --> 00:08:40,720
+ thing, by making an actual page all the time, potentially from scratch, maybe having to
+
+87
+00:08:40,720 --> 00:08:44,880
+ make three or four different pages. You get this page that does this now make another
+
+88
+00:08:44,880 --> 00:08:49,960
+ page that does this plus this other thing. Now make another page that does that plus something
+
+89
+00:08:49,960 --> 00:08:57,080
+ else. And then you aggregate their knowledge by layering on so that they get constant repetition
+
+90
+00:08:57,080 --> 00:09:01,200
+ or redundancy in this stuff they've already covered. So that by the time that they're producing
+
+91
+00:09:01,200 --> 00:09:05,720
+ this really amazing web page, the thing that they remember the least is the thing they most
+
+92
+00:09:05,720 --> 00:09:10,600
+ recently did. But at that point it kept, but that is not how the free code camp stuff was
+
+93
+00:09:10,600 --> 00:09:16,120
+ set up. They was set up to go do this and then do this and then do this and all of the online
+
+94
+00:09:16,120 --> 00:09:20,560
+ four education things like the gamified education and there's a bunch of, I'm not even going
+
+95
+00:09:20,560 --> 00:09:25,960
+ to say there's a bunch of gamified education right now regarding these kinds of things.
+
+96
+00:09:25,960 --> 00:09:30,200
+ And the thing I worry about the most is that someone's going to finish enough to do the
+
+97
+00:09:30,200 --> 00:09:35,560
+ thing. Another good example is VIM adventures. VIM adventures teaches you how to win the
+
+98
+00:09:35,560 --> 00:09:41,240
+ game VIM adventures. It doesn't teach you them. And the kids that had gone through VIM adventures
+
+99
+00:09:41,240 --> 00:09:46,120
+ did not know how to edit a file using VIM in the terminal. They had no idea because they
+
+100
+00:09:46,120 --> 00:09:51,720
+ never associated the act of editing a file with the keystrokes that were happening from
+
+101
+00:09:51,720 --> 00:09:58,000
+ VIM adventures. And the idea, the hypothesis behind a thing like VIM adventures is, oh,
+
+102
+00:09:58,000 --> 00:10:01,160
+ these kids are going to master all these really great, you know, command line things. The problem
+
+103
+00:10:01,160 --> 00:10:06,840
+ is is that's not how your brain works. Your brain works by associating the task at hand
+
+104
+00:10:06,840 --> 00:10:10,440
+ with what you're seeing. That means you were looking at a terminal and you have a text
+
+105
+00:10:10,440 --> 00:10:14,760
+ file that needs to be edited. What are the commands? And then your fingers become associated
+
+106
+00:10:14,760 --> 00:10:20,680
+ with the movements and stuff to do that. And that is exactly the same thing for web development.
+
+107
+00:10:20,680 --> 00:10:26,040
+ If they had learned how to make a very simple web page, and if I had walked them through
+
+108
+00:10:26,040 --> 00:10:30,360
+ using VS Code or whatever, to make an actual web page the same way an actual professional
+
+109
+00:10:30,360 --> 00:10:38,960
+ developer would do it, then they would be building on actual skills using real tools. And I cannot
+
+110
+00:10:38,960 --> 00:10:45,760
+ overstate how valuable that is. Because even if you learn the skill completely, and you're
+
+111
+00:10:45,760 --> 00:10:51,040
+ doing it in the cloud, on some educational website, and you're not actually logging into
+
+112
+00:10:51,040 --> 00:10:57,280
+ a system where every single thing is the same, then the pneumatic path, the pneumatic pathways
+
+113
+00:10:57,280 --> 00:11:02,480
+ in your brain in neural pathways and the pneumatic mnemonic methods and stuff like that, they're
+
+114
+00:11:02,480 --> 00:11:09,680
+ not going to work. Because your brain is used to associating all of this stuff, the entire
+
+115
+00:11:09,680 --> 00:11:16,960
+ experience. It's not just about knowing how to do x and y command. It's about having all
+
+116
+00:11:16,960 --> 00:11:24,200
+ the pieces be in sync so that when you are put in a similar situation for real, it's
+
+117
+00:11:24,200 --> 00:11:29,800
+ the same because you've never done anything but the real thing. And I see this all the
+
+118
+00:11:29,800 --> 00:11:41,240
+ time. So my concern was, my concern very simply is that places like pre-code camp and other
+
+119
+00:11:41,240 --> 00:11:45,960
+ gamified education things, there are a couple of areas where I've seen it more productive
+
+120
+00:11:45,960 --> 00:11:53,500
+ than others. For example, code combat, because they were doing coding and they added the
+
+121
+00:11:53,500 --> 00:11:59,400
+ actual syntax of the code that they were writing, they got better at writing that syntax.
+
+122
+00:11:59,400 --> 00:12:05,680
+ But they weren't solving real world problems. They were solving a problem to help them beat
+
+123
+00:12:05,680 --> 00:12:10,560
+ the monster. So maybe they learned how to do recursion and a loop or something. But it
+
+124
+00:12:10,560 --> 00:12:17,920
+ wasn't as effective in my opinion had they been solving their own problems. I want to
+
+125
+00:12:17,920 --> 00:12:25,120
+ make a story game. I want to make something that accomplishes a particular goal of mine.
+
+126
+00:12:25,120 --> 00:12:29,680
+ And that's just much more visceral. It's much more real. It just tends to stick better.
+
+127
+00:12:29,680 --> 00:12:35,360
+ So that's the end of the video really. It's not to throw reco camp under the bus. I understand
+
+128
+00:12:35,360 --> 00:12:41,040
+ that they have changed a lot. But the takeaway was I sent 45 people through free code camp
+
+129
+00:12:41,040 --> 00:12:45,960
+ and only two of them could build a website afterwards. A web page and those two had already
+
+130
+00:12:45,960 --> 00:12:49,080
+ learned how to do it before that. That's the truth.
+

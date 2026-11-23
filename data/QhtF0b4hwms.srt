@@ -1,0 +1,440 @@
+1
+00:00:00,000 --> 00:00:02,800
+ Think like a hacker.
+
+2
+00:00:02,800 --> 00:00:05,120
+ Yeah, what did I just say?
+
+3
+00:00:05,120 --> 00:00:11,160
+ Think like a hacker, but not like the hacker the way you think that you think what a hacker
+
+4
+00:00:11,160 --> 00:00:12,160
+ is.
+
+5
+00:00:12,160 --> 00:00:16,560
+ Think like a hacker like, oh, I don't know, Aaron Schwartz, and there's a whole video
+
+6
+00:00:16,560 --> 00:00:17,560
+ on that.
+
+7
+00:00:17,560 --> 00:00:18,560
+ It's linked from the beginner boost.
+
+8
+00:00:18,560 --> 00:00:19,560
+ Who the hell is Aaron Schwartz?
+
+9
+00:00:19,560 --> 00:00:20,600
+ And is he really a hacker?
+
+10
+00:00:20,600 --> 00:00:23,720
+ I'm going to let you figure that out on your own.
+
+11
+00:00:23,720 --> 00:00:26,080
+ Why would I say for you to think like a hacker?
+
+12
+00:00:26,080 --> 00:00:28,240
+ Everybody's in the studio audience.
+
+13
+00:00:28,240 --> 00:00:31,800
+ Why is it important to learn to think like a hacker?
+
+14
+00:00:31,800 --> 00:00:32,880
+ Just throw stuff out.
+
+15
+00:00:32,880 --> 00:00:33,880
+ Throw stuff out.
+
+16
+00:00:33,880 --> 00:00:36,920
+ I have several bullet points that we're going to make videos about, but I want to hear what
+
+17
+00:00:36,920 --> 00:00:38,880
+ you have to say.
+
+18
+00:00:38,880 --> 00:00:40,800
+ Why?
+
+19
+00:00:40,800 --> 00:00:46,120
+ Why is learning to think like a hacker going to make you a better technologist and frankly
+
+20
+00:00:46,120 --> 00:00:47,620
+ a better human being?
+
+21
+00:00:47,620 --> 00:00:51,280
+ And when I'm talking about a hacker, I'm not talking about thinking about how you're going
+
+22
+00:00:51,280 --> 00:00:55,200
+ to get rich by making the off of the suffering of others.
+
+23
+00:00:55,200 --> 00:00:58,680
+ I'm talking about the skills to be a hacker.
+
+24
+00:00:58,680 --> 00:01:00,400
+ What are the key skills to be a hacker?
+
+25
+00:01:00,400 --> 00:01:06,040
+ And I guarantee you it's not how to run Metasploit against a target.
+
+26
+00:01:06,040 --> 00:01:14,320
+ The key personality traits and the key virtues, if you will, of hacking are the things that
+
+27
+00:01:14,320 --> 00:01:16,680
+ make the best technologists.
+
+28
+00:01:16,680 --> 00:01:25,760
+ So let's break it down and we're not going to actually get into all of them now.
+
+29
+00:01:25,760 --> 00:01:27,960
+ I'm just going to kind of summarize them and then we'll have videos where we're going
+
+30
+00:01:27,960 --> 00:01:28,960
+ to talk about each of these.
+
+31
+00:01:28,960 --> 00:01:33,260
+ Because this is really important before you even start a tech career.
+
+32
+00:01:33,260 --> 00:01:34,260
+ What is a hacker?
+
+33
+00:01:34,260 --> 00:01:37,320
+ A hacker ultimately and I made another video about this, but a hacker ultimately is somebody
+
+34
+00:01:37,320 --> 00:01:42,200
+ who has really deep knowledge of a particular system and to quote from one of my favorite
+
+35
+00:01:42,200 --> 00:01:49,360
+ movies of all time, right there is even called a movie, would you call Mr. Rilada Movie?
+
+36
+00:01:49,360 --> 00:01:58,120
+ Darlene says, and there's a quote, I'm going to mess it up, but she says, she comes with
+
+37
+00:01:58,120 --> 00:02:00,160
+ a hack to Elliot.
+
+38
+00:02:00,160 --> 00:02:05,720
+ She gives, she's the malware writer for their little, you know, posse.
+
+39
+00:02:05,720 --> 00:02:15,640
+ She comes to, she comes to Elliot and she hands off a USB drive to, to do a hack and
+
+40
+00:02:15,640 --> 00:02:17,880
+ I don't give away the story.
+
+41
+00:02:17,880 --> 00:02:24,040
+ And, and Elliot says, what did you download this from five nine or some, you know, and
+
+42
+00:02:24,040 --> 00:02:25,360
+ because she did it fast.
+
+43
+00:02:25,360 --> 00:02:29,680
+ And then she responds and she says, look, I didn't have any time here.
+
+44
+00:02:29,680 --> 00:02:34,840
+ And then she says, and I'm going to screw the code up, she says, given enough time and
+
+45
+00:02:34,840 --> 00:02:42,360
+ white papers, I can run circles around any system.
+
+46
+00:02:42,360 --> 00:02:45,480
+ And I know I slotted that, but if you know where that episode is, you should go look
+
+47
+00:02:45,480 --> 00:02:46,480
+ it up.
+
+48
+00:02:46,480 --> 00:02:49,120
+ Somebody put that in the comments and correct me on that.
+
+49
+00:02:49,120 --> 00:02:53,320
+ But that quote is so relevant to everything.
+
+50
+00:02:53,320 --> 00:03:00,080
+ The reason Darlene is the fictional, but awesomest of all the malware hackers is because she
+
+51
+00:03:00,080 --> 00:03:04,360
+ knows how to learn, she knows how to learn quickly, she knows where to go to get the
+
+52
+00:03:04,360 --> 00:03:10,000
+ information, she knows how to think about how a system should be used and how it can
+
+53
+00:03:10,000 --> 00:03:14,800
+ be used in ways that people may not have thought of.
+
+54
+00:03:14,800 --> 00:03:19,560
+ And that, that is thinking like a hacker, thinking like a hacker is taking a system
+
+55
+00:03:19,560 --> 00:03:26,320
+ and getting deep knowledge of how the system works so much so that you discover ways to
+
+56
+00:03:26,320 --> 00:03:31,520
+ use the system that were not even designed in the system itself.
+
+57
+00:03:31,520 --> 00:03:37,360
+ That level of exhaustive research and testing and thinking outside the box, I hate that
+
+58
+00:03:37,360 --> 00:03:42,640
+ term, but thinking outside the box, outside the code base, outside the white paper.
+
+59
+00:03:42,640 --> 00:03:46,320
+ That is what makes you a kick ass hacker.
+
+60
+00:03:46,320 --> 00:03:48,840
+ It's also what makes you the best possible technologist.
+
+61
+00:03:48,840 --> 00:03:53,280
+ Because every time you're making a system, you're constantly thinking, what if somebody
+
+62
+00:03:53,280 --> 00:03:54,640
+ did this to it?
+
+63
+00:03:54,640 --> 00:03:55,960
+ What if somebody did this to it?
+
+64
+00:03:55,960 --> 00:03:59,760
+ So you're already making fantastic systems, whether you're going to software engineering,
+
+65
+00:03:59,760 --> 00:04:03,640
+ you're making web apps, or you're doing command line tooling.
+
+66
+00:04:03,640 --> 00:04:08,280
+ And every single case, you are asking yourself all the time, how can this thing be, you know,
+
+67
+00:04:08,280 --> 00:04:11,920
+ how can somebody twist the arm of this thing to use it in a different way?
+
+68
+00:04:11,920 --> 00:04:12,920
+ For better or worse.
+
+69
+00:04:12,920 --> 00:04:16,400
+ And the thing that's really cool about this is that if you start getting into the habit
+
+70
+00:04:16,400 --> 00:04:21,940
+ of thinking, alternatively, about the stuff that you've even made, you're going to find,
+
+71
+00:04:21,940 --> 00:04:26,640
+ you're going to find that you're going to see things in the tools that you made, value
+
+72
+00:04:26,640 --> 00:04:29,280
+ in the tools that you made that wasn't even there before.
+
+73
+00:04:29,280 --> 00:04:32,480
+ You also see the vulnerabilities in the tools that you make.
+
+74
+00:04:32,480 --> 00:04:37,200
+ But you're also going to see, yeah, it just doesn't inside the box.
+
+75
+00:04:37,200 --> 00:04:40,400
+ You're going to see other things there that you didn't even realize you made.
+
+76
+00:04:40,400 --> 00:04:41,800
+ You're like, Oh my God, this is so great.
+
+77
+00:04:41,800 --> 00:04:42,960
+ I can use it for this other purpose.
+
+78
+00:04:42,960 --> 00:04:45,520
+ I didn't even know.
+
+79
+00:04:45,520 --> 00:04:51,160
+ And I got my hoodie on today, and I'm going to just say it, my one of my getting, becoming
+
+80
+00:04:51,160 --> 00:04:55,400
+ a good auto diet, and becoming a good technology professional or good professional at all involves
+
+81
+00:04:55,400 --> 00:05:01,080
+ understanding what your superpowers are, this is another video, but one of my personal superpowers
+
+82
+00:05:01,080 --> 00:05:07,640
+ is seeing alternative usages for things, seeing how to get around a thing and how to
+
+83
+00:05:07,640 --> 00:05:08,640
+ use it.
+
+84
+00:05:08,640 --> 00:05:09,640
+ Does that make me a hacker?
+
+85
+00:05:09,640 --> 00:05:10,640
+ I think it does.
+
+86
+00:05:10,640 --> 00:05:12,960
+ I think it just makes me a good technologist, honestly.
+
+87
+00:05:12,960 --> 00:05:16,560
+ And I don't consider myself a hacker per se.
+
+88
+00:05:16,560 --> 00:05:22,720
+ And I did talk a little bit about my hacker experiences in the past.
+
+89
+00:05:22,720 --> 00:05:26,500
+ And the thing that's so interesting about that is once you get into that mindset, you'll
+
+90
+00:05:26,500 --> 00:05:33,200
+ realize that you can do things much more simply than multi thousand dollar software out there
+
+91
+00:05:33,200 --> 00:05:36,380
+ that's been made to do the same thing because they haven't thought about it.
+
+92
+00:05:36,380 --> 00:05:44,760
+ So developing this way of alternative thinking and trying to, you know, find a way to cause
+
+93
+00:05:44,760 --> 00:05:46,720
+ something to do something it's not supposed to do.
+
+94
+00:05:46,720 --> 00:05:49,720
+ That is the formal definition of hacker, by the way.
+
+95
+00:05:49,720 --> 00:05:55,640
+ It's not somebody who's going to break in and destroy the world or, you know, that's
+
+96
+00:05:55,640 --> 00:05:56,640
+ not it.
+
+97
+00:05:56,640 --> 00:05:57,640
+ True.
+
+98
+00:05:57,640 --> 00:06:02,720
+ The true definition of hacker, the original definition of hacker is somebody who takes
+
+99
+00:06:02,720 --> 00:06:08,440
+ a thing that's been designed for a specific purpose and finds another way to use it, finds
+
+100
+00:06:08,440 --> 00:06:13,000
+ another way to cause it to do something it's not intended to do or combine it with other
+
+101
+00:06:13,000 --> 00:06:17,600
+ things to get it to do things, whether it be phone freaking or, you know, Wi-Fi towers
+
+102
+00:06:17,600 --> 00:06:21,680
+ and pineapples or, you know, or, or bikes.
+
+103
+00:06:21,680 --> 00:06:23,040
+ People hack bikes all the time.
+
+104
+00:06:23,040 --> 00:06:29,240
+ In fact, there's a, there's a, there's a GCN, there's a whole thing called hacker bodge.
+
+105
+00:06:29,240 --> 00:06:32,680
+ You know, it's like, you know, people hack things together using zip ties to make their
+
+106
+00:06:32,680 --> 00:06:35,880
+ bikes work in different ways that they weren't intended to.
+
+107
+00:06:35,880 --> 00:06:36,880
+ That is hacking.
+
+108
+00:06:36,880 --> 00:06:43,840
+ Hacking is the skill of finding alternative uses for things and understanding a thing
+
+109
+00:06:43,840 --> 00:06:49,160
+ more deeply than even the original white papers may have described it.
+
+110
+00:06:49,160 --> 00:06:49,420
+ That's it.
+

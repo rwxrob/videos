@@ -1,0 +1,380 @@
+1
+00:00:00,000 --> 00:00:08,240
+ Um, I got a great tip here from Chris, uh, in our community, I was about, I actually
+
+2
+00:00:08,240 --> 00:00:15,040
+ forgot that I had a home lab repo from back in the day when I made this, which I think
+
+3
+00:00:15,040 --> 00:00:17,360
+ I showed in Excalidara.
+
+4
+00:00:17,360 --> 00:00:20,640
+ I'm super proud of it because I spent so much time on it.
+
+5
+00:00:20,640 --> 00:00:24,560
+ But to be completely honest, I totally forgot everything.
+
+6
+00:00:24,560 --> 00:00:25,560
+ And I don't have any of this hardware.
+
+7
+00:00:25,560 --> 00:00:26,560
+ I'm all donated.
+
+8
+00:00:26,560 --> 00:00:31,280
+ But I want, you know, I was in quite an accomplishment to make that home lab.
+
+9
+00:00:31,280 --> 00:00:34,760
+ And, uh, you know, I forgot I even had a home lab thing.
+
+10
+00:00:34,760 --> 00:00:38,160
+ I was like, where do I put my answerable to make my new slurm things using Ansible, right?
+
+11
+00:00:38,160 --> 00:00:40,200
+ And I'm like, oh, I should probably have a home lab repo.
+
+12
+00:00:40,200 --> 00:00:41,960
+ And I'm like, wait, let me see if I have a home lab repo.
+
+13
+00:00:41,960 --> 00:00:43,280
+ And then I'm like, wait, I have a home lab repo.
+
+14
+00:00:43,280 --> 00:00:46,800
+ And then I was like, looking at my home lab repo, I'm like, this is insane.
+
+15
+00:00:46,800 --> 00:00:51,640
+ There's how much detail I put in my Linux home lab repo, like here it is, right?
+
+16
+00:00:51,640 --> 00:00:56,560
+ This is, by the way, you know, art of picture hub slash home lab, there's a thing there.
+
+17
+00:00:56,560 --> 00:01:01,560
+ And I went to exceedingly great detail as private, I had to make a public again to, you know,
+
+18
+00:01:01,560 --> 00:01:04,920
+ put the infrastructure stack on here and decide what I installed on it and everything.
+
+19
+00:01:04,920 --> 00:01:12,080
+ This was a huge project over a year, I remember doing, and I didn't remember any of it.
+
+20
+00:01:12,080 --> 00:01:14,000
+ So here's, here's the tip.
+
+21
+00:01:14,000 --> 00:01:16,720
+ The tip was, I don't want to throw that away.
+
+22
+00:01:16,720 --> 00:01:21,480
+ So, so Chris was like, no, no, no, no, stop because I was about to like make a branch for
+
+23
+00:01:21,480 --> 00:01:22,480
+ the new stuff.
+
+24
+00:01:22,480 --> 00:01:24,480
+ And I was like, no, I want to use the main stuff.
+
+25
+00:01:24,480 --> 00:01:27,400
+ So then I was going to make a branch, and then I was just going to continue to work
+
+26
+00:01:27,400 --> 00:01:28,400
+ on me.
+
+27
+00:01:28,400 --> 00:01:33,200
+ And then Chris goes, no, what you need to do is rename it and then create a new branch.
+
+28
+00:01:33,200 --> 00:01:36,800
+ And that will create an orphan main, which won't have any of the old commit history.
+
+29
+00:01:36,800 --> 00:01:39,080
+ And I'm like, that is brilliant.
+
+30
+00:01:39,080 --> 00:01:40,400
+ Why didn't I think of that?
+
+31
+00:01:40,400 --> 00:01:42,600
+ Because I don't live and get as much as others.
+
+32
+00:01:42,600 --> 00:01:45,880
+ So, so here's, we're going to do it right now together.
+
+33
+00:01:45,880 --> 00:01:51,240
+ So the first thing is get -m to rename the current branch I'm on, and we're going to
+
+34
+00:01:51,240 --> 00:01:56,560
+ name it archive, you know, and I don't, we could probably put some more information on
+
+35
+00:01:56,560 --> 00:01:57,560
+ that.
+
+36
+00:01:57,560 --> 00:02:01,480
+ On the day of the truth, I'm just going to call it archive.
+
+37
+00:02:01,480 --> 00:02:09,640
+ And yeah, and then we're going to go, so then we're going to, whoops, what did I do?
+
+38
+00:02:09,640 --> 00:02:10,800
+ What did I do wrong, friends?
+
+39
+00:02:10,800 --> 00:02:13,920
+ I'm going to go check my AI and see what she says.
+
+40
+00:02:13,920 --> 00:02:16,920
+ Get branch, oh, it's branch derp.
+
+41
+00:02:16,920 --> 00:02:22,800
+ Derp, uh, branch, I should not type that.
+
+42
+00:02:22,800 --> 00:02:23,800
+ Get branch archive.
+
+43
+00:02:23,800 --> 00:02:24,800
+ Okay.
+
+44
+00:02:24,800 --> 00:02:28,000
+ So now I'm on archive, get branch.
+
+45
+00:02:28,000 --> 00:02:28,960
+ There's no thing about that.
+
+46
+00:02:28,960 --> 00:02:33,000
+ So now we have to push it though, right?
+
+47
+00:02:33,000 --> 00:02:38,160
+ Get push -u origin archive.
+
+48
+00:02:38,160 --> 00:02:43,880
+ And that will push up the, uh, branch and it's going to make a pull request where I
+
+49
+00:02:43,880 --> 00:02:47,240
+ don't want to pull request because I'm not going to merge it or anything.
+
+50
+00:02:47,240 --> 00:02:52,040
+ So I'm going to ignore that and then I'm going to make a new main branch.
+
+51
+00:02:52,040 --> 00:03:00,960
+ And I suspect I could just do a switch -m -c for main.
+
+52
+00:03:00,960 --> 00:03:02,440
+ Let's see if that will work.
+
+53
+00:03:02,440 --> 00:03:03,440
+ Let's try it.
+
+54
+00:03:03,440 --> 00:03:04,440
+ All right.
+
+55
+00:03:04,440 --> 00:03:05,440
+ So get switch is my preferred thing.
+
+56
+00:03:05,440 --> 00:03:06,440
+ I don't do check out people like that.
+
+57
+00:03:06,440 --> 00:03:07,440
+ I don't care.
+
+58
+00:03:07,440 --> 00:03:08,440
+ Get switch -c main.
+
+59
+00:03:08,440 --> 00:03:10,880
+ Let's see what happens.
+
+60
+00:03:10,880 --> 00:03:14,920
+ Wait, get switch orphan.
+
+61
+00:03:14,920 --> 00:03:26,360
+ Does it have to have dash dash orphan - Oh, do you want to do?
+
+62
+00:03:26,360 --> 00:03:27,840
+ Okay.
+
+63
+00:03:27,840 --> 00:03:29,280
+ I don't know about that.
+
+64
+00:03:29,280 --> 00:03:30,280
+ I don't know.
+
+65
+00:03:30,280 --> 00:03:31,280
+ I'm doing.
+
+66
+00:03:31,280 --> 00:03:32,280
+ Have you ever done this?
+
+67
+00:03:32,280 --> 00:03:35,320
+ Current command branches from the archive.
+
+68
+00:03:35,320 --> 00:03:36,320
+ Okay.
+
+69
+00:03:36,320 --> 00:03:41,840
+ Oh, I see.
+
+70
+00:03:41,840 --> 00:03:47,300
+ Get branch orphan main.
+
+71
+00:03:47,300 --> 00:03:48,300
+ Branch switching.
+
+72
+00:03:48,300 --> 00:03:49,300
+ Yes.
+
+73
+00:03:49,300 --> 00:03:51,280
+ Get switch orphan main.
+
+74
+00:03:51,280 --> 00:03:53,240
+ Switch to new branch main.
+
+75
+00:03:53,240 --> 00:03:54,240
+ Get log.
+
+76
+00:03:54,240 --> 00:03:55,240
+ Woo hoo.
+
+77
+00:03:55,240 --> 00:03:57,240
+ Your current branch has no commits.
+
+78
+00:03:57,240 --> 00:03:58,240
+ What?
+
+79
+00:03:58,240 --> 00:04:00,800
+ That is so cool.
+
+80
+00:04:00,800 --> 00:04:02,720
+ Check out as old people use.
+
+81
+00:04:02,720 --> 00:04:04,200
+ Boom.
+
+82
+00:04:04,200 --> 00:04:05,200
+ We got it.
+
+83
+00:04:05,200 --> 00:04:06,200
+ Chris, thank you so much for that.
+
+84
+00:04:06,200 --> 00:04:08,400
+ I will make my initial commit.
+
+85
+00:04:08,400 --> 00:04:09,400
+ Hey, look at that.
+
+86
+00:04:09,400 --> 00:04:13,480
+ All my files are gone, which is great because I was just about to like do me do all the
+
+87
+00:04:13,480 --> 00:04:15,320
+ files from the branch and everything.
+
+88
+00:04:15,320 --> 00:04:16,320
+ So much better.
+
+89
+00:04:16,320 --> 00:04:17,520
+ I love it.
+
+90
+00:04:17,520 --> 00:04:19,640
+ I totally love this.
+
+91
+00:04:19,640 --> 00:04:20,640
+ Yeah.
+
+92
+00:04:20,640 --> 00:04:21,640
+ Chai just learned something.
+
+93
+00:04:21,640 --> 00:04:23,240
+ The great Chai just learned something too.
+
+94
+00:04:23,240 --> 00:04:27,640
+ This is why we collaborate on live streams, even at work.
+
+95
+00:04:27,640 --> 00:04:28,600
+ Hopefully that helps.
+

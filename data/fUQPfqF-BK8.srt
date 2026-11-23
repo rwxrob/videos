@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:03,960
+ Oh my gosh, I was so wrong.
+
+2
+00:00:03,960 --> 00:00:08,200
+ Is this one of those things I could have just looked up?
+
+3
+00:00:08,200 --> 00:00:14,680
+ Maybe I don't know, but I don't care because I found it and now my wonderful bonsai project
+
+4
+00:00:14,680 --> 00:00:22,640
+ can be used by everyone, Z shell, and bash users alike.
+
+5
+00:00:22,640 --> 00:00:26,480
+ I'm sorry fish and power shell, we haven't got you yet, we'll get you.
+
+6
+00:00:26,480 --> 00:00:28,720
+ Check this out, check this out my friends.
+
+7
+00:00:28,720 --> 00:00:35,160
+ This is an official project, before we found this, we actually chite, one of our community
+
+8
+00:00:35,160 --> 00:00:40,140
+ members actually found, recreated the exact same script which already existed in the Z
+
+9
+00:00:40,140 --> 00:00:41,400
+ shell project.
+
+10
+00:00:41,400 --> 00:00:46,600
+ So under the github.com Z shell that's user slash zsh here, you'll see a directory called
+
+11
+00:00:46,600 --> 00:00:52,920
+ completion, and there is this really amazing script called bash comp and knit.
+
+12
+00:00:52,920 --> 00:00:57,280
+ And if you run this, if you put this in your Z shell, which, you know, I don't know how
+
+13
+00:00:57,280 --> 00:00:59,480
+ to do, because I don't use the shell, he's bash.
+
+14
+00:00:59,480 --> 00:01:00,480
+ Guess what?
+
+15
+00:01:00,480 --> 00:01:03,040
+ You can use bash completion.
+
+16
+00:01:03,040 --> 00:01:08,520
+ So you can use complete - see foo foo, and you can actually let the programs do their
+
+17
+00:01:08,520 --> 00:01:13,520
+ own completion, not only that, but if you want to use bash completion in other ways.
+
+18
+00:01:13,520 --> 00:01:16,840
+ So say you're having like Cobra completion or something like that, you can use it.
+
+19
+00:01:16,840 --> 00:01:20,920
+ You can use bash completion 100% in Z shell.
+
+20
+00:01:20,920 --> 00:01:24,480
+ And there's going to be at least one comment from someone, and I will upvote you and pin
+
+21
+00:01:24,480 --> 00:01:28,780
+ you if you say so, he's like, yeah, no duh dummy.
+
+22
+00:01:28,780 --> 00:01:32,280
+ Well don't say dummy, but you know, but if you don't know about this, go use this right
+
+23
+00:01:32,280 --> 00:01:33,280
+ now.
+
+24
+00:01:33,280 --> 00:01:34,480
+ This makes me very happy.
+
+25
+00:01:34,480 --> 00:01:40,720
+ This means there's nothing about bonsai that can't be used by the two most biggest shells.
+

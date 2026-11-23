@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:04,960
+ I was asked a pretty fair question while I was developing the Boost container.
+
+2
+00:00:04,960 --> 00:00:14,440
+ It's like why don't you add a way to load in all the configurations so that people don't
+
+3
+00:00:14,440 --> 00:00:17,200
+ lose their stuff?
+
+4
+00:00:17,200 --> 00:00:27,040
+ The reason is very direct because that's not how containers are designed to be used.
+
+5
+00:00:27,040 --> 00:00:35,260
+ They can be used that way, but the way containers are meant to be used in the enterprise universally
+
+6
+00:00:35,260 --> 00:00:43,400
+ is as a singular ephemeral meaning that they live and die all the time, and that what's
+
+7
+00:00:43,400 --> 00:00:49,960
+ in them is in them, that they, any information that needs to be passed into them is passed
+
+8
+00:00:49,960 --> 00:00:57,440
+ in through environment variables, sometimes amount points, but almost not ever.
+
+9
+00:00:57,440 --> 00:01:01,960
+ In case of Kubernetes, there's amount points and config maps and all that, so you can put
+
+10
+00:01:01,960 --> 00:01:10,840
+ a file in there, but the idea of it specifically as a beginner of thinking about a container
+
+11
+00:01:10,840 --> 00:01:16,240
+ as a thing that's going to contain, it's like your laptop Linux and you're going to be able
+
+12
+00:01:16,240 --> 00:01:19,680
+ to change all your configs and everything and load them from somewhere.
+
+13
+00:01:19,680 --> 00:01:21,440
+ I think is a mistake.
+
+14
+00:01:21,440 --> 00:01:26,280
+ I think it's actually a bad way to think about containers for a beginner.
+
+15
+00:01:26,280 --> 00:01:32,960
+ Beginners need to immediately think about containers as going away, as living and dying.
+
+16
+00:01:32,960 --> 00:01:37,880
+ When they type exit, that thing goes away, right, and even though we violate that a little
+
+17
+00:01:37,880 --> 00:01:42,040
+ bit for the boost here to be, to reattach to the container that's still running or actually
+
+18
+00:01:42,040 --> 00:01:46,440
+ not running and start it up and then reuse it because it's got stuff inside of it, not
+
+19
+00:01:46,440 --> 00:01:52,200
+ being able to throw it away, and we do do that to get them started, but it's more important
+
+20
+00:01:52,200 --> 00:01:58,480
+ that the user, especially the beginner, gets used to saving out whatever it is that they're
+
+21
+00:01:58,480 --> 00:01:59,480
+ doing.
+
+22
+00:01:59,480 --> 00:02:05,200
+ So whatever work they're doing in their container, that work in order to be stateful, in order
+
+23
+00:02:05,200 --> 00:02:12,400
+ to persist beyond the life of the container, should be saved someplace else.
+
+24
+00:02:12,400 --> 00:02:18,660
+ But almost always, that is not in something that has been mounted in the container.
+
+25
+00:02:18,660 --> 00:02:24,280
+ It's almost always communicated through a network connection.
+
+26
+00:02:24,280 --> 00:02:28,880
+ And in our case for the beginner boost, that means storing it in Git.
+
+27
+00:02:28,880 --> 00:02:35,760
+ That means from the very first day almost, we are going to start practicing saving content,
+
+28
+00:02:35,760 --> 00:02:37,960
+ saving everything we do in Git.
+
+29
+00:02:37,960 --> 00:02:42,040
+ And if somebody has an experience during the beginner boost where they accidentally delete
+
+30
+00:02:42,040 --> 00:02:45,800
+ their container and lose all their work, we want that to happen.
+
+31
+00:02:45,800 --> 00:02:49,560
+ The reason we want it to happen now is because we want them to understand that you should
+
+32
+00:02:49,560 --> 00:02:53,200
+ never, ever preserve state in a container.
+
+33
+00:02:53,200 --> 00:02:58,080
+ And I guarantee you, there's somebody watching this, please leave a comment below, if you
+
+34
+00:02:58,080 --> 00:03:03,680
+ have ever accidentally made the false assumption when you're in a container, that something
+
+35
+00:03:03,680 --> 00:03:08,240
+ you changed was going to live on beyond the container and then lost your work.
+
+36
+00:03:08,240 --> 00:03:09,240
+ I've done it.
+
+37
+00:03:09,240 --> 00:03:13,520
+ I think a lot of you have too, it's a very tough lesson to learn, but it's an important
+
+38
+00:03:13,520 --> 00:03:15,440
+ lesson to learn early on.
+
+39
+00:03:15,440 --> 00:03:21,280
+ And the way to do that is to not encourage people to mount volumes and mount other things
+
+40
+00:03:21,280 --> 00:03:24,840
+ into the container, which you will eventually learn about doing, but not now.
+
+41
+00:03:24,840 --> 00:03:28,120
+ Right now you want to learn that it doesn't exist unless they get saved in Git.
+

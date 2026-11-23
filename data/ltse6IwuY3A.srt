@@ -1,0 +1,888 @@
+1
+00:00:00,000 --> 00:00:09,760
+ I just came up with a team meeting and so the challenges of being a systems development
+
+2
+00:00:09,760 --> 00:00:17,520
+ engineer/platform engineer/whatever DevOps kind of, they're kind of the same.
+
+3
+00:00:17,520 --> 00:00:23,600
+ I want to talk about some of their ones right away if you're going to get into this lifestyle.
+
+4
+00:00:23,600 --> 00:00:27,560
+ So I've been a software engineer, which is, you know, 100% software engineer, lock you
+
+5
+00:00:27,560 --> 00:00:31,080
+ in a quarter of a keyboard call, code as fast as you can, sort of thing, which of course
+
+6
+00:00:31,080 --> 00:00:34,520
+ has been entirely impacted by AI now, in good ways.
+
+7
+00:00:34,520 --> 00:00:40,600
+ I've been an operations person back when in the internal system administrator and that
+
+8
+00:00:40,600 --> 00:00:44,880
+ is, you know, to say that you're keeping the machines up and running.
+
+9
+00:00:44,880 --> 00:00:48,440
+ This was back in the day before it was really, I think there's always been a requirement to
+
+10
+00:00:48,440 --> 00:00:51,880
+ know how to code reasonably well in order to write scripts and stuff, but a lot of system
+
+11
+00:00:51,880 --> 00:00:59,920
+ administrators then and now have no idea how to code and they definitely don't know about
+
+12
+00:00:59,920 --> 00:01:03,200
+ the best practices of software development.
+
+13
+00:01:03,200 --> 00:01:06,920
+ So today, I'm going to share a story.
+
+14
+00:01:06,920 --> 00:01:12,320
+ So most of my team are legacy, the people that have written a lot of parole, I'm doing
+
+15
+00:01:12,320 --> 00:01:17,120
+ a lot of parole, and the parole code that was written is, you know, the kind of code
+
+16
+00:01:17,120 --> 00:01:21,240
+ that you would expect to be written by a bunch of system engineers in the 90s and in 2000s,
+
+17
+00:01:21,240 --> 00:01:22,240
+ early 2000s.
+
+18
+00:01:22,240 --> 00:01:27,440
+ It's not testable at all, in order to test that you have to run the entire system and
+
+19
+00:01:27,440 --> 00:01:33,440
+ go to the web page and run the thing, there's no unit testing, there's very little commenting,
+
+20
+00:01:33,440 --> 00:01:37,120
+ there's redundant copies of the code all over throughout the code base.
+
+21
+00:01:37,120 --> 00:01:41,220
+ And I am not going to hold them accountable for that because they're operations people
+
+22
+00:01:41,220 --> 00:01:46,560
+ that wrote a bunch of code that they live tested, by the way, in fact, I had to develop
+
+23
+00:01:46,560 --> 00:01:50,760
+ an entire system to run a deploy check to be safe so that these people that are making
+
+24
+00:01:50,760 --> 00:01:54,560
+ changes to the code base, while we're doing this really, you know, existential threat
+
+25
+00:01:54,560 --> 00:01:59,280
+ testing to get this thing out, don't impact everybody.
+
+26
+00:01:59,280 --> 00:02:02,680
+ They didn't even have any of this to get until last year, and we kind of like tried
+
+27
+00:02:02,680 --> 00:02:07,240
+ really finally got this team to put their stuff into get.
+
+28
+00:02:07,240 --> 00:02:11,560
+ They absolutely refuse to put anything and go, and if anything, they're going to try
+
+29
+00:02:11,560 --> 00:02:14,480
+ to allow it to be in Python at some point, because why?
+
+30
+00:02:14,480 --> 00:02:19,520
+ Because their team, the operations people, they know Python and Bash, they don't know
+
+31
+00:02:19,520 --> 00:02:22,720
+ anything else, and they don't want to know anything else.
+
+32
+00:02:22,720 --> 00:02:26,920
+ And you know, they're kind of short about that whole thing, like why the hell are we
+
+33
+00:02:26,920 --> 00:02:27,920
+ doing this?
+
+34
+00:02:27,920 --> 00:02:28,920
+ There's a good thing.
+
+35
+00:02:28,920 --> 00:02:32,920
+ And so these are the kind of people they go in and they make live changes to running
+
+36
+00:02:32,920 --> 00:02:33,920
+ code.
+
+37
+00:02:33,920 --> 00:02:36,000
+ It's on a test machine, to be fair.
+
+38
+00:02:36,000 --> 00:02:38,720
+ It's on a test machine to test instance of the whole thing.
+
+39
+00:02:38,720 --> 00:02:42,680
+ But they'll go in there and make live changes to code that generates web pages, and they
+
+40
+00:02:42,680 --> 00:02:46,760
+ risk breaking a web page or something to do their testing.
+
+41
+00:02:46,760 --> 00:02:50,160
+ And there's no coordination with any of the other developers on the team.
+
+42
+00:02:50,160 --> 00:02:53,240
+ It's all through Teams chat, and somebody will change the thing, and there's no way
+
+43
+00:02:53,240 --> 00:02:55,320
+ to know whether something changed.
+
+44
+00:02:55,320 --> 00:03:00,840
+ So I wrote a tool called deploy, which compares a list of things and permissions to really
+
+45
+00:03:00,840 --> 00:03:05,160
+ quick and dirty to everything that's on the system so that before I go break somebody
+
+46
+00:03:05,160 --> 00:03:08,680
+ else's changes, I can see what things have been changed.
+
+47
+00:03:08,680 --> 00:03:13,720
+ And there was actually one specific time where the code that I wrote, which was deleting
+
+48
+00:03:13,720 --> 00:03:19,840
+ jobs, was broken because somebody else deployed their branch of test code on top of mine in
+
+49
+00:03:19,840 --> 00:03:25,760
+ deployment and production, breaking my code so that the senior manager that ran the things
+
+50
+00:03:25,760 --> 00:03:29,760
+ like, why is this particular thing broken, which was my thing, by the way?
+
+51
+00:03:29,760 --> 00:03:33,280
+ And I had to say, because at first I was like, oh, I'm so sorry, I didn't get it deployed
+
+52
+00:03:33,280 --> 00:03:34,280
+ probably.
+
+53
+00:03:34,280 --> 00:03:37,040
+ And then I looked into it, and I'm like, no, I deployed it, and then it got stepped over
+
+54
+00:03:37,040 --> 00:03:42,160
+ by somebody else who didn't bother to check whether these changes had been put in it.
+
+55
+00:03:42,160 --> 00:03:47,440
+ But I had deployed, and only deploy is what's in the top of our slurner, more dev branch,
+
+56
+00:03:47,440 --> 00:03:50,360
+ so that any changes get PR properly and get put in it.
+
+57
+00:03:50,360 --> 00:03:56,040
+ I am getting constant, constant pushback against using Git for any of these changes.
+
+58
+00:03:56,040 --> 00:03:57,840
+ The PR process is too slow.
+
+59
+00:03:57,840 --> 00:04:02,400
+ These Git commands are this, you know, back channels, senior managers and people are asking
+
+60
+00:04:02,400 --> 00:04:06,040
+ me to train them on how to use Git, because these are operations people.
+
+61
+00:04:06,040 --> 00:04:08,920
+ These are not people that were raised in software development.
+
+62
+00:04:08,920 --> 00:04:12,800
+ And quite honestly, that included me until two years ago, I didn't know yet either.
+
+63
+00:04:12,800 --> 00:04:15,520
+ I was like, screw get, I don't care, I'll just use Git for backups.
+
+64
+00:04:15,520 --> 00:04:16,520
+ I couldn't do branch.
+
+65
+00:04:16,520 --> 00:04:20,520
+ I hated PRs, and God help you if you try to pull all the changes from a dev branch into
+
+66
+00:04:20,520 --> 00:04:24,160
+ your current branch that you're working on, you know, in order to get a thing, it's a pain
+
+67
+00:04:24,160 --> 00:04:25,160
+ in the ass.
+
+68
+00:04:25,160 --> 00:04:26,160
+ But guess what?
+
+69
+00:04:26,160 --> 00:04:30,560
+ It's essential to the system developer engineer job, and part of the dynamics of working in
+
+70
+00:04:30,560 --> 00:04:35,480
+ this job means that you're going to be working with a lot of people, particularly older people
+
+71
+00:04:35,480 --> 00:04:41,000
+ who are maintaining legacy codebase, but more importantly, legacy coding practices, which
+
+72
+00:04:41,000 --> 00:04:46,520
+ means they do whatever the fuck they want, and then you kind of just deal with it.
+
+73
+00:04:46,520 --> 00:04:50,360
+ And so if you're coming, if you're, if you have been a sister, you're a young person,
+
+74
+00:04:50,360 --> 00:04:54,520
+ or even you've grown up in software engineering, you're trying to straddle the ops apps kind
+
+75
+00:04:54,520 --> 00:05:00,360
+ of barrier by doing system development engineering work, then you are going to be stuck constantly
+
+76
+00:05:00,360 --> 00:05:05,160
+ frustrated with people pushing back saying, why is it taking us long, we don't really
+
+77
+00:05:05,160 --> 00:05:06,160
+ need that.
+
+78
+00:05:06,160 --> 00:05:09,920
+ We need to focus our attention on getting this testing to work, and getting this code
+
+79
+00:05:09,920 --> 00:05:13,880
+ to work rather than, rather than making sure we have these other things in place until
+
+80
+00:05:13,880 --> 00:05:17,440
+ they break the code they got deployed, because they didn't do those things, and that cost
+
+81
+00:05:17,440 --> 00:05:21,820
+ you an hour to figure out what broke, because they had to disambiguate a merge conflict,
+
+82
+00:05:21,820 --> 00:05:23,640
+ because they didn't go through the process.
+
+83
+00:05:23,640 --> 00:05:26,000
+ So they don't, so, so how do you manage that?
+
+84
+00:05:26,000 --> 00:05:31,840
+ Well, the first way to manage it is make sure anytime something breaks, it's highly visible,
+
+85
+00:05:31,840 --> 00:05:37,440
+ because they won't buy into the idea of code management and get until they see shit break,
+
+86
+00:05:37,440 --> 00:05:41,920
+ and they see people lose time, and they, and I hate to say that, but this is the only way
+
+87
+00:05:41,920 --> 00:05:47,760
+ the people from the operational, you know, OG backgrounds are going to see this problem.
+
+88
+00:05:47,760 --> 00:05:51,200
+ That's the only way they're going to realize it is when they see shit break, and they see
+
+89
+00:05:51,200 --> 00:05:57,120
+ their deliverable slip, and their timeline slip, because, because somebody is rolling
+
+90
+00:05:57,120 --> 00:06:02,480
+ out somebody's code because there's no coordination among, and a team of only six people, okay?
+
+91
+00:06:02,480 --> 00:06:07,400
+ So you can't bring other people onto the team if you're not following these practices,
+
+92
+00:06:07,400 --> 00:06:10,560
+ because, you know, three or four cooks in the kitchen all in the same, you know, pearl
+
+93
+00:06:10,560 --> 00:06:14,120
+ module is going to break everything, whether it's pearl or python doesn't matter.
+
+94
+00:06:14,120 --> 00:06:18,840
+ So just the first challenge you're going to have to face is that, is that you're going
+
+95
+00:06:18,840 --> 00:06:22,920
+ to be dealing with people who don't code, people who don't code, and not only do they
+
+96
+00:06:22,920 --> 00:06:27,240
+ not code, they don't value coding best practices, period.
+
+97
+00:06:27,240 --> 00:06:30,520
+ They don't, they don't understand it, they don't want to do it, they would rather it
+
+98
+00:06:30,520 --> 00:06:34,840
+ just be a bunch of tar balls in production, and they definitely would rather copy and
+
+99
+00:06:34,840 --> 00:06:40,880
+ paste an entire bash script with no functions in it and put it someplace else, then to actually
+
+100
+00:06:40,880 --> 00:06:43,880
+ take the time to factor that and then use it properly.
+
+101
+00:06:43,880 --> 00:06:48,240
+ That's just what you're going to be fighting against constantly all the time.
+
+102
+00:06:48,240 --> 00:06:52,280
+ So you've got to figure out how can I approach this, and the best way to approach it is to
+
+103
+00:06:52,280 --> 00:06:56,880
+ show people how things break and how things slow down and how they're losing money, because
+
+104
+00:06:56,880 --> 00:07:02,600
+ you're only going to get them to adopt what you want them to do, which is CICD and, you
+
+105
+00:07:02,600 --> 00:07:07,200
+ know, actual, you know, get ops practices and things like that.
+
+106
+00:07:07,200 --> 00:07:10,840
+ You're only going to get them to adopt those things if you show them how it saves them
+
+107
+00:07:10,840 --> 00:07:15,760
+ money and time and keeps them running and can't avoid that outage that we've had.
+
+108
+00:07:15,760 --> 00:07:21,840
+ We have had four outages because our Harvard source code was not saved and get.
+
+109
+00:07:21,840 --> 00:07:27,600
+ It was deployed and changed live in Kubernetes, and those changes were never saved and get
+
+110
+00:07:27,600 --> 00:07:29,160
+ anywhere.
+
+111
+00:07:29,160 --> 00:07:34,640
+ Okay, so these are the challenges you're going to face, and so you might have to be the person
+
+112
+00:07:34,640 --> 00:07:38,560
+ if you're straddling the gap in the middle, you're going to have to be focused on quality.
+
+113
+00:07:38,560 --> 00:07:41,680
+ That means you're going to have to be doing things that are going to be very unsung, maybe
+
+114
+00:07:41,680 --> 00:07:45,760
+ not even contribute to your performance review at the end of the year, because they're not
+
+115
+00:07:45,760 --> 00:07:46,760
+ valued.
+
+116
+00:07:46,760 --> 00:07:47,760
+ Because they're not valued.
+
+117
+00:07:47,760 --> 00:07:53,040
+ Keeping the shit running and avoiding an outage is not valued until the outage happens.
+
+118
+00:07:53,040 --> 00:07:58,640
+ So, unfortunately, unless there's an outage happening, they don't realize why it needs
+
+119
+00:07:58,640 --> 00:08:00,320
+ to be done.
+
+120
+00:08:00,320 --> 00:08:02,800
+ So that is the only way to do it.
+
+121
+00:08:02,800 --> 00:08:07,040
+ You really can't convince people that, you know, because as long as it's working, they
+
+122
+00:08:07,040 --> 00:08:09,520
+ don't see this in issue.
+
+123
+00:08:09,520 --> 00:08:14,600
+ And you have to let things break, and you know, I have another issue right now.
+
+124
+00:08:14,600 --> 00:08:18,320
+ Somebody's importing a Pearl library that's making a database connection in the global
+
+125
+00:08:18,320 --> 00:08:23,680
+ space every time the module is imported, which prevents the entire module from being tested
+
+126
+00:08:23,680 --> 00:08:29,040
+ in any way, because it requires a database to be up and running in order to even use the
+
+127
+00:08:29,040 --> 00:08:30,040
+ module.
+
+128
+00:08:30,040 --> 00:08:36,440
+ This is absolutely, positively, an anti-pattern in any software development field.
+
+129
+00:08:36,440 --> 00:08:38,800
+ Any software engineer would look at that and go, "What the fuck?"
+
+130
+00:08:38,800 --> 00:08:43,320
+ I mean, this is like a fireable offense in the software engineering world.
+
+131
+00:08:43,320 --> 00:08:47,520
+ But it was enough to get the thing to work once upon a time, and it was good enough,
+
+132
+00:08:47,520 --> 00:08:48,520
+ and now it needs to be there.
+
+133
+00:08:48,520 --> 00:08:51,640
+ And so now when somebody wants to expand the code and make a testable function that's just
+
+134
+00:08:51,640 --> 00:08:57,400
+ parsing a job ID, you can't test it because it depends on a library that has to connect
+
+135
+00:08:57,400 --> 00:08:58,920
+ to a fucking database.
+
+136
+00:08:58,920 --> 00:09:02,920
+ So that can't be run in your local laptop or in your customized container environment
+
+137
+00:09:02,920 --> 00:09:06,760
+ or any other testing environment, because now you have to have the database set up for
+
+138
+00:09:06,760 --> 00:09:09,520
+ that module to even be used at all.
+
+139
+00:09:09,520 --> 00:09:16,400
+ So the life of a DE is going to be constantly running into serious breaches of protocol
+
+140
+00:09:16,400 --> 00:09:19,600
+ when it comes to software development, and you're going to have to get used to it.
+
+141
+00:09:19,600 --> 00:09:23,200
+ And you're going to be branded the person who complains.
+
+142
+00:09:23,200 --> 00:09:25,040
+ You're going to be the water boiler.
+
+143
+00:09:25,040 --> 00:09:29,560
+ You're going to be the person who yells at other people.
+
+144
+00:09:29,560 --> 00:09:34,080
+ And I don't yell at people, but I'm like, "Why do we need this?"
+
+145
+00:09:34,080 --> 00:09:37,240
+ You have to constantly be saying, "Well, why do we need this?"
+
+146
+00:09:37,240 --> 00:09:41,000
+ You know, any other team, any other software development team or assistive or DevOps team,
+
+147
+00:09:41,000 --> 00:09:45,920
+ the question, why do you need testable unit code in your scripts is like a no-brainer.
+
+148
+00:09:45,920 --> 00:09:47,360
+ It's like an assumption.
+
+149
+00:09:47,360 --> 00:09:52,360
+ But in an environment like this, you're going to have to be justifying why you need to be
+
+150
+00:09:52,360 --> 00:09:54,840
+ able to write code that can be tested.
+
+151
+00:09:54,840 --> 00:09:57,960
+ Because their answer to this is, "Well, just run it and see if it breaks."
+
+152
+00:09:57,960 --> 00:10:00,160
+ Like, "Yeah, but run what?
+
+153
+00:10:00,160 --> 00:10:01,160
+ Run what?
+
+154
+00:10:01,160 --> 00:10:06,120
+ Run every single piece of the entire system in order to see if it works."
+
+155
+00:10:06,120 --> 00:10:11,320
+ So we're actually having an outage right now, a blocker, because we're not able to fix
+
+156
+00:10:11,320 --> 00:10:17,320
+ something because there's five levels of abstraction and we cannot activate one of those levels
+
+157
+00:10:17,320 --> 00:10:20,600
+ of abstraction to get into the piece that's broken.
+
+158
+00:10:20,600 --> 00:10:24,600
+ We can't do it because all of the pieces have to all be run concurrently in order to
+
+159
+00:10:24,600 --> 00:10:27,760
+ even produce a test of the overall system.
+
+160
+00:10:27,760 --> 00:10:32,960
+ This is what happens when you don't have testable units of code and modules.
+
+161
+00:10:32,960 --> 00:10:35,440
+ And that is a regular part of this job.
+
+162
+00:10:35,440 --> 00:10:41,640
+ This job is about getting rid of all of that and creating interfaces, specifically web
+
+163
+00:10:41,640 --> 00:10:47,080
+ APIs, that do all of the magic, that can be written and go, or a strictly typed language
+
+164
+00:10:47,080 --> 00:10:51,800
+ that's underget, that can be managed by everybody, and then those things that are really important
+
+165
+00:10:51,800 --> 00:10:57,440
+ to the business can be encapsulated in a way that is then no longer visible to the systems
+
+166
+00:10:57,440 --> 00:10:58,960
+ of operations people.
+
+167
+00:10:58,960 --> 00:11:03,160
+ And that makes them very uncomfortable because they're the ones who wrote those things.
+
+168
+00:11:03,160 --> 00:11:06,680
+ And so for them to be able to do that, you've got to build enough trust with them to say,
+
+169
+00:11:06,680 --> 00:11:11,800
+ "Okay, we're going to replace this, you know, thousands of lines of ancient pro code with,
+
+170
+00:11:11,800 --> 00:11:15,680
+ you know, one-go API endpoint that they might push to have it in Python because now they
+
+171
+00:11:15,680 --> 00:11:16,680
+ can't work on it."
+
+172
+00:11:16,680 --> 00:11:18,720
+ The truth is you don't want them working on it.
+
+173
+00:11:18,720 --> 00:11:22,160
+ You don't want these old operations people that have no software development experience
+
+174
+00:11:22,160 --> 00:11:27,200
+ at all touching anything in the web API endpoint source base code because they don't
+
+175
+00:11:27,200 --> 00:11:34,320
+ value things like tests and source management and putting together, you know, testable
+
+176
+00:11:34,320 --> 00:11:38,400
+ work cases, use cases, and writing a test plan, a project management, those, they're
+
+177
+00:11:38,400 --> 00:11:39,400
+ operations people.
+
+178
+00:11:39,400 --> 00:11:42,120
+ That means they keep shit running and they put out fires.
+
+179
+00:11:42,120 --> 00:11:44,040
+ They don't value any of that other stuff.
+
+180
+00:11:44,040 --> 00:11:47,960
+ They might, you know, on paper, but they don't actually understand it because they haven't
+
+181
+00:11:47,960 --> 00:11:49,200
+ been in it.
+
+182
+00:11:49,200 --> 00:11:52,440
+ So I don't fault them for it because that's their background.
+
+183
+00:11:52,440 --> 00:11:53,440
+ That's their background and stuff.
+
+184
+00:11:53,440 --> 00:11:57,280
+ But I had to make this video while I was on my mind because it's a little bit of a red
+
+185
+00:11:57,280 --> 00:12:00,000
+ tea video, but it is a part of the job.
+
+186
+00:12:00,000 --> 00:12:04,320
+ If you want to do this job and you want to interface with the operations people and make
+
+187
+00:12:04,320 --> 00:12:09,640
+ their jobs easier, more specifically, the jobs of the applications and users that are
+
+188
+00:12:09,640 --> 00:12:15,680
+ using the operational stuff and facilitating the use of, you know, making systems that
+
+189
+00:12:15,680 --> 00:12:21,080
+ make managing the operational modes and machines and everything easier, if you want to do that,
+
+190
+00:12:21,080 --> 00:12:25,000
+ you've got to have to get used to talk to the Unix and Linux and the admins who don't
+
+191
+00:12:25,000 --> 00:12:26,800
+ want anything to do with writing code.
+
+192
+00:12:26,800 --> 00:12:32,740
+ This is changing over time, but, you know, anybody that's, anybody that's over 40 is
+
+193
+00:12:32,740 --> 00:12:36,000
+ going to still have these tendencies.
+
+194
+00:12:36,000 --> 00:12:40,760
+ And so as a software developer, you're going to be kind of struggling with this constantly.
+
+195
+00:12:40,760 --> 00:12:43,760
+ The other takeaway from this is you're going to be working with software engineers all the
+
+196
+00:12:43,760 --> 00:12:44,760
+ time.
+
+197
+00:12:44,760 --> 00:12:45,760
+ And they're going to say, do this and do this.
+
+198
+00:12:45,760 --> 00:12:49,360
+ And they're going to overly pitch something that's not necessary.
+
+199
+00:12:49,360 --> 00:12:53,960
+ So ops people tend to think the absolute minimum necessary to get the thing done, you know,
+
+200
+00:12:53,960 --> 00:12:55,480
+ how good is what can this hack be?
+
+201
+00:12:55,480 --> 00:12:58,760
+ And the software people are going to be pushing these big grandiose things.
+
+202
+00:12:58,760 --> 00:13:02,840
+ They're going to take way too long, have way too many layers of abstraction.
+
+203
+00:13:02,840 --> 00:13:06,240
+ And yeah, maybe they're testable and everything, but they're completely unnecessary and they
+
+204
+00:13:06,240 --> 00:13:08,720
+ take too long and they're super expensive.
+
+205
+00:13:08,720 --> 00:13:10,480
+ So you have to bridge the gap.
+
+206
+00:13:10,480 --> 00:13:15,880
+ The job of assistive or DevOps or proper engineer, where I work, is bridging the gap between
+
+207
+00:13:15,880 --> 00:13:16,880
+ those worlds.
+
+208
+00:13:16,880 --> 00:13:22,440
+ I mean, it's keeping, you know, like keeping the software development ideas in check.
+
+209
+00:13:22,440 --> 00:13:27,120
+ Like no, we really don't need to do this entire thing to do this entire thing where I could
+
+210
+00:13:27,120 --> 00:13:28,720
+ have this whole platform together.
+
+211
+00:13:28,720 --> 00:13:34,000
+ We don't need all of that, you know, pull back on those people and kind of push on the
+
+212
+00:13:34,000 --> 00:13:37,800
+ other people in the operations to do things that are going to improve sustainability over
+
+213
+00:13:37,800 --> 00:13:38,880
+ time.
+
+214
+00:13:38,880 --> 00:13:41,000
+ So that's the end of my rant here.
+
+215
+00:13:41,000 --> 00:13:45,720
+ Hopefully that gives you an understanding of what the assistive job is like and what
+
+216
+00:13:45,720 --> 00:13:50,280
+ the team dynamics are going to be about and what the challenges are going to be facing.
+
+217
+00:13:50,280 --> 00:13:55,920
+ If you're lucky, you'll get a manager like mine, you 100% understand the challenges of
+
+218
+00:13:55,920 --> 00:13:59,640
+ both sides of the fence and has experienced perhaps project managing different types
+
+219
+00:13:59,640 --> 00:14:03,000
+ of projects that span those gaps.
+
+220
+00:14:03,000 --> 00:14:06,920
+ And I absolutely do have that manager right now who gets me and understands me even if
+
+221
+00:14:06,920 --> 00:14:11,760
+ several people above me don't because, you know, they're from the operations world.
+
+222
+00:14:11,760 --> 00:14:14,760
+ So, that's the end of my rant, I'm done.
+

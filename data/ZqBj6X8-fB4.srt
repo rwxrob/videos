@@ -1,0 +1,5496 @@
+1
+00:00:00,000 --> 00:00:07,000
+ (silence)
+
+2
+00:00:30,000 --> 00:00:59,000
+ I guess I'll just let this run for a while, and then we can decide I've got my two computers here. I am not using a fancy mic at the moment. I'm just using the computer mic, and you know, if that's not okay, then I'll change it. I'll make something better, but this is like ridiculously easy to do.
+
+3
+00:00:59,000 --> 00:01:09,000
+ So, I'm not going to change it. Hey, Ripplish. Rippoly. Rippoly on YouTube. How you doing?
+
+4
+00:01:09,000 --> 00:01:23,000
+ Yeah. And the other thing I forgot to do is I can actually put my phone next to me, so if you guys chat or something, it works.
+
+5
+00:01:23,000 --> 00:01:38,000
+ So, if people... Voice is okay. It's not like really great. It's not like radio voice, right? But it's okay. Good. Good, good, good.
+
+6
+00:01:38,000 --> 00:01:52,000
+ As we go into this, I open my kind of stuff. I mean, this co-working stuff. You know, we've got to be careful to not get too distracted.
+
+7
+00:01:52,000 --> 00:02:07,000
+ You know, that's super easy to do. A bubble rob. A lot of people like bubble rob. I don't know what's going on in the terminal, though.
+
+8
+00:02:07,000 --> 00:02:20,000
+ Yeah, I hate scuffed. I know. Another thing that's a problem is that my app stopped muting. A lot of the controls on my app stop working.
+
+9
+00:02:20,000 --> 00:02:32,000
+ And so, you know, this used to ghost me out and it doesn't do it anymore. So, something broke in one of my iterations and I got to go back and fix it.
+
+10
+00:02:32,000 --> 00:02:39,000
+ That's a problem because... Well, I guess I can do it from OBS.
+
+11
+00:02:39,000 --> 00:02:51,000
+ I have been trying to do this so that I can just push it, you know, dab a button and it will work.
+
+12
+00:02:51,000 --> 00:03:02,000
+ In fact, let me try this here. That's not my URL. You capture me in the next screen.
+
+13
+00:03:02,000 --> 00:03:16,000
+ Yeah. Anyway, so, yeah, we've got a lot to do here. I got to be careful. I can't get distracted by putting technology in for open mic.
+
+14
+00:03:16,000 --> 00:03:26,000
+ I mean, for app, for co-working. It's good to see you, Chris. Good to see you.
+
+15
+00:03:26,000 --> 00:03:39,000
+ So, yeah. I'm going to go make coffee. No co-working. What does that mean?
+
+16
+00:03:39,000 --> 00:03:48,000
+ We should not do co-working. You don't like co-working. YouTube doesn't like co-working. So, that's a vote for no.
+
+17
+00:03:48,000 --> 00:03:56,000
+ And we're not co-working. I'm not streaming. So, you know, that's the alternative.
+
+18
+00:03:56,000 --> 00:04:11,000
+ I actually do like having a company to chat with during the work day. So, that is kind of nice, but it has been really distracting for me sometimes because I want to chat more than I want to work.
+
+19
+00:04:11,000 --> 00:04:19,000
+ Surprise, surprise.
+
+20
+00:04:19,000 --> 00:04:23,000
+ So, that's a prof.
+
+21
+00:04:23,000 --> 00:04:33,000
+ So, I'm going to make coffee. I know it's crazy. Since I have a gig of an ethernet, I can actually take you with me.
+
+22
+00:04:33,000 --> 00:04:40,000
+ I'm being fan of the company, but the taste is for sure. Yeah.
+
+23
+00:04:40,000 --> 00:04:47,000
+ It's distracting from these. Nope. It is too distracting from these great streams.
+
+24
+00:04:47,000 --> 00:04:50,000
+ Let's show what so we can plants. I don't know.
+
+25
+00:04:50,000 --> 00:05:02,000
+ We're probably going to be on the bike. There's not going to be any terminal. If you're here for terminal stuff, there'll be a little of it, but there's not so far there's not going to be there's no plans to do any teaching how to code.
+
+26
+00:05:02,000 --> 00:05:10,000
+ Teaching how to code or anything like that. So, it's a problem. I made a promo timer. I have it. I probably still have it.
+
+27
+00:05:10,000 --> 00:05:16,000
+ What's my terminal? Oh, actually, I was going to be happy.
+
+28
+00:05:16,000 --> 00:05:23,000
+ This is this is what happens on our stream. Yeah, this is exactly what happens on our stream.
+
+29
+00:05:23,000 --> 00:05:27,000
+ Why is this taking so long?
+
+30
+00:05:27,000 --> 00:05:37,000
+ Let's move back up.
+
+31
+00:05:37,000 --> 00:05:40,000
+ Oh, my God.
+
+32
+00:05:40,000 --> 00:05:50,000
+ It's been running all this time.
+
+33
+00:05:50,000 --> 00:06:00,000
+ Yep.
+
+34
+00:06:00,000 --> 00:06:05,000
+ And then there's the other question. Should you music or no music?
+
+35
+00:06:05,000 --> 00:06:19,000
+ I think I'm going to do music. I think I'm going to do music, but the music is going to be.
+
+36
+00:06:19,000 --> 00:06:26,000
+ Mutable.
+
+37
+00:06:26,000 --> 00:06:32,000
+ So if we have if we have a timer for one, the next break is going to come and then I put on my normal music.
+
+38
+00:06:32,000 --> 00:06:37,000
+ Actually, if I do that, I can't stream to Twitter to YouTube.
+
+39
+00:06:37,000 --> 00:06:43,000
+ So, I forgot about that.
+
+40
+00:06:43,000 --> 00:06:48,000
+ Hey, Mark.
+
+41
+00:06:48,000 --> 00:06:54,000
+ I don't like any stream wrap voice down when you speak. Can you do that automatically in your stream wrap?
+
+42
+00:06:54,000 --> 00:07:00,000
+ What are you talking about voice down? My voice is too loud or something.
+
+43
+00:07:00,000 --> 00:07:03,000
+ I do mark.
+
+44
+00:07:03,000 --> 00:07:10,000
+ Let's let's figure out the logistics while I make coffee.
+
+45
+00:07:10,000 --> 00:07:17,000
+ Come with me as I make coffee.
+
+46
+00:07:17,000 --> 00:07:23,000
+ I wish I was in a way to make that like faster.
+
+47
+00:07:23,000 --> 00:07:35,000
+ Does it feel like there is?
+
+48
+00:07:35,000 --> 00:07:43,000
+ I can't help myself.
+
+49
+00:07:43,000 --> 00:07:58,000
+ I can't help myself.
+
+50
+00:07:58,000 --> 00:08:08,000
+ I missed streaming.
+
+51
+00:08:08,000 --> 00:08:16,000
+ Streaming is fun, y'all.
+
+52
+00:08:16,000 --> 00:08:32,000
+ Yeah, I got the chances.
+
+53
+00:08:32,000 --> 00:08:48,000
+ But she's going to keep working.
+
+54
+00:08:48,000 --> 00:08:52,000
+ Mr. Coffee.
+
+55
+00:08:52,000 --> 00:08:55,000
+ It's not nearly as bougie as the other one.
+
+56
+00:08:55,000 --> 00:09:00,000
+ I had such a bougie copy maker.
+
+57
+00:09:00,000 --> 00:09:10,000
+ This is not, it's like $15.00 or wrong by a target assumption.
+
+58
+00:09:10,000 --> 00:09:17,000
+ It's like I had to turn down the can you see, like, wait a minute.
+
+59
+00:09:17,000 --> 00:09:29,000
+ Oh, shit.
+
+60
+00:09:29,000 --> 00:09:34,000
+ Somebody was talking in a office hours.
+
+61
+00:09:34,000 --> 00:09:44,000
+ I was in office hours for somebody.
+
+62
+00:09:44,000 --> 00:09:48,000
+ I'm going to put my app on so I can see your chat.
+
+63
+00:09:48,000 --> 00:10:01,000
+ I'm going to put my app on.
+
+64
+00:10:01,000 --> 00:10:06,000
+ I know a lot of people like text stream.
+
+65
+00:10:06,000 --> 00:10:20,000
+ I mean, y'all are bored during work too, right?
+
+66
+00:10:20,000 --> 00:10:29,000
+ Do you guys have one of those team chats?
+
+67
+00:10:29,000 --> 00:10:38,000
+ It's like really cringe.
+
+68
+00:10:38,000 --> 00:10:43,000
+ I can pick who I want to be in here.
+
+69
+00:10:43,000 --> 00:10:52,000
+ I don't have to deal with bullshit and pretend like I want to talk to the people that are in my other streams.
+
+70
+00:10:52,000 --> 00:10:55,000
+ They're at work.
+
+71
+00:10:55,000 --> 00:11:00,000
+ There's a few people that work that I really like and they know who they are.
+
+72
+00:11:00,000 --> 00:11:04,000
+ They know who they are and I love them.
+
+73
+00:11:04,000 --> 00:11:10,000
+ If they actually wander in this stream, which they tend to do, a couple of them in particular,
+
+74
+00:11:10,000 --> 00:11:16,000
+ they'll find me and they'll be like, "Hey, Rob, swing it again."
+
+75
+00:11:16,000 --> 00:11:18,000
+ We're waiting for code to compile.
+
+76
+00:11:18,000 --> 00:11:28,000
+ We're waiting for IIS anyway, it absolutely is totally agreed.
+
+77
+00:11:28,000 --> 00:11:41,000
+ I'm almost out of coffee already.
+
+78
+00:11:41,000 --> 00:11:47,000
+ I know it's shitty coffee and it should be coffee maker in a shitty apartment.
+
+79
+00:11:47,000 --> 00:11:55,000
+ Did you know my apartment costs $985 a month?
+
+80
+00:11:55,000 --> 00:11:57,000
+ Yeah.
+
+81
+00:11:57,000 --> 00:12:02,000
+ How's them apples?
+
+82
+00:12:02,000 --> 00:12:08,000
+ Wait, what?
+
+83
+00:12:08,000 --> 00:12:23,000
+ I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry.
+
+84
+00:12:23,000 --> 00:12:38,000
+ So I haven't been following tech, I haven't and it's been glorious, oh my God, it's been so glorious.
+
+85
+00:12:38,000 --> 00:12:41,000
+ I have not given a shit about tech.
+
+86
+00:12:41,000 --> 00:12:55,000
+ I don't know what that is, I don't know what that is, tell me what Omarke is, but do I need to ask my agent?
+
+87
+00:12:55,000 --> 00:13:22,000
+ I'm looking up on Omarke is, I don't, do you don't want to see my face is like ugly and big and stuffy?
+
+88
+00:13:22,000 --> 00:13:33,000
+ Oh, that's better, okay.
+
+89
+00:13:33,000 --> 00:13:36,000
+ Omarke is an arch opinionatedistro.
+
+90
+00:13:36,000 --> 00:13:49,000
+ Yeah, by DHH, every single thing you just said made me want to vomit in my mouth a little bit.
+
+91
+00:13:49,000 --> 00:13:55,000
+ And arch distro, I use arch by the way created by one of the biggest assholes in history.
+
+92
+00:13:55,000 --> 00:14:01,000
+ Fuck, no, fuck to the no.
+
+93
+00:14:01,000 --> 00:14:08,000
+ Fuck, no, no, no, oh my God, no.
+
+94
+00:14:08,000 --> 00:14:12,000
+ Do you guys even know how big an asshole DH is?
+
+95
+00:14:12,000 --> 00:14:15,000
+ Oh my God.
+
+96
+00:14:15,000 --> 00:14:22,000
+ No, oh, see, this is why, look, just put me back on my mountain bike.
+
+97
+00:14:22,000 --> 00:14:25,000
+ It has some weird views.
+
+98
+00:14:25,000 --> 00:14:32,000
+ That's okay, I don't want to talk about it.
+
+99
+00:14:32,000 --> 00:14:43,000
+ I'm supposed to be like all positive and find good in everybody and everything.
+
+100
+00:14:43,000 --> 00:14:48,000
+ It's getting all the spending from bros who have denied LSS funding for decades.
+
+101
+00:14:48,000 --> 00:14:50,000
+ What?
+
+102
+00:14:50,000 --> 00:14:55,000
+ Oh my God, Silicon Valley has become such a fucking tragedy.
+
+103
+00:14:55,000 --> 00:14:58,000
+ It's as bad as Hollywood.
+
+104
+00:14:58,000 --> 00:15:03,000
+ I'm pretty sure they're going to start eating babies.
+
+105
+00:15:03,000 --> 00:15:08,000
+ Go look at the picture and you tell me if it's a chicken or a baby.
+
+106
+00:15:08,000 --> 00:15:14,000
+ Who is DHH?
+
+107
+00:15:14,000 --> 00:15:18,000
+ Am I confusing DHH with the DHH?
+
+108
+00:15:18,000 --> 00:15:24,000
+ Who created a presentation and the only thing on the first slide was fuck you.
+
+109
+00:15:24,000 --> 00:15:28,000
+ Just to get started.
+
+110
+00:15:28,000 --> 00:15:35,000
+ Look, I'm trying to be positive here, but again, I really should not stream.
+
+111
+00:15:35,000 --> 00:15:43,000
+ Cope NC.
+
+112
+00:15:43,000 --> 00:15:46,000
+ Yeah, I'm sure you love it, right?
+
+113
+00:15:46,000 --> 00:15:47,000
+ There's people out there who really love it.
+
+114
+00:15:47,000 --> 00:15:49,000
+ There are going to be people who are going to be really loving on this.
+
+115
+00:15:49,000 --> 00:15:52,000
+ I'm like, oh my God, he's so awesome.
+
+116
+00:15:52,000 --> 00:15:58,000
+ Then the Silicon Valley bros are going to stumble in here and then someone's going to tell me
+
+117
+00:15:58,000 --> 00:16:02,000
+ how awesome this or that streamer is and how awesome this gesture is.
+
+118
+00:16:02,000 --> 00:16:05,000
+ They're going to call me an idiot for not using that streamer.
+
+119
+00:16:05,000 --> 00:16:08,000
+ They're going to call me the most junior, senior, engineer they've ever seen.
+
+120
+00:16:08,000 --> 00:16:14,000
+ This is why I don't stream.
+
+121
+00:16:14,000 --> 00:16:15,000
+ A lot of tech.
+
+122
+00:16:15,000 --> 00:16:21,000
+ That's why I support to hear you.
+
+123
+00:16:21,000 --> 00:16:22,000
+ This is really good.
+
+124
+00:16:22,000 --> 00:16:27,000
+ I'm glad we're doing this because this is a good reminder of why I don't stream.
+
+125
+00:16:27,000 --> 00:16:32,000
+ It's why I don't stream unless I'm on my bike because the tech world, first of all, I fucking hate the tech world.
+
+126
+00:16:32,000 --> 00:16:33,000
+ I hate it.
+
+127
+00:16:33,000 --> 00:16:34,000
+ I hate it.
+
+128
+00:16:34,000 --> 00:16:36,000
+ I hate it from top to bottom.
+
+129
+00:16:36,000 --> 00:16:42,000
+ The personalities involved, the big egos involved, including my own, I fully admit that I have
+
+130
+00:16:42,000 --> 00:16:44,000
+ just as much of an ego as most of those people.
+
+131
+00:16:44,000 --> 00:16:51,000
+ I don't eat babies and get blood transfusions and put fuck you on the presentations.
+
+132
+00:16:51,000 --> 00:16:53,000
+ Those opinions don't matter.
+
+133
+00:16:53,000 --> 00:16:57,000
+ Everybody's been saying, "Well, that's why we need you, Rob.
+
+134
+00:16:57,000 --> 00:17:01,000
+ We need somebody who's authentic who's going to tell us the truth and who's going to give us the opinion
+
+135
+00:17:01,000 --> 00:17:04,000
+ straight and help us actually get a job in today's world."
+
+136
+00:17:04,000 --> 00:17:06,000
+ That's what I've always been about.
+
+137
+00:17:06,000 --> 00:17:09,000
+ You like the agenda parts of the industry.
+
+138
+00:17:09,000 --> 00:17:11,000
+ It's also tiling.
+
+139
+00:17:11,000 --> 00:17:12,000
+ It's also tiling.
+
+140
+00:17:12,000 --> 00:17:16,000
+ I don't use Linux graphic interfaces ever.
+
+141
+00:17:16,000 --> 00:17:17,000
+ I use Mac.
+
+142
+00:17:17,000 --> 00:17:19,000
+ Stumi.
+
+143
+00:17:19,000 --> 00:17:20,000
+ Mac is way better than.
+
+144
+00:17:20,000 --> 00:17:22,000
+ You want me to start this fight again?
+
+145
+00:17:22,000 --> 00:17:25,000
+ Look, I fucking hate Apple.
+
+146
+00:17:25,000 --> 00:17:34,000
+ But you cannot throw any shade at the Mac interface versus the graphic.
+
+147
+00:17:34,000 --> 00:17:37,000
+ If you're going to have to use a graphic, use an interface, use a Mac.
+
+148
+00:17:37,000 --> 00:17:39,000
+ I'm also sort of a DJ and a sound guy.
+
+149
+00:17:39,000 --> 00:17:41,000
+ Try that on a Linux.
+
+150
+00:17:41,000 --> 00:17:42,000
+ Ha.
+
+151
+00:17:42,000 --> 00:17:43,000
+ Ha.
+
+152
+00:17:43,000 --> 00:17:44,000
+ Good luck.
+
+153
+00:17:44,000 --> 00:17:51,000
+ Good luck.
+
+154
+00:17:51,000 --> 00:18:11,000
+ Thank you.
+
+155
+00:18:11,000 --> 00:18:19,000
+ I can't wait for my asshole teammate to find that ice cream.
+
+156
+00:18:19,000 --> 00:18:27,000
+ I'm just going to say that I can't wait for my asshole teammate to find that ice cream.
+
+157
+00:18:27,000 --> 00:18:30,000
+ I can't wait for him to find that ice cream.
+
+158
+00:18:30,000 --> 00:18:38,000
+ I can't wait for him to find that ice cream.
+
+159
+00:18:38,000 --> 00:18:43,000
+ I can't wait for him to find that ice cream.
+
+160
+00:18:43,000 --> 00:18:49,000
+ Okay.
+
+161
+00:18:49,000 --> 00:18:56,000
+ I'm trying really hard to be positive, but I'm failing as usual.
+
+162
+00:18:56,000 --> 00:19:00,000
+ The agentic parts of the distro and agentic Linux distro is interesting.
+
+163
+00:19:00,000 --> 00:19:02,000
+ So maybe it's worth looking at.
+
+164
+00:19:02,000 --> 00:19:03,000
+ Hey, look.
+
+165
+00:19:03,000 --> 00:19:04,000
+ I used to shoot on it.
+
+166
+00:19:04,000 --> 00:19:05,000
+ New of them all the time.
+
+167
+00:19:05,000 --> 00:19:06,000
+ Now I use it every day.
+
+168
+00:19:06,000 --> 00:19:11,000
+ I used to shoot on obsidian every day and I use it every day now.
+
+169
+00:19:11,000 --> 00:19:15,000
+ I have to shoot on max and now I use it every day.
+
+170
+00:19:15,000 --> 00:19:19,000
+ So don't be me.
+
+171
+00:19:19,000 --> 00:19:20,000
+ Don't be me.
+
+172
+00:19:20,000 --> 00:19:21,000
+ Be better than me.
+
+173
+00:19:21,000 --> 00:19:22,000
+ Have an open mind.
+
+174
+00:19:22,000 --> 00:19:32,000
+ Like consider everybody's opinions and then make your own decisions.
+
+175
+00:19:32,000 --> 00:19:39,000
+ I don't like Russ.
+
+176
+00:19:39,000 --> 00:19:46,000
+ I was based on my kids.
+
+177
+00:19:46,000 --> 00:19:52,000
+ Yeah, I don't know.
+
+178
+00:19:52,000 --> 00:19:58,000
+ They're actually pushing some stuff, some rust stuff at work.
+
+179
+00:19:58,000 --> 00:20:08,000
+ Yeah.
+
+180
+00:20:08,000 --> 00:20:09,000
+ This one, okay.
+
+181
+00:20:09,000 --> 00:20:10,000
+ Don't be so open.
+
+182
+00:20:10,000 --> 00:20:11,000
+ My brain falls off.
+
+183
+00:20:11,000 --> 00:20:12,000
+ That's interesting.
+
+184
+00:20:12,000 --> 00:20:13,000
+ That's a good quote.
+
+185
+00:20:13,000 --> 00:20:17,000
+ I like that.
+
+186
+00:20:17,000 --> 00:20:25,000
+ I have a good quote.
+
+187
+00:20:25,000 --> 00:20:28,000
+ Hmm.
+
+188
+00:20:28,000 --> 00:20:37,000
+ Hey, raise your hand if you have to use service now at work.
+
+189
+00:20:37,000 --> 00:20:45,000
+ Maybe it takes our constructively thought provoking so they're still pretty.
+
+190
+00:20:45,000 --> 00:20:46,000
+ Oh, in spades.
+
+191
+00:20:46,000 --> 00:20:47,000
+ Thank you for that.
+
+192
+00:20:47,000 --> 00:20:48,000
+ Appreciate that, YouTube.
+
+193
+00:20:48,000 --> 00:20:51,000
+ Thank you for saying so.
+
+194
+00:20:51,000 --> 00:20:52,000
+ Makes me feel better.
+
+195
+00:20:52,000 --> 00:20:55,000
+ You still don't encourage me being an asshole.
+
+196
+00:20:55,000 --> 00:20:56,000
+ I don't need that encouragement.
+
+197
+00:20:56,000 --> 00:20:57,000
+ That's my generation.
+
+198
+00:20:57,000 --> 00:20:59,000
+ We're assholes.
+
+199
+00:20:59,000 --> 00:21:11,000
+ You don't have to go that far.
+
+200
+00:21:11,000 --> 00:21:17,000
+ You don't have to go that far.
+
+201
+00:21:17,000 --> 00:21:19,000
+ Service now PTSD.
+
+202
+00:21:19,000 --> 00:21:24,000
+ Oh, God.
+
+203
+00:21:24,000 --> 00:21:29,000
+ So yeah, I'm using.
+
+204
+00:21:29,000 --> 00:21:33,000
+ I've been tasked with as fast as so we're getting off.
+
+205
+00:21:33,000 --> 00:21:40,000
+ I don't think there's any, which is not, I don't think I got to be really careful because I don't want to share anything this proprietary.
+
+206
+00:21:40,000 --> 00:21:43,000
+ But we're getting off of, what's it called?
+
+207
+00:21:43,000 --> 00:21:44,000
+ Ever.
+
+208
+00:21:44,000 --> 00:21:49,000
+ Ever bridge.
+
+209
+00:21:49,000 --> 00:22:00,000
+ I'm definitely a football team.
+
+210
+00:22:00,000 --> 00:22:09,000
+ Didn't make me choke.
+
+211
+00:22:09,000 --> 00:22:14,000
+ See, this is why I stream people.
+
+212
+00:22:14,000 --> 00:22:16,000
+ You're fucking funny.
+
+213
+00:22:16,000 --> 00:22:17,000
+ You're so funny.
+
+214
+00:22:17,000 --> 00:22:19,000
+ I missed my people.
+
+215
+00:22:19,000 --> 00:22:20,000
+ I missed my people.
+
+216
+00:22:20,000 --> 00:22:24,000
+ You all have the same sort of like demented sense of humor that I have.
+
+217
+00:22:24,000 --> 00:22:29,000
+ You know how hard is if I have people make me laugh like this?
+
+218
+00:22:29,000 --> 00:22:30,000
+ Oh, my God.
+
+219
+00:22:30,000 --> 00:22:31,000
+ That's so funny.
+
+220
+00:22:31,000 --> 00:22:37,000
+ I mean, it was such a basic joke, but it still is funny.
+
+221
+00:22:37,000 --> 00:22:38,000
+ I just missed it.
+
+222
+00:22:38,000 --> 00:22:39,000
+ I missed it.
+
+223
+00:22:39,000 --> 00:22:40,000
+ I've been missing.
+
+224
+00:22:40,000 --> 00:22:42,000
+ I've been missing having like the.
+
+225
+00:22:42,000 --> 00:22:47,000
+ I mean, this kind of banter that you only get maybe once a year at Lennox, right?
+
+226
+00:22:47,000 --> 00:22:53,000
+ Southeast Las Vegas, which by the way is in July, so I'm sorry.
+
+227
+00:22:53,000 --> 00:22:55,000
+ We should take a road trip to a Linux convention.
+
+228
+00:22:55,000 --> 00:22:59,000
+ That's like local.
+
+229
+00:22:59,000 --> 00:23:00,000
+ Not local.
+
+230
+00:23:00,000 --> 00:23:03,000
+ Local ish.
+
+231
+00:23:03,000 --> 00:23:04,000
+ No.
+
+232
+00:23:04,000 --> 00:23:10,000
+ Anyway, hope for toes.
+
+233
+00:23:10,000 --> 00:23:15,000
+ I'm eating raisin brown, by the way.
+
+234
+00:23:15,000 --> 00:23:21,000
+ Anyway, I have to show my teeth.
+
+235
+00:23:21,000 --> 00:23:28,000
+ I will.
+
+236
+00:23:28,000 --> 00:23:36,000
+ Oh, no nipples on stream.
+
+237
+00:23:36,000 --> 00:23:41,000
+ That's exactly what I'm doing.
+
+238
+00:23:41,000 --> 00:23:53,000
+ I want to talk about that.
+
+239
+00:23:53,000 --> 00:23:55,000
+ Because I wanted to get that reaction.
+
+240
+00:23:55,000 --> 00:24:02,000
+ That's why I wanted to gross you out.
+
+241
+00:24:02,000 --> 00:24:07,000
+ I get to troll you service when.
+
+242
+00:24:07,000 --> 00:24:12,000
+ Exactly.
+
+243
+00:24:12,000 --> 00:24:13,000
+ Moving to Jira.
+
+244
+00:24:13,000 --> 00:24:16,000
+ We're on Jira right now.
+
+245
+00:24:16,000 --> 00:24:17,000
+ Angel, happy?
+
+246
+00:24:17,000 --> 00:24:23,000
+ What's up?
+
+247
+00:24:23,000 --> 00:24:25,000
+ Service tonight.
+
+248
+00:24:25,000 --> 00:24:31,000
+ I want to talk to over 31st, which is like three days.
+
+249
+00:24:31,000 --> 00:24:36,000
+ To get.
+
+250
+00:24:36,000 --> 00:24:39,000
+ Which is not happening, it's just not happening.
+
+251
+00:24:39,000 --> 00:24:45,000
+ To get off of service now for our learning and send SMS messages via service now.
+
+252
+00:24:45,000 --> 00:24:52,000
+ Now, service now doesn't even have a method of sending alerts.
+
+253
+00:24:52,000 --> 00:24:53,000
+ I'm doing work right now.
+
+254
+00:24:53,000 --> 00:24:58,000
+ I'm talking about service now with my friends.
+
+255
+00:24:58,000 --> 00:25:02,000
+ All right.
+
+256
+00:25:02,000 --> 00:25:06,000
+ Actual work question.
+
+257
+00:25:06,000 --> 00:25:09,000
+ Does anybody know.
+
+258
+00:25:09,000 --> 00:25:12,000
+ If service now.
+
+259
+00:25:12,000 --> 00:25:14,000
+ Sorry for the fan.
+
+260
+00:25:14,000 --> 00:25:18,000
+ Does anybody know if service now can send an alert.
+
+261
+00:25:18,000 --> 00:25:30,000
+ An SMS message.
+
+262
+00:25:30,000 --> 00:25:33,000
+ Go about to access our channels now.
+
+263
+00:25:33,000 --> 00:25:35,000
+ Jira and confidence.
+
+264
+00:25:35,000 --> 00:25:37,000
+ What's that happens?
+
+265
+00:25:37,000 --> 00:25:39,000
+ Mark, that's exactly what we're doing.
+
+266
+00:25:39,000 --> 00:25:40,000
+ Oh, it's funny.
+
+267
+00:25:40,000 --> 00:25:41,000
+ This is another reason I'm streaming.
+
+268
+00:25:41,000 --> 00:25:42,000
+ Okay.
+
+269
+00:25:42,000 --> 00:25:45,000
+ Y'all are doing the same things that we're doing.
+
+270
+00:25:45,000 --> 00:25:54,000
+ Everything is snow, Jira and confidence now.
+
+271
+00:25:54,000 --> 00:25:55,000
+ He's big panda.
+
+272
+00:25:55,000 --> 00:25:56,000
+ Okay.
+
+273
+00:25:56,000 --> 00:25:58,000
+ I got to look at that.
+
+274
+00:25:58,000 --> 00:26:00,000
+ Yeah.
+
+275
+00:26:00,000 --> 00:26:04,000
+ Service now is like this help desk ticketing all things to enterprise system.
+
+276
+00:26:04,000 --> 00:26:10,000
+ It sucks.
+
+277
+00:26:10,000 --> 00:26:23,000
+ You can get email 1000 emails data from it for service now, well, yeah.
+
+278
+00:26:23,000 --> 00:26:25,000
+ We got off make docs.
+
+279
+00:26:25,000 --> 00:26:31,000
+ I deployed our entire make docs documentation solution because they wanted like a searchable web interface.
+
+280
+00:26:31,000 --> 00:26:32,000
+ And they all just chucked all of that.
+
+281
+00:26:32,000 --> 00:26:37,000
+ And now we have confidence.
+
+282
+00:26:37,000 --> 00:26:45,000
+ So, we're going to come once.
+
+283
+00:26:45,000 --> 00:26:48,000
+ So here's the thing.
+
+284
+00:26:48,000 --> 00:26:51,000
+ Y'all.
+
+285
+00:26:51,000 --> 00:27:01,000
+ We need to make a list of enterprise software that you're likely to be forced to engage with.
+
+286
+00:27:01,000 --> 00:27:04,000
+ So that you can prepare.
+
+287
+00:27:04,000 --> 00:27:10,000
+ And knowing what to know kind of thing, right?
+
+288
+00:27:10,000 --> 00:27:13,000
+ How does it have an MCP server locally?
+
+289
+00:27:13,000 --> 00:27:18,000
+ How to put an MCP on a jump post.
+
+290
+00:27:18,000 --> 00:27:22,000
+ I'm going to talk to Rick to the Jira API.
+
+291
+00:27:22,000 --> 00:27:25,000
+ To get a sense of service now.
+
+292
+00:27:25,000 --> 00:27:27,000
+ Yeah.
+
+293
+00:27:27,000 --> 00:27:31,000
+ Yeah.
+
+294
+00:27:31,000 --> 00:27:35,000
+ Probably an open source alternative, but the enterprises that I work for don't care.
+
+295
+00:27:35,000 --> 00:27:39,000
+ They don't care.
+
+296
+00:28:02,000 --> 00:28:11,000
+ But you're not here now.
+
+297
+00:28:11,000 --> 00:28:14,000
+ All right.
+
+298
+00:28:14,000 --> 00:28:17,000
+ Back to work.
+
+299
+00:28:17,000 --> 00:28:19,000
+ How you doing, Jira?
+
+300
+00:28:19,000 --> 00:28:28,000
+ Good to see you.
+
+301
+00:28:28,000 --> 00:28:31,000
+ All right.
+
+302
+00:28:31,000 --> 00:28:34,000
+ How much of my OBS can I open while you guys are around?
+
+303
+00:28:34,000 --> 00:28:37,000
+ I don't remember how much of it is private.
+
+304
+00:28:37,000 --> 00:28:42,000
+ And I don't have my privacy screen working right now.
+
+305
+00:28:42,000 --> 00:28:48,000
+ By the way, how is the quality of the video?
+
+306
+00:28:48,000 --> 00:28:51,000
+ Because it's getting encoded twice.
+
+307
+00:28:51,000 --> 00:28:57,000
+ It's coming from my OBS and then it's going to an OBS in the cloud.
+
+308
+00:28:57,000 --> 00:29:06,000
+ I just want to make sure it stays viable.
+
+309
+00:29:06,000 --> 00:29:07,000
+ Okay.
+
+310
+00:29:07,000 --> 00:29:08,000
+ You guys let me know if that changes.
+
+311
+00:29:08,000 --> 00:29:10,000
+ I need to.
+
+312
+00:29:10,000 --> 00:29:11,000
+ I have a meeting coming up.
+
+313
+00:29:11,000 --> 00:29:17,000
+ I have a slur meeting coming up in a few hours.
+
+314
+00:29:17,000 --> 00:29:18,000
+ Open the whole thing.
+
+315
+00:29:18,000 --> 00:29:21,000
+ No, God, no.
+
+316
+00:29:21,000 --> 00:29:29,000
+ I got stuff in my obsidian that is not for public eyes, including erotica that I've been writing.
+
+317
+00:29:29,000 --> 00:29:31,000
+ It's, it's soft erotica.
+
+318
+00:29:31,000 --> 00:29:41,000
+ It's not like he did this in this using words I can't say on YouTube.
+
+319
+00:29:41,000 --> 00:29:44,000
+ I am on all the meetings.
+
+320
+00:29:44,000 --> 00:29:46,000
+ We were supposed to have sprint planning yesterday.
+
+321
+00:29:46,000 --> 00:29:48,000
+ They got canceled.
+
+322
+00:29:48,000 --> 00:29:52,000
+ Anyway, let's, somebody asked me about my schedule.
+
+323
+00:29:52,000 --> 00:29:53,000
+ Let me, let me tell you the schedule.
+
+324
+00:29:53,000 --> 00:29:58,000
+ So today, um, ooh, the reporting earnings report is tomorrow.
+
+325
+00:29:58,000 --> 00:29:59,000
+ That'll be interesting.
+
+326
+00:29:59,000 --> 00:30:01,000
+ God, I hope we did good.
+
+327
+00:30:01,000 --> 00:30:04,000
+ I want a big ass bonus this year.
+
+328
+00:30:04,000 --> 00:30:10,000
+ Um, so.
+
+329
+00:30:10,000 --> 00:30:12,000
+ So we have a, we have a slurm status meeting.
+
+330
+00:30:12,000 --> 00:30:17,000
+ We were converting PBS to slurm, uh, which if anybody doesn't know what slurm is,
+
+331
+00:30:17,000 --> 00:30:18,000
+ it's a batch processing system.
+
+332
+00:30:18,000 --> 00:30:20,000
+ We'll talk about that some other day.
+
+333
+00:30:20,000 --> 00:30:24,000
+ Um, I have PR review office hours later today, but that's it.
+
+334
+00:30:24,000 --> 00:30:26,000
+ So my main priority.
+
+335
+00:30:26,000 --> 00:30:28,000
+ It reminds me it's 11 o'clock yet.
+
+336
+00:30:28,000 --> 00:30:31,000
+ So at 11 o'clock, I need to post my status.
+
+337
+00:30:31,000 --> 00:30:34,000
+ What I did last time on what I'm going to do.
+
+338
+00:30:34,000 --> 00:30:39,000
+ We do our, we do our stand up since in, uh, we have an automated, uh, Jira ticket.
+
+339
+00:30:39,000 --> 00:30:40,000
+ Nah.
+
+340
+00:30:40,000 --> 00:30:46,000
+ An automated teams creation, uh, thread now that fires at 11 o'clock and then we have to put our,
+
+341
+00:30:46,000 --> 00:30:50,000
+ what we did and what we're going to do, what our blockers are every day.
+
+342
+00:30:50,000 --> 00:30:54,000
+ We went back to it because we got a team got bigger and people stopped doing shit.
+
+343
+00:30:54,000 --> 00:30:57,000
+ Early say forgot to do things that were important.
+
+344
+00:30:57,000 --> 00:31:01,000
+ And, and so they had to kind of rein our whole team in.
+
+345
+00:31:01,000 --> 00:31:05,000
+ And so our whole team is now back on strict to you.
+
+346
+00:31:05,000 --> 00:31:08,000
+ You better fucking put your status in when it comes in.
+
+347
+00:31:08,000 --> 00:31:11,000
+ And if you don't within two hours, you get a ping.
+
+348
+00:31:11,000 --> 00:31:16,000
+ So, you know, I'm actually God, they did that because there are a lot of people on our team,
+
+349
+00:31:16,000 --> 00:31:21,000
+ including the asshole that I work with, uh, who get really wildly off target.
+
+350
+00:31:21,000 --> 00:31:22,000
+ They do.
+
+351
+00:31:22,000 --> 00:31:29,000
+ They come up, they come up, they, they spent like a week on this stupid Jira automated,
+
+352
+00:31:29,000 --> 00:31:34,000
+ like, like ticket interface creation bullshit that we don't need.
+
+353
+00:31:34,000 --> 00:31:38,000
+ We have like systems going down and thousand, ten thousand dollar GPUs coming in,
+
+354
+00:31:38,000 --> 00:31:42,000
+ sitting on the floor and he's like fucking writing Jira integration.
+
+355
+00:31:42,000 --> 00:31:45,000
+ And, and I was like, how is this a priority?
+
+356
+00:31:45,000 --> 00:31:48,000
+ And anyway, I don't want to talk about that.
+
+357
+00:31:48,000 --> 00:31:52,000
+ So you're going to, you're going to hear me complain a lot about people on my team.
+
+358
+00:31:52,000 --> 00:31:55,000
+ And those people on my team will never be revealed.
+
+359
+00:31:55,000 --> 00:31:57,000
+ I will never say who they are.
+
+360
+00:31:57,000 --> 00:32:00,000
+ But if they reveal themselves on my stream, that's on them.
+
+361
+00:32:00,000 --> 00:32:03,000
+ So this is why I don't talk about where I work.
+
+362
+00:32:03,000 --> 00:32:06,000
+ Just so you know, I don't, I don't talk specifically about the location.
+
+363
+00:32:06,000 --> 00:32:11,000
+ Because, because I'm going to talk shit about people that I work with that bothers me.
+
+364
+00:32:11,000 --> 00:32:13,000
+ And I think you should be able to do the same thing.
+
+365
+00:32:13,000 --> 00:32:18,000
+ I want us this to be a place where we can vent about the drama and then decide not to be that guy.
+
+366
+00:32:18,000 --> 00:32:21,000
+ So anyway, let's build some known I can do.
+
+367
+00:32:21,000 --> 00:32:28,000
+ Even if you're writing any, any spring batch Java code, nope.
+
+368
+00:32:28,000 --> 00:32:30,000
+ There's a lot of it though.
+
+369
+00:32:30,000 --> 00:32:32,000
+ Boy, you should get a job in Charlotte.
+
+370
+00:32:32,000 --> 00:32:38,000
+ There's so much Java spring batch source of stuff from the finance in Charlotte.
+
+371
+00:32:38,000 --> 00:32:41,000
+ I'd be surprised to see how much flooring there is.
+
+372
+00:32:44,000 --> 00:32:45,000
+ All right.
+
+373
+00:32:45,000 --> 00:32:50,000
+ Now we have to do the hard part where I go quiet for like an hour and nobody hears me say anything.
+
+374
+00:33:03,000 --> 00:33:10,000
+ So, let's go see if we can find a timer.
+
+375
+00:33:10,000 --> 00:33:13,000
+ I was just going to find just like a simple web timer.
+
+376
+00:33:19,000 --> 00:33:21,000
+ Let's do, let's do like an hour long break.
+
+377
+00:33:21,000 --> 00:33:25,000
+ I'm going to try to be good about doing this because people need to work.
+
+378
+00:33:25,000 --> 00:33:26,000
+ They need to not be distracted.
+
+379
+00:33:26,000 --> 00:33:29,000
+ Maybe you shut up the little chime when a new chat message comes in.
+
+380
+00:33:29,000 --> 00:33:32,000
+ Oh, right, are you getting the chime?
+
+381
+00:33:32,000 --> 00:33:34,000
+ I forgot that that's really loud for you guys.
+
+382
+00:33:34,000 --> 00:33:35,000
+ I forgot about that.
+
+383
+00:33:35,000 --> 00:33:36,000
+ I'm sorry.
+
+384
+00:33:36,000 --> 00:33:37,000
+ Thank you for reminding me Mark.
+
+385
+00:33:37,000 --> 00:33:38,000
+ How about now?
+
+386
+00:33:38,000 --> 00:33:40,000
+ I'll try to test it.
+
+387
+00:33:48,000 --> 00:33:49,000
+ We are loud.
+
+388
+00:33:51,000 --> 00:33:54,000
+ A multi hundred subset WordPress with heaps of plugins.
+
+389
+00:33:54,000 --> 00:33:55,000
+ Pull them every week.
+
+390
+00:33:55,000 --> 00:33:56,000
+ We're here.
+
+391
+00:33:56,000 --> 00:33:58,000
+ Did you guys fix all your PHP shit?
+
+392
+00:33:58,000 --> 00:33:59,000
+ What are you doing?
+
+393
+00:33:59,000 --> 00:34:00,000
+ Yeah.
+
+394
+00:34:00,000 --> 00:34:01,000
+ All right.
+
+395
+00:34:01,000 --> 00:34:07,000
+ So, again, folks, you know what I'm going to do?
+
+396
+00:34:07,000 --> 00:34:09,000
+ This is how you're going to know that I'm working on something else.
+
+397
+00:34:09,000 --> 00:34:11,000
+ I'm going to turn my head like this.
+
+398
+00:34:11,000 --> 00:34:13,000
+ I'm going to be working every year.
+
+399
+00:34:13,000 --> 00:34:15,000
+ You'll be like, oh, he's working offsite.
+
+400
+00:34:15,000 --> 00:34:16,000
+ How about that?
+
+401
+00:34:16,000 --> 00:34:23,000
+ So, and I will try to keep your, your chats around.
+
+402
+00:34:23,000 --> 00:34:26,000
+ So, your phone, I'm going to put my phone right here so I can see.
+
+403
+00:34:29,000 --> 00:34:33,000
+ If we can figure this out, then this could be really fun actually.
+
+404
+00:34:33,000 --> 00:34:34,000
+ I think this could be fun.
+
+405
+00:34:34,000 --> 00:34:37,000
+ Y'all, I'm not going to put music on.
+
+406
+00:34:37,000 --> 00:34:43,000
+ I'm actually going to mute so that we can co-work on YouTube.
+
+407
+00:34:43,000 --> 00:34:49,000
+ I can't co-work on YouTube if I add music.
+
+408
+00:34:49,000 --> 00:34:53,000
+ So, therefore, you know, play your own music and stuff like that.
+
+409
+00:34:53,000 --> 00:34:56,000
+ And I'll put a timer on the screen and we'll come back.
+
+410
+00:34:56,000 --> 00:35:01,000
+ I may come back before the timer is over, but I'll try to stick with that.
+
+411
+00:35:01,000 --> 00:35:04,000
+ So, y'all can like get really focused and come up for air.
+
+412
+00:35:04,000 --> 00:35:06,000
+ The question is, what length of timer?
+
+413
+00:35:06,000 --> 00:35:11,000
+ There's a big debate about what the length of the timer is best for Pomodoro stuff.
+
+414
+00:35:11,000 --> 00:35:12,000
+ Should we ask?
+
+415
+00:35:12,000 --> 00:35:14,000
+ Assess my AI.
+
+416
+00:35:14,000 --> 00:35:17,000
+ New chat.
+
+417
+00:35:17,000 --> 00:35:23,000
+ Oh, wait.
+
+418
+00:35:23,000 --> 00:35:24,000
+ I forgot.
+
+419
+00:35:24,000 --> 00:35:25,000
+ I forgot how to do it.
+
+420
+00:35:25,000 --> 00:35:27,000
+ Which one is it?
+
+421
+00:35:27,000 --> 00:35:38,000
+ How long should the Pomodoro timer be if I want to get something done?
+
+422
+00:35:38,000 --> 00:35:43,000
+ How long should the Pomodoro timer be?
+
+423
+00:35:43,000 --> 00:35:49,000
+ Why isn't it doing it?
+
+424
+00:35:49,000 --> 00:35:54,000
+ Something broke.
+
+425
+00:35:54,000 --> 00:35:59,000
+ How long should the Pomodoro timer be?
+
+426
+00:35:59,000 --> 00:36:06,000
+ My room safety assessment.
+
+427
+00:36:06,000 --> 00:36:12,000
+ God, I'm glad I didn't have anything to reveal here.
+
+428
+00:36:12,000 --> 00:36:16,000
+ Calculating their income.
+
+429
+00:36:16,000 --> 00:36:21,000
+ At the same time.
+
+430
+00:36:21,000 --> 00:36:26,000
+ I should probably close that.
+
+431
+00:36:26,000 --> 00:36:31,000
+ 25 minutes, 500 hours, 500 breaks.
+
+432
+00:36:31,000 --> 00:36:36,000
+ Fuck that.
+
+433
+00:36:36,000 --> 00:36:39,000
+ 40 minutes.
+
+434
+00:36:39,000 --> 00:36:44,000
+ Let's see 40.
+
+435
+00:36:44,000 --> 00:36:49,000
+ I'm actually on call this week too, so I got to go get your tickets.
+
+436
+00:36:49,000 --> 00:37:11,000
+ Oh, look, it's built into time and date.
+
+437
+00:37:11,000 --> 00:37:16,000
+ Make it 40.
+
+438
+00:37:16,000 --> 00:37:30,000
+ All right, I'm not going to talk.
+
+439
+00:37:30,000 --> 00:37:35,000
+ How do I mute?
+
+440
+00:37:35,000 --> 00:37:38,000
+ Wait, can you not see it?
+
+441
+00:37:38,000 --> 00:37:45,000
+ I need to make my own timer.
+
+442
+00:37:45,000 --> 00:37:52,000
+ Oh, oh, oh, oh, oh, oh, wait, wait, wait.
+
+443
+00:37:52,000 --> 00:37:59,000
+ I'm going to do the thing where I make shit because I can't.
+
+444
+00:37:59,000 --> 00:38:08,000
+ I'm going to do the thing where I make shit because I can't.
+
+445
+00:38:08,000 --> 00:38:12,000
+ Okay, there's my bit rate.
+
+446
+00:38:12,000 --> 00:38:18,000
+ Look at that.
+
+447
+00:38:18,000 --> 00:38:39,000
+ How's it going to do?
+
+448
+00:38:39,000 --> 00:39:00,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+449
+00:39:00,000 --> 00:39:21,000
+ There's actually a better one though.
+
+450
+00:39:21,000 --> 00:39:32,000
+ Jesus, how are you doing?
+
+451
+00:39:32,000 --> 00:39:37,000
+ I've already built a promo timer.
+
+452
+00:39:37,000 --> 00:39:42,000
+ It's already a thing.
+
+453
+00:39:42,000 --> 00:40:03,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+454
+00:40:03,000 --> 00:40:23,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+455
+00:40:23,000 --> 00:40:47,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+456
+00:40:47,000 --> 00:41:11,000
+ Oh, oh, oh, oh, oh, oh, oh, oh.
+
+457
+00:41:11,000 --> 00:41:14,000
+ Nice.
+
+458
+00:41:14,000 --> 00:41:38,000
+ I didn't make it so that it constantly refreshes.
+
+459
+00:41:38,000 --> 00:42:02,000
+ Oh, damn it.
+
+460
+00:42:02,000 --> 00:42:25,000
+ Oh, oh, oh, oh, oh, oh.
+
+461
+00:42:25,000 --> 00:42:50,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+462
+00:42:50,000 --> 00:43:15,000
+ Oh, oh, oh, oh, oh, oh, oh, oh.
+
+463
+00:43:15,000 --> 00:43:40,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+464
+00:43:40,000 --> 00:44:05,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+465
+00:44:05,000 --> 00:44:33,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+466
+00:44:33,000 --> 00:44:59,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+467
+00:44:59,000 --> 00:45:24,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+468
+00:45:24,000 --> 00:45:48,000
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+469
+00:45:48,000 --> 00:46:00,000
+ Hey, Fudd.
+
+470
+00:46:18,000 --> 00:46:40,280
+ Yeah, I'll talk.
+
+471
+00:46:40,280 --> 00:46:44,360
+ I have to stick with it for everybody's sake because otherwise I'll distract them from
+
+472
+00:46:44,360 --> 00:46:51,360
+ work as well.
+
+473
+00:47:14,360 --> 00:47:21,360
+ Okay, so I'll talk to you later.
+
+474
+00:47:21,360 --> 00:47:45,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+475
+00:47:45,360 --> 00:48:14,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+476
+00:48:14,360 --> 00:48:43,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+477
+00:48:43,360 --> 00:49:09,360
+ Oh, oh, oh, oh, oh, oh, oh, oh.
+
+478
+00:49:09,360 --> 00:49:30,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+479
+00:49:30,360 --> 00:49:50,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+480
+00:49:50,360 --> 00:50:11,360
+ Oh, oh, oh, oh, oh, oh, oh, oh.
+
+481
+00:50:11,360 --> 00:50:33,360
+ Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh.
+
+482
+00:50:33,360 --> 00:50:59,360
+ (silence)
+
+483
+00:50:59,360 --> 00:51:04,360
+ Brak, how you doing? Good morning.
+
+484
+00:51:04,360 --> 00:51:12,360
+ We're going for another 30 minutes.
+
+485
+00:51:12,360 --> 00:51:18,360
+ I'm signing service now because I'm on call.
+
+486
+00:51:18,360 --> 00:51:26,360
+ And Mike is just the computer, so.
+
+487
+00:51:26,360 --> 00:51:39,360
+ (silence)
+
+488
+00:51:39,360 --> 00:51:43,360
+ That's how it works, right?
+
+489
+00:51:56,360 --> 00:52:10,360
+ (silence)
+
+490
+00:52:10,360 --> 00:52:30,360
+ (silence)
+
+491
+00:52:30,360 --> 00:52:44,360
+ (silence)
+
+492
+00:52:44,360 --> 00:52:56,360
+ (silence)
+
+493
+00:52:56,360 --> 00:53:10,360
+ (silence)
+
+494
+00:53:10,360 --> 00:53:23,360
+ (silence)
+
+495
+00:53:23,360 --> 00:53:38,360
+ (silence)
+
+496
+00:53:38,360 --> 00:54:06,360
+ (silence)
+
+497
+00:54:06,360 --> 00:54:20,360
+ (silence)
+
+498
+00:54:20,360 --> 00:54:34,360
+ (silence)
+
+499
+00:54:34,360 --> 00:54:49,360
+ (silence)
+
+500
+00:54:49,360 --> 00:55:09,360
+ (silence)
+
+501
+00:55:09,360 --> 00:55:23,360
+ (silence)
+
+502
+00:55:23,360 --> 00:55:29,360
+ (silence)
+
+503
+00:55:29,360 --> 00:55:49,360
+ (silence)
+
+504
+00:55:49,360 --> 00:56:11,360
+ (silence)
+
+505
+00:56:11,360 --> 00:56:29,360
+ (silence)
+
+506
+00:56:29,360 --> 00:56:49,360
+ (silence)
+
+507
+00:56:49,360 --> 00:57:09,360
+ (silence)
+
+508
+00:57:09,360 --> 00:57:29,360
+ (silence)
+
+509
+00:57:29,360 --> 00:57:49,360
+ (silence)
+
+510
+00:57:49,360 --> 00:58:13,360
+ (silence)
+
+511
+00:58:13,360 --> 00:58:33,360
+ (silence)
+
+512
+00:58:33,360 --> 00:58:53,360
+ (silence)
+
+513
+00:58:53,360 --> 00:59:13,360
+ (silence)
+
+514
+00:59:13,360 --> 00:59:33,360
+ (silence)
+
+515
+00:59:33,360 --> 00:59:53,360
+ (silence)
+
+516
+00:59:53,360 --> 01:00:13,360
+ (silence)
+
+517
+01:00:13,360 --> 01:00:41,360
+ (silence)
+
+518
+01:00:41,360 --> 01:01:01,360
+ (silence)
+
+519
+01:01:01,360 --> 01:01:21,360
+ (silence)
+
+520
+01:01:21,360 --> 01:01:41,360
+ (silence)
+
+521
+01:01:41,360 --> 01:02:01,360
+ (silence)
+
+522
+01:02:01,360 --> 01:02:21,360
+ (silence)
+
+523
+01:02:21,360 --> 01:02:41,360
+ (silence)
+
+524
+01:02:41,360 --> 01:03:01,360
+ (silence)
+
+525
+01:03:01,360 --> 01:03:21,360
+ (silence)
+
+526
+01:03:21,360 --> 01:03:49,360
+ (silence)
+
+527
+01:03:49,360 --> 01:04:09,360
+ (silence)
+
+528
+01:04:09,360 --> 01:04:29,360
+ (silence)
+
+529
+01:04:29,360 --> 01:04:49,360
+ (silence)
+
+530
+01:04:49,360 --> 01:05:09,360
+ (silence)
+
+531
+01:05:09,360 --> 01:05:29,360
+ (silence)
+
+532
+01:05:29,360 --> 01:05:49,360
+ (silence)
+
+533
+01:05:49,360 --> 01:06:09,360
+ (silence)
+
+534
+01:06:09,360 --> 01:06:29,360
+ (silence)
+
+535
+01:06:29,360 --> 01:06:49,360
+ (silence)
+
+536
+01:06:49,360 --> 01:07:17,360
+ (silence)
+
+537
+01:07:17,360 --> 01:07:41,360
+ (silence)
+
+538
+01:07:41,360 --> 01:08:01,360
+ (silence)
+
+539
+01:08:01,360 --> 01:08:21,360
+ (silence)
+
+540
+01:08:21,360 --> 01:08:41,360
+ (silence)
+
+541
+01:08:41,360 --> 01:09:01,360
+ (silence)
+
+542
+01:09:01,360 --> 01:09:21,360
+ (silence)
+
+543
+01:09:21,360 --> 01:09:41,360
+ (silence)
+
+544
+01:09:41,360 --> 01:10:01,360
+ (silence)
+
+545
+01:10:01,360 --> 01:10:21,360
+ (silence)
+
+546
+01:10:21,360 --> 01:10:49,360
+ (silence)
+
+547
+01:10:49,360 --> 01:11:09,360
+ (silence)
+
+548
+01:11:09,360 --> 01:11:29,360
+ (silence)
+
+549
+01:11:29,360 --> 01:11:49,360
+ (silence)
+
+550
+01:11:49,360 --> 01:12:09,360
+ (silence)
+
+551
+01:12:09,360 --> 01:12:31,360
+ (silence)
+
+552
+01:12:31,360 --> 01:12:51,360
+ (silence)
+
+553
+01:12:51,360 --> 01:13:11,360
+ (silence)
+
+554
+01:13:11,360 --> 01:13:31,360
+ (silence)
+
+555
+01:13:31,360 --> 01:13:51,360
+ (silence)
+
+556
+01:13:51,360 --> 01:14:11,360
+ (silence)
+
+557
+01:14:11,360 --> 01:14:31,360
+ (silence)
+
+558
+01:14:31,360 --> 01:14:51,360
+ (silence)
+
+559
+01:14:51,360 --> 01:15:11,360
+ (silence)
+
+560
+01:15:11,360 --> 01:15:31,360
+ (silence)
+
+561
+01:15:31,360 --> 01:15:51,360
+ (silence)
+
+562
+01:15:51,360 --> 01:16:11,360
+ (silence)
+
+563
+01:16:11,360 --> 01:16:31,360
+ (silence)
+
+564
+01:16:31,360 --> 01:16:51,360
+ (silence)
+
+565
+01:16:51,360 --> 01:17:11,360
+ (silence)
+
+566
+01:17:11,360 --> 01:17:31,360
+ (silence)
+
+567
+01:17:31,360 --> 01:17:51,360
+ (silence)
+
+568
+01:17:51,360 --> 01:18:11,360
+ (silence)
+
+569
+01:18:11,360 --> 01:18:31,360
+ (silence)
+
+570
+01:18:31,360 --> 01:18:51,360
+ (silence)
+
+571
+01:18:51,360 --> 01:19:11,360
+ (silence)
+
+572
+01:19:11,360 --> 01:19:31,360
+ (silence)
+
+573
+01:19:31,360 --> 01:19:51,360
+ (silence)
+
+574
+01:19:51,360 --> 01:20:01,360
+ (silence)
+
+575
+01:20:01,360 --> 01:20:07,360
+ We'll take a break after the ad break. That break's gonna start in two minutes, so we'll go ahead and go after that.
+
+576
+01:20:07,360 --> 01:20:27,360
+ (silence)
+
+577
+01:20:27,360 --> 01:20:47,360
+ (silence)
+
+578
+01:20:47,360 --> 01:21:07,360
+ (silence)
+
+579
+01:21:07,360 --> 01:21:27,360
+ (silence)
+
+580
+01:21:27,360 --> 01:21:47,360
+ I'll be up right there.
+
+581
+01:21:47,360 --> 01:22:07,360
+ (silence)
+
+582
+01:22:07,360 --> 01:22:35,360
+ (silence)
+
+583
+01:22:35,360 --> 01:22:55,360
+ Give me one second, guys, and I'll be able to talk. The ad break is almost over. 40 seconds.
+
+584
+01:22:55,360 --> 01:23:15,360
+ (silence)
+
+585
+01:23:15,360 --> 01:23:35,360
+ (silence)
+
+586
+01:23:35,360 --> 01:23:55,360
+ (silence)
+
+587
+01:23:55,360 --> 01:24:15,360
+ (silence)
+
+588
+01:24:15,360 --> 01:24:43,360
+ (silence)
+
+589
+01:24:43,360 --> 01:25:03,360
+ (silence)
+
+590
+01:25:03,360 --> 01:25:23,360
+ (silence)
+
+591
+01:25:23,360 --> 01:25:43,360
+ (silence)
+
+592
+01:25:43,360 --> 01:26:03,360
+ (silence)
+
+593
+01:26:03,360 --> 01:26:23,360
+ (silence)
+
+594
+01:26:23,360 --> 01:26:43,360
+ (silence)
+
+595
+01:26:43,360 --> 01:27:12,360
+ For those of you who haven't checked in yet, I'll just catch you up. One, the most important thing to remember is we're gonna do co-working again. Today was a test to see if I actually want to do this. I'm gonna go ahead and try it, but I'm gonna try it in a more open way. And there's not gonna be any music. A lot of you guys like music. And if you want to listen to my yoga chill playlists, the one I used to play with the fishes in the background and stuff, you're welcome to go look at up on Spotify. That is linked from my link.
+
+596
+01:27:12,360 --> 01:27:32,360
+ From my link tree, which is in my description, which is old. My description says I don't stream anymore, which obviously I do. The other relevant news is that I'm gonna be starting to IRL stream again on the bike soon as I get my SIM cards. So I'm waiting for two SIM cards to arrive and I'll start live streaming from the mountain bike.
+
+597
+01:27:32,360 --> 01:27:49,360
+ And that includes, here's the mountain bike over here. Some of you might not know this, but I'm almost exactly a year ago. I moved to Logan to support my daughter who was having trouble. And she had happened to meet somebody in North Carolina while she was staying with me and she ended up moving in and living with them.
+
+598
+01:27:49,360 --> 01:28:05,360
+ And she moved back to North Carolina. Three months after I moved there and I had a rent situation that went through September. So I stayed and I lived out of the car nomadically from July until now.
+
+599
+01:28:05,360 --> 01:28:21,360
+ And this is the first apartment I've had since then I temporarily live with my next to my sister and hung out with my nephew and stuff went to Southern Utah. A lot of great stuff there went through a lot of family drama, including putting my parents in a senior home and living with them
+
+600
+01:28:21,360 --> 01:28:35,360
+ while considering actually permanently living with them because it was such a good deal. And it was a such a good location that based on Mill Creek Canyon in Utah. And then I ended up because of some family dynamics I decided to not do that. It was a bad idea.
+
+601
+01:28:35,360 --> 01:28:50,360
+ So I got, I got up and I drove my car with everything in it. I'd already given away all my possessions. Some of you might remember that when I was streaming before I had gotten rid of all my possessions and was getting, you know, all of my bikes, everything, my tools.
+
+602
+01:28:50,360 --> 01:29:06,360
+ So the only thing I have left was everything I could take in my car with me. And I moved to North Carolina and found I was going to be on the river across from Whitewater Center where I can do river rafting and rock climbing and mountain biking and all that great stuff.
+
+603
+01:29:06,360 --> 01:29:17,360
+ I was going to live across from it. It was $2,000 rent. And I decided not to do that when I found another apartment in the heart of Latino Charlotte, South Charlotte, where I want to learn Spanish.
+
+604
+01:29:17,360 --> 01:29:31,360
+ And for 985 bucks a month. That's what I'm paying. Can you believe that? So I'm saving a lot of money. I need to save the money to recover from $40,000 of financial aid I gave to family last year.
+
+605
+01:29:31,360 --> 01:29:49,360
+ That's that's no joke. I actually did that. And so it's going to take me a while to recover from that before I launch any other nomadic adventures or toward a wider by another bike or anything. So, but I will be streaming and the streams are probably going to be co working,
+
+606
+01:29:49,360 --> 01:29:55,360
+ which is probably percentage of time is probably going to be the largest percentage of time you're going to see me on a stream.
+
+607
+01:29:55,360 --> 01:30:01,360
+ No, we're hot, but underwater hot tub streams is not a thing in the future. No, I'm really sorry about that.
+
+608
+01:30:01,360 --> 01:30:09,360
+ No, Andrea was super super depressed yesterday. She was in or they were in and they were very depressed.
+
+609
+01:30:09,360 --> 01:30:12,360
+ There may be an occasional hot tub stream.
+
+610
+01:30:12,360 --> 01:30:20,360
+ Who knows? I mean, I could definitely battle board on Whitewater and it's it's not the season port anyway so anyway.
+
+611
+01:30:20,360 --> 01:30:29,360
+ So co working is going to be a thing. And I real streaming bike streaming daily, possibly daily, maybe, maybe less also guitar.
+
+612
+01:30:29,360 --> 01:30:34,360
+ It could be a lot of live music. I'm going to be doing a lot of live music, particularly acoustic and folk.
+
+613
+01:30:34,360 --> 01:30:40,360
+ I actually bought a Martin because my fender is dead after 15 years.
+
+614
+01:30:40,360 --> 01:30:50,360
+ After no 16 years, my fender finally died. I took an indicator fix and they said it costs $180 to fix it. So I said, fine, I'll go get a new one and donate it.
+
+615
+01:30:50,360 --> 01:30:57,360
+ So I've got a new Martin. I've been playing it every day. I've got really great acoustics in this. And that's some good reverb in the studio.
+
+616
+01:30:57,360 --> 01:31:01,360
+ So I'm going to be playing guitar here for a while.
+
+617
+01:31:01,360 --> 01:31:16,360
+ And, you know, I'm trying to decide how settled to get. I'm trying to decide how much to actually do. Like, should I buy a couch, for example, right? I have a sleeping on my pad that I sleep in the car upstairs.
+
+618
+01:31:16,360 --> 01:31:29,360
+ And I'll give you guys a tour eventually, but I'm trying to decide if I want to even get a couch. So my current decision is that I'm not putting anything in the house in my apartment that isn't either coming with me.
+
+619
+01:31:29,360 --> 01:31:40,360
+ So if I move any here or disposable, meaning I can donate it. So that includes like $400 in kitchenware.
+
+620
+01:31:40,360 --> 01:31:48,360
+ And, you know, so like a microwave. I bought a microwave either. I have to install a casting cash decisions. Yes.
+
+621
+01:31:48,360 --> 01:31:58,360
+ And, yeah, I know. I've thought about that. How many people I want to come here when I bought kitchenware, I only bought two of everything.
+
+622
+01:31:58,360 --> 01:32:05,360
+ And it's like, I can only entertain one person at a time if they come visit. Otherwise we have to go out.
+
+623
+01:32:05,360 --> 01:32:11,360
+ You know, I don't know. I still haven't decided all that. We can talk about that one on the bike when I'm not at work.
+
+624
+01:32:11,360 --> 01:32:16,360
+ I'm probably over my time with the coworking thing.
+
+625
+01:32:16,360 --> 01:32:28,360
+ I'm going to ask you all to help me with the coworking because you know me and you know I love to talk and you know I'm easily distracted. So.
+
+626
+01:32:28,360 --> 01:32:38,360
+ Already this morning, somebody brought up OSNRP or whatever the hell that is from DHH and I already lost my shit and talked and wasted like 30 minutes of time that I can't get back.
+
+627
+01:32:38,360 --> 01:32:48,360
+ So, I'm going to be trying to be more vigilant and I think that can help both of us.
+
+628
+01:32:48,360 --> 01:32:54,360
+ I think as long as I'm streaming to the coworking category, people are expecting coworking, which is I'm going to put poem on.
+
+629
+01:32:54,360 --> 01:33:03,360
+ Even though I don't particularly feel like my work falls into one hour segments, I'm going to go ahead and do that and attempt to talk a little bit in the middle.
+
+630
+01:33:03,360 --> 01:33:17,360
+ And so instead of doing a text stream, like, you know, hey, here's how the coding go, which I might still do. I'm not ruling it out, but I know a lot of you want that content to come back, a lot of your begging for the tech content to come back.
+
+631
+01:33:17,360 --> 01:33:24,360
+ And I don't like doing that content because I don't get anything out of it.
+
+632
+01:33:24,360 --> 01:33:35,360
+ I don't. It's not fun for me. It's like, it might be good for you and you're learning a lot and you might find it valuable, but in terms of my use and my time, it's a waste of time.
+
+633
+01:33:35,360 --> 01:33:48,360
+ So I'm having a hard time, you know, it is a way to give back and to help the world grow and to, you know, fight ignorance in the world and all that shit, but I don't want to.
+
+634
+01:33:48,360 --> 01:33:58,360
+ So that so as for right now that's that's kind of where we are. So the most tech content you're going to get is going to be co working was going to be us talking about things mostly.
+
+635
+01:33:58,360 --> 01:34:09,360
+ Occasionally you'll see me do some some tweaking on the command line, maybe I will use my AI to generate some of my RRL stuff live and you guys can help me with that.
+
+636
+01:34:09,360 --> 01:34:19,360
+ That was developed into run no matter RRL and stuff. So, is this, no, that's not it. Okay.
+
+637
+01:34:19,360 --> 01:34:29,360
+ That's all. So I'm going to go back. If you have any questions, you can save them for for later. After work is done today.
+
+638
+01:34:29,360 --> 01:34:33,360
+ You know, I'll take a lunch break and we'll be launching stuff.
+
+639
+01:34:33,360 --> 01:34:43,360
+ One of the one of the challenges I have the last thing I want to say about co working is one of the challenges I have with co working is being locked into it.
+
+640
+01:34:43,360 --> 01:34:48,360
+ Sometimes I feel like I'm locked into being in front of the screen all the time.
+
+641
+01:34:48,360 --> 01:35:02,360
+ And, you know, that was even more so when I had a mic and I had to talk into stuff. So, you know, I'm just going to use the mic on the computer and the most minimal possible technology to do the co working.
+
+642
+01:35:02,360 --> 01:35:11,360
+ And, you know, I might take it up a notch and there's a high mic I'm looking at for busking, which is a really, really great high end mic portable mic.
+
+643
+01:35:11,360 --> 01:35:15,360
+ I just think randomly for no reason will be fine.
+
+644
+01:35:15,360 --> 01:35:28,360
+ Yeah. So, you know, that's kind of the thing is, is I've got to, you know, I've got to, I've got to have a lot of, I've got to have a lot of control of that. But, but one of the things I really, really like about co working is I like having the
+
+645
+01:35:28,360 --> 01:35:39,360
+ watering hole where everybody who's in the, in the, in the biz, so to speak, can come in and shoot the shit. I mean, this is how I got my for a job is by meeting people like this on Twitch.
+
+646
+01:35:39,360 --> 01:35:52,360
+ So, I want to facilitate that and if I can keep it open and keep doing it, then I'll, I'll just leave it running, especially since I'm paying 70 bucks a month for gigabit internet through Google fiber. I have no reason not to do that.
+
+647
+01:35:52,360 --> 01:36:00,360
+ So, anyway, I'm going to go back to work now. If you have questions, please put them in and I will try to get to them after this.
+
+648
+01:36:00,360 --> 01:36:08,360
+ Otherwise, I will see you in a bit. I'm going to go ahead and start the timer now.
+
+649
+01:36:08,360 --> 01:36:17,360
+ I almost shouldn't mute because what if I like fart or something.
+
+650
+01:36:17,360 --> 01:36:22,360
+ Yes, I said that. I know it's like.
+
+651
+01:36:22,360 --> 01:36:28,360
+ But then I'll forget to, I'll forget to unmute and I'll like talk to the screen for 10 minutes.
+
+652
+01:36:28,360 --> 01:36:38,360
+ Let me know what you mean coming up. I got a mute. I got a mute. I'm going to mute. Bye.
+
+653
+01:36:58,360 --> 01:37:08,360
+ [BLANK_AUDIO]
+
+654
+01:37:28,360 --> 01:37:38,360
+ [BLANK_AUDIO]
+
+655
+01:37:58,360 --> 01:38:08,360
+ [BLANK_AUDIO]
+
+656
+01:38:28,360 --> 01:38:38,360
+ [BLANK_AUDIO]
+
+657
+01:38:58,360 --> 01:39:08,360
+ [BLANK_AUDIO]
+
+658
+01:39:28,360 --> 01:39:38,360
+ [BLANK_AUDIO]
+
+659
+01:39:58,360 --> 01:40:08,360
+ [BLANK_AUDIO]
+
+660
+01:40:28,360 --> 01:40:38,360
+ [BLANK_AUDIO]
+
+661
+01:40:58,360 --> 01:41:08,360
+ [BLANK_AUDIO]
+
+662
+01:41:28,360 --> 01:41:38,360
+ [BLANK_AUDIO]
+
+663
+01:41:58,360 --> 01:42:08,360
+ [BLANK_AUDIO]
+
+664
+01:42:28,360 --> 01:42:38,360
+ [BLANK_AUDIO]
+
+665
+01:42:58,360 --> 01:43:08,360
+ [BLANK_AUDIO]
+
+666
+01:43:28,360 --> 01:43:38,360
+ [BLANK_AUDIO]
+
+667
+01:43:58,360 --> 01:44:08,360
+ [BLANK_AUDIO]
+
+668
+01:44:28,360 --> 01:44:38,360
+ [BLANK_AUDIO]
+
+669
+01:44:58,360 --> 01:45:08,360
+ [BLANK_AUDIO]
+
+670
+01:45:28,360 --> 01:45:38,360
+ [BLANK_AUDIO]
+
+671
+01:45:58,360 --> 01:46:08,360
+ [BLANK_AUDIO]
+
+672
+01:46:28,360 --> 01:46:38,360
+ [BLANK_AUDIO]
+
+673
+01:46:58,360 --> 01:47:08,360
+ [BLANK_AUDIO]
+
+674
+01:47:28,360 --> 01:47:38,360
+ [BLANK_AUDIO]
+
+675
+01:47:58,360 --> 01:48:08,360
+ [BLANK_AUDIO]
+
+676
+01:48:28,360 --> 01:48:38,360
+ [BLANK_AUDIO]
+
+677
+01:48:58,360 --> 01:49:08,360
+ [BLANK_AUDIO]
+
+678
+01:49:28,360 --> 01:49:38,360
+ [BLANK_AUDIO]
+
+679
+01:49:58,360 --> 01:50:08,360
+ [BLANK_AUDIO]
+
+680
+01:50:28,360 --> 01:50:38,360
+ [BLANK_AUDIO]
+
+681
+01:50:58,360 --> 01:51:08,360
+ [BLANK_AUDIO]
+
+682
+01:51:28,360 --> 01:51:38,360
+ [BLANK_AUDIO]
+
+683
+01:51:58,360 --> 01:52:08,360
+ [BLANK_AUDIO]
+
+684
+01:52:28,360 --> 01:52:38,360
+ [BLANK_AUDIO]
+
+685
+01:52:58,360 --> 01:53:08,360
+ [BLANK_AUDIO]
+
+686
+01:53:28,360 --> 01:53:38,360
+ [BLANK_AUDIO]
+
+687
+01:53:58,360 --> 01:54:08,360
+ [BLANK_AUDIO]
+
+688
+01:54:28,360 --> 01:54:38,360
+ [BLANK_AUDIO]
+
+689
+01:54:58,360 --> 01:55:08,360
+ [BLANK_AUDIO]
+
+690
+01:55:28,360 --> 01:55:38,360
+ [BLANK_AUDIO]
+
+691
+01:55:58,360 --> 01:56:08,360
+ [BLANK_AUDIO]
+
+692
+01:56:28,360 --> 01:56:38,360
+ [BLANK_AUDIO]
+
+693
+01:56:58,360 --> 01:57:08,360
+ [BLANK_AUDIO]
+
+694
+01:57:28,360 --> 01:57:38,360
+ [BLANK_AUDIO]
+
+695
+01:57:58,360 --> 01:58:08,360
+ [BLANK_AUDIO]
+
+696
+01:58:28,360 --> 01:58:38,360
+ [BLANK_AUDIO]
+
+697
+01:58:58,360 --> 01:59:08,360
+ [BLANK_AUDIO]
+
+698
+01:59:28,360 --> 01:59:38,360
+ [BLANK_AUDIO]
+
+699
+01:59:58,360 --> 02:00:08,360
+ [BLANK_AUDIO]
+
+700
+02:00:28,360 --> 02:00:38,360
+ [BLANK_AUDIO]
+
+701
+02:00:58,360 --> 02:01:08,360
+ [BLANK_AUDIO]
+
+702
+02:01:28,360 --> 02:01:38,360
+ [BLANK_AUDIO]
+
+703
+02:01:58,360 --> 02:02:08,360
+ [BLANK_AUDIO]
+
+704
+02:02:28,360 --> 02:02:38,360
+ [BLANK_AUDIO]
+
+705
+02:02:58,360 --> 02:03:08,360
+ [BLANK_AUDIO]
+
+706
+02:03:28,360 --> 02:03:38,360
+ [BLANK_AUDIO]
+
+707
+02:03:58,360 --> 02:04:08,360
+ [BLANK_AUDIO]
+
+708
+02:04:28,360 --> 02:04:38,360
+ [BLANK_AUDIO]
+
+709
+02:04:58,360 --> 02:05:08,360
+ [BLANK_AUDIO]
+
+710
+02:05:28,360 --> 02:05:38,360
+ [BLANK_AUDIO]
+
+711
+02:05:58,360 --> 02:06:08,360
+ [BLANK_AUDIO]
+
+712
+02:06:28,360 --> 02:06:38,360
+ [BLANK_AUDIO]
+
+713
+02:06:58,360 --> 02:07:08,360
+ [BLANK_AUDIO]
+
+714
+02:07:28,360 --> 02:07:38,360
+ [BLANK_AUDIO]
+
+715
+02:07:58,360 --> 02:08:08,360
+ [BLANK_AUDIO]
+
+716
+02:08:28,360 --> 02:08:38,360
+ [BLANK_AUDIO]
+
+717
+02:08:58,360 --> 02:09:08,360
+ [BLANK_AUDIO]
+
+718
+02:09:28,360 --> 02:09:38,360
+ [BLANK_AUDIO]
+
+719
+02:09:58,360 --> 02:10:08,360
+ [BLANK_AUDIO]
+
+720
+02:10:28,360 --> 02:10:38,360
+ [BLANK_AUDIO]
+
+721
+02:10:58,360 --> 02:11:08,360
+ [BLANK_AUDIO]
+
+722
+02:11:28,360 --> 02:11:38,360
+ [BLANK_AUDIO]
+
+723
+02:11:58,360 --> 02:12:08,360
+ [BLANK_AUDIO]
+
+724
+02:12:28,360 --> 02:12:38,360
+ [BLANK_AUDIO]
+
+725
+02:12:58,360 --> 02:13:08,360
+ [BLANK_AUDIO]
+
+726
+02:13:28,360 --> 02:13:38,360
+ [BLANK_AUDIO]
+
+727
+02:13:58,360 --> 02:14:08,360
+ [BLANK_AUDIO]
+
+728
+02:14:28,360 --> 02:14:38,360
+ [BLANK_AUDIO]
+
+729
+02:14:58,360 --> 02:15:08,360
+ [BLANK_AUDIO]
+
+730
+02:15:28,360 --> 02:15:38,360
+ [BLANK_AUDIO]
+
+731
+02:15:58,360 --> 02:16:08,360
+ [BLANK_AUDIO]
+
+732
+02:16:28,360 --> 02:16:38,360
+ [BLANK_AUDIO]
+
+733
+02:16:58,360 --> 02:17:08,360
+ [BLANK_AUDIO]
+
+734
+02:17:28,360 --> 02:17:38,360
+ [BLANK_AUDIO]
+
+735
+02:17:58,360 --> 02:18:08,360
+ [BLANK_AUDIO]
+
+736
+02:18:28,360 --> 02:18:38,360
+ [BLANK_AUDIO]
+
+737
+02:18:58,360 --> 02:19:08,360
+ [BLANK_AUDIO]
+
+738
+02:19:28,360 --> 02:19:38,360
+ [BLANK_AUDIO]
+
+739
+02:19:58,360 --> 02:20:08,360
+ [BLANK_AUDIO]
+
+740
+02:20:28,360 --> 02:20:38,360
+ [BLANK_AUDIO]
+
+741
+02:20:58,360 --> 02:21:08,360
+ [BLANK_AUDIO]
+
+742
+02:21:28,360 --> 02:21:38,360
+ [BLANK_AUDIO]
+
+743
+02:21:58,360 --> 02:22:08,360
+ [BLANK_AUDIO]
+
+744
+02:22:28,360 --> 02:22:38,360
+ [BLANK_AUDIO]
+
+745
+02:22:58,360 --> 02:23:08,360
+ [BLANK_AUDIO]
+
+746
+02:23:28,360 --> 02:23:38,360
+ [BLANK_AUDIO]
+
+747
+02:23:58,360 --> 02:24:08,360
+ [BLANK_AUDIO]
+
+748
+02:24:28,360 --> 02:24:38,360
+ [BLANK_AUDIO]
+
+749
+02:24:58,360 --> 02:25:08,360
+ [BLANK_AUDIO]
+
+750
+02:25:28,360 --> 02:25:38,360
+ [BLANK_AUDIO]
+
+751
+02:25:58,360 --> 02:26:08,360
+ [BLANK_AUDIO]
+
+752
+02:26:28,360 --> 02:26:38,360
+ [BLANK_AUDIO]
+
+753
+02:26:58,360 --> 02:27:08,360
+ [BLANK_AUDIO]
+
+754
+02:27:28,360 --> 02:27:38,360
+ [BLANK_AUDIO]
+
+755
+02:27:58,360 --> 02:28:08,360
+ [BLANK_AUDIO]
+
+756
+02:28:28,360 --> 02:28:38,360
+ [BLANK_AUDIO]
+
+757
+02:28:58,360 --> 02:29:08,360
+ [BLANK_AUDIO]
+
+758
+02:29:28,360 --> 02:29:42,360
+ [BLANK_AUDIO]
+
+759
+02:29:42,360 --> 02:29:48,360
+ [BLANK_AUDIO]
+
+760
+02:29:48,360 --> 02:29:50,360
+ Yeah, I'm about ready to take a break here.
+
+761
+02:29:50,360 --> 02:29:54,360
+ I'm just wrapping up a session and I'll have a five minute break and we'll talk.
+
+762
+02:29:54,360 --> 02:30:04,360
+ I do have a comment, it's good to see you.
+
+763
+02:30:04,360 --> 02:30:16,360
+ [BLANK_AUDIO]
+
+764
+02:30:16,360 --> 02:30:26,360
+ [BLANK_AUDIO]
+
+765
+02:30:26,360 --> 02:30:31,360
+ I have to resolve this PR really quick and then I'll take a quick break.
+
+766
+02:30:31,360 --> 02:30:47,360
+ [BLANK_AUDIO]
+
+767
+02:31:01,360 --> 02:31:11,360
+ [BLANK_AUDIO]
+
+768
+02:31:11,360 --> 02:31:23,360
+ [BLANK_AUDIO]
+
+769
+02:31:23,360 --> 02:31:25,360
+ We are doing co-working right now, Mohammad.
+
+770
+02:31:25,360 --> 02:31:30,360
+ So what that means is that I know you're on YouTube.
+
+771
+02:31:30,360 --> 02:31:34,360
+ So you're not in the co-working category on Twitch.
+
+772
+02:31:34,360 --> 02:31:40,360
+ And what co-working is, is that we all get work done together and
+
+773
+02:31:40,360 --> 02:31:46,360
+ then we take a break about every 50 minutes or so and talk a little bit.
+
+774
+02:31:46,360 --> 02:31:47,360
+ But we don't talk a lot.
+
+775
+02:31:47,360 --> 02:31:50,360
+ We just talk for five minutes, like go to the cooler or whatever.
+
+776
+02:31:50,360 --> 02:31:53,360
+ And then we regroup and we go back to work.
+
+777
+02:31:53,360 --> 02:31:55,360
+ So kind of keeps work moving along.
+
+778
+02:31:55,360 --> 02:32:01,360
+ That's what the timer down in the bottom is, which I need to reset actually.
+
+779
+02:32:01,360 --> 02:32:06,360
+ So that's what's going on.
+
+780
+02:32:06,360 --> 02:32:15,360
+ So I will turn that back on in a second.
+
+781
+02:32:15,360 --> 02:32:22,360
+ Okay, this is probably a good time to take a break.
+
+782
+02:32:22,360 --> 02:32:27,360
+ I am waiting for people's responses on a few things.
+
+783
+02:32:52,360 --> 02:33:02,360
+ [BLANK_AUDIO]
+
+784
+02:33:02,360 --> 02:33:06,360
+ [BLANK_AUDIO]
+
+785
+02:33:06,360 --> 02:33:11,360
+ I'm on call and we just had some CPU nodes reboot and Kubernetes.
+
+786
+02:33:11,360 --> 02:33:13,360
+ So that's what I'm responding to.
+
+787
+02:33:13,360 --> 02:33:17,360
+ This is kind of one of the tough parts about co-working.
+
+788
+02:33:17,360 --> 02:33:22,360
+ Is it, you know, we're doing stuff trying to manage everything.
+
+789
+02:33:22,360 --> 02:33:26,360
+ You know, so that you can see what's going on.
+
+790
+02:33:26,360 --> 02:33:34,360
+ Yeah.
+
+791
+02:33:34,360 --> 02:33:42,360
+ [BLANK_AUDIO]
+
+792
+02:33:42,360 --> 02:33:47,360
+ The critical nodes down that have big S GPUs in action, these are CPU nodes.
+
+793
+02:33:47,360 --> 02:33:49,360
+ So they're not as important.
+
+794
+02:33:49,360 --> 02:33:53,360
+ If they were GPU, you know, $10,000 GPU nodes, I would be like jumping right now
+
+795
+02:33:53,360 --> 02:33:56,360
+ and fix them, put, bring them back up online.
+
+796
+02:33:56,360 --> 02:33:57,360
+ That's my job.
+
+797
+02:33:57,360 --> 02:34:00,360
+ So let's take a break.
+
+798
+02:34:00,360 --> 02:34:03,360
+ I'm actually going to make coffee, which I probably shouldn't do.
+
+799
+02:34:03,360 --> 02:34:05,360
+ I should probably eat some lunch.
+
+800
+02:34:05,360 --> 02:34:08,360
+ Let me check the follow thread.
+
+801
+02:34:08,360 --> 02:34:26,360
+ It might be actually time for us to make a little bit of lunch.
+
+802
+02:34:26,360 --> 02:34:53,360
+ People are using news.
+
+803
+02:34:53,360 --> 02:34:57,360
+ They're setting up open code.
+
+804
+02:34:57,360 --> 02:34:59,360
+ I'm kind of set up open code.
+
+805
+02:34:59,360 --> 02:35:05,360
+ Anyway, what should we have for lunch?
+
+806
+02:35:05,360 --> 02:35:10,360
+ What should we have for lunch friends?
+
+807
+02:35:10,360 --> 02:35:11,360
+ I don't know.
+
+808
+02:35:11,360 --> 02:35:21,360
+ I don't know what I should have lunch.
+
+809
+02:35:21,360 --> 02:35:25,360
+ I probably have a salad.
+
+810
+02:35:25,360 --> 02:35:27,360
+ I should have salad and carrots and stuff.
+
+811
+02:35:27,360 --> 02:35:30,360
+ I wish I had chicken and cook.
+
+812
+02:35:30,360 --> 02:35:35,360
+ I'd normally have like a, like, make some chicken and put it to a salad with that.
+
+813
+02:35:35,360 --> 02:35:41,360
+ So I think I'm going to eat salad again.
+
+814
+02:35:41,360 --> 02:35:44,360
+ I think I'm going to eat more.
+
+815
+02:35:44,360 --> 02:35:47,360
+ That's a pull thing.
+
+816
+02:35:47,360 --> 02:35:48,360
+ We could.
+
+817
+02:35:48,360 --> 02:35:51,360
+ I would be too far away.
+
+818
+02:35:51,360 --> 02:35:52,360
+ I've got it.
+
+819
+02:35:52,360 --> 02:35:53,360
+ What do I have?
+
+820
+02:35:53,360 --> 02:35:54,360
+ What do I have?
+
+821
+02:35:54,360 --> 02:36:01,360
+ I should go look.
+
+822
+02:36:01,360 --> 02:36:11,360
+ I'll take it with me.
+
+823
+02:36:11,360 --> 02:36:12,360
+ What do we have?
+
+824
+02:36:12,360 --> 02:36:14,360
+ Oh, I have peanut butter.
+
+825
+02:36:14,360 --> 02:36:15,360
+ Oh, yams.
+
+826
+02:36:15,360 --> 02:36:17,360
+ I have yams.
+
+827
+02:36:17,360 --> 02:36:20,360
+ Yeah, let's make some yams.
+
+828
+02:36:20,360 --> 02:36:21,360
+ You know what?
+
+829
+02:36:21,360 --> 02:36:22,360
+ I have my microwave too.
+
+830
+02:36:22,360 --> 02:36:23,360
+ I got it.
+
+831
+02:36:23,360 --> 02:36:25,360
+ I got to take my microwave out.
+
+832
+02:36:25,360 --> 02:36:29,360
+ Let me say if I can get my microwave working so I can cook some yams.
+
+833
+02:36:29,360 --> 02:36:34,360
+ I mean some sweet potatoes.
+
+834
+02:36:34,360 --> 02:36:41,360
+ This is my apartment.
+
+835
+02:36:41,360 --> 02:36:48,360
+ Oh God.
+
+836
+02:36:48,360 --> 02:37:14,360
+ What if I do this?
+
+837
+02:37:14,360 --> 02:37:20,360
+ Do a house tour.
+
+838
+02:37:20,360 --> 02:37:23,360
+ Hey, Eric, how are you doing?
+
+839
+02:37:23,360 --> 02:37:24,360
+ I can't do it.
+
+840
+02:37:24,360 --> 02:37:27,360
+ I guess I did.
+
+841
+02:37:27,360 --> 02:37:33,360
+ My apartment is like brand new cement.
+
+842
+02:37:33,360 --> 02:37:35,360
+ I don't have time.
+
+843
+02:37:35,360 --> 02:37:36,360
+ I can't wait.
+
+844
+02:37:36,360 --> 02:37:37,360
+ I'll do a house tour.
+
+845
+02:37:37,360 --> 02:37:39,360
+ I'll do a house tour later.
+
+846
+02:37:39,360 --> 02:37:41,360
+ Like when I'm not at work.
+
+847
+02:37:41,360 --> 02:37:42,360
+ I only have lunch.
+
+848
+02:37:42,360 --> 02:37:43,360
+ I have like 30 minutes for lunch.
+
+849
+02:37:43,360 --> 02:37:46,360
+ I can't wait.
+
+850
+02:37:46,360 --> 02:37:52,360
+ I can't wait.
+
+851
+02:37:52,360 --> 02:37:57,360
+ I don't think I need the family inside.
+
+852
+02:37:57,360 --> 02:38:07,360
+ Ow.
+
+853
+02:38:07,360 --> 02:38:12,360
+ Hey, microwave.
+
+854
+02:38:12,360 --> 02:38:22,360
+ No.
+
+855
+02:38:22,360 --> 02:38:33,360
+ Oh, I'm going to get perfect.
+
+856
+02:38:33,360 --> 02:38:38,360
+ No, that's not good.
+
+857
+02:38:38,360 --> 02:38:48,360
+ No, it's not good.
+
+858
+02:38:48,360 --> 02:38:53,360
+ No, it's not good.
+
+859
+02:38:53,360 --> 02:38:59,360
+ It's not good.
+
+860
+02:38:59,360 --> 02:39:09,360
+ No, it's not good.
+
+861
+02:39:09,360 --> 02:39:14,360
+ You put it like this.
+
+862
+02:39:14,360 --> 02:39:17,360
+ You're going to fit.
+
+863
+02:39:17,360 --> 02:39:22,360
+ I think that'll fit.
+
+864
+02:39:22,360 --> 02:39:27,360
+ You're going to fit like that.
+
+865
+02:39:27,360 --> 02:39:31,360
+ No, it's not.
+
+866
+02:39:31,360 --> 02:39:41,360
+ No, it has events on the back.
+
+867
+02:39:41,360 --> 02:39:48,360
+ I mean, I guess I can take it back and because I don't know.
+
+868
+02:39:48,360 --> 02:39:52,360
+ It's way too big.
+
+869
+02:39:52,360 --> 02:40:01,360
+ But I think it'll figure, let's just try.
+
+870
+02:40:01,360 --> 02:40:02,360
+ Yeah, it works.
+
+871
+02:40:02,360 --> 02:40:05,360
+ It works.
+
+872
+02:40:05,360 --> 02:40:11,360
+ It's a microwave and an air fryer.
+
+873
+02:40:11,360 --> 02:40:20,360
+ It's a microwave and air fryer and other stuff.
+
+874
+02:40:20,360 --> 02:40:23,360
+ I think it fits.
+
+875
+02:40:23,360 --> 02:40:28,360
+ Yeah, it does lots of things, apparently.
+
+876
+02:40:28,360 --> 02:40:31,360
+ I think it fits, actually.
+
+877
+02:40:31,360 --> 02:40:34,360
+ Put it there.
+
+878
+02:40:34,360 --> 02:40:39,360
+ Put like a splash guard over here.
+
+879
+02:40:39,360 --> 02:40:43,360
+ It's going to get like oil over it right here, right?
+
+880
+02:40:43,360 --> 02:40:48,360
+ It's like right here.
+
+881
+02:40:48,360 --> 02:40:56,360
+ I could put it over here, but then I don't have any preparation space.
+
+882
+02:40:56,360 --> 02:41:02,360
+ You know what I mean?
+
+883
+02:41:02,360 --> 02:41:03,360
+ I feel like it's fine there.
+
+884
+02:41:03,360 --> 02:41:05,360
+ I'm not going to be using it that much.
+
+885
+02:41:05,360 --> 02:41:10,360
+ It's going to be like, what do you think?
+
+886
+02:41:10,360 --> 02:41:11,360
+ Like cooking cardboard?
+
+887
+02:41:11,360 --> 02:41:12,360
+ No, I just got it.
+
+888
+02:41:12,360 --> 02:41:14,360
+ I have to take it apart.
+
+889
+02:41:14,360 --> 02:41:18,360
+ Yeah, so let's do that.
+
+890
+02:41:18,360 --> 02:41:21,360
+ I'm going to have to take the room.
+
+891
+02:41:21,360 --> 02:41:27,360
+ So I'll take that off.
+
+892
+02:41:27,360 --> 02:41:29,360
+ It's that works.
+
+893
+02:41:29,360 --> 02:41:31,360
+ You think it looks good?
+
+894
+02:41:31,360 --> 02:41:33,360
+ Read the manual.
+
+895
+02:41:33,360 --> 02:41:37,360
+ Yeah.
+
+896
+02:41:37,360 --> 02:41:40,360
+ I'll send the manual for reference.
+
+897
+02:41:40,360 --> 02:41:44,360
+ I'm never going to need it later.
+
+898
+02:41:44,360 --> 02:41:47,360
+ I was like, how many are those things that I kicked off?
+
+899
+02:41:47,360 --> 02:41:53,360
+ I just want to cook my potatoes.
+
+900
+02:41:53,360 --> 02:41:55,360
+ Yeah, look at this.
+
+901
+02:41:55,360 --> 02:42:07,360
+ All kinds of shit.
+
+902
+02:42:07,360 --> 02:42:15,360
+ So this microwave is definitely in the category of donate it after you use it.
+
+903
+02:42:15,360 --> 02:42:17,360
+ Because it's going to save me money.
+
+904
+02:42:17,360 --> 02:42:22,360
+ It's going to make me not go out and eat.
+
+905
+02:42:22,360 --> 02:42:26,360
+ It costs like $190, but if it saves me from what?
+
+906
+02:42:26,360 --> 02:42:31,360
+ Five meals that I pay for itself.
+
+907
+02:42:31,360 --> 02:42:34,360
+ So at that point, I just buy a new one when I move.
+
+908
+02:42:34,360 --> 02:42:39,360
+ So this is definitely in the donor list.
+
+909
+02:42:39,360 --> 02:42:43,360
+ Definitely knows in the donated list.
+
+910
+02:42:43,360 --> 02:42:49,360
+ But if I move someplace or something, I want to potentially close it to the white water center.
+
+911
+02:42:49,360 --> 02:42:55,360
+ Um, I don't know yet, but then, you know, that would have to explain it.
+
+912
+02:42:55,360 --> 02:42:57,360
+ I'm sure for that.
+
+913
+02:42:57,360 --> 02:42:58,360
+ French.
+
+914
+02:42:58,360 --> 02:43:00,360
+ Oh, you know what I could.
+
+915
+02:43:00,360 --> 02:43:03,360
+ I actually could do that.
+
+916
+02:43:03,360 --> 02:43:04,360
+ Yeah.
+
+917
+02:43:04,360 --> 02:43:08,360
+ I could put it on top of the fridge.
+
+918
+02:43:08,360 --> 02:43:11,360
+ That's a great idea.
+
+919
+02:43:11,360 --> 02:43:12,360
+ That is a fucking great idea.
+
+920
+02:43:12,360 --> 02:43:15,360
+ If I just put it like a little.
+
+921
+02:43:15,360 --> 02:43:21,360
+ I think well thought of Patro Patrick.
+
+922
+02:43:21,360 --> 02:43:24,360
+ Their fried features clutch.
+
+923
+02:43:24,360 --> 02:43:26,360
+ I know, right?
+
+924
+02:43:26,360 --> 02:43:29,360
+ I think you might be onto something.
+
+925
+02:43:29,360 --> 02:43:34,360
+ Yeah, because this is like dense space up here.
+
+926
+02:43:34,360 --> 02:43:37,360
+ If the court is according to reach, why would it not?
+
+927
+02:43:37,360 --> 02:43:38,360
+ Right?
+
+928
+02:43:38,360 --> 02:43:39,360
+ Oh my God.
+
+929
+02:43:39,360 --> 02:43:42,360
+ I think that's, I think that's perfect.
+
+930
+02:43:42,360 --> 02:43:44,360
+ That must be a New Yorker.
+
+931
+02:43:44,360 --> 02:43:48,360
+ You must be a New Yorker.
+
+932
+02:43:48,360 --> 02:43:50,360
+ I mean, I can totally reach up there.
+
+933
+02:43:50,360 --> 02:43:53,360
+ You know, anything and I'm good.
+
+934
+02:43:53,360 --> 02:43:56,360
+ Plus a lot of times I'm going to be pulling stuff out of the fridge anyway to cook it.
+
+935
+02:43:56,360 --> 02:43:57,360
+ Oh my God.
+
+936
+02:43:57,360 --> 02:43:59,360
+ You're a genius.
+
+937
+02:43:59,360 --> 02:44:02,360
+ You're a genius gold star.
+
+938
+02:44:02,360 --> 02:44:09,360
+ All right, so.
+
+939
+02:44:09,360 --> 02:44:16,360
+ Please God, let the court be long enough.
+
+940
+02:44:16,360 --> 02:44:17,360
+ I bet it's not.
+
+941
+02:44:17,360 --> 02:44:20,360
+ I bet it's only 220 power behind there.
+
+942
+02:44:20,360 --> 02:44:34,360
+ I bet it is a tent.
+
+943
+02:44:34,360 --> 02:44:43,360
+ Oh, I just want my potatoes.
+
+944
+02:44:43,360 --> 02:44:49,360
+ Don't break your fridge rub.
+
+945
+02:44:49,360 --> 02:44:50,360
+ All right.
+
+946
+02:44:50,360 --> 02:44:51,360
+ Oh, it is.
+
+947
+02:44:51,360 --> 02:44:52,360
+ Oh, shit.
+
+948
+02:44:52,360 --> 02:44:53,360
+ Oh my God.
+
+949
+02:44:53,360 --> 02:44:54,360
+ This is perfect.
+
+950
+02:44:54,360 --> 02:44:55,360
+ How long is it?
+
+951
+02:44:55,360 --> 02:44:56,360
+ How long is it?
+
+952
+02:44:56,360 --> 02:44:57,360
+ How long is it?
+
+953
+02:44:57,360 --> 02:44:58,360
+ How long is it?
+
+954
+02:44:58,360 --> 02:45:18,360
+ I think it was just barely going to reach.
+
+955
+02:45:18,360 --> 02:45:25,360
+ Yeah.
+
+956
+02:45:25,360 --> 02:45:29,360
+ Oh.
+
+957
+02:45:29,360 --> 02:45:30,360
+ Okay.
+
+958
+02:45:30,360 --> 02:45:38,360
+ I'm going to attempt it.
+
+959
+02:45:49,360 --> 02:45:52,360
+ Oh.
+
+960
+02:45:52,360 --> 02:45:58,360
+ Oh, shit.
+
+961
+02:45:58,360 --> 02:46:02,360
+ I am just barely tall enough.
+
+962
+02:46:02,360 --> 02:46:07,360
+ I need to get a stool.
+
+963
+02:46:07,360 --> 02:46:12,360
+ I want my food.
+
+964
+02:46:12,360 --> 02:46:19,360
+ Okay.
+
+965
+02:46:19,360 --> 02:46:22,360
+ Please reach.
+
+966
+02:46:22,360 --> 02:46:26,360
+ Oh my God, it exactly reaches.
+
+967
+02:46:26,360 --> 02:46:31,360
+ I just just on the other side.
+
+968
+02:46:31,360 --> 02:46:36,360
+ Who ever thought that Patrick, you're a genius.
+
+969
+02:46:36,360 --> 02:46:41,360
+ My fridge is so new, it has like the stickers on itself.
+
+970
+02:46:41,360 --> 02:46:44,360
+ Oh, yeah.
+
+971
+02:46:44,360 --> 02:46:51,360
+ The question is, yes.
+
+972
+02:46:51,360 --> 02:47:00,360
+ I want to get back there, guys.
+
+973
+02:47:00,360 --> 02:47:03,360
+ I can't reach it.
+
+974
+02:47:03,360 --> 02:47:10,360
+ What if I climb up there?
+
+975
+02:47:10,360 --> 02:47:11,360
+ I know.
+
+976
+02:47:11,360 --> 02:47:12,360
+ I know.
+
+977
+02:47:12,360 --> 02:47:13,360
+ I know.
+
+978
+02:47:13,360 --> 02:47:14,360
+ I know.
+
+979
+02:47:14,360 --> 02:47:18,360
+ I think I can do this.
+
+980
+02:47:18,360 --> 02:47:19,360
+ Oh.
+
+981
+02:47:19,360 --> 02:47:20,360
+ Oh.
+
+982
+02:47:20,360 --> 02:47:21,360
+ Oh.
+
+983
+02:47:21,360 --> 02:47:22,360
+ Oh.
+
+984
+02:47:22,360 --> 02:47:23,360
+ Oh.
+
+985
+02:47:23,360 --> 02:47:24,360
+ Oh.
+
+986
+02:47:24,360 --> 02:47:25,360
+ Oh.
+
+987
+02:47:25,360 --> 02:47:26,360
+ Oh.
+
+988
+02:47:26,360 --> 02:47:27,360
+ Oh.
+
+989
+02:47:27,360 --> 02:47:28,360
+ Oh.
+
+990
+02:47:28,360 --> 02:47:29,360
+ Oh.
+
+991
+02:47:29,360 --> 02:47:30,360
+ Oh.
+
+992
+02:47:30,360 --> 02:47:31,360
+ Oh.
+
+993
+02:47:31,360 --> 02:47:32,360
+ Oh, I know.
+
+994
+02:47:32,360 --> 02:47:33,360
+ I can almost reach it.
+
+995
+02:47:33,360 --> 02:47:46,360
+ Oh.
+
+996
+02:47:46,360 --> 02:47:47,360
+ Whoa.
+
+997
+02:47:47,360 --> 02:47:49,360
+ I've never used it in my range.
+
+998
+02:47:49,360 --> 02:47:56,360
+ I should just take it out.
+
+999
+02:47:56,360 --> 02:48:02,360
+ What do you mean stuck back there?
+
+1000
+02:48:02,360 --> 02:48:04,360
+ Oh, shit.
+
+1001
+02:48:04,360 --> 02:48:09,360
+ Dude, there is all kinds of gross stuff under there.
+
+1002
+02:48:09,360 --> 02:48:20,360
+ That's disgusting.
+
+1003
+02:48:20,360 --> 02:48:46,360
+ No, no, no, no, no, no, no, no, no, no, no, no.
+
+1004
+02:48:46,360 --> 02:49:12,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1005
+02:49:12,360 --> 02:49:34,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no, not.
+
+1006
+02:49:34,360 --> 02:49:59,360
+ Oh, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1007
+02:49:59,360 --> 02:50:12,360
+ I hope there's no black mold.
+
+1008
+02:50:12,360 --> 02:50:41,360
+ No, no, no, no, no, no, no.
+
+1009
+02:50:41,360 --> 02:51:03,360
+ No, no, no, no, no, no.
+
+1010
+02:51:03,360 --> 02:51:29,360
+ No, no, no, no, don't do that.
+
+1011
+02:51:29,360 --> 02:51:55,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1012
+02:51:55,360 --> 02:52:20,360
+ No, no, no, no, no, no, no, no, no, no, no.
+
+1013
+02:52:20,360 --> 02:52:48,360
+ No, no, no, no, no, no, no, no, no, no, no.
+
+1014
+02:52:48,360 --> 02:53:10,360
+ No, no, no, no, no, no, no, no.
+
+1015
+02:53:10,360 --> 02:53:38,360
+ No, no, no, no, no, no, no, no, no, no, no.
+
+1016
+02:53:38,360 --> 02:54:04,360
+ No, no, no, no, no, no, no, no, no, no.
+
+1017
+02:54:04,360 --> 02:54:28,360
+ No, no, no, no, no, no, no, no, no, no, no.
+
+1018
+02:54:28,360 --> 02:54:53,360
+ No, no, no, no, no, no, no.
+
+1019
+02:54:53,360 --> 02:55:18,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1020
+02:55:18,360 --> 02:55:43,360
+ No, no, no, no, no, no, no, no, no, no, no.
+
+1021
+02:55:43,360 --> 02:56:10,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1022
+02:56:10,360 --> 02:56:34,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1023
+02:56:34,360 --> 02:56:44,360
+ No, this is still working.
+
+1024
+02:56:44,360 --> 02:56:55,360
+ You're just too short.
+
+1025
+02:56:55,360 --> 02:57:19,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1026
+02:57:19,360 --> 02:57:33,360
+ No.
+
+1027
+02:57:33,360 --> 02:57:42,360
+ You're not very sharp.
+
+1028
+02:57:42,360 --> 02:58:03,360
+ No, no, no, no, no, no, no, no, no.
+
+1029
+02:58:03,360 --> 02:58:32,360
+ No, no, no, no, no, no, no, no, no, no, no, no, no.
+
+1030
+02:58:32,360 --> 02:58:35,360
+ I don't have any olive oil.
+
+1031
+02:58:35,360 --> 02:58:38,360
+ How am I supposed to make him crispy?
+
+1032
+02:58:38,360 --> 02:58:40,360
+ Put it on the list.
+
+1033
+02:58:40,360 --> 02:58:41,360
+ Put it on my shopping list.
+
+1034
+02:58:41,360 --> 02:58:44,360
+ I need you all mods to keep my shopping list for me.
+
+1035
+02:58:44,360 --> 02:58:49,360
+ Yeah.
+
+1036
+02:58:49,360 --> 02:58:52,360
+ You need to keep the shopping list up to date.
+
+1037
+02:58:52,360 --> 02:58:54,360
+ I need to watch brand.
+
+1038
+02:58:54,360 --> 02:59:04,360
+ I need, um, I need fish soap.
+
+1039
+02:59:04,360 --> 02:59:07,360
+ I need, I need stuff for what I mean.
+
+1040
+02:59:07,360 --> 02:59:09,360
+ And you made curry with chicken potatoes.
+
+1041
+02:59:09,360 --> 02:59:12,360
+ Oh, that sounds so yummy.
+
+1042
+02:59:12,360 --> 02:59:17,360
+ I am going to make eggs with spinach later.
+
+1043
+02:59:17,360 --> 02:59:36,360
+ Wait, that still has a sticker that will burn.
+
+1044
+02:59:36,360 --> 02:59:44,360
+ All right, I'm almost done.
+
+1045
+02:59:44,360 --> 02:59:49,360
+ Ouch, like the way you have convection combo.
+
+1046
+02:59:49,360 --> 02:59:51,360
+ You can have a combo.
+
+1047
+02:59:51,360 --> 02:59:52,360
+ What the hell?
+
+1048
+02:59:52,360 --> 02:59:53,360
+ Where's my manual?
+
+1049
+02:59:53,360 --> 02:59:55,360
+ I need that for later.
+
+1050
+02:59:55,360 --> 03:00:02,360
+ Um, express cook.
+
+1051
+03:00:02,360 --> 03:00:06,360
+ Five minutes.
+
+1052
+03:00:06,360 --> 03:00:13,360
+ I'm definitely going to need a little stool to go clean it.
+
+1053
+03:00:13,360 --> 03:00:20,360
+ But yeah, that's a good use of space.
+
+1054
+03:00:20,360 --> 03:00:21,360
+ I like that.
+
+1055
+03:00:21,360 --> 03:00:28,360
+ I think that's a great use of space.
+
+1056
+03:00:28,360 --> 03:00:32,360
+ You have four minutes to waiting.
+
+1057
+03:00:32,360 --> 03:00:33,360
+ I threw it.
+
+1058
+03:00:33,360 --> 03:00:34,360
+ I did it right here.
+
+1059
+03:00:34,360 --> 03:00:36,360
+ I saw it.
+
+1060
+03:00:36,360 --> 03:00:39,360
+ Patrick gave me a stool.
+
+1061
+03:00:39,360 --> 03:00:45,360
+ A spinach in an oatmeal?
+
+1062
+03:00:45,360 --> 03:00:48,360
+ What?
+
+1063
+03:00:48,360 --> 03:00:54,360
+ What is this madness?
+
+1064
+03:00:54,360 --> 03:00:57,360
+ Spinach in an oatmeal?
+
+1065
+03:00:57,360 --> 03:01:02,360
+ Who does that?
+
+1066
+03:01:02,360 --> 03:01:08,360
+ Oh, I need to finger my par.
+
+1067
+03:01:08,360 --> 03:01:35,360
+ I'm going to try to get a little bit of water.
+
+1068
+03:01:35,360 --> 03:02:02,360
+ I'm going to try to get a little bit of water.
+
+1069
+03:02:02,360 --> 03:02:07,360
+ I'm going to try to get some water.
+
+1070
+03:02:07,360 --> 03:02:14,360
+ I'm going to try to get some water.
+
+1071
+03:02:14,360 --> 03:02:21,360
+ I'm going to try to get some water.
+
+1072
+03:02:21,360 --> 03:02:35,360
+ I'm going to try to get some water.
+
+1073
+03:02:35,360 --> 03:02:40,360
+ I'm going to try to get some water.
+
+1074
+03:02:40,360 --> 03:02:44,360
+ I'm going to try to get some water.
+
+1075
+03:02:44,360 --> 03:03:05,360
+ I'm going to try to get some water.
+
+1076
+03:03:05,360 --> 03:03:26,360
+ I'm going to try to get some water.
+
+1077
+03:03:26,360 --> 03:03:45,360
+ I'm going to try to get some water.
+
+1078
+03:03:45,360 --> 03:04:12,360
+ I'm going to try to get some water.
+
+1079
+03:04:12,360 --> 03:04:32,360
+ I'm going to try to get some water.
+
+1080
+03:04:32,360 --> 03:04:52,360
+ I'm going to try to get some water.
+
+1081
+03:04:52,360 --> 03:05:12,360
+ I'm going to try to get some water.
+
+1082
+03:05:12,360 --> 03:05:34,360
+ I'm going to try to get some water.
+
+1083
+03:05:34,360 --> 03:05:54,360
+ I'm going to try to get some water.
+
+1084
+03:05:54,360 --> 03:06:16,360
+ I'm going to try to get some water.
+
+1085
+03:06:16,360 --> 03:06:38,360
+ I'm going to try to get some water.
+
+1086
+03:06:38,360 --> 03:07:01,360
+ I'm going to try to get some water.
+
+1087
+03:07:01,360 --> 03:07:07,360
+ I'm going to try to get some water.
+
+1088
+03:07:07,360 --> 03:07:32,360
+ I'm going to try to get some water.
+
+1089
+03:07:32,360 --> 03:07:58,360
+ I'm going to try to get some water.
+
+1090
+03:07:58,360 --> 03:08:20,360
+ I'm going to try to get some water.
+
+1091
+03:08:20,360 --> 03:08:48,360
+ I'm going to try to get some water.
+
+1092
+03:08:48,360 --> 03:09:14,360
+ I'm going to try to get some water.
+
+1093
+03:09:14,360 --> 03:09:39,360
+ I'm going to try to get some water.
+
+1094
+03:09:39,360 --> 03:10:07,360
+ I'm going to try to get some water.
+
+1095
+03:10:07,360 --> 03:10:35,360
+ I'm going to try to get some water.
+
+1096
+03:10:35,360 --> 03:11:03,360
+ I'm going to try to get some water.
+
+1097
+03:11:03,360 --> 03:11:31,360
+ I'm going to try to get some water.
+
+1098
+03:11:31,360 --> 03:12:00,360
+ I'm going to try to get some water.
+
+1099
+03:12:00,360 --> 03:12:28,360
+ I'm going to try to get some water.
+
+1100
+03:12:28,360 --> 03:12:29,360
+ I'm going to try to get some water.
+
+1101
+03:12:29,360 --> 03:12:30,360
+ I'm going to try to get some water.
+
+1102
+03:12:30,360 --> 03:12:31,360
+ I'm going to try to get some water.
+
+1103
+03:12:31,360 --> 03:12:32,360
+ I'm going to try to get some water.
+
+1104
+03:12:32,360 --> 03:12:33,360
+ I'm going to try to get some water.
+
+1105
+03:12:33,360 --> 03:12:33,360
+ I'm going to try to get some water.
+
+1106
+03:12:33,360 --> 03:12:34,360
+ I'm going to try to get some water.
+
+1107
+03:12:34,360 --> 03:12:35,360
+ I'm going to try to get some water.
+
+1108
+03:12:35,360 --> 03:12:36,360
+ I'm going to try to get some water.
+
+1109
+03:12:36,360 --> 03:12:37,360
+ I'm going to try to get some water.
+
+1110
+03:12:37,360 --> 03:12:38,360
+ I'm going to try to get some water.
+
+1111
+03:12:38,360 --> 03:12:39,360
+ I'm going to try to get some water.
+
+1112
+03:12:39,360 --> 03:12:40,360
+ I'm going to try to get some water.
+
+1113
+03:12:40,360 --> 03:12:41,360
+ I'm going to try to get some water.
+
+1114
+03:12:41,360 --> 03:12:42,360
+ I'm going to try to get some water.
+
+1115
+03:12:42,360 --> 03:12:43,360
+ I'm going to try to get some water.
+
+1116
+03:12:43,360 --> 03:12:44,360
+ I'm going to try to get some water.
+
+1117
+03:12:44,360 --> 03:12:45,360
+ I'm going to try to get some water.
+
+1118
+03:12:45,360 --> 03:12:58,360
+ I'm going to try to get some water.
+
+1119
+03:12:58,360 --> 03:13:06,360
+ I'm going to try to get some water.
+
+1120
+03:13:06,360 --> 03:13:07,360
+ I'm going to try to get some water.
+
+1121
+03:13:07,360 --> 03:13:14,360
+ I'm going to try to get some water.
+
+1122
+03:13:14,360 --> 03:13:18,360
+ What questions are coming in?
+
+1123
+03:13:18,360 --> 03:13:19,360
+ I feel like I need a hat, though.
+
+1124
+03:13:19,360 --> 03:13:24,360
+ It's, like, really bright.
+
+1125
+03:13:44,360 --> 03:13:51,360
+ I don't know why I'm eating here.
+
+1126
+03:13:51,360 --> 03:13:59,360
+ Oh, my God.
+
+1127
+03:13:59,360 --> 03:14:05,360
+ You added something in my shopping cart?
+
+1128
+03:14:05,360 --> 03:14:10,360
+ I'm not supposed to put that stuff on the stream.
+
+1129
+03:14:10,360 --> 03:14:13,360
+ Be appropriate.
+
+1130
+03:14:13,360 --> 03:14:23,360
+ This is why I don't put chat on the screen usually.
+
+1131
+03:14:23,360 --> 03:14:25,360
+ Wait.
+
+1132
+03:14:25,360 --> 03:14:27,360
+ Why do you know work?
+
+1133
+03:14:27,360 --> 03:14:34,360
+ Heart?
+
+1134
+03:14:34,360 --> 03:14:43,360
+ It's like a hundred ways to do it.
+
+1135
+03:14:43,360 --> 03:14:46,360
+ It does.
+
+1136
+03:14:46,360 --> 03:14:54,360
+ TensorFlow was made in it.
+
+1137
+03:14:54,360 --> 03:15:01,360
+ I've been coding lots of pearlyly.
+
+1138
+03:15:01,360 --> 03:15:06,360
+ There's been so much purl.
+
+1139
+03:15:06,360 --> 03:15:11,360
+ I've been modernizing our purl.
+
+1140
+03:15:11,360 --> 03:15:16,360
+ I know that sounds crazy.
+
+1141
+03:15:16,360 --> 03:15:24,360
+ We're going to redo our API as a go line, probably.
+
+1142
+03:15:24,360 --> 03:15:30,360
+ Maybe Python.
+
+1143
+03:15:30,360 --> 03:15:37,360
+ Be appropriate.
+
+1144
+03:15:37,360 --> 03:15:44,360
+ Can I just let you on a secret?
+
+1145
+03:15:44,360 --> 03:15:49,360
+ I'm very anti-women lately.
+
+1146
+03:15:49,360 --> 03:15:54,360
+ Within the last two days, I think the YouTube algorithm picked up that I'm anti-women.
+
+1147
+03:15:54,360 --> 03:16:08,360
+ It started showing me all of this like, you know, man's sphere in cell stuff.
+
+1148
+03:16:08,360 --> 03:16:09,360
+ I don't hate women.
+
+1149
+03:16:09,360 --> 03:16:10,360
+ I love women.
+
+1150
+03:16:10,360 --> 03:16:11,360
+ They're great.
+
+1151
+03:16:11,360 --> 03:16:19,360
+ It's just lightly, you know, it doesn't mean anything to me would do like striking out
+
+1152
+03:16:19,360 --> 03:16:23,360
+ or not having a partner or being divorced or any of that.
+
+1153
+03:16:23,360 --> 03:16:35,360
+ It's just, I made the mistake of actually starting watching one of the shorts that came through.
+
+1154
+03:16:35,360 --> 03:16:40,360
+ It's almost like the algorithm was testing me.
+
+1155
+03:16:40,360 --> 03:16:45,360
+ It was like, the algorithm was testing me because it was like, okay, does this guy, let's see,
+
+1156
+03:16:45,360 --> 03:16:49,360
+ let's see if, you know, if he's MAGA, let's see, you know, everyone saw a little throw a video in there
+
+1157
+03:16:49,360 --> 03:16:53,360
+ just to kind of like entice you.
+
+1158
+03:16:53,360 --> 03:16:58,360
+ It's like, okay, do you go in this category?
+
+1159
+03:16:58,360 --> 03:17:03,360
+ And I bought a book that I won't mention on Audible.
+
+1160
+03:17:03,360 --> 03:17:05,360
+ It was a good book actually.
+
+1161
+03:17:05,360 --> 03:17:06,360
+ It was really good.
+
+1162
+03:17:06,360 --> 03:17:08,360
+ It talked a lot about dynamics between men and women.
+
+1163
+03:17:08,360 --> 03:17:09,360
+ I'm not going to tell you the book though.
+
+1164
+03:17:09,360 --> 03:17:12,360
+ I'm obviously not telling you because I don't think you should read it at all.
+
+1165
+03:17:12,360 --> 03:17:13,360
+ It's horrible.
+
+1166
+03:17:13,360 --> 03:17:20,360
+ But, I mean, really, the book was really bad.
+
+1167
+03:17:20,360 --> 03:17:24,360
+ It was written by somebody from the Manosphere, and it's just really, really bad.
+
+1168
+03:17:24,360 --> 03:17:27,360
+ I was like, no, this is accurate.
+
+1169
+03:17:27,360 --> 03:17:29,360
+ It's all crap and everything.
+
+1170
+03:17:29,360 --> 03:17:31,360
+ So somehow...
+
+1171
+03:17:37,360 --> 03:17:44,360
+ God damn it, stop dawking the books I read, and I just read.
+
+1172
+03:17:44,360 --> 03:17:47,360
+ Yes, okay, I confess, that was the book.
+
+1173
+03:17:47,360 --> 03:17:50,360
+ Yeah, that one's the book.
+
+1174
+03:17:50,360 --> 03:17:54,360
+ I listened to the whole thing.
+
+1175
+03:17:54,360 --> 03:18:06,360
+ Yeah, I listened to the rational mail on Audible coming over here, and...
+
+1176
+03:18:06,360 --> 03:18:09,360
+ Most of that absolute pure morbid curiosity.
+
+1177
+03:18:09,360 --> 03:18:14,360
+ It wasn't so much that I could score with the ladies or be an alpha mal or whatever.
+
+1178
+03:18:14,360 --> 03:18:20,360
+ Which, by the way, according to him, I am perpetually and forever going to be a beta.
+
+1179
+03:18:20,360 --> 03:18:22,360
+ I have no desire, maybe a stigma.
+
+1180
+03:18:22,360 --> 03:18:31,360
+ I have no desire to be an alpha hammer.
+
+1181
+03:18:31,360 --> 03:18:41,360
+ I think his entire premise is still flawed, because I assume you're never going to circulate.
+
+1182
+03:18:41,360 --> 03:18:45,360
+ If you go into it, yeah, if you're alpha, okay, you might find somebody on the dance floor,
+
+1183
+03:18:45,360 --> 03:18:50,360
+ or somebody's girlfriend on the dance floor.
+
+1184
+03:18:50,360 --> 03:18:52,360
+ Then what?
+
+1185
+03:18:52,360 --> 03:18:53,360
+ They talk.
+
+1186
+03:18:53,360 --> 03:18:55,360
+ Women talk to each other.
+
+1187
+03:18:55,360 --> 03:19:00,360
+ They're like the crows in Australia who keep attacking that guy, that bicyclist, because they all talk to each other.
+
+1188
+03:19:00,360 --> 03:19:05,360
+ It's like you could never get away with that bullshit in a modern world.
+
+1189
+03:19:05,360 --> 03:19:08,360
+ There's social media.
+
+1190
+03:19:08,360 --> 03:19:11,360
+ I mean, even if it actually works, which I don't think it does.
+
+1191
+03:19:11,360 --> 03:19:16,360
+ But even if it works one time, and it's like, "Yeah, man, I smash all the time."
+
+1192
+03:19:16,360 --> 03:19:19,360
+ And I'm like, "Yeah, but you don't ever get to smash."
+
+1193
+03:19:19,360 --> 03:19:26,360
+ It's like you have to find somebody new to smash every time, because everybody fucking hates you where you are.
+
+1194
+03:19:26,360 --> 03:19:30,360
+ So anyway, okay, so I gave up what I did.
+
+1195
+03:19:30,360 --> 03:19:37,360
+ So I was in the car, I was a little bit...
+
+1196
+03:19:37,360 --> 03:19:39,360
+ I mean, that was really loud.
+
+1197
+03:19:39,360 --> 03:19:46,360
+ So I won't lie, I was in a kind of hating on women mid, because women have really fucking done me wrong.
+
+1198
+03:19:46,360 --> 03:19:53,360
+ And I'm like, you know, they're not here to defend themselves, so it's really hard to talk about that.
+
+1199
+03:19:53,360 --> 03:19:55,360
+ You know, and be rational.
+
+1200
+03:19:55,360 --> 03:20:00,360
+ Like, attacking people who aren't not there to defend themselves, usually.
+
+1201
+03:20:00,360 --> 03:20:03,360
+ But yeah.
+
+1202
+03:20:03,360 --> 03:20:07,360
+ It'd be a say clear from those books, just be your own mental point of origin.
+
+1203
+03:20:07,360 --> 03:20:08,360
+ Yeah, absolutely.
+
+1204
+03:20:08,360 --> 03:20:13,360
+ Women would rather share a high value man than be saddled with a failing loser.
+
+1205
+03:20:13,360 --> 03:20:14,360
+ Yeah.
+
+1206
+03:20:14,360 --> 03:20:18,360
+ So they wrote a book about me.
+
+1207
+03:20:18,360 --> 03:20:20,360
+ No, no, no, no, no.
+
+1208
+03:20:20,360 --> 03:20:21,360
+ No, no, no.
+
+1209
+03:20:21,360 --> 03:20:22,360
+ I mean, maybe.
+
+1210
+03:20:22,360 --> 03:20:24,360
+ I don't know, maybe I'm in there somewhere.
+
+1211
+03:20:24,360 --> 03:20:27,360
+ All I'm trying to say, so we're on a lunch break.
+
+1212
+03:20:27,360 --> 03:20:28,360
+ If you're just joining us, hi.
+
+1213
+03:20:28,360 --> 03:20:35,360
+ We're on a lunch break talking about dude stuff at the water cooler, at the virtual water cooler.
+
+1214
+03:20:35,360 --> 03:20:44,360
+ And it just came, I just, lately I've just been, I mentioned that lately I've been having a hard time just not seeing...
+
+1215
+03:20:44,360 --> 03:20:52,360
+ I actually watched a few videos from some women who were slamming on the whole club scene.
+
+1216
+03:20:52,360 --> 03:20:57,360
+ I think that's why it showed up in my feed, because I've been doing a lot of talk about going to the club,
+
+1217
+03:20:57,360 --> 03:21:00,360
+ going to the men's club, and going out clubbing and nightlife.
+
+1218
+03:21:00,360 --> 03:21:03,360
+ And I was walking around Charlotte, and we were going to the club there.
+
+1219
+03:21:03,360 --> 03:21:07,360
+ And we were noticing how nightlife and Charlotte is pretty much dead, and there's like two places.
+
+1220
+03:21:07,360 --> 03:21:10,360
+ And so there's this entire, that's probably why I saw this short.
+
+1221
+03:21:10,360 --> 03:21:17,360
+ So somebody sent me a short, which we should probably, at some point just for the hell of it, we should probably watch those shorts and then talk about it.
+
+1222
+03:21:17,360 --> 03:21:22,360
+ You know, primarily as men, but it would be fun to have some women in here to give their opinions,
+
+1223
+03:21:22,360 --> 03:21:25,360
+ particularly the wanderer, who I really, really, really respect.
+
+1224
+03:21:25,360 --> 03:21:28,360
+ And ugly, perhaps.
+
+1225
+03:21:28,360 --> 03:21:35,360
+ You know, women who are friends of the stream, who we've talked to, who could, you know, Pepsi, by the way,
+
+1226
+03:21:35,360 --> 03:21:38,360
+ I talked to her yesterday on the phone, a good, good friend.
+
+1227
+03:21:38,360 --> 03:21:44,360
+ I reconnected with a really, really, really amazing friend from when I was single before.
+
+1228
+03:21:44,360 --> 03:21:47,360
+ And I have no romantic interest in her at all.
+
+1229
+03:21:47,360 --> 03:21:50,360
+ She's beautiful and, you know, attractive and everything.
+
+1230
+03:21:50,360 --> 03:21:53,360
+ But that's, and she's an educator and a salty, there's kind of human being.
+
+1231
+03:21:53,360 --> 03:22:00,360
+ But we've already decided, we've actually talked openly about this, that we were just friends, that we don't, we never want to mess it up, right?
+
+1232
+03:22:00,360 --> 03:22:10,360
+ So anyway, there are women in my life that I trust really well, who are really amazing, and that are not trying to get cash out of me.
+
+1233
+03:22:10,360 --> 03:22:20,360
+ In any way, whether it be a mutual exchange, because you're married and you're the provider and the other person's not, you know, that kind of thing.
+
+1234
+03:22:20,360 --> 03:22:22,360
+ Hey, Phil.
+
+1235
+03:22:22,360 --> 03:22:24,360
+ I've been looking for a bit.
+
+1236
+03:22:24,360 --> 03:22:27,360
+ I've been getting docs by various people.
+
+1237
+03:22:27,360 --> 03:22:30,360
+ And your rumors you've heard, do you happen to know my full name?
+
+1238
+03:22:30,360 --> 03:22:31,360
+ I do not.
+
+1239
+03:22:31,360 --> 03:22:36,360
+ Thank you for the cheer.
+
+1240
+03:22:36,360 --> 03:22:41,360
+ Is this a, is this a, what is this? Is this a, is this real?
+
+1241
+03:22:41,360 --> 03:22:45,360
+ Uh, Phil, these nuts, ah!
+
+1242
+03:22:51,360 --> 03:22:55,360
+ Oh, I hope, I hope that was fun, Phil.
+
+1243
+03:23:00,360 --> 03:23:04,360
+ You did get me, you got me, you got me.
+
+1244
+03:23:04,360 --> 03:23:08,360
+ Also, I got them, I got these nuts.
+
+1245
+03:23:12,360 --> 03:23:16,360
+ Slow clap, slow clap, definitely love it, you win.
+
+1246
+03:23:16,360 --> 03:23:22,360
+ I'm probably the easiest person on Twitch to troll, like, I'm serious.
+
+1247
+03:23:22,360 --> 03:23:26,360
+ I think I found, I have the biggest mark on Twitch.
+
+1248
+03:23:26,360 --> 03:23:29,360
+ Oh, that's really awesome.
+
+1249
+03:23:29,360 --> 03:23:36,360
+ No, it was, so yeah, I, so, confessional confession.
+
+1250
+03:23:36,360 --> 03:23:40,360
+ I was, I was like a 32 hour drive back and I was like, I need an audio book.
+
+1251
+03:23:40,360 --> 03:23:42,360
+ So I was like, coming through audio books.
+
+1252
+03:23:42,360 --> 03:23:45,360
+ I was like, you know, books for men, honestly.
+
+1253
+03:23:45,360 --> 03:23:52,360
+ I was like searching an audible for books for men and since CDs.
+
+1254
+03:23:52,360 --> 03:23:58,360
+ And I, I, you know, obviously the rational nail came up and I was like, okay.
+
+1255
+03:23:58,360 --> 03:24:03,360
+ So I'm listening to the guy like, okay, the guy's making a lot of sense and then also he's not, right?
+
+1256
+03:24:03,360 --> 03:24:13,360
+ So, but I think, I think I basically just wanted permissions to, to say, hey, you know, we're men here and it's okay to be men, you know?
+
+1257
+03:24:13,360 --> 03:24:20,360
+ And it's not like we're the kind of men that were, you know, repressing women in any way before.
+
+1258
+03:24:20,360 --> 03:24:24,360
+ We probably have some of that in us, just latent in us because of the system and everything.
+
+1259
+03:24:24,360 --> 03:24:29,360
+ But we need to stop blaming ourselves and women need to stop blaming men for everything that's wrong in the world.
+
+1260
+03:24:29,360 --> 03:24:33,360
+ There's, there's a lot of stuff that's bad about the world that needs to change.
+
+1261
+03:24:33,360 --> 03:24:39,360
+ And there are men behind that, but there's also a lot of things that are really bad in the world because of women.
+
+1262
+03:24:39,360 --> 03:24:44,360
+ And one of, and one of those things that's really, really bad, and this is a very, this is like a tenant and manosphere sort of stuff,
+
+1263
+03:24:44,360 --> 03:24:49,360
+ which is why I am careful of it because I am not a fan of some of the shit that they say,
+
+1264
+03:24:49,360 --> 03:24:57,360
+ particularly the stuff that disrespects women. But like, when they talk about, like, when they were talking about the downfall of clubs,
+
+1265
+03:24:57,360 --> 03:25:00,360
+ I only have how many more minutes, like two more minutes or so, three more minutes.
+
+1266
+03:25:00,360 --> 03:25:06,360
+ They're talking about the downfall of, downfall of club life and nightlife, and they blamed it on men.
+
+1267
+03:25:06,360 --> 03:25:13,360
+ And these, these, you know, young, frankly, very clueless women, which are getting called out by other women, by the way.
+
+1268
+03:25:13,360 --> 03:25:17,360
+ They're getting called out by other women. They're like, no, this, let me tell you what's up.
+
+1269
+03:25:17,360 --> 03:25:21,360
+ And, and, and I, it was very refreshing to see it, but it was also disturbing.
+
+1270
+03:25:21,360 --> 03:25:25,360
+ Some of these women are like, the reason the club scene is dying is because men are not showing up to go to the club.
+
+1271
+03:25:25,360 --> 03:25:30,360
+ They don't want to go to the club. And so, it's like, get off your ass and come to the club.
+
+1272
+03:25:30,360 --> 03:25:38,360
+ And I have basically said that same thing. I have actually said to dancers, I was like, why is there 10 to 1 women in the, in the club here, in the men's club?
+
+1273
+03:25:38,360 --> 03:25:46,360
+ And, you know, you could be, for $15, you could be in here, you know, participating and everything, instead of home playing GTA.
+
+1274
+03:25:46,360 --> 03:25:54,360
+ But now I know why. The reason is because men are tired of being fleeced.
+
+1275
+03:25:54,360 --> 03:26:02,360
+ Books for men, the Bible. Yeah, yeah, I don't, I don't buy that. But yeah, there was one time I would have agreed with that.
+
+1276
+03:26:02,360 --> 03:26:08,360
+ There's a lot of good things in the Bible, like the ethics of Christ. I'm all about that. But there's a lot of bad stuff too, right?
+
+1277
+03:26:08,360 --> 03:26:13,360
+ Uh oh, events up connected. What happened? Something happened? You guys still there?
+
+1278
+03:26:13,360 --> 03:26:22,360
+ So, um, to just conclude that thought. So, the idea that men have been being fleeced by women for a very long time.
+
+1279
+03:26:22,360 --> 03:26:29,360
+ And obviously, men have damaged women in many ways that are absolutely horrible and abysmal.
+
+1280
+03:26:29,360 --> 03:26:35,360
+ Men don't walk around being afraid of being raped. Women walk around being afraid of being raped because of the crimes men have permitted.
+
+1281
+03:26:35,360 --> 03:26:50,360
+ And I, I am not challenging that at all. But the reason specifically if we stick to the, if we stick to the topic, the reason men don't go to clubs and don't go out is because they're so sick and tired.
+
+1282
+03:26:50,360 --> 03:26:55,360
+ Uh, what's that? Yeah, I am speaking for myself. That's what a life streamer does.
+
+1283
+03:26:55,360 --> 03:27:01,360
+ Uh, hard to have an honest conversation about grievances between sex is easy. There's lots of people milking that count.
+
+1284
+03:27:01,360 --> 03:27:12,360
+ Just feel like men get the short end of a double standard though. Yeah, see, I, and I don't, that's why I was really hesitant to even mention it, you know, because, um, I don't even know what that club is about.
+
+1285
+03:27:12,360 --> 03:27:22,360
+ I don't know if I want to go see. But the, lately it's, it's just been, I've been, I've been feeling like I needed support from men.
+
+1286
+03:27:22,360 --> 03:27:34,360
+ It's like I, I want actual support from men I can trust and talk to men. That's one of the reasons I'm live streaming again. Because I don't get, this is actually a thing with men.
+
+1287
+03:27:34,360 --> 03:27:44,360
+ They don't, they, they men need friendships just as much as anybody in old age. And as they, as they go, and they have a hard time. They have a very hard time and have a lot harder time making friendships.
+
+1288
+03:27:44,360 --> 03:27:57,360
+ And that's kind of where it came from. It was like, I need more men friends in my life. You know, I need more males who are quality dudes who are not going to, you know, try to teach you how to be a player and all that.
+
+1289
+03:27:57,360 --> 03:28:06,360
+ And the Mormon Bible. Yeah. And that's where the desire came from. I was legitimately looking for a book for men.
+
+1290
+03:28:06,360 --> 03:28:15,360
+ And it turned out to be the rational middle, which, you know, is, is, I, I still don't know how I fully feel about the whole thing.
+
+1291
+03:28:15,360 --> 03:28:23,360
+ I, I don't, I'll have to see how it pans out. For the most part though, I think some of the stuff is just dead and wrong.
+
+1292
+03:28:23,360 --> 03:28:30,360
+ And some of it's common sense and some of it's really controversial. So, but for the most part, yeah.
+
+1293
+03:28:30,360 --> 03:28:41,360
+ So I've just been like walking around thinking, how can I, you know, where can we're going to go hang out with the guys and, you know, actually have, you know, relationships and stuff.
+
+1294
+03:28:41,360 --> 03:28:49,360
+ And I thought about like there's, there's the, the bike messengers. They were a lot of fun. I got to know those guys. I might actually buy a Fixie again.
+
+1295
+03:28:49,360 --> 03:28:53,360
+ The bike messenger dudes that I met when I was here last time.
+
+1296
+03:28:53,360 --> 03:29:03,360
+ I'm going to end really quick here. So I went through yesterday, I was just going through, you know, like all of the friendships I've had in North Carolina, which I've had several.
+
+1297
+03:29:03,360 --> 03:29:10,360
+ It's one of the reasons I came back is because I have, I have had really deep meaningful friendships in North Carolina in the past.
+
+1298
+03:29:10,360 --> 03:29:17,360
+ Before I got married the second time, before I got married the second time, I formed several very deep friendships.
+
+1299
+03:29:17,360 --> 03:29:25,360
+ And I let them go. I let them die. I let those friendships go away. And I regret it. I regret having done that.
+
+1300
+03:29:25,360 --> 03:29:32,360
+ I don't regret getting married. The good years were great. And, but I regret having lost contact with those people.
+
+1301
+03:29:32,360 --> 03:29:41,360
+ And so I was kind of like going through the list of the people, you know, the person that was my best man at my wedding and this carpenter friend that I know.
+
+1302
+03:29:41,360 --> 03:29:51,360
+ And, and you know, I went through some of my friends that are also female that are basically dudes to me, including Pepsi.
+
+1303
+03:29:51,360 --> 03:30:02,360
+ And I was just kind of going through that list and, you know, seeing to see if it's worth like, you know, bringing back any, any regular friendships, you know, like they, like people do, right?
+
+1304
+03:30:02,360 --> 03:30:19,360
+ They got Sunday, they go get coffee together or something. And I was kind of weighing all that together. And so, but that was when, that was, that was when I came across the video that was calling out all of these, these club clubber clubbing women who were blaming men for not showing up.
+
+1305
+03:30:19,360 --> 03:30:28,360
+ And one of them was like, they were literally like ripping them up and down about how they were ugly and stuff. And then it would say, how dare you come up and try to get me in.
+
+1306
+03:30:28,360 --> 03:30:44,360
+ Can you believe he didn't even want to buy me a drink? They, they were, they were basically totally engulfed in both the men's suck men and made the world a horrible place and, oh, I want the men to pay for everything.
+
+1307
+03:30:44,360 --> 03:30:57,360
+ Like, what happened to, what happened to traditional males? What happened to this? Why not? And basically, that is the parting line for the whole incel movement. I don't know if you want us to call it incel, it's more voluntary sell.
+
+1308
+03:30:57,360 --> 03:31:12,360
+ But it's like, that's the parting line. And, and the video was like, well, I don't know, maybe because we want to stay home and watch a movie and save our money and, and make, make lasting friendships with people that don't feel like we have to buy them a beer all the time or whatever.
+
+1309
+03:31:12,360 --> 03:31:25,360
+ And these people that were in the videos, there's lots and lots of these videos. And I was like, I can't believe it. It was like an epidemic of women who are empowered now because of, because of me too and all these wonderful things.
+
+1310
+03:31:25,360 --> 03:31:35,360
+ But they also are still clinging to this old idea. Like, if you were to go up, some of the dudes in the videos were joking. They were like, they're like, yeah, okay, when are you going to buy me a drink?
+
+1311
+03:31:35,360 --> 03:31:41,360
+ And they're like, it's absolutely laughable. It's absolutely laughable that you expect a woman to buy a drink for you.
+
+1312
+03:31:41,360 --> 03:31:52,360
+ But if you don't buy a drink for them, they're, they're totally ripping up these dudes, they don't want to do it. And yet they're like, hey, it's all women's power, I'm just going to hang out with the other women. And I was like, this doesn't fly. This isn't, this does not work.
+
+1313
+03:31:52,360 --> 03:32:07,360
+ It doesn't matter how much men have been responsible for all the evil in the world. It's just, whenever this new mixture of, I don't fucking need men, but buy me a drink is not good.
+
+1314
+03:32:07,360 --> 03:32:28,360
+ It's just, it's just not good. And if there's one thing that's pushing men away, it's, it's this dynamic. And so it's sad because it's going to take women on their own, and they're already starting to do this to realize that being empowered also means taking care of yourself.
+
+1315
+03:32:28,360 --> 03:32:42,360
+ And if you truly don't need a man, it means owning it. It means owning that I am by myself. But then they'll throw stones at you and say, well, the reason I can't take care of myself is because my wages are so much lower than you because men have fucked over the wage is the same. And that's not wrong.
+
+1316
+03:32:42,360 --> 03:33:01,360
+ So, I don't know. I don't have any answers. I'm just, I'm just asking questions and stating the problem because lately I feel like, like everybody wants money from me. That's bottom line. So, as I can't, you can't, I was, I was trying to, you know, entertain the dating scene and stuff like that.
+
+1317
+03:33:01,360 --> 03:33:10,360
+ I'm like, I don't, I don't even want to date. And it's not because I don't like women. It's because, it's because I just, I just don't, I don't, I don't want to have to go through the hoops.
+
+1318
+03:33:10,360 --> 03:33:19,360
+ Then I tell you, this is a true story. This actually happened. So, I actually passed this place like three times the other day, and I talked about it.
+
+1319
+03:33:19,360 --> 03:33:27,360
+ I went to, I did a blind date on plenty of fish. Somebody had just talked to him then. And I went there, stayed single on beat penalties.
+
+1320
+03:33:27,360 --> 03:33:41,360
+ I stayed, I, I went to this pub. And this girl was there and she was really nice and friendly and everything. And we ate and we had dinner and we had some conversation. It was pretty basic, basic level conversation.
+
+1321
+03:33:41,360 --> 03:33:51,360
+ And she ate pretty quickly. And then she said, oh, sorry, I got to leave. And she left. And I got the bill. And the bill was $200 because she had been there drinking.
+
+1322
+03:33:51,360 --> 03:34:16,360
+ And she put all the food on me. And then she fucking stuck it to me and walked away. And I'm like, okay. And basically that is the epitome, that is the epitome of, of this sentiment, the sentiment that like, no, you know, there's a lot of great women out there that respect men and really truly carry them away and try their hardest, even though the cards have been stacked against them, et cetera.
+
+1323
+03:34:16,360 --> 03:34:32,360
+ But there are also women out there who are just fucking evil who will take advantage of you. They'll take everything from you, leave you on the fucking floor. And, and quite, quite honestly, I've been running into a lot of these people at the club.
+
+1324
+03:34:32,360 --> 03:34:49,360
+ Of my own volition, you know, I went to the men's club. And as I was writing my book and everything, in fact, I don't want to write my book anymore. I might completely done with my book. The book started out being like, you know, dedicated to the, to the romantic idea of the divine feminine.
+
+1325
+03:34:49,360 --> 03:35:12,360
+ And just, you know, this, this, this, you know, this sort of beauty, you know, the effect women have on us and everything. And after, after two nights, after two nights of sitting in the upper, in the upper balcony, writing, and just writing, by the way, just telling everybody I was off the grid and just writing and, you know, sipping on my bourbon or whatever.
+
+1326
+03:35:12,360 --> 03:35:25,360
+ And I was, I was, I just wrote down, I wrote down about probably 15 or 16 observations of interactions on the floor. And, and I watched the women, making women prowling around like sharks looking for victims.
+
+1327
+03:35:25,360 --> 03:35:34,360
+ And some of those women are very legitimately nice people. They've, they've opened up and we've been able to talk about, you know, what's going on behind the scenes and stuff.
+
+1328
+03:35:34,360 --> 03:35:49,360
+ And, and others have shared their frustration with men, some of which I agreed with and some of which secretly I was like, what? You know, they were like, like one time there were people shitting on men for sitting in front of the pole and not tipping.
+
+1329
+03:35:49,360 --> 03:36:05,360
+ And I was like, why is that wrong? Because if you're going to come into a strip club, you tip, that's what you do. And I'm like, says who, you know, it's like, and then another, another dancer was like, oh, I don't like tips at the pole because it's, it's harder to pick up the ones and they give you less, I'd rather have a dance.
+
+1330
+03:36:05,360 --> 03:36:21,360
+ So, you know, the, the, the, the ideas and the women that are in there are obviously really crazy and judging women based on dancers is a horrible idea. Because, you know, they're all in a state of, they're all in some state that's brought them to the, to the floor for one reason or another.
+
+1331
+03:36:21,360 --> 03:36:37,360
+ And honestly, they're, you know, they're, they're great people if you get to know some of them, but at the end of the day, they've been, they've been tainted, they've been tainted by their, their interactions with men there. And, and it was very, it was very hard to come to that realization.
+
+1332
+03:36:37,360 --> 03:36:44,360
+ So I was like, I was like, I'm, first of all, I'm not interested in writing that book at all. If I, if I go back to the club, it's going to be to have dinner.
+
+1333
+03:36:44,360 --> 03:36:58,360
+ Because they have great dinner, by the way. They have really great dinner. I'll go by the club and I'll have dinner and I'll enjoy the scenery and, and I'm, I'm not going to work on that book anymore.
+
+1334
+03:36:58,360 --> 03:37:17,360
+ I'm going to save them wrong. Be a white knight. The problem stuff that I have is that I have white knight syndrome. I have white knight syndrome because it's because of trauma from my life not being able to save people when I was a kid. So I have it. I have white knight. I have sugar daddy syndrome. I want to do this stuff. I want to, I'm a caregiver. I'm, you know, cuddle with me. I'll take care of you kind of guy.
+
+1335
+03:37:17,360 --> 03:37:34,360
+ So I am like, you know, I am like prime sip target number one in the club because, you know, all they have to do is, I mean, seriously, looking at it from that perspective, I'm like, no, I'm a target. I'm a fucking target.
+
+1336
+03:37:34,360 --> 03:37:46,360
+ And, and, you know, it's, but I've known I was a target and that was, that kind of made it okay because I participated in it. I like elected to do it as opposed to, you know, getting embarrassed and rejected.
+
+1337
+03:37:46,360 --> 03:38:00,360
+ And, you know, I could I make my own in nightclub? Yes. I'm too old for nightclubs. That's not my scene right now. I would probably rather go to a live music concert or something. But, but yeah.
+
+1338
+03:38:00,360 --> 03:38:15,360
+ Yeah. Yeah. Hey, how you doing? So, yeah, I'm like, you know, I just, it's like, yeah, I just put a target on my head. It's like, you know, flash the cash around. Oh, hey, let's go after that, dude.
+
+1339
+03:38:15,360 --> 03:38:28,360
+ I mean, I did a lot of experiments, like literally walk around the club, just holding, just holding a fat sack. And you can, you can almost lead the girls around the club just by pulling cash out and putting it in your hand and walking around.
+
+1340
+03:38:28,360 --> 03:38:36,360
+ I did it as an experiment. And I did it twice, actually. Every single time it works. Every single time I can be going to the restroom. It doesn't matter.
+
+1341
+03:38:36,360 --> 03:38:55,360
+ If you have cash in your hand and you're walking, it's like blood in the water. It's like, oh, I keep making, I keep making the comparison to sharks because it was, it's very much a shark attack.
+
+1342
+03:38:55,360 --> 03:39:08,360
+ Now, they're, you know, I think it goes without saying that they're, I mean, they're literally hundreds and hundreds of girls, and that's called that I go to. And not all of them are the same that I know for a fact.
+
+1343
+03:39:08,360 --> 03:39:17,360
+ And there are a few of them that are more real. They seem more real to me. They might just be better actors.
+
+1344
+03:39:17,360 --> 03:39:33,360
+ And, you know, so, so, so there. But, but yeah, so, I don't know where I was talking about that. I've just been going through the, lately I've just been going through the whole woman.
+
+1345
+03:39:33,360 --> 03:39:52,360
+ The real takeaway about that is that I am perfectly content to just do, you know, go ride my bike. Go ride my bike and have some fun with y'all and get a little bit healthy and watch the sunset, you know, and go to live music and stuff like that.
+
+1346
+03:39:52,360 --> 03:40:07,360
+ I pretty much given up my goal to write. And that's kind of sad because, you know, that was, that was something that really interested me.
+
+1347
+03:40:07,360 --> 03:40:16,360
+ But if I were to write the book now, it would be, I think there's a couple, there's a couple women that are extremely intelligent in the club, like PhD intelligent.
+
+1348
+03:40:16,360 --> 03:40:29,360
+ And they've always been looking at me with a certain amount of suspicion about what I was writing. And I'm not doing this because of them, but in respect to the people that were in there.
+
+1349
+03:40:29,360 --> 03:40:37,360
+ Maybe I miss play though. Yeah, they have better luck just being more active in circles. You're already looking at. Yeah. Well, the first thing to know is that I'm not looking for a relationship.
+
+1350
+03:40:37,360 --> 03:40:48,360
+ Right. So I'm not, I'm not looking for a relationship. I think a lot of men are not looking for relationships. They just, they just want to have fun. They just want a company.
+
+1351
+03:40:48,360 --> 03:40:59,360
+ You know, they may want to dance or something. They probably want sex. You know, I wish it was Logan's running. You could dial up a sex partner.
+
+1352
+03:40:59,360 --> 03:41:13,360
+ You guys don't even know that reference. So, so yeah. Anyway, because I still want to have sex with women. And it's been a long time.
+
+1353
+03:41:13,360 --> 03:41:22,360
+ So, I'm just going to put that out there. I'm just going to put that out there. I'm an old man. I'm keeping myself in pretty good shape.
+
+1354
+03:41:22,360 --> 03:41:30,360
+ Yes, I still want to have sex with women. Am I willing to do what it takes to have sex with women? I don't know.
+
+1355
+03:41:30,360 --> 03:41:36,360
+ We're our gatekeepers of the sex men or gatekeepers of relationships. Ooh, that's interesting.
+
+1356
+03:41:36,360 --> 03:41:46,360
+ Yeah. Okay. Back to work. I got to get back to work. Um, searching for karaoke's part two.
+
+1357
+03:41:46,360 --> 03:41:52,360
+ If karaoke were hotter, I would have searched for her.
+
+1358
+03:41:52,360 --> 03:42:05,360
+ The hardest part of this whole thing is finding people that are close to 60 year old who are attractive and not taken or it's very, very hard.
+
+1359
+03:42:05,360 --> 03:42:14,360
+ Very difficult. So, anyway, I'm not, I'm not searching right now. I'm just, I'm just playing.
+
+1360
+03:42:14,360 --> 03:42:19,360
+ Rob, you're the real one. Oh, that's nice. Thank you.
+
+1361
+03:42:19,360 --> 03:42:28,360
+ Um, I mean, I try to be, but back to work. So, that was some fun, long time conversation. It's probably time for us to go back to work now, everybody.
+
+1362
+03:42:28,360 --> 03:42:32,360
+ There has to be a physical attraction for sure. I'm running into that issue right now. Yeah.
+
+1363
+03:42:32,360 --> 03:42:35,360
+ Uh, I met there's so many nightclubs and bars.
+
+1364
+03:42:35,360 --> 03:42:42,360
+ Uh, a lot of people have met them. And, and when I was single before, I met several very interesting people and bars.
+
+1365
+03:42:42,360 --> 03:42:49,360
+ And, and church actually, and I started a paddle board meetup and I met a lot of people in on that too.
+
+1366
+03:42:49,360 --> 03:43:04,360
+ So, I thought about doing the whole auto, you know, dating scene like that. And if, if for no other reason to find a fuck buddy, I respect, which I actually did find after my first marriage when I was single, I did find a fuck buddy.
+
+1367
+03:43:04,360 --> 03:43:22,360
+ And we, we, is that we went through, I won't talk about it too much, but we went through her first date or two and she was just super ready to go and, and, uh, and then, but it became clear that we, we did you go.
+
+1368
+03:43:22,360 --> 03:43:29,360
+ This was a long time ago. Yeah. So, yeah, that was a long time ago.
+
+1369
+03:43:29,360 --> 03:43:35,360
+ I bet she's still out there though. She was really cute.
+
+1370
+03:43:35,360 --> 03:43:51,360
+ But I just, we just knew it wasn't going to work. We knew it. We knew it wasn't going to work, but everyone saw how everyone saw how we were getting horny and was like, "Hey, you want to watch a movie?"
+
+1371
+03:43:51,360 --> 03:44:01,360
+ So, we drink wine and watch, I don't know, Drake, you know, what's the vent, what's the revenge money, Crisco?
+
+1372
+03:44:01,360 --> 03:44:08,360
+ We drink wine, drink count of money, Crisco, and fuck, and then we go home the next morning.
+
+1373
+03:44:08,360 --> 03:44:13,360
+ I don't, I don't have a contact here from race anymore.
+
+1374
+03:44:13,360 --> 03:44:15,360
+ I started having like a lot of...
+

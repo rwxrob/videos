@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:03,360
+ but it only does the top level, my friends, okay?
+
+2
+00:00:03,360 --> 00:00:05,800
+ It only does the top level, and it's not that much slower,
+
+3
+00:00:05,800 --> 00:00:07,360
+ depending on how much you put in here.
+
+4
+00:00:07,360 --> 00:00:10,240
+ Now, if you put a lot of stuff in here,
+
+5
+00:00:10,240 --> 00:00:11,760
+ yeah, but here's the problem.
+
+6
+00:00:11,760 --> 00:00:14,080
+ It doesn't, so really all you need is a top level,
+
+7
+00:00:14,080 --> 00:00:15,040
+ and here's why.
+
+8
+00:00:15,040 --> 00:00:17,520
+ So let's say I have config, right?
+
+9
+00:00:17,520 --> 00:00:19,120
+ So I'm gonna see it into my config,
+
+10
+00:00:19,120 --> 00:00:20,960
+ but I have a subdirectory in there.
+
+11
+00:00:20,960 --> 00:00:24,440
+ Tab, I get tab completion for that directory,
+
+12
+00:00:24,440 --> 00:00:27,960
+ so then I can go into arch, and I'm good, you know?
+

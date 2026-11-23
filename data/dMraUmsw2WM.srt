@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:07,640
+ This is the first video of the beta boost and I wanted to just throw this into the beginning.
+
+2
+00:00:07,640 --> 00:00:13,720
+ We've already gotten into the boost this week and we've kind of re-thought it a lot.
+
+3
+00:00:13,720 --> 00:00:18,240
+ But I wanted to come back and pick a video that comes at the very beginning that says
+
+4
+00:00:18,240 --> 00:00:20,240
+ what you need to do the boost.
+
+5
+00:00:20,240 --> 00:00:25,240
+ So there's no missed expectation here and there's nobody who thinks that they can just
+
+6
+00:00:25,240 --> 00:00:27,040
+ do this for nothing.
+
+7
+00:00:27,040 --> 00:00:28,080
+ And I'm not talking about me.
+
+8
+00:00:28,080 --> 00:00:29,240
+ I'm talking about you.
+
+9
+00:00:29,240 --> 00:00:36,080
+ So in order for you to even begin doing any of this learning that takes you down potentially
+
+10
+00:00:36,080 --> 00:00:40,180
+ a tech career path, you've got to have a computer.
+
+11
+00:00:40,180 --> 00:00:46,040
+ And it's kind of odd that I have to say this, but it should be obvious.
+
+12
+00:00:46,040 --> 00:00:48,400
+ You need a computer, but the other things are not so obvious.
+
+13
+00:00:48,400 --> 00:00:54,480
+ You need to have GitHub and you need to have a GitHub copilot subscription.
+
+14
+00:00:54,480 --> 00:01:00,240
+ I anticipate a lot of hate in the comments about saying this, but again, the focus of
+
+15
+00:01:00,240 --> 00:01:08,580
+ the beginner boost is getting you potentially a tech career in 2026 and you cannot do that
+
+16
+00:01:08,580 --> 00:01:14,180
+ without knowing how to use GitHub and how to use an AI.
+
+17
+00:01:14,180 --> 00:01:17,280
+ Are there jobs out there that don't require that?
+
+18
+00:01:17,280 --> 00:01:21,520
+ Yeah, but there's very few of them and that number is getting smaller.
+
+19
+00:01:21,520 --> 00:01:29,600
+ Just this week, Oracle laid off 30,000 employees because AI and those people don't know how
+
+20
+00:01:29,600 --> 00:01:31,120
+ to use AI.
+
+21
+00:01:31,120 --> 00:01:39,440
+ You cannot get started down a career tech path without an AI and your number one skill
+
+22
+00:01:39,440 --> 00:01:45,880
+ above everything else is knowing how to leverage an AI to your advantage specifically protect
+
+23
+00:01:45,880 --> 00:01:47,680
+ things.
+
+24
+00:01:47,680 --> 00:01:50,720
+ And we're going to talk a lot more about this later.
+
+25
+00:01:50,720 --> 00:01:54,760
+ And then the last thing that you're going to need to be willing to do is sacrifice at
+
+26
+00:01:54,760 --> 00:01:59,480
+ least an hour a day of your time, sacrifice slash invest.
+
+27
+00:01:59,480 --> 00:02:06,600
+ If you are not willing or able to put at least an hour of AI assisted learning into your
+
+28
+00:02:06,600 --> 00:02:13,920
+ day, there is no way you will ever be able to work in tech, let alone any other job.
+
+29
+00:02:13,920 --> 00:02:17,080
+ You're going to need to put at least that many hours into it.
+
+30
+00:02:17,080 --> 00:02:22,360
+ If you think about it, it's really not unrealistic, I mean, going to college is an absolute waste
+
+31
+00:02:22,360 --> 00:02:23,600
+ of time for most people.
+
+32
+00:02:23,600 --> 00:02:27,080
+ Think about how much time they put into just going to college.
+
+33
+00:02:27,080 --> 00:02:34,200
+ So if you're serious, then you need to have a computer, you need to have GitHub with co-pilot
+
+34
+00:02:34,200 --> 00:02:38,600
+ and you need to have the commitment and the motivation and the time to put in an hour
+
+35
+00:02:38,600 --> 00:02:40,640
+ a day and patience.
+
+36
+00:02:40,640 --> 00:02:46,280
+ I mean, patience goes without saying it's going to take you probably at least a year
+
+37
+00:02:46,280 --> 00:02:52,000
+ of hour a day to even get an entry level tech job.
+
+38
+00:02:52,000 --> 00:02:59,280
+ If this is too much for you to do or if you need a job now, then you need to do that first.
+
+39
+00:02:59,280 --> 00:03:05,840
+ You know, reduce your rent, get a roommate, get a third job, whatever it takes, you're
+
+40
+00:03:05,840 --> 00:03:09,720
+ going to have to do that before you can even begin to do these other things.
+
+41
+00:03:09,720 --> 00:03:17,480
+ So I don't want to dissuade you, but it has been somewhat frustrating being unable to
+
+42
+00:03:17,480 --> 00:03:21,040
+ help people who aren't willing to do these minimal things.
+
+43
+00:03:21,040 --> 00:03:22,800
+ What type of computer should you get?
+
+44
+00:03:22,800 --> 00:03:24,040
+ That's an easy one.
+
+45
+00:03:24,040 --> 00:03:29,840
+ Just go down to, there's a video on this, go down to a Target or a Walmart and buy a $250
+
+46
+00:03:29,840 --> 00:03:33,920
+ Windows 11 computer and get started.
+
+47
+00:03:33,920 --> 00:03:37,320
+ If you have the money, which you probably don't, but if you have the money, then get
+
+48
+00:03:37,320 --> 00:03:43,840
+ a Mac, the end, no, don't get a computer and put Linux on it.
+
+49
+00:03:43,840 --> 00:03:46,160
+ That's unnecessary at this point.
+
+50
+00:03:46,160 --> 00:03:48,560
+ Eventually you might want to do that, but not now.
+
+51
+00:03:48,560 --> 00:03:52,880
+ Right now you're just trying to decide if you want a tech job and you need to get the
+
+52
+00:03:52,880 --> 00:03:57,120
+ minimum tools necessary to research and find out what you want to do.
+
+53
+00:03:57,120 --> 00:04:04,080
+ So before I can even talk to you about anything you need to have preferably a laptop, something
+
+54
+00:04:04,080 --> 00:04:08,880
+ to put that you can put software on, you need to have GitHub with Copilot subscription.
+
+55
+00:04:08,880 --> 00:04:13,400
+ And if you don't know how to add a GitHub account with a Copilot subscription, you probably
+
+56
+00:04:13,400 --> 00:04:15,160
+ shouldn't go into tech.
+
+57
+00:04:15,160 --> 00:04:19,240
+ If you can't figure that out on your own, you probably should just not even continue
+
+58
+00:04:19,240 --> 00:04:20,480
+ with this.
+
+59
+00:04:20,480 --> 00:04:23,520
+ You need to know how to go learn how to do that.
+
+60
+00:04:23,520 --> 00:04:26,240
+ I'm not going to tell you how, because as soon as I tell you how in a video it's going
+
+61
+00:04:26,240 --> 00:04:27,920
+ to be out of date.
+
+62
+00:04:27,920 --> 00:04:32,840
+ So it's more important that I tell you what you need to do so then you can go do it and
+
+63
+00:04:32,840 --> 00:04:37,180
+ that I encourage you to do what's necessary to do the learning on your own.
+
+64
+00:04:37,180 --> 00:04:40,520
+ And then again, you need to put an hour a day of AI assistant learning and that I'll
+
+65
+00:04:40,520 --> 00:04:46,040
+ show you how to do the AI assistant learning a little bit so that you can get started.
+
+66
+00:04:46,040 --> 00:04:50,840
+ Because that I do have an opinion about the best way to do that and I will share that
+
+67
+00:04:50,840 --> 00:04:55,160
+ with you, but you can obviously you're in charge of your own destiny here.
+
+68
+00:04:55,160 --> 00:04:59,440
+ There's a lot of other, you know, welcoming, friendly videos that are to come that'll talk
+
+69
+00:04:59,440 --> 00:05:04,240
+ about, you know, finding yourself and knowing the tech careers for you and Linux command
+
+70
+00:05:04,240 --> 00:05:07,280
+ line and all the fun things and all the stories and everything.
+
+71
+00:05:07,280 --> 00:05:09,960
+ But honestly, skip all of that.
+
+72
+00:05:09,960 --> 00:05:12,800
+ That's just a waste of time if you can't do these things first.
+

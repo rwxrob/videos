@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:09,560
+ Exactly, Python gets all the credit for C. It's just not fair. It's not fair. You know,
+
+2
+00:00:09,560 --> 00:00:18,520
+ Humble C is over there getting all the work done, Sigma style. Meanwhile, the khaki-wearing
+
+3
+00:00:18,520 --> 00:00:24,280
+ Python programming language, you know, gets the raise and all the marketing and all the
+
+4
+00:00:24,280 --> 00:00:28,520
+ interviews. [laughs]
+

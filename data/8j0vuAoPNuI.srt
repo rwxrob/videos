@@ -1,0 +1,472 @@
+1
+00:00:00,000 --> 00:00:04,960
+ This is a tough video to make, but I want to make it really quickly this morning because
+
+2
+00:00:04,960 --> 00:00:09,240
+ I just got this since I started streaming again.
+
+3
+00:00:09,240 --> 00:00:19,260
+ I've had a lot of people reach out in Discord and in emails and as much as I want to respond
+
+4
+00:00:19,260 --> 00:00:26,320
+ to them in person and take every single, there's a lot of panic out there, more panic now
+
+5
+00:00:26,320 --> 00:00:33,320
+ than in a long time and I think there's a lot of justification for that panic, but let's
+
+6
+00:00:33,320 --> 00:00:37,040
+ jump right into this particular question from somebody.
+
+7
+00:00:37,040 --> 00:00:41,480
+ If you have a serious life decision that you're trying to contemplate and you are okay with
+
+8
+00:00:41,480 --> 00:00:47,960
+ me sharing anonymously online, I'm happy to make a video about it and I'm open to you
+
+9
+00:00:47,960 --> 00:00:53,760
+ sending me such questions in Discord or in email and I'll try to get to them as best
+
+10
+00:00:53,760 --> 00:00:59,400
+ as I can, however I cannot promise you that I'm going to have the answer or that I'm even
+
+11
+00:00:59,400 --> 00:01:05,720
+ going to be able to get to the response, but given the importance of this email, I felt
+
+12
+00:01:05,720 --> 00:01:10,120
+ like this one specifically needed a more public response.
+
+13
+00:01:10,120 --> 00:01:12,980
+ It says, "Hi Rob, I've been following your streams for about a year and your approach
+
+14
+00:01:12,980 --> 00:01:14,560
+ to Linux learning has helped me a lot.
+
+15
+00:01:14,560 --> 00:01:17,880
+ I'm facing a big decision on what value you're on its take.
+
+16
+00:01:17,880 --> 00:01:22,080
+ I'm a software engineer graduating from Tunisia, first class in my class, July 2026.
+
+17
+00:01:22,080 --> 00:01:27,640
+ I'm admitted to a one year master's program and applied to computer science at Grand Valley
+
+18
+00:01:27,640 --> 00:01:32,000
+ State University in Michigan starting in January 2027.
+
+19
+00:01:32,000 --> 00:01:37,640
+ It would cost about $30,000 paid by my family, no scholarship or assistance.
+
+20
+00:01:37,640 --> 00:01:42,040
+ The goal is to become a cloud DevOps engineer in the US that we would give me an option
+
+21
+00:01:42,040 --> 00:01:45,280
+ to work there after graduation, but nothing's guaranteed.
+
+22
+00:01:45,280 --> 00:01:48,440
+ The job market's tough, immigration rules are uncertain and I'm worried about spending
+
+23
+00:01:48,440 --> 00:01:50,800
+ my family's money without a real return.
+
+24
+00:01:50,800 --> 00:01:54,560
+ If you were in my place, would you invest $30,000 and go or stay home and get experience
+
+25
+00:01:54,560 --> 00:01:58,760
+ building Linux cloud skills and look for international opportunities from there?
+
+26
+00:01:58,760 --> 00:02:01,240
+ Even a few lines would mean a lot.
+
+27
+00:02:01,240 --> 00:02:05,840
+ The first impression I have of this is that this person already knows the answer.
+
+28
+00:02:05,840 --> 00:02:10,200
+ You can tell from their last line, you can tell from the last line, if you were in my
+
+29
+00:02:10,200 --> 00:02:14,360
+ place, would you invest the $30,000 and go or stay home and get experience building Linux
+
+30
+00:02:14,360 --> 00:02:17,960
+ cloud skills and look for international opportunities from there?
+
+31
+00:02:17,960 --> 00:02:20,080
+ They already know the answer.
+
+32
+00:02:20,080 --> 00:02:28,880
+ The answer is don't pay $30,000 to go to America and maybe get a chance to stay here,
+
+33
+00:02:28,880 --> 00:02:30,960
+ especially if you're in Tunisia.
+
+34
+00:02:30,960 --> 00:02:41,480
+ $30,000 in Tunisia is a lot more valuable than $30,000 for a master's program in Michigan.
+
+35
+00:02:41,480 --> 00:02:45,640
+ Some state university in Michigan.
+
+36
+00:02:45,640 --> 00:02:49,600
+ The short answer is stay home.
+
+37
+00:02:49,600 --> 00:02:55,840
+ Stay home and invest a fraction of that money in your own home lab.
+
+38
+00:02:55,840 --> 00:03:05,720
+ For $10,000 or even $6,000, you can build a kickass home lab with a really quality GPU.
+
+39
+00:03:05,720 --> 00:03:12,560
+ You could demonstrate your ability to use AI, to build AI models, to set up your own DevOps
+
+40
+00:03:12,560 --> 00:03:23,920
+ at home, and you can diagram those things, you can show your passion for what's a thing,
+
+41
+00:03:23,920 --> 00:03:27,000
+ and you don't have to spend that money on a college.
+
+42
+00:03:27,000 --> 00:03:33,440
+ In fact, my general rule is get the least amount of college education necessary.
+
+43
+00:03:33,440 --> 00:03:40,680
+ You already have it, you have your set of semesters, that means you already have a software engineering
+
+44
+00:03:40,680 --> 00:03:46,920
+ degree, and you're looking to get a master's to solidify your place in the industry.
+
+45
+00:03:46,920 --> 00:03:50,080
+ That is not going to get you a job.
+
+46
+00:03:50,080 --> 00:03:54,280
+ It might get you a specific type of job, it might get you a professorship, but it is not
+
+47
+00:03:54,280 --> 00:03:56,880
+ going to get you a specific job.
+
+48
+00:03:56,880 --> 00:04:06,240
+ If you're going for software engineering, specifically jobs that are very high-paid, that have really
+
+49
+00:04:06,240 --> 00:04:14,200
+ gatekeeping types of organizations, like Google, they prefer masters and stuff like that.
+
+50
+00:04:14,200 --> 00:04:20,000
+ Chris Nova talks a lot about that before she passed, and she worked for Google and all
+
+51
+00:04:20,000 --> 00:04:25,960
+ those places without having all that fancy education.
+
+52
+00:04:25,960 --> 00:04:34,800
+ My default advice to everyone is to really think seriously about going into debt for college.
+
+53
+00:04:34,800 --> 00:04:39,400
+ College in America has become an absolute scam.
+
+54
+00:04:39,400 --> 00:04:41,160
+ It is a fraud.
+
+55
+00:04:41,160 --> 00:04:49,040
+ They take so much money, people go into so much debt, which cannot be dismissed through bankruptcy,
+
+56
+00:04:49,040 --> 00:04:55,760
+ and because of the laws and the lobbyists, they expend billions of dollars on sports
+
+57
+00:04:55,760 --> 00:05:01,240
+ and shit to get you to go to the college and waste your money on them, with the hope that
+
+58
+00:05:01,240 --> 00:05:04,080
+ you might get a job at the end.
+
+59
+00:05:04,080 --> 00:05:10,080
+ Unfortunately, having a degree of any kind is required in America to make about 20 percent
+
+60
+00:05:10,080 --> 00:05:13,080
+ more, but they don't care about the degree.
+
+61
+00:05:13,080 --> 00:05:18,440
+ In fact, computer science doesn't teach you anything except for the science of computers,
+
+62
+00:05:18,440 --> 00:05:19,440
+ how computers work.
+
+63
+00:05:19,440 --> 00:05:23,800
+ It doesn't teach you how to use AI, it doesn't teach you how to make an application, it doesn't
+
+64
+00:05:23,800 --> 00:05:27,520
+ teach you how to get a job, it doesn't teach you the social skills, it doesn't teach you
+
+65
+00:05:27,520 --> 00:05:32,800
+ the really essential communication skills that are required to get an interview and to keep
+
+66
+00:05:32,800 --> 00:05:33,800
+ a job.
+
+67
+00:05:33,800 --> 00:05:37,880
+ You can talk to people over and over again and they will tell you every time your technical
+
+68
+00:05:37,880 --> 00:05:42,720
+ hard skills are valuable, but more importantly, they're hiring liberal arts.
+
+69
+00:05:42,720 --> 00:05:47,160
+ AI people are hiring liberal arts majors, people who know how to think because they want people
+
+70
+00:05:47,160 --> 00:05:48,560
+ who can communicate.
+
+71
+00:05:48,560 --> 00:05:52,920
+ It's more important that you learn how to speak English impeccably well, that you're able
+
+72
+00:05:52,920 --> 00:06:00,280
+ to communicate well in an email, that you can use AI, that you can apply AI in your workplace.
+
+73
+00:06:00,280 --> 00:06:05,360
+ Those skills are way, way more important than a master's degree.
+
+74
+00:06:05,360 --> 00:06:09,360
+ You might want to come to America and you have this idea, "Well, if I do this, this is going
+
+75
+00:06:09,360 --> 00:06:14,520
+ to be amazing," but most likely, you're going to be in debt and you're not going to have
+
+76
+00:06:14,520 --> 00:06:18,400
+ a job, and it's not worth the risk.
+
+77
+00:06:18,400 --> 00:06:22,600
+ If there's even a 10 percent risk that you're going to end up in debt with no job stuck in
+
+78
+00:06:22,600 --> 00:06:27,320
+ America, potentially getting kicked out suddenly after you made a bunch of friends here, no,
+
+79
+00:06:27,320 --> 00:06:34,080
+ don't do it, I would never do this, I would never, ever do this.
+
+80
+00:06:34,080 --> 00:06:38,600
+ You got to understand, I paid, I worked three jobs to put myself through college.
+
+81
+00:06:38,600 --> 00:06:41,920
+ I got a Pell Grant and everything, and that was in the 90s back when college didn't cost
+
+82
+00:06:41,920 --> 00:06:42,920
+ very much.
+
+83
+00:06:42,920 --> 00:06:52,080
+ 30 grand for that is pretty cheap for a master's program, for a state school, but I would say
+
+84
+00:06:52,080 --> 00:06:54,160
+ don't go into debt for this.
+
+85
+00:06:54,160 --> 00:06:57,760
+ The most important thing you can do, and I have had
+
+86
+00:06:57,760 --> 00:07:03,120
+a CTO tell me this, I had a CTO specifically say that they would hire somebody with a home
+
+87
+00:07:03,120 --> 00:07:10,120
+ lab who could demonstrate their passion and their ability to make the DevOps work at home,
+
+88
+00:07:10,120 --> 00:07:15,080
+ then somebody with a degree of any kind, and that was coming directly from a CTO for a very
+
+89
+00:07:15,080 --> 00:07:19,600
+ large investment bank, a conservative company.
+
+90
+00:07:19,600 --> 00:07:25,440
+ My answer, and the short version of my answer is don't get a master's unless you really,
+
+91
+00:07:25,440 --> 00:07:29,760
+ really want a master's because you just want the master's, not because you want a job.
+
+92
+00:07:29,760 --> 00:07:31,880
+ The master's is not going to help you get a job, the end.
+
+93
+00:07:31,880 --> 00:07:33,320
+ It's just not.
+
+94
+00:07:33,320 --> 00:07:39,000
+ It is not my ex-wife, we spent $3,000 traveling all around for her to get a master's in fine
+
+95
+00:07:39,000 --> 00:07:42,400
+ arts because she thought she would get a better job and she'd become better, she had more
+
+96
+00:07:42,400 --> 00:07:43,400
+ opportunities as an artist.
+
+97
+00:07:43,400 --> 00:07:45,320
+ You know what she ended up doing instead?
+
+98
+00:07:45,320 --> 00:07:50,320
+ She went to work for a residency program, she had a small residency there while she was
+
+99
+00:07:50,320 --> 00:07:53,320
+ there, and now she's a vice president of the place, the creative director of the entire
+
+100
+00:07:53,320 --> 00:07:54,320
+ thing.
+
+101
+00:07:54,320 --> 00:07:59,320
+ She says herself, if she got an MFA, it would have been a huge disaster.
+
+102
+00:07:59,320 --> 00:08:03,420
+ One of the other people who got into the residency program that she applied for, she actually
+
+103
+00:08:03,420 --> 00:08:09,040
+ mentored her and she ended up getting into one of the MFA programs that turned her down.
+
+104
+00:08:09,040 --> 00:08:11,560
+ Instead of her getting an MFA, you know what she got?
+
+105
+00:08:11,560 --> 00:08:17,840
+ She got her own private art showing in the gallery where the ambassador to Germany, from
+
+106
+00:08:17,840 --> 00:08:24,280
+ Germany to the United States, came to visit her presentation and I remember her saying,
+
+107
+00:08:24,280 --> 00:08:30,920
+ this is ridiculous that this experience is so much more valuable, plus I'm getting paid
+
+108
+00:08:30,920 --> 00:08:33,040
+ for it.
+
+109
+00:08:33,040 --> 00:08:41,760
+ Even the job experience is always better than education, always, always better, it's always
+
+110
+00:08:41,760 --> 00:08:42,760
+ better.
+
+111
+00:08:42,760 --> 00:08:47,400
+ The problem is that it's harder because you have to take the initiative and the reason
+
+112
+00:08:47,400 --> 00:08:50,240
+ you're getting the job and you're getting the money is because you're demonstrating
+
+113
+00:08:50,240 --> 00:08:52,040
+ that you're taking initiative.
+
+114
+00:08:52,040 --> 00:08:56,240
+ If you just like flop over and say, well, I'll pay some program to tell me what to do
+
+115
+00:08:56,240 --> 00:09:00,480
+ and then I'll get a job from that, it doesn't demonstrate the same amount of initiative
+
+116
+00:09:00,480 --> 00:09:05,120
+ of you for a very scrappy, small amount of money saying, yeah, and I made that entire
+
+117
+00:09:05,120 --> 00:09:10,920
+ home lab for $1,000 and they're like, when can you come do that for us?
+
+118
+00:09:10,920 --> 00:09:13,640
+ So my answer is do not do this, don't do it. Stay home and build a home lab.
+

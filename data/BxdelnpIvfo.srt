@@ -1,0 +1,424 @@
+1
+00:00:00,000 --> 00:00:08,640
+ or recording. All right, this is a quick video about why you want to use VIM AF.
+
+2
+00:00:10,560 --> 00:00:19,760
+ Yeah, like DAF, YAF. There's also IF, which is inner function, but it's not as useful and it's
+
+3
+00:00:19,760 --> 00:00:27,440
+ not as well supported across the board. And I want to show you how to enable this. It's actually
+
+4
+00:00:28,400 --> 00:00:33,920
+ not enabled in Perl. I actually made it enabled in Perl using text objects. But this is about
+
+5
+00:00:33,920 --> 00:00:39,120
+ something called text objects. So let me show you the problem. You've got a function.
+
+6
+00:00:40,320 --> 00:00:45,680
+ This is a particular problem. If you're not fully integrated in your AI, you want to use
+
+7
+00:00:45,680 --> 00:00:50,880
+ copy and paste snippets and functions back and forth between another thing. And I know that
+
+8
+00:00:50,880 --> 00:00:54,320
+ that's not the best way to do it. I know that there's a better command line way to do it.
+
+9
+00:00:55,520 --> 00:01:01,040
+ Unfortunately, that doesn't count and you can't use it. It's a whole bit of a video about,
+
+10
+00:01:01,040 --> 00:01:05,680
+ I got used chatubt still for this and I don't use claud. Because I don't care and I already
+
+11
+00:01:05,680 --> 00:01:09,120
+ got my $20 a month for that and I just want to use the same thing. So unfortunately,
+
+12
+00:01:09,120 --> 00:01:12,880
+ that means I have to use a different window. As far as I know now, I think there is another way
+
+13
+00:01:12,880 --> 00:01:17,280
+ to do that. We'll do another video on that. But anyway, so here I have, I went to, I went to,
+
+14
+00:01:17,280 --> 00:01:24,960
+ there's some functions that you read right in the script. And so I handed it off to my AI.
+
+15
+00:01:24,960 --> 00:01:30,480
+ And this is just one workflow for why you would need this. You know, deleting and moving around
+
+16
+00:01:30,480 --> 00:01:37,120
+ functions that have spaces and blank lines in them is a problem for VIM users. It has been for a long
+
+17
+00:01:37,120 --> 00:01:44,320
+ time. Because unless you have to have a, your VIM can figure it to use to know about the syntax
+
+18
+00:01:44,320 --> 00:01:49,440
+ of a function, what a function looks like, right? So for me, you know, I can go, that's worked forever.
+
+19
+00:01:49,440 --> 00:01:54,240
+ So here we have, this is a replace your YouTube, the AI with this one, right? So I click over here
+
+20
+00:01:54,240 --> 00:01:58,560
+ to click copy and that gives me it in my bumper. And in this case, it's fine because there's no
+
+21
+00:01:58,560 --> 00:02:05,040
+ spaces here. So I can go look for the YouTube API. Actually, that's not it. Let me, let me,
+
+22
+00:02:05,040 --> 00:02:10,720
+ let me find the actual one. So YouTube API, here it is. Okay, so here we got this function. And I
+
+23
+00:02:10,720 --> 00:02:15,120
+ don't even know what the difference is. I guess I could look really quick. It looks like it's more
+
+24
+00:02:15,120 --> 00:02:20,400
+ or less the same. But anyway, so let's say I want to delete this, right? So from the middle of it, I do
+
+25
+00:02:20,400 --> 00:02:27,520
+ DAF. Now that just to lead you the entire thing and put it in my VIM buffer. But now I can do a
+
+26
+00:02:27,520 --> 00:02:33,120
+ system paste. So in this case, control C. And I paste the one that I copied from over here.
+
+27
+00:02:33,920 --> 00:02:40,000
+ So you see, see how nice that is? And if I just wanted to get, if I wanted to copy the whole thing,
+
+28
+00:02:40,000 --> 00:02:44,560
+ I could just do YAF. In fact, I can take the whole function and pass it to a command with
+
+29
+00:02:44,560 --> 00:02:50,320
+ exclamation point AF. And then I can, you know, pass that off. If I wanted to save that, I can,
+
+30
+00:02:50,320 --> 00:02:56,240
+ I can, you know, echo, or I could echo, I could tap that to temp. I mean, there's, there's a million
+
+31
+00:02:56,240 --> 00:03:02,880
+ different things you can do there. I'm, or PV copy. That's another one, right? So like, if I have
+
+32
+00:03:02,880 --> 00:03:06,960
+ other ways of getting it into my buffer, PV, PV copy is the Mac way to get your buffer. But you
+
+33
+00:03:06,960 --> 00:03:12,400
+ could, you could send that entire function to your buffer by passing that, you know, exclamation
+
+34
+00:03:12,400 --> 00:03:17,600
+ point, you know, and then you can paste it back into your AI. I didn't want to do it. But that's,
+
+35
+00:03:17,600 --> 00:03:21,840
+ that's just, again, you know, there are better ways to get you to the AI. I don't want to hit
+
+36
+00:03:21,840 --> 00:03:26,000
+ comments that I'm a YouTube. Oh, you dummy, you should have just done this instead. I'm just trying
+
+37
+00:03:26,000 --> 00:03:31,360
+ to show you how to cut and paste entire functions and once and how it happens to be relevant when
+
+38
+00:03:31,360 --> 00:03:36,720
+ you're going back and forth between two windows. So here I have set YouTube live titles. So copy,
+
+39
+00:03:37,360 --> 00:03:44,240
+ I'm going to go look for a set YouTube live title. There is down here. Right. So this one,
+
+40
+00:03:44,240 --> 00:03:48,160
+ I have to delete it. It could be a head who knows how long it is, right? I don't want to have to go
+
+41
+00:03:48,160 --> 00:03:54,720
+ to get all that thing. So DAF. And now I just insert and I paste back my other one and I replaced
+
+42
+00:03:55,360 --> 00:04:01,120
+ those two functions. So then I can do a get dip to see what actually changed. If I wanted to
+
+43
+00:04:02,240 --> 00:04:09,920
+ get dip, show me that those, how those functions changed. And, you know, we can, you can see how
+
+44
+00:04:09,920 --> 00:04:14,160
+ I took out the tokens. And that's usually the best way to study those kind of things. So I just
+
+45
+00:04:14,160 --> 00:04:21,760
+ want to make a quick video about a app. So DAF, YAF, and you know, exclamation point a app.
+
+46
+00:04:21,760 --> 00:04:25,040
+ One other quick one, a lot of people don't know this. I had a friend tell me this the other day.
+
+47
+00:04:26,800 --> 00:04:31,280
+ You may not know about this, but if what if I want to comment out that entire function,
+
+48
+00:04:31,280 --> 00:04:39,600
+ I want to leave it there. Do you guys know this one? G-C-A-F. Yeah, I just did that.
+
+49
+00:04:40,400 --> 00:04:47,120
+ I commented out an entire function with one command, G-C-A-F. Now let's say I want to reactivate it,
+
+50
+00:04:47,120 --> 00:04:52,640
+ G-C-A-F. Well, that one goes against the next one. I'm going to undo that one.
+
+51
+00:04:54,960 --> 00:05:00,480
+ I thought it was, well, that works for paragraphs too, by the way. So I don't know why that wasn't
+
+52
+00:05:00,480 --> 00:05:05,600
+ working. That's it. I'll have to look into that one. But usually you can do G-C-A-P, G-C-A-P,
+
+53
+00:05:05,600 --> 00:05:10,480
+ and you'll be able to comment, uncomment, comment, uncomment, uncomment. But in this case,
+
+54
+00:05:10,480 --> 00:05:13,440
+ it's not doing it. I don't know why. If somebody knows, put it in the comment.
+
+55
+00:05:14,160 --> 00:05:19,600
+ This is only for Bash. So yeah, let's do this one right here. Let's see if we can do this one.
+
+56
+00:05:20,320 --> 00:05:26,880
+ G-C-A-F. Yeah, I want to undo that and then undo my last one. So I guess you could just
+
+57
+00:05:26,880 --> 00:05:32,960
+ undo it. There is a way to do it, but I think the text objects for this are not right. So
+
+58
+00:05:32,960 --> 00:05:35,920
+ how do you set this up so that it does all that if it's not doing it already?
+
+59
+00:05:36,560 --> 00:05:41,760
+ But before we leave the video, I want to show you the portions, the relevant portions of the VIMRC.
+
+60
+00:05:42,480 --> 00:05:45,120
+ If you go into my VIMRC, by the way, and you want to go into my dot files,
+
+61
+00:05:45,120 --> 00:05:50,560
+ rvichrobs/dot.vimrc, make sure you're looking at my cleanup branch right now,
+
+62
+00:05:50,560 --> 00:05:57,120
+ which is where I'm working on all this stuff. So here's this section that's relevant as it's
+
+63
+00:05:57,120 --> 00:06:01,600
+ posted in my plugins. That's right. I have a VIMRC and an init.lua,
+
+64
+00:06:02,160 --> 00:06:07,040
+ which I'll talk about in another video, but I do this because I want to use VIMRC at work.
+
+65
+00:06:07,040 --> 00:06:13,760
+ I don't have NeoVIM. I do, but I don't always have it. So I use VIMRC when I have it, and then
+
+66
+00:06:13,760 --> 00:06:17,680
+ I've got a lot of code in here that checks to see if there's NeoVIM on the machine and if not,
+
+67
+00:06:17,680 --> 00:06:22,720
+ I'm using that. So my init lua checks to see if I have a VIMRC and it does slow start up a little
+
+68
+00:06:22,720 --> 00:06:29,040
+ bit. That's my biggest complaint about NeoVIM right now. That and the blistering pace of change,
+
+69
+00:06:29,040 --> 00:06:35,440
+ where they break things all the time. But if you put, so here's the main relevant
+
+70
+00:06:37,360 --> 00:06:43,520
+ stuff you need. You need NeoVIM tree sitter and NeoVIM tree sitter text objects. Now,
+
+71
+00:06:43,520 --> 00:06:52,160
+ I've got a PR submitted against this project and even a tree sitter on project to add the pearl
+
+72
+00:06:54,800 --> 00:07:01,360
+ stuff to that. So I've done a lot of pouring of old Pearl code that submits to PBS. 19,
+
+73
+00:07:01,360 --> 00:07:05,520
+ which is this ancient batch system and I'm modernizing it to submit the slurm.
+
+74
+00:07:05,520 --> 00:07:09,360
+ And we have to do a lot of Pearl coding in there. So I'm working with that and actually added
+
+75
+00:07:10,640 --> 00:07:18,560
+ that line to do the AF thing, which you can go. That's actually Sam. I think I might have it
+
+76
+00:07:18,560 --> 00:07:25,120
+ somewhere. All right. So actually, if you want to do this without, you can just use my plugin
+
+77
+00:07:25,120 --> 00:07:30,640
+ as got it. But if you, because you can't do that with Pearl right now, it's not supported by NeoVIM.
+
+78
+00:07:30,640 --> 00:07:36,240
+ But if you use mine, then you'll be able to do it. Otherwise, you can just go edit the
+
+79
+00:07:37,760 --> 00:07:49,760
+ the NeoVIM lines of what mine does. I can't remember where I put it.
+
+80
+00:07:51,600 --> 00:07:54,320
+ I don't even know where it is. I just know that it's in the plugin now.
+
+81
+00:07:55,280 --> 00:08:00,800
+ Oh, that's probably why. Yeah, I got rid of my personalized one and I put it in the actual
+
+82
+00:08:00,800 --> 00:08:12,400
+ plugin, my version of the plugin. So what it was is it adds the idea of a function to Pearl
+
+83
+00:08:12,960 --> 00:08:20,320
+ so that when you do the AF or it doesn't have I up, but if you do AF, it knows what a Pearl
+
+84
+00:08:20,320 --> 00:08:27,280
+ function is and that was missing from the NeoVIM two-seater text object. So it's in this version
+
+85
+00:08:27,280 --> 00:08:31,920
+ of the plugin if you want to add it. If you're doing Pearl, that's really the only reason to
+
+86
+00:08:31,920 --> 00:08:35,520
+ do mine. Otherwise, it's usually the other one. And eventually that one, hopefully they'll get
+
+87
+00:08:35,520 --> 00:08:40,720
+ approved. It takes them. There's like PR from December that haven't been approved. Maybe they'll
+
+88
+00:08:40,720 --> 00:08:46,240
+ get there someday. But yeah, that's how and it works for everything, by the way. So like if I'm
+
+89
+00:08:47,440 --> 00:08:56,800
+ you know, doing go code, cd-boost, cd-monzai, it works everywhere, right? So we can do a monzai
+
+90
+00:08:56,800 --> 00:09:02,560
+ test, my go code. So here we have some example-based tests that got line spaces in them,
+
+91
+00:09:02,560 --> 00:09:07,280
+ everything, right? I mean, this stuff works already because this is always working go
+
+92
+00:09:07,280 --> 00:09:13,520
+ with or without the text objects from the NeoVIM. The go plugin has always done this and that's
+
+93
+00:09:13,520 --> 00:09:22,400
+ kind of spoiled me. That's why I was upset. G-C-A-P. Yeah, that one didn't. Now that's G-C-A-P. Let's
+
+94
+00:09:22,400 --> 00:09:27,840
+ see this. G-C-A-F. All right. So there we go. That can go. Now let's see. I want to see if the
+
+95
+00:09:27,840 --> 00:09:37,120
+ go one toggles G-C-A-F. No, it doesn't. It doesn't. Is it G-P-A-F?
+
+96
+00:09:41,120 --> 00:09:47,360
+ I don't know. But yeah. G-C-A-F. No, G-C-A-F.
+
+97
+00:09:48,960 --> 00:09:57,840
+ And then Y-A-F and D-A-F. Now, go-go's also got I-F, right? So I can do this. I can do D-I-F.
+
+98
+00:09:58,400 --> 00:10:01,040
+ And that's languages that have like a really intense
+
+99
+00:10:03,680 --> 00:10:10,080
+ signature line, like the argument line at the beginning. They usually benefit from having an
+
+100
+00:10:10,080 --> 00:10:14,560
+ I-F. That's what I just did there, right? So I did D-E-I-F and deleted the whole
+
+101
+00:10:14,560 --> 00:10:18,480
+ body of the function. I can actually rewrite it. If I want it, you know, as
+
+102
+00:10:18,480 --> 00:10:25,120
+ opposed to D-A-F, I wish it's the whole thing. So I think that's probably it for today on the
+
+103
+00:10:25,120 --> 00:10:28,960
+ particular thing. Let me know if you have questions or anything. If I'm missing something,
+
+104
+00:10:28,960 --> 00:10:34,400
+ particularly help me understand Y-G-C is not... I relatively recently learned about that. I really
+
+105
+00:10:34,400 --> 00:10:38,320
+ want to know why it's not toggling comments on and off. I'm doing something dumb. So if you
+
+106
+00:10:38,320 --> 00:10:46,640
+ know, let me know in the comments. Bye! Oh, I have to turn you off now. Here we go.
+

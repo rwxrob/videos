@@ -1,0 +1,1064 @@
+1
+00:00:00,000 --> 00:00:07,280
+ All right, so this is a quick video on how to set up links and you're like, what is links?
+
+2
+00:00:07,280 --> 00:00:16,240
+ Links is what lets you do a wicked fast searching that uses a question mark or just whatever.
+
+3
+00:00:16,240 --> 00:00:22,440
+ So question mark, what is links and I can just hit enter and I go down here and I say, what
+
+4
+00:00:22,440 --> 00:00:23,440
+ is links?
+
+5
+00:00:23,440 --> 00:00:30,440
+ My zero click info from Wikipedia and I get an answer in like two seconds.
+
+6
+00:00:30,440 --> 00:00:36,640
+ People would still be searching for this on the graphics browser if they were using it.
+
+7
+00:00:36,640 --> 00:00:39,680
+ And so yeah, this is what links is.
+
+8
+00:00:39,680 --> 00:00:45,680
+ Now there's many, many, many text based browsers and I'm not going to talk about them.
+
+9
+00:00:45,680 --> 00:00:51,360
+ I'm just going to say that I believe links is still the best for lots of reasons, but
+
+10
+00:00:51,360 --> 00:00:58,920
+ primarily because links allows you to really scan quickly.
+
+11
+00:00:58,920 --> 00:01:04,440
+ The other browser is trying to do a fair amount of like maintenance of like a table and stuff
+
+12
+00:01:04,440 --> 00:01:05,520
+ like that.
+
+13
+00:01:05,520 --> 00:01:10,880
+ And links is just super fast and uses the maximum amount of real estate.
+
+14
+00:01:10,880 --> 00:01:14,520
+ So it makes you the fastest and that's really why I like it.
+
+15
+00:01:14,520 --> 00:01:17,720
+ In fact, as I'm doing it right now, I'm doing it all with right hand.
+
+16
+00:01:17,720 --> 00:01:21,800
+ I'm browsing with my entire right hand using the vi bindings.
+
+17
+00:01:21,800 --> 00:01:27,000
+ I also believe I also use links instead of things like IntelliSense or built in help because
+
+18
+00:01:27,000 --> 00:01:29,160
+ it's so much faster.
+
+19
+00:01:29,160 --> 00:01:33,400
+ It's just so much faster, but it does take a little bit to set up and get used to.
+
+20
+00:01:33,400 --> 00:01:36,760
+ So the first thing you need to do is do is install links.
+
+21
+00:01:36,760 --> 00:01:37,840
+ However you want to do that.
+
+22
+00:01:37,840 --> 00:01:43,120
+ So after installing links, if you're on arches, you know, you do your arches, Pacman, Yay thing
+
+23
+00:01:43,120 --> 00:01:45,640
+ or whatever, but you need links.
+
+24
+00:01:45,640 --> 00:01:48,960
+ And links lives in user bin links.
+
+25
+00:01:48,960 --> 00:01:54,600
+ But the problem is that links was originally designed some time ago and it was designed
+
+26
+00:01:54,600 --> 00:02:02,600
+ to be for use on a system and not to be configured individually for all the users on the system.
+
+27
+00:02:02,600 --> 00:02:08,520
+ It was meant to be sort of a tool that the system administrator would grant you different
+
+28
+00:02:08,520 --> 00:02:14,000
+ levels of access to using links, but it was a way for you to browse on the system.
+
+29
+00:02:14,000 --> 00:02:19,000
+ And for that reason, it's a little bit harder to configure than it might make sense.
+
+30
+00:02:19,000 --> 00:02:24,800
+ So there's two configuration files that you need to do links.
+
+31
+00:02:24,800 --> 00:02:27,720
+ And this here is my config on GitHub.
+
+32
+00:02:27,720 --> 00:02:30,560
+ It may or may not move to GitLab at some point if it does.
+
+33
+00:02:30,560 --> 00:02:33,960
+ I'll put a redirect in here so you can go find that.
+
+34
+00:02:33,960 --> 00:02:41,120
+ But as you can see, I've got all of my config files here, but there's two that stand out.
+
+35
+00:02:41,120 --> 00:02:46,480
+ links.cfg and links.lss.
+
+36
+00:02:46,480 --> 00:02:52,920
+ So these files are files that are taken from the default when it installs.
+
+37
+00:02:52,920 --> 00:02:54,240
+ It puts it in some location.
+
+38
+00:02:54,240 --> 00:02:56,800
+ I don't remember some place in Etsy, I believe.
+
+39
+00:02:56,800 --> 00:03:03,000
+ And so all I've done is I've taken out those files and I've made modifications to them.
+
+40
+00:03:03,000 --> 00:03:08,960
+ And I've left all of the comments and everything in here so that you can understand what they're
+
+41
+00:03:08,960 --> 00:03:09,960
+ doing.
+
+42
+00:03:09,960 --> 00:03:12,040
+ And I want to customize yours also.
+
+43
+00:03:12,040 --> 00:03:17,720
+ Here I have, for example, a start file on line 111 that sets to go to my website.
+
+44
+00:03:17,720 --> 00:03:23,080
+ So you can just go through this and find the things that you might want to change.
+
+45
+00:03:23,080 --> 00:03:27,800
+ But there's a few key things that I really recommend you keep.
+
+46
+00:03:27,800 --> 00:03:32,360
+ You might be an e-max person, but if you're not, if you're a VI person, then you want to
+
+47
+00:03:32,360 --> 00:03:39,800
+ go look for VI mode, if I can find it here, plus I'm not using the links here.
+
+48
+00:03:39,800 --> 00:03:47,960
+ VI mode, there it is, VI keys always on, e-max keys always on.
+
+49
+00:03:47,960 --> 00:03:53,240
+ So by turning these on, I can then navigate using VI.
+
+50
+00:03:53,240 --> 00:03:58,640
+ Okay, so the file we're looking at now is links.cfg.
+
+51
+00:03:58,640 --> 00:04:05,480
+ This file is configuring how links works and how you navigate it and all that stuff.
+
+52
+00:04:05,480 --> 00:04:09,040
+ And you can grab mine and put it down on your own system.
+
+53
+00:04:09,040 --> 00:04:13,960
+ It's a pretty big file, and I don't, frankly, I don't remember every single thing that I've
+
+54
+00:04:13,960 --> 00:04:14,960
+ changed.
+
+55
+00:04:14,960 --> 00:04:19,080
+ Oh, this is an interesting positionable editor, I don't remember that.
+
+56
+00:04:19,080 --> 00:04:22,400
+ And I still have yet to configure all of my types.
+
+57
+00:04:22,400 --> 00:04:28,240
+ You can make links so that when it opens a picture or something like that, you can actually
+
+58
+00:04:28,240 --> 00:04:32,040
+ view the picture with your local operating system, so you might want to play around with
+
+59
+00:04:32,040 --> 00:04:33,040
+ that.
+
+60
+00:04:33,040 --> 00:04:34,280
+ I don't generally do that.
+
+61
+00:04:34,280 --> 00:04:40,940
+ In fact, if I am dependent, let me go back, if I am dependent on a visual graphics representation,
+
+62
+00:04:40,940 --> 00:04:45,840
+ for example, of a thing, so we'll do the search for links again.
+
+63
+00:04:45,840 --> 00:04:50,480
+ And let's say I wanted to go look at the Wikipedia page, you know, I can right click
+
+64
+00:04:50,480 --> 00:04:55,480
+ and go to Wikipedia and almost always there will be a refresh, but even if there isn't,
+
+65
+00:04:55,480 --> 00:05:02,240
+ I can type the letter I and that will show me that I, here's my URLs, okay?
+
+66
+00:05:02,240 --> 00:05:08,240
+ So I can click on those URLs using my mouse and it will open my web browser, my graphic
+
+67
+00:05:08,240 --> 00:05:10,880
+ web browser, and so I can see what I need to see.
+
+68
+00:05:10,880 --> 00:05:18,240
+ So I use links even to search for stuff that I know is ultimately going to be graphic because
+
+69
+00:05:18,240 --> 00:05:20,920
+ it's so much faster.
+
+70
+00:05:20,920 --> 00:05:25,800
+ And if you haven't noticed, I'm searching on DuckDuckGo and the reason is because of this.
+
+71
+00:05:25,800 --> 00:05:32,120
+ Two question marks in my setup sets me up to run on Google, but Google fails to do anything
+
+72
+00:05:32,120 --> 00:05:36,040
+ significant and it does find links, but look at how ugly it is.
+
+73
+00:05:36,040 --> 00:05:38,640
+ I mean, it's like disgusting.
+
+74
+00:05:38,640 --> 00:05:40,000
+ Google is a fail.
+
+75
+00:05:40,000 --> 00:05:42,520
+ On so many levels, Google is a fail.
+
+76
+00:05:42,520 --> 00:05:46,000
+ And so, you know, why would I even want to give away my information?
+
+77
+00:05:46,000 --> 00:05:49,080
+ They can't track me because there's no way to track with links.
+
+78
+00:05:49,080 --> 00:05:54,440
+ But if I were, I mean, but I'm so pleased with DuckDuckGo and I go to DuckDuckGo Lite,
+
+79
+00:05:54,440 --> 00:05:59,840
+ which is a version that lets you, you know, see things much easier.
+
+80
+00:05:59,840 --> 00:06:04,120
+ You can even go into YouTube videos and pull those up and they will open in the graphic
+
+81
+00:06:04,120 --> 00:06:05,760
+ browser.
+
+82
+00:06:05,760 --> 00:06:09,820
+ So there's lots of reasons to use links, but let's continue with how to configure it.
+
+83
+00:06:09,820 --> 00:06:15,600
+ So the other file that's involved, of course, the first file is links.cfg.
+
+84
+00:06:15,600 --> 00:06:20,120
+ So that, so we'll talk to you about how to get these files to be recognized.
+
+85
+00:06:20,120 --> 00:06:25,120
+ But the first use, the first file to configure is links.cfg.
+
+86
+00:06:25,120 --> 00:06:29,200
+ And if you really want to, you can go through every single thing and find all of your configurations
+
+87
+00:06:29,200 --> 00:06:30,200
+ in here.
+
+88
+00:06:30,200 --> 00:06:31,200
+ This is not JSON.
+
+89
+00:06:31,200 --> 00:06:37,200
+ This came at a time, hey, hi, came at a time well before that.
+
+90
+00:06:37,200 --> 00:06:42,640
+ I was actually, the interesting thing about links is that it is being updated for a while
+
+91
+00:06:42,640 --> 00:06:48,480
+ there and people thought, oh, there wasn't going to be HTTPS support, TLS or SSL.
+
+92
+00:06:48,480 --> 00:06:49,480
+ And there is.
+
+93
+00:06:49,480 --> 00:06:51,280
+ So you don't need to fear any of that stuff.
+
+94
+00:06:51,280 --> 00:06:53,560
+ It can deal with certificates just fine.
+
+95
+00:06:53,560 --> 00:06:59,240
+ In fact, my configuration automatically accepts certificates and turns off a lot of the annoying
+
+96
+00:06:59,240 --> 00:07:03,200
+ prompts so that I can search at the maximum level.
+
+97
+00:07:03,200 --> 00:07:08,320
+ But if you, so that's this file that config, the links.cfg file, so I had an idea to talk
+
+98
+00:07:08,320 --> 00:07:09,320
+ about another file.
+
+99
+00:07:09,320 --> 00:07:13,280
+ We really can't go through the whole file, but you're welcome to read it and post a question
+
+100
+00:07:13,280 --> 00:07:15,000
+ to me if you have a question.
+
+101
+00:07:15,000 --> 00:07:18,480
+ So the other key file when you're dealing with links is the one that deals with colors
+
+102
+00:07:18,480 --> 00:07:19,640
+ and styles.
+
+103
+00:07:19,640 --> 00:07:22,400
+ And this file is called links.lss.
+
+104
+00:07:22,400 --> 00:07:28,720
+ So here you've got all of the styles and the different color combinations.
+
+105
+00:07:28,720 --> 00:07:32,000
+ And you can go play around with these as you wish.
+
+106
+00:07:32,000 --> 00:07:36,120
+ I do not like the colors that came with it.
+
+107
+00:07:36,120 --> 00:07:40,880
+ There's a bunch of colors that were just really, really harsh.
+
+108
+00:07:40,880 --> 00:07:45,720
+ Some colors didn't work with Solarized back when I was using that a lot.
+
+109
+00:07:45,720 --> 00:07:49,600
+ And so I feel like I've got a color scheme that works well with me.
+
+110
+00:07:49,600 --> 00:07:53,360
+ This is just standard X-term colors which I've started to use for streaming because
+
+111
+00:07:53,360 --> 00:07:55,160
+ of the contrast.
+
+112
+00:07:55,160 --> 00:07:59,120
+ They are more visible in the light from phones and iPads and such when people are looking
+
+113
+00:07:59,120 --> 00:08:00,400
+ at my stream.
+
+114
+00:08:00,400 --> 00:08:05,760
+ But even if you have Molokai or Solarized or something, this color scheme should work
+
+115
+00:08:05,760 --> 00:08:06,880
+ for you.
+
+116
+00:08:06,880 --> 00:08:10,160
+ So that's really all you need to know about that file is this is where you would go to
+
+117
+00:08:10,160 --> 00:08:11,880
+ change that.
+
+118
+00:08:11,880 --> 00:08:16,720
+ So the next question is, how do I get these two files on my system and how do I get them
+
+119
+00:08:16,720 --> 00:08:18,200
+ to be recognized?
+
+120
+00:08:18,200 --> 00:08:25,160
+ So to answer that question, we have to go and start looking into other files.
+
+121
+00:08:25,160 --> 00:08:31,480
+ So after you install links, you'll be able to run it, no problem.
+
+122
+00:08:31,480 --> 00:08:39,960
+ But I'm going to show you a file that I use that sets up the links aliases so that it's
+
+123
+00:08:39,960 --> 00:08:42,000
+ actually a command function that I have in bash.
+
+124
+00:08:42,000 --> 00:08:44,000
+ This won't work with ZShell.
+
+125
+00:08:44,000 --> 00:08:49,120
+ And this is one of the main reasons that ZShell sucks is that it doesn't do command functions
+
+126
+00:08:49,120 --> 00:08:50,600
+ at all.
+
+127
+00:08:50,600 --> 00:08:52,680
+ So here we go.
+
+128
+00:08:52,680 --> 00:08:56,320
+ This is my sort of modular links configuration.
+
+129
+00:08:56,320 --> 00:09:00,880
+ These files are all combined together to create one large bash RC for me.
+
+130
+00:09:00,880 --> 00:09:05,640
+ But I leave them individually kind of broken out so that I can test them and I can share
+
+131
+00:09:05,640 --> 00:09:06,640
+ them with you all.
+
+132
+00:09:06,640 --> 00:09:10,040
+ So if you want to just test or take one, you can do that.
+
+133
+00:09:10,040 --> 00:09:19,240
+ So what I've done here is I've exported a links function that takes the old links and
+
+134
+00:09:19,240 --> 00:09:22,080
+ finds the links wherever the path might be.
+
+135
+00:09:22,080 --> 00:09:26,400
+ And then it replaces it with a command function.
+
+136
+00:09:26,400 --> 00:09:30,920
+ A command function functions in every way as if it were a binary that was installed in
+
+137
+00:09:30,920 --> 00:09:32,760
+ a bin directory somewhere.
+
+138
+00:09:32,760 --> 00:09:38,600
+ And because this loads at login in my bash RC, it's available just like any command anytime
+
+139
+00:09:38,600 --> 00:09:43,100
+ without any startup cost because all the code has already been compiled and loaded into
+
+140
+00:09:43,100 --> 00:09:44,100
+ memory.
+
+141
+00:09:44,100 --> 00:09:49,520
+ That's the fundamental value proposition of command functions over any binary, including
+
+142
+00:09:49,520 --> 00:09:50,960
+ compiled C code.
+
+143
+00:09:50,960 --> 00:09:54,560
+ They will always be faster and they are impossible with ZShell.
+
+144
+00:09:54,560 --> 00:09:58,360
+ So links here, we have this, we're doing links here.
+
+145
+00:09:58,360 --> 00:10:05,000
+ We do if dash Z links, it says if I cannot find a links variable, I mean, I mean, if
+
+146
+00:10:05,000 --> 00:10:08,520
+ I cannot find links at all, that means I didn't find links on the system.
+
+147
+00:10:08,520 --> 00:10:12,440
+ And then just tell them, tell and is just a little function I have that prints out some
+
+148
+00:10:12,440 --> 00:10:15,240
+ nice colors that actually does mark down.
+
+149
+00:10:15,240 --> 00:10:19,320
+ And it colorizes the output and says doesn't look like links is installed.
+
+150
+00:10:19,320 --> 00:10:23,360
+ And then it just returns one because there's no links on the system.
+
+151
+00:10:23,360 --> 00:10:27,640
+ This line here, this is what's called a short circuit logical operator.
+
+152
+00:10:27,640 --> 00:10:36,160
+ It says if I see that there is a home directory containing dot links dot CFG, then go ahead
+
+153
+00:10:36,160 --> 00:10:43,080
+ and let's set a variable called links CFG to be the following dash CFG equals home links
+
+154
+00:10:43,080 --> 00:10:44,080
+ dot config.
+
+155
+00:10:44,080 --> 00:10:47,880
+ And we'll get back to these to these command line arguments later, but they're going to
+
+156
+00:10:47,880 --> 00:10:51,480
+ put together a an actual argument pretty soon.
+
+157
+00:10:51,480 --> 00:10:55,800
+ Here we do dash R does the file and that's readable as a readable links dot LSS in the
+
+158
+00:10:55,800 --> 00:10:56,800
+ same directory.
+
+159
+00:10:56,800 --> 00:11:02,680
+ If so, let's also set that and then we the final thing we do is we actually call it.
+
+160
+00:11:02,680 --> 00:11:08,640
+ So my underscore links variable environment variable contains the full path to the true
+
+161
+00:11:08,640 --> 00:11:10,280
+ links program.
+
+162
+00:11:10,280 --> 00:11:14,160
+ And so when we run it that way, this is the same thing as if I had run the full path to
+
+163
+00:11:14,160 --> 00:11:15,320
+ the binary.
+
+164
+00:11:15,320 --> 00:11:21,560
+ And that then attacks on to the command line, the full path using the dash CFG argument
+
+165
+00:11:21,560 --> 00:11:27,520
+ to links, which says use this configuration file instead of the one from the system.
+
+166
+00:11:27,520 --> 00:11:31,680
+ And unfortunately links will not identify or look into your home directory without you
+
+167
+00:11:31,680 --> 00:11:34,640
+ doing that because of the reasons I earlier described.
+
+168
+00:11:34,640 --> 00:11:40,480
+ So now we have dollar links LSS and we can put that in there and that says, okay, let's
+
+169
+00:11:40,480 --> 00:11:41,480
+ go get that.
+
+170
+00:11:41,480 --> 00:11:46,920
+ So now our command line, and then finally we pass any commands, any arguments that we
+
+171
+00:11:46,920 --> 00:11:47,920
+ may have passed.
+
+172
+00:11:47,920 --> 00:11:52,080
+ And I guess I can maybe drop the quotes there, but I think they're fine.
+
+173
+00:11:52,080 --> 00:11:56,440
+ So this allows us to pass a URL to the program.
+
+174
+00:11:56,440 --> 00:12:00,360
+ So for example, if I wanted to call links without the search parameter, which I'll get
+
+175
+00:12:00,360 --> 00:12:07,840
+ to, I would call links and then I would say I want to go to skillstack.io and boom, there's
+
+176
+00:12:07,840 --> 00:12:09,080
+ my skill stack site.
+
+177
+00:12:09,080 --> 00:12:18,400
+ So by default, any scheme that it is HTTP is assumed, but most sites will redirect you
+
+178
+00:12:18,400 --> 00:12:20,960
+ to HTTPS if needed.
+
+179
+00:12:20,960 --> 00:12:22,360
+ So this is my site.
+
+180
+00:12:22,360 --> 00:12:27,120
+ This is again, this is another good example of why you should use things like unordered
+
+181
+00:12:27,120 --> 00:12:32,320
+ lists for your menu items, let me just give you a quick view if you want to develop for
+
+182
+00:12:32,320 --> 00:12:38,800
+ links optimized, like I say, you should probably consider what your page looks like when it's
+
+183
+00:12:38,800 --> 00:12:42,400
+ not being rendered on a graphics web browser.
+
+184
+00:12:42,400 --> 00:12:48,440
+ And so making intelligent choices about how you semantically organize your page can really
+
+185
+00:12:48,440 --> 00:12:54,640
+ change how easy it is to view from links or from other text-based readers.
+
+186
+00:12:54,640 --> 00:13:00,040
+ So here are my things and you can see if you inspect element on these, these are all unordered
+
+187
+00:13:00,040 --> 00:13:01,760
+ lists items.
+
+188
+00:13:01,760 --> 00:13:09,520
+ And so when I made my site, I was conscious to constantly test and see what it might look
+
+189
+00:13:09,520 --> 00:13:13,520
+ like to somebody using links and I even have a little joke here at the bottom that says
+
+190
+00:13:13,520 --> 00:13:18,240
+ optimize for links and true terminal experts or masters.
+
+191
+00:13:18,240 --> 00:13:25,600
+ There's really no reason not to allow links as a method and the entire documentation on
+
+192
+00:13:25,600 --> 00:13:31,120
+ my site is all links friendly and it's very, very fast to browse.
+
+193
+00:13:31,120 --> 00:13:37,760
+ So for this reason, that's the reason that I did it that way.
+
+194
+00:13:37,760 --> 00:13:41,160
+ I think if we put HTTPS, I think it still works, let's try that.
+
+195
+00:13:41,160 --> 00:13:42,160
+ Yep.
+
+196
+00:13:42,160 --> 00:13:43,160
+ Okay.
+
+197
+00:13:43,160 --> 00:13:46,480
+ So that gives you your argument at the end.
+
+198
+00:13:46,480 --> 00:13:50,080
+ So we've talked about links, we've talked about the links configuration file, we've
+
+199
+00:13:50,080 --> 00:13:57,480
+ talked about the links color file, and we've talked about one of the ways to write a command
+
+200
+00:13:57,480 --> 00:14:05,920
+ function to actually create a dynamic command, you know, a full-blown command that defines
+
+201
+00:14:05,920 --> 00:14:07,360
+ where you should call it.
+
+202
+00:14:07,360 --> 00:14:12,480
+ You could almost get away with just doing an alias for that same thing if you know you
+
+203
+00:14:12,480 --> 00:14:15,200
+ have the file and it's going to be there every time.
+
+204
+00:14:15,200 --> 00:14:20,480
+ Unfortunately, if you do an alias, you won't be able to call links from other programs.
+
+205
+00:14:20,480 --> 00:14:24,880
+ So if you, if you for some reason wanted to write a script and you wanted to have it ask
+
+206
+00:14:24,880 --> 00:14:30,160
+ a few questions and then fire up links, you could not do that because aliases are not,
+
+207
+00:14:30,160 --> 00:14:37,880
+ they don't persist into sub processes or subshells, commands exported, exported command functions
+
+208
+00:14:37,880 --> 00:14:38,880
+ do.
+
+209
+00:14:38,880 --> 00:14:44,040
+ And that is why I use export dash F which once again is not possible on Z shell.
+
+210
+00:14:44,040 --> 00:14:49,020
+ So if you have a command function like this, this is a way that even from VI, I can jump
+
+211
+00:14:49,020 --> 00:14:51,080
+ right from VI until links if I needed to.
+
+212
+00:14:51,080 --> 00:14:55,040
+ So we've talked about, we've talked about what links is, how to search the value of
+
+213
+00:14:55,040 --> 00:14:56,040
+ it.
+
+214
+00:14:56,040 --> 00:15:01,280
+ We've talked about how to, how to set up your configuration file with, and it goes in the
+
+215
+00:15:01,280 --> 00:15:05,080
+ home directory by the way, which I suggest you make a symbolic link from your config
+
+216
+00:15:05,080 --> 00:15:06,080
+ directory.
+
+217
+00:15:06,080 --> 00:15:09,220
+ And if you don't know what a symbolic link is, you know, I can't let me know otherwise
+
+218
+00:15:09,220 --> 00:15:12,880
+ you can just put the files there, but if you don't do that, you'll lose your files.
+
+219
+00:15:12,880 --> 00:15:17,640
+ Okay, so we have symbolic link to those files.
+
+220
+00:15:17,640 --> 00:15:22,240
+ And then we have this command function to call links, the actual links.
+
+221
+00:15:22,240 --> 00:15:25,560
+ And beyond that, we need to, that goes into your bash RC.
+
+222
+00:15:25,560 --> 00:15:30,200
+ And beyond that, we need some aliases to do some searching.
+
+223
+00:15:30,200 --> 00:15:35,760
+ So what the aliases that I have set up here, they're all contained in this file as well.
+
+224
+00:15:35,760 --> 00:15:41,880
+ But they, the aliases for question mark, here it is right here, the alias question mark runs
+
+225
+00:15:41,880 --> 00:15:42,880
+ duck.
+
+226
+00:15:42,880 --> 00:15:46,320
+ And duck is a, oh, I should probably export it.
+
+227
+00:15:46,320 --> 00:15:48,680
+ I didn't, I forgot to do that, I should probably fix that.
+
+228
+00:15:48,680 --> 00:15:52,800
+ But duck is a, is a command function that calls duck duck go.
+
+229
+00:15:52,800 --> 00:15:57,320
+ So it calls links and links therefore calls this command function up here.
+
+230
+00:15:57,320 --> 00:16:00,160
+ And it passes a duck duck go URL.
+
+231
+00:16:00,160 --> 00:16:06,480
+ And this URL is manufactured here by calling URL and code, which is some pretty nifty code
+
+232
+00:16:06,480 --> 00:16:08,240
+ that all of this needs to be exported.
+
+233
+00:16:08,240 --> 00:16:09,960
+ I need to go back and fix this.
+
+234
+00:16:09,960 --> 00:16:17,180
+ So URL and code is a command function that takes this string and URL encodes it by going
+
+235
+00:16:17,180 --> 00:16:22,820
+ through each character and making it valid for use in a URL as what's called a query
+
+236
+00:16:22,820 --> 00:16:23,820
+ string.
+
+237
+00:16:23,820 --> 00:16:27,000
+ That's where the queue equals comes from.
+
+238
+00:16:27,000 --> 00:16:30,220
+ And any, a query string is anything with, after the question mark.
+
+239
+00:16:30,220 --> 00:16:32,320
+ And you've seen these a lot probably.
+
+240
+00:16:32,320 --> 00:16:38,400
+ So in the Google one, it does the same thing at URL encodes it and passes it to Google's
+
+241
+00:16:38,400 --> 00:16:39,400
+ search option.
+
+242
+00:16:39,400 --> 00:16:44,520
+ I do not know of a light variation of Google as opposed to the, to the light one that we
+
+243
+00:16:44,520 --> 00:16:46,080
+ have here.
+
+244
+00:16:46,080 --> 00:16:47,080
+ Okay.
+
+245
+00:16:47,080 --> 00:16:48,080
+ So there we have it.
+
+246
+00:16:48,080 --> 00:16:50,320
+ We have got our, our functions.
+
+247
+00:16:50,320 --> 00:16:54,000
+ We've got our ability to now, to now query.
+
+248
+00:16:54,000 --> 00:16:58,080
+ And I went ahead and alias question mark and to double question mark so that it passes
+
+249
+00:16:58,080 --> 00:17:06,280
+ my sentences on to, to links and to their, and to duck to do those things.
+
+250
+00:17:06,280 --> 00:17:08,040
+ It's not an obvious setup.
+
+251
+00:17:08,040 --> 00:17:12,860
+ It's my, it takes a little bit of doing to get it to work, but this is how you do it.
+
+252
+00:17:12,860 --> 00:17:16,920
+ If you have any questions about how to do it further, if you're, or if you get stuck,
+
+253
+00:17:16,920 --> 00:17:18,560
+ I'm always here.
+
+254
+00:17:18,560 --> 00:17:24,240
+ You can go to R W X live or R W X Rob dot live.
+
+255
+00:17:24,240 --> 00:17:31,560
+ If you ever have to question R W X Rob dot live will take you to YouTube, which has or
+
+256
+00:17:31,560 --> 00:17:32,560
+ wherever.
+
+257
+00:17:32,560 --> 00:17:34,920
+ And it also has links to my Twitch here.
+
+258
+00:17:34,920 --> 00:17:39,840
+ So you can come into Twitch and ask me directly any time that I'm on.
+
+259
+00:17:39,840 --> 00:17:43,440
+ It's been great talking to you.
+
+260
+00:17:43,440 --> 00:17:44,440
+ We do have a question.
+
+261
+00:17:44,440 --> 00:17:47,880
+ We have a couple of people who say good old links here.
+
+262
+00:17:47,880 --> 00:17:51,680
+ So if you have any further questions on how to set that up, I'm happy to help you.
+
+263
+00:17:51,680 --> 00:17:58,440
+ I'm frequently talking about terminal issues and terminal mastery on, on stream.
+
+264
+00:17:58,440 --> 00:18:03,720
+ And I continue to, to publish more about that.
+
+265
+00:18:03,720 --> 00:18:06,480
+ And I'm going to call it, call it a video there.
+
+266
+00:18:06,480 --> 00:18:07,680
+ Thanks very much for watching.
+

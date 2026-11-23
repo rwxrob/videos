@@ -1,0 +1,396 @@
+1
+00:00:00,000 --> 00:00:07,280
+ That's right. I am running Windows in a web browser. I made another video about
+
+2
+00:00:07,280 --> 00:00:11,640
+ that. If you care to use it, you have to have Proxmox for this. I don't have
+
+3
+00:00:11,640 --> 00:00:16,520
+ Windows machine working in my house right now. So we are going to use Windows
+
+4
+00:00:16,520 --> 00:00:20,040
+ running in something called a virtual machine. If you don't know what that is,
+
+5
+00:00:20,040 --> 00:00:24,920
+ it's exactly what it sounds like. A machine that's running virtually inside
+
+6
+00:00:24,920 --> 00:00:29,320
+ of another machine. In this case, a Linux machine called Proxmox, which is
+
+7
+00:00:29,320 --> 00:00:33,760
+ running right behind me here on a separate computer. This entire terminal
+
+8
+00:00:33,760 --> 00:00:37,880
+ that you're seeing is being sent over the network. This is not something you
+
+9
+00:00:37,880 --> 00:00:41,480
+ would ever do to play games or anything, but it is something you would do when
+
+10
+00:00:41,480 --> 00:00:43,840
+ you don't have Windows and you want to show people how to deal with the
+
+11
+00:00:43,840 --> 00:00:51,520
+ terminal on a Windows 10 machine. So before I continue, just know that most of
+
+12
+00:00:51,520 --> 00:00:56,240
+ you who are watching this video by now will already have Windows 11 if you have
+
+13
+00:00:56,240 --> 00:01:03,200
+ Windows. Windows 11 already comes with the terminal, okay? So if you want to know
+
+14
+00:01:03,200 --> 00:01:10,120
+ how to check for that, you can just go search for it, which is, I think, yeah,
+
+15
+00:01:10,120 --> 00:01:16,680
+ whoops, I'm mixing up my things here. Oh my god, the keyboards are clashing. So I
+
+16
+00:01:16,680 --> 00:01:22,240
+ have both spotlight from Mac and I have the search bar from Windows. So surprise,
+
+17
+00:01:22,240 --> 00:01:29,320
+ surprise, it's the same keystrokes, you know, command space or or Windows space
+
+18
+00:01:29,320 --> 00:01:33,760
+ depending on your what you have here. So we're going to click down here and we're
+
+19
+00:01:33,760 --> 00:01:40,120
+ going to type in terminal and you see how it says the command prompt. So this is
+
+20
+00:01:40,120 --> 00:01:46,760
+ this is the old Windows 10 terminal. Yeah, very blue, like I'm changing. This is
+
+21
+00:01:46,760 --> 00:01:50,320
+ the ancient terminal, which I happen to know they did a whole thing about this in
+
+22
+00:01:50,320 --> 00:01:58,640
+ 2010. It was it's 10? No, no, no, no, it was 2014, I think. I watched the whole
+
+23
+00:01:58,640 --> 00:02:01,960
+ dev conference on this and everything. I weigh too much Microsoft and I would
+
+24
+00:02:01,960 --> 00:02:09,040
+ care to do. Anyway, so this this terminal is horrible. It's ancient, this is the
+
+25
+00:02:09,040 --> 00:02:13,040
+ old-school DOS. A lot of people are stuck using this, thank god, they came out
+
+26
+00:02:13,040 --> 00:02:18,280
+ with a new sexy terminal that actually supports things like, I don't know,
+
+27
+00:02:18,280 --> 00:02:25,080
+ backspace. So you never ever ever want to use this terminal. There are the
+
+28
+00:02:25,080 --> 00:02:28,000
+ reason it was so horrible and kept back behind and I kid you not. They gave an
+
+29
+00:02:28,000 --> 00:02:35,920
+ example of an oil rig refinery in in Alaska that depends on Windows terminal
+
+30
+00:02:35,920 --> 00:02:40,600
+ being this version and that was just terrified me when I heard it's like, why
+
+31
+00:02:40,600 --> 00:02:44,760
+ would you tell us that? My whole world has just changed. You're telling me that
+
+32
+00:02:44,760 --> 00:02:49,640
+ like oil refinder rigs in Alaska are depending on an ancient terminal that's
+
+33
+00:02:49,640 --> 00:02:57,360
+ not even compliant with ANSI standards from 1986 and it has to use it for some
+
+34
+00:02:57,360 --> 00:03:02,000
+ sort of automation order for the oil rig to run? It was terrifying. First of all,
+
+35
+00:03:02,000 --> 00:03:05,560
+ why are you automating based on a dependency for a terminal? I could go on
+
+36
+00:03:05,560 --> 00:03:11,320
+ and on and on, but it just goes to show if you've ever gone into a bank or an
+
+37
+00:03:11,320 --> 00:03:17,920
+ airport or seen a big thing. You're like, I don't know, Quintano, like a hotel,
+
+38
+00:03:17,920 --> 00:03:23,040
+ broken blue screen thing like you saw in 2000 and everything broke. Then you know
+
+39
+00:03:23,040 --> 00:03:27,760
+ how fragile our world is because of Windows. Well, let's make it a little bit
+
+40
+00:03:27,760 --> 00:03:35,160
+ less fragile by using an actual good terminal on Windows and that's why I'm
+
+41
+00:03:35,160 --> 00:03:38,680
+ making this video for you because if you're stuck with Windows 10 and you're a
+
+42
+00:03:38,680 --> 00:03:42,200
+ beginner and you're so frustrated, this is going to help you. This is why I'm
+
+43
+00:03:42,200 --> 00:03:45,520
+ making it. If you're on a Mac, you already have a terminal, you can just pop it up
+
+44
+00:03:45,520 --> 00:03:49,720
+ and you're good. If you're on Linux, you've got Linux. That means you already
+
+45
+00:03:49,720 --> 00:03:53,320
+ know how to install Linux and none of this is an issue at all. But if you are an
+
+46
+00:03:53,320 --> 00:03:58,120
+ average person, you don't know any of this and so you're going to, you wouldn't
+
+47
+00:03:58,120 --> 00:04:00,920
+ even know to start up that and push terminal, right? So we're going to exit
+
+48
+00:04:00,920 --> 00:04:05,520
+ this to get out of it and now we're going to actually install a real terminal. Now,
+
+49
+00:04:05,520 --> 00:04:09,400
+ I don't remember how to do this. So it's going to be fun for me to go through it
+
+50
+00:04:09,400 --> 00:04:13,200
+ again. So you're going to click on the Windows thing I remember and there's
+
+51
+00:04:13,200 --> 00:04:17,040
+ something about the store here. We're going to go to the store and on the
+
+52
+00:04:17,040 --> 00:04:19,960
+ Microsoft Store, update now, part of the infrastructure before we need to update
+
+53
+00:04:19,960 --> 00:04:25,280
+ the store. Okay, fine. This has been all night. It's been this kind of like
+
+54
+00:04:25,280 --> 00:04:30,720
+ interruption like this. I'm sorry we have to wait. Maybe I should pause the video.
+
+55
+00:04:30,720 --> 00:04:35,680
+ I'm going to pause the video already. Alright, it came back finally. It took
+
+56
+00:04:35,680 --> 00:04:43,960
+ forever, like everything. No, I don't want call of duty because I have a life.
+
+57
+00:04:43,960 --> 00:04:52,040
+ Anyway, we're going to go here and search for terminal. Alright, terminal,
+
+58
+00:04:52,040 --> 00:04:55,640
+ Windows, look at other people are searching for it too. Ooh, the Windows
+
+59
+00:04:55,640 --> 00:04:58,920
+ Terminal app. There's the Windows Terminal preview and then there's the
+
+60
+00:04:58,920 --> 00:05:02,240
+ Windows Terminal app. It used to be the Windows Terminal preview was the thing
+
+61
+00:05:02,240 --> 00:05:07,520
+ to get because it took like two years of previewing it and it was released out
+
+62
+00:05:07,520 --> 00:05:10,240
+ of, you know, you could officially use it, but preview was the thing to get and
+
+63
+00:05:10,240 --> 00:05:13,440
+ not the actual one. I was really, we're going to actually install the real app.
+
+64
+00:05:13,440 --> 00:05:17,760
+ The Windows Terminal app is a modern, fast, efficient, powerful, productive
+
+65
+00:05:17,760 --> 00:05:24,200
+ terminal, which is not the default for some reason. So click on this chat. Look,
+
+66
+00:05:24,200 --> 00:05:26,880
+ there are lots of problems within the Windows Terminal. So I'm just going to
+
+67
+00:05:26,880 --> 00:05:30,000
+ leave a comment. They're going to leave shit comments down below. They are.
+
+68
+00:05:30,000 --> 00:05:33,160
+ They're going to leave comments about how horrible Windows Terminal is. It's not as
+
+69
+00:05:33,160 --> 00:05:38,040
+ fast as this terminal written in Rust or that. Let it be said, I love you. I love
+
+70
+00:05:38,040 --> 00:05:44,120
+ all you commenters. Don't hate on me. Okay, I am helping the average absolute
+
+71
+00:05:44,120 --> 00:05:48,120
+ beginner. Please have patience. Okay, I know there's better terminals out there.
+
+72
+00:05:48,120 --> 00:05:51,680
+ You're going to yell at me about Goastie. You're going to yell at me about
+
+73
+00:05:51,680 --> 00:05:54,760
+ Lacrity, which all of which I've used. In fact, one of the original creators of
+
+74
+00:05:54,760 --> 00:06:01,360
+ Lacrity, he was frequently on my stream four years ago and my terminal
+
+75
+00:06:01,360 --> 00:06:06,360
+ preference is Westerm and I still love it. But it's more of a thing for people
+
+76
+00:06:06,360 --> 00:06:10,000
+ who already know what they're doing and can, oh, I don't know, edit files from the
+
+77
+00:06:10,000 --> 00:06:12,880
+ command line, which is not something most people can do that are watching this
+
+78
+00:06:12,880 --> 00:06:17,880
+ video. So I hope the you commenters down there will go easy on me. Okay, this is
+
+79
+00:06:17,880 --> 00:06:21,960
+ not the fastest terminal blah, blah, blah. This is just the standard thing on
+
+80
+00:06:21,960 --> 00:06:26,160
+ Windows and 90% of the people that you work with, this is what they're going to
+
+81
+00:06:26,160 --> 00:06:28,880
+ use. They're going to use what's on the computer. If that Windows 11, they're
+
+82
+00:06:28,880 --> 00:06:32,160
+ going to pop them, then I can use this. Most of them, most of these other people,
+
+83
+00:06:32,160 --> 00:06:35,840
+ they don't even use a terminal. They use putty, which is a way to connect over a
+
+84
+00:06:35,840 --> 00:06:39,320
+ secure shell to a remote system using and getting a terminal that way. They use
+
+85
+00:06:39,320 --> 00:06:44,400
+ the terminal built in the putty. This is still regularly done in 2026. I see
+
+86
+00:06:44,400 --> 00:06:49,120
+ people sharing their screen and using nothing but putty and they are very
+
+87
+00:06:49,120 --> 00:06:53,320
+ high-paid professionals who have been doing this job for a long time. They don't
+
+88
+00:06:53,320 --> 00:06:56,360
+ even care about the terminal they use because they're too busy getting work
+
+89
+00:06:56,360 --> 00:07:07,120
+ done instead of configuring their terminal. So, so there. So, okay, so we're
+
+90
+00:07:07,120 --> 00:07:12,360
+ going to click on open here. Click on open and we've got our new terminal
+
+91
+00:07:12,360 --> 00:07:17,320
+ installed. You'll see right away that the default is PowerShell. Unfortunately, the
+
+92
+00:07:17,320 --> 00:07:23,920
+ default is PowerShell. It doesn't matter. Don't panic, my friends. You don't need
+
+93
+00:07:23,920 --> 00:07:29,320
+ to use a different shell right now. You can. You can type "pass" and you'll get
+
+94
+00:07:29,320 --> 00:07:34,840
+ nothing because we haven't installed WSL2. Okay, that's a different video. That's
+
+95
+00:07:34,840 --> 00:07:39,000
+ good enough for now. All right, you've got a terminal, right? You have a terminal
+
+96
+00:07:39,000 --> 00:07:43,800
+ installed and you can type things and you can learn how to use the terminal in
+
+97
+00:07:43,800 --> 00:07:48,080
+ whatever way you want and I'm going to force myself to stop right now because
+
+98
+00:07:48,080 --> 00:07:53,280
+ I'm going to show you how to put actual Linux on your Windows machine. That's in
+
+99
+00:07:53,280 --> 00:07:55,880
+ another video.
+

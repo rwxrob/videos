@@ -1,0 +1,580 @@
+1
+00:00:00,000 --> 00:00:06,600
+ What I have to use to take notes so I'm actually answer this a lot of other times and the answer
+
+2
+00:00:06,600 --> 00:00:11,600
+ You might think the answer is pandock vi and get and and that would be partially true
+
+3
+00:00:11,680 --> 00:00:15,280
+ So I kind of got to tell you it's not emax. God. No fucking hate me max
+
+4
+00:00:16,120 --> 00:00:21,720
+ That's gonna get me banned from YouTube for saying that that early, but you said emax and I had to say
+
+5
+00:00:23,280 --> 00:00:26,680
+ If you like emax fine, I don't that's all I have to say about that
+
+6
+00:00:27,520 --> 00:00:30,520
+ Pandock I have no hate for people who want to use it
+
+7
+00:00:31,760 --> 00:00:33,760
+ and get
+
+8
+00:00:33,920 --> 00:00:35,920
+ get get
+
+9
+00:00:36,240 --> 00:00:37,760
+ github
+
+10
+00:00:37,760 --> 00:00:41,940
+ Okay, so that these are the primary tools that I use to take notes
+
+11
+00:00:43,720 --> 00:00:46,680
+ But and I do it in common mark
+
+12
+00:00:48,120 --> 00:00:50,120
+ So I write in common mark
+
+13
+00:00:50,920 --> 00:00:56,800
+ Church to me max love. I know you guys got church to me was that's fine. I have so many friends good good respected friends
+
+14
+00:00:56,800 --> 00:01:02,080
+ You use emax. I don't I think you max is a waste of time. I think it's a waste of time
+
+15
+00:01:02,080 --> 00:01:06,680
+ And I'm I you access a relevance for me. So I don't use it people say usually is or no
+
+16
+00:01:07,640 --> 00:01:09,960
+ First of all, I have to install it to use it. I don't want to do that
+
+17
+00:01:11,920 --> 00:01:18,400
+ Yeah, and too much of so so this is this is how I take those I I use this little cast and method and you can see
+
+18
+00:01:18,400 --> 00:01:23,880
+ There's lots of other videos on them. I'm gonna write it about it now. I use this little kid modified little cast and method
+
+19
+00:01:25,720 --> 00:01:27,720
+ So I use a modified
+
+20
+00:01:28,720 --> 00:01:34,040
+ As I and there's there's time again, there's videos on this. I've done a lot of stuff on this effect. Let me give it to you
+
+21
+00:01:34,040 --> 00:01:36,040
+ so if you go vids
+
+22
+00:01:36,200 --> 00:01:38,200
+ zetal costin
+
+23
+00:01:38,680 --> 00:01:40,680
+ there and
+
+24
+00:01:40,680 --> 00:01:44,120
+ And that should give to a hit. Let me see if it does
+
+25
+00:01:45,000 --> 00:01:47,000
+ does it
+
+26
+00:01:47,280 --> 00:01:53,400
+ Oh, I think I I spelled it wrong. Damn it. Why did my spell right? I'm so stupid
+
+27
+00:01:54,440 --> 00:01:59,920
+ I I'm a little bit tired tonight. I can't believe I did that. I can't believe I did that
+
+28
+00:02:01,800 --> 00:02:03,800
+ Okay, so
+
+29
+00:02:04,260 --> 00:02:09,320
+ There you go. Do you have one or more? Okay, so here's here's the search for that
+
+30
+00:02:10,880 --> 00:02:13,240
+ It's in the twitch chat. I'll put it in my references
+
+31
+00:02:13,240 --> 00:02:17,920
+ And this link this will give you all the videos I made about this if you if you want to
+
+32
+00:02:18,640 --> 00:02:20,640
+ search my actual
+
+33
+00:02:21,480 --> 00:02:27,360
+ Put under related here. Okay, so you'll this will be in the show notes. It's okay sure because you want to know
+
+34
+00:02:27,920 --> 00:02:34,200
+ So this this here will give you all of my videos about zetal castin and this one here
+
+35
+00:02:35,120 --> 00:02:37,120
+ will give you
+
+36
+00:02:38,920 --> 00:02:41,800
+ All of my my notes about zetal castin
+
+37
+00:02:41,960 --> 00:02:42,880
+ Okay
+
+38
+00:02:42,880 --> 00:02:48,280
+ So and the reason I'm doing this is for for that reason. This is using github to search
+
+39
+00:02:48,840 --> 00:02:53,120
+ So mind-ton taking about this github and the reason for that is because it gets stored
+
+40
+00:02:55,120 --> 00:02:58,360
+ It gets you know, I mean I don't have to tell you it's you know
+
+41
+00:02:59,000 --> 00:03:01,480
+ Let me show you this is a CD and a z
+
+42
+00:03:02,120 --> 00:03:04,120
+ open
+
+43
+00:03:04,120 --> 00:03:06,600
+ This is gonna open up the zetal castin repo
+
+44
+00:03:07,520 --> 00:03:12,160
+ And and you can read all about I'm not gonna go I'm gonna talk at all about what is it'll castin is here
+
+45
+00:03:12,280 --> 00:03:14,280
+ This is where I dump my knowledge as it happens
+
+46
+00:03:14,960 --> 00:03:16,960
+ Some of them have titles some don't
+
+47
+00:03:17,640 --> 00:03:21,520
+ Some they've got rebase and after some drama and stuff, so
+
+48
+00:03:22,840 --> 00:03:25,420
+ Yeah, people don't agree with me. So they troll me
+
+49
+00:03:26,480 --> 00:03:31,840
+ And yeah, so this is this stuff sell here. I got a little bit mad. There's some more things there
+
+50
+00:03:31,840 --> 00:03:36,360
+ You can just go read him. This is my own personal take on on zetal castin. You can make your own take
+
+51
+00:03:36,520 --> 00:03:38,520
+ There's I made another video about a guy
+
+52
+00:03:39,720 --> 00:03:45,600
+ Specifically who has actually ripped on this idea and done his own so there's an actually another there's a command that I use
+
+53
+00:03:47,640 --> 00:03:50,200
+ Then I've been maintaining calls that it's a bash script right now and
+
+54
+00:03:51,080 --> 00:03:57,480
+ This bash script is not done. It's a constant work in progress, which I plan on building into something more major
+
+55
+00:03:59,240 --> 00:04:06,480
+ Little bit later and putting into a project I call memoirs named after the god my mirror god of knowledge
+
+56
+00:04:07,040 --> 00:04:09,040
+ which will be part of my
+
+57
+00:04:09,840 --> 00:04:16,340
+ Community community manager stuff as well. So it's all tied together like you know the posting of of searches
+
+58
+00:04:16,340 --> 00:04:18,760
+ You know and the chat all going into central location
+
+59
+00:04:18,760 --> 00:04:23,800
+ I want to make a central essential for hub for all that played around with lots of different names
+
+60
+00:04:23,800 --> 00:04:29,520
+ But right now it'll probably be a mimic memoirs community manager and that'll include as little castin and a zet tool or something
+
+61
+00:04:29,840 --> 00:04:32,240
+ So that's that's how I take notes
+
+62
+00:04:32,440 --> 00:04:38,780
+ The so that my priorities are and you might have different priorities. This is what I'm telling you. So my priorities are
+
+63
+00:04:41,520 --> 00:04:43,520
+ Our prior primarily
+
+64
+00:04:45,680 --> 00:04:47,680
+ absolute
+
+65
+00:04:49,600 --> 00:04:55,440
+ Freedom to use any platform or no platform. I
+
+66
+00:04:56,920 --> 00:04:58,920
+ would never
+
+67
+00:04:59,840 --> 00:05:02,240
+ Do anything that caused me to
+
+68
+00:05:03,080 --> 00:05:09,160
+ Buy a product or even use an open source product that had to be used. I'm not into that
+
+69
+00:05:09,680 --> 00:05:16,120
+ And so by doing this as github and common mark and pandoc in this kind of way I can I can render my knowledge in any
+
+70
+00:05:16,120 --> 00:05:18,800
+ Number of ways when I need to I can search it anyway
+
+71
+00:05:18,800 --> 00:05:22,200
+ I want because it's text-based so I can write text searches in one grep man
+
+72
+00:05:22,200 --> 00:05:26,080
+ I don't have to build a whole engine if it's on github. It's already got it
+
+73
+00:05:28,200 --> 00:05:34,800
+ You know, I don't I'm not gonna mention other note-taking systems by name as much as possible because I I know people really like them
+
+74
+00:05:34,960 --> 00:05:37,840
+ But I would just really really warn you I
+
+75
+00:05:39,040 --> 00:05:44,840
+ mean, I absolutely abhor lock-in and there are a lot of
+
+76
+00:05:47,240 --> 00:05:48,440
+ They're
+
+77
+00:05:48,440 --> 00:05:54,360
+ Right there are just way too many even open source things that try to lock you in
+
+78
+00:05:54,960 --> 00:06:00,200
+ You're writing your own zut tool. I think that you should I think that most people should come up with their own tool
+
+79
+00:06:00,720 --> 00:06:07,280
+ So that's my recommendation. My recommendation is for you to find everyone does things slightly differently
+
+80
+00:06:07,280 --> 00:06:09,880
+ We all have different brains. There's nothing this is genuine. I agree with me on this
+
+81
+00:06:10,280 --> 00:06:14,660
+ Usually, you know, I'm like one best way kind of guy, but she's like now. There's no best way, you know
+
+82
+00:06:15,160 --> 00:06:17,160
+ she doesn't say that but
+
+83
+00:06:17,160 --> 00:06:21,360
+ the point I'm trying to make is you know find your own way and
+
+84
+00:06:21,880 --> 00:06:28,360
+ And and I you know my I think that you know, you're still waiting on a binary treat. Oh
+
+85
+00:06:30,840 --> 00:06:32,360
+ Yeah, well
+
+86
+00:06:32,360 --> 00:06:38,040
+ See, I'm not yeah, I'm I'm actually gonna or I talk are you talking about the the
+
+87
+00:06:39,320 --> 00:06:44,880
+ We're talking about are you talking about the no tree the no tree stuff. Yeah, I never finished that tutorial series
+
+88
+00:06:44,880 --> 00:06:46,880
+ I started and I stopped it. I didn't do anything. I
+
+89
+00:06:48,040 --> 00:06:50,440
+ Did I definitely need to do more with it? I haven't
+
+90
+00:06:52,040 --> 00:06:54,040
+ So, you know find your own way
+
+91
+00:06:54,080 --> 00:07:01,960
+ Write your own if there's if there's one project that I feel like everybody could get behind if they want to get into coding
+
+92
+00:07:02,600 --> 00:07:09,640
+ Is it's that now and this is where because you know a lot of the gooey world doesn't agree with my method because I'm using the terminal
+
+93
+00:07:09,640 --> 00:07:14,600
+ I'm using a text-based browser like why aren't you using word or this or that or you know?
+
+94
+00:07:14,600 --> 00:07:18,240
+ And and I just don't feel it needed they think I mean
+
+95
+00:07:18,240 --> 00:07:22,560
+ There's a lot of these tools that have like abilities to clip things and all that stuff and combine it all together
+
+96
+00:07:23,000 --> 00:07:26,680
+ It's so overly complex. It's like why do you need that?
+
+97
+00:07:26,680 --> 00:07:29,800
+ I just need maybe a picture and a note to remind me about something
+
+98
+00:07:29,800 --> 00:07:33,960
+ I don't need all the extra stuff. So I like focus on minimalism. I
+
+99
+00:07:35,200 --> 00:07:38,600
+ Actually built my own snap next let me show you a Zed
+
+100
+00:07:39,320 --> 00:07:45,040
+ Titles I built my own snap shot or so so here I watch I'll show you so I can do Zed
+
+101
+00:07:47,600 --> 00:07:54,240
+ Snap wait screenshot zet screenshot. It says go take a screenshot. Okay. I'll take a screenshot here
+
+102
+00:07:54,240 --> 00:07:56,240
+ We go and then I press enter
+
+103
+00:07:57,160 --> 00:08:04,460
+ And then it adds it I'll say I'll put random screenshot it created it created it inspected the image for its dimensions
+
+104
+00:08:05,440 --> 00:08:12,320
+ And then made this this this this common mark file and now it's committed to my get up
+
+105
+00:08:13,120 --> 00:08:14,840
+ zet zet
+
+106
+00:08:14,840 --> 00:08:17,320
+ Titles and now I listed it as a figure
+
+107
+00:08:18,960 --> 00:08:20,960
+ Did I say yes, maybe I didn't oh
+
+108
+00:08:22,080 --> 00:08:26,220
+ Boy what happened did I screw it up? Oh I did
+
+109
+00:08:27,160 --> 00:08:32,120
+ Looks like that one didn't take well. I was trying to say you can go open these up though. So
+
+110
+00:08:32,760 --> 00:08:38,640
+ Set open and yeah, this is all scripted with bash you can do it however you want. This is a
+
+111
+00:08:40,520 --> 00:08:43,680
+ There's a random screen shot of somebody using a mouse, you know
+
+112
+00:08:43,680 --> 00:08:49,680
+ I when I want to a clip or something. I want it kind of generically saved and kind of a not content management system
+
+113
+00:08:51,680 --> 00:08:55,300
+ And you know, I don't I don't really go beyond that
+
+114
+00:08:56,120 --> 00:08:59,880
+ For that kind of thing so so that's that's my method
+
+115
+00:09:00,920 --> 00:09:04,760
+ And I don't know my mind didn't say I think it's not saving because I'm in the middle recording
+
+116
+00:09:04,760 --> 00:09:09,000
+ I have to go fit might be a bug a really cool thing is when you run into a bug like that you can fix it, right?
+
+117
+00:09:09,320 --> 00:09:12,360
+ So if you don't feel like you're capable of writing your own system
+
+118
+00:09:12,640 --> 00:09:17,840
+ That's fine. The really cool thing is is that my system means that I can take paper notes, too
+
+119
+00:09:17,840 --> 00:09:23,200
+ So I have a ton of paper notes that are the same exact format is as my written format
+
+120
+00:09:23,720 --> 00:09:26,760
+ And I just have to copy them over and then I just cross them out in my book
+
+121
+00:09:26,760 --> 00:09:34,120
+ So so I know it's not there sometimes it's better to get away from the screen to do my best thinking so so that's that's that's my method of
+
+122
+00:09:34,400 --> 00:09:38,680
+ No taking so combined with, you know, paper
+
+123
+00:09:40,520 --> 00:09:45,040
+ Paper note taking and I think there's something magical about paper note taking it
+
+124
+00:09:45,040 --> 00:09:49,880
+ So just because I'm old I know a lot of people to say that because they're too old and they don't want to use new things
+
+125
+00:09:49,880 --> 00:09:55,000
+ But obviously I just scripted a whole entire new thing here of my own. So it's not about the technology
+
+126
+00:09:55,000 --> 00:10:01,480
+ It's about it's about the nature of learning and I when I'm walking around and I have some paper take notes on or
+
+127
+00:10:01,640 --> 00:10:03,400
+ something to record into
+
+128
+00:10:03,400 --> 00:10:08,120
+ I find my way myself doing better better. No taking that way. So that's that's my method
+
+129
+00:10:08,920 --> 00:10:10,120
+ and
+
+130
+00:10:10,120 --> 00:10:12,120
+ You know everybody has to find their own way
+
+131
+00:10:13,040 --> 00:10:14,880
+ But again, I
+
+132
+00:10:14,880 --> 00:10:17,920
+ My main priority is I do not want to be locked in
+
+133
+00:10:18,800 --> 00:10:20,800
+ it needs
+
+134
+00:10:20,800 --> 00:10:22,240
+ needs
+
+135
+00:10:22,240 --> 00:10:29,480
+ To be minimal and searchable. I can write a complex search using nothing would grip
+
+136
+00:10:30,960 --> 00:10:32,960
+ So
+
+137
+00:10:33,600 --> 00:10:37,360
+ That's why I like it and a lot of people don't know what grip is so their priority would be different, right?
+
+138
+00:10:37,800 --> 00:10:39,800
+ They might use a different tool
+
+139
+00:10:39,800 --> 00:10:41,800
+ That's all
+
+140
+00:10:42,200 --> 00:10:47,440
+ Let's see. I've always rewrite things memorize. Absolutely. I love you. Good. Yeah the repetition. Mm-hmm
+
+141
+00:10:48,040 --> 00:10:49,160
+ note
+
+142
+00:10:49,160 --> 00:10:51,160
+ taking
+
+143
+00:10:51,160 --> 00:10:53,160
+ Zettole cast and what else are we putting here?
+
+144
+00:10:55,000 --> 00:10:59,280
+ Advice I guess that's not really advice. I it's just as what it is
+
+145
+00:10:59,640 --> 00:11:05,200
+ But yeah, you might get some ideas to go have a look at that and make your own decisions. That's all I'm saying about that
+

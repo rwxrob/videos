@@ -1,0 +1,244 @@
+1
+00:00:00,000 --> 00:00:06,460
+ I've been ranting about this and I'm just going to keep going on it.
+
+2
+00:00:06,460 --> 00:00:09,300
+ Let me see if I can pull up my notes here.
+
+3
+00:00:09,300 --> 00:00:14,780
+ So it occurred to me that this single most important tech skill that you can learn is
+
+4
+00:00:14,780 --> 00:00:15,780
+ creativity.
+
+5
+00:00:15,780 --> 00:00:18,500
+ It's always been true.
+
+6
+00:00:18,500 --> 00:00:20,060
+ It's always been true.
+
+7
+00:00:20,060 --> 00:00:24,180
+ It's always been true that the best thing that you can learn as a technologist, that means
+
+8
+00:00:24,180 --> 00:00:28,140
+ your hard line coder or whatever, is how to be creative.
+
+9
+00:00:28,140 --> 00:00:30,820
+ It's how to think creatively, how to think outside of the box, how to look.
+
+10
+00:00:30,820 --> 00:00:32,700
+ I mean, all the things you've ever heard.
+
+11
+00:00:32,700 --> 00:00:36,080
+ And if you want to know what that means, begin studying creativity.
+
+12
+00:00:36,080 --> 00:00:38,340
+ Put that on your list and write it down in your journal.
+
+13
+00:00:38,340 --> 00:00:40,060
+ How can I become more creative?
+
+14
+00:00:40,060 --> 00:00:42,340
+ How can I build my creative brain?
+
+15
+00:00:42,340 --> 00:00:46,460
+ And by the way, the things that you would do to build your creativity are not the same
+
+16
+00:00:46,460 --> 00:00:48,960
+ things that you would do to get good with the terminal.
+
+17
+00:00:48,960 --> 00:00:54,140
+ These are things that are artistic, they're designed, they can be fine art, they can be
+
+18
+00:00:54,140 --> 00:00:59,500
+ game development, it can be mining your mind for ideas, and I have a story about this.
+
+19
+00:00:59,500 --> 00:01:03,820
+ So one of the biggest challenges I've had, helping people over the years for some like
+
+20
+00:01:03,820 --> 00:01:11,340
+ 15 years, has always been, I don't know what to make or mom, I'm bored.
+
+21
+00:01:11,340 --> 00:01:12,340
+ Right?
+
+22
+00:01:12,340 --> 00:01:19,180
+ I mean, how many, you know, it's like, give me something to do, mom, when you're growing
+
+23
+00:01:19,180 --> 00:01:20,180
+ up.
+
+24
+00:01:20,180 --> 00:01:23,140
+ It's like, tell me something to code, Mr. Rob.
+
+25
+00:01:23,140 --> 00:01:29,900
+ If you're saying that, then you are not developing the most important tech skill in the world.
+
+26
+00:01:29,900 --> 00:01:34,660
+ That means that your inventiveness, your ability to see a problem and create a solution, your
+
+27
+00:01:34,660 --> 00:01:40,340
+ ability to imagine a possible future that has a thing in it that you want.
+
+28
+00:01:40,340 --> 00:01:44,260
+ Whether it's a stupid Twitch bot that doesn't exist, that changes all your titles at the
+
+29
+00:01:44,260 --> 00:01:49,820
+ same time, or it's like something that just plays a random clip on your screen, or it's
+
+30
+00:01:49,820 --> 00:01:53,460
+ the world's next internet, the knowledge exchange route.
+
+31
+00:01:53,460 --> 00:01:59,460
+ You need to focus on getting your brain out of being told what to do, and start imagining
+
+32
+00:01:59,460 --> 00:02:00,860
+ what to do.
+
+33
+00:02:00,860 --> 00:02:06,060
+ And if you don't do that, you cannot survive in the tech world, especially, but in any
+
+34
+00:02:06,060 --> 00:02:07,060
+ career.
+
+35
+00:02:07,060 --> 00:02:11,020
+ And so every time, I always say this, and I rant about this every time, I'm like, how
+
+36
+00:02:11,020 --> 00:02:16,340
+ the hell can people not have ideas and projects to think about?
+
+37
+00:02:16,340 --> 00:02:18,820
+ I was like, man, I can't think of anything I want to make.
+
+38
+00:02:18,820 --> 00:02:22,700
+ I'm like, I'm like inundated with ideas to make things.
+
+39
+00:02:22,700 --> 00:02:26,180
+ This is why people like Minecraft, some people hate Minecraft, you know why?
+
+40
+00:02:26,180 --> 00:02:29,740
+ Because they can't think of anything that they would probably want to make.
+
+41
+00:02:29,740 --> 00:02:32,860
+ So just start doodling, and maybe something will come out of your head and it will build
+
+42
+00:02:32,860 --> 00:02:34,340
+ up your creativity.
+
+43
+00:02:34,340 --> 00:02:36,460
+ Please, please, please develop your creativity.
+
+44
+00:02:36,460 --> 00:02:44,020
+ Focus on things that build your ability to imagine, your ability to expose other parts
+
+45
+00:02:44,020 --> 00:02:48,660
+ of your world that are not necessarily technology, so that you can develop that part of your
+
+46
+00:02:48,660 --> 00:02:49,660
+ brain.
+
+47
+00:02:49,660 --> 00:02:50,660
+ And you can imagine it is.
+
+48
+00:02:50,660 --> 00:02:55,100
+ Go to other people, get to start brainstorming sessions in Discord or on the forums or in
+
+49
+00:02:55,100 --> 00:02:57,420
+ your favorite game system.
+
+50
+00:02:57,420 --> 00:03:03,220
+ Just figure out ways for you to get to ideate, you know, and to create.
+
+51
+00:03:03,220 --> 00:03:06,180
+ And you'll dominate, especially in an AI world.
+
+52
+00:03:06,180 --> 00:03:13,180
+ The AI world, the future of AI is going to be a world where, like in Star Trek, you verbalize
+
+53
+00:03:13,180 --> 00:03:16,180
+ what you want, and it happens.
+
+54
+00:03:16,180 --> 00:03:20,780
+ We're coming to that state where we verbalize what we want, we imagine what we want, and
+
+55
+00:03:20,780 --> 00:03:22,620
+ then it gets created.
+
+56
+00:03:22,620 --> 00:03:27,220
+ And we iterate on that, maybe it's not the right thing that we want it, right?
+
+57
+00:03:27,220 --> 00:03:31,200
+ So instead of saying, you know, struggling with them, we'll be like, you know, Tony
+
+58
+00:03:31,200 --> 00:03:36,020
+ Stark saying something like, thrill me, you know, to Jenkins and having him develop it
+
+59
+00:03:36,020 --> 00:03:37,020
+ for him.
+
+60
+00:03:37,020 --> 00:03:41,380
+ That's the future we live in today, and that fundamentally depends on creativity.
+
+61
+00:03:41,380 --> 00:03:41,940
+ I'm done.
+

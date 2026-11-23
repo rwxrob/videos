@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:07,000
+ Imagine it with a rhythmic flow in the land of code so vast and grand where Google's engineers take a stand.
+
+2
+00:00:07,000 --> 00:00:12,000
+ A single repo monolithic might holds billions of lines. What a towering sight.
+
+3
+00:00:12,000 --> 00:00:17,000
+ Pipers the guide through this code filled sea. Sitsi keeps it clouded and free.
+
+4
+00:00:17,000 --> 00:00:22,000
+ No need to download. Just fetch what you need. Like planting a seed without pulling a weed.
+
+5
+00:00:22,000 --> 00:00:27,000
+ Go Python Java all side by side in a trunk that the teams can modify with pride.
+
+6
+00:00:27,000 --> 00:00:32,000
+ With every commit it's all there to share an 86 terabyte beast laid bare.
+
+7
+00:00:32,000 --> 00:00:37,000
+ No branches to wander. Just one solid line where builds and tests keep things in line.
+
+8
+00:00:37,000 --> 00:00:43,000
+ Rosie sweeps through refactoring clean in Google's grand trunk. It's a seamless scene.
+
+9
+00:00:43,000 --> 00:00:48,000
+ So cheers to the devs with their singular goal. You can learn to face a well-oiled hole.
+
+10
+00:00:48,000 --> 00:00:54,000
+ In Google's grand monolithic, they find their way building the future code by code day by day.
+
+11
+00:00:54,000 --> 00:00:59,000
+ Hope that captured some of the magic. It absolutely did. I love you Chloe.
+

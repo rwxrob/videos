@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:07,440
+ He's like whispering, "I wonder."
+
+2
+00:00:07,440 --> 00:00:12,440
+ I might have visited her, "Screw you.
+
+3
+00:00:12,440 --> 00:00:15,160
+ I wrote that script in like a day."
+
+4
+00:00:15,160 --> 00:00:22,040
+ Actually, the whole team helped me out here, like, "Oh, it's crazy as we did the zero
+
+5
+00:00:22,040 --> 00:00:23,040
+ description."
+
+6
+00:00:23,040 --> 00:00:24,040
+ This clip thing.
+
+7
+00:00:24,040 --> 00:00:25,040
+ It's so cool.
+
+8
+00:00:25,040 --> 00:00:30,680
+ It has its own built-in automatic tab completion, because bash.
+
+9
+00:00:30,680 --> 00:00:31,680
+ Learn it.
+
+10
+00:00:31,680 --> 00:00:32,680
+ Love it.
+
+11
+00:00:32,680 --> 00:00:33,480
+ All right, we're back to what we were doing.
+

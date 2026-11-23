@@ -1,0 +1,2228 @@
+1
+00:00:00,000 --> 00:00:07,440
+ Uh, start recording. Yes, it's true. I'm using obsidian. Don't be mad at me.
+
+2
+00:00:09,040 --> 00:00:15,360
+ Don't hate me. Don't hate me for updating my preferences. Let me tell you the story.
+
+3
+00:00:15,360 --> 00:00:19,040
+ I want to make this a short video, but you know me, it takes a long time. And I have to tell you
+
+4
+00:00:19,040 --> 00:00:27,120
+ the story. How on earth did Mr. Anti Obsidian flipping people off banning people for recommending
+
+5
+00:00:27,120 --> 00:00:36,720
+ obsidian become an obsidian fan? Well, let me tell you a story. Once upon a time,
+
+6
+00:00:37,600 --> 00:00:44,480
+ I wanted to take notes on my phone. The end.
+
+7
+00:00:48,800 --> 00:00:55,520
+ That's it. That you can stop the video right now. If you do nothing more about this video,
+
+8
+00:00:55,520 --> 00:01:01,680
+ seriously, I am not even exaggerating. If you knew nothing more about this video than that,
+
+9
+00:01:02,560 --> 00:01:08,960
+ you have all the answers. Everything else is kind of wishy-washy long form story. Okay.
+
+10
+00:01:09,680 --> 00:01:15,760
+ So the takeaway is very simply I wanted to take notes from my phone. Not only that,
+
+11
+00:01:15,760 --> 00:01:21,440
+ I wanted to take notes by doing speech to text because in 2025 speech to text is amazing,
+
+12
+00:01:21,440 --> 00:01:27,760
+ even on a Samsung, it's not as good as a Samsung as a pixel. My pixel was way, way, way better at
+
+13
+00:01:27,760 --> 00:01:34,000
+ doing text, speech to text. And I have a feeling Ibo would be way better than that. So in 2025,
+
+14
+00:01:34,000 --> 00:01:42,240
+ if you are typing, you're kind of a boomer. Unless you're writing code, seriously,
+
+15
+00:01:42,240 --> 00:01:47,760
+ unless you're writing code in 2025, if you're taking notes by typing them out,
+
+16
+00:01:50,480 --> 00:01:55,200
+ I mean, you kind of are a boomer at that point. And no offense to the actual boomers out there.
+
+17
+00:01:55,200 --> 00:02:00,800
+ That's just a term that the young people use today. Why is this relevant? Because,
+
+18
+00:02:02,000 --> 00:02:05,680
+ look, let me show you. All right. So I'm going to give you some specific examples.
+
+19
+00:02:05,680 --> 00:02:14,160
+ I, let's turn on the side thing here. So today, this entire one here, all I need is my phone,
+
+20
+00:02:14,160 --> 00:02:17,760
+ right? I'm actually going to read it. As I said, you're sitting in my copy from the patio outside
+
+21
+00:02:17,760 --> 00:02:20,720
+ with nothing more than my phone and my copy. I realized just how amazing it is to write at the
+
+22
+00:02:20,720 --> 00:02:25,600
+ speed of thought. They say that writing is good, is easy to speak loud, and this makes it all
+
+23
+00:02:25,600 --> 00:02:29,920
+ that better because I can hear myself rather than just type it away. Now, there's, there's, you know,
+
+24
+00:02:29,920 --> 00:02:33,920
+ there's going to be grammar and spelling problems and, you know, capitalization and all that. Why?
+
+25
+00:02:33,920 --> 00:02:39,200
+ Because it's notes. I'm just to note taking them doing speech to text. But I don't care. You know,
+
+26
+00:02:39,200 --> 00:02:45,760
+ why? Because I did this with my copy and my phone while I was sitting out there, and it was automatically
+
+27
+00:02:45,760 --> 00:02:54,720
+ published to GitHub every five minutes. Who doesn't want that? There literally is nothing simpler.
+
+28
+00:02:54,720 --> 00:03:02,000
+ There is not a simpler way on planet Earth to take notes remotely. There is nothing. There's
+
+29
+00:03:02,000 --> 00:03:06,320
+ nothing better. There's nothing better. The only thing better would be to feel like you hired an
+
+30
+00:03:06,320 --> 00:03:09,920
+ assistant to copy the stuff down. But you know what they would do? They would do what you're
+
+31
+00:03:09,920 --> 00:03:13,680
+ doing, which is they would like speak into their phone and take the notes and then have the model
+
+32
+00:03:13,680 --> 00:03:19,440
+ publish to GitHub. So using obsidian to dynamically sync, I'm going to get better. It's going to get
+
+33
+00:03:19,440 --> 00:03:24,320
+ even better and dynamically sync to GitHub and to, to, you know, do autocorrect and all the other
+
+34
+00:03:24,320 --> 00:03:28,320
+ things that would do is see. There we go. See that just went through. That was an automatic
+
+35
+00:03:28,320 --> 00:03:34,880
+ GitHub sync that just happened. Okay. And so we're going to break all this down for the rest of the
+
+36
+00:03:34,880 --> 00:03:39,280
+ video. But, but, you know, the only downside is the writing is obvious lack of capitalization,
+
+37
+00:03:39,280 --> 00:03:42,960
+ good punctuation, but as long as it, it's going to be in my notes that are sitting and I don't care.
+
+38
+00:03:44,160 --> 00:03:47,760
+ Second part of the writing process is in this case is having a WordPress blog. So
+
+39
+00:03:48,560 --> 00:03:54,880
+ I'll do a separate video on this. You know, saying the word WordPress makes me vomit a
+
+40
+00:03:54,880 --> 00:04:03,120
+ little bit in my mouth. But again, I can write a blog from my phone, separate video on that,
+
+41
+00:04:03,120 --> 00:04:09,760
+ totally separate video on that. But this all came about because I wanted to get rid of
+
+42
+00:04:09,760 --> 00:04:15,520
+ carrying my computer around because I got two new, two new bicycles. And I'm not into
+
+43
+00:04:15,520 --> 00:04:19,840
+ carrying around a bunch of heavy stuff. I want to ride my bike. I want to enjoy it. And I want to
+
+44
+00:04:19,840 --> 00:04:24,000
+ be on my mountain bike in the middle of nowhere and take a drink and take some notes about I
+
+45
+00:04:24,000 --> 00:04:28,960
+ remind my to do this or do this or I need, or I can maybe have an idea. I have lots of ideas on
+
+46
+00:04:28,960 --> 00:04:33,840
+ the road, except for I'm old and my brain is not remembering things. So being able to take notes
+
+47
+00:04:33,840 --> 00:04:38,880
+ is good. And in the past videos, I've said take notes in your zodelkasten and I ran it, I'm sorry,
+
+48
+00:04:38,880 --> 00:04:44,400
+ into your AI, take notes in your AI. And I ran into a limitation with that because AI runs out of
+
+49
+00:04:44,400 --> 00:04:49,920
+ memory. I knew it would. I didn't know when it would be. And it turns out it's much earlier than I
+
+50
+00:04:49,920 --> 00:04:57,040
+ thought. So I don't believe that your AI is the best way to take notes. I now believe Obsidian is
+
+51
+00:04:57,040 --> 00:05:01,840
+ the best way to take notes, period. And if you're talking to a guy who wrote his own knowledge
+
+52
+00:05:01,840 --> 00:05:06,480
+ management zodelkasten system, I took it down as you can't even get to it anymore because you
+
+53
+00:05:06,480 --> 00:05:13,200
+ should be using Obsidian. I am now a paid $4 a month customer of Obsidian because the sink is just
+
+54
+00:05:13,200 --> 00:05:18,000
+ worth it. And quite honestly, as proprietary as it is, a bunch of good people up in Canada
+
+55
+00:05:18,000 --> 00:05:24,720
+ make an Obsidian and it rocks. I mean, it is a solid application. And my biggest apologies to
+
+56
+00:05:24,720 --> 00:05:29,040
+ anybody that I may have personally roasted. I'm thinking to have a couple of people in specifically
+
+57
+00:05:29,040 --> 00:05:34,400
+ that I've downright told them, you know, you suck ass. And the reason that I got so angry
+
+58
+00:05:34,400 --> 00:05:41,280
+ is because they were using something called wiki links. So let's break down how to use Obsidian
+
+59
+00:05:41,280 --> 00:05:48,240
+ in a way that is indistinguishable from just plain old GitHub-flavored Markdown. And this is
+
+60
+00:05:48,240 --> 00:05:56,000
+ important people. The reason that all of my anger got erupted with this is because the form of
+
+61
+00:05:56,000 --> 00:06:03,440
+ Markdown that Obsidian uses by default is not compatible with GitHub-flavored Markdown.
+
+62
+00:06:03,440 --> 00:06:08,320
+ It's not even standard Markdown. It's not even common Mark. They use something called
+
+63
+00:06:08,320 --> 00:06:14,080
+ media links. One tweak, I've written up all these tweaks in my publicly accessible,
+
+64
+00:06:15,600 --> 00:06:21,920
+ sorry, knowledge-based, artybyxrob/notes on GitHub. You can go see all of these notes in real time.
+
+65
+00:06:21,920 --> 00:06:26,880
+ You can go search them. I'll show you how to do it as a way to go about doing this. So,
+
+66
+00:06:27,760 --> 00:06:33,520
+ but the point I'm trying to make here is that if you click, if you go into your setting,
+
+67
+00:06:33,520 --> 00:06:38,960
+ this is really important setting. And by the way, I've got notes. I'm trying to call them
+
+68
+00:06:38,960 --> 00:06:44,560
+ notes instead of zettles now, but I've got a note files on all of these and we'll go through this.
+
+69
+00:06:46,160 --> 00:06:50,160
+ I turned up auto-pairing Markdown syntax as that was messing up my bulleted lists.
+
+70
+00:06:52,800 --> 00:06:55,920
+ Let's see here. What's the one I was going to show you?
+
+71
+00:07:01,360 --> 00:07:03,840
+ I don't have any line numbers pulled into properties and documents,
+
+72
+00:07:03,840 --> 00:07:09,920
+ strict line breaks. Okay, these are all documented in my notes. I have a whole
+
+73
+00:07:09,920 --> 00:07:14,480
+ like a bulleted list of every single change that I suggest. And we're going to review that document
+
+74
+00:07:14,480 --> 00:07:20,720
+ in a second, but I'm kind of getting ahead of myself on this first one. So, let's see,
+
+75
+00:07:20,720 --> 00:07:25,200
+ readable and link. This is kind of on that. Makes it real. We were playing with that earlier.
+
+76
+00:07:28,000 --> 00:07:32,960
+ Yeah, I don't know. Anyway, so I actually have links to it. I actually made videos. I mean,
+
+77
+00:07:32,960 --> 00:07:37,520
+ I made screenshots too, which I've always wanted to do. I've always wanted to do screenshots
+
+78
+00:07:37,520 --> 00:07:43,840
+ easily. And this has gotten around that. I haven't put that in a note yet, but I will talk about it.
+
+79
+00:07:45,040 --> 00:07:51,840
+ I am using a paid version of obsidian. Yep. I'm using the $4 a month paid version of obsidian,
+
+80
+00:07:51,840 --> 00:07:57,920
+ which creates a synchronous between here and here. I want to show you what I mean by that. So,
+
+81
+00:07:57,920 --> 00:08:02,640
+ you see this? Why do obsidian link? Let's get started on that right away. The reason that I am
+
+82
+00:08:02,640 --> 00:08:09,440
+ paying for this is because I can automatically publish to GitHub from my phone if I buy the sync.
+
+83
+00:08:10,400 --> 00:08:16,080
+ You can't do that unless you buy the sync, which is totally worth it. The GitHub synchronization
+
+84
+00:08:16,080 --> 00:08:20,320
+ is a plugin that you have to add, and I'll sort of break all this down. I'm not really
+
+85
+00:08:20,320 --> 00:08:26,080
+ able to organize right now, but you can go find all this stuff in my notes if you want to see
+
+86
+00:08:26,080 --> 00:08:32,160
+ exactly what I'm doing. So, here I am. I'm looking at my phone, and I'm going to the,
+
+87
+00:08:33,360 --> 00:08:41,120
+ why do I use obsidian link? So, here it is. Some reason it switched to white. It was actually
+
+88
+00:08:41,120 --> 00:08:46,800
+ dark mode before. So, what I want to show you here is see it here at the bottom, right? So,
+
+89
+00:08:46,800 --> 00:08:52,400
+ I can do this. I want to show you this. So, right now you can see the screen, right?
+
+90
+00:08:54,080 --> 00:09:02,960
+ So, I can do this. This is just a sample to show you how it automatically synchronizes
+
+91
+00:09:04,320 --> 00:09:05,600
+ in real time.
+
+92
+00:09:13,440 --> 00:09:21,200
+ All right, that's pretty damn fast, right? And then every five minutes, whatever is here
+
+93
+00:09:21,920 --> 00:09:24,240
+ is going to be saved into my GitHub.
+
+94
+00:09:27,040 --> 00:09:34,000
+ And if I delete it from either of them, so if I cut it in pastes, if I copy and paste it and I
+
+95
+00:09:34,000 --> 00:09:40,960
+ delete it, whoops, I'm not in edit mode. I'm in read mode.
+
+96
+00:09:43,920 --> 00:09:50,880
+ I'm also in VIMode. You know what? I'm going to turn VIMode off of this. I've been super debating
+
+97
+00:09:50,880 --> 00:09:58,480
+ about whether to VIMode or not. And when I use a GUI, I tend to not use VIMode for lots of
+
+98
+00:09:58,480 --> 00:10:03,920
+ reasons because you can't use filters and stuff. So, anyway, that little delete thing doesn't work.
+
+99
+00:10:03,920 --> 00:10:08,560
+ I don't know why it would use VIMode and obsidian unless your fingers were really married to it.
+
+100
+00:10:10,320 --> 00:10:15,440
+ All right, so here we go again. Let's do this. So, delete, hit delete, delete, delete.
+
+101
+00:10:16,560 --> 00:10:22,480
+ And then it'll do the thing. It's just showing right here. So, about ready, about done with this
+
+102
+00:10:22,480 --> 00:10:26,800
+ video, auto, sorry for that. I just had to make a video. So, did you see how that went away?
+
+103
+00:10:27,360 --> 00:10:35,280
+ Okay, so the last thing here. So, why I use this is so what I wanted to show you is that it can
+
+104
+00:10:35,280 --> 00:10:43,680
+ be deleted that way just really easily. And honestly, the rest of the benefits, you can kind of just
+
+105
+00:10:43,680 --> 00:10:49,840
+ look at on your own. What's that? You need to get water? The only thing that's showing is me
+
+106
+00:10:49,840 --> 00:10:56,880
+ right now. You see right here, I can, you can look on the screen. You don't want me, you don't
+
+107
+00:10:56,880 --> 00:11:05,280
+ want your voice to be in the stream. All right, well, I mean, we can like, do, do, do around that.
+
+108
+00:11:06,560 --> 00:11:10,880
+ Oh, it's my bad. It's my bad. So, I should not be doing live stream from here. But I am on the
+
+109
+00:11:10,880 --> 00:11:15,920
+ kitchen table doing this live stream. How cool is that, right? So, if I was going to do a live
+
+110
+00:11:15,920 --> 00:11:19,440
+ stream, like a technical live stream, and I had the computer in the car, and I took it to the
+
+111
+00:11:19,440 --> 00:11:23,360
+ copy shop or something, I could do a live stream, and having to take all my audio gear and everything.
+
+112
+00:11:23,360 --> 00:11:27,520
+ So, this is kind of part of the new normal. Would you like to write an app?
+
+113
+00:11:31,920 --> 00:11:36,800
+ Since 10 seconds of the MP3 audio book, now let's, there's additional questions.
+
+114
+00:11:39,440 --> 00:11:44,320
+ No, we don't need that app to have someone on your PC right into a note while you're cycling.
+
+115
+00:11:44,320 --> 00:11:51,280
+ Yeah. That's another thing you could do. So, the other thing that's really cool about that,
+
+116
+00:11:51,280 --> 00:11:56,560
+ so that's not actually, that's not one of the, the list, the listed items.
+
+117
+00:11:58,320 --> 00:12:05,440
+ So, one of the reasons to use this is, as somebody said, is because you can actually share it.
+
+118
+00:12:06,320 --> 00:12:10,960
+ You can actually share the account. So, you could have somebody else taking notes for you,
+
+119
+00:12:10,960 --> 00:12:15,280
+ like one of my moderators. I could give them access to, I could synchronize with them,
+
+120
+00:12:15,840 --> 00:12:19,120
+ and they could make new notes for me. And you'd have to trust them, obviously,
+
+121
+00:12:19,120 --> 00:12:24,880
+ but I already trust my moderators. So, if I'm not talking to it, they could take notes and stuff,
+
+122
+00:12:24,880 --> 00:12:29,600
+ and we would have like live real-time notes of everything that we're writing there. So,
+
+123
+00:12:30,240 --> 00:12:37,120
+ the truth of it is, is I, all I have to do is give you access to the obsidian sync. I don't
+
+124
+00:12:37,120 --> 00:12:41,600
+ have to give you access to my GitHub repo, right? Because it only synchronizes automatically from
+
+125
+00:12:41,600 --> 00:12:47,360
+ here. So, and I'm out of battery, of course. My battery is just about to die. Give me one second,
+
+126
+00:12:47,360 --> 00:12:53,600
+ and I'm, let me see if I can pause the video. It's, I didn't, yeah. I'm back. I guess that's
+
+127
+00:12:53,600 --> 00:12:57,840
+ the sign I need to finish up here. So, this is the main summary of it. So,
+
+128
+00:12:58,640 --> 00:13:01,760
+ let me, I'm just gonna go down these bullet points really quickly, and that'll be the end of this
+
+129
+00:13:01,760 --> 00:13:08,240
+ video. For any more information you want about that, it will be in the link, it'll be in my notes,
+
+130
+00:13:08,240 --> 00:13:14,960
+ and the notes will be linked from, from my Zettlecast, I mean, from my, from this video at the bottom.
+
+131
+00:13:14,960 --> 00:13:19,200
+ My dog is doing yoga over here. So, the first thing, if you wanted to be compatible with GitHub,
+
+132
+00:13:19,200 --> 00:13:24,560
+ you need to do is keep them in a single, in order to keep the cost down to $4 a month,
+
+133
+00:13:24,560 --> 00:13:27,360
+ if you're gonna do the sync, and you don't need to do that, right? You can automatically do a
+
+134
+00:13:27,360 --> 00:13:33,840
+ GitHub sync, and you can even set up GitHub sync from your phone using Turmux and some other stuff,
+
+135
+00:13:33,840 --> 00:13:40,400
+ if you don't want to pay at all, you can do that. I don't mind it at $4 a month. That's plenty
+
+136
+00:13:40,400 --> 00:13:46,080
+ reasonable for me, but that's for the amount of stuff that it's giving me. I mean, we're talking
+
+137
+00:13:46,080 --> 00:13:50,720
+ about, I can take a screen capture or a photo with my phone, and I can add it to my Zettlecast
+
+138
+00:13:50,720 --> 00:13:57,360
+ in notes immediately, and it'll, it'll automatically synchronize it up to GitHub. So, you know, short
+
+139
+00:13:57,360 --> 00:14:02,880
+ of blogging dynamically, that's the best thing I could probably want to do. And there's obsidian
+
+140
+00:14:02,880 --> 00:14:12,000
+ for teams. And I think my biggest complaint about obsidian was that I wrongly assumed that they
+
+141
+00:14:12,000 --> 00:14:16,160
+ didn't have any intention of supporting the markdown standards out there, and they absolutely do.
+
+142
+00:14:17,200 --> 00:14:22,880
+ I think it was a bad decision to add media links, but they immediately resolve that,
+
+143
+00:14:22,880 --> 00:14:28,480
+ and you can make it so that it makes some standard links now. So, you need one, I think you should
+
+144
+00:14:28,480 --> 00:14:34,080
+ have one base read me. That's what I have here. And so, this is a read me on if you go to
+
+145
+00:14:34,080 --> 00:14:46,960
+ rvxrob/notes, you can actually see it. And let's do that really quick. So, if you go to github.com/rvxrob/notes, you'll see
+
+146
+00:14:48,160 --> 00:14:52,640
+ whoops, I'm in the wrong account. I'm in the, I'm in my, I have two accounts now that I stream
+
+147
+00:14:53,200 --> 00:14:56,800
+ all over the place. All right, so here we go. So, this is what I was doing before. So, here's the
+
+148
+00:14:56,800 --> 00:15:03,840
+ notes, and you get your obsidian settings get saved, which is nice. And the first thing is
+
+149
+00:15:03,840 --> 00:15:07,280
+ you're going to see is there's like a bunch of files app spaces, and we're going to come back
+
+150
+00:15:07,280 --> 00:15:12,480
+ to that in a second. So, you click on read me here, and you get the same stuff here.
+
+151
+00:15:12,480 --> 00:15:18,480
+ Now, the goal, of course, is so that these, the browsing of your read me repository, you know,
+
+152
+00:15:18,480 --> 00:15:25,040
+ your notes get a markdown repository is 100% compatible with github, and also works in obsidian.
+
+153
+00:15:25,040 --> 00:15:30,560
+ And if you are using media links, it won't work. So, that was the thing that made me
+
+154
+00:15:30,560 --> 00:15:34,720
+ really angry, it really triggered me. And I don't remember if they didn't have it before,
+
+155
+00:15:34,720 --> 00:15:39,680
+ I just didn't know about it. But whatever reason, there is a setting you can go in and you can change
+
+156
+00:15:39,680 --> 00:15:46,000
+ it so that it, any of the media links that you add will be automatically, automatically converted
+
+157
+00:15:46,560 --> 00:15:53,120
+ into standard markdown links. And so, you can go ahead and use the convenience of that format,
+
+158
+00:15:53,120 --> 00:15:58,640
+ you know, two double brackets, and then type it out. But you get the compatibility of,
+
+159
+00:15:59,200 --> 00:16:03,120
+ you know, these markdown links that are, that work, as long as they're all
+
+160
+00:16:03,120 --> 00:16:07,520
+ relative and pointing to something at the top level. So, so let's go back to that.
+
+161
+00:16:10,400 --> 00:16:15,840
+ Let's see, I just get a play of a markdown, why I use obsidian, why I don't use Zilakastin,
+
+162
+00:16:16,960 --> 00:16:20,240
+ why I'm okay with my own names for notes, spaces in my own names. So, if you go back here,
+
+163
+00:16:21,440 --> 00:16:27,120
+ taking notes of obsidian on a phone, keep obsidian compatible. So, let's keep going through this.
+
+164
+00:16:28,480 --> 00:16:31,840
+ I suggest you add a legal impeller to the read me that file, just so people know,
+
+165
+00:16:32,640 --> 00:16:38,080
+ and you put a disclaimer in there saying, hey, you know, this stuff is my live notes, right,
+
+166
+00:16:38,080 --> 00:16:42,640
+ which brings me to the next point and publish content from your notes and into polish books
+
+167
+00:16:42,640 --> 00:16:46,960
+ and blogs. So, some of you know that I have a thing called perpetual publishing, which I still have,
+
+168
+00:16:46,960 --> 00:16:50,160
+ you know, the books that I've been working on that I kind of put on hold for a second while I
+
+169
+00:16:50,160 --> 00:16:54,880
+ get back in the outdoors and everything. They are coming back, but I, now what I can do is,
+
+170
+00:16:54,880 --> 00:17:00,560
+ rather than having to be sure of what I want to put in the book, I can have a random thought while
+
+171
+00:17:00,560 --> 00:17:07,200
+ I'm on a bike ride, and I can, you know, safely put it into my phone as a part of a Zilakastin,
+
+172
+00:17:07,200 --> 00:17:12,800
+ you know, sort of, I'm not calling it a Zilakastin, because it's really not, you know, into my notes,
+
+173
+00:17:12,800 --> 00:17:16,720
+ and then I can go back to my notes and see which one's the reason I can tag him, I can keep his
+
+174
+00:17:16,720 --> 00:17:21,120
+ keyword search center, whatever, and I can pull that into the book, and that's, that's the reason
+
+175
+00:17:21,120 --> 00:17:25,520
+ Lumen's approach for Zilakastin was so, made him so prolific, is because he had these notes already
+
+176
+00:17:25,520 --> 00:17:30,000
+ written, and one of the really great things about Obsidian that I've always wanted to add to any
+
+177
+00:17:30,000 --> 00:17:35,520
+ system that I started building was the ability to mind map, and you guys, anybody who's used it
+
+178
+00:17:35,520 --> 00:17:41,760
+ for two seconds knows about this, but this is one of the most powerful ways to do any kind of writing.
+
+179
+00:17:41,760 --> 00:17:47,920
+ It's also the number one reason that you should pick descriptive names and titles that have spaces
+
+180
+00:17:47,920 --> 00:17:53,360
+ in them, and get over your annoyance with spaces in the file names, because that doesn't ever land
+
+181
+00:17:53,360 --> 00:17:58,160
+ in anything except for the backup on GitHub, right? That's it. It's not going to become a slug. If
+
+182
+00:17:58,160 --> 00:18:02,640
+ it were ever going to become a slug, it would be something you would export later. So, you know,
+
+183
+00:18:02,640 --> 00:18:07,200
+ a lot of people are like, well, no, duh, right? But this whole mind mapping idea, this is probably
+
+184
+00:18:07,200 --> 00:18:14,400
+ the one of the single most powerful things from Obsidian that I'm always liked, but wasn't willing
+
+185
+00:18:14,400 --> 00:18:20,880
+ to give up the Zodelkasten standard or Markdown standard to get it. Well, now that I know that you
+
+186
+00:18:20,880 --> 00:18:30,080
+ can actually write 100% get in flavored Markdown and never have anything incorrect or a non-standard
+
+187
+00:18:30,080 --> 00:18:35,280
+ creep into your notes knowledge base, I get a graph for free. But then what you can do is you
+
+188
+00:18:35,280 --> 00:18:41,520
+ can take these nodes and you can convert that node into an outline and you can convert the outline
+
+189
+00:18:41,520 --> 00:18:47,040
+ into a book. And so it's actually a really great way to write books. This is how I wrote all my
+
+190
+00:18:47,040 --> 00:18:51,840
+ papers and books in college using a tool called inspiration and mind mapping tool per Mac.
+
+191
+00:18:52,480 --> 00:18:58,720
+ And it would it's very, very fast way to create an outline out of just the creative thought process
+
+192
+00:18:58,720 --> 00:19:05,280
+ and then boom, you put you put some skin on those bones and you got a book. So this I'm super excited
+
+193
+00:19:05,280 --> 00:19:12,240
+ about this because this is a big part of it. But again, that's how so that does that means that my
+
+194
+00:19:12,240 --> 00:19:17,200
+ preparedness is I was starting to have conflicts because I was writing a blog
+
+195
+00:19:19,040 --> 00:19:25,600
+ in Askeydock and I was completely locked to not only doing it in Askeydock, but doing something
+
+196
+00:19:25,600 --> 00:19:29,440
+ that I really support and I think it's awesome, but only for those who want to publish a book,
+
+197
+00:19:29,440 --> 00:19:32,720
+ right? So I was having a hard time recommending that as a note taking methodology to other people
+
+198
+00:19:32,720 --> 00:19:37,200
+ like, should I use Askeydock instead of Markdown? I was like, I don't know. And now I think this solid
+
+199
+00:19:37,200 --> 00:19:44,480
+ answer is only if you're going to publish a book. 99% of people are going to be best served by Obsidian
+
+200
+00:19:44,480 --> 00:19:49,840
+ right now free or paid. It doesn't matter. If they follow the standards, because let's get back
+
+201
+00:19:49,840 --> 00:19:55,360
+ to the standards, follow the one I the one I did principal is that'll cast sin. As you saw in
+
+202
+00:19:55,360 --> 00:20:03,040
+ graph mode, by having one thought per node, you win, right? Because if your node has got like two
+
+203
+00:20:03,040 --> 00:20:09,440
+ or three or four major thoughts, major ideas, they don't show up in the graphic mode. So there's
+
+204
+00:20:09,440 --> 00:20:22,960
+ still a lot of value in, I think in keeping with the, you know, the old ideas, you know, of one thought
+
+205
+00:20:22,960 --> 00:20:33,360
+ per per note. And the easiest way to do that is to just make sure you don't put any headings in it.
+
+206
+00:20:33,360 --> 00:20:37,520
+ If you don't put any headings in it, if you're like reaching for a new heading,
+
+207
+00:20:37,520 --> 00:20:44,400
+ it's a good chance you need a new note instead of a new heading. And you know, if you've got two
+
+208
+00:20:44,400 --> 00:20:49,920
+ or three, I mean, you can do that if it seems to make sense, but I just don't. So I have a couple
+
+209
+00:20:49,920 --> 00:20:56,800
+ of other things that I do. I only make text paragraphs because I want my raw code to look really good.
+
+210
+00:20:56,800 --> 00:21:03,520
+ I kind of jumping ahead, but I want my raw code to be readable, which means that I will put links
+
+211
+00:21:05,120 --> 00:21:09,200
+ down below. So this is one thing adding hyperlinks on necessarily paragraphs makes them a possible
+
+212
+00:21:09,200 --> 00:21:15,200
+ read and mark down form. By the way, this entire paragraph, I spoke it into my phone. To address
+
+213
+00:21:15,200 --> 00:21:19,760
+ this, I just cleaned up the text on this, the grammar. To address a simple, create those links
+
+214
+00:21:19,760 --> 00:21:23,040
+ references in the paragraph in their own bulleted list at the end of the document, which is always
+
+215
+00:21:23,040 --> 00:21:27,840
+ rather short when following a one-month thought principle. So this means that my notes end up with
+
+216
+00:21:27,840 --> 00:21:33,040
+ the title at the top, which has traditionally been a huge problem for markdown. Do you put a heading
+
+217
+00:21:33,040 --> 00:21:37,520
+ at the top or not? Right? So my old systems, that title was always the first heading, and it was
+
+218
+00:21:37,520 --> 00:21:43,680
+ always at the very top. Well, now that these things are being managed by the title itself,
+
+219
+00:21:43,680 --> 00:21:48,320
+ so the title of the file, which really took some arm twisting for me to be okay with,
+
+220
+00:21:48,320 --> 00:21:55,360
+ but the title right here is exactly the same as the title of the file. So that means you can't
+
+221
+00:21:55,360 --> 00:22:01,680
+ put fancy things in it, which I already was constraining myself to do. But so you get the title,
+
+222
+00:22:01,680 --> 00:22:08,080
+ but that gets rid of the problem of keeping your file names in sync with it. And obsidian is really
+
+223
+00:22:08,080 --> 00:22:13,280
+ great. If you change this, it not only changes it in the file name, it changes it in every single
+
+224
+00:22:13,280 --> 00:22:20,480
+ file that links to it. So the freedom to change these useful names is taken care of.
+
+225
+00:22:20,480 --> 00:22:28,560
+ And the infamous problem of having the first line heading of the markdown file match is
+
+226
+00:22:28,560 --> 00:22:34,960
+ gone. Now there is a side effect to this that's slightly annoying. So that is when you click on a
+
+227
+00:22:34,960 --> 00:22:41,600
+ note, you don't have a title. And there are some people that would really get bent out of shape.
+
+228
+00:22:41,600 --> 00:22:45,680
+ I would do that. I would get bent out of shape out before, but the title is right here, right?
+
+229
+00:22:45,680 --> 00:22:49,520
+ The title is right there in the name. It's super readable. This is just a note-taking system,
+
+230
+00:22:49,520 --> 00:22:55,040
+ so it's not like I'm going to die because it's not there. And I can change the title anytime I want.
+
+231
+00:22:55,040 --> 00:23:02,160
+ And it doesn't corrupt the internal content data there. So some people will still be put
+
+232
+00:23:02,160 --> 00:23:09,840
+ up by that. I think it's fine. So what did I do here? Oh, that's an auto highlight. I don't even
+
+233
+00:23:09,840 --> 00:23:16,640
+ know what's going on right now. Am I in reader mode? It is a GUI app. So it does kind of get
+
+234
+00:23:17,200 --> 00:23:19,760
+ making me what is what the hell is this thing doing here?
+
+235
+00:23:22,160 --> 00:23:29,600
+ Why is that there? This is why I don't like graphic apps. Again, why am I using this at all,
+
+236
+00:23:29,600 --> 00:23:37,040
+ right? You're like, why is Rob using this? I am using this because press escape.
+
+237
+00:23:38,400 --> 00:23:43,360
+ What the hell was that thing? Anyway, so there's probably a preview or some gun.
+
+238
+00:23:45,440 --> 00:23:48,400
+ I do not use folders. We're going to talk about why I don't use folders.
+
+239
+00:23:49,840 --> 00:23:54,160
+ That was a very tough decision, so we're going to get there in a second. So follow the one idea,
+
+240
+00:23:54,160 --> 00:23:57,840
+ abandon other outdated ideas from Zetalcastin. So let's talk about this.
+
+241
+00:24:00,000 --> 00:24:05,360
+ So the idea is about unique identifiers and being able to do it on paper and all that.
+
+242
+00:24:05,360 --> 00:24:13,760
+ I think they're old and outdated. And why I don't touch you. Actually, you know what I could do here?
+
+243
+00:24:16,400 --> 00:24:20,160
+ So here it is. Lulancreat and Zetalcastin on time when computers were not really an option.
+
+244
+00:24:20,160 --> 00:24:24,080
+ Many of the physical limitations system were powerful, and they constrained the system today.
+
+245
+00:24:25,120 --> 00:24:29,440
+ The speeds of processes gets the medium out of the way of sitting as one of those systems.
+
+246
+00:24:29,440 --> 00:24:35,600
+ Unique identifier that Lulman suggested was unnecessary. It was completely necessary for
+
+247
+00:24:35,600 --> 00:24:39,840
+ the time, but it's not anymore. I used to complain about universal unique identifiers
+
+248
+00:24:40,880 --> 00:24:45,440
+ because that's what I thought obsidian uses. And you can do that, but it's actually not what it
+
+249
+00:24:45,440 --> 00:24:55,440
+ uses. Obsidian by default uses the human readable title of the note as the unique identifier.
+
+250
+00:24:55,440 --> 00:25:02,080
+ And I love that. I love that because it forces me to create unique titles. If I have two titles
+
+251
+00:25:02,080 --> 00:25:09,520
+ that are identical, then I have a bad title, right? So I think it's a great idea. And I don't
+
+252
+00:25:09,520 --> 00:25:12,720
+ think it was always that way when I first evaluated it. The only principle from Zetalcastin
+
+253
+00:25:12,720 --> 00:25:16,320
+ workflow that I have kept is the one main thought principle, which I talked about already.
+
+254
+00:25:17,680 --> 00:25:21,520
+ And the one main thought being being up here. This ensures I do not repeat myself over the
+
+255
+00:25:21,520 --> 00:25:32,320
+ place, okay? So the other thing of this is, okay, let's say, a lot of spaces in the file names.
+
+256
+00:25:33,360 --> 00:25:39,440
+ So titles and graphs are readable. So this was really, really hard for me to do. And there are
+
+257
+00:25:39,440 --> 00:25:44,000
+ all kinds of ways you can add a plug in to automatically make your titles into slugs.
+
+258
+00:25:44,000 --> 00:25:48,320
+ The biggest reason to not do that, I already said it, is that your graphs become unreadable.
+
+259
+00:25:48,960 --> 00:25:53,040
+ Your graphs have these unreadable slugs in them as opposed to these really pretty,
+
+260
+00:25:55,120 --> 00:26:00,240
+ you know, look at this really, really creating one line idea, right? So you have this one line
+
+261
+00:26:00,240 --> 00:26:05,840
+ thesis idea and that becomes in your graph and it makes this graph very useful. If you put dashes
+
+262
+00:26:05,840 --> 00:26:11,120
+ or something there, you're going to do it. It's going to not work. So I feel like that's a big,
+
+263
+00:26:11,760 --> 00:26:16,960
+ you know, disadvantage of doing it that way. So I'm okay with spaces.
+
+264
+00:26:17,600 --> 00:26:23,520
+ Every modern system allows for spaces if and when I'm on the command line messing with it,
+
+265
+00:26:23,520 --> 00:26:32,800
+ which I am doing right here. So yeah, so you can use any point you want.
+
+266
+00:26:32,800 --> 00:26:37,440
+ So here's all of my things, right? So if I truly wanted to go in here and edit it with BI, which
+
+267
+00:26:37,440 --> 00:26:48,720
+ I will, you know, I can do why I can do why I tab tab, you know, don't use but and I can just tab
+
+268
+00:26:48,720 --> 00:26:56,480
+ it out. Yeah, okay. This looks to a Unix person. This is like, you know, it's just will not stand,
+
+269
+00:26:56,480 --> 00:27:02,640
+ but hear me out. There's still, there's still another really great reason to do this and that
+
+270
+00:27:02,640 --> 00:27:08,560
+ is because you've made an actual title that has, that's, you know, that's a title. So like one thought
+
+271
+00:27:08,560 --> 00:27:15,920
+ in, you know, distilled into one sentence-ish thing is that you get this extremely, you know,
+
+272
+00:27:15,920 --> 00:27:23,600
+ surprising benefit in GitHub. So I made a whole thing about this, but by making these titles over
+
+273
+00:27:23,600 --> 00:27:28,080
+ here, they file names, even though they're all flat and we'll get to that, even though they're
+
+274
+00:27:28,080 --> 00:27:35,920
+ all flat, they can be very quickly searched. This was not something I could do using my knowledge base
+
+275
+00:27:35,920 --> 00:27:40,320
+ the other way. I had made unique identifiers for all the file names or folder names,
+
+276
+00:27:40,320 --> 00:27:46,720
+ and then I had to do an actual content search to get anything out of there. But because my titles
+
+277
+00:27:46,720 --> 00:27:56,480
+ are now very readable titles, which I can do this with, my obsidian tool and my GitHub interface
+
+278
+00:27:56,480 --> 00:28:04,560
+ are identical. And that goes from my phone as well. And I can't overstate how amazing this is,
+
+279
+00:28:04,560 --> 00:28:09,280
+ even though I encountered it completely by accident. Let me show you what I mean. So let's say,
+
+280
+00:28:10,880 --> 00:28:15,520
+ let's say that I have literally 10,000 individual notes in here, right?
+
+281
+00:28:16,640 --> 00:28:21,360
+ Okay, so the first thing is like, oh, did we really want to make all of that flat? The answer is yes,
+
+282
+00:28:21,360 --> 00:28:27,920
+ and the folders and categories are a failed taxonomy approach to knowledge management. I will make a
+
+283
+00:28:27,920 --> 00:28:33,760
+ case for that in a second. But let's just assuming it's all on the top, because it's all on the top,
+
+284
+00:28:33,760 --> 00:28:40,640
+ we can now use the built in GitHub filter technique to find the stuff that we want to do. So I can say,
+
+285
+00:28:40,640 --> 00:28:46,240
+ give me everything with GitHub in it. And it immediately finds every single file
+
+286
+00:28:47,120 --> 00:28:51,760
+ in here that's got the word GitHub in it, right? And if it's in this directory, it's even better.
+
+287
+00:28:51,760 --> 00:28:59,280
+ So like if I do obsidian, you can see why obsidian mark down here. I actually kind of,
+
+288
+00:28:59,280 --> 00:29:03,520
+ I wish I could make it so that it didn't look into dot obsidian. That would be really nice.
+
+289
+00:29:04,080 --> 00:29:10,400
+ Let's do something that's not going to be like that. Let's do, I don't know, how about phone.
+
+290
+00:29:10,400 --> 00:29:15,520
+ So here, there, all I need is a phone to write taking notes. Did you see how wonderfully this auto
+
+291
+00:29:15,520 --> 00:29:22,080
+ sorts? It gives me a readable thing and auto, you know, it's that it's a very, it's a very common
+
+292
+00:29:22,080 --> 00:29:27,360
+ user interface technique to have a filter with the search and use type it and an auto filter so
+
+293
+00:29:27,360 --> 00:29:33,920
+ that you can see around that. And we're not used to terminal. Okay, so anybody that's recommending
+
+294
+00:29:33,920 --> 00:29:37,920
+ fuzzy pointers and stuff like that, you missed the beginning of the video, the whole reason for
+
+295
+00:29:37,920 --> 00:29:42,000
+ this is because I want to use it from my phone. You can't use a fuzzy pointer from your phone
+
+296
+00:29:42,000 --> 00:29:47,040
+ without a terminal. I love the terminal, but this is this is a taking tool that works in the terminal
+
+297
+00:29:47,040 --> 00:29:52,800
+ and works on my phone and auto publishes. So that's why I like it. So you can go here,
+
+298
+00:29:52,800 --> 00:29:56,000
+ you can see the different things and it'll actually take you right to it. I mean, that is pretty
+
+299
+00:29:56,000 --> 00:30:00,880
+ damn cool. I mean, look at that. Look at that. This is the built in GitHub interface, everybody.
+
+300
+00:30:00,880 --> 00:30:05,040
+ This is the built up GitHub interface that I'm doing right now. And both of these notes,
+
+301
+00:30:05,040 --> 00:30:12,720
+ by the way, were completely taken by speaking into my phone and writing them. Okay, so if you
+
+302
+00:30:12,720 --> 00:30:17,680
+ haven't been sold at this point, I don't know what else to tell you. This is like hands down,
+
+303
+00:30:17,680 --> 00:30:23,200
+ the best way to take notes on the planet. And so choose your unique descriptive titles and title
+
+304
+00:30:23,200 --> 00:30:28,000
+ case, which we already talked about title case is scientifically proven to be easier to read
+
+305
+00:30:28,000 --> 00:30:34,240
+ than title case. Plus, it's it also worked really well as a bulleted entry. You might want to make
+
+306
+00:30:34,240 --> 00:30:40,720
+ sure to not put periods on the end of it on the end of your, if you avoid putting periods on the
+
+307
+00:30:40,720 --> 00:30:45,680
+ end right here, you can do this and you can do this and you can say add link and it will go see,
+
+308
+00:30:45,680 --> 00:30:50,640
+ it'll try to find a match. It will try to find a matching note that is already there. And if
+
+309
+00:30:50,640 --> 00:30:55,760
+ there's not one, it'll make one. So like choose unique descriptive title cases, right? So if I do
+
+310
+00:30:55,760 --> 00:31:03,120
+ this, if I say no match bound, it'll either erase it. Whoops. I have to command Z that one. All right,
+
+311
+00:31:03,120 --> 00:31:10,640
+ so an epic click on it, it will open up a new one. So, so if you make the link to it, it automatically
+
+312
+00:31:10,640 --> 00:31:16,480
+ creates the file and makes link to it. That's all stuff that I had to code into my tool, which is
+
+313
+00:31:16,480 --> 00:31:25,120
+ built in automatically. So just easier to read them, right? So, and you know, I can go back to the
+
+314
+00:31:25,120 --> 00:31:28,320
+ last one. I, this is another thing too, is you would see when I was doing this with the terminal,
+
+315
+00:31:28,320 --> 00:31:33,680
+ I'd have like 15 terminal t-mux windows open because I would do this and then I'd open up a new one
+
+316
+00:31:33,680 --> 00:31:37,520
+ and I'd do this, they would make rules for my t-mux to open up a new window to edit the different
+
+317
+00:31:37,520 --> 00:31:42,240
+ thing. This stuff's all built into Obsidian already. So, so now when I save on that, okay,
+
+318
+00:31:42,240 --> 00:31:47,840
+ now did you see how it was a, it was a media link at first, a media wiki link? But if you watch
+
+319
+00:31:47,840 --> 00:31:53,280
+ this thing, let's, let's commit this. I want to show you. So if I committed to GitHub and I show
+
+320
+00:31:53,280 --> 00:32:01,440
+ you it now, let's see here, I'm at the refresh. And you can actually sort, based on when the last
+
+321
+00:32:01,440 --> 00:32:04,720
+ one was committed and everything, if you wanted to, you could watch the commit history, it's another
+
+322
+00:32:04,720 --> 00:32:10,000
+ thing. People can still follow you. They can follow your GitHub repo and they can see every change
+
+323
+00:32:10,000 --> 00:32:14,720
+ you look and they can look at the commit changes and the dips to get to basically subscribe to you
+
+324
+00:32:14,720 --> 00:32:19,040
+ unless you want to pour some vigor to your RSS on your blog or something. So they can actually
+
+325
+00:32:19,040 --> 00:32:24,880
+ follow your changes just like they could before. So if we can choose your crypto titles,
+
+326
+00:32:24,880 --> 00:32:29,200
+ just easier to read and it just made that actually put a comment in the name. That's kind of interesting.
+
+327
+00:32:30,960 --> 00:32:34,400
+ But did you see how easy it was to make that? Now let's actually go back to
+
+328
+00:32:35,680 --> 00:32:39,840
+ keep them sitting compatible. What I want to show you here is if I show you the code,
+
+329
+00:32:40,800 --> 00:32:45,440
+ oh, look at that one. That one didn't get changed. Oh, that's good to know. But that actually gives
+
+330
+00:32:45,440 --> 00:32:52,320
+ you the idea here. So you see how this one didn't get changed. I wish we needed to figure out how
+
+331
+00:32:52,320 --> 00:32:57,520
+ to make that automatically get changed. It looks like that's a remaining quirk. I don't know who
+
+332
+00:32:57,520 --> 00:33:03,120
+ did it, but somebody over there on the obsidian project was listening and they actually changed.
+
+333
+00:33:03,120 --> 00:33:08,160
+ But you see, you see, this is my, I'm glad we just happened because this is exactly my complaint
+
+334
+00:33:08,160 --> 00:33:14,640
+ about it in the past. In the past, this was the only way to link. And because it stayed that way,
+
+335
+00:33:14,640 --> 00:33:19,680
+ you can see it doesn't link and these other ones do. Now another thing I could have done here is I
+
+336
+00:33:19,680 --> 00:33:27,040
+ could actually say, I can actually edit it and change those things. And now what I can do is I
+
+337
+00:33:27,040 --> 00:33:32,320
+ can, if you already have the text there, you can right click and you can say add link
+
+338
+00:33:33,760 --> 00:33:38,800
+ and you can click on it. And then for some reason clicking on the link does the right thing.
+
+339
+00:33:40,240 --> 00:33:51,040
+ So I think that's probably a leftover that I don't like. Because I really like the auto
+
+340
+00:33:51,040 --> 00:33:56,720
+ creation of the note for me, but it's not that hard to just do this to say the copy and paste this
+
+341
+00:33:56,720 --> 00:34:03,920
+ and say new note, paste, right? And then that immediately becomes a note over here. And then I
+
+342
+00:34:03,920 --> 00:34:12,960
+ can link to that note back in the, where is it? So which one was that don't worry about slugs,
+
+343
+00:34:12,960 --> 00:34:18,880
+ right? So now when I right click on this and I do add link, it'll find it. It'll actually auto
+
+344
+00:34:18,880 --> 00:34:23,360
+ find it in my list of files and it will make the link for me. And that's how I've been doing
+
+345
+00:34:23,360 --> 00:34:29,440
+ my links in the past. The thing that's really great about this is the interoperability of
+
+346
+00:34:30,560 --> 00:34:37,680
+ a single line bullet point and what will become eventually an idea. And so a bullet point in
+
+347
+00:34:37,680 --> 00:34:47,360
+ general is already kind of a single main thought. So this ability to instantly take notes using
+
+348
+00:34:47,360 --> 00:34:51,440
+ bullets. If you have a, if you have a, those are easier to do, by the way, if you're just typing,
+
+349
+00:34:51,440 --> 00:34:56,800
+ right? So I regularly do bullet lists of ideas, but if they want to free form ideas, I can also do
+
+350
+00:34:56,800 --> 00:35:01,040
+ that. It's just, those are much harder to do on the phone, you know, teach speech to text.
+
+351
+00:35:01,040 --> 00:35:05,520
+ But if I have a, you know, I regularly will like do a whole bunch of bullet pointy things,
+
+352
+00:35:05,520 --> 00:35:10,320
+ and then I want to go back and flesh those things out. It's actually a pretty common way to do this.
+
+353
+00:35:10,320 --> 00:35:14,160
+ And then I can, I can go in there and just make each one of them into its main thought and I can
+
+354
+00:35:14,160 --> 00:35:23,760
+ expand on it. It's not milk, my friend. It's not, it's not milk. It's not, it's because my stash is
+
+355
+00:35:23,760 --> 00:35:29,360
+ uneven. Somebody's making fun of my West Dash. But good, good call though.
+
+356
+00:35:32,400 --> 00:35:36,720
+ No, this one right here. Yeah. All right, end up back to the thing. So, so
+
+357
+00:35:39,760 --> 00:35:44,560
+ is that a joke? My, my tiny little mustache. Yeah, my blonde mustache.
+
+358
+00:35:45,120 --> 00:35:49,840
+ Anyway, so, so let's go back to what we were talking about. So allow spaces of our names,
+
+359
+00:35:49,840 --> 00:35:54,560
+ choose unique descriptive titles. Don't worry about slugs, slugs and things with dashes if you
+
+360
+00:35:54,560 --> 00:35:58,800
+ don't know that, you know, you see in WordPress or whatever, those things are only important once
+
+361
+00:35:58,800 --> 00:36:03,600
+ it becomes a web page, right? Or if you're going to be doing a lot of file system kind of terminal
+
+362
+00:36:03,600 --> 00:36:07,760
+ interaction with the thing, if you are interacting with it in these ways, you don't care about that.
+
+363
+00:36:09,280 --> 00:36:13,200
+ Set up automatic sync. You can get a good amount of devices. So that is a plugin. I'm
+
+364
+00:36:13,200 --> 00:36:18,480
+ going to show it to you. It's called get up sync. It's a plugin. You turn it on, you point it to
+
+365
+00:36:18,480 --> 00:36:25,600
+ your remote URL. That is it. If your system already has get access to that repo, it uses get from
+
+366
+00:36:25,600 --> 00:36:31,840
+ the system. So it's exactly the same as typing a get sync. And it puts the device and then the
+
+367
+00:36:31,840 --> 00:36:37,520
+ timestamp in the comment. So it's the same as my saved command, except for it's got a better comment.
+
+368
+00:36:38,720 --> 00:36:42,640
+ And that's it. That's all it takes to get get up sync to work. You can set it up to go
+
+369
+00:36:42,640 --> 00:36:46,560
+ automatically minds every five minutes. And then auto sync when you start up. So,
+
+370
+00:36:47,920 --> 00:36:54,400
+ and something else I want to talk about really quickly here, let's see here.
+
+371
+00:36:57,120 --> 00:37:04,400
+ Okay. So I didn't talk about it. So if you have your laptop on or whatever is got obsidian and
+
+372
+00:37:04,400 --> 00:37:09,600
+ obsidian is running with its get up sync on, you can leave that on plugged into the wall, of course,
+
+373
+00:37:09,600 --> 00:37:15,520
+ and you can be on your phone. And I just showed you this. And you can live in real time, you can
+
+374
+00:37:15,520 --> 00:37:21,040
+ make a note, even you know, while you're writing, you can make a note doing speech attacks. And that
+
+375
+00:37:21,040 --> 00:37:26,400
+ note will be auto synced into the obsidian running on your laptop or wherever. And then that every
+
+376
+00:37:26,400 --> 00:37:32,960
+ five minutes in my case will be automatically published to get a that's pretty damn cool.
+
+377
+00:37:32,960 --> 00:37:37,200
+ Because that means that people that are falling, let's say, let's say that I would and by the way,
+
+378
+00:37:37,200 --> 00:37:43,440
+ that whole entire process is completely internet agnostic. That means that if I'm on my bike,
+
+379
+00:37:43,440 --> 00:37:49,520
+ let's say I'm out on my gravel bike, and I am writing in the middle of nowhere. And
+
+380
+00:37:50,320 --> 00:37:55,440
+ and I want to make a note about something, but I want to, I want somebody else to see it, right?
+
+381
+00:37:55,440 --> 00:38:00,880
+ Or I want to give kind of a live blogging note taking system, but I don't want to make a full
+
+382
+00:38:00,880 --> 00:38:05,680
+ blown blog, right? Now, I could make a ton of Instagram posts that always require you to have
+
+383
+00:38:05,680 --> 00:38:10,080
+ the picture, which is annoying. You can't do that live, but you can literally be biking along and
+
+384
+00:38:10,080 --> 00:38:15,440
+ you can take a note. You can even take a picture with your phone and you can put it in the note,
+
+385
+00:38:15,440 --> 00:38:23,200
+ wire biking. And it will automatically synchronize to your GitHub on your next internet accessibility.
+
+386
+00:38:23,200 --> 00:38:27,360
+ So it will store on your local phone. And then when your phone has internet access,
+
+387
+00:38:27,360 --> 00:38:32,320
+ the internal synchronization mechanism of the obsidian app will automatically detect that,
+
+388
+00:38:32,320 --> 00:38:37,040
+ push it up to obsidian on your laptop. And that will get automatically pushed to GitHub.
+
+389
+00:38:37,040 --> 00:38:41,120
+ So that means if you have people that are following you, you know, like the dot watcher kind of people,
+
+390
+00:38:41,120 --> 00:38:47,840
+ you can actually automatically have people follow what notes you're taking as you go.
+
+391
+00:38:47,840 --> 00:38:51,280
+ You can make little teeny, tiny videos and post them to YouTube every once in a while.
+
+392
+00:38:51,280 --> 00:38:55,280
+ But this keeps you, I mean, if you're God, if you're if you're a turtabai competitor or something
+
+393
+00:38:55,280 --> 00:38:59,840
+ like that, I think I would think this would be an amazing resource because you can actually
+
+394
+00:39:00,560 --> 00:39:05,360
+ do real time notes with minimal internet activity. And since I'm going to have a
+
+395
+00:39:05,360 --> 00:39:10,800
+ Starlink Mini running off a USB battery, you know, phone charger on my road gravel bike
+
+396
+00:39:10,800 --> 00:39:17,360
+ and on my mountain bike, you know, I should say, you know, when I'm doing like, not trail writing,
+
+397
+00:39:17,360 --> 00:39:23,840
+ but when I when I have that around, that means I have permanent access to published live notes
+
+398
+00:39:23,840 --> 00:39:28,800
+ of what's going on in real time. I make in real time. We're not talking about waiting till you
+
+399
+00:39:28,800 --> 00:39:34,080
+ get to the next library. We're talking about, you know, real time note taking real time pictures
+
+400
+00:39:34,080 --> 00:39:39,840
+ without Instagram, right? So, and so if you're, I love that because it's for a live streamer like
+
+401
+00:39:39,840 --> 00:39:43,120
+ me, there's going to be moments where there's not going to be any live streaming capability.
+
+402
+00:39:43,120 --> 00:39:47,680
+ We're going to have lots of leaves and there's no Starlink and there's no mobile. So during those
+
+403
+00:39:47,680 --> 00:39:53,440
+ times, I can still do the same process. I don't have to change anything. I can change the act of,
+
+404
+00:39:53,440 --> 00:39:58,960
+ I can still take, you know, pictures and I can put those in my right with GPS. So it automatically
+
+405
+00:39:58,960 --> 00:40:03,120
+ publishes the picture at that spot, plus I can also include it in my notes. If I want to,
+
+406
+00:40:03,120 --> 00:40:07,600
+ on my level, while I'm writing, assuming I'm in a safe place, and I can have that all be happening
+
+407
+00:40:07,600 --> 00:40:12,240
+ at the same time. And then when I when I get to the internet, when I have, you know, mobile,
+
+408
+00:40:12,240 --> 00:40:16,640
+ when I'm in mobile range or satellite range, that stuff will automatically be published
+
+409
+00:40:16,640 --> 00:40:22,160
+ and synchronized. I got to tell you, that is amazing. As an outdoor enthusiast and as somebody who likes
+
+410
+00:40:22,160 --> 00:40:28,560
+ to do a lot of writing and note taking stuff, I cannot imagine life without this having now
+
+411
+00:40:28,560 --> 00:40:35,280
+ discovered this. So I had to share it. Let's just knock out the last few here, setting up
+
+412
+00:40:35,280 --> 00:40:40,080
+ automatic sync to get up. I just talked about changed the default to use standard markdown,
+
+413
+00:40:40,080 --> 00:40:44,480
+ the relative links internally. I already talked about that. Don't use wiki links or the media
+
+414
+00:40:44,480 --> 00:40:49,120
+ links that are not compatible, as you saw. Don't use anything that isn't get in flavor and markdown.
+
+415
+00:40:49,120 --> 00:40:54,880
+ This is super important. So if you need math notation, you can do that, right? That's the kind of
+
+416
+00:40:54,880 --> 00:40:59,440
+ thing you would only do from your laptop, obviously. But if you need to take really intense math
+
+417
+00:41:00,000 --> 00:41:05,760
+ notes, you can. Both GitHub and Obsidian fully support math. In fact, there are plugins
+
+418
+00:41:07,600 --> 00:41:12,800
+ to make the creation of math notation much easier. You know, you don't have to actually
+
+419
+00:41:12,800 --> 00:41:17,040
+ know K text or whatever it is, which is, by the way, fully supported by get up flavor markdown,
+
+420
+00:41:17,040 --> 00:41:21,280
+ spend a supporter for now three years or so. It's a subset of LaTeX, if you know what that is.
+
+421
+00:41:22,640 --> 00:41:25,680
+ You know, most people these days are not writing books in LaTeX. They're writing
+
+422
+00:41:25,680 --> 00:41:30,960
+ in Markdown with LaTeX support. And then it's easier to write Markdown. And then they move
+
+423
+00:41:30,960 --> 00:41:36,000
+ it from there. That does kind of remind me of one of the downsides of this is that,
+
+424
+00:41:36,960 --> 00:41:41,440
+ and quite honestly, one of the reasons to not put a bunch of Markdown in your paragraphs,
+
+425
+00:41:41,440 --> 00:41:45,360
+ which we'll get to, because when it comes time to write the book, the book's probably going
+
+426
+00:41:45,360 --> 00:41:49,680
+ to be written in Askeydock. And you're going to be copying and pasting snippets out of your
+
+427
+00:41:49,680 --> 00:41:57,520
+ Zetelkast, I'm sorry, out of your notes into your book, right? And when you do that, if you got
+
+428
+00:41:57,520 --> 00:42:02,320
+ a lot of internal Markdown linking inside your paragraph, you'll have to run that through a
+
+429
+00:42:02,320 --> 00:42:08,000
+ converter, because Askeydock doesn't do linking in that way. Another alternative would be to use
+
+430
+00:42:08,000 --> 00:42:13,920
+ some form of Markdown book generator. There's many, many, many of those. I just prefer Askeydock
+
+431
+00:42:13,920 --> 00:42:18,560
+ to this day. I still prefer it. So, you know, it's yet to be said how difficult it's going to be
+
+432
+00:42:18,560 --> 00:42:23,440
+ to take my notes and put them into a book. I made a pretty strong argument in the past that you,
+
+433
+00:42:23,440 --> 00:42:28,000
+ if you're doing a book, you should stick with book writing and keep all of your content in the book.
+
+434
+00:42:28,000 --> 00:42:32,880
+ But, you know, I'm on the road. I'm not going to be able to do any of that. So, that kind of thing,
+
+435
+00:42:32,880 --> 00:42:36,960
+ I want to be able to do from my phone. And then I want to be able to take those notes and incorporate
+
+436
+00:42:36,960 --> 00:42:43,200
+ them into my perpetually published book in some fashion and make it change. This entire process
+
+437
+00:42:43,200 --> 00:42:47,360
+ is actually because I can make it so public while I'm having these ideas and thoughts.
+
+438
+00:42:48,640 --> 00:42:52,320
+ This entire process has gotten so easy to read and so easy to do
+
+439
+00:42:53,040 --> 00:42:59,520
+ that I'm now back to a position of kind of waiting to do a book until it's entirely finished before
+
+440
+00:42:59,520 --> 00:43:04,880
+ I publish it. Because I've reformatted books so many times, at least five times in the last year,
+
+441
+00:43:06,320 --> 00:43:14,960
+ that I'm more inclined to wait until the entire book is finished and focus on creating content
+
+442
+00:43:14,960 --> 00:43:20,640
+ in many note forms. And then, you know, and then bringing it, yeah, that's a little bit
+
+443
+00:43:20,640 --> 00:43:23,600
+ hard with the coding book because there's a bunch of coding examples in there and stuff that obviously
+
+444
+00:43:23,600 --> 00:43:28,800
+ I can't do from the road very easily without a computer. But, you know, the more like the novel
+
+445
+00:43:28,800 --> 00:43:32,640
+ like or the travel blog articles and those kind of things, those are all super easy to do
+
+446
+00:43:34,800 --> 00:43:39,360
+ on from the road. So, that's the kind of thing. Well, it would probably be a distinction there.
+
+447
+00:43:41,040 --> 00:43:46,880
+ But I think probably what it will be is that my blog articles will be written in story form and
+
+448
+00:43:46,880 --> 00:43:51,200
+ then the collection of those stories will sometime somehow eventually go into some sort of book or
+
+449
+00:43:51,200 --> 00:43:56,960
+ travel blog if I ever do that. So, changes default to use the standard relative markdown. We did
+
+450
+00:43:56,960 --> 00:44:01,440
+ that don't use anything. It is a get a flavor disable default automatic hardlink breaks,
+
+451
+00:44:02,000 --> 00:44:06,160
+ which is really important because you want you want the paragraphs to automatically wrap. I've
+
+452
+00:44:06,160 --> 00:44:15,920
+ talked about this before. Only publish raw bolts on GitHub. So, you know, I think people have told
+
+453
+00:44:15,920 --> 00:44:20,000
+ me many times that obsidian has the ability to export to all kinds of different cool things.
+
+454
+00:44:20,000 --> 00:44:26,080
+ And quite honestly, I think you shouldn't do that. And let me tell you why I've already showed you
+
+455
+00:44:26,080 --> 00:44:31,520
+ how easy it is for someone to browse your repo by just clicking around on the repos and then
+
+456
+00:44:31,520 --> 00:44:35,520
+ finding the things they want just using GitHub, right? And they don't even have to have a GitHub
+
+457
+00:44:35,520 --> 00:44:40,080
+ account for that. They can do that just, you know, just send them there. I think that's much better
+
+458
+00:44:40,080 --> 00:44:45,600
+ than managing yet another thing, right? Because if you set up export, you'd have to set up automatic
+
+459
+00:44:45,600 --> 00:44:55,200
+ exporting. I mean, one thing you could do is you could activate the built-in web browser that comes
+
+460
+00:44:55,200 --> 00:45:04,000
+ with any Git repo by default. No one problem with that is that it does not see things at the top
+
+461
+00:45:04,000 --> 00:45:07,360
+ level. You'd have to put it under docs or you'd have to put it under a different branch or something.
+
+462
+00:45:09,040 --> 00:45:13,520
+ And I don't, but, you know, I don't see how it's a problem that you send them to the readme.
+
+463
+00:45:14,240 --> 00:45:19,520
+ Plus, you're going to get people more inclined to follow, just subscribe and like and start a repo
+
+464
+00:45:19,520 --> 00:45:24,960
+ by sending them directly to the repo than you would if you're, you know, you've got people going
+
+465
+00:45:24,960 --> 00:45:32,320
+ in someplace else. If you change the default to use, so if you're only publishing that raw
+
+466
+00:45:32,320 --> 00:45:37,200
+ vaults, markdown to get a, you know, and you've done get a flavor compatible markdown, you're good.
+
+467
+00:45:37,200 --> 00:45:41,440
+ That includes something I'm getting to here, which is keeping everything flat. It's probably
+
+468
+00:45:41,440 --> 00:45:45,680
+ one of the most controversial things. But when you really think about it, it's no different than what
+
+469
+00:45:45,680 --> 00:45:52,000
+ I was already doing. Before I had, you know, a uniquely identified file for every Xelocastan entry,
+
+470
+00:45:52,000 --> 00:45:55,680
+ and I had thousands of them, three, four, five thousand of them. And to the point where you
+
+471
+00:45:55,680 --> 00:46:01,520
+ couldn't list the directory, and you lost the ability to see the titles, because the titles,
+
+472
+00:46:01,520 --> 00:46:07,040
+ in my case, were in GitHub Git commits. And I think that I'm not looking back compared to this.
+
+473
+00:46:07,040 --> 00:46:12,160
+ I think that was a bad idea. I think I think it's better to keep the name unique, because if you
+
+474
+00:46:12,160 --> 00:46:16,320
+ have a unique name, you just grep that directory if you're on the terminal. Otherwise, you effectively
+
+475
+00:46:16,320 --> 00:46:22,080
+ grep it during using the GUI like I just demonstrated. And by having it all in a single top-level file,
+
+476
+00:46:22,080 --> 00:46:26,800
+ you're never afraid that there's something living down below, right? But more importantly than that,
+
+477
+00:46:27,360 --> 00:46:32,560
+ categorization by category as opposed to tagging, which is, you know, still a thing, which I'm
+
+478
+00:46:32,560 --> 00:46:38,480
+ considering, is always a fail. Because just like this video, this video is a good example, right?
+
+479
+00:46:38,480 --> 00:46:45,920
+ This video is both a technical video and an IRL, you know, streaming video. So it's relevant to
+
+480
+00:46:45,920 --> 00:46:50,960
+ people who want to be cyclists, and it's relevant to people who want to take notes for technology.
+
+481
+00:46:50,960 --> 00:46:57,440
+ And, you know, it's got multiple categories. And if I had to pick a folder to put it in,
+
+482
+00:46:57,440 --> 00:47:02,320
+ do I put this in my IRL category folder, or do I put it in something else? It wouldn't work.
+
+483
+00:47:02,320 --> 00:47:06,480
+ And let me give you an example of this. I am dual streaming. The three triple streaming,
+
+484
+00:47:06,480 --> 00:47:13,280
+ this video right now. So this video is going to my YouTube Artebi X Rob Fun channel, which
+
+485
+00:47:13,280 --> 00:47:16,640
+ I'm going to put a plug in for that, not very many followers on there. That's just me having
+
+486
+00:47:16,640 --> 00:47:20,080
+ fun on the bike and everything, which I'm looking forward to doing. It's a great day for mountain
+
+487
+00:47:20,080 --> 00:47:26,240
+ biking out there today. And it's also getting pushed to my Artebi X Rob Fun Twitch channel,
+
+488
+00:47:26,240 --> 00:47:31,360
+ which is live streaming. Same thing, basically the same thing as YouTube, but Twitch got a lot
+
+489
+00:47:31,360 --> 00:47:36,960
+ more fun plug-ins like Bellum's airline bot, and it tells you the airline that's flying overhead,
+
+490
+00:47:36,960 --> 00:47:41,440
+ and a bunch of other really cool things that are outdoorsy related. And it's, of course,
+
+491
+00:47:41,440 --> 00:47:48,400
+ that is under the, I believe we're in the IRL streaming category on Twitch, right? But I also
+
+492
+00:47:48,400 --> 00:47:54,880
+ have this streaming to another one, Artebi X Rob, which is now, it wasn't just before, but it's now
+
+493
+00:47:54,880 --> 00:48:02,880
+ 100% tech content and only tech content. But this is tech content, right? And that category,
+
+494
+00:48:02,880 --> 00:48:10,080
+ I believe, is science and technology. It doesn't really fall under software. So do you see my point?
+
+495
+00:48:10,080 --> 00:48:17,840
+ So if I were to try to take this recording and organize it in my notes or even in my file system,
+
+496
+00:48:17,840 --> 00:48:23,760
+ where do I put it, right? What do I put it? Do I put it? Do I put it under IRL? Do I put it?
+
+497
+00:48:24,320 --> 00:48:28,480
+ Folders and categories never work. Just like, just like this, like,
+
+498
+00:48:29,760 --> 00:48:34,240
+ you know, the species, the final class thing, that just never worked. There's always a platypus
+
+499
+00:48:34,240 --> 00:48:39,920
+ that's going to break all the categorizations. It's better to describe data information and
+
+500
+00:48:39,920 --> 00:48:45,920
+ things in terms of what they, what makes them a thing. And this goes for software development as
+
+501
+00:48:45,920 --> 00:48:52,080
+ well. This is why composition and interface declaration telling you about a thing and how it,
+
+502
+00:48:52,080 --> 00:48:58,560
+ how it does, how it, can it walk, can it write, can it, you know, how does it, what can the thing
+
+503
+00:48:58,560 --> 00:49:06,400
+ do is better, and what its properties are, what colors are always better than trying to categorize
+
+504
+00:49:06,400 --> 00:49:12,160
+ something that has all those properties into a specific thing. And inevitably, because you can
+
+505
+00:49:12,160 --> 00:49:16,320
+ take those granular properties and mix them together, in this case tags, you know, three or
+
+506
+00:49:16,320 --> 00:49:21,520
+ four tags and say, okay, I want everything that's got these retags. So the, the, the idea of knowledge
+
+507
+00:49:21,520 --> 00:49:28,640
+ management by category is largely a fail. Now I still do it on my blog. I, my blog, I have thoughts,
+
+508
+00:49:28,640 --> 00:49:34,400
+ right? But what ends up happening is, I ended up getting these like really monstrously huge
+
+509
+00:49:34,400 --> 00:49:40,160
+ categories, because, you know, they don't have enough gear, right? Well, well, what happens when
+
+510
+00:49:40,160 --> 00:49:46,400
+ I have a story that is about how my gear failed me, and I'm telling you know, and I lost the rest
+
+511
+00:49:46,400 --> 00:49:54,160
+ of my teeth or something. You know, it's like, is that a story? Does it go into the story, or does
+
+512
+00:49:54,160 --> 00:49:57,360
+ it go into thoughts, or does it go into gear? It goes under all of them, but now I can't put it
+
+513
+00:49:57,360 --> 00:50:01,680
+ under all of them, because, because I have to have cat impact, I just talked myself into removing
+
+514
+00:50:01,680 --> 00:50:08,320
+ my categories. I, I only recently relaunched my blog on artyxrob.blog, and I, and I was just
+
+515
+00:50:08,320 --> 00:50:10,880
+ messing with the templates. I'm going to get rid of the categories that are completely,
+
+516
+00:50:11,840 --> 00:50:16,720
+ because tags, tags, tags are always better. Tags, tags allow you to have like multiple tags on the
+
+517
+00:50:16,720 --> 00:50:22,720
+ thing, and you can say everything with this tag. Just use tags, never in bullet ends with a period,
+
+518
+00:50:22,720 --> 00:50:27,760
+ talked about that so that it's, that comes a link really easily, and keep paragraph free from
+
+519
+00:50:27,760 --> 00:50:31,760
+ hyperlinks. And I talked about that, because again, if you're going to be moving to another
+
+520
+00:50:31,760 --> 00:50:35,600
+ thing, you want all the hyperlink hyperlinks to be in the stuff at the bottom, and you can get a
+
+521
+00:50:35,600 --> 00:50:40,880
+ sense of this by scrolling through this. By the way, that's a, that's a, a screenshot.
+
+522
+00:50:41,760 --> 00:50:46,560
+ So there's another screenshot. So I always put, what I do is I, I'll end up, if I,
+
+523
+00:50:47,200 --> 00:50:53,200
+ I don't put the links in the paragraph, but if I have, if I referred to another thing,
+
+524
+00:50:53,200 --> 00:50:57,200
+ then I put the links at the bottom of the page. And this is, this is also, this is very,
+
+525
+00:50:57,200 --> 00:51:02,160
+ very compatible with bibliographic kind of things. I don't need it to have related. I'm going to get,
+
+526
+00:51:02,160 --> 00:51:07,920
+ I used to put related after that. I'm not doing any more. So, um, you know, I think that's a good
+
+527
+00:51:07,920 --> 00:51:12,240
+ way to do it. It's to just put all the links that might possibly be available down at the bottom,
+
+528
+00:51:12,240 --> 00:51:16,720
+ and then that will create the graph that you're seeking so that stuff tends to congeal you.
+
+529
+00:51:16,720 --> 00:51:20,320
+ That doesn't happen automatically. I think you can make it do that automatically, but I haven't
+
+530
+00:51:20,320 --> 00:51:26,880
+ played with that yet. So a bunch of really great ideas about how to, how to do this stuff. Hopefully,
+
+531
+00:51:26,880 --> 00:51:34,720
+ this will, it need a rant tag. We absolutely need a rant tag. And I don't know how, I haven't
+
+532
+00:51:34,720 --> 00:51:42,000
+ started using tags yet, but when I do use tags, I will use them as, um, I think that, yeah, it already
+
+533
+00:51:42,000 --> 00:51:47,200
+ has markdown yaml tags supported, but I, I haven't added any tags yet. But I usually in the past,
+
+534
+00:51:47,200 --> 00:51:56,000
+ I've been kind of anti tag, um, but they're a widely, widely, widely accepted, um, you know,
+
+535
+00:51:56,000 --> 00:52:01,360
+ extension to markdown. So I feel like that's probably going to be the way to go.
+
+536
+00:52:02,480 --> 00:52:07,840
+ I still am not a big fan of even tagging because I feel like the content itself is better.
+
+537
+00:52:07,840 --> 00:52:14,080
+ So if I have picked a good title, and I don't mind the titles being really long, I was limited
+
+538
+00:52:14,080 --> 00:52:21,440
+ before I was, I was limited to 50 or 60 characters and how not if the title has every keyword that's
+
+539
+00:52:21,440 --> 00:52:28,720
+ really main, you know, really relevant, I don't really need tags because I can go,
+
+540
+00:52:28,720 --> 00:52:35,200
+ I can do the filter and I can say, you know, I can do the whole thing here. And I can actually
+
+541
+00:52:35,200 --> 00:52:41,040
+ filter it here. I can filter it and get up. The point is that, you know, I don't need any extra
+
+542
+00:52:41,040 --> 00:52:47,280
+ tags from what's already in the title. And so, you know, I may still add the bag for my blog,
+
+543
+00:52:47,280 --> 00:52:51,920
+ they definitely apply for my blog. They definitely apply because then you can click gear and get
+
+544
+00:52:51,920 --> 00:52:56,640
+ all the blogs with clear with gear in them. Um, and I believe you can do that here with
+
+545
+00:52:56,640 --> 00:53:01,840
+ etiquette with, uh, obsidian as well, but I haven't done that yet. So that's a pretty long video,
+
+546
+00:53:01,840 --> 00:53:07,200
+ but I feel like I owe it to all the people that have been telling me to use obsidian over the years
+
+547
+00:53:07,200 --> 00:53:13,520
+ and I told you, I told you, and my, my response to those people is yes, you were right on a lot of
+
+548
+00:53:13,520 --> 00:53:19,120
+ things. Yes, I'm sorry. I love you. I'm going to, I thank you for your harping on me. But also,
+
+549
+00:53:20,240 --> 00:53:26,400
+ it didn't have half this stuff when I first evaluated it. Okay. And I don't know if they added
+
+550
+00:53:26,400 --> 00:53:32,560
+ it because I ran it about it. That would be really funny. Or if they, you know, if, if eventually
+
+551
+00:53:32,560 --> 00:53:38,880
+ they kind of, the consensus of a lot of people started to push them in the right direction. So,
+
+552
+00:53:38,880 --> 00:53:43,600
+ I fully support obsidian. I actually want them to keep making money and stay in business. I think
+
+553
+00:53:43,600 --> 00:53:48,720
+ they're doing good things. And I am not, I am not afraid of my content being incompatible with
+
+554
+00:53:48,720 --> 00:53:53,440
+ the civilization in a hundred years in the future, being able to read my content because I am now
+
+555
+00:53:53,440 --> 00:54:00,240
+ using standard markdown on GitHub. That is browsable on GitHub and is also something I can compose
+
+556
+00:54:00,240 --> 00:54:07,920
+ from my phone. So here's to you obsidian. You've done a great job. You've done a great job. I appreciate
+
+557
+00:54:07,920 --> 00:54:15,200
+ it. And that's all for this video. Thank you. I'm going to go rent my mountain bike now.
+

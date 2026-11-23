@@ -1,0 +1,384 @@
+1
+00:00:00,000 --> 00:00:02,660
+ I just have to make a video about this right now.
+
+2
+00:00:02,660 --> 00:00:06,840
+ So one of the things might like for Ray into Cloud,
+
+3
+00:00:06,840 --> 00:00:08,340
+ I've been used to check Ruby for forever
+
+4
+00:00:08,340 --> 00:00:09,820
+ and that's not really a command line thing.
+
+5
+00:00:09,820 --> 00:00:12,800
+ But since using Cloud, yeah.
+
+6
+00:00:12,800 --> 00:00:15,340
+ Or, you know, the terminal base
+
+7
+00:00:15,340 --> 00:00:20,340
+ do GitHub plug-in for, what's that one?
+
+8
+00:00:21,220 --> 00:00:22,720
+ The other one?
+
+9
+00:00:22,720 --> 00:00:23,640
+ And what kind of thing about,
+
+10
+00:00:23,640 --> 00:00:24,640
+ you know what the one I'm talking about?
+
+11
+00:00:24,640 --> 00:00:25,760
+ It's the Microsoft one.
+
+12
+00:00:26,820 --> 00:00:30,740
+ Code pin, code's on the external guide by kind of a minute.
+
+13
+00:00:30,740 --> 00:00:32,260
+ I just, I just found out they have one.
+
+14
+00:00:32,260 --> 00:00:34,580
+ By the way, it's a complete clone of Cloud
+
+15
+00:00:34,580 --> 00:00:36,300
+ in terms of terminal UI.
+
+16
+00:00:36,300 --> 00:00:37,220
+ Go pilot, yeah.
+
+17
+00:00:39,740 --> 00:00:43,380
+ I don't think it's ever been more clear to me
+
+18
+00:00:43,380 --> 00:00:47,500
+ how impacted the entire world of knowledge
+
+19
+00:00:47,500 --> 00:00:52,500
+ is based on AI, then to say, everything is text.
+
+20
+00:00:52,780 --> 00:00:56,060
+ Large language models are based on text and text alone.
+
+21
+00:00:56,060 --> 00:00:58,860
+ That means that anything that interfaces with text
+
+22
+00:00:58,860 --> 00:01:01,780
+ is now the top of the priority list.
+
+23
+00:01:01,780 --> 00:01:03,060
+ Look at this right here.
+
+24
+00:01:03,060 --> 00:01:04,540
+ So I'm here, I'm using a terminal,
+
+25
+00:01:04,540 --> 00:01:06,220
+ I'm using Tmux, I'm switching back and forth
+
+26
+00:01:06,220 --> 00:01:10,380
+ between context, I'm doing my thing, right?
+
+27
+00:01:10,380 --> 00:01:13,300
+ And I'm gonna write a tool, by the way, using AI
+
+28
+00:01:13,300 --> 00:01:15,820
+ that actually uses Tmux to have multiple agents
+
+29
+00:01:15,820 --> 00:01:17,940
+ rather than writing a whole agent thing
+
+30
+00:01:17,940 --> 00:01:19,500
+ that manages multiple agents,
+
+31
+00:01:19,500 --> 00:01:21,100
+ stay tuned for that, that's coming
+
+32
+00:01:21,100 --> 00:01:22,940
+ so that you can actually run multiple agents
+
+33
+00:01:22,940 --> 00:01:24,980
+ running different cloud sessions
+
+34
+00:01:24,980 --> 00:01:27,380
+ using Git work trees in different Tmux windows
+
+35
+00:01:27,380 --> 00:01:29,020
+ without not using Tmux.
+
+36
+00:01:29,020 --> 00:01:31,740
+ So everything I just said is to say,
+
+37
+00:01:31,740 --> 00:01:33,020
+ a lot of you might not understand this,
+
+38
+00:01:33,020 --> 00:01:35,420
+ but the terminal is king.
+
+39
+00:01:35,420 --> 00:01:37,860
+ You might think that all this AI stuff
+
+40
+00:01:37,860 --> 00:01:39,620
+ that's getting into VS code is the thing to do
+
+41
+00:01:39,620 --> 00:01:41,540
+ and other than that, no, it's not.
+
+42
+00:01:41,540 --> 00:01:44,620
+ And even if it were, you would still have to understand
+
+43
+00:01:44,620 --> 00:01:47,140
+ the commands from the command line, case and point here.
+
+44
+00:01:47,140 --> 00:01:50,060
+ I'm setting up Slurm and it's showing me the can to run
+
+45
+00:01:50,060 --> 00:01:51,900
+ that I need to run to check it out.
+
+46
+00:01:51,900 --> 00:01:54,700
+ If I don't know how to read a terminal command,
+
+47
+00:01:54,700 --> 00:01:57,340
+ if I don't know what this to going to ampersand one is,
+
+48
+00:01:57,340 --> 00:01:58,380
+ what the hell is that?
+
+49
+00:01:58,380 --> 00:02:00,180
+ I don't know what exec Docker is.
+
+50
+00:02:00,180 --> 00:02:01,500
+ I don't know what dash dash is.
+
+51
+00:02:01,500 --> 00:02:02,780
+ I don't know what S run is.
+
+52
+00:02:02,780 --> 00:02:06,500
+ It's because you have to have a superior knowledge
+
+53
+00:02:06,500 --> 00:02:08,620
+ of commands that get executed from the command line
+
+54
+00:02:08,620 --> 00:02:11,220
+ in order to understand AI,
+
+55
+00:02:11,220 --> 00:02:13,700
+ because AI does everything
+
+56
+00:02:13,700 --> 00:02:15,980
+ as if it were on the terminal command line.
+
+57
+00:02:15,980 --> 00:02:17,020
+ That's right.
+
+58
+00:02:17,020 --> 00:02:20,140
+ AI moves at terminal velocity,
+
+59
+00:02:20,140 --> 00:02:22,420
+ which means you need to move at terminal velocity.
+
+60
+00:02:22,420 --> 00:02:25,580
+ And if you don't, you won't be able to keep up with AI.
+
+61
+00:02:25,580 --> 00:02:28,820
+ And if you can't keep up with AI, you're irrelevant.
+
+62
+00:02:28,820 --> 00:02:32,660
+ So spend the time to learn the terminal,
+
+63
+00:02:32,660 --> 00:02:34,340
+ learn how to learn turbo commands,
+
+64
+00:02:34,340 --> 00:02:36,060
+ learn how to understand what they're doing,
+
+65
+00:02:36,060 --> 00:02:39,220
+ learn how the terminal commands integrate with other things,
+
+66
+00:02:39,220 --> 00:02:42,020
+ like to use curl to talk to HTTP requests,
+
+67
+00:02:42,020 --> 00:02:44,620
+ learning how I mean, editing files from the command line,
+
+68
+00:02:44,620 --> 00:02:46,540
+ not as important as learning how to use T-Monks
+
+69
+00:02:46,540 --> 00:02:48,060
+ or read the command lines that are commands
+
+70
+00:02:48,060 --> 00:02:49,460
+ that come across the screen,
+
+71
+00:02:49,460 --> 00:02:50,460
+ but it's still valid, right?
+
+72
+00:02:50,460 --> 00:02:52,580
+ Because you're gonna go in there and tweak that thing.
+
+73
+00:02:52,580 --> 00:02:54,180
+ It also means that anything that's text-related
+
+74
+00:02:54,180 --> 00:02:57,300
+ like Markdown, Markdown has gone to the top of the list.
+
+75
+00:02:57,300 --> 00:02:58,620
+ I'm gonna make a whole video on this.
+
+76
+00:02:58,620 --> 00:03:01,380
+ Markdown is the language of AI.
+
+77
+00:03:01,380 --> 00:03:03,940
+ That is the language you code AI in.
+
+78
+00:03:03,940 --> 00:03:05,700
+ So, AI's can be coded in anything,
+
+79
+00:03:05,700 --> 00:03:07,180
+ but Markdown is king.
+
+80
+00:03:07,180 --> 00:03:10,280
+ Everything is a .md, skills.md, agents.md,
+
+81
+00:03:10,280 --> 00:03:13,700
+ cloud.md, ream.md, they're all Markdown files.
+
+82
+00:03:13,700 --> 00:03:15,500
+ So, learn the terminal,
+
+83
+00:03:15,500 --> 00:03:17,220
+ learn how to deal with text.
+
+84
+00:03:17,220 --> 00:03:18,460
+ Text is king.
+
+85
+00:03:18,460 --> 00:03:19,940
+ I always have thought text was king,
+
+86
+00:03:19,940 --> 00:03:21,460
+ so I'm kind of ahead of the curve here.
+
+87
+00:03:21,460 --> 00:03:23,380
+ Anybody that's been learning to work on the terminal,
+
+88
+00:03:23,380 --> 00:03:25,100
+ it's kind of the head of the curve.
+
+89
+00:03:25,100 --> 00:03:26,860
+ All those people who have been doing all these commands
+
+90
+00:03:26,860 --> 00:03:29,220
+ behind the scenes and using WYSIWYG and all that stuff,
+
+91
+00:03:29,220 --> 00:03:30,860
+ yeah, they're falling behind.
+
+92
+00:03:30,860 --> 00:03:32,540
+ And they're gonna fall farther behind.
+
+93
+00:03:32,540 --> 00:03:33,620
+ Don't fall behind.
+
+94
+00:03:33,620 --> 00:03:35,020
+ Stay good with the terminal.
+
+95
+00:03:35,020 --> 00:03:36,900
+ Understand how the command line works
+
+96
+00:03:36,900 --> 00:03:39,100
+ and move at terminal velocity.
+

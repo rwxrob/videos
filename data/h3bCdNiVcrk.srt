@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:04,720
+ I created an application that is so phenomenally facing
+
+2
+00:00:04,720 --> 00:00:07,340
+ and better than anything on the market, anything.
+
+3
+00:00:07,340 --> 00:00:10,300
+ I've been doing an IRL for seven years, eight years,
+
+4
+00:00:10,300 --> 00:00:14,340
+ and I guarantee you my app is better than anything that exists.
+
+5
+00:00:14,340 --> 00:00:16,660
+ And I made it because I had been doing IRL streaming
+
+6
+00:00:16,660 --> 00:00:18,580
+ all that time, and I wanted all these things.
+
+7
+00:00:18,580 --> 00:00:20,180
+ Something as simple as this.
+
+8
+00:00:20,180 --> 00:00:23,700
+ If I want to make a clip, this is what I do.
+
+9
+00:00:25,620 --> 00:00:28,460
+ I swipe left and it goes back 30 seconds and makes a clip.
+
+10
+00:00:28,460 --> 00:00:29,960
+ If I want to start a clip from this-
+

@@ -1,0 +1,796 @@
+1
+00:00:00,000 --> 00:00:04,480
+ All right, we're going to talk about Obsidian now.
+
+2
+00:00:04,480 --> 00:00:08,760
+ And this is an interesting topic because I've hated on Obsidian in the past for reasons
+
+3
+00:00:08,760 --> 00:00:09,760
+ I'll get into.
+
+4
+00:00:09,760 --> 00:00:12,360
+ But these days, Obsidian is the tool.
+
+5
+00:00:12,360 --> 00:00:13,640
+ It's proprietary.
+
+6
+00:00:13,640 --> 00:00:18,000
+ I know they try to get money out of you, but their baseline tool is free and you don't
+
+7
+00:00:18,000 --> 00:00:19,000
+ need any of that stuff.
+
+8
+00:00:19,000 --> 00:00:22,160
+ If you want to support the project and the company, I got nothing wrong with you giving
+
+9
+00:00:22,160 --> 00:00:23,160
+ it money.
+
+10
+00:00:23,160 --> 00:00:28,240
+ But I'm going to show you how to use Obsidian to manage a knowledge base or your notes on
+
+11
+00:00:28,240 --> 00:00:36,640
+ GitHub without having to change anything in a way that is consistent with GitHub's archive
+
+12
+00:00:36,640 --> 00:00:44,400
+ project and markdown in general so that your content, your knowledge base will be usable
+
+13
+00:00:44,400 --> 00:00:48,360
+ forever because I know that's a big commitment.
+
+14
+00:00:48,360 --> 00:00:50,160
+ I'm telling you, it will be.
+
+15
+00:00:50,160 --> 00:00:54,280
+ So the first thing is to organize your content into a Docksbury Poll on GitHub.
+
+16
+00:00:54,280 --> 00:00:57,880
+ So we've talked about this before, but let's go look at what that looks like.
+
+17
+00:00:57,880 --> 00:01:05,400
+ If we go to the, I'm actually in the book, boost right now, github.com/boost and this
+
+18
+00:01:05,400 --> 00:01:08,800
+ is the repo and inside of the repo, we have a Docks directory.
+
+19
+00:01:08,800 --> 00:01:14,120
+ This is a standard organizational location to put your documentation and automatically
+
+20
+00:01:14,120 --> 00:01:18,960
+ turns your web, if you, if you activate it, when you activate it, it automatically turns
+
+21
+00:01:18,960 --> 00:01:24,840
+ your humble little page into a website.
+
+22
+00:01:24,840 --> 00:01:31,840
+ So anything that is saved in this Docks directory gets rendered, even if it's just marked out,
+
+23
+00:01:31,840 --> 00:01:35,560
+ it doesn't have to be HTML, which is used for web pages.
+
+24
+00:01:35,560 --> 00:01:38,400
+ But everything we're doing can be really easily organized.
+
+25
+00:01:38,400 --> 00:01:41,760
+ So this is the Docks directory and you can see all the stuff here.
+
+26
+00:01:41,760 --> 00:01:47,120
+ It's over here to, in fact, in the boost repo, if you go to the main read me file, all of
+
+27
+00:01:47,120 --> 00:01:51,240
+ these links are two stuff inside of the Docks directory.
+
+28
+00:01:51,240 --> 00:01:55,080
+ So I can click up, set up a boost container and it goes in here and you can see it renders
+
+29
+00:01:55,080 --> 00:02:02,520
+ it really nicely and all of these links resolve two things that are here in the Docks directory.
+
+30
+00:02:02,520 --> 00:02:07,000
+ And I have done other videos that say, hey, you can go ahead and edit the file right here.
+
+31
+00:02:07,000 --> 00:02:10,520
+ You can hit, you can hit question mark and go ahead and edit and hit commit changes and
+
+32
+00:02:10,520 --> 00:02:12,560
+ save it and all of that.
+
+33
+00:02:12,560 --> 00:02:16,280
+ And you can do in, in manager notes, entirely using github.
+
+34
+00:02:16,280 --> 00:02:19,280
+ Problem with that is, is that you have to have github and you have to have an internet
+
+35
+00:02:19,280 --> 00:02:20,280
+ connection to do that.
+
+36
+00:02:20,280 --> 00:02:21,280
+ Not bad.
+
+37
+00:02:21,280 --> 00:02:23,360
+ You can do that from your phone.
+
+38
+00:02:23,360 --> 00:02:28,960
+ By the way, if you've already set up the github.dev by going to the same exact location
+
+39
+00:02:28,960 --> 00:02:35,280
+ with github.dev, I don't, a lot of people don't know this, but if you go to get, you just
+
+40
+00:02:35,280 --> 00:02:41,480
+ change the dot com to dev, you get everything we just did in VS code.
+
+41
+00:02:41,480 --> 00:02:47,000
+ So you can, and once you have done this once, so this is supposed to be a bad obsidian, but
+
+42
+00:02:47,000 --> 00:02:50,440
+ I want to show you the other alternatives before we do obsidian just to prove that the
+
+43
+00:02:50,440 --> 00:02:53,640
+ method of using obsidian is compatible with everything else.
+
+44
+00:02:53,640 --> 00:02:58,360
+ So here's the Docks directory, here's all these files, same exact idea.
+
+45
+00:02:58,360 --> 00:03:01,680
+ The difference is, is you can't see them, you'd have to turn on the preview, one of the preview
+
+46
+00:03:01,680 --> 00:03:05,640
+ modes like this guy over here, and then you can have your source get over here, and you
+
+47
+00:03:05,640 --> 00:03:07,080
+ can modify your stuff over here.
+
+48
+00:03:07,080 --> 00:03:11,320
+ A lot of people are going to prefer to do this over obsidian, but the method of using obsidian
+
+49
+00:03:11,320 --> 00:03:15,680
+ that I'm going to tell you about is 100% compatible with all of this.
+
+50
+00:03:15,680 --> 00:03:21,320
+ One last thing here I want to show you, if you go back to code, to column, and go back
+
+51
+00:03:21,320 --> 00:03:27,800
+ to the column version of this, if you're on any page, just push the period, a dot, and
+
+52
+00:03:27,800 --> 00:03:32,880
+ it will automatically open that thing, no matter what it is, mark down or source code
+
+53
+00:03:32,880 --> 00:03:39,080
+ in VS code's web based browser, which is an exact copy of VS code, if you were to use
+
+54
+00:03:39,080 --> 00:03:43,400
+ VS code to edit your notes, or to edit your things online.
+
+55
+00:03:43,400 --> 00:03:48,720
+ So, and that's all well and good, and people might tell me right now, well, can I just
+
+56
+00:03:48,720 --> 00:03:55,560
+ use this, or VS code, or just edit my files using my, my favorite text editor in my, you
+
+57
+00:03:55,560 --> 00:04:00,800
+ know, locally on my computer, once I get, get copied down, get repo, yes, you can totally
+
+58
+00:04:00,800 --> 00:04:05,960
+ do all of that, but it lacks one significant advantage, and I'm going to show you that
+
+59
+00:04:05,960 --> 00:04:07,400
+ right away.
+
+60
+00:04:07,400 --> 00:04:12,480
+ This is a single biggest reason to use obsidian, when you want to reorganize something, so
+
+61
+00:04:12,480 --> 00:04:17,680
+ let's say I have knowledge management here, and I have decided that I want to put all
+
+62
+00:04:17,680 --> 00:04:23,640
+ my educational stuff under a single directory, and it's also important to note that how you
+
+63
+00:04:23,640 --> 00:04:30,240
+ organize things doesn't matter, okay, just, you can, the only reason to organize things
+
+64
+00:04:30,240 --> 00:04:34,240
+ and put them in some directories is for your own purposes, to be able to find them more
+
+65
+00:04:34,240 --> 00:04:40,720
+ quickly, and that's completely up to you, avoid the use of semantic categories and hierarchies,
+
+66
+00:04:40,720 --> 00:04:45,360
+ they always fail, because they never cover everything, I just made a video about why
+
+67
+00:04:45,360 --> 00:04:50,920
+ the Para method is broken, it's because of this, it's better to use tags instead, so,
+
+68
+00:04:50,920 --> 00:04:55,800
+ you know, but in this case, I'm just telling you that because I have a directory that I
+
+69
+00:04:55,800 --> 00:05:00,240
+ want it to reorganize, okay, in this case, I'm doing it kind of in the reverse, so you'll
+
+70
+00:05:00,240 --> 00:05:05,080
+ see that it's currently linked to education, jet, jet learning, and if I move jet learning
+
+71
+00:05:05,080 --> 00:05:11,560
+ out, as I, oh no, my link just broke, no it didn't, because obsidian, so obsidian notified
+
+72
+00:05:11,560 --> 00:05:16,120
+ me in the top right that it updated the link, it maintains an internal index, it's wicked
+
+73
+00:05:16,120 --> 00:05:23,240
+ vast, and so every single document that links to this location is fixed, and that means
+
+74
+00:05:23,240 --> 00:05:28,680
+ if you wanted to go ahead and add another repo, I can add an repo for GitHub, maybe
+
+75
+00:05:28,680 --> 00:05:33,000
+ I want to do that, and I want to put my GitHub stuff under that, maybe I want to put a read
+
+76
+00:05:33,000 --> 00:05:36,720
+ me here, and call it as set up, so when you go to GitHub and you land on it, you get the
+
+77
+00:05:36,720 --> 00:05:40,880
+ right thing, anything that links to GitHub is now going to have that, and by the way,
+
+78
+00:05:40,880 --> 00:05:46,880
+ if you drag another file into this file, it'll make an markdown link, okay, now, everything
+
+79
+00:05:46,880 --> 00:05:50,400
+ I just showed you, that big advantage, which is significant advantage, I mean, there's
+
+80
+00:05:50,400 --> 00:05:54,280
+ lots of other reasons you use obsidian, including, you know, graph-based view to see everything
+
+81
+00:05:54,280 --> 00:06:00,000
+ that links together, backlinks, all of these wonderful things, and you'll discover those
+
+82
+00:06:00,000 --> 00:06:04,040
+ things over time, that this is usually the best way to take markdown, if I show you something
+
+83
+00:06:04,040 --> 00:06:09,560
+ more substantial like this, you can see right away that it shows you this, so a couple of
+
+84
+00:06:09,560 --> 00:06:13,600
+ things to consider when you're using obsidian in order to make it compatible, the first
+
+85
+00:06:13,600 --> 00:06:22,400
+ one is to actually use names that have dashes in them, so that the file names are also web
+
+86
+00:06:22,400 --> 00:06:30,520
+ pages, if you use obsidian's default, and you see how I have a markdown here, and I have
+
+87
+00:06:30,520 --> 00:06:35,440
+ a separate slug up here, it looks kind of redundant here, but this is really good, because if
+
+88
+00:06:35,440 --> 00:06:42,200
+ I wanted to simplify this, I could say, I could say, oh, I don't know, set up boost
+
+89
+00:06:42,200 --> 00:06:52,240
+ container, and this will set up boost container as already a thing, oh, it isn't, oh, it is,
+
+90
+00:06:52,240 --> 00:06:59,000
+ whoopsie, okay, fine, that's cool, so another title, I can put any title I want here, and
+
+91
+00:06:59,000 --> 00:07:03,720
+ it'll change the title, and it changes everything that linked to it by changing the URL, pretty
+
+92
+00:07:03,720 --> 00:07:08,720
+ cool, try that in a website editor, and I can make this whatever I want, that means that
+
+93
+00:07:08,720 --> 00:07:12,960
+ if I wanted to make a slug out of this, which you could do, it's just as easy to type it,
+
+94
+00:07:12,960 --> 00:07:17,520
+ sometimes select generators get things wrong, like the word it's it, apostrophe s turns
+
+95
+00:07:17,520 --> 00:07:22,800
+ into it dash s, and so you want to actually manage the name here, so in this case, I'm
+
+96
+00:07:22,800 --> 00:07:29,360
+ going to say build, run, remove boost container, so I don't mind that being managed separately,
+
+97
+00:07:29,360 --> 00:07:34,160
+ it also means that if I want to put an emoji in here, I could put, I don't know, we could
+
+98
+00:07:34,160 --> 00:07:42,200
+ maybe put, what's a, we can put a boost, your emoji URL, we can put that in there, and since
+
+99
+00:07:42,200 --> 00:07:46,560
+ you made your own thing, that'll show up in your documentation when you go to the website,
+
+100
+00:07:46,560 --> 00:07:49,360
+ and you can go ahead and commit that and save it and push it up, then we're not going to
+
+101
+00:07:49,360 --> 00:07:55,240
+ cover that today, this is just the settings to use an obsidian to get it to, to work with
+
+102
+00:07:55,240 --> 00:08:00,880
+ your Git repo, and something to consider before you learn how to use Git, if you're just starting
+
+103
+00:08:00,880 --> 00:08:07,760
+ out, you, you could just go ahead and create a vault someplace, which is their organizational
+
+104
+00:08:07,760 --> 00:08:12,080
+ or, you know, folder, and just put all this stuff in there and just start taking notes
+
+105
+00:08:12,080 --> 00:08:18,320
+ on your computer today. Now, I still recommend that you put that on GitHubverse, because,
+
+106
+00:08:18,320 --> 00:08:22,400
+ and then, you know, work on getting GitHub and pulling it down and synchronizing the two
+
+107
+00:08:22,400 --> 00:08:25,640
+ together, I think that's probably a valuable goal, and there's a plugin for that, which
+
+108
+00:08:25,640 --> 00:08:32,080
+ I'll do in another video. So let's get into how to configure obsidian to do this very
+
+109
+00:08:32,080 --> 00:08:38,840
+ thing. So I'm going to take this emoji out for now. Let's open up the settings and I'll
+
+110
+00:08:38,840 --> 00:08:43,160
+ show you the really key settings you need to have to make this work and compatible with
+
+111
+00:08:43,160 --> 00:08:50,480
+ GitHub. Last open file is fine, default location prenosis of vault folder, default location
+
+112
+00:08:50,480 --> 00:08:55,760
+ of new testers of all folder, new link format. This is an important one. This if you don't
+
+113
+00:08:55,760 --> 00:09:02,520
+ put path from current file, it will keep the markdown link to the location in the current
+
+114
+00:09:02,520 --> 00:09:07,840
+ directory, even though it's in a subdirectory folder, which is totally broken. When you go
+
+115
+00:09:07,840 --> 00:09:12,120
+ to save that, that won't link, the link won't work. I don't even know why it's an option.
+
+116
+00:09:12,120 --> 00:09:16,360
+ So it's also the shortest path when possible is totally broken. Don't use that just care
+
+117
+00:09:16,360 --> 00:09:21,560
+ about. Automatically update internal links, make sure this is turned on. This is not
+
+118
+00:09:21,560 --> 00:09:26,880
+ on by default. So if you don't have that on that whole moving around thing doesn't work.
+
+119
+00:09:26,880 --> 00:09:30,160
+ So make sure that's on. That'll give you a little notification up in the top when it
+
+120
+00:09:30,160 --> 00:09:37,600
+ works. It says use wiki links. Turn this off. This is the reason that I ranted for two years
+
+121
+00:09:37,600 --> 00:09:43,600
+ against obsidian because it created obsidian on this particular point or is totally stupid
+
+122
+00:09:43,600 --> 00:09:50,680
+ and they chose to make a tool that is incompatible with standard markdown. Why? To get buy in
+
+123
+00:09:50,680 --> 00:09:57,080
+ and lock in stupid, but they changed that. Thank God. They changed it. So you don't have
+
+124
+00:09:57,080 --> 00:10:02,000
+ to use this completely unsupported format for linking. You can use the actual markdown
+
+125
+00:10:02,000 --> 00:10:09,120
+ link by turning this off. Never turn that on ever. There's no reason for it. Show all
+
+126
+00:10:09,120 --> 00:10:12,880
+ file types. I went ahead and put that on. That means if you want to put your code in
+
+127
+00:10:12,880 --> 00:10:17,360
+ there, you can. You can see the codes there. You can actually drag and drop your code into
+
+128
+00:10:17,360 --> 00:10:22,240
+ your other files and make really readable little snippets inside of your code notes.
+
+129
+00:10:22,240 --> 00:10:26,080
+ So that's a good thing. May turn the trash on. Confirm before deleting files. Probably
+
+130
+00:10:26,080 --> 00:10:30,480
+ a good idea. Delete attachments when deleting. That's fine. Ask each time. These are the
+
+131
+00:10:30,480 --> 00:10:35,760
+ defaults. Uh, includes managed. No, we're not keeping any files out. You could do that
+
+132
+00:10:35,760 --> 00:10:41,080
+ if you wanted to, but I don't. And we don't need to rebuild the wallet cache. So that
+
+133
+00:10:41,080 --> 00:10:47,000
+ is all that. Those are the single most important settings to get. Um, there are other settings.
+
+134
+00:10:47,000 --> 00:10:51,800
+ Let's just look at them really quick. Uh, automatic updates. Yes. See, I haven't changed
+
+135
+00:10:51,800 --> 00:10:56,840
+ anything on yours. I do not have a catalyst license. Um, I had one for a long time. Uh,
+
+136
+00:10:56,840 --> 00:11:00,240
+ add a commercial license for a while because I was doing publishing from my phone, which
+
+137
+00:11:00,240 --> 00:11:04,680
+ you have the option of doing, uh, which is worth paying for in my opinion. I was taking
+
+138
+00:11:04,680 --> 00:11:10,200
+ notes on my bike, talking into my phone. I have a tap of thing on obsidian and I would
+
+139
+00:11:10,200 --> 00:11:14,520
+ go to the link and I would say a few things into my phone and I would text to speech it
+
+140
+00:11:14,520 --> 00:11:18,960
+ and then it would go in and that would get synchronized up to my get up automatically.
+
+141
+00:11:18,960 --> 00:11:23,920
+ And so when I was on bike trips, having that was really useful and having obsidian as a
+
+142
+00:11:23,920 --> 00:11:28,800
+ tool that you can buy and do that with is pretty cool. Um, I don't think that works in
+
+143
+00:11:28,800 --> 00:11:33,720
+ the preversion if you want to do that kind of thing. Uh, the editor itself always focused
+
+144
+00:11:33,720 --> 00:11:40,080
+ new tab. I mean, I don't know how you, your, your preferences here are as good as mine.
+
+145
+00:11:40,080 --> 00:11:43,160
+ So whatever you want. Um, limit max. I think that's constant, puts on stream, the long
+
+146
+00:11:43,160 --> 00:11:49,400
+ blocks of text are more readable. I don't know. I, I just had the default, uh, I have
+
+147
+00:11:49,400 --> 00:11:56,080
+ spell checking on auto para markdown syntax per symbols for bold italic. That puts, yeah,
+
+148
+00:11:56,080 --> 00:12:00,000
+ some of these helpers, you can decide which ones to use there. Uh, convert paste today's
+
+149
+00:12:00,000 --> 00:12:06,160
+ smell the markdown. That's interesting. Damn. I didn't know that was a thing. Wow, then
+
+150
+00:12:06,160 --> 00:12:12,720
+ key bindings. Yes, please. I'm going as a patient texting, but can be quite counterintuitive.
+
+151
+00:12:12,720 --> 00:12:20,520
+ Ha ha ha. Uh, do you really want to use them? Yeah. I kind of do. And the funny thing is
+
+152
+00:12:20,520 --> 00:12:24,760
+ is that when I use the, the GUI, I don't use them. I go to the terminal, edit the same
+
+153
+00:12:24,760 --> 00:12:28,640
+ stuff and I use them. So I'm going to live them. I'm going to leave them off of this.
+
+154
+00:12:28,640 --> 00:12:32,840
+ I'm going to leave this in GUI mode. Hey, Johnny. Thank you for the follow. So we go
+
+155
+00:12:32,840 --> 00:12:39,640
+ to the files and links. Um, and I think, I think everything else is pretty, you know,
+
+156
+00:12:39,640 --> 00:12:43,840
+ community themes. I don't, I don't know about anything else. I've showed you all the ones
+
+157
+00:12:43,840 --> 00:12:48,960
+ that matter. So, um, I don't use any of the core plugins. There are, there's a get up
+
+158
+00:12:48,960 --> 00:12:52,120
+ sync plugin. That's a really important one, but we'll talk about that in a different
+
+159
+00:12:52,120 --> 00:12:59,200
+ video. Uh, backlinks, I turned back links on this shows you, uh, in the underneath, it
+
+160
+00:12:59,200 --> 00:13:03,480
+ shows you all the things that link to that file. Uh, those things are all automatically
+
+161
+00:13:03,480 --> 00:13:07,840
+ updated. So you really don't need that. If you trust it, daily notes. Oh, this is a
+
+162
+00:13:07,840 --> 00:13:13,640
+ big one. Okay. So if, if you want to set it up, so you're like taking notes in a journal
+
+163
+00:13:13,640 --> 00:13:18,040
+ style format and then making new things you learn and stuff for that day and you want
+
+164
+00:13:18,040 --> 00:13:24,280
+ to chart your progress, daily notes is really awesome. Um, by default daily notes will put
+
+165
+00:13:24,280 --> 00:13:30,960
+ it into, uh, the actual directory and it's not a subdirectory. So what you might want
+
+166
+00:13:30,960 --> 00:13:39,320
+ to do is put, uh, like daily, uh, or, you know, you can put blog or you can put journal
+
+167
+00:13:39,320 --> 00:13:44,520
+ and by the way, that stuff is all still published. So if you decide to publish your notes to
+
+168
+00:13:44,520 --> 00:13:48,440
+ the rest of the world, you can put blog and it will show you can like summarize what you
+
+169
+00:13:48,440 --> 00:13:53,320
+ did for the day and everybody will get to see that, right? So you can say, you know, daily
+
+170
+00:13:53,320 --> 00:14:00,320
+ or whatever you can say, uh, about news. Um, I can, but do mine as news. Uh, anyway, so
+
+171
+00:14:00,320 --> 00:14:06,560
+ let's do that. Change that to news. Uh, power recovery has back has automatic backups, uh,
+
+172
+00:14:06,560 --> 00:14:11,400
+ and such. So let's go ahead and close that. Let's click on new daily note, which is right
+
+173
+00:14:11,400 --> 00:14:16,400
+ here, I think. Yeah. Open today's daily note, penalty, great news. Okay. There's no news
+
+174
+00:14:16,400 --> 00:14:22,480
+ directory. Let's make one. I call all news. And now if I click on the new daily note,
+
+175
+00:14:22,480 --> 00:14:29,160
+ you get a daily note, daily link, I could say, Hey, uh, this happens today. Uh, thing is
+
+176
+00:14:29,160 --> 00:14:33,960
+ really cool about that is if you click on daily again, it will remember the daily note that
+
+177
+00:14:33,960 --> 00:14:38,320
+ for the day and then you can like keep updating the daily note. This is super great. If you're
+
+178
+00:14:38,320 --> 00:14:43,200
+ like trying to chart your own accountability in progress, whether it's private or public,
+
+179
+00:14:43,200 --> 00:14:47,280
+ and then you know, you just saved the whole thing. See how it's sinking to get him automatically
+
+180
+00:14:47,280 --> 00:14:51,440
+ and it's keeping the clean, the branch is clean. That's because I have to get him sync
+
+181
+00:14:51,440 --> 00:14:55,600
+ set up on another vault. The vaults are down here. I'm not going to click on it because
+
+182
+00:14:55,600 --> 00:15:00,320
+ I have private stuff in my vaults. Um, and you know, including, you can see a lot of what
+
+183
+00:15:00,320 --> 00:15:05,240
+ it is over here. Here's, here's my actual list of everything in my vault, uh, moving to Spain,
+
+184
+00:15:05,240 --> 00:15:10,680
+ thoughts, schedule, shopping list, uh, rocket and shanty this week morning, wake up yoga.
+
+185
+00:15:10,680 --> 00:15:17,240
+ This is a good example of how not to do obsidians because I just thought I wanted the titles
+
+186
+00:15:17,240 --> 00:15:22,360
+ to be these readable titles. But the problem with that is you get files that have spaces
+
+187
+00:15:22,360 --> 00:15:27,040
+ in them that don't work as web pages. I didn't care because I just wanted to do it. And so
+
+188
+00:15:27,040 --> 00:15:31,360
+ I wanted the, the header to be the same and not have to deal with having, you know, the
+
+189
+00:15:31,360 --> 00:15:36,120
+ repetitive nature of like the header here in this here. But I strongly consider that
+
+190
+00:15:36,120 --> 00:15:41,960
+ you do this right and, you know, pick a name that is a nice website slug. We could be used
+
+191
+00:15:41,960 --> 00:15:46,640
+ up on as a webpage as well. They have to deal with the underscores and stuff. This is particularly
+
+192
+00:15:46,640 --> 00:15:50,760
+ painful when I want to edit something from the command line is when I edit from the command
+
+193
+00:15:50,760 --> 00:15:55,280
+ line, I can just use tab tab to take care of all the escaping all the back, all the spaces
+
+194
+00:15:55,280 --> 00:15:59,200
+ and stuff. And it's a pain. And I created this back when I was doing all of my notes
+
+195
+00:15:59,200 --> 00:16:06,400
+ from my phone. So don't be me. Use this method. Get started right with obsidian. Start using
+
+196
+00:16:06,400 --> 00:16:11,240
+ obsidian today to get used to it. Set up those settings. But more importantly, make sure you're
+
+197
+00:16:11,240 --> 00:16:15,840
+ using GitHub and you're familiar with that. And then what we can do is synchronize the
+
+198
+00:16:15,840 --> 00:16:21,640
+ two using the GitHub plugins. So stay tuned for that video. Remember to like and subscribe.
+
+199
+00:16:21,640 --> 00:16:27,760
+ If you liked this video, sponsor me on GitHub. If you want and we'll see you in the next one.
+

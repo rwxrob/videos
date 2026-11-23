@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:04,480
+ All right, we encountered an error in GitHub during the making of a video about how to
+
+2
+00:00:04,480 --> 00:00:09,720
+ run Podman and it boiled down to being logged in.
+
+3
+00:00:09,720 --> 00:00:14,820
+ If you're not logged in and you go to the beginner boost page and you click on any of
+
+4
+00:00:14,820 --> 00:00:19,080
+ the links to the read me files, you'll get an error that looks like this.
+
+5
+00:00:19,080 --> 00:00:26,000
+ Error loading page, return repository, unknown error, don't know what the hell is happening.
+
+6
+00:00:26,000 --> 00:00:30,140
+ And you can click on return repository overview, but before I leave this error page, I want
+
+7
+00:00:30,140 --> 00:00:35,100
+ it to be the thumbnail and but what I want to show you is what actually should happen.
+
+8
+00:00:35,100 --> 00:00:39,860
+ So if you go to any other, you can do this by setting up different profiles, of course,
+
+9
+00:00:39,860 --> 00:00:44,840
+ I have the main profile here and this is my profile video, the same thing logged into
+
+10
+00:00:44,840 --> 00:00:51,640
+ GitHub and I go to boost and I click on the link here, setting up the boost container,
+
+11
+00:00:51,640 --> 00:00:54,640
+ I get the what is expected.
+
+12
+00:00:54,640 --> 00:00:58,840
+ I have no idea why that happens, but just now to log in.
+

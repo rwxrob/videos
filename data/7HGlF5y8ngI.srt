@@ -1,0 +1,896 @@
+1
+00:00:00,000 --> 00:00:02,440
+ All right, we've been using Cloud all day.
+
+2
+00:00:02,440 --> 00:00:03,440
+ I've been learning Cloud.
+
+3
+00:00:03,440 --> 00:00:04,440
+ You can see it here.
+
+4
+00:00:04,440 --> 00:00:05,440
+ It's helping me install Slurm.
+
+5
+00:00:05,440 --> 00:00:07,360
+ It's doing it way faster than I ever would.
+
+6
+00:00:07,360 --> 00:00:10,920
+ I don't know anything about Slurm, but it's teaching me about Slurm at the same time,
+
+7
+00:00:10,920 --> 00:00:12,440
+ and it's like wicked fast.
+
+8
+00:00:12,440 --> 00:00:16,000
+ It's writing Ansible Playlists for me, and it's amazing.
+
+9
+00:00:16,000 --> 00:00:17,000
+ It's absolutely amazing.
+
+10
+00:00:17,000 --> 00:00:25,000
+ I am a big fan once somebody, by the way, the documentation on the official Cloud site
+
+11
+00:00:25,000 --> 00:00:27,200
+ says you can't use Cloud Pro from the command line.
+
+12
+00:00:27,200 --> 00:00:28,200
+ It's all wrong.
+
+13
+00:00:28,200 --> 00:00:30,920
+ Even in their own documentation, some play cells, there's a thing that says here's how
+
+14
+00:00:30,920 --> 00:00:31,920
+ to do it.
+
+15
+00:00:31,920 --> 00:00:35,760
+ So the docs are out of sync, which I spent at least an hour fighting about, and then somebody
+
+16
+00:00:35,760 --> 00:00:37,960
+ in the chat is like, "No, you can.
+
+17
+00:00:37,960 --> 00:00:38,960
+ Here you go.
+
+18
+00:00:38,960 --> 00:00:39,960
+ Go do it.
+
+19
+00:00:39,960 --> 00:00:40,960
+ And now it's working."
+
+20
+00:00:40,960 --> 00:00:44,980
+ It's super awesome and terrifying, and I definitely am going to come up with a video
+
+21
+00:00:44,980 --> 00:00:46,400
+ about how to do this safely.
+
+22
+00:00:46,400 --> 00:00:50,400
+ Right now, Cloud has access to everything my laptop has access to.
+
+23
+00:00:50,400 --> 00:00:54,840
+ That includes my private email, every single photo I've ever taken, all of my GitHub keys,
+
+24
+00:00:54,840 --> 00:00:59,000
+ and potentially my bank accounts, my cookies for every single website I've ever been on.
+
+25
+00:00:59,000 --> 00:01:01,280
+ This is not the way to run Cloud.
+
+26
+00:01:01,280 --> 00:01:05,120
+ You should probably be running it in a container that has isolated access to your GitHub repo,
+
+27
+00:01:05,120 --> 00:01:09,160
+ a specific GitHub repo, and nothing else, and then run it in there to do us development
+
+28
+00:01:09,160 --> 00:01:13,960
+ so if it decides to get its own ideas about how to do things, it doesn't have access to
+
+29
+00:01:13,960 --> 00:01:14,960
+ anything.
+
+30
+00:01:14,960 --> 00:01:17,000
+ So that video will be coming.
+
+31
+00:01:17,000 --> 00:01:21,160
+ I think it's an amazing tool, but it's also terrifying how much access it has.
+
+32
+00:01:21,160 --> 00:01:26,080
+ That QBT doesn't do that because it's all shelled off in its own little window and it
+
+33
+00:01:26,080 --> 00:01:27,560
+ doesn't leave that window.
+
+34
+00:01:27,560 --> 00:01:32,080
+ Cloud's actually making changes to your own system, agentically, and that's fine.
+
+35
+00:01:32,080 --> 00:01:33,800
+ So should you be afraid of all of it?
+
+36
+00:01:33,800 --> 00:01:37,240
+ Yes, you should be really terrified if you're in tech because if you pick the wrong tech
+
+37
+00:01:37,240 --> 00:01:38,840
+ job, your tech job will go away.
+
+38
+00:01:38,840 --> 00:01:40,480
+ This is not fear-mongering.
+
+39
+00:01:40,480 --> 00:01:41,640
+ This is accurate.
+
+40
+00:01:41,640 --> 00:01:46,920
+ So let me tell you the jobs that I think, the top jobs that are going to be decimated
+
+41
+00:01:46,920 --> 00:01:53,240
+ by AI, the number one tech job that will not exist anymore is tech writer.
+
+42
+00:01:53,240 --> 00:01:55,240
+ That job is going away.
+
+43
+00:01:55,240 --> 00:02:01,280
+ The AI's can analyze an entire code base and write all of the stuff about it.
+
+44
+00:02:01,280 --> 00:02:05,800
+ They can completely understand an entire application and write user documentation for that in book
+
+45
+00:02:05,800 --> 00:02:08,520
+ form in 20 minutes.
+
+46
+00:02:08,520 --> 00:02:10,040
+ That job is gone.
+
+47
+00:02:10,040 --> 00:02:11,860
+ The tech writer job is gone.
+
+48
+00:02:11,860 --> 00:02:16,760
+ You need minor people that have decent ability to read stuff to be able to run it and those
+
+49
+00:02:16,760 --> 00:02:20,960
+ people are usually going to come from the development team or the HR team or the project
+
+50
+00:02:20,960 --> 00:02:21,960
+ manager team.
+
+51
+00:02:21,960 --> 00:02:26,280
+ So you're going to have project managers are going to be doubling as tech writers eventually.
+
+52
+00:02:26,280 --> 00:02:28,040
+ Project management is very safe.
+
+53
+00:02:28,040 --> 00:02:32,520
+ That job is going to stay because the project managers are going to be picking what's important,
+
+54
+00:02:32,520 --> 00:02:34,360
+ what needs attention, what needs to be run.
+
+55
+00:02:34,360 --> 00:02:35,600
+ Those jobs are safe.
+
+56
+00:02:35,600 --> 00:02:39,280
+ You can actually have architectural review from an AI that says, "Well, you should probably
+
+57
+00:02:39,280 --> 00:02:42,980
+ spend time here and here and here," but that will always take a human to pull the trigger
+
+58
+00:02:42,980 --> 00:02:45,240
+ on it and say, "I want to do this."
+
+59
+00:02:45,240 --> 00:02:48,760
+ This reminds me of another career, software engineering.
+
+60
+00:02:48,760 --> 00:02:50,840
+ Software engineering isn't going anywhere.
+
+61
+00:02:50,840 --> 00:02:54,640
+ You still need people to envision how the systems are going to be built.
+
+62
+00:02:54,640 --> 00:02:58,400
+ The architects, it just means that the software engineers are going to be software engineers
+
+63
+00:02:58,400 --> 00:03:00,160
+ and not coders.
+
+64
+00:03:00,160 --> 00:03:01,720
+ Programmers and coders, that job is gone.
+
+65
+00:03:01,720 --> 00:03:06,320
+ It was already decreasing at a rate of 7%, according to the Bureau of Labor and Statistics
+
+66
+00:03:06,320 --> 00:03:11,520
+ and a per year, and software developers, I'm software engineers and architects.
+
+67
+00:03:11,520 --> 00:03:14,000
+ Those jobs are shooting up and they're still shooting up.
+
+68
+00:03:14,000 --> 00:03:19,280
+ No matter how many times people say, "Oh, we can reduce our code or workforce."
+
+69
+00:03:19,280 --> 00:03:21,760
+ The people that are getting cut are the minor programmers.
+
+70
+00:03:21,760 --> 00:03:24,840
+ The people that interns, the people that are being told, "Hey, go write a function that
+
+71
+00:03:24,840 --> 00:03:25,840
+ does this or this.
+
+72
+00:03:25,840 --> 00:03:30,080
+ That can all be done in seconds with AI, and I have done it, and everybody else on my stream
+
+73
+00:03:30,080 --> 00:03:31,080
+ has done it."
+
+74
+00:03:31,080 --> 00:03:32,080
+ People are experimenting with it.
+
+75
+00:03:32,080 --> 00:03:36,480
+ It's scary because it still has to be PR reviewed, so make sure that stuff all gets saved,
+
+76
+00:03:36,480 --> 00:03:39,480
+ but what's happening is you still have a human involved.
+
+77
+00:03:39,480 --> 00:03:42,520
+ They're just approving the PR that gets merged.
+
+78
+00:03:42,520 --> 00:03:48,200
+ All the code that's going into the PR is being written by AI with prompts at any different
+
+79
+00:03:48,200 --> 00:03:52,360
+ level, and that's going to be the thing.
+
+80
+00:03:52,360 --> 00:03:54,560
+ You still have to know how to read code.
+
+81
+00:03:54,560 --> 00:03:56,600
+ You don't necessarily need to know how to write code.
+
+82
+00:03:56,600 --> 00:03:59,800
+ You need to add edit code, but you have to be able to read code.
+
+83
+00:03:59,800 --> 00:04:02,760
+ That means you need to be able to read code in the target languages that are going to
+
+84
+00:04:02,760 --> 00:04:08,640
+ be used, which is like, go for Cloud Native, Rust for a low-level kernel development or
+
+85
+00:04:08,640 --> 00:04:09,640
+ whatever.
+
+86
+00:04:09,640 --> 00:04:18,680
+ You have to know how those architectures work in order to get the prompts and in order to
+
+87
+00:04:18,680 --> 00:04:19,840
+ approve the PR.
+
+88
+00:04:19,840 --> 00:04:23,000
+ The people that approve PRs without reviewing them will die.
+
+89
+00:04:23,000 --> 00:04:24,760
+ Their companies will die.
+
+90
+00:04:24,760 --> 00:04:28,880
+ They'll go away the way of the 2000 boop.com bubble burst.
+
+91
+00:04:28,880 --> 00:04:30,680
+ This is not an AI bubble.
+
+92
+00:04:30,680 --> 00:04:32,440
+ This is not going to burst.
+
+93
+00:04:32,440 --> 00:04:36,720
+ The fact that people have fired people in the software industry because they didn't
+
+94
+00:04:36,720 --> 00:04:42,520
+ think those people were, firing them was probably premature, but the fact is those lower-end
+
+95
+00:04:42,520 --> 00:04:47,000
+ jobs for doing that development are never coming back, and they won't.
+
+96
+00:04:47,000 --> 00:04:50,480
+ Software development is going to be impacted the hardest.
+
+97
+00:04:50,480 --> 00:04:57,560
+ You don't have to be an educator or an entertainer or an influencer or an engineer to tell you
+
+98
+00:04:57,560 --> 00:04:58,560
+ that.
+
+99
+00:04:58,560 --> 00:04:59,560
+ It's obvious.
+
+100
+00:04:59,560 --> 00:05:00,560
+ It's going to affect it.
+
+101
+00:05:00,560 --> 00:05:01,560
+ Is it going to take your job?
+
+102
+00:05:01,560 --> 00:05:02,560
+ Probably.
+
+103
+00:05:02,560 --> 00:05:06,280
+ It's going to take the lower-end jobs, but it's also going to simultaneously catapult you
+
+104
+00:05:06,280 --> 00:05:10,160
+ up to senior program or status because you're going to be able to see.
+
+105
+00:05:10,160 --> 00:05:13,920
+ As long as you pay attention, you're going to be able to see what the code does and ask
+
+106
+00:05:13,920 --> 00:05:17,840
+ it to explain it to you in ways that no book could ever do.
+
+107
+00:05:17,840 --> 00:05:21,200
+ This is why books are going to cease to exist in the tech world.
+
+108
+00:05:21,200 --> 00:05:24,200
+ Books were already out of date instantly.
+
+109
+00:05:24,200 --> 00:05:25,200
+ Any tech book.
+
+110
+00:05:25,200 --> 00:05:28,600
+ It doesn't matter how iconic, like the C programming language.
+
+111
+00:05:28,600 --> 00:05:33,800
+ Other than it's the reason to keep it around for a fashion statement, they don't need to
+
+112
+00:05:33,800 --> 00:05:34,800
+ be existing.
+
+113
+00:05:34,800 --> 00:05:39,440
+ They don't use it because modern coding practice and C practice and stuff like that, even an
+
+114
+00:05:39,440 --> 00:05:44,000
+ AI that gets it wrong is still going to be better than a book that gets it wrong.
+
+115
+00:05:44,000 --> 00:05:45,840
+ I'm telling you, a lot of books get it wrong.
+
+116
+00:05:45,840 --> 00:05:48,320
+ Those books are all going to get consumed by AI.
+
+117
+00:05:48,320 --> 00:05:49,760
+ Tech writing is gone.
+
+118
+00:05:49,760 --> 00:05:51,440
+ Buying tech books is gone.
+
+119
+00:05:51,440 --> 00:05:53,080
+ Going to the docs is going to be right.
+
+120
+00:05:53,080 --> 00:05:57,320
+ The online documentation for the different tools that are out there is going to get better
+
+121
+00:05:57,320 --> 00:06:00,160
+ and better and better as more people discover this.
+
+122
+00:06:00,160 --> 00:06:06,360
+ That leads me to the absolute, other than tech writing, the number two job that it was
+
+123
+00:06:06,360 --> 00:06:11,200
+ going to be totally decimated by tech is cybersecurity analyst.
+
+124
+00:06:11,200 --> 00:06:12,920
+ That job doesn't exist.
+
+125
+00:06:12,920 --> 00:06:20,440
+ In fact, I would suggest that the one technical industry that is going to be completely blown
+
+126
+00:06:20,440 --> 00:06:25,280
+ away by AI is cybersecurity in general.
+
+127
+00:06:25,280 --> 00:06:30,080
+ The reason for this is because 52% of that, according to the leader of a cybersecurity
+
+128
+00:06:30,080 --> 00:06:34,320
+ firm, who got me to get out of cybersecurity because I didn't want to be writing documents
+
+129
+00:06:34,320 --> 00:06:37,920
+ all the time, and I said, "Well, I want to actually do things."
+
+130
+00:06:37,920 --> 00:06:41,160
+ I stayed in computing, which ended up being high-performance, saying, "I have machine
+
+131
+00:06:41,160 --> 00:06:42,960
+ learning computing," and stuff like that.
+
+132
+00:06:42,960 --> 00:06:43,960
+ I stayed in there.
+
+133
+00:06:43,960 --> 00:06:44,960
+ Thank God.
+
+134
+00:06:44,960 --> 00:06:48,880
+ If I had switched gears to become a security analyst, which would have been by all indications
+
+135
+00:06:48,880 --> 00:06:52,840
+ the right thing to do, according to the Bureau of Labor Statistics, it was increasing at 32%
+
+136
+00:06:52,840 --> 00:06:53,840
+ per year.
+
+137
+00:06:53,840 --> 00:06:55,880
+ It was the fastest growing career of all.
+
+138
+00:06:55,880 --> 00:07:01,600
+ This year, it's increasing at a rate of 25%, which is 10% less than it was before, and
+
+139
+00:07:01,600 --> 00:07:06,680
+ the data science jobs are passing it up, and that trend is going to continue.
+
+140
+00:07:06,680 --> 00:07:09,880
+ Business security analysts in particular are going away.
+
+141
+00:07:09,880 --> 00:07:13,360
+ Half of the job is writing security docs.
+
+142
+00:07:13,360 --> 00:07:18,920
+ There's a couple things that have hit already about this that I want to share.
+
+143
+00:07:18,920 --> 00:07:26,200
+ Autoropic is after finding 500 zero-day vulnerabilities in 30 minutes.
+
+144
+00:07:26,200 --> 00:07:32,240
+ The reason the AI is going to totally take over all of this stuff, they had the hacker
+
+145
+00:07:32,240 --> 00:07:33,240
+ today thing.
+
+146
+00:07:33,240 --> 00:07:36,040
+ They had to close it down because they were all these really sloppy AI reports that were
+
+147
+00:07:36,040 --> 00:07:37,040
+ coming in.
+
+148
+00:07:37,040 --> 00:07:40,320
+ We have people in my chat right now who are security people who can't get people to pay
+
+149
+00:07:40,320 --> 00:07:44,640
+ bug bounties because they can't prove that they are real and they didn't use AI to find
+
+150
+00:07:44,640 --> 00:07:45,640
+ it.
+
+151
+00:07:45,640 --> 00:07:51,120
+ So everybody, the industry, the window has closed where the people that used to pay
+
+152
+00:07:51,120 --> 00:07:55,520
+ bug bounty money are now realizing this is all crap.
+
+153
+00:07:55,520 --> 00:07:58,680
+ And so 2025 was the year that the whole industry woke up.
+
+154
+00:07:58,680 --> 00:07:59,680
+ It's too late.
+
+155
+00:07:59,680 --> 00:08:01,680
+ They're like, "No, we're not paying bug bounties at all."
+
+156
+00:08:01,680 --> 00:08:05,880
+ In fact, we're going to replace our internal security people, which they already did.
+
+157
+00:08:05,880 --> 00:08:08,440
+ That's why they're paying bug bounty because they didn't want to hire true security people
+
+158
+00:08:08,440 --> 00:08:11,960
+ internally because they're like, "Okay, if somebody happens to find a thing, we'll
+
+159
+00:08:11,960 --> 00:08:16,520
+ pay them out 20 grand, otherwise screw it because they don't want to pay, corporations
+
+160
+00:08:16,520 --> 00:08:17,520
+ don't want to pay."
+
+161
+00:08:17,520 --> 00:08:19,160
+ They never want to pay for security.
+
+162
+00:08:19,160 --> 00:08:21,200
+ So now they have even less reason to pay.
+
+163
+00:08:21,200 --> 00:08:26,160
+ They're just going to buy somebody's tool or product probably from Anthropic and they're
+
+164
+00:08:26,160 --> 00:08:29,520
+ going to say, "Hey, we've got this AI tool for you that will keep you safer than any
+
+165
+00:08:29,520 --> 00:08:31,680
+ bug bounty internal system would."
+
+166
+00:08:31,680 --> 00:08:36,040
+ And the number of security people is going to drop to maybe one super good guru who
+
+167
+00:08:36,040 --> 00:08:39,000
+ can do forensics because AI can't really do that.
+
+168
+00:08:39,000 --> 00:08:42,900
+ It can do bug bounty, but it can analyze everything in Metasploit.
+
+169
+00:08:42,900 --> 00:08:44,640
+ It can write the report for you.
+
+170
+00:08:44,640 --> 00:08:48,840
+ There's nothing left to do as an entry-level security analyst, period.
+
+171
+00:08:48,840 --> 00:08:53,000
+ There's a lot of people on the chat that were arguing that that was never really a job.
+
+172
+00:08:53,000 --> 00:08:59,120
+ It was always a push-buttons job, run Metasploit, write report, repeat, and run this.
+
+173
+00:08:59,120 --> 00:09:02,080
+ In fact, the biggest bug bounty people, that's what they did.
+
+174
+00:09:02,080 --> 00:09:05,640
+ They automated their bug bounty systems, they had big clusters internally, they were finding
+
+175
+00:09:05,640 --> 00:09:09,720
+ the really easy bugs, the low-hanging fruit, they were reporting them and collecting their
+
+176
+00:09:09,720 --> 00:09:12,440
+ checks, and they really shot up.
+
+177
+00:09:12,440 --> 00:09:13,440
+ They made a lot of money.
+
+178
+00:09:13,440 --> 00:09:16,120
+ They made a lot of buzz about it.
+
+179
+00:09:16,120 --> 00:09:19,280
+ Some of them made a lot of buzz about, "Hey, man, I don't even know how to code."
+
+180
+00:09:19,280 --> 00:09:21,640
+ I'm probably learning how to code Python.
+
+181
+00:09:21,640 --> 00:09:23,000
+ You know what I'm talking about.
+
+182
+00:09:23,000 --> 00:09:29,080
+ If you can spend any amount of time on YouTube, you'll see all the bug bounty get rich influencers
+
+183
+00:09:29,080 --> 00:09:36,600
+ and how fast those people all fell, "Thank God," I'm sorry, that was a little harsh,
+
+184
+00:09:36,600 --> 00:09:41,800
+ but I always hated that because they're like proud that they finally learned how to code
+
+185
+00:09:41,800 --> 00:09:46,000
+ after they've made all this ridiculous money after reporting super easy shit to find with
+
+186
+00:09:46,000 --> 00:09:47,720
+ the bug bounty program.
+
+187
+00:09:47,720 --> 00:09:48,720
+ That is all gone.
+
+188
+00:09:48,720 --> 00:09:49,720
+ That one that's gone.
+
+189
+00:09:49,720 --> 00:09:57,240
+ In fact, even Namsec is pivoting out of hacker stuff from HackerOne, the guy who made HackerOne.
+
+190
+00:09:57,240 --> 00:10:01,680
+ If you are in security, the takeaway from this is find another job.
+
+191
+00:10:01,680 --> 00:10:05,680
+ Like focus on enabling high-performance machine learning computing.
+
+192
+00:10:05,680 --> 00:10:07,840
+ That's a job that's going to be around forever.
+
+193
+00:10:07,840 --> 00:10:11,080
+ There's going to be people that are going to need to manage.
+
+194
+00:10:11,080 --> 00:10:16,480
+ As automated as all the systems get for Kubernetes and Slurm and everything that's running all
+
+195
+00:10:16,480 --> 00:10:21,160
+ these models, everything that's creating the models that are running our world, that stuff
+
+196
+00:10:21,160 --> 00:10:22,480
+ all needs to be supported.
+
+197
+00:10:22,480 --> 00:10:25,560
+ There still needs to be people that put the computers into the racks.
+
+198
+00:10:25,560 --> 00:10:29,960
+ There still has to be a person who configures those machines, no matter how automated it
+
+199
+00:10:29,960 --> 00:10:32,240
+ is with Ansible and AI, like I just did.
+
+200
+00:10:32,240 --> 00:10:34,520
+ That stuff's still infrastructure is code.
+
+201
+00:10:34,520 --> 00:10:37,880
+ That somebody's got a babysit all of that stuff, just like somebody has to babysit the
+
+202
+00:10:37,880 --> 00:10:39,640
+ software that's being developed.
+
+203
+00:10:39,640 --> 00:10:43,880
+ The people that are learning how to architect code, how to keep up on hardware, the operations
+
+204
+00:10:43,880 --> 00:10:45,720
+ people, they are safe.
+
+205
+00:10:45,720 --> 00:10:50,680
+ They haven't always been the sexiest jobs, but those jobs are really solid.
+
+206
+00:10:50,680 --> 00:10:55,280
+ If you can add high-performance computing and AI systems in that, and you know about what
+
+207
+00:10:55,280 --> 00:11:00,440
+ an H100 is and how to keep it running and not wasting its time, now you can really change,
+
+208
+00:11:00,440 --> 00:11:05,560
+ you can really use AI to your benefit by helping you automate the CISTEE like I am and write
+
+209
+00:11:05,560 --> 00:11:11,040
+ the automation layers and stuff in between that are unique to your environment.
+
+210
+00:11:11,040 --> 00:11:16,480
+ We're actually looking at a moment where we'll be able to give an overview of our architecture
+
+211
+00:11:16,480 --> 00:11:17,480
+ and where we want to go.
+
+212
+00:11:17,480 --> 00:11:23,760
+ We can use AI to even dictate or suggest architectural decisions upfront, not make them, but suggest
+
+213
+00:11:23,760 --> 00:11:27,440
+ them and then you can use that, but there still needs to be somebody that implements those
+
+214
+00:11:27,440 --> 00:11:32,240
+ things until we start to get true infrastructure as code and now you got AI writing terraform
+
+215
+00:11:32,240 --> 00:11:34,480
+ for you and you're like spinning up a bunch of yamps.
+
+216
+00:11:34,480 --> 00:11:39,120
+ The really great thing about HBCML is that that stuff requires hardware and hardware
+
+217
+00:11:39,120 --> 00:11:41,680
+ can't be virtualized.
+
+218
+00:11:41,680 --> 00:11:46,440
+ As long as you're involved with actual hardware and deploying it and managing it and making
+
+219
+00:11:46,440 --> 00:11:51,800
+ sure it's being used because it's being rented for like $20,000 a GPU, then you're going to
+
+220
+00:11:51,800 --> 00:11:52,800
+ be set.
+
+221
+00:11:52,800 --> 00:11:57,720
+ The blacksmith jobs are going to be good to go for the foreseeable future, they're not
+
+222
+00:11:57,720 --> 00:11:58,720
+ going anywhere.
+
+223
+00:11:58,720 --> 00:12:02,480
+ These are the people that are enabling AI, they're not the people that are being replaced
+
+224
+00:12:02,480 --> 00:12:04,920
+ by AI and that's where the jobs are.
+

@@ -1,0 +1,2192 @@
+1
+00:00:00,000 --> 00:00:06,040
+ So, I got a common question from someone who's already in the industry is asking how to
+
+2
+00:00:06,040 --> 00:00:12,320
+ transition to a systems development engineering job and before I answered it and just put some
+
+3
+00:00:12,320 --> 00:00:17,600
+ of my own thoughts out there, I wanted to make a video about it just to get the comments
+
+4
+00:00:17,600 --> 00:00:22,600
+ out there rolling to get people in here.
+
+5
+00:00:22,600 --> 00:00:27,360
+ I do really want to help invite people who have got more input into this to comment on
+
+6
+00:00:27,360 --> 00:00:35,360
+ threads like this to try to help and maybe that'll bubble up the visibility of this video.
+
+7
+00:00:35,360 --> 00:00:39,080
+ But in a nutshell, you got to learn go.
+
+8
+00:00:39,080 --> 00:00:41,400
+ I mean, that's like the number one thing.
+
+9
+00:00:41,400 --> 00:00:53,400
+ If you really needed learning it well and that means especially API development, REST
+
+10
+00:00:53,400 --> 00:01:03,480
+ API development, I mean I had to be precise with that because the core responsibility of
+
+11
+00:01:03,480 --> 00:01:13,240
+ a systems development engineer is to facilitate use of existing systems by developers.
+
+12
+00:01:13,240 --> 00:01:23,960
+ So you're spending almost the entire time spending most time creating tools or developers
+
+13
+00:01:23,960 --> 00:01:40,120
+ to use in order to access the most important pieces of the industry, of your IT department.
+
+14
+00:01:40,120 --> 00:01:48,960
+ And I'm an HBCML, which means that we are primarily responsible for, you know, currently
+
+15
+00:01:48,960 --> 00:01:56,040
+ we're migrating, we're actually, we're injecting code into an existing Perl code base so that
+
+16
+00:01:56,040 --> 00:02:03,840
+ it can leverage SLURM transparently as an additional piece of architecture to PBS which
+
+17
+00:02:03,840 --> 00:02:06,760
+ has been in the environment for over 20 years.
+
+18
+00:02:06,760 --> 00:02:12,240
+ So that's where my main priorities lie.
+
+19
+00:02:12,240 --> 00:02:16,400
+ And I think that that's probably similar for a lot of large companies.
+
+20
+00:02:16,400 --> 00:02:18,400
+ They already have existing systems.
+
+21
+00:02:18,400 --> 00:02:29,520
+ So the SISTI's job, in my opinion, is to bring forward modern development techniques by putting
+
+22
+00:02:29,520 --> 00:02:36,280
+ in that layer of abstraction between the legacy or the old systems and allowing modernization
+
+23
+00:02:36,280 --> 00:02:38,940
+ into the new development environments and stuff.
+
+24
+00:02:38,940 --> 00:02:41,920
+ And so that's just the general idea of the whole thing.
+
+25
+00:02:41,920 --> 00:02:47,520
+ So you're spending a lot of time writing code, you're spending a lot of time understanding
+
+26
+00:02:47,520 --> 00:02:50,280
+ the applications that enable that code to work.
+
+27
+00:02:50,280 --> 00:03:00,080
+ So that means getting, obviously, getting really good with software development practices.
+
+28
+00:03:00,080 --> 00:03:08,920
+ And, you know, and for me, I have some gaps here, so I'm not very good with CLOD.
+
+29
+00:03:08,920 --> 00:03:12,600
+ I haven't used CLOD, at least got a little bit to test it out and I need to get good.
+
+30
+00:03:12,600 --> 00:03:16,360
+ In fact, some of you recently told me about a CLOD certification that was just announced
+
+31
+00:03:16,360 --> 00:03:21,040
+ like last week or this week and I plan on getting it even though I'm in my 50s.
+
+32
+00:03:21,040 --> 00:03:24,400
+ Just because I think it's a, I think everybody should do it.
+
+33
+00:03:24,400 --> 00:03:25,760
+ It's a multiple choice test.
+
+34
+00:03:25,760 --> 00:03:29,200
+ It's obviously a pat on the back like, hey, you know, CLOD, you don't really don't need
+
+35
+00:03:29,200 --> 00:03:30,200
+ a certificate.
+
+36
+00:03:30,200 --> 00:03:34,760
+ I made a whole video about why certify, which you can go watch to determine whether you
+
+37
+00:03:34,760 --> 00:03:37,120
+ need a cert or not.
+
+38
+00:03:37,120 --> 00:03:42,960
+ But I think it would help me to encapsulate the learning that I feel like I need to get
+
+39
+00:03:42,960 --> 00:03:48,360
+ really good with agentic AI, you know, LLM, large language model development.
+
+40
+00:03:48,360 --> 00:03:52,360
+ So I mean, not the development of them, but the use of them for development, particularly
+
+41
+00:03:52,360 --> 00:03:59,080
+ when it comes to systems like so crafting, crafting a REST API is a pretty common thing.
+
+42
+00:03:59,080 --> 00:04:10,760
+ So, you know, craft a REST API using that, you know, following this specification from,
+
+43
+00:04:10,760 --> 00:04:15,840
+ you know, whatever API, Apigee, for example, whatever API platform that you use to define
+
+44
+00:04:15,840 --> 00:04:22,040
+ the API and then implement it, you know, in this language or implement the stubs in this
+
+45
+00:04:22,040 --> 00:04:29,760
+ language, I think, I think that kind of work is going to really dominate going forward.
+
+46
+00:04:29,760 --> 00:04:37,920
+ There's going to be a lot of work to simplify and modernize the middle layers of APIs and
+
+47
+00:04:37,920 --> 00:04:39,400
+ just to consolidate them.
+
+48
+00:04:39,400 --> 00:04:44,280
+ Another big problem is in the microservices world, which kind of went crazy.
+
+49
+00:04:44,280 --> 00:04:49,200
+ We have too many tiny microservices and a lot of those are being combined together into
+
+50
+00:04:49,200 --> 00:04:55,240
+ single microservices and single services that have a multiple endpoints or in terms of like
+
+51
+00:04:55,240 --> 00:04:57,520
+ Web APIs stuff.
+
+52
+00:04:57,520 --> 00:05:01,520
+ So you've got to, obviously, you've got to learn to code.
+
+53
+00:05:01,520 --> 00:05:11,280
+ You probably already have this, but you've got to really develop a sense of what developers
+
+54
+00:05:11,280 --> 00:05:19,000
+ need to help the company, the enterprise.
+
+55
+00:05:19,000 --> 00:05:23,300
+ So that means that you've got to see things holistically.
+
+56
+00:05:23,300 --> 00:05:28,720
+ And this is something I think that most people who are transitioning into a SISTI career
+
+57
+00:05:28,720 --> 00:05:38,280
+ from either software or operations don't have as much trouble with as, well, actually,
+
+58
+00:05:38,280 --> 00:05:43,160
+ I think people coming from the software side of things are going to have more problem with
+
+59
+00:05:43,160 --> 00:05:45,280
+ this than the people who are coming from the operations.
+
+60
+00:05:45,280 --> 00:05:49,840
+ So people who go to the SISTI, which kind of sits in between applications and operations,
+
+61
+00:05:49,840 --> 00:05:55,760
+ I personally think that the software people have a bigger struggle because they are used
+
+62
+00:05:55,760 --> 00:06:01,440
+ to seeing large applications with multiple pieces, but they're not used to seeing, in
+
+63
+00:06:01,440 --> 00:06:10,200
+ my opinion, the overall architecture and how the architecture serves the company.
+
+64
+00:06:10,200 --> 00:06:16,380
+ They see how their application serves a specific user, which is good, but they don't necessarily
+
+65
+00:06:16,380 --> 00:06:23,560
+ see how the larger picture, that could be, it depends on the person, but you really have
+
+66
+00:06:23,560 --> 00:06:28,200
+ to like back away and this is like an architectural skill, right?
+
+67
+00:06:28,200 --> 00:06:36,640
+ So I think the SISTI career, in my opinion, fundamentally includes a sort of senior IT
+
+68
+00:06:36,640 --> 00:06:38,480
+ architecture role as well.
+
+69
+00:06:38,480 --> 00:06:47,040
+ In fact, I spend a lot of my time in with the IT architecture hat on, you know, and not
+
+70
+00:06:47,040 --> 00:06:51,440
+ even writing code, which is one of the reasons I like AI so much, is I can dream up ways
+
+71
+00:06:51,440 --> 00:06:57,720
+ to integrate the systems to simplify and remove, you know, points of failure and risk and layers,
+
+72
+00:06:57,720 --> 00:07:01,120
+ you know, and I can say, okay, hey, this is what we should do here and this is what we
+
+73
+00:07:01,120 --> 00:07:07,560
+ should go here, and having the ability to like bring those things together, I don't know
+
+74
+00:07:07,560 --> 00:07:09,400
+ how you would develop that.
+
+75
+00:07:09,400 --> 00:07:15,880
+ So in the collection of, you know, skills, knowledge and abilities, SKAs that I learned
+
+76
+00:07:15,880 --> 00:07:20,160
+ from my ex-wife, actually, from Target, that's one of the things they would evaluate them
+
+77
+00:07:20,160 --> 00:07:21,560
+ on.
+
+78
+00:07:21,560 --> 00:07:27,100
+ Skills are things that can be developed like, you know, typing speed and coding, knowledge
+
+79
+00:07:27,100 --> 00:07:30,760
+ is obviously you can develop it by learning about how to do it, reading, it's more, you
+
+80
+00:07:30,760 --> 00:07:35,000
+ know, baseline knowledge you can call on, and you know, that includes learning how to research
+
+81
+00:07:35,000 --> 00:07:39,300
+ really quickly using AI or search engines, but then there's abilities, and abilities
+
+82
+00:07:39,300 --> 00:07:45,960
+ are harder to develop, it can be developed, but abilities are innate for the most part.
+
+83
+00:07:45,960 --> 00:07:49,040
+ So that means do you see connections?
+
+84
+00:07:49,040 --> 00:07:51,600
+ Do you see the overall big picture?
+
+85
+00:07:51,600 --> 00:07:54,840
+ Or does your brain live in that space all the time?
+
+86
+00:07:54,840 --> 00:08:00,160
+ And abilities are much, much harder to develop, you know, lifting 500 pounds, yeah, you can
+
+87
+00:08:00,160 --> 00:08:02,480
+ develop that, but you don't get it overnight, right?
+
+88
+00:08:02,480 --> 00:08:06,920
+ You've got to like really, really put yourself in multiple situations, you can't just like
+
+89
+00:08:06,920 --> 00:08:13,540
+ go take a course on, you know, how to see the enterprise better.
+
+90
+00:08:13,540 --> 00:08:20,320
+ But I do think that that's, so developing a sense of what's needed is an ability that
+
+91
+00:08:20,320 --> 00:08:26,600
+ if you either have it or you need to learn it, but before we leave this, let's go ahead
+
+92
+00:08:26,600 --> 00:08:32,840
+ and ask, and let's go check my understanding to see if I'm right on this, yeah, and we
+
+93
+00:08:32,840 --> 00:08:36,840
+ will talk about what technologies are involved, like what are your gaps.
+
+94
+00:08:36,840 --> 00:08:39,240
+ So let's talk about that.
+
+95
+00:08:39,240 --> 00:08:44,560
+ So what are any gaps I might have?
+
+96
+00:08:44,560 --> 00:08:50,480
+ And it depends on where you're coming from, but let's go ahead and ask my chat GPT about
+
+97
+00:08:50,480 --> 00:08:53,680
+ this, which I would encourage everybody to do.
+
+98
+00:08:53,680 --> 00:09:07,160
+ How can I transition to a SISDE role from more of a traditional SIS admin role?
+
+99
+00:09:07,160 --> 00:09:11,640
+ I think the first thing she's going to tell, Chloe is the name of my chat GPT, she's probably
+
+100
+00:09:11,640 --> 00:09:18,000
+ going to tell us coding because that's just kind of a part of it.
+
+101
+00:09:18,000 --> 00:09:20,760
+ I'm actually in a great position, a lot of the best system E's.
+
+102
+00:09:20,760 --> 00:09:24,200
+ I've known and start with strong system and you gradually replace manual operations with
+
+103
+00:09:24,200 --> 00:09:25,200
+ code.
+
+104
+00:09:25,200 --> 00:09:29,880
+ So this is where the SISDE role is kind of the same as the SRE role.
+
+105
+00:09:29,880 --> 00:09:36,040
+ I always hated the site reliability engineer title from Google, which was related to, this
+
+106
+00:09:36,040 --> 00:09:40,000
+ is the site stay up, but they brought in the scope of that definition to mean all kinds
+
+107
+00:09:40,000 --> 00:09:41,000
+ of things.
+
+108
+00:09:41,000 --> 00:09:46,600
+ And it always bothered me, I actually really like the SISDE title itself.
+
+109
+00:09:46,600 --> 00:09:51,080
+ And the Mind Center traditional system intends to think, how do I configure this system so
+
+110
+00:09:51,080 --> 00:09:52,080
+ it works?
+
+111
+00:09:52,080 --> 00:09:57,320
+ The SISDE thinks, how do I write software that creates and operates the system automatically?
+
+112
+00:09:57,320 --> 00:10:02,280
+ So yeah, this is fundamentally about automation.
+
+113
+00:10:02,280 --> 00:10:13,760
+ So, you know, fundamentally about operation, about automation.
+
+114
+00:10:13,760 --> 00:10:19,520
+ And that means learning things that normally wouldn't be in a system administrator role,
+
+115
+00:10:19,520 --> 00:10:25,340
+ such as, not just how to code, but how to use operations tools, like how configuration
+
+116
+00:10:25,340 --> 00:10:32,280
+ management with Ansible or whatever, you know, CICD and deployment of applications in RGO
+
+117
+00:10:32,280 --> 00:10:35,120
+ CD, for example.
+
+118
+00:10:35,120 --> 00:10:40,280
+ The standardization of how you're going to install Kubernetes applications, so the Kubernetes
+
+119
+00:10:40,280 --> 00:10:46,680
+ app, the K-SAP specification, which I created in our enterprise, it's since been contributed
+
+120
+00:10:46,680 --> 00:10:52,040
+ to by many people on the team, which is really great, and we're taking it to a V3 and our
+
+121
+00:10:52,040 --> 00:10:58,080
+ V3 K-SAP specification, which we actually might go public with and present at a KubeCon, is
+
+122
+00:10:58,080 --> 00:11:02,840
+ which uses something that predates the rendered manifest pattern, which is the same thing,
+
+123
+00:11:02,840 --> 00:11:07,960
+ which is take your Helm chart, flatten it, and then put it in Git so you can detect changes
+
+124
+00:11:07,960 --> 00:11:11,360
+ to it as you're doing your deployment, and then automate the deployment using kubesprayer
+
+125
+00:11:11,360 --> 00:11:13,520
+ Ansible.
+
+126
+00:11:13,520 --> 00:11:18,360
+ So, you know, so all the technologies that go with automation, that means you've got
+
+127
+00:11:18,360 --> 00:11:28,720
+ to have like wicked, good, bash scripting skills, bash scripting.
+
+128
+00:11:28,720 --> 00:11:38,120
+ I'm not talking about bash scripting and Python scripting, now my buddy, my co-sisty,
+
+129
+00:11:38,120 --> 00:11:45,360
+ probably the lead sisty on the team, besides me that we work with together, he just tests
+
+130
+00:11:45,360 --> 00:11:46,360
+ Python.
+
+131
+00:11:46,360 --> 00:11:50,520
+ When he got on the team, he was like, "Should I write this in Python or go?"
+
+132
+00:11:50,520 --> 00:11:55,760
+ I was like, "Well, I've written the only go code on the entire team, and everybody hates
+
+133
+00:11:55,760 --> 00:11:59,160
+ me before, I can't write it or maintain it."
+
+134
+00:11:59,160 --> 00:12:06,280
+ It was the right thing to do, by the way, k-login, or login tool, and I said he wanted to make
+
+135
+00:12:06,280 --> 00:12:12,080
+ an API, not just an API, but eventually wanted to make an API.
+
+136
+00:12:12,080 --> 00:12:18,040
+ As did I, that's just how we came together, but he wanted to make a singular library of
+
+137
+00:12:18,040 --> 00:12:21,760
+ all the common commands that we do, and get rid of all this like ones, you choose scripts
+
+138
+00:12:21,760 --> 00:12:24,600
+ everywhere, and I said, "Should I do it in Python or go?"
+
+139
+00:12:24,600 --> 00:12:28,840
+ I said, "Well, the team is more of a Python team, but I love go, I think it should be
+
+140
+00:12:28,840 --> 00:12:30,880
+ better to go, because it would be self-contained."
+
+141
+00:12:30,880 --> 00:12:32,600
+ He ended up putting it in go, thank God.
+
+142
+00:12:32,600 --> 00:12:40,600
+ He started it in Python, and then I took the tool, and I ported the tool from Python to
+
+143
+00:12:40,600 --> 00:12:48,320
+ go, the whole thing, because I felt kind of bad that I told him to do it all in Python,
+
+144
+00:12:48,320 --> 00:12:51,240
+ but we needed this one binary, and we're having trouble with it, and I was like, "No, we need
+
+145
+00:12:51,240 --> 00:12:52,240
+ to get all of that.
+
+146
+00:12:52,240 --> 00:12:53,960
+ That's all got to be in go."
+
+147
+00:12:53,960 --> 00:12:55,960
+ We imported all, we've never looked back.
+
+148
+00:12:55,960 --> 00:13:01,560
+ We didn't even talk about the dark times when it was written in Python, and that's really
+
+149
+00:13:01,560 --> 00:13:02,800
+ why you have to learn to go.
+
+150
+00:13:02,800 --> 00:13:07,160
+ Go is the perfect language for this work.
+
+151
+00:13:07,160 --> 00:13:09,960
+ You get a single binary out of it.
+
+152
+00:13:09,960 --> 00:13:17,080
+ You can write tooling, you can write API, you can write single app containers that don't
+
+153
+00:13:17,080 --> 00:13:20,720
+ have an operating system, they're just a single binary in there.
+
+154
+00:13:20,720 --> 00:13:24,760
+ You cannot do any of that with Python or Bash.
+
+155
+00:13:24,760 --> 00:13:32,560
+ If you're going to put Python in a container, you have to have a full teeny operating system,
+
+156
+00:13:32,560 --> 00:13:36,000
+ like Alpine or something, and then put Python in there.
+
+157
+00:13:36,000 --> 00:13:38,080
+ But unfortunately, you can't get away from Python.
+
+158
+00:13:38,080 --> 00:13:45,040
+ I haven't officially coded Python for this team ever.
+
+159
+00:13:45,040 --> 00:13:50,840
+ I've coded either in Bash or Go, in fact, I'm going to take Python off here, because
+
+160
+00:13:50,840 --> 00:13:53,160
+ you don't even need Python for Ansible.
+
+161
+00:13:53,160 --> 00:13:58,000
+ Ansible is already written, as long as you use the existing things, but yeah, you've got
+
+162
+00:13:58,000 --> 00:13:59,960
+ to be really, really good with Bash.
+
+163
+00:13:59,960 --> 00:14:03,240
+ That means you should run everything for shell check and shell up in a shell up in teeth
+
+164
+00:14:03,240 --> 00:14:04,240
+ or not doing it.
+
+165
+00:14:04,240 --> 00:14:07,640
+ You need to get really good to go, because all the applications in this space are written
+
+166
+00:14:07,640 --> 00:14:08,640
+ in Go.
+
+167
+00:14:08,640 --> 00:14:13,120
+ We need to be able to read those and write them, and you're going to spend most of your time
+
+168
+00:14:13,120 --> 00:14:16,100
+ creating tools for developers to use in automations.
+
+169
+00:14:16,100 --> 00:14:18,920
+ Let's go back to what she says.
+
+170
+00:14:18,920 --> 00:14:22,200
+ The job stops being about service and because of systems as products.
+
+171
+00:14:22,200 --> 00:14:23,360
+ Oh, I love that.
+
+172
+00:14:23,360 --> 00:14:25,320
+ That's what it is.
+
+173
+00:14:25,320 --> 00:14:31,760
+ Our V3 and our API, our API is our product and all the development teams use my API that
+
+174
+00:14:31,760 --> 00:14:32,760
+ we wrote.
+
+175
+00:14:32,760 --> 00:14:36,100
+ A typical responsibility is to start looking like writing automation tools, building internet
+
+176
+00:14:36,100 --> 00:14:42,900
+ CLIs, internal command line interfaces and APIs, again, this is, I wrote my own command
+
+177
+00:14:42,900 --> 00:14:47,280
+ line interface like library, Bonsai, because of this.
+
+178
+00:14:47,280 --> 00:14:50,960
+ It means writing common functionality and putting it into modules that can be reused
+
+179
+00:14:50,960 --> 00:14:56,200
+ and loaded into mostly Go or Bash.
+
+180
+00:14:56,200 --> 00:15:00,900
+ That's why Bash falls on its face, by the way, as soon as it depends on some common
+
+181
+00:15:00,900 --> 00:15:04,880
+ code someplace, you really are writing it in the wrong language.
+
+182
+00:15:04,880 --> 00:15:10,360
+ Taking infrastructure orchestration systems, we've talked about that, it's not just leveraging
+
+183
+00:15:10,360 --> 00:15:15,520
+ the ones that exist, but writing your own Cube Spray manual additions, which we've done.
+
+184
+00:15:15,520 --> 00:15:19,960
+ We actually work the Cube Spray source and alter it to use our own.
+
+185
+00:15:19,960 --> 00:15:24,840
+ We use it as a sub-command module, which I don't like, but it's the best way to get Kubernetes
+
+186
+00:15:24,840 --> 00:15:26,800
+ employed.
+
+187
+00:15:26,800 --> 00:15:34,080
+ It means doing other things with, as I mentioned, Argos CD already.
+
+188
+00:15:34,080 --> 00:15:36,220
+ Those are the main systems as far as I know.
+
+189
+00:15:36,220 --> 00:15:39,320
+ It means getting really good with secrets management.
+
+190
+00:15:39,320 --> 00:15:50,160
+ I should probably put that there, get really good with cert and secrets and OAuth.
+
+191
+00:15:50,160 --> 00:15:55,480
+ This is actually probably one of the biggest sticking points that I think a lot of systemies
+
+192
+00:15:55,480 --> 00:15:58,960
+ have is that they don't understand OAuth.
+
+193
+00:15:58,960 --> 00:16:01,480
+ Honestly, a lot of them don't understand certs.
+
+194
+00:16:01,480 --> 00:16:07,520
+ We have sys admins who have tried to manage certs and totally done it wrong, so the cert
+
+195
+00:16:07,520 --> 00:16:13,600
+ doesn't match everything or they have too many certs, and certs are hard to understand.
+
+196
+00:16:13,600 --> 00:16:18,180
+ They're really hard to keep fresh in your brain.
+
+197
+00:16:18,180 --> 00:16:22,040
+ Next time we have to work with certs, I'm really going to lean heavy on AI.
+
+198
+00:16:22,040 --> 00:16:27,600
+ I think AI is probably one of the areas that can best benefit from AI as cert management,
+
+199
+00:16:27,600 --> 00:16:33,320
+ because there's so many little things that you have to use together to get a proper cert
+
+200
+00:16:33,320 --> 00:16:37,600
+ setup and maintain it well, especially in the world where certs are being forced to
+
+201
+00:16:37,600 --> 00:16:42,200
+ be renewed once a month.
+
+202
+00:16:42,200 --> 00:16:43,200
+ That's the thing.
+
+203
+00:16:43,200 --> 00:16:48,520
+ There are cert management tools that Tommy Fondell has told me about in the past.
+
+204
+00:16:48,520 --> 00:16:54,600
+ Some companies have a one-day cert policy, and they have cert engines that are serving
+
+205
+00:16:54,600 --> 00:16:55,600
+ off.
+
+206
+00:16:55,600 --> 00:16:59,720
+ Knowing how to authenticate and manage all of that and keep it all safe, that's a big
+
+207
+00:16:59,720 --> 00:17:00,720
+ part of this job.
+
+208
+00:17:00,720 --> 00:17:05,760
+ I'd say that's probably, to me, that's one of the most challenging parts of this job,
+
+209
+00:17:05,760 --> 00:17:07,280
+ because it's not obvious.
+
+210
+00:17:07,280 --> 00:17:09,560
+ It's hard to do that stuff.
+
+211
+00:17:09,560 --> 00:17:14,320
+ It's the same thing every time, but it's one of those things where you forget it because
+
+212
+00:17:14,320 --> 00:17:19,560
+ you're not doing it every day, and it's so important that you get it right, because if
+
+213
+00:17:19,560 --> 00:17:24,360
+ you get it wrong, stuff stops working big time, you have big time outages.
+
+214
+00:17:24,360 --> 00:17:27,000
+ Learning infrastructure or orchestration systems, we talked about that.
+
+215
+00:17:27,000 --> 00:17:30,200
+ Monitoring deployment provisioning, yes.
+
+216
+00:17:30,200 --> 00:17:39,280
+ I don't consider integrating monitoring into the thing, but it is in there, so you've got
+
+217
+00:17:39,280 --> 00:17:40,840
+ to learn to do.
+
+218
+00:17:40,840 --> 00:17:44,520
+ This is really system and stuff, right?
+
+219
+00:17:44,520 --> 00:17:50,040
+ Learn to provide and set up visibility tools.
+
+220
+00:17:50,040 --> 00:17:59,760
+ That means, alas, the search, it means, you know, it was an open trace, what is it called?
+
+221
+00:17:59,760 --> 00:18:01,280
+ The common trace one?
+
+222
+00:18:01,280 --> 00:18:06,440
+ It means learning how to set up whatever your monitoring is and how to integrate your monitoring
+
+223
+00:18:06,440 --> 00:18:12,240
+ visibility and logging tools.
+
+224
+00:18:12,240 --> 00:18:13,240
+ Everybody's different.
+
+225
+00:18:13,240 --> 00:18:14,680
+ We're evaluating data trace right now.
+
+226
+00:18:14,680 --> 00:18:19,560
+ It seems like a constant argument in the company about what tool we're going to use for visibility
+
+227
+00:18:19,560 --> 00:18:20,560
+ and logging.
+
+228
+00:18:20,560 --> 00:18:31,040
+ We're running Alastair Scarpana, Prometheus, and now dynasty on top of everything else.
+
+229
+00:18:31,040 --> 00:18:36,920
+ These are things that you have to know, and whether you're creating a Prometheus exporter
+
+230
+00:18:36,920 --> 00:18:42,360
+ or a Prometheus service is a pretty common thing you have to do.
+
+231
+00:18:42,360 --> 00:18:47,440
+ You probably already have that if you've been a systems administrator of some kind, because
+
+232
+00:18:47,440 --> 00:18:52,800
+ modern system administration, I'm speaking to the old parts out there, it requires more
+
+233
+00:18:52,800 --> 00:18:58,560
+ than just looking through the sys logs, you know, nobody goes in our log anymore.
+
+234
+00:18:58,560 --> 00:19:02,200
+ They write in the last a search query to get all that same information, and then they set
+
+235
+00:19:02,200 --> 00:19:05,440
+ up exporting of all their logs into a central server.
+
+236
+00:19:05,440 --> 00:19:12,400
+ If you're still dealing with logs directly, you're living in a really old decade past.
+
+237
+00:19:12,400 --> 00:19:18,280
+ So make sure you learn all those tools, they're kind of assumed these days, if you're a system
+
+238
+00:19:18,280 --> 00:19:22,480
+ administrator or operations person, it's kind of assumed you know how to make a Grapana dashboard.
+
+239
+00:19:22,480 --> 00:19:28,320
+ This is something I had to learn relatively late in my career, was how to set up Grapana,
+
+240
+00:19:28,320 --> 00:19:34,160
+ how to make a Grapana dashboard, how to set up Prometheus, how to install the Prometheus
+
+241
+00:19:34,160 --> 00:19:39,160
+ agents on the different nodes and stuff, how to write my own Prometheus monitoring tools
+
+242
+00:19:39,160 --> 00:19:45,680
+ that I could leverage in Grapana, how to set up Elasticsearch, how to run it, how to make
+
+243
+00:19:45,680 --> 00:19:51,520
+ an Elasticsearch query, how to tie Elasticsearch queries into Grapana dashboards.
+
+244
+00:19:51,520 --> 00:19:57,680
+ Those are all really, really critical SIST-E skills, even though they kind of come along
+
+245
+00:19:57,680 --> 00:20:01,800
+ with the sys admin role that's kind of implied in a SIST-E.
+
+246
+00:20:01,800 --> 00:20:07,640
+ It's implied as a SIST-E, in my opinion, that you can do, you can hold your own as a software
+
+247
+00:20:07,640 --> 00:20:14,320
+ developer and as a system administrator, an SRE or old school admin, but you're kind
+
+248
+00:20:14,320 --> 00:20:17,760
+ of the combination of the two.
+
+249
+00:20:17,760 --> 00:20:20,120
+ Other people would call, but they have different names for this role.
+
+250
+00:20:20,120 --> 00:20:23,880
+ Some people would call it DevOps or Cloud Native Engineer, I don't agree.
+
+251
+00:20:23,880 --> 00:20:30,000
+ The Cloud and Native DevOps and those kind of engineering roles, to me, are more about
+
+252
+00:20:30,000 --> 00:20:34,800
+ using the Cloud GCP Azure to kind of assume that you know how to integrate with that.
+
+253
+00:20:34,800 --> 00:20:41,160
+ That is not true for SIST-E, a SIST-E is doing a lot of development for things on site.
+
+254
+00:20:41,160 --> 00:20:46,880
+ You might be hosting in the Cloud, but your work is not like getting good at Cloud.
+
+255
+00:20:46,880 --> 00:20:50,880
+ I never touch the Cloud in my job every day, never.
+
+256
+00:20:50,880 --> 00:20:52,720
+ I don't use it for anything.
+
+257
+00:20:52,720 --> 00:20:56,000
+ We build our Cloud and we make our Cloud available to other people.
+
+258
+00:20:56,000 --> 00:21:02,760
+ I don't know if that's a flavor of the SIST-E role or if it's universal, but I don't know.
+
+259
+00:21:02,760 --> 00:21:08,360
+ Using infrastructure like software projects, this is absolutely so key, making sure everything
+
+260
+00:21:08,360 --> 00:21:10,320
+ is in Git, every configuration.
+
+261
+00:21:10,320 --> 00:21:15,520
+ In fact, deploying configurations automatically through GitOps and through Git-A actions,
+
+262
+00:21:15,520 --> 00:21:18,360
+ GitHub actions, those are all needed.
+
+263
+00:21:18,360 --> 00:21:21,260
+ The kind of work you're going to do with bonsai command framework and automation is very close
+
+264
+00:21:21,260 --> 00:21:23,840
+ to SIST-E or Git.
+
+265
+00:21:23,840 --> 00:21:26,840
+ Strengthening the programming side, the biggest difference rate is real software engineering
+
+266
+00:21:26,840 --> 00:21:27,840
+ practice.
+
+267
+00:21:27,840 --> 00:21:33,560
+ Going on a real language, most SIST-E teams use one of Go, Python, Rust, and occasionally
+
+268
+00:21:33,560 --> 00:21:34,560
+ Java.
+
+269
+00:21:34,560 --> 00:21:41,360
+ I cannot imagine what a pain in the ass using Rust would be as a SIST-E language.
+
+270
+00:21:41,360 --> 00:21:49,960
+ I can't even imagine it, unless you had to do really low level integrations, it's such
+
+271
+00:21:49,960 --> 00:21:53,720
+ a horrible language to write in quickly.
+
+272
+00:21:53,720 --> 00:21:58,480
+ Python and Go are way, way faster for quick development and that's kind of implied in
+
+273
+00:21:58,480 --> 00:22:02,600
+ the role is that you're going to develop things quickly and you're going to iterate quickly
+
+274
+00:22:02,600 --> 00:22:06,360
+ and that everybody is going to be able to understand your code.
+
+275
+00:22:06,360 --> 00:22:08,040
+ I get big enough problems using Go.
+
+276
+00:22:08,040 --> 00:22:12,400
+ I cannot imagine my second level manager who wants to be able to read the source code of
+
+277
+00:22:12,400 --> 00:22:17,760
+ stuff that we're doing, could never read Rust, it would be ridiculous for us to do that
+
+278
+00:22:17,760 --> 00:22:18,760
+ in Rust.
+
+279
+00:22:18,760 --> 00:22:24,040
+ Already, we already have to justify Go and Go is super easy to justify since every single
+
+280
+00:22:24,040 --> 00:22:30,800
+ operating system, since every single core native cloud application is built and Go.
+
+281
+00:22:30,800 --> 00:22:34,640
+ Go is extremely dominant for infrastructure tools, Kubernetes, Docker, Terraform, which
+
+282
+00:22:34,640 --> 00:22:37,240
+ fits into your interests already.
+
+283
+00:22:37,240 --> 00:22:40,120
+ The software engineering discipline learned to treat infrastructure tools like software
+
+284
+00:22:40,120 --> 00:22:43,280
+ products, unit tests, integration testing, structure logging.
+
+285
+00:22:43,280 --> 00:22:48,360
+ This is the problem, I actually talked about this earlier in my challenge video.
+
+286
+00:22:48,360 --> 00:22:53,220
+ The system administrator, operator, SRE people, they don't understand why they need a unit
+
+287
+00:22:53,220 --> 00:22:54,680
+ test.
+
+288
+00:22:54,680 --> 00:22:58,480
+ They don't understand why they need to put this code here into a function so it can be
+
+289
+00:22:58,480 --> 00:23:01,480
+ tested when it's just parsing a job ID.
+
+290
+00:23:01,480 --> 00:23:02,480
+ They don't understand it.
+
+291
+00:23:02,480 --> 00:23:04,920
+ It doesn't come naturally to them.
+
+292
+00:23:04,920 --> 00:23:06,680
+ Well, how am I supposed to test this?
+
+293
+00:23:06,680 --> 00:23:08,760
+ I'm like, well, you just run the application.
+
+294
+00:23:08,760 --> 00:23:13,680
+ We're talking about a big application just to test the one thing.
+
+295
+00:23:13,680 --> 00:23:19,600
+ The idea of integral unit testing and functional programming is foreign to the entire group,
+
+296
+00:23:19,600 --> 00:23:24,600
+ and you just have got to be ready to help justify why you want to write testable code.
+
+297
+00:23:24,600 --> 00:23:29,760
+ CI pipelines, packaging, and versioning are handling, structure, and logging, and integration
+
+298
+00:23:29,760 --> 00:23:30,760
+ tests.
+
+299
+00:23:30,760 --> 00:23:33,680
+ So integration tests are a different thing.
+
+300
+00:23:33,680 --> 00:23:37,080
+ Sadly, we don't have a lot of integration testing.
+
+301
+00:23:37,080 --> 00:23:43,280
+ Most of the time, that means applying it to a sub-environment, and your tools shouldn't
+
+302
+00:23:43,280 --> 00:23:46,920
+ feel like scripts, they should feel like products, yes.
+
+303
+00:23:46,920 --> 00:23:47,920
+ This is a thing.
+
+304
+00:23:47,920 --> 00:23:50,760
+ So you're spent a lot of time taking that one's bash script that's existed forever
+
+305
+00:23:50,760 --> 00:23:56,400
+ and modernizing it, putting it behind a web API or something.
+
+306
+00:23:56,400 --> 00:24:00,700
+ Start replacing shell scripts with tools, bash scripts with going Python, I do that every
+
+307
+00:24:00,700 --> 00:24:01,700
+ day.
+
+308
+00:24:01,700 --> 00:24:05,720
+ Manual server config with infrastructure as code, absolutely, SSH loops orchestration
+
+309
+00:24:05,720 --> 00:24:10,840
+ systems, ad hoc monitoring, telemetry pipelines, open telemetry, that's what I was looking
+
+310
+00:24:10,840 --> 00:24:12,840
+ for.
+
+311
+00:24:12,840 --> 00:24:17,040
+ You're going to run commands, automated workflows.
+
+312
+00:24:17,040 --> 00:24:24,320
+ So yeah, yep, that's so funny, because I wrote the SSH integration layer just so that
+
+313
+00:24:24,320 --> 00:24:31,400
+ our web APIs could talk to the existing system nodes that can't be communicated with other
+
+314
+00:24:31,400 --> 00:24:34,280
+ than through SSH.
+
+315
+00:24:34,280 --> 00:24:37,240
+ We can't put a microservice over there, it's not allowed.
+
+316
+00:24:37,240 --> 00:24:39,720
+ So cluster CTL is your tool.
+
+317
+00:24:39,720 --> 00:24:44,400
+ I wish I could use cluster CTL where you could just spin up a cluster by yourself.
+
+318
+00:24:44,400 --> 00:24:48,880
+ We've written basically our own cluster CTL tool in CUBE spray that does essentially the
+
+319
+00:24:48,880 --> 00:24:51,880
+ same thing.
+
+320
+00:24:51,880 --> 00:24:57,520
+ Terraform, if you're putting that many machines together, we don't use Terraform because we're
+
+321
+00:24:57,520 --> 00:25:02,440
+ an in-house provider, Ansible Sol puppet chef.
+
+322
+00:25:02,440 --> 00:25:09,280
+ We were on a chef and puppet for years, and we're now modernizing all an Ansible and OpenShift.
+
+323
+00:25:09,280 --> 00:25:14,080
+ So if you're not learning Ansible and OpenShift, make sure you're learning that.
+
+324
+00:25:14,080 --> 00:25:19,280
+ They're really the only one that matters right now, in my opinion.
+
+325
+00:25:19,280 --> 00:25:24,200
+ Red Hat, you can hate on it all you want, it doesn't matter.
+
+326
+00:25:24,200 --> 00:25:30,200
+ Red Hat has completely dominated the enterprise Linux space except for maybe Susie.
+
+327
+00:25:30,200 --> 00:25:37,320
+ Susie is still there in a lot of European companies that I've heard from, and it's still
+
+328
+00:25:37,320 --> 00:25:40,360
+ very dominant, it's actually mostly controlled by Microsoft these days.
+
+329
+00:25:40,360 --> 00:25:45,320
+ They own most of the engineers on Susie, as I understand it, work for Microsoft these
+
+330
+00:25:45,320 --> 00:25:46,320
+ days.
+
+331
+00:25:46,320 --> 00:25:48,840
+ It's a great distro.
+
+332
+00:25:48,840 --> 00:25:54,360
+ Susie was one of my first distros, but I couldn't read it because it was in German.
+
+333
+00:25:54,360 --> 00:26:00,320
+ You've got to know containers, you've got to know containers so well.
+
+334
+00:26:00,320 --> 00:26:04,000
+ If you don't know, anybody who doesn't know containers today is really going to get left
+
+335
+00:26:04,000 --> 00:26:10,120
+ behind, specifically Podman containers, Podman and Aptainer containers.
+
+336
+00:26:10,120 --> 00:26:12,760
+ I think those are the two most important container engines.
+
+337
+00:26:12,760 --> 00:26:17,720
+ There's another one coming on the scene from the video, I forget the name of it, but knowing
+
+338
+00:26:17,720 --> 00:26:27,960
+ OCI containers, specifically Podman and Aptainer, which is the default in SLIRM, is super duper
+
+339
+00:26:27,960 --> 00:26:28,960
+ critical.
+
+340
+00:26:28,960 --> 00:26:29,960
+ You've got to know that.
+
+341
+00:26:29,960 --> 00:26:35,240
+ I know the difference between an OCI image, which you can access through a URL versus old-school
+
+342
+00:26:35,240 --> 00:26:36,600
+ Docker images.
+
+343
+00:26:36,600 --> 00:26:39,600
+ You probably should learn a little bit of Docker in order to understand how much it
+
+344
+00:26:39,600 --> 00:26:45,080
+ sucks, and container D is implied in all of this.
+
+345
+00:26:45,080 --> 00:26:51,720
+ Podman backed by container D, orchestrations, Kubernetes and SLIRM and HPC, no mad is one,
+
+346
+00:26:51,720 --> 00:26:53,360
+ but really, you don't need that.
+
+347
+00:26:53,360 --> 00:26:55,800
+ You need Kubernetes and SLIRM, the end.
+
+348
+00:26:55,800 --> 00:27:00,240
+ If you're going to work in high performance computing, you need SLIRM, the end.
+
+349
+00:27:00,240 --> 00:27:03,680
+ If you're going to work in anything else, you need Kubernetes, because that is the
+
+350
+00:27:03,680 --> 00:27:07,040
+ orchestration framework, and it's not going anywhere.
+
+351
+00:27:07,040 --> 00:27:08,240
+ It is not going anywhere.
+
+352
+00:27:08,240 --> 00:27:12,840
+ I've been wishing it would die, and I hate it's complexity for years.
+
+353
+00:27:12,840 --> 00:27:13,840
+ It's not.
+
+354
+00:27:13,840 --> 00:27:14,840
+ It's not.
+
+355
+00:27:14,840 --> 00:27:17,920
+ It's like saying Python's going to go away.
+
+356
+00:27:17,920 --> 00:27:20,600
+ Prometheus, Kepano, Pentalometry, those are the things I mentioned.
+
+357
+00:27:20,600 --> 00:27:23,840
+ You don't need all of them, but you'll definitely need this metal model.
+
+358
+00:27:23,840 --> 00:27:28,960
+ Real Sisty works when you're going to stop maintaining servers, start building platforms.
+
+359
+00:27:28,960 --> 00:27:39,320
+ This is funny, because I got famous, my team and I got called in when I was at IBM to build
+
+360
+00:27:39,320 --> 00:27:44,280
+ a tool called Virtual Server Administrator.
+
+361
+00:27:44,280 --> 00:27:50,320
+ This was way before any of this stuff was done, and I was doing Sisty-E work before I
+
+362
+00:27:50,320 --> 00:27:51,680
+ knew there was a title.
+
+363
+00:27:51,680 --> 00:27:57,120
+ That was the title for it, because I had been writing a lot of pearls.
+
+364
+00:27:57,120 --> 00:28:03,520
+ I got pulled in on a team, and their job was to manage a bunch of servers, and to just
+
+365
+00:28:03,520 --> 00:28:09,640
+ check them for security compliance and stuff like that, but to do it at a massive scale.
+
+366
+00:28:09,640 --> 00:28:15,120
+ I'm trying to give you a sense of what the job entails by telling you about this.
+
+367
+00:28:15,120 --> 00:28:21,920
+ I wrote a compiled pearl using something called Pearl-the-E-X-E.
+
+368
+00:28:21,920 --> 00:28:25,360
+ This is what we only had back then, there was no go.
+
+369
+00:28:25,360 --> 00:28:32,780
+ It would run, I wrote a transport layer, and you'd run this agent on all of the nodes.
+
+370
+00:28:32,780 --> 00:28:36,360
+ We didn't call them nodes back then, we just called them servers.
+
+371
+00:28:36,360 --> 00:28:42,040
+ It would report up all of its stuff, and then it would go to a central thing, and then it
+
+372
+00:28:42,040 --> 00:28:47,240
+ would, that central huge database that I wrote, the first time I ever wrote a really substantial
+
+373
+00:28:47,240 --> 00:28:53,400
+ database model, which I wrote in DIAB, by the way, like diagramming tool, which you
+
+374
+00:28:53,400 --> 00:28:59,360
+ can use to export SQL for the DDL, and actually that was the area when I printed out all the
+
+375
+00:28:59,360 --> 00:29:00,360
+ Postgres.
+
+376
+00:29:00,360 --> 00:29:04,720
+ I taught myself Postgres, and I taught this huge thing in Postgres.
+
+377
+00:29:04,720 --> 00:29:09,560
+ I don't even think you need to learn database tools and Postgres and stuff like that today.
+
+378
+00:29:09,560 --> 00:29:15,600
+ I don't think you would need that to be a cisTE, because those tools already exist, especially.
+
+379
+00:29:15,600 --> 00:29:17,480
+ Who knows?
+
+380
+00:29:17,480 --> 00:29:21,520
+ You might have to integrate, you might have to write database integration layer at some
+
+381
+00:29:21,520 --> 00:29:26,960
+ point, but usually more about using the tools that already exist, but no, but you probably
+
+382
+00:29:26,960 --> 00:29:30,440
+ do have to write some of that, because you're going to have to, like the metadata about
+
+383
+00:29:30,440 --> 00:29:32,080
+ a server, we still suffer with that.
+
+384
+00:29:32,080 --> 00:29:34,840
+ It's probably going to be one of our next projects in the new year.
+
+385
+00:29:34,840 --> 00:29:38,880
+ We still suffer with having a common metadata database for all of our nodes, all of our
+
+386
+00:29:38,880 --> 00:29:42,640
+ computer notes in the enterprise.
+
+387
+00:29:42,640 --> 00:29:44,800
+ We've got a whole bunch of tagging going on.
+
+388
+00:29:44,800 --> 00:29:52,000
+ We've managed everything for tagging, but we don't have a centralized way to query that.
+
+389
+00:29:52,000 --> 00:29:55,560
+ We've tried to stuff it into annotations and tags and Kubernetes and annotations and tags
+
+390
+00:29:55,560 --> 00:30:00,640
+ and slurms like that, but sometimes you need to have just an extra metadata thing on the
+
+391
+00:30:00,640 --> 00:30:04,440
+ box, but then the metadata gets inevitably out of sync with what's on the system, blah,
+
+392
+00:30:04,440 --> 00:30:05,440
+ blah, blah.
+
+393
+00:30:05,440 --> 00:30:09,400
+ That's what kind of fills that space, so I don't know how much databases, how much database
+
+394
+00:30:09,400 --> 00:30:11,400
+ integration you would have, but that's what I ended up building.
+
+395
+00:30:11,400 --> 00:30:15,120
+ It was this thing that would report compliance, and then we had a dashboard that would show
+
+396
+00:30:15,120 --> 00:30:19,000
+ what machines are out of compliance and what it weren't, and the holy grail was that we
+
+397
+00:30:19,000 --> 00:30:24,040
+ would remediate that and that meant giving root access to all these, to these agents that
+
+398
+00:30:24,040 --> 00:30:28,960
+ ran out of the systems to fix them, but that was the role, and it was so successful that
+
+399
+00:30:28,960 --> 00:30:35,280
+ it actually fired a bunch of systems and kept us around, that's the true story.
+
+400
+00:30:35,280 --> 00:30:42,960
+ Eventually, our tool became better than Tibley, and Tibley got embarrassed and paraphrasing.
+
+401
+00:30:42,960 --> 00:30:50,280
+ This true story that sells people would sell our customers on this thing that we had in
+
+402
+00:30:50,280 --> 00:30:56,720
+ global services, and we had customers start asking ourselves, people, what about Tibley?
+
+403
+00:30:56,720 --> 00:30:57,720
+ I'm paying for that.
+
+404
+00:30:57,720 --> 00:31:02,960
+ When Tibley got word of that and got mad, and Tibley consumed us, they had a hostile
+
+405
+00:31:02,960 --> 00:31:09,240
+ takeover of our team, and I became a Tibley admin and made an extra 30K a year.
+
+406
+00:31:09,240 --> 00:31:11,960
+ It's really funny.
+
+407
+00:31:11,960 --> 00:31:20,320
+ I saw Tibley developer overnight, because Tibley software management product was very strongly
+
+408
+00:31:20,320 --> 00:31:26,720
+ in the SIST-E space, the systems management and development space, and we had Tibley monitoring
+
+409
+00:31:26,720 --> 00:31:32,720
+ everything, and so you're not maintaining servers, you're not just keeping up and running,
+
+410
+00:31:32,720 --> 00:31:38,140
+ you're building platforms, and these days, you don't really care if a server stops working.
+
+411
+00:31:38,140 --> 00:31:41,400
+ You distribute your work across multiple nodes, compute nodes, that's why they're called
+
+412
+00:31:41,400 --> 00:31:45,160
+ nodes and not servers, because a server is like, "Oh my God, don't let the server go
+
+413
+00:31:45,160 --> 00:31:47,400
+ down and we're all going to die."
+
+414
+00:31:47,400 --> 00:31:49,360
+ These days, that's not a thing anymore.
+
+415
+00:31:49,360 --> 00:31:53,200
+ It's like you run multiple of them, and they're all serving.
+
+416
+00:31:53,200 --> 00:31:56,600
+ The idea that you would have a single point of failure and a single server is ridiculous
+
+417
+00:31:56,600 --> 00:31:59,000
+ in 2026.
+
+418
+00:31:59,000 --> 00:32:04,320
+ You would deploy through Kubernetes, you have multiple pods, and if you're running a Slurm
+
+419
+00:32:04,320 --> 00:32:11,320
+ Jobs, you have different nodes, if the job dies, it'll go over to another node automatically.
+
+420
+00:32:11,320 --> 00:32:19,960
+ That's modern SIST-E work, is keeping everything working, deploying framework, CICI pipelines,
+
+421
+00:32:19,960 --> 00:32:23,960
+ provisioning, scaffolding, internal CLIs.
+
+422
+00:32:23,960 --> 00:32:29,680
+ We have a model with CLI, which is where we dump all of our stuff.
+
+423
+00:32:29,680 --> 00:32:34,680
+ Creating developer environments, and think about tools that will make your team faster,
+
+424
+00:32:34,680 --> 00:32:37,880
+ build up portfolio of systems, this is easier to move roles.
+
+425
+00:32:37,880 --> 00:32:45,680
+ Example of great SIST-E from Pro Go projects, cluster bootstrapper, yeah, that's what we
+
+426
+00:32:45,680 --> 00:32:46,680
+ did.
+
+427
+00:32:46,680 --> 00:32:56,680
+ We've got a way to not only, we have a tool that will bring up a cluster from scratch.
+
+428
+00:32:56,680 --> 00:33:03,640
+ If we give it the list of nodes, and then we run this kubespray recipe-ish thing, it will
+
+429
+00:33:03,640 --> 00:33:09,240
+ stand up a cluster from scratch on those machines.
+
+430
+00:33:09,240 --> 00:33:13,600
+ Using kubespray, you could do it in any other number of ways.
+
+431
+00:33:13,600 --> 00:33:16,640
+ There's a lot of other tools to do that.
+
+432
+00:33:16,640 --> 00:33:20,680
+ If you want to take it one step further, you can even provision the hardware if you have
+
+433
+00:33:20,680 --> 00:33:24,920
+ a VM environment, but we don't, because we're a high-performance computing, so that means
+
+434
+00:33:24,920 --> 00:33:26,360
+ all our stuff's hardware.
+
+435
+00:33:26,360 --> 00:33:32,600
+ Which means that we have a way of imaging, and we have pre-check scripts that run on
+
+436
+00:33:32,600 --> 00:33:35,920
+ systems that have been provisioned in the hardware space to make sure that our hardware
+
+437
+00:33:35,920 --> 00:33:38,440
+ matches everything else.
+
+438
+00:33:38,440 --> 00:33:45,880
+ There's actually a proposal on the table that I just evaluated to automate all of that,
+
+439
+00:33:45,880 --> 00:33:48,920
+ which means, but at a certain point, you can't automate.
+
+440
+00:33:48,920 --> 00:33:54,600
+ At a certain point, somebody's got to go put the computer in the rack.
+
+441
+00:33:54,600 --> 00:33:57,400
+ You can't automate that.
+
+442
+00:33:57,400 --> 00:34:03,160
+ All the other stuff, once the hardware's in there, setting it up, provisioning it, making
+
+443
+00:34:03,160 --> 00:34:08,560
+ sure it has the proper network bandwidth required for that particular system, that it's reporting
+
+444
+00:34:08,560 --> 00:34:15,800
+ well to all the other systems, that it's not been allocated to both Kubernetes and Slurm.
+
+445
+00:34:15,800 --> 00:34:21,200
+ It has a dedicated purpose as a node.
+
+446
+00:34:21,200 --> 00:34:26,880
+ Provisioning and automating VMs, infrastructure as code, infrastructure as code does not really
+
+447
+00:34:26,880 --> 00:34:30,920
+ apply in the HPC space I'm finding is more and more.
+
+448
+00:34:30,920 --> 00:34:36,040
+ The more and more I get into this with HPCML, and the more I realize that that stuff is
+
+449
+00:34:36,040 --> 00:34:41,720
+ hardware, the problems that face the hardware HPC team, the team that's fundamentalized
+
+450
+00:34:41,720 --> 00:34:48,240
+ nodes are actual nodes, they don't fall neatly into the, "Oh, let's run a firecracker VM
+
+451
+00:34:48,240 --> 00:34:50,240
+ automatically."
+
+452
+00:34:50,240 --> 00:34:54,800
+ It's more about taking hardware and managing it.
+
+453
+00:34:54,800 --> 00:34:59,920
+ Make sure it's the right data center, and that you have the data center distribution
+
+454
+00:34:59,920 --> 00:35:04,680
+ of the nodes properly, so if the node got bombed or something.
+
+455
+00:35:04,680 --> 00:35:12,480
+ In selling Kubernetes to Slurm, registering, monitoring, deploy services, check those services,
+
+456
+00:35:12,480 --> 00:35:17,800
+ happy, healthy, look them up in Grappana, learn to design systems, that interview will
+
+457
+00:35:17,800 --> 00:35:23,360
+ focus on system design, reliability, scalability, failure modes, and automation.
+
+458
+00:35:23,360 --> 00:35:25,320
+ Automation is a big, big piece of this.
+
+459
+00:35:25,320 --> 00:35:30,900
+ I think in terms of control planes, agents, APIs, and events, events queues, and item
+
+460
+00:35:30,900 --> 00:35:38,080
+ potent operations, item potent is a big, big word in system DE, it's a big word in all
+
+461
+00:35:38,080 --> 00:35:39,080
+ of this.
+
+462
+00:35:39,080 --> 00:35:45,600
+ Item potent simply means that you declare what you want, and then the system over time
+
+463
+00:35:45,600 --> 00:35:47,880
+ creates that situation.
+
+464
+00:35:47,880 --> 00:35:52,680
+ I want three servers that are doing this and this and this, and it will maintain the state
+
+465
+00:35:52,680 --> 00:35:53,680
+ of the system.
+
+466
+00:35:53,680 --> 00:35:56,880
+ That's what Kubernetes is so good at, despite its complexity.
+
+467
+00:35:56,880 --> 00:35:57,880
+ It's really amazing.
+
+468
+00:35:57,880 --> 00:36:03,960
+ You can say, look, I want three servers constantly answering this thing about this thing, and
+
+469
+00:36:03,960 --> 00:36:07,580
+ then if one of those pods goes down or gets bad or out of health, or you can even kill
+
+470
+00:36:07,580 --> 00:36:12,200
+ it, and it'll automatically make a new one because of the item potent declaration that
+
+471
+00:36:12,200 --> 00:36:14,760
+ I want three of them.
+
+472
+00:36:14,760 --> 00:36:19,200
+ And then the system knows that you want that third one, and then we'll do it.
+
+473
+00:36:19,200 --> 00:36:24,320
+ The thing that's really great about item potent operations is that they are meshing really
+
+474
+00:36:24,320 --> 00:36:28,920
+ well with the idea of systems development.
+
+475
+00:36:28,920 --> 00:36:33,840
+ Recently, I've been learning CLOD, and I don't know it very well.
+
+476
+00:36:33,840 --> 00:36:40,680
+ I think you should learn it, but item potent stuff, I was reading about the CLOD MD file.
+
+477
+00:36:40,680 --> 00:36:45,000
+ So one of the things that I don't like about CLOD, at least when I initially used it, is
+
+478
+00:36:45,000 --> 00:36:49,880
+ that it doesn't remember context, at least I didn't, not the way I was doing it.
+
+479
+00:36:49,880 --> 00:36:54,760
+ If you provide a CLOD MD file in Markdown, which is an essential skill now, Markdown
+
+480
+00:36:54,760 --> 00:36:57,880
+ was always like, help you document things, not anymore.
+
+481
+00:36:57,880 --> 00:37:00,640
+ You're now coding in Markdown.
+
+482
+00:37:00,640 --> 00:37:07,160
+ Markdown is the language of programming AIs because you write the prompts in Markdown.
+
+483
+00:37:07,160 --> 00:37:09,880
+ These complex prompts are written in Markdown.
+
+484
+00:37:09,880 --> 00:37:13,600
+ So we're going to talk about that in the beginning of this later, but if you're not mastering
+
+485
+00:37:13,600 --> 00:37:19,080
+ Markdown, well, you are not going to be able to make AI work, and therefore you're not
+
+486
+00:37:19,080 --> 00:37:21,040
+ going to be able to develop anything.
+
+487
+00:37:21,040 --> 00:37:26,460
+ So spend some time on it, get it right.
+
+488
+00:37:26,460 --> 00:37:32,320
+ But in Markdown, so the Markdown specification of what the context is for a particular Git
+
+489
+00:37:32,320 --> 00:37:37,800
+ repo during a software development project with CLOD is largely an item potent thing.
+
+490
+00:37:37,800 --> 00:37:42,920
+ So the reason you're putting it in there is so that when CLOD does anything, CLOD remembers
+
+491
+00:37:42,920 --> 00:37:49,840
+ the item potency of the main prompts that were required for the context of that development.
+
+492
+00:37:49,840 --> 00:37:52,640
+ It's like, no, I never ever want to use JavaScript here.
+
+493
+00:37:52,640 --> 00:37:54,480
+ I only want to use this go tool.
+
+494
+00:37:54,480 --> 00:37:55,720
+ I want to use this thing.
+
+495
+00:37:55,720 --> 00:38:03,760
+ Those are item potent declarations about how the system should always be from a software
+
+496
+00:38:03,760 --> 00:38:05,240
+ side of things.
+
+497
+00:38:05,240 --> 00:38:09,680
+ From a server administration side of things, it's more about, oh, I need three servers
+
+498
+00:38:09,680 --> 00:38:15,280
+ all the time, or I always want two database connections or I, you know, whatever.
+
+499
+00:38:15,280 --> 00:38:20,760
+ So those, you know, it's like, this is how I want my system to always be, and then the
+
+500
+00:38:20,760 --> 00:38:25,600
+ system maintains all that for you, which gives you really easy opportunity to maintain four
+
+501
+00:38:25,600 --> 00:38:27,640
+ nines of time.
+
+502
+00:38:27,640 --> 00:38:33,120
+ And as long as you can eliminate the single points of failure, like in our case, Harbor,
+
+503
+00:38:33,120 --> 00:38:36,880
+ which when it goes down, nobody does anything because we got, that's the only thing that
+
+504
+00:38:36,880 --> 00:38:43,640
+ serves up containers, I really wish that I could figure out how to add Harbor redundancy,
+
+505
+00:38:43,640 --> 00:38:49,760
+ you know, other than deploying it in Kubernetes so that all the pieces are there, if all that
+
+506
+00:38:49,760 --> 00:38:54,200
+ entire Kubernetes cluster went down, what would happen, right?
+
+507
+00:38:54,200 --> 00:38:57,800
+ So I don't know that those are bigger meta pictures and questions.
+
+508
+00:38:57,800 --> 00:39:02,120
+ So I've spoken way too much in this video.
+
+509
+00:39:02,120 --> 00:39:05,920
+ So I'm just going to recap, mark making the market transition.
+
+510
+00:39:05,920 --> 00:39:09,080
+ You don't need to say I want to stop being a system and I specialize in building automation
+
+511
+00:39:09,080 --> 00:39:10,680
+ infrastructure software.
+
+512
+00:39:10,680 --> 00:39:11,760
+ There you go.
+
+513
+00:39:11,760 --> 00:39:14,760
+ That is, that is the rule.
+
+514
+00:39:14,760 --> 00:39:19,920
+ And many people move through system into DevOps, the platform engineering to SISTI.
+
+515
+00:39:19,920 --> 00:39:25,960
+ In fact, I've been called my manager in recent, my recent performance review in which I got
+
+516
+00:39:25,960 --> 00:39:28,800
+ a kick ass race and bonus.
+
+517
+00:39:28,800 --> 00:39:34,360
+ I was called a platform engineer in there, a senior platform engineer, but it's really
+
+518
+00:39:34,360 --> 00:39:36,160
+ more about SISTI to me.
+
+519
+00:39:36,160 --> 00:39:41,240
+ So they do kind of relate, and I think this is, I'm glad she mentioned this, because these
+
+520
+00:39:41,240 --> 00:39:46,240
+ terms get confused and I like how she organized it.
+
+521
+00:39:46,240 --> 00:39:50,980
+ DevOps is kind of like adding cloud to system administration and some coding.
+
+522
+00:39:50,980 --> 00:39:56,360
+ Platform engineering is like adding a lot more coding and sort of architecture to the
+
+523
+00:39:56,360 --> 00:40:03,480
+ DevOps role and then along with a lot of other CI/CD and then SISTI is like 100% about building
+
+524
+00:40:03,480 --> 00:40:09,880
+ automated systems and actually writing code to develop new systems that do that, that
+
+525
+00:40:09,880 --> 00:40:12,720
+ do that automation.
+
+526
+00:40:12,720 --> 00:40:17,480
+ The real change is manual operations going to infrastructure software.
+
+527
+00:40:17,480 --> 00:40:22,620
+ So yeah, I am writing infrastructure scripts or infrastructure software, script versus
+
+528
+00:40:22,620 --> 00:40:29,880
+ software, bash versus go, pearl versus go, well that's sort of software and you're there.
+
+529
+00:40:29,880 --> 00:40:35,280
+ So skill measures companies like Amazon, Google, Stripe are looking for hiring SISTIs.
+
+530
+00:40:35,280 --> 00:40:37,080
+ Well, that's good to know.
+
+531
+00:40:37,080 --> 00:40:42,920
+ So, and I think as we're saying that three people on my team went to work for NVIDIA.
+
+532
+00:40:42,920 --> 00:40:47,180
+ They left my current company and worked to NVIDIA and I'm quite confident they're working
+
+533
+00:40:47,180 --> 00:40:49,640
+ there as SISTIs even though they're not very good coders.
+
+534
+00:40:49,640 --> 00:40:53,720
+ None of them, they would be the first people to say that, by the way.
+
+535
+00:40:53,720 --> 00:40:59,760
+ So the transition, the short answer is learn how to code, good, well, learn how to code
+
+536
+00:40:59,760 --> 00:41:02,720
+ well.
+
+537
+00:41:02,720 --> 00:41:10,280
+ Yeah, so anyway, that's it.
+
+538
+00:41:10,280 --> 00:41:14,240
+ Please put the comments down in the section below if you disagree, hopefully be nice about
+
+539
+00:41:14,240 --> 00:41:15,240
+ it.
+
+540
+00:41:15,240 --> 00:41:17,600
+ And yeah, please put as many comments as you like.
+
+541
+00:41:17,600 --> 00:41:18,600
+ I really like comments.
+
+542
+00:41:18,600 --> 00:41:21,440
+ I'm going to start reading them a lot more.
+
+543
+00:41:21,440 --> 00:41:25,320
+ They're really good for promoting visibility apparently in the videos.
+
+544
+00:41:25,320 --> 00:41:29,520
+ Don't forget to do the whole like and subscribe thing so that other potential SISTIs can
+
+545
+00:41:29,520 --> 00:41:31,680
+ find this stuff.
+
+546
+00:41:31,680 --> 00:41:37,160
+ It helps with the visibility, you know, don't make any money on YouTube.
+
+547
+00:41:37,160 --> 00:41:40,640
+ Don't need to either, but so it just helps with the visibility.
+
+548
+00:41:40,640 --> 00:41:41,240
+ Appreciate it.
+

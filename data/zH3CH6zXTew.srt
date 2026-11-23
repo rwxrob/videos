@@ -1,0 +1,188 @@
+1
+00:00:00,000 --> 00:00:05,920
+ quick video here before I go for the day. I constantly hear about this from everybody.
+
+2
+00:00:08,000 --> 00:00:14,080
+ Yes, it absolutely will. So people are always saying how cool VIM is because of pain splitting
+
+3
+00:00:14,960 --> 00:00:21,200
+ and they use it to chop up their screen and I'm not going to even get into how to do that. You
+
+4
+00:00:21,200 --> 00:00:25,680
+ guys can go do it if you want. You actually sort of have to learn it if you're going to do help.
+
+5
+00:00:26,240 --> 00:00:30,560
+ So like if you look for the help within VIM and you get stuck on something, you have to be able
+
+6
+00:00:30,560 --> 00:00:35,520
+ to close that pain out and go back to the other one. And so you can't escape learning it if you're
+
+7
+00:00:35,520 --> 00:00:43,520
+ learning VIMMA. All right, not VI. So there's a number of reasons not to learn pain splitting.
+
+8
+00:00:43,520 --> 00:00:48,800
+ In fact, you don't ever need to learn pain splitting. I can't remember how to do it. I never use it.
+
+9
+00:00:48,800 --> 00:00:53,040
+ I haven't used it in 25, 30 years and it's not because I'm an old guy. Let me tell you why.
+
+10
+00:00:53,040 --> 00:00:59,920
+ It's not practical. When you split using VIM, you are tied to using VIM for your screen management.
+
+11
+00:01:00,960 --> 00:01:07,840
+ And that is not what VIMMA is for. VIMMA is not meant to manage your pains to manage your screens.
+
+12
+00:01:07,840 --> 00:01:14,560
+ What is? Tmox screen. There's a number of other utilities that are already designed to manage
+
+13
+00:01:14,560 --> 00:01:20,080
+ your screen real estate for you and they work anywhere. They work anywhere. They work on everything.
+
+14
+00:01:20,080 --> 00:01:25,200
+ They split the screen and they have methods for copying and pasting between two different
+
+15
+00:01:25,200 --> 00:01:31,440
+ applications, not to mention between an editing session and your command line. I use this constantly
+
+16
+00:01:31,440 --> 00:01:38,240
+ instead of my mouse when you don't have a mouse. So getting good with Tmox is far more important
+
+17
+00:01:38,240 --> 00:01:42,720
+ than learning how to split the pain with them. In fact, I would strongly encourage you to never
+
+18
+00:01:42,720 --> 00:01:51,520
+ learn how to do it because you don't need it. I'm going to demonstrate. For example, another thing
+
+19
+00:01:51,520 --> 00:02:00,800
+ too is, and I agree with prime agent on this particular point, I find myself using pain splitting
+
+20
+00:02:00,800 --> 00:02:07,120
+ less and less these days and using window splitting, which is a separate video about screen and Tmox
+
+21
+00:02:07,120 --> 00:02:12,240
+ that we'll do. But assuming you know what those things are, then you already know what can be done
+
+22
+00:02:12,240 --> 00:02:18,720
+ there. Let's say I'm going to do links. I want to look up something. I want to say,
+
+23
+00:02:19,680 --> 00:02:26,080
+ "How do I do Hello World in Shell?" I'm going to go look on the internet and I'm going to go say,
+
+24
+00:02:26,080 --> 00:02:34,560
+ "Here it is." Let's go look at it. How do I do Hello World in Shell? I'm looking down for some code.
+
+25
+00:02:36,000 --> 00:02:40,320
+ It's probably not going to show me because it's so stinking easy. I'm just trying to make a point here.
+
+26
+00:02:43,120 --> 00:02:48,800
+ It's not even going to be here. I tried it. What would we want to copy over from here?
+
+27
+00:02:50,880 --> 00:02:56,240
+ There we go. Here's some right here. I'm using my mouse for now. You can use your mouse if you want
+
+28
+00:02:56,240 --> 00:03:00,960
+ and just copy and paste it so you can go, "Okay, Echo Hello World." Copy, come over to this other
+
+29
+00:03:00,960 --> 00:03:07,920
+ window and paste. That works. If you learn to use Tmox, you can do the same thing
+
+30
+00:03:08,640 --> 00:03:15,360
+ from here. You can say, "I can do control A. What is it? Left, right bracket. You can go down
+
+31
+00:03:15,360 --> 00:03:21,600
+ here. You can hit space to start it. You go over here. You can use positioning stuff with VI. I'm
+
+32
+00:03:21,600 --> 00:03:28,000
+ not, but you can do that. Hit enter. Then I can switch back over here and I can do right bracket
+
+33
+00:03:28,000 --> 00:03:33,600
+ and I can paste it and hit enter. I just copy and paste it between two applications that have
+
+34
+00:03:33,600 --> 00:03:40,960
+ nothing to do with VI or VIM. If you learn VI and maybe you've got a container running over here.
+
+35
+00:03:42,400 --> 00:03:49,680
+ Maybe you're doing an editing session. I don't know. You're running on Busybox and you're editing
+
+36
+00:03:49,680 --> 00:03:57,680
+ some session over here. Tmp foo and something over here. Not only could you not split the VI
+
+37
+00:03:57,680 --> 00:04:05,920
+ pane at all because it's VI, but you can't get that shortly using your mouse. By the way,
+
+38
+00:04:05,920 --> 00:04:11,040
+ sometimes you have multiple lines of stuff. You've got all this stuff here and I want to
+
+39
+00:04:11,040 --> 00:04:17,280
+ copy that over. The mouse is not the best thing for that, particularly not here. Then you go up to
+
+40
+00:04:17,280 --> 00:04:24,000
+ the top and you'll say, "Okay, I want to copy it." This is also a problem, but I can zoom in on it.
+
+41
+00:04:24,000 --> 00:04:30,720
+ I zoom in on it and then in Tmux. You can't do this with panes. I'm going to select this.
+
+42
+00:04:30,720 --> 00:04:35,680
+ I'm going to hit space. I'm going to go grab it all. Hit enter. I'm going to unzoom. I'm going to go
+
+43
+00:04:35,680 --> 00:04:40,880
+ over here. This is a completely separate file on a separate system. I'm going to go paste it and
+
+44
+00:04:40,880 --> 00:04:47,360
+ don't forget to insert paste, which we'll talk about some other day. Now I can control a BAM
+
+45
+00:04:47,360 --> 00:04:50,720
+ and now I've got it pasted there. I hadn't even touched my mouse. My fingers haven't even left
+
+46
+00:04:50,720 --> 00:04:59,040
+ home row. That's far better than learning how to split with BAM. That applies across systems,
+
+47
+00:04:59,040 --> 00:05:04,880
+ across network boundaries, across everything else. That's the end of that video.
+

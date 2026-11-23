@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:01,280
+ This is how you do it.
+
+2
+00:00:01,280 --> 00:00:04,760
+ You just add a capital C and you put your comment there
+
+3
+00:00:04,760 --> 00:00:07,920
+ and you can put the file anywhere with dash F.
+
+4
+00:00:07,920 --> 00:00:10,120
+ This is the path to the private key.
+
+5
+00:00:10,120 --> 00:00:13,260
+ The public key will be that thing dot pub.
+
+6
+00:00:14,480 --> 00:00:16,480
+ This is the output as it's generating it.
+
+7
+00:00:18,080 --> 00:00:19,680
+ And you can see here, I'd say it into attempts
+
+8
+00:00:19,680 --> 00:00:21,120
+ with pub and pub key.
+
+9
+00:00:21,120 --> 00:00:23,800
+ You can then use those files any time you want
+
+10
+00:00:23,800 --> 00:00:27,640
+ using just SSH space dash I and point it
+
+11
+00:00:27,640 --> 00:00:30,120
+ to the private key file, the private file,
+
+12
+00:00:30,120 --> 00:00:32,600
+ which everybody probably already knows how to do,
+
+13
+00:00:32,600 --> 00:00:35,360
+ but that's really useful information.
+
+14
+00:00:35,360 --> 00:00:38,160
+ The main takeaway to this little video is that
+
+15
+00:00:40,240 --> 00:00:42,280
+ don't add your SSO security number to the comment,
+
+16
+00:00:42,280 --> 00:00:43,720
+ that'd be a bad idea.
+
+17
+00:00:43,720 --> 00:00:44,960
+ But yeah, you can add whatever you want
+
+18
+00:00:44,960 --> 00:00:47,040
+ to the comment over here, that's it.
+
+19
+00:00:47,040 --> 00:00:48,200
+ That's all there is to this video.
+
+20
+00:00:48,200 --> 00:00:50,040
+ Maybe you didn't know this, maybe you did.
+
+21
+00:00:50,040 --> 00:00:51,760
+ I didn't know you do.
+
