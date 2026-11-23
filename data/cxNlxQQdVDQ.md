@@ -1,10 +1,10 @@
 # Navigate and change terminal command history with vi mode (set -o vi)
 
-Shows how to enable vi mode on the command line with set -o vi so you can navigate and edit your shell history using vi keys. Demonstrates pressing Escape, using k and j to move through history, and searching history with / to find earlier commands. Explains that Emacs mode is the Bash default and why staying search-centric beats using arrow keys.
+Shows how to enable vi mode in Bash with set -o vi so the command history can be navigated and edited with vi keys instead of the default Emacs bindings. Demonstrates pressing Escape to enter command mode, moving through history with k and j, and searching history with slash.
 
 If you are a vi fan (and why aren't you if not) then you probably already know about set -o vi to get vi mode for your history.
 
-`#vi #bash #terminal #linux #commandline #shell #vim #history #unix #tips`
+`#vi #bash #terminal #linux #commandline #vim #shell #bashhistory #unix #tips`
 
 ## Category
 
