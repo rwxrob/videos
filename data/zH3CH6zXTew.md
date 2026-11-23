@@ -2,17 +2,18 @@
 
 From 2021. I may have changed my mind on some of this.
 
-Argues that Vim's built-in pane splitting is unnecessary and that a terminal multiplexer such as tmux or screen should handle screen management instead. Demonstrates copying text between a browser (Links) and an editing session using tmux copy mode, including across zoomed panes, without touching the mouse.
+Argues against learning Vim pane splitting, since a terminal multiplexer like tmux or screen manages screen space in any application and over any system. Demonstrates copying and pasting text between a browser, a Vim session and a shell using tmux copy mode without touching the mouse.
 
 Vim pane splitting limits you do using only Vim to manage your windows. That is not the Unix way. Multiplexers are designed for that specific purpose. Save yourself the hassle of learning Vim panes. You never need them, ever.
 
 Chapters:
-0:00 Why you don't need Vim panes
+0:00 Why skip Vim pane splitting
 0:53 Use a multiplexer for screen management
-2:12 Demo: copying text between applications
-3:45 Zooming and copying multiple lines in tmux
+2:12 Copy and paste with the mouse
+3:03 Copy and paste with tmux copy mode
+3:57 Copying multiple lines across systems
 
-`#tmux #vim #linux #terminal #unix #productivity #beginners`
+`#vim #tmux #terminal #linux #unix #productivity #commandline`
 
 ## Category
 
