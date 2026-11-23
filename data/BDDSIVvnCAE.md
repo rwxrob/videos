@@ -1,6 +1,6 @@
 # 🛑 It's happening. GitHub "paused" ALL new Copilot Subscriptions
 
-Rob reads and reacts to GitHub's April 20, 2026 announcement that new Copilot Student, Pro and Pro+ sign-ups are paused, usage limits are tightening, and Opus models are being removed from Pro and older Opus versions from Pro+. He shares his own Pro+ overage usage, speculates on why GitHub made the changes and how Anthropic's pricing may be involved, and discusses the potential impact on hobbyists, beginners and his workplace.
+Reacts to GitHub's April 2026 changes to Copilot individual plans, including paused new signups for Pro, Pro+ and Student, tighter usage limits, and Opus models removed from Pro. Discusses the effect on Opus 4.6 and 4.7 access and pricing, the dependency on Anthropic, and what the changes may mean for hobbyists, beginners and workplace use of AI tools.
 
 GitHub quietly dropped some major changes to Copilot plans for individuals on April 20, 2026. Here's what you need to know.
 
@@ -14,13 +14,15 @@ GitHub quietly dropped some major changes to Copilot plans for individuals on Ap
 Source: https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/
 
 Chapters:
-0:00 Copilot changes and my Opus limit
-1:16 New sign-ups paused for paid plans
-2:58 Copilot versus Claude pricing and business models
-5:38 Tighter usage limits on individual plans
-7:25 Opus models removed from Pro
-8:40 Speculating on Anthropic and GitHub pricing
-11:40 Impact on beginners, work and AI adoption
+0:00 Hitting the Opus 4.6 usage block
+0:58 New signups paused for Copilot plans
+2:38 Anthropic, Claude and the harness debate
+5:38 Why GitHub and Microsoft are exposed
+6:38 Tighter usage limits on individual plans
+7:24 Opus models removed from Pro
+10:00 Rising prices and Opus 4.7 costs
+11:52 Impact on beginners and work
+13:05 Who gets ahead in AI development
 
 `#githubcopilot #copilot #ai #claude #anthropic #github #aicoding #devtools #codingtools #developertools #aiassistant`
 
