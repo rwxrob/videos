@@ -89,15 +89,7 @@ cmd_list() {
   log "wrote $manifest ($(jq length "$manifest") videos)"
 }
 
-# selected_ids: IDs we are allowed to process, newest first.
-selected_ids() {
-  jq -r --arg p "${YT_PRIVACY:-public}" --argjson max "${YT_MAX_MINUTES:-0}" '
-    def secs: capture("PT(?:(?<h>[0-9]+)H)?(?:(?<m>[0-9]+)M)?(?:(?<s>[0-9]+)S)?")
-      | ((.h // "0" | tonumber) * 3600 + (.m // "0" | tonumber) * 60 + (.s // "0" | tonumber));
-    ($p | split(",") | map(select(. != "private"))) as $ok
-    | .[] | select(.live == "none" and (.privacy as $x | $ok | index($x))
-                   and ($max == 0 or (.duration | secs) <= $max * 60)) | .id' "$manifest"
-}
+# selected_ids comes from yt-lib.bash (public videos, honoring keep.txt).
 
 need_manifest() { [[ -f $manifest ]] || { echo "no manifest; run: yt-sync list" >&2; exit 1; }; }
 
@@ -200,7 +192,8 @@ cmd_run() {
   fi
   echo $$ > "$lock/pid"
   trap 'rm -rf "$lock"' EXIT
-  cmd_list
+  # Listing costs ~100 API quota units, so reuse a manifest under a day old.
+  if [[ -z $(find "$manifest" -mmin -1440 2>/dev/null) ]]; then cmd_list; else log "manifest is fresh; skipping list"; fi
   cmd_meta
   cmd_transcribe
 }

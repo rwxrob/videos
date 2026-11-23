@@ -4,6 +4,6 @@ I also code in Go. I created Bonzai, a framework for building your own personal 
 
 I make long working sessions instead of polished tutorials, and every video has a searchable transcript and chapters at https://github.com/rwxrob/videos
 
-Off the keyboard: adventure cycling, bikepacking, urban exploration, people watching, bike culture, and staying fit past 50. Gen X, and co-working content too.
+The rest of my life (cycling, bikepacking, wandering) lives on Instagram. Once in a while some personality gets through here.
 
 Want to support this? I'd rather you sponsor the videos repo on GitHub, because GitHub doesn't take a cut: https://github.com/sponsors/rwxrob

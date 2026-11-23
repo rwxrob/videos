@@ -4,10 +4,13 @@
 #
 # Usage: yt-update [-n] [-y] <UID>
 #        yt-update channel
+#        yt-update privacy <idfile> [public|unlisted|private]
 #        yt-update auth
 #   -n  dry run: only parse the markdown and print the title/description
 #   -y  skip the confirmation prompt
 #   channel  update the channel description from channel.md
+#   privacy  set the privacy of every video ID in <idfile> (default unlisted);
+#            -n shows the plan without changing anything
 #   auth  log in (get a new refresh token) and exit
 #
 # Config dir (default ~/.config/videos, override with YT_CONFIG_DIR), kept
@@ -32,6 +35,7 @@ mode=video
 case ${1:-} in
   auth) login=yes ;;
   channel) mode=channel ;;
+  privacy) mode=privacy; idfile=${2:?usage: yt-update privacy <idfile> [public|unlisted|private]}; newstatus=${3:-unlisted} ;;
   *) uid=${1:?usage: yt-update [-n] [-y] <UID> | channel | auth} ;;
 esac
 
@@ -48,6 +52,44 @@ root=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 
 # trim: strip leading and trailing blank lines from stdin.
 trim() { sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d'; }
+
+# do_privacy: set privacyStatus for every ID in $idfile (comments allowed).
+do_privacy() {
+  case $newstatus in public|unlisted|private) ;; *) echo "status must be public, unlisted or private" >&2; exit 2 ;; esac
+  [[ -f $idfile ]] || { echo "no such file: $idfile" >&2; exit 1; }
+  local ids=() id cur chunk rows body n=0 base=https://www.googleapis.com/youtube/v3/videos
+  while IFS= read -r id; do ids+=("$id"); done < <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$idfile" | awk 'NF')
+  (( ${#ids[@]} > 0 )) || { echo "no IDs in $idfile" >&2; exit 1; }
+  ensure_access
+  local all='[]' i
+  for ((i = 0; i < ${#ids[@]}; i += 50)); do
+    chunk=$(IFS=,; echo "${ids[*]:i:50}")
+    all=$(jq -c --argjson new "$(curl -fsS -H "Authorization: Bearer $access" "$base?part=snippet,status&id=$chunk")" '. + $new.items' <<<"$all")
+  done
+  echo "--- setting ${#ids[@]} videos to $newstatus"
+  jq -r --arg ns "$newstatus" '.[] | "\(.id)  \(.status.privacyStatus) -> \($ns)  \(.snippet.title[:60])"' <<<"$all"
+  local found; found=$(jq length <<<"$all")
+  (( found == ${#ids[@]} )) || echo "WARNING: only $found of ${#ids[@]} IDs found on your channel" >&2
+  [[ $dry == yes ]] && { echo "(dry run; nothing changed)"; exit 0; }
+  if [[ $yes != yes ]]; then
+    read -r -p "Change these on YouTube? [y/N] " ans
+    [[ $ans == y || $ans == Y ]] || { echo "aborted"; exit 1; }
+  fi
+  while IFS= read -r row; do
+    id=$(jq -r .id <<<"$row"); cur=$(jq -r .status.privacyStatus <<<"$row")
+    [[ $cur != "$newstatus" ]] || { echo "$id already $newstatus"; continue; }
+    # Send only writable status fields; privacyStatus replaced.
+    body=$(jq --arg ns "$newstatus" '{id, status: ({privacyStatus: $ns, embeddable: .status.embeddable, license: .status.license,
+      publicStatsViewable: .status.publicStatsViewable, selfDeclaredMadeForKids: .status.selfDeclaredMadeForKids}
+      | with_entries(select(.value != null)))}' <<<"$row")
+    curl -fsS -X PUT -H "Authorization: Bearer $access" -H 'Content-Type: application/json' \
+      -d "$body" "$base?part=status" | jq -r '"\(.id) now \(.status.privacyStatus)"'
+    n=$((n + 1))
+  done < <(jq -c '.[]' <<<"$all")
+  echo "changed $n videos"
+}
+
+if [[ $mode == privacy ]]; then do_privacy; exit 0; fi
 
 if [[ $mode == channel ]]; then
   chfile=$root/channel.md

@@ -1,0 +1,313 @@
+#!/usr/bin/env bash
+# yt-enrich: use Claude to add a summary, chapters, better hashtags and a
+# category to each video's data file, based on its transcript.
+#
+# Usage: yt-enrich [-l N] <command>
+#   run          enrich up to N not-yet-enriched videos (default 10 per run);
+#                what the background job runs
+#   one <UID>    enrich just that video (ignores the "already done" marker)
+#   status       show counts
+#   launchd      print a macOS launchd plist that runs `run` hourly
+#   -l N         max videos this run (YT_ENRICH_MAX, default 10)
+#
+# Never touches YouTube. Results are committed, one commit per video, on the
+# `enrich` branch in a separate git worktree, so the checkout you and yt-sync
+# are working in is never modified. Review with `git log enrich`, merge when
+# happy, then publish with `yt-update <UID>` (which confirms each one).
+#
+# Needs: bash, jq, git, and the `claude` CLI (Claude Code, logged in). Runs
+# `claude -p` with no tools and no saved session.
+#
+# Environment overrides:
+#   YT_DATA_DIR        where the transcripts are (default <repo>/data)
+#   YT_CACHE_DIR       manifest, markers, lock, worktree (default ~/.cache/videos)
+#   YT_ENRICH_MODEL    model alias or ID passed to claude (default sonnet)
+#   YT_ENRICH_BRANCH   default enrich;   YT_MAIN_BRANCH  default main
+#   YT_ENRICH_MAX      default max videos per run
+#   YT_PRIVACY, YT_MAX_MINUTES   same meaning as in yt-sync
+
+set -euo pipefail
+
+PROMPT_VERSION=1
+
+limit=${YT_ENRICH_MAX:-10}
+while getopts l: opt; do
+  case $opt in
+    l) limit=$OPTARG ;;
+    *) echo "usage: yt-enrich [-l N] run|one <UID>|status|launchd" >&2; exit 2 ;;
+  esac
+done
+shift $((OPTIND - 1))
+cmd=${1:?usage: yt-enrich [-l N] run|one <UID>|status|launchd}
+
+here=$(CDPATH= cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+root=$(dirname "$here")
+data=${YT_DATA_DIR:-$root/data}
+cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
+manifest=$cache/manifest.json
+model=${YT_ENRICH_MODEL:-sonnet}
+branch=${YT_ENRICH_BRANCH:-enrich}
+mainbranch=${YT_MAIN_BRANCH:-main}
+wt=$cache/enrich-worktree
+marks=$cache/enriched
+orig=$cache/enrich-orig
+failed=$cache/enrich-failed
+mkdir -p "$marks" "$orig" "$failed"
+
+command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
+
+log() { printf '%s %s\n' "$(date '+%F %T')" "$*" >&2; }
+
+# YouTube's assignable categories (US); the model must pick one of these.
+categories='["Film & Animation","Autos & Vehicles","Music","Pets & Animals","Sports","Travel & Events","Gaming","People & Blogs","Comedy","Entertainment","News & Politics","Howto & Style","Education","Science & Technology","Nonprofits & Activism"]'
+
+# shellcheck source=yt-lib.bash
+source "$here/yt-lib.bash"
+
+has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/$1.md"; }
+trim() { sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d'; }
+
+# ------------------------------------------------------------ transcript
+# Transcript text for the prompt: consecutive duplicate lines (whisper loops)
+# removed; very long ones condensed to the start of each 3-minute window.
+prompt_transcript() { # file
+  local t
+  t=$(awk '/^## Transcription/{f=1; next} f && NF' "$1" | awk '$0 != prev {print} {prev = $0}')
+  if (( ${#t} <= 60000 )); then
+    printf '%s\n' "$t"
+    return
+  fi
+  awk '{
+      ts = substr($1, 2, 8); split(ts, a, ":"); sec = a[1]*3600 + a[2]*60 + a[3]
+      w = int(sec / 180); line = $0; sub(/^\[[0-9:]+\] /, "", line)
+      if (w != last) { if (buf != "") print "[" st "] " substr(buf, 1, 500); st = ts; buf = ""; last = w }
+      buf = buf " " line
+    } END { print "[" st "] " substr(buf, 1, 500) }' <<<"$t"
+}
+
+# ------------------------------------------------------------ the AI call
+build_prompt() { # id title origbody duration transcriptfile
+  cat <<EOF
+You are helping write the YouTube metadata for a video by Rob Muhlestein
+(rwxrob), a developer who live-streams unedited terminal, Linux, vim, bash, Go
+and dev-culture sessions, mostly for beginners. Use the transcript below
+(automatic speech recognition, so expect mistakes in names and jargon; do not
+repeat obvious mis-hearings).
+
+Video title: $2
+Duration: $4 seconds
+Existing description (may be empty):
+$3
+
+Return ONLY a JSON object, no prose and no code fences, with exactly these keys:
+- "summary": 1-3 plain sentences describing what the video covers. No hype,
+  no emojis, no first-person marketing language.
+- "chapters": an array of {"s": <start second, integer>, "title": <string>}.
+  Only meaningful if the video is at least 3 minutes long, otherwise return [].
+  The first chapter must start at 0. Use at least 3 chapters, each at least
+  10 seconds long, about one per 3-10 minutes of content (max 30). Titles:
+  3-8 words, intuitive for a viewer scanning for a topic, no trailing period.
+- "hashtags": 3-10 lowercase topical hashtags without spaces, best first
+  (the first three are shown above the title), for example "#bash".
+- "category": exactly one of: $categories
+
+Transcript (each line starts with its [HH:MM:SS] timestamp):
+EOF
+  cat "$5"
+}
+
+ask_claude() { # promptfile -> stdout
+  ( cd "${TMPDIR:-/tmp}" && claude -p --model "$model" --tools "" \
+      --no-session-persistence --disable-slash-commands --output-format text \
+      ${YT_ENRICH_BUDGET:+--max-budget-usd "$YT_ENRICH_BUDGET"} < "$1" )
+}
+
+# Pull the JSON object out of the reply even if the model added fences or prose.
+extract_json() {
+  local raw; raw=$(cat)
+  jq -e . <<<"$raw" 2>/dev/null && return 0
+  sed -n '/{/,$p' <<<"$raw" | sed '/^```/d' | jq -e . 2>/dev/null
+}
+
+# validate <duration> : reads JSON on stdin; prints normalized JSON or fails.
+validate() {
+  jq -e --argjson dur "$1" --argjson cats "$categories" '
+    def clean_tag: ascii_downcase | sub("^#"; "") | select(test("^[a-z][a-z0-9_]*$")) | "#" + .;
+    def dedupe: reduce .[] as $t ([]; if index($t) then . else . + [$t] end);
+    ([.hashtags[]? | strings | clean_tag] | dedupe | .[0:12]) as $tags
+    | (.summary | type == "string" and length > 0 and length <= 700 and (test("[<>]") | not)) as $s_ok
+    | (.category as $c | $cats | index($c) != null) as $c_ok
+    | (if $dur >= 180 then
+         ((.chapters // []) as $ch
+          | ($ch | length) >= 3 and ($ch | length) <= 30
+            and $ch[0].s == 0
+            and ([range(1; $ch | length) | ($ch[.].s - $ch[. - 1].s) >= 10] | all)
+            and ($ch[-1].s < $dur)
+            and ([$ch[].title | type == "string" and length > 0 and length <= 100 and (test("[<>]") | not)] | all))
+       else true end) as $ch_ok
+    | select($s_ok and $c_ok and $ch_ok and ($tags | length) >= 1)
+    | {summary, category, chapters: (if $dur >= 180 then .chapters else [] end), hashtags: $tags}
+  ' 2>/dev/null
+}
+
+# ------------------------------------------------------------ one video
+enrich_one() { # id
+  local id=$1 src=$data/$id.md work hdr title tagsline origbody dur prompt json reply attempt
+  work=$(mktemp -d "${TMPDIR:-/tmp}/yt-enrich.XXXXXX")
+  # shellcheck disable=SC2064
+  trap "rm -rf '$work'" RETURN
+
+  # Original header (title..before first ##) is saved once, so re-runs always
+  # merge with the original description, never an earlier enrichment.
+  if [[ ! -f $orig/$id.hdr ]]; then
+    awk '/^## /{exit} {print}' "$src" > "$orig/$id.hdr"
+  fi
+  hdr=$orig/$id.hdr
+  title=$(sed -n '1s/^# //p' "$hdr")
+  tagsline=$(grep -E '^`#' "$hdr" | tail -1 | tr -d '`' || true)
+  origbody=$(sed '1d' "$hdr" | grep -Ev '^`#' | trim || true)
+  dur=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .duration' "$manifest" \
+    | jq -R 'capture("PT(?:(?<h>[0-9]+)H)?(?:(?<m>[0-9]+)M)?(?:(?<s>[0-9]+)S)?") | ((.h // "0" | tonumber) * 3600 + (.m // "0" | tonumber) * 60 + (.s // "0" | tonumber))')
+
+  prompt_transcript "$src" > "$work/transcript.txt"
+  build_prompt "$id" "$title" "$origbody" "$dur" "$work/transcript.txt" > "$work/prompt.txt"
+
+  json=
+  for attempt in 1 2; do
+    reply=$(ask_claude "$work/prompt.txt" 2>"$work/err.txt") || { log "claude failed: $(head -c 300 "$work/err.txt")"; continue; }
+    json=$(extract_json <<<"$reply" | validate "$dur" || true)
+    [[ -n $json ]] && break
+    log "attempt $attempt for $id gave invalid output"
+  done
+  [[ -n $json ]] || return 1
+
+  # Compose the new header.
+  {
+    printf '# %s\n\n' "$title"
+    jq -r '.summary' <<<"$json"; echo
+    if [[ -n $origbody ]]; then printf '%s\n\n' "$origbody"; fi
+    if jq -e '.chapters | length > 0' <<<"$json" >/dev/null; then
+      echo "Chapters:"
+      jq -r 'def pad: tostring | if length < 2 then "0" + . else . end;
+        def fmt: (. / 3600 | floor) as $h | ((. % 3600) / 60 | floor) as $m | (. % 60) as $s
+          | if $h > 0 then "\($h):\($m | pad):\($s | pad)" else "\($m):\($s | pad)" end;
+        .chapters[] | "\(.s | fmt) \(.title)"' <<<"$json"
+      echo
+    fi
+    # AI tags first (best three show above the title), then the original ones.
+    printf '`%s`\n\n' "$( { jq -r '.hashtags[]' <<<"$json"; tr ' ' '\n' <<<"$tagsline" | grep -E '^#.+' | tr 'A-Z' 'a-z' || true; } | awk '!s[$0]++' | head -15 | paste -sd' ' -)"
+    printf '## Category\n\n%s\n\n' "$(jq -r .category <<<"$json")"
+    printf '## Transcription\n\n'
+  } > "$work/new.md"
+  # Description size limit is 5,000 bytes (header minus title and category).
+  local bytes; bytes=$(awk '/^## /{exit} NR>2' "$work/new.md" | wc -c | tr -d ' ')
+  (( bytes <= 4800 )) || { log "description too long ($bytes bytes) for $id"; return 1; }
+
+  # Write into the enrich worktree: new header + the transcript as it is in main.
+  mkdir -p "$wt/data"
+  { cat "$work/new.md"; awk '/^## Transcription/{f=1; next} f && NF' "$src"; } > "$wt/data/$id.md"
+  git -C "$wt" add "data/$id.md"
+  git -C "$wt" commit -q -m "enrich $id: $title" -- "data/$id.md"
+  echo "$PROMPT_VERSION" > "$marks/$id"
+}
+
+# ------------------------------------------------------------ worktree
+setup_worktree() {
+  if [[ ! -d $wt ]]; then
+    if git -C "$root" show-ref -q "refs/heads/$branch"; then
+      git -C "$root" worktree add -q "$wt" "$branch"
+    else
+      git -C "$root" worktree add -q -b "$branch" "$wt" "$mainbranch"
+    fi
+  fi
+  # Pick up whatever has been committed on main (new transcripts, fixes).
+  if ! git -C "$wt" merge -q --no-edit "$mainbranch" >/dev/null 2>&1; then
+    git -C "$wt" merge --abort 2>/dev/null || true
+    log "could not merge $mainbranch into $branch (conflict); resolve in $wt"
+    exit 1
+  fi
+}
+
+# ------------------------------------------------------------ commands
+cmd_run() {
+  [[ -f $manifest ]] || { echo "no manifest; run: yt-sync list" >&2; exit 1; }
+  command -v claude >/dev/null || { echo "claude is required" >&2; exit 1; }
+  local lock=$cache/enrich.lock
+  if ! mkdir "$lock" 2>/dev/null; then
+    if kill -0 "$(cat "$lock/pid" 2>/dev/null)" 2>/dev/null; then log "another run is in progress"; exit 0; fi
+    rm -rf "$lock"; mkdir "$lock"
+  fi
+  echo $$ > "$lock/pid"
+  trap 'rm -rf "$lock"' EXIT
+  setup_worktree
+  local n=0 id
+  while IFS= read -r id; do
+    (( limit == 0 || n < limit )) || break
+    [[ -f $data/$id.md ]] && has_transcript "$id" || continue
+    [[ -f $marks/$id ]] && continue
+    [[ -f $failed/$id ]] && continue
+    log "enriching $id"
+    if enrich_one "$id" </dev/null; then log "done $id"; else log "FAILED $id (delete $failed/$id to retry)"; date > "$failed/$id"; fi
+    n=$((n + 1))
+  done < <(selected_ids)
+  log "processed $n videos"
+}
+
+cmd_one() {
+  local id=${1:?usage: yt-enrich one <UID>}
+  [[ -f $data/$id.md ]] && has_transcript "$id" || { echo "no transcript for $id in $data" >&2; exit 1; }
+  command -v claude >/dev/null || { echo "claude is required" >&2; exit 1; }
+  setup_worktree
+  enrich_one "$id" </dev/null && log "done $id; see: git -C $wt show HEAD"
+}
+
+cmd_status() {
+  local done_n fail_n ready=0 id
+  done_n=$(find "$marks" -type f | wc -l | tr -d ' ')
+  fail_n=$(find "$failed" -type f | wc -l | tr -d ' ')
+  if [[ -f $manifest ]]; then
+    while IFS= read -r id; do
+      [[ -f $data/$id.md ]] && has_transcript "$id" && [[ ! -f $marks/$id ]] && ready=$((ready + 1))
+    done < <(selected_ids)
+  fi
+  echo "enriched:          $done_n"
+  echo "ready (to do):     $ready"
+  echo "failed:            $fail_n"
+}
+
+cmd_launchd() {
+  cat <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>local.yt-enrich</string>
+  <key>ProgramArguments</key>
+  <array><string>$here/yt-enrich</string><string>run</string></array>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+  <key>RunAtLoad</key><true/>
+  <key>StartInterval</key><integer>3600</integer>
+  <key>StandardOutPath</key><string>$cache/yt-enrich.log</string>
+  <key>StandardErrorPath</key><string>$cache/yt-enrich.log</string>
+</dict>
+</plist>
+EOF
+  cat >&2 <<EOF
+
+To install:
+  yt-enrich launchd > ~/Library/LaunchAgents/local.yt-enrich.plist
+  launchctl bootstrap gui/\$(id -u) ~/Library/LaunchAgents/local.yt-enrich.plist
+To stop:
+  launchctl bootout gui/\$(id -u) ~/Library/LaunchAgents/local.yt-enrich.plist
+Log: $cache/yt-enrich.log
+EOF
+}
+
+case $cmd in
+  run) cmd_run ;;
+  one) shift; cmd_one "$@" ;;
+  status) cmd_status ;;
+  launchd) cmd_launchd ;;
+  *) echo "unknown command: $cmd" >&2; exit 2 ;;
+esac

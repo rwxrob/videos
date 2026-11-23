@@ -98,6 +98,7 @@ bin/yt-update -n <UID>   # dry run: only show the parsed title and description
 bin/yt-update <UID>      # show current vs. new description, confirm, then update
 bin/yt-update -y <UID>   # skip the confirmation prompt
 bin/yt-update channel    # update the channel description from channel.md (same confirm step)
+bin/yt-update privacy <file> [unlisted|public|private]   # set privacy for every ID in a file (-n previews)
 bin/yt-update auth       # log in again and exit
 ```
 
@@ -126,6 +127,19 @@ Things worth knowing:
 * **Not committed for you.** It only writes files; review and commit them yourself.
 
 Extra dependencies for this script: [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) (`brew install yt-dlp`) in addition to the tools under Dependencies below.
+
+### Enriching with AI (`bin/yt-enrich`)
+
+`bin/yt-enrich` uses Claude (`claude -p`, no tools, no saved session) to turn each transcript into a better description: a short summary merged with the original description, chapters, hashtags (best three first), and a `## Category`. It never touches YouTube.
+
+```sh
+bin/yt-enrich one <UID>   # enrich a single video
+bin/yt-enrich run         # enrich up to 10 videos not yet done (YT_ENRICH_MAX, -l N)
+bin/yt-enrich status      # counts
+bin/yt-enrich launchd     # print a macOS launchd plist that runs `run` hourly
+```
+
+Results are committed, one commit per video, on the `enrich` branch in a separate worktree (`~/.cache/videos/enrich-worktree`), so your working checkout and the transcription job are never touched. Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log enrich`, merge when happy, then publish a video with `bin/yt-update <UID>`.
 
 ### Dependencies
 
