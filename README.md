@@ -6,7 +6,7 @@ Searchable flat-text (YFM) database of all rwxrob videos.
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
-Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the timestamped transcript, one `[HH:MM:SS] text` line per segment, under a `## Transcription` heading. The timestamps make it possible to generate chapter headings. The raw captions are also saved alongside as `data/<UID>.srt`.
+Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the timestamped transcript, one `[HH:MM:SS] text` line per segment, under a `## Transcription` heading. The timestamps make it possible to generate chapter headings. An optional `## Category` section (before `## Transcription`) holds a YouTube category name such as `Science & Technology`; `yt-update` maps it to the numeric ID. The description sent to YouTube ends at the first `##` heading. The raw captions are also saved alongside as `data/<UID>.srt`.
 
 ```markdown
 # Use explicit ALE linters and fixers
@@ -14,6 +14,10 @@ Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four
 These days ALE linters and fixers are the way to keep your code clean...
 
 `#vim #tips #editors`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

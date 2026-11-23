@@ -153,9 +153,9 @@ transcribe_one() { # id
   work=$(mktemp -d "${TMPDIR:-/tmp}/yt-sync.XXXXXX")
   # shellcheck disable=SC2064
   trap "rm -rf '$work'" RETURN
-  yt-dlp -q --no-warnings -f bestaudio -o "$work/audio.%(ext)s" "https://www.youtube.com/watch?v=$id" || return 1
-  ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" || return 1
-  whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" >/dev/null 2>&1 || return 1
+  yt-dlp -q --no-warnings -f bestaudio -o "$work/audio.%(ext)s" "https://www.youtube.com/watch?v=$id" </dev/null || return 1
+  ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" </dev/null || return 1
+  whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
   [[ -s $work/t.srt ]] || return 1
   # Keep everything through the "## Transcription" heading, replace the rest.
   head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")

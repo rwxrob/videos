@@ -63,16 +63,23 @@ md=$root/data/$uid.md
 title=$(sed -n '1s/^# //p' "$md")
 [[ -n $title ]] || { echo "no # title on line 1 of $md" >&2; exit 1; }
 
-# Description is everything between the title and "## Transcription", with
-# the backticks around the hashtag line removed and blank edges trimmed.
+# Description is everything between the title and the first "## " heading
+# (## Category, ## Transcription, ...), with the backticks around the hashtag
+# line removed and blank edges trimmed.
 desc=$(awk '
   NR == 1 { next }
-  /^## Transcription/ { exit }
+  /^## / { exit }
   { print }
 ' "$md" | sed -E 's/^`(#.*)`$/\1/' | trim)
 
+# Category is the first non-blank line under "## Category" (a YouTube category
+# name such as "Science & Technology"); empty means leave the category alone.
+catname=$(awk '/^## Category/ {f=1; next} /^## / {f=0} f && NF {print; exit}' "$md" \
+  | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+
 if [[ $dry == yes ]]; then
   printf 'TITLE: %s\n\nDESCRIPTION:\n%s\n' "$title" "$desc"
+  [[ -z $catname ]] || printf '\nCATEGORY: %s\n' "$catname"
   exit 0
 fi
 fi
@@ -111,14 +118,31 @@ fi
 cur=$(curl -fsS -H "Authorization: Bearer $access" "$api?part=snippet&id=$uid")
 [[ $(jq '.items | length' <<<"$cur") -eq 1 ]] || { echo "video $uid not found on your channel" >&2; exit 1; }
 
-body=$(jq --arg id "$uid" --arg t "$title" --arg d "$desc" '
+# Resolve the category name to YouTube's numeric ID (region-specific list).
+catid=
+if [[ -n $catname ]]; then
+  cats=$(curl -fsS -H "Authorization: Bearer $access" \
+    "https://www.googleapis.com/youtube/v3/videoCategories?part=snippet&regionCode=${YT_REGION:-US}")
+  catid=$(jq -r --arg n "$catname" '[.items[] | select(.snippet.assignable and (.snippet.title | ascii_downcase) == ($n | ascii_downcase)) | .id][0] // empty' <<<"$cats")
+  if [[ -z $catid ]]; then
+    echo "unknown category \"$catname\"; valid names:" >&2
+    jq -r '.items[] | select(.snippet.assignable) | "  " + .snippet.title' <<<"$cats" >&2
+    exit 1
+  fi
+fi
+
+body=$(jq --arg id "$uid" --arg t "$title" --arg d "$desc" --arg c "$catid" '
   .items[0] | {id: $id, snippet: (.snippet | .title = $t | .description = $d
+    | (if $c != "" then .categoryId = $c else . end)
     | {title, description, categoryId, tags, defaultLanguage})
     | with_entries(select(.value != null))}' <<<"$cur")
 
 echo "--- current description"
 jq -r '.items[0].snippet.description' <<<"$cur"
 echo "--- new title:  $title"
+if [[ -n $catid ]]; then
+  echo "--- category:   $(jq -r '.items[0].snippet.categoryId' <<<"$cur") -> $catid ($catname)"
+fi
 echo "--- new description"
 printf '%s\n' "$desc"
 echo "---"
