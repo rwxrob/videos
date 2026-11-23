@@ -1,6 +1,6 @@
 # Q: What app do you use to take notes?
 
-Rob explains how he takes notes using CommonMark, Pandoc, Vim, Git and GitHub with a modified Zettelkasten method. He covers his priorities of avoiding lock-in, staying minimal and searchable with plain-text tools like grep, shows his Bash-based zet tool including a screenshot helper, and describes combining it with paper notes. He encourages viewers to find or write their own system.
+Describes a plain-text note-taking workflow built on CommonMark, Pandoc, Vim, Git and GitHub, using a modified Zettelkasten method. Covers the priorities behind it (no lock-in, minimal, searchable with grep or GitHub search), a bash script for creating notes and screenshots, and combining it with paper notes. Encourages writing a personal tool rather than adopting a prescribed one.
 
 -   CommonMark, Pandoc, Vim, Git, GitHub
 -   Modified Zettelkasten method
@@ -28,16 +28,16 @@ Tags:
 https://github.com/rwxrob/zet/tree/main/20211025042345
 
 Chapters:
-0:00 Tools I use for note taking
-1:18 Modified Zettelkasten and finding my notes
-3:29 The zet repo and Bash tool
+0:00 Tools used for taking notes
+1:18 Modified Zettelkasten and where to find it
+2:40 The zet repo and bash command
 4:29 Priorities: freedom, no lock-in, searchable
-5:54 Find your own way, write your own
-7:35 Demo: zet screenshot command
-8:57 Combining with paper note taking
-10:14 Minimal and searchable with grep
+5:54 Write your own tool, find your way
+7:35 Demo: screenshot note script
+9:00 Combining with paper notes
+10:13 Minimal and searchable with grep
 
-`#notetaking #zettelkasten #markdown #vim #git #github #pandoc #bash #minimalism #plaintext`
+`#notetaking #zettelkasten #markdown #git #vim #pandoc #bash #minimalism #github #linux`
 
 ## Category
 
