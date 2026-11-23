@@ -1,8 +1,25 @@
 # 🚀 AI Sessions: Interactive vs. Single PR
 
+Compares two ways of working with AI coding agents: submitting one detailed prompt that becomes an issue and an unattended PR, versus a live interactive terminal session with a cheaper model like Haiku. Covers cost per request, controlling what the AI remembers via memory and agents.md, how prompts get refined into issues and PR plans, and why regression testing matters for agentic development.
+
 Two fundamentally different ways to work with AI agents: live interactive conversations where you steer in real-time, versus submitting a comprehensive prompt that runs unattended and opens a PR. Each has tradeoffs—cost, control, iteration speed—and knowing when to use each is critical for effective AI-assisted development.
 
-`#AIAgents #GitHubCopilot #AIDevelopment #DevOps #GitWorkflow #SoftwareEngineering #PullRequests #Terminal #GitHub #Kubernetes #SystemsEngineering #RemoteWork #DigitalNomad #Coding #CareerDevelopment #ProductivityTips #CloudNative #Infrastructure #LinuxTerminal #DeveloperTools #AICoding #AutomationEngineering #BackendDevelopment #CloudEngineering #ContinuousIntegration`
+Chapters:
+0:00 The question: single prompt vs back-and-forth
+0:37 Sending PRs through Copilot in Nomad IRL
+1:58 Live interactive session with Haiku
+3:55 Why I stopped using ChatGPT
+6:45 Controlling memory with agents.md
+10:40 Interactive terminal vs PR-based development
+12:30 How prompts get refined into PR plans
+14:25 Regression testing and the 28,000-line PR
+16:30 Trial and error, cams, and DNA
+
+`#agenticai #githubcopilot #aicoding #terminal #claude #prompting #devworkflow #agentsmd #aiagents #aidevelopment #devops #gitworkflow #softwareengineering #pullrequests #github`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
