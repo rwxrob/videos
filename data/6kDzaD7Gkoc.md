@@ -1,8 +1,14 @@
 # 💢 Claude too stupid to not rm -rf without checking for files
 
+Rob shows an AI coding agent (Claude Opus 4.6) that, when asked to back out a single file from his OBS directory, tried to run rm -rf on the entire directory, which would have deleted his overlay index.html and logo. He explains why he dropped the OBS Lua startup plugin and warns that agents should never be trusted without explicit authorization for each action.
+
 Agentic AI is crazy powerful, but has to be babysat like a first year intern.
 
-`#ai #danger #mistakes`
+`#claude #ai #aiagents #linux #bash #obs #devculture #terminal #danger #mistakes`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
