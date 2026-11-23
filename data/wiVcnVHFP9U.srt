@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:04,120
+ All right, I just want to make a really quick video about this in case you haven't heard
+
+2
+00:00:04,120 --> 00:00:10,760
+ Grafana 13.0 is out, which means there's been a lot of significant changes to this.
+
+3
+00:00:10,760 --> 00:00:13,920
+ I'm actually creating in the beginner boost under advanced.
+
+4
+00:00:13,920 --> 00:00:16,480
+ I have a whole document that I use the AI to do the research.
+
+5
+00:00:16,480 --> 00:00:21,520
+ If you want to save tokens, you can go read my results of the analysis.
+
+6
+00:00:21,520 --> 00:00:27,960
+ But it boils down to we're migrating from 12.3 to 12.4 and 13.0.
+
+7
+00:00:27,960 --> 00:00:31,520
+ And there's been a lot of significant changes, probably the biggest change is that they've
+
+8
+00:00:31,520 --> 00:00:36,080
+ changed from Grafana as an organization to the Grafana Dash community organizations.
+
+9
+00:00:36,080 --> 00:00:41,080
+ You might not be able to find your home charts, your path to the home charts might have broken.
+
+10
+00:00:41,080 --> 00:00:44,000
+ And if you are still using, hear me here.
+
+11
+00:00:44,000 --> 00:00:48,400
+ If you're still using the Bitnami Grafana charts, stop.
+
+12
+00:00:48,400 --> 00:00:50,760
+ If you haven't already got the memo and where have you been?
+
+13
+00:00:50,760 --> 00:00:52,680
+ Have you been under Iraq?
+
+14
+00:00:52,680 --> 00:00:53,680
+ Bitnami is dead.
+
+15
+00:00:53,680 --> 00:00:56,400
+ Bitnami, anything on Bitnami is totally dead.
+
+16
+00:00:56,400 --> 00:00:59,160
+ Bitnami, stop supporting everything, put up a huge pay wall.
+
+17
+00:00:59,160 --> 00:01:02,720
+ They said that they would support their archive versions, but all new versions would be this
+
+18
+00:01:02,720 --> 00:01:04,720
+ new pay model and everything.
+
+19
+00:01:04,720 --> 00:01:06,600
+ Get off Bitnami.
+
+20
+00:01:06,600 --> 00:01:09,240
+ In our case, that means that we had to rewrite Grafana.
+
+21
+00:01:09,240 --> 00:01:13,200
+ We use the render manifest pattern, which is basically flattening home charts so we can
+
+22
+00:01:13,200 --> 00:01:16,400
+ compare template to template between versions to see exactly what's changed.
+
+23
+00:01:16,400 --> 00:01:19,240
+ If you're not doing that, why are you not doing that?
+
+24
+00:01:19,240 --> 00:01:26,840
+ So think about that and in that process we've had to re-implement the entire thing as of
+
+25
+00:01:26,840 --> 00:01:31,440
+ what we call a Kate's app, which means it's been this flatten thing with a deploy script
+
+26
+00:01:31,440 --> 00:01:38,400
+ that covers all of that kind of thing using QPCTL apply against a flat template using
+
+27
+00:01:38,400 --> 00:01:40,120
+ the Helm template command.
+
+28
+00:01:40,120 --> 00:01:41,680
+ So have a look at that.
+
+29
+00:01:41,680 --> 00:01:46,040
+ I just wanted to let you know about that, that that's a thing and that there's probably
+
+30
+00:01:46,040 --> 00:01:49,080
+ reason for you to upgrade.
+

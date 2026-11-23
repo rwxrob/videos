@@ -1,0 +1,352 @@
+1
+00:00:00,000 --> 00:00:03,240
+ How fast can route make this video with AI?
+
+2
+00:00:03,240 --> 00:00:04,240
+ All right.
+
+3
+00:00:04,240 --> 00:00:05,240
+ So it just occurred to me.
+
+4
+00:00:05,240 --> 00:00:10,260
+ I've been using Aegis.md file, which is standard for any agentic AI in every one of
+
+5
+00:00:10,260 --> 00:00:11,260
+ my repos.
+
+6
+00:00:11,260 --> 00:00:12,880
+ And I'll talk about that elsewhere.
+
+7
+00:00:12,880 --> 00:00:21,040
+ But what became really obvious is that I need to put the things I prefer all in one place.
+
+8
+00:00:21,040 --> 00:00:26,280
+ I prefer to use, you know, POSIX bash or POSIX shell over bash or Python or this or I want
+
+9
+00:00:26,280 --> 00:00:31,960
+ a full paragraph and markdown, here's my code, my writing style, use this particular writing
+
+10
+00:00:31,960 --> 00:00:39,080
+ style when you're writing everything, everything you would ever want that makes you you, including
+
+11
+00:00:39,080 --> 00:00:43,240
+ leaving agent references and co-pile authorship out of your stuff.
+
+12
+00:00:43,240 --> 00:00:46,800
+ There's a million things that I've found that as I have a new GitHub repo for every one of
+
+13
+00:00:46,800 --> 00:00:52,360
+ my projects that I, you know, fire up with a GitHub co-pile in my case or a cloud code
+
+14
+00:00:52,360 --> 00:00:57,160
+ that I wanted to know about it immediately, and I might be late to the party on this,
+
+15
+00:00:57,160 --> 00:01:00,960
+ but I was like, how can I do this faster?
+
+16
+00:01:00,960 --> 00:01:07,040
+ And so the obvious easiest way is to make a template, an agentic template that has an
+
+17
+00:01:07,040 --> 00:01:11,800
+ Aegis.md file, it has a readme with Bill and the Blank kind of stuff there, and it has
+
+18
+00:01:11,800 --> 00:01:12,800
+ all of your preferences.
+
+19
+00:01:12,800 --> 00:01:17,960
+ I mean, your stylistic preferences, everything, so then you can just go use that.
+
+20
+00:01:17,960 --> 00:01:21,720
+ And if you do it as a GitHub template, other people can copy the template and the repo
+
+21
+00:01:21,720 --> 00:01:25,080
+ will start out that way, or the AI can do that.
+
+22
+00:01:25,080 --> 00:01:31,960
+ You can say, hey, go make this new repo using this template and fill in the rest as if it
+
+23
+00:01:31,960 --> 00:01:35,160
+ was this particular project, because this is what the project is going to be about, and
+
+24
+00:01:35,160 --> 00:01:38,840
+ the AI can go out and do all of that and copy it over for you.
+
+25
+00:01:38,840 --> 00:01:42,200
+ Can you make an AI that just pulls down the Aegis.md file?
+
+26
+00:01:42,200 --> 00:01:46,560
+ Yeah, you can, but there might be something else about the repo that you want to be common
+
+27
+00:01:46,560 --> 00:01:52,920
+ and consistent across your projects, whether it's a Git ignore or whatever possible other
+
+28
+00:01:52,920 --> 00:01:53,920
+ thing.
+
+29
+00:01:53,920 --> 00:01:56,360
+ Maybe it's a licensed file that you really like and you don't want to have to recreate
+
+30
+00:01:56,360 --> 00:01:58,080
+ every time.
+
+31
+00:01:58,080 --> 00:01:59,600
+ But it says a lot about you, right?
+
+32
+00:01:59,600 --> 00:02:04,280
+ Because it's not like your doc files, people go into your doc files to see, oh, hey, here's
+
+33
+00:02:04,280 --> 00:02:08,800
+ how this person operates, here's what they do, wow, that's a cool tool there.
+
+34
+00:02:08,800 --> 00:02:13,920
+ You can never know now whether they came up with it or AI did it for them.
+
+35
+00:02:13,920 --> 00:02:16,120
+ But nobody cares anymore.
+
+36
+00:02:16,120 --> 00:02:19,260
+ What they care about is that you're using AI and you're doing it intelligently.
+
+37
+00:02:19,260 --> 00:02:24,280
+ Well, the best way to communicate that is to have an agentic AI template in addition
+
+38
+00:02:24,280 --> 00:02:29,560
+ to your doc files and list that up there nice and high on your GitHub profile so people
+
+39
+00:02:29,560 --> 00:02:32,360
+ can see, no, this person knows how to use AI.
+
+40
+00:02:32,360 --> 00:02:36,920
+ They know how to manage multiple team looks and windows that are all running different
+
+41
+00:02:36,920 --> 00:02:43,760
+ agents at the same time doing different things from writing a gentleman's etiquette guide
+
+42
+00:02:43,760 --> 00:02:47,640
+ to the beginner boost to yoga training to my storage bin organizer.
+
+43
+00:02:47,640 --> 00:02:51,360
+ I have agents running doing stuff all the time.
+
+44
+00:02:51,360 --> 00:02:56,240
+ And every time I want to make a new one, now I just say, hey, go grab that one.
+
+45
+00:02:56,240 --> 00:02:58,640
+ In fact, I've been going back through some of these other ones.
+
+46
+00:02:58,640 --> 00:03:00,760
+ I recently did this in this one.
+
+47
+00:03:00,760 --> 00:03:07,520
+ I said, hey, oh, now that I have the agent, you know, the agents.md file in my template,
+
+48
+00:03:07,520 --> 00:03:11,520
+ go find that template, go grab that file and make sure I'm not missing anything in the
+
+49
+00:03:11,520 --> 00:03:13,960
+ agents.md file in this project.
+
+50
+00:03:13,960 --> 00:03:18,240
+ And it went out, fetched it, got all the stuff, added the conventional commit rules that weren't
+
+51
+00:03:18,240 --> 00:03:24,000
+ there and put it all in the agents.md file and committed it in less than 10 seconds.
+
+52
+00:03:24,000 --> 00:03:27,680
+ So people, this is, this is it.
+
+53
+00:03:27,680 --> 00:03:32,680
+ Yeah, and you've somebody, some people, some people put their stylistic preferences.
+
+54
+00:03:32,680 --> 00:03:38,040
+ Yeah, I think sometimes you have to tell the AI not to put it in your read me because some
+
+55
+00:03:38,040 --> 00:03:42,280
+ of the AI's will put it in your read me.md file, like, hey, put that in the agent's file,
+
+56
+00:03:42,280 --> 00:03:46,160
+ make the read me for the users so that it talks more about the project and not so much how
+
+57
+00:03:46,160 --> 00:03:52,840
+ the project is being executed or installed or created with the agent's file.
+
+58
+00:03:52,840 --> 00:03:53,840
+ So that's it.
+
+59
+00:03:53,840 --> 00:03:54,840
+ That's it.
+
+60
+00:03:54,840 --> 00:03:58,280
+ If you don't have an agentic AI template, you can copy mine.
+
+61
+00:03:58,280 --> 00:04:05,320
+ But I strongly, strongly recommend that everybody watching this starts using whatever terminal
+
+62
+00:04:05,320 --> 00:04:10,020
+ based agent that you want to, you can stay tuned and I'll show you how to, you can go
+
+63
+00:04:10,020 --> 00:04:12,960
+ look at my dot files for my Tmux config if you want.
+
+64
+00:04:12,960 --> 00:04:14,880
+ You should be using Tmux for this.
+
+65
+00:04:14,880 --> 00:04:21,000
+ I've seen people with like entire windows with little teeny tiny terminals all over the place.
+
+66
+00:04:21,000 --> 00:04:22,160
+ That's ridiculous.
+
+67
+00:04:22,160 --> 00:04:25,600
+ But if that's what you want to do, fine, you should really be using terminal.
+
+68
+00:04:25,600 --> 00:04:27,280
+ You should be using Tmux.
+
+69
+00:04:27,280 --> 00:04:30,080
+ You can go through each one of the windows and cycles for them.
+
+70
+00:04:30,080 --> 00:04:33,560
+ It will tell you when it's, when it needs attention, that's the whole point of it.
+
+71
+00:04:33,560 --> 00:04:38,120
+ And I'm using control AW, which is giving me this list so it's not like building the
+
+72
+00:04:38,120 --> 00:04:39,120
+ bottom.
+
+73
+00:04:39,120 --> 00:04:40,360
+ We'll do a whole video on Tmux.
+
+74
+00:04:40,360 --> 00:04:41,360
+ Stay tuned for that.
+
+75
+00:04:41,360 --> 00:04:43,620
+ But for right now, go check out the template.
+
+76
+00:04:43,620 --> 00:04:45,480
+ Go get started with the template.
+
+77
+00:04:45,480 --> 00:04:50,760
+ Go watch the beginner boost R to be X Rob slash boost, which is entirely based on AI and
+
+78
+00:04:50,760 --> 00:04:56,680
+ doing development and using AI to teach you what you need to know to get whatever job
+
+79
+00:04:56,680 --> 00:04:57,680
+ you want.
+
+80
+00:04:57,680 --> 00:05:00,360
+ But not just that to use AI for everything.
+
+81
+00:05:00,360 --> 00:05:05,440
+ I mean, anything that's knowledge based related can be done in here, including writing books,
+
+82
+00:05:05,440 --> 00:05:09,440
+ creating boost content, filling out the description of this YouTube video.
+
+83
+00:05:09,440 --> 00:05:14,280
+ Yeah, all done automatically renaming the video when it's saved to whatever my OBS title
+
+84
+00:05:14,280 --> 00:05:15,840
+ is on the top of the screen.
+
+85
+00:05:15,840 --> 00:05:18,920
+ All of it, all of it is done making a web socket.
+
+86
+00:05:18,920 --> 00:05:22,120
+ That's all been done with AI and it can be done instantly.
+
+87
+00:05:22,120 --> 00:05:29,760
+ So get on the bandwagon, accept AI as your lord and savior and start having fun making
+
+88
+00:05:29,760 --> 00:05:31,620
+ the things you want to make. Bye.
+

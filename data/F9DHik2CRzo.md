@@ -1,4 +1,0 @@
-# We are hiring.
-
-## Transcription
-

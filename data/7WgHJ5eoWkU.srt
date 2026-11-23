@@ -1,0 +1,996 @@
+1
+00:00:00,000 --> 00:00:07,960
+ Okay, friends, I want to make a really quick video about a question I just had.
+
+2
+00:00:07,960 --> 00:00:10,440
+ So I went ahead and pinned it from Sir Numba.
+
+3
+00:00:10,440 --> 00:00:15,680
+ What happened to giving a single comprehensive prompt with a plan to execute versus this
+
+4
+00:00:15,680 --> 00:00:18,440
+ back and forth hoping it will figure out what you want.
+
+5
+00:00:18,440 --> 00:00:23,920
+ So that's a very fair question and I have talked about this in the past but I've never
+
+6
+00:00:23,920 --> 00:00:26,480
+ made a video about it, I don't think.
+
+7
+00:00:26,480 --> 00:00:30,920
+ The only video I have made about it is you can save a lot of money if you talk directly
+
+8
+00:00:30,920 --> 00:00:37,240
+ to, you know, you send PRs and I kind of have both of the things on the screen right now.
+
+9
+00:00:37,240 --> 00:00:47,440
+ I have, on the left, I have my digital Nomad app, Nomad IRL, the plug for Nomad IRL here.
+
+10
+00:00:47,440 --> 00:00:53,200
+ Nomad IRL, this is this app I've been coding, Agentic Engineering, whatever you want to
+
+11
+00:00:53,200 --> 00:00:54,200
+ call it.
+
+12
+00:00:54,200 --> 00:00:58,560
+ And in the app, I have the ability to create the app dynamically.
+
+13
+00:00:58,560 --> 00:01:01,720
+ I have built in so this AI interaction.
+
+14
+00:01:01,720 --> 00:01:05,680
+ And so what I do as a state of problem in like some of the problems are pretty lengthy
+
+15
+00:01:05,680 --> 00:01:12,800
+ and I put them in there and then I tap on the copilot button and it sends it off, makes
+
+16
+00:01:12,800 --> 00:01:17,560
+ an issue, kicks off a PR for it, works out in the PR, sometimes it takes like an half
+
+17
+00:01:17,560 --> 00:01:19,640
+ an hour, hour, whatever, and then it comes back.
+
+18
+00:01:19,640 --> 00:01:21,720
+ And as far as I know, that counts as only one request.
+
+19
+00:01:21,720 --> 00:01:23,280
+ I think that's changing.
+
+20
+00:01:23,280 --> 00:01:27,280
+ I think I think on June is going to change to they're going to go to a token based model,
+
+21
+00:01:27,280 --> 00:01:29,040
+ which they definitely need to.
+
+22
+00:01:29,040 --> 00:01:34,840
+ So the ability to save money by having that just one request, by having one, you know,
+
+23
+00:01:34,840 --> 00:01:36,760
+ one session with the PR, I think that's going away.
+
+24
+00:01:36,760 --> 00:01:39,080
+ That was a huge mistake on GitHub's part.
+
+25
+00:01:39,080 --> 00:01:42,040
+ I don't know how they're planning on making money that way anyway.
+
+26
+00:01:42,040 --> 00:01:48,120
+ So assuming that that technique is going to save more money by putting more things into
+
+27
+00:01:48,120 --> 00:01:53,240
+ a well constructed prompt, then that's definitely a skill to know.
+
+28
+00:01:53,240 --> 00:02:00,240
+ However, there is another like live dynamic interaction that you see me doing on the right.
+
+29
+00:02:00,240 --> 00:02:02,840
+ And a lot of times I'll be doing both of them at the same time.
+
+30
+00:02:02,840 --> 00:02:13,320
+ So I have this example up because this is me doing some live updates on my beginner
+
+31
+00:02:13,320 --> 00:02:16,280
+ boost content, which you know, I've already talked about.
+
+32
+00:02:16,280 --> 00:02:20,040
+ I'm changing it from being every Saturday or whatever, because I'm going to become a
+
+33
+00:02:20,040 --> 00:02:24,400
+ digital nomad to being just whenever and I'll have this boost repo.
+
+34
+00:02:24,400 --> 00:02:29,760
+ And anytime I find something that I think could help you, such as this video, I'll go
+
+35
+00:02:29,760 --> 00:02:34,360
+ ahead and make a summary of it and I'll put it up on YouTube and I'll link to it and
+
+36
+00:02:34,360 --> 00:02:35,640
+ then put it up in here.
+
+37
+00:02:35,640 --> 00:02:43,040
+ So somebody asked the question because I was like making tiny microscopic changes.
+
+38
+00:02:43,040 --> 00:02:48,560
+ Like it added the information, I had systems development and operations.
+
+39
+00:02:48,560 --> 00:02:52,480
+ And it was like it got that wrong and I said change it to systems development operations.
+
+40
+00:02:52,480 --> 00:02:58,320
+ So this is a very, very live interaction, interactive agentic session.
+
+41
+00:02:58,320 --> 00:03:01,440
+ And I think the first thing you need to notice, which is kind of obfuscated right here, is
+
+42
+00:03:01,440 --> 00:03:03,160
+ that I'm using haiku, okay.
+
+43
+00:03:03,160 --> 00:03:09,920
+ So if you're using, let's go, essentially pull up the model and show you.
+
+44
+00:03:09,920 --> 00:03:20,680
+ And if you pull up the different models, you see that haiku uses .33 of a request, right?
+
+45
+00:03:20,680 --> 00:03:24,200
+ The only thing cheaper than that is GPT.
+
+46
+00:03:24,200 --> 00:03:32,000
+ So I personally appreciate the ability to talk to my computer and hold my super whisper key
+
+47
+00:03:32,000 --> 00:03:39,600
+ down and have it make active live edits to what I'm writing.
+
+48
+00:03:39,600 --> 00:03:41,840
+ I do this for all kinds of things.
+
+49
+00:03:41,840 --> 00:03:46,400
+ I do this for managing my health.
+
+50
+00:03:46,400 --> 00:03:52,840
+ I have a repo, a private repo for my digital nomad life and my planning and my finances.
+
+51
+00:03:52,840 --> 00:03:56,440
+ It actually has my financial summaries in there.
+
+52
+00:03:56,440 --> 00:04:00,800
+ And I regularly interact with it as the same way I was chat GPT.
+
+53
+00:04:00,800 --> 00:04:10,000
+ So I personally have stopped using GPT.
+
+54
+00:04:10,000 --> 00:04:13,640
+ In fact, the only time I ever use chat GPT is when I'm on the road and I have to talk
+
+55
+00:04:13,640 --> 00:04:14,640
+ to my phone.
+
+56
+00:04:14,640 --> 00:04:17,960
+ And those of you who know me know how much I complain about it.
+
+57
+00:04:17,960 --> 00:04:21,040
+ Sorry, but don't tell Chloe, Chloe's the name of my AI.
+
+58
+00:04:21,040 --> 00:04:22,880
+ I've kind of fallen out of love with her.
+
+59
+00:04:22,880 --> 00:04:26,880
+ She noise the hell out of me now because she spends too much time wasting my time like,
+
+60
+00:04:26,880 --> 00:04:31,360
+ oh, okay, trying to be friendly with me, I know I've been working with Claude so much,
+
+61
+00:04:31,360 --> 00:04:38,840
+ he was so direct and gets me what I need right away that I got no time for her.
+
+62
+00:04:38,840 --> 00:04:43,000
+ Now, if I'm practicing my language, I'm like, how do I say this in French or Russian or
+
+63
+00:04:43,000 --> 00:04:44,000
+ whatever?
+
+64
+00:04:44,000 --> 00:04:47,120
+ It's really great to have chat GPT around.
+
+65
+00:04:47,120 --> 00:04:55,720
+ But yeah, so the biggest takeaway and somebody just mentioned this in the chat is that you
+
+66
+00:04:55,720 --> 00:04:58,320
+ want to change your model, right?
+
+67
+00:04:58,320 --> 00:05:03,040
+ So but there's another advantage to doing it from the terminal the way I am.
+
+68
+00:05:03,040 --> 00:05:07,160
+ And this is kind of part of leading to another video I'm going to make about how important
+
+69
+00:05:07,160 --> 00:05:09,360
+ terminal skills still are.
+
+70
+00:05:09,360 --> 00:05:14,880
+ I'm going to avoid talking about that right now, but stay tuned for that video.
+
+71
+00:05:14,880 --> 00:05:18,600
+ It more now than ever because of AI and I can't wait to talk about that.
+
+72
+00:05:18,600 --> 00:05:27,200
+ But on the terminal, it's actually more valuable for me to fire up an interactive haiku session
+
+73
+00:05:27,200 --> 00:05:32,520
+ that has the ability to write and update everything.
+
+74
+00:05:32,520 --> 00:05:35,040
+ And let me tell you why it's better than chat GPT.
+
+75
+00:05:35,040 --> 00:05:38,960
+ This is a separate video, but this is the part of the interactive question.
+
+76
+00:05:38,960 --> 00:05:43,720
+ So I'm going to go ahead and finish answering this.
+
+77
+00:05:43,720 --> 00:05:49,440
+ When I am doing highly interactive things such as planning my budget, figuring out what
+
+78
+00:05:49,440 --> 00:05:55,600
+ my grocery bill is, figuring out what my, you know, what I want to do to stay healthy,
+
+79
+00:05:55,600 --> 00:05:57,640
+ those level of interactions are really great.
+
+80
+00:05:57,640 --> 00:06:03,760
+ But something I've always appreciated about chat GPT and now I'm also very scared of is
+
+81
+00:06:03,760 --> 00:06:07,320
+ the fact that chat GPT remembers you, right?
+
+82
+00:06:07,320 --> 00:06:12,320
+ It remembers details about your life, but it decides what things to remember about you.
+
+83
+00:06:12,320 --> 00:06:16,080
+ So, so you probably can guess where I'm going with this, right?
+
+84
+00:06:16,080 --> 00:06:21,120
+ Because chat GPT selectively chooses what to remember about you based on some algorithm
+
+85
+00:06:21,120 --> 00:06:25,080
+ you have no control over, I'm not using it anymore.
+
+86
+00:06:25,080 --> 00:06:27,280
+ In fact, I've stopped subscribing to chat GPT.
+
+87
+00:06:27,280 --> 00:06:33,040
+ I, you know, I bumped my chat, my, my subscription to GitHub co-pile all the way to the top because
+
+88
+00:06:33,040 --> 00:06:34,920
+ I use it for everything.
+
+89
+00:06:34,920 --> 00:06:41,240
+ So unless I'm in the car and I cannot do that kind of planning, which is what got me hooked
+
+90
+00:06:41,240 --> 00:06:42,240
+ on chat GPT.
+
+91
+00:06:42,240 --> 00:06:46,220
+ I was in the car, I was waiting around for traffic and I was able to plan my next road
+
+92
+00:06:46,220 --> 00:06:47,220
+ trip.
+
+93
+00:06:47,220 --> 00:06:49,720
+ It's fantastic for that.
+
+94
+00:06:49,720 --> 00:06:53,880
+ I can do those things with haiku and stuff, but it's much harder and you have to go through
+
+95
+00:06:53,880 --> 00:06:58,440
+ GitHub co-pile and you can, there are ways to do it that I probably need to work out,
+
+96
+00:06:58,440 --> 00:07:04,680
+ but, but honestly, what's more important about that is that if I'm going to do a very, something
+
+97
+00:07:04,680 --> 00:07:10,040
+ that I want to save, so I want to actually come up with the different travel modes and
+
+98
+00:07:10,040 --> 00:07:15,400
+ summarize them and know what, what, how many things I can carry and what suitcases I need,
+
+99
+00:07:15,400 --> 00:07:16,400
+ all that kind of stuff.
+
+100
+00:07:16,400 --> 00:07:18,440
+ I want to save that information.
+
+101
+00:07:18,440 --> 00:07:19,960
+ So I want to plan out of that.
+
+102
+00:07:19,960 --> 00:07:24,280
+ I want some, some artifacts and anytime you want anything like that, it's always better
+
+103
+00:07:24,280 --> 00:07:27,920
+ to get on the terminal and wait and do most of that work when you have the opportunity
+
+104
+00:07:27,920 --> 00:07:33,160
+ to put a good mic on and have a nice interactive session.
+
+105
+00:07:33,160 --> 00:07:39,360
+ And that the interactive session that I have a haiku is going to be far less than it would
+
+106
+00:07:39,360 --> 00:07:44,800
+ have cost me for chat GPT, and I get to control what it remembers.
+
+107
+00:07:44,800 --> 00:07:49,640
+ I can use all the techniques I've already used from a Gentic AI, such as an agents.md
+
+108
+00:07:49,640 --> 00:07:56,320
+ file and telling it specifically to remember this about me, for example, make sure you
+
+109
+00:07:56,320 --> 00:08:01,520
+ remember that this is primarily influenced by somebody who's seeking to become a fully
+
+110
+00:08:01,520 --> 00:08:03,600
+ remote digital nomad.
+
+111
+00:08:03,600 --> 00:08:07,720
+ Let's just do this.
+
+112
+00:08:07,720 --> 00:08:15,680
+ So I can tell haiku or whatever my model is to remember it, and it will go through the
+
+113
+00:08:15,680 --> 00:08:16,680
+ steps it needs to.
+
+114
+00:08:16,680 --> 00:08:21,080
+ So the first thing it does is it tells you it's storing it in the memory.
+
+115
+00:08:21,080 --> 00:08:23,640
+ Chat GPT doesn't do this.
+
+116
+00:08:23,640 --> 00:08:25,040
+ It doesn't tell you.
+
+117
+00:08:25,040 --> 00:08:29,640
+ You can go in and sometimes every there, I, one time I went into a GPT and there apparently
+
+118
+00:08:29,640 --> 00:08:33,160
+ is a place you can go look at all the things that remembers about you, but it doesn't explicitly
+
+119
+00:08:33,160 --> 00:08:35,520
+ tell you it is saving it and how.
+
+120
+00:08:35,520 --> 00:08:39,160
+ So you can say, yes, I want you to remember that about me.
+
+121
+00:08:39,160 --> 00:08:45,400
+ Now in addition to that, so that all your agents will know about it, when you do it like that,
+
+122
+00:08:45,400 --> 00:08:47,600
+ co-pilot on this computer remembers that about you.
+
+123
+00:08:47,600 --> 00:08:51,320
+ I don't think that it's, I don't know, I don't know if that's saved in the cloud.
+
+124
+00:08:51,320 --> 00:08:54,720
+ So I don't know if I were to open this session up on different computer who remember it.
+
+125
+00:08:54,720 --> 00:08:59,000
+ But another way to make sure that it always does, make sure to update that in the agents
+
+126
+00:08:59,000 --> 00:09:04,120
+ and the files as well so that it doesn't get forgotten.
+
+127
+00:09:04,120 --> 00:09:12,400
+ So it didn't know how to write agents of D, also I have the, I'm having a hard time talking.
+
+128
+00:09:12,400 --> 00:09:16,920
+ So what I'm going to do now is I'm going to have it update the agents of D file with
+
+129
+00:09:16,920 --> 00:09:24,320
+ the same thing so that when the agent right now, there's an argument to be made that these
+
+130
+00:09:24,320 --> 00:09:28,720
+ changes should be made to the read me file and not the agents of D file.
+
+131
+00:09:28,720 --> 00:09:35,340
+ In fact, yesterday I had a PR comment that said, "Why can't we put all these agents of
+
+132
+00:09:35,340 --> 00:09:37,360
+ D stuff right in the read me file?"
+
+133
+00:09:37,360 --> 00:09:38,920
+ And the truth is you can.
+
+134
+00:09:38,920 --> 00:09:44,640
+ A lot of the stuff applies to humans as much as agents and therefore should go there as
+
+135
+00:09:44,640 --> 00:09:45,640
+ well.
+
+136
+00:09:45,640 --> 00:09:49,240
+ You know, it just depends on how verbose you want it to be.
+
+137
+00:09:49,240 --> 00:09:54,360
+ But the reason I'm showing you this is because this is when you're doing an interactive session,
+
+138
+00:09:54,360 --> 00:10:01,560
+ this is how you reduce the costs by adding as much as possible to the agents of D file
+
+139
+00:10:01,560 --> 00:10:06,680
+ and to the memory explicitly unlike chat GPT.
+
+140
+00:10:06,680 --> 00:10:09,720
+ And when I came into this, something else I've noticed, when I came into it and I opened
+
+141
+00:10:09,720 --> 00:10:14,160
+ it up with a fresh GitHub co-pilot session, I had to tell it, "Hey, read everything in
+
+142
+00:10:14,160 --> 00:10:16,480
+ this repo and catch up."
+
+143
+00:10:16,480 --> 00:10:19,360
+ Because I started talking to it before I did that, it was brain was dead.
+
+144
+00:10:19,360 --> 00:10:21,440
+ It was like I'd never interacted with it before.
+
+145
+00:10:21,440 --> 00:10:26,200
+ But as soon as I did that, boom, it knew everything, it knew, "Oh, hey, you're another
+
+146
+00:10:26,200 --> 00:10:27,200
+ project."
+
+147
+00:10:27,200 --> 00:10:30,660
+ It was like, "Hey, your remote server is this and I'm going to go do this."
+
+148
+00:10:30,660 --> 00:10:33,760
+ It started, it's basically got his brain back.
+
+149
+00:10:33,760 --> 00:10:42,880
+ That level of control is only available to interactive sessions that have preserved state
+
+150
+00:10:42,880 --> 00:10:46,120
+ explicitly and ask you what to say.
+
+151
+00:10:46,120 --> 00:10:49,800
+ A lot of times they'll suggest something along the way and say, "Hey, you want me to remember
+
+152
+00:10:49,800 --> 00:10:50,800
+ that?"
+
+153
+00:10:50,800 --> 00:10:51,800
+ "No, I don't need you to remember that."
+
+154
+00:10:51,800 --> 00:10:54,440
+ Chat GPT doesn't give you that option.
+
+155
+00:10:54,440 --> 00:11:01,080
+ So when you are leveling up your interactions with AI, whether it's for personal use or
+
+156
+00:11:01,080 --> 00:11:06,720
+ for work, you're going to soon realize that one, you want to get on the terminal and have
+
+157
+00:11:06,720 --> 00:11:13,440
+ an actual interactive session, or you possibly want to set up a system where you can open
+
+158
+00:11:13,440 --> 00:11:23,560
+ a PR against and do dynamic development like I'm doing on my normal IRL application.
+
+159
+00:11:23,560 --> 00:11:30,920
+ So you don't have to build in your own submission projects and everything like that.
+
+160
+00:11:30,920 --> 00:11:34,840
+ You can do all of that through the GitHub tool.
+
+161
+00:11:34,840 --> 00:11:38,440
+ I just really like the ability to just speak into my thing.
+
+162
+00:11:38,440 --> 00:11:48,560
+ I've talked about maybe breaking out the interactive development of my application with that component
+
+163
+00:11:48,560 --> 00:11:49,560
+ of it.
+
+164
+00:11:49,560 --> 00:11:50,560
+ So that's not a part of Nomad IRL.
+
+165
+00:11:50,560 --> 00:11:53,560
+ It's its own thing and make it free.
+
+166
+00:11:53,560 --> 00:12:00,640
+ It's really just the idea of accepting text input and then having your AI help you create
+
+167
+00:12:00,640 --> 00:12:07,160
+ a GitHub interaction, usually using the GitHub command line tool to do all of that, to create
+
+168
+00:12:07,160 --> 00:12:12,480
+ an issue and to do the thing and then to allow you to pull to go see when it's ready and
+
+169
+00:12:12,480 --> 00:12:18,800
+ then you go review it, merge it, and then in my case you can actually deploy it.
+
+170
+00:12:18,800 --> 00:12:24,040
+ That kind of development is great if you want GitHub to work on something that you don't
+
+171
+00:12:24,040 --> 00:12:25,160
+ really need to babysit.
+
+172
+00:12:25,160 --> 00:12:32,320
+ I have noticed, one last conclusion here, I have noticed that when I do that, that one,
+
+173
+00:12:32,320 --> 00:12:38,480
+ my prompts are better because even if they're really long, because what happens is I really
+
+174
+00:12:38,480 --> 00:12:41,960
+ think about it before I send it off because I'm going to have it go do the work, and I'm
+
+175
+00:12:41,960 --> 00:12:48,600
+ not going to be able to steer it, the technical term is literally steering your AI.
+
+176
+00:12:48,600 --> 00:12:50,480
+ I won't be able to steer the AI later.
+
+177
+00:12:50,480 --> 00:12:58,840
+ So I give it more into the first prompt, but in addition to that, the one-off step of creating
+
+178
+00:12:58,840 --> 00:13:05,800
+ the issue allows the AI to take that prompt and make it into a better prompt.
+
+179
+00:13:05,800 --> 00:13:07,400
+ And you see Cloud do this all the time.
+
+180
+00:13:07,400 --> 00:13:08,400
+ Here it goes.
+
+181
+00:13:08,400 --> 00:13:11,920
+ The user wants me to update the agent's file to include a blah, blah, blah, blah, blah.
+
+182
+00:13:11,920 --> 00:13:17,560
+ So all of the models these days will restate what you have said.
+
+183
+00:13:17,560 --> 00:13:22,800
+ This is what allows you to speak like a caveman and all of that stuff, which I haven't built
+
+184
+00:13:22,800 --> 00:13:30,760
+ into my system, but you could, and then it'll flesh it out into the more full method.
+
+185
+00:13:30,760 --> 00:13:36,920
+ And so you get it even further clarification of what it is you're doing.
+
+186
+00:13:36,920 --> 00:13:39,320
+ And then that goes into the issue.
+
+187
+00:13:39,320 --> 00:13:45,440
+ And then the PR is yet another AI that takes the issue and breaks that down into a very
+
+188
+00:13:45,440 --> 00:13:49,800
+ detailed plant, all of which shows up in the PR before you approve it.
+
+189
+00:13:49,800 --> 00:13:55,400
+ So you can, many, many times, especially when the PR is not particularly huge, I can go
+
+190
+00:13:55,400 --> 00:13:59,960
+ in and I can see the work it's done on the PR, and let me see if I have one I can go
+
+191
+00:13:59,960 --> 00:14:03,920
+ look at right now, nope, I don't.
+
+192
+00:14:03,920 --> 00:14:09,960
+ So, you know, I can go into the PR and I can see very quickly a summary of everything it
+
+193
+00:14:09,960 --> 00:14:13,320
+ did, and I can open up the files and read the code if I want to.
+
+194
+00:14:13,320 --> 00:14:17,600
+ But I find myself, especially for the small stuff, not necessarily doing it as long as
+
+195
+00:14:17,600 --> 00:14:21,640
+ this description of what it did is very precise and it covers what I wanted.
+
+196
+00:14:21,640 --> 00:14:25,680
+ And then I'll accept that and I'll obviously test it.
+
+197
+00:14:25,680 --> 00:14:33,080
+ It goes without saying that a Gentic AI development demands very exhaustive regression tests.
+
+198
+00:14:33,080 --> 00:14:38,200
+ Because regression testing is largely the litmus test.
+
+199
+00:14:38,200 --> 00:14:40,800
+ It's the way to know the thing works.
+
+200
+00:14:40,800 --> 00:14:45,680
+ And quite honestly, that's exactly what we do as humans, so I don't distrust it.
+
+201
+00:14:45,680 --> 00:14:51,640
+ Let me give you a specific example of this, a separate video, really, but when my rather
+
+202
+00:14:51,640 --> 00:14:59,720
+ large PR was went on a review yesterday that AI did help me with, to bump us from Grafana
+
+203
+00:14:59,720 --> 00:15:07,200
+ 11.1 to 13, which included a new organization getting off binami, changing the GitHub community
+
+204
+00:15:07,200 --> 00:15:13,200
+ completely, you know, eliminating the Helm chart and changing it to a different Helm chart,
+
+205
+00:15:13,200 --> 00:15:20,400
+ burning it from MariaDB to Postgres, you know, a lot of stuff, right?
+
+206
+00:15:20,400 --> 00:15:25,200
+ And so getting off grizzly, so much stuff.
+
+207
+00:15:25,200 --> 00:15:31,160
+ And there, this PR was something like 28,000 lines by the time it was done and for lots
+
+208
+00:15:31,160 --> 00:15:32,440
+ of different reasons.
+
+209
+00:15:32,440 --> 00:15:37,320
+ And the reason I mentioned it is because while people were doing the PR, obviously PR is
+
+210
+00:15:37,320 --> 00:15:38,320
+ not supposed to be that big.
+
+211
+00:15:38,320 --> 00:15:41,920
+ And there's a lot of historic business reasons that that one was that big.
+
+212
+00:15:41,920 --> 00:15:44,360
+ I don't want to get into it, it makes me angry.
+
+213
+00:15:44,360 --> 00:15:49,680
+ But that's why that one was so they also included a bunch of dashboard backups we should never
+
+214
+00:15:49,680 --> 00:15:50,680
+ have been there.
+
+215
+00:15:50,680 --> 00:15:58,840
+ The point is the PR and the work involved were so large that they demanded a more generalized
+
+216
+00:15:58,840 --> 00:16:01,400
+ approach to the testing of whether it was working or not.
+
+217
+00:16:01,400 --> 00:16:07,400
+ It was one of these, let's deploy it and then let's see if it works sort of situations.
+
+218
+00:16:07,400 --> 00:16:12,360
+ And then using AI or other techniques to check for its safety and to make sure it actually
+
+219
+00:16:12,360 --> 00:16:13,360
+ works.
+
+220
+00:16:13,360 --> 00:16:16,160
+ So that is the modern way to do it.
+
+221
+00:16:16,160 --> 00:16:18,160
+ That's how you keep yourself safe.
+
+222
+00:16:18,160 --> 00:16:22,740
+ And that's ultimately how humans have had to do things for a long time.
+
+223
+00:16:22,740 --> 00:16:27,680
+ Once a certain project gets to a certain scale, the only way to truly test a project is to
+
+224
+00:16:27,680 --> 00:16:32,000
+ see does this car actually drive, right?
+
+225
+00:16:32,000 --> 00:16:33,520
+ And it's trial and error.
+
+226
+00:16:33,520 --> 00:16:37,480
+ And I have a really good story about that where there was a cam in a factory that broke that
+
+227
+00:16:37,480 --> 00:16:42,840
+ had been custom made years ago and they brought in all these scientists to replace it and
+
+228
+00:16:42,840 --> 00:16:46,080
+ fix it and create the calculate, the physics behind the thing.
+
+229
+00:16:46,080 --> 00:16:50,760
+ And ultimately they ended up replacing it with one that they incrementally tweaked.
+
+230
+00:16:50,760 --> 00:16:54,480
+ They put one in place, they made it, they got a general idea of it, but it wasn't doing
+
+231
+00:16:54,480 --> 00:16:55,480
+ the thing.
+
+232
+00:16:55,480 --> 00:16:59,320
+ And then they kept shaving it off so that the cam was just exactly what they needed.
+
+233
+00:16:59,320 --> 00:17:03,160
+ And it was a bunch of trial and error to see if as soon as it met the thing.
+
+234
+00:17:03,160 --> 00:17:04,160
+ Guess what?
+
+235
+00:17:04,160 --> 00:17:05,520
+ That's what nature does.
+
+236
+00:17:05,520 --> 00:17:10,320
+ This is why our DNA is completely chock full of errors.
+
+237
+00:17:10,320 --> 00:17:18,320
+ Because if you were to look at our DNA, you would say, God's a shit coder.
+
+238
+00:17:18,320 --> 00:17:22,280
+ Because our DNA makes no sense at all.
+
+239
+00:17:22,280 --> 00:17:30,640
+ The point is that nature uses trial and error and does it work to decide when it's ready?
+
+240
+00:17:30,640 --> 00:17:33,120
+ Does it add a necessary complexity?
+
+241
+00:17:33,120 --> 00:17:34,120
+ Hell yeah.
+
+242
+00:17:34,120 --> 00:17:38,080
+ And sometimes you'll have the opportunity to go in there and turn down that complexity.
+
+243
+00:17:38,080 --> 00:17:42,240
+ But that extra complexity that is derived through incremental changes, whether it's
+
+244
+00:17:42,240 --> 00:17:48,320
+ an interactive AI session or shaving scraps of metal off a cam until it works, that's
+
+245
+00:17:48,320 --> 00:17:51,480
+ a part of who we are already.
+
+246
+00:17:51,480 --> 00:17:53,720
+ And it's nothing new.
+
+247
+00:17:53,720 --> 00:17:55,080
+ But that's a separate video.
+
+248
+00:17:55,080 --> 00:17:57,120
+ I probably should not put that in this video.
+
+249
+00:17:57,120 --> 00:17:58,120
+ That was bonus, bye.
+

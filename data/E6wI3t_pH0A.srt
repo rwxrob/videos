@@ -1,0 +1,3560 @@
+1
+00:00:00,000 --> 00:00:12,280
+ Welcome to the beginner boost for what are we, what are we, day six, okay, and we did
+
+2
+00:00:12,280 --> 00:00:17,800
+ skip a week and because I was largely, I was, first of all, I had a family thing. Secondly,
+
+3
+00:00:17,800 --> 00:00:28,880
+ I was, I've been largely blown away is the word I have for how AI has impacted everything
+
+4
+00:00:28,880 --> 00:00:35,360
+ that I know about technology, technology careers, technology developments, and what to tell beginners.
+
+5
+00:00:35,360 --> 00:00:40,000
+ And you saw a lot of that the last time I did the boost in the last boost, boost video I got,
+
+6
+00:00:40,000 --> 00:00:46,320
+ I told everybody what I thought was really important and I cannot overemphasize this now. So since
+
+7
+00:00:46,320 --> 00:00:56,480
+ the time of the last boost, I've produced four high quality, not AI slop, high quality applications
+
+8
+00:00:56,480 --> 00:01:01,920
+ using AI for my personal use and some for company use. One of the things I've been doing for my
+
+9
+00:01:01,920 --> 00:01:09,600
+ company, including this very objective long-winded project manager speak for recommendations about
+
+10
+00:01:09,600 --> 00:01:17,840
+ how to modernize our Pearl code base has saved me weeks of time and created opportunities to
+
+11
+00:01:17,840 --> 00:01:22,880
+ collaborate and understand one another that were not possible before because the document to write
+
+12
+00:01:22,880 --> 00:01:28,960
+ it would have taken me a day or two just by itself not counting all the research, the highly
+
+13
+00:01:28,960 --> 00:01:35,840
+ detailed research the AI was able to do for me. The takeaway from this statement is that if you
+
+14
+00:01:36,480 --> 00:01:44,400
+ are not learning AI, people, people say that their extreme AI bros and stuff like that are
+
+15
+00:01:44,400 --> 00:01:49,760
+ overstating it. I'm not overstating it. And you can call me whatever you want, but the very few
+
+16
+00:01:49,760 --> 00:01:56,160
+ people who listen to me right now are going to be around and alive and financially independent.
+
+17
+00:01:56,720 --> 00:02:03,040
+ And those who don't listen to me will be out of jobs looking for other service jobs. And I
+
+18
+00:02:03,040 --> 00:02:09,360
+ am not exaggerating. And let me justify how this is going. Okay. Before I begin the beginner boost,
+
+19
+00:02:09,360 --> 00:02:16,640
+ one second more, I want to justify my overzealousness to some people about AI. And I'm going to put it
+
+20
+00:02:16,640 --> 00:02:24,880
+ in very specific financial economic terms as to why this is going to change everything. And I mean,
+
+21
+00:02:24,880 --> 00:02:29,280
+ everything you've already heard about this. But I'm going to tell you why it is the first
+
+22
+00:02:29,280 --> 00:02:36,000
+ the first reason it's going to change everything is because within a year the cost of using AI,
+
+23
+00:02:36,000 --> 00:02:41,440
+ the way it's being used today by the by the early adopters, the one percenters that are using it,
+
+24
+00:02:42,240 --> 00:02:49,440
+ it's still not be it's 2026 is the year of AI validation and adoption by the enterprise,
+
+25
+00:02:49,440 --> 00:02:53,440
+ by a lot of a lot of forward thinking enterprises have already done it. Oracle let go of 30,000
+
+26
+00:02:53,440 --> 00:02:58,240
+ employees, lots of others have done that. People think it's a rash, rash, bad decision. I actually
+
+27
+00:02:58,240 --> 00:03:03,200
+ fully agree with that decision now, which I can't believe I'm saying. I can't believe it. But I
+
+28
+00:03:03,200 --> 00:03:08,480
+ know why I agree with it. And I'm going to explain it to you. So the very first piece of this is
+
+29
+00:03:08,480 --> 00:03:16,160
+ that these companies that have been investing trillions of dollars, trillions of dollars
+
+30
+00:03:16,160 --> 00:03:24,880
+ into AI, agentic, and the rest open, open API and all of them, they're not making any money.
+
+31
+00:03:26,160 --> 00:03:30,960
+ And if you know about the bait and switch kind of idea, so medium did this, they got everybody
+
+32
+00:03:30,960 --> 00:03:35,360
+ the blog on the platform, they couldn't pay a dime for it. The people who founded it walked away
+
+33
+00:03:35,360 --> 00:03:39,760
+ with millions of dollars and the people left behind had to decide how to make money and boom,
+
+34
+00:03:39,760 --> 00:03:44,880
+ they put up a paywall. And everybody was like, what the hell? This was supposed to be free and
+
+35
+00:03:44,880 --> 00:03:49,920
+ everything and they put up a paywall because the economics of it started to hit reality.
+
+36
+00:03:49,920 --> 00:03:58,320
+ And I'm going to make a prediction here. I think that 2026 is the year that enterprises actually
+
+37
+00:03:58,320 --> 00:04:04,000
+ realize the value of AI. They're going to realize the value of AI. They're already starting to do
+
+38
+00:04:04,000 --> 00:04:10,800
+ it. But with the Claude Opus 4.6 model and beyond, we're already starting to see this trend. So
+
+39
+00:04:10,800 --> 00:04:15,600
+ let me spell it out for you. Chat GPT and stuff like that, $20 a month, blah, blah,
+
+40
+00:04:15,600 --> 00:04:19,440
+ Claude comes around, charges 200 a month, and people are like, that's a good deal,
+
+41
+00:04:20,160 --> 00:04:25,360
+ because they're doing thousands of dollars of work for $200 a month. And it keeps going up.
+
+42
+00:04:26,400 --> 00:04:35,520
+ Agentic, let's see, anthropic, the company behind Claude has problems and they're starting to feel
+
+43
+00:04:35,520 --> 00:04:40,000
+ the financial woes of this whole thing. And they're starting to wonder if they should have given
+
+44
+00:04:40,000 --> 00:04:46,800
+ over access to their models to GitHub, Microsoft, and all these other people. They're like,
+
+45
+00:04:46,800 --> 00:04:51,200
+ how are we going to make money on this? These people are selling undercutting us. We're already
+
+46
+00:04:51,200 --> 00:04:59,200
+ seeing the trends for this. So the model for AI called Opus 4.6 is three times the regular rate
+
+47
+00:04:59,200 --> 00:05:05,120
+ of others, like code X is one by, right? And there are some that are nearly free, chat GPT,
+
+48
+00:05:05,120 --> 00:05:09,120
+ you know, GPT, many, these are all models for doing different things. They're all different
+
+49
+00:05:09,120 --> 00:05:16,400
+ levels of intelligent and better at doing different things. So along comes 4.7, which was yesterday,
+
+50
+00:05:16,400 --> 00:05:27,760
+ yesterday or the day before, 4.7 is 7.5 times more expensive than 4.6, which was three times
+
+51
+00:05:27,760 --> 00:05:36,160
+ more expensive than the previous model, which was one times that rate. And the comments are,
+
+52
+00:05:36,960 --> 00:05:47,760
+ in the comments right now are that Cod Opus 4.7 is a 30-day discounted rate. So that means that
+
+53
+00:05:47,760 --> 00:05:52,560
+ the rate for the latest Cod Opus model for software development, which is hands down,
+
+54
+00:05:52,560 --> 00:05:59,680
+ the best model for software development is 4.5 times more. And it's probably going to go up
+
+55
+00:05:59,680 --> 00:06:06,640
+ by it to at least 12 times that amount by the end of the 30-day, you know, premiere position.
+
+56
+00:06:07,200 --> 00:06:13,600
+ At the same time, all of this is happening. There is another model called mythos, which is so good
+
+57
+00:06:13,600 --> 00:06:18,720
+ at finding vulnerabilities in source code and stuff that when they started using it,
+
+58
+00:06:19,440 --> 00:06:24,560
+ even anthropic, belts a need to not give it away to everybody because they're like,
+
+59
+00:06:25,120 --> 00:06:30,400
+ because it's going to destroy security. And there are a few people in our chat right now
+
+60
+00:06:30,400 --> 00:06:36,800
+ who have been given premium access to mythos to use it. The risk of mythos being able to blow
+
+61
+00:06:36,800 --> 00:06:45,600
+ open the doors of every major, including the Linux kernel itself, is massive. Why am I sounding
+
+62
+00:06:45,600 --> 00:06:51,520
+ this alarm? Because all of these things are coming together to create an economic situation
+
+63
+00:06:52,400 --> 00:07:01,040
+ that is going to directly affect you if your job involves words. That's what a large language
+
+64
+00:07:01,040 --> 00:07:08,480
+ model is. All of this stuff is based on words. If your job uses words, you will be impacted in
+
+65
+00:07:08,480 --> 00:07:13,840
+ the next five years to the effect that you may not even have a job, but specifically the things
+
+66
+00:07:13,840 --> 00:07:18,400
+ that are currently being affected are the software jobs. Those are the first ones to be affected,
+
+67
+00:07:18,400 --> 00:07:22,880
+ but people are not even calling it vibe coding anymore in Forbes. Forbes Magazine is now calling
+
+68
+00:07:22,880 --> 00:07:31,680
+ it agentic engineering and others because that's what it is. It's using an LLM model to do your daily
+
+69
+00:07:31,680 --> 00:07:41,360
+ job, whether it be writing HR postings or writing the next software as a service in a day, which I
+
+70
+00:07:41,360 --> 00:07:47,200
+ have done. In fact, I made a storage bin organizer with a QR code that scans and uses AR so you can
+
+71
+00:07:47,200 --> 00:07:51,600
+ look at it with your camera, your glasses and see what's inside of the bin. I made that in less
+
+72
+00:07:51,600 --> 00:07:56,000
+ than six hours. In fact, it's so good. I took it private because I think I can actually get
+
+73
+00:07:56,000 --> 00:08:01,040
+ seed capital for it. That's how bad and how good it was. Is it worth $200 for me to make that
+
+74
+00:08:01,040 --> 00:08:06,240
+ application? Hell yeah. And you know what? Not just to me, to everybody else. Why do you care?
+
+75
+00:08:06,800 --> 00:08:13,920
+ Because there's a problem. There's a fly in the ointment. Who's going to pay for all this?
+
+76
+00:08:14,480 --> 00:08:20,480
+ Who's going to pay for it? We're like at a very interesting time in the world right now,
+
+77
+00:08:20,480 --> 00:08:27,680
+ where everybody is using these tools for a fraction, I mean a hundredth or more
+
+78
+00:08:29,200 --> 00:08:38,960
+ of the percentage that it takes to pay for this. And so, you know, the roosters are going to come
+
+79
+00:08:38,960 --> 00:08:45,760
+ home to rooster, whatever the saying is. And I predict that at the end of this year, enterprises
+
+80
+00:08:45,760 --> 00:08:51,680
+ will have realized two things on scale at mass. We're not just talking about the early adopter
+
+81
+00:08:51,680 --> 00:08:57,920
+ enterprises. We're talking about big worldwide traditional, you know, boring companies.
+
+82
+00:08:59,040 --> 00:09:05,680
+ They're going to realize two things. One of them is a gentic AI is the fastest way for them to make
+
+83
+00:09:05,680 --> 00:09:12,640
+ money. That's the first thing. And the second, and I'm talking across the board. I'm not at first,
+
+84
+00:09:12,640 --> 00:09:17,040
+ yeah, software first, operations, yes. But it's also an every other thing that involves words.
+
+85
+00:09:18,400 --> 00:09:23,200
+ They are going to and met a gardener group and met a who do these conferences that these big
+
+86
+00:09:23,200 --> 00:09:28,560
+ ass CEOs listen to all the time. They're already saying these things. And they are really good at
+
+87
+00:09:28,560 --> 00:09:32,880
+ convincing the upper brass that doesn't know technology things about what's coming. And they're
+
+88
+00:09:32,880 --> 00:09:41,760
+ already saying this. So number one, enterprises are going to realize that this technology can save
+
+89
+00:09:41,760 --> 00:09:50,720
+ them millions or trillions by making everybody more efficient at doing what they're doing.
+
+90
+00:09:52,240 --> 00:09:57,360
+ And the second thing they're going to realize is they can't pay for it because they don't have
+
+91
+00:09:57,360 --> 00:10:04,880
+ enough money because at the same time, oh, look, I got bubbles. Yeah, balloons. At the same time
+
+92
+00:10:04,880 --> 00:10:10,960
+ that these companies are realizing they can't live without AI, they're also going to get hit with the
+
+93
+00:10:10,960 --> 00:10:18,720
+ bill for AI. So the rates, the cost to use right now for enterprise for me, it's free.
+
+94
+00:10:19,920 --> 00:10:25,440
+ But it's not always going to be free because a topic in the gang, they're making it all free
+
+95
+00:10:25,440 --> 00:10:29,680
+ because people are still testing it out and trying to get into it. But their goal, make no
+
+96
+00:10:29,680 --> 00:10:34,800
+ mistake, their goal is to pay back that debt and make money for their shareholders. And they have a
+
+97
+00:10:34,800 --> 00:10:42,480
+ lot of debt to make up for, which means that the prices for using this agentic AI are going to
+
+98
+00:10:42,480 --> 00:10:46,880
+ skyrocket. They're going to skyrocket. They're going to go, it's not just going to be 10 times
+
+99
+00:10:46,880 --> 00:10:54,160
+ or 7.5 times like we have a 4.7 today. It's going to be like 30, 40, 50 times the cost to use it.
+
+100
+00:10:55,920 --> 00:11:00,400
+ And as soon as that happens, and I predicted will happen by the end of 2026,
+
+101
+00:11:00,400 --> 00:11:06,800
+ by the end of 2026, we are going to see these costs increase because these companies are going to
+
+102
+00:11:06,800 --> 00:11:13,680
+ start feeling confident enough to charge what they think it's worth because more and more
+
+103
+00:11:13,680 --> 00:11:20,080
+ enterprises are going to sign up for it. They already are. And so we are at a very interesting
+
+104
+00:11:20,080 --> 00:11:27,280
+ time between then and now where people like you and me can use these technologies that are going
+
+105
+00:11:27,280 --> 00:11:33,360
+ to be unattainable for most people of our technical expertise. Like being able to use the models
+
+106
+00:11:33,360 --> 00:11:40,000
+ that are coming out as on hobby projects, those days are going to end. Now they're going to end,
+
+107
+00:11:40,000 --> 00:11:44,800
+ they're eventually they'll come back, like in five, 10 years, whatever, they'll come back because
+
+108
+00:11:44,800 --> 00:11:50,160
+ the open source community will create their own versions of all these models. And the businesses
+
+109
+00:11:50,160 --> 00:11:54,800
+ want that because then they don't have to pay anthropic or open AI for that money. But there's
+
+110
+00:11:54,800 --> 00:12:00,320
+ going to be a time when they're going to jack the rate up. And this is why you care about this.
+
+111
+00:12:00,960 --> 00:12:08,880
+ Because right now is a golden time for you to teach yourself all the lessons about how to use
+
+112
+00:12:08,880 --> 00:12:14,720
+ agentic AI, everything that you need to know about it, and believe me, there are many more
+
+113
+00:12:14,720 --> 00:12:19,760
+ skills besides prompt engineering that you need to know about how to use multi-ages that I created
+
+114
+00:12:19,760 --> 00:12:24,480
+ entire summaries of this in my boost repo for you to go read about. But the biggest thing you need
+
+115
+00:12:24,480 --> 00:12:32,080
+ to learn about is how to have the agentic AI teach you how to use AI. The people that learn
+
+116
+00:12:32,080 --> 00:12:37,680
+ how to manage their knowledge in conjunction with the AI's are the ones that are going to excel.
+
+117
+00:12:38,400 --> 00:12:44,560
+ And we talked about that last week. But this is what this is a real real climax of this story. Okay.
+
+118
+00:12:46,160 --> 00:12:52,240
+ When the enterprises discover one that they will pay anything to get this because they are able to
+
+119
+00:12:52,240 --> 00:12:56,320
+ turn around solutions faster than any other company in their competition. So they'll pay anything.
+
+120
+00:12:56,960 --> 00:13:02,560
+ And they start paying anything. That means they need to find the money. Where are they going to find it?
+
+121
+00:13:04,080 --> 00:13:10,480
+ They're going to do what Oracle just did. Oracle fired 30,000 of its employees. The number one
+
+122
+00:13:10,480 --> 00:13:14,800
+ biggest expense I've lived through multiple resource actions that are doing the same thing.
+
+123
+00:13:14,800 --> 00:13:18,400
+ They don't look at your performance review. They don't look at how good a person you are.
+
+124
+00:13:18,400 --> 00:13:22,560
+ They don't look at how long you've been with the company. They look at one thing. How much do you
+
+125
+00:13:22,560 --> 00:13:30,000
+ cost and are you producing value for them in terms of dollars? Who is going to be producing
+
+126
+00:13:30,000 --> 00:13:40,480
+ the most money for the company in technology? The ones who can drive these super high expensive
+
+127
+00:13:40,480 --> 00:13:48,080
+ models. We have people in my chat today who are already experiencing this. They are not being
+
+128
+00:13:48,080 --> 00:13:55,040
+ allowed to use the expensive models at work. The staff and senior developers are.
+
+129
+00:13:58,240 --> 00:14:05,280
+ I'd be worried because then as surprises increase, where are they going to find the money? They're
+
+130
+00:14:05,280 --> 00:14:12,720
+ going to fire everybody but the engineers who are the best at using AI. They don't even have to be
+
+131
+00:14:12,720 --> 00:14:20,400
+ the best programmers. They have to be the best at making AI safely do what the company wants.
+
+132
+00:14:20,400 --> 00:14:27,440
+ They have to be fundamentally inside and out literate in the use of the high-end models and
+
+133
+00:14:27,440 --> 00:14:33,280
+ these high-end harnesses. Mostly people don't even know what the word harness means. The people
+
+134
+00:14:33,280 --> 00:14:38,480
+ who understand the terminology of AI, but not just that, they are using it actively in their daily
+
+135
+00:14:38,480 --> 00:14:43,680
+ lives. They are producing value. They are producing projects so they can show and prove it, who are
+
+136
+00:14:43,680 --> 00:14:51,600
+ regularly sitting there quietly in the meetings where everybody talks shit about AI. Guess who's
+
+137
+00:14:51,600 --> 00:14:57,680
+ going to get fired? The senior project manager above them who's responsible for the money,
+
+138
+00:14:58,880 --> 00:15:03,120
+ he or she is quietly sitting there listening to all the people who are complaining about
+
+139
+00:15:03,120 --> 00:15:09,200
+ AI. Oh wait a minute, this AI slop that. None of these people are even trying it. They're not even
+
+140
+00:15:09,200 --> 00:15:14,000
+ trying it. They're not even attempting to use it to be productive. They just don't like the
+
+141
+00:15:14,000 --> 00:15:20,400
+ existence of AI and so they're finding ways to say it's bad so they can feel better about themselves
+
+142
+00:15:20,400 --> 00:15:28,000
+ and ignore it. When it comes time to make the decision about who stays and who goes, guess who stays?
+
+143
+00:15:29,760 --> 00:15:34,960
+ The people who are adopting AI, whether you like it or not, the people who are adopting AI,
+
+144
+00:15:34,960 --> 00:15:39,520
+ the people who are getting good with it, who know how to use it, who have made the mistakes
+
+145
+00:15:39,520 --> 00:15:46,640
+ on their own and learn from them, the same as deleting your college paper and then realizing
+
+146
+00:15:46,640 --> 00:15:52,880
+ you have to make a backup. The people who are learning how to safely and productively use AI
+
+147
+00:15:52,880 --> 00:15:58,880
+ will be the ones left and they won't even be the best. They'll just be the people who are literate
+
+148
+00:15:58,880 --> 00:16:05,200
+ in AI. The people who are not literate in AI will be cut and so that manager who is sitting there,
+
+149
+00:16:05,200 --> 00:16:08,720
+ the upper, they won't even know it yet. The senior manager who has to make the decision,
+
+150
+00:16:08,720 --> 00:16:14,880
+ why not even be a technical person? I am now starting to hear middle and senior level managers
+
+151
+00:16:14,880 --> 00:16:19,280
+ saying how crappy they're, they're basically, they sound like boomers because they're like,
+
+152
+00:16:19,280 --> 00:16:23,120
+ I'm not going to use that. That's bad for them. I think fine, it doesn't matter. The person above
+
+153
+00:16:23,120 --> 00:16:27,840
+ you who's going to make the money decision is going to cut you and if you don't believe me,
+
+154
+00:16:27,840 --> 00:16:32,640
+ go read the news today. People are being cut everywhere and the people that are getting cut
+
+155
+00:16:32,640 --> 00:16:40,400
+ are the ones who don't know AI. All right, I'm done. I cannot overstate this. I'm going to get
+
+156
+00:16:40,400 --> 00:16:44,960
+ all kinds of shit in the comments because I always do. It's like, oh, it's another AI, bro.
+
+157
+00:16:44,960 --> 00:16:50,640
+ I'm not. I am a realist and I'm telling you, I have used AI to produce real value for myself
+
+158
+00:16:50,640 --> 00:16:55,920
+ and my company over the last two weeks that has fundamentally changed my opinion on all of this
+
+159
+00:16:55,920 --> 00:17:01,200
+ and made it to the point where I am going to shake people by the shoulders and say,
+
+160
+00:17:01,760 --> 00:17:07,280
+ try this shit. If you don't at least try it, then you'll never know. Stop commenting on things
+
+161
+00:17:07,280 --> 00:17:15,920
+ you don't know about. Give it a try. See if you can make it work in your life and use it safely.
+
+162
+00:17:15,920 --> 00:17:20,480
+ If you are making mistakes or you're afraid of it, that's because you don't understand how to use
+
+163
+00:17:20,480 --> 00:17:25,280
+ it. You haven't spent enough time helping it to check out itself, helping to run it in a safe
+
+164
+00:17:25,280 --> 00:17:29,120
+ environment, helping to put it into a VM. And guess what? The best thing is to teach you all that.
+
+165
+00:17:30,560 --> 00:17:36,560
+ The AI itself, the AI itself knows how to use the AI safely and will help you learn to do those
+
+166
+00:17:36,560 --> 00:17:41,600
+ things. You know, I know because I wrote five separate independent articles that I tweaked as
+
+167
+00:17:41,600 --> 00:17:47,200
+ I was going using AI that are in the boost repo right now to talk to you about these very things.
+
+168
+00:17:48,800 --> 00:17:54,800
+ So and I now now I have to talk about something. So the message from that big long rant that you
+
+169
+00:17:54,800 --> 00:18:03,600
+ probably pass forward through is one thing. Try AI as soon as possible. As soon as humanly possible,
+
+170
+00:18:04,160 --> 00:18:10,720
+ start integrating AI into everything you do if you want to be a technologist. And frankly,
+
+171
+00:18:10,720 --> 00:18:15,360
+ I think any you want to do anything that involves words. And look,
+
+172
+00:18:16,080 --> 00:18:21,200
+ am I a pro AI, bro? If you want to put a label on me like that, fine. I am here to tell you,
+
+173
+00:18:21,200 --> 00:18:25,200
+ I'm trying to help you. I'm trying to help you. I'm trying to help you because I'm sitting back
+
+174
+00:18:25,200 --> 00:18:30,080
+ listening to people who are criticizing, I who are not using it. I'm saying, yep, good luck having
+
+175
+00:18:30,080 --> 00:18:38,240
+ a job in six months. Because because the objective use of the AI, I'm putting out project reports
+
+176
+00:18:38,240 --> 00:18:44,080
+ and summations of things and strategies and develop and porting like hundreds of lines of
+
+177
+00:18:44,080 --> 00:18:48,560
+ operations like immediately stuff that I would have spent a long time even establishing whether
+
+178
+00:18:48,560 --> 00:18:51,360
+ I was going to do it or not, because it would have taken so long to actually code it. I don't have
+
+179
+00:18:51,360 --> 00:18:56,000
+ to do it anymore. I just do it because it's easy and it can be reviewed and I have to read the code.
+
+180
+00:18:56,000 --> 00:19:01,520
+ You still have to know that I code to read it. So these are these are all things that I have done.
+
+181
+00:19:01,520 --> 00:19:04,960
+ And everybody else is sitting or complaining about AI. Meanwhile, I'm getting shit done.
+
+182
+00:19:06,080 --> 00:19:12,000
+ So be a doer. Be somebody who tries it. Be somebody who gives it a shot. Be somebody who
+
+183
+00:19:12,000 --> 00:19:17,360
+ adopts it early because the people who wait are going to be fired because they're going to have
+
+184
+00:19:17,360 --> 00:19:22,720
+ less experience than the people who adopt it early. I'm done saying that I can say it. I can say
+
+185
+00:19:22,720 --> 00:19:29,360
+ that I'm blue in the face. It doesn't matter. I'm telling you, learn this stuff. And it's not
+
+186
+00:19:29,360 --> 00:19:34,480
+ you're not going to learn everything overnight, but you need to you need to like get the AI on your
+
+187
+00:19:34,480 --> 00:19:39,600
+ side to help teach you how to use the AI. And then you can become good and you can teach yourself
+
+188
+00:19:39,600 --> 00:19:45,280
+ out of code. And that brings us to the next part of the beginner boost. I'm going to take a little
+
+189
+00:19:45,280 --> 00:19:49,760
+ brief break after that rant. I know it was a long rant. It was like a 20 minute rant. If it
+
+190
+00:19:49,760 --> 00:19:57,920
+ doesn't serve its purpose, I don't care. I've done my best. All right. So after all that big rant,
+
+191
+00:19:57,920 --> 00:20:04,640
+ we have to ask a really important question. So many of you have watched my other boost videos.
+
+192
+00:20:04,640 --> 00:20:09,600
+ And I'm leaving the boost videos up there in my archive playlist. But I have to go through them.
+
+193
+00:20:09,600 --> 00:20:13,440
+ I have to go through the technologies that I taught in the in the in the beginner boost. And I have
+
+194
+00:20:13,440 --> 00:20:20,320
+ to talk about very frankly and realistically how relevant those things are now in the face of AI.
+
+195
+00:20:20,320 --> 00:20:27,680
+ And I got to tell you, I was not anticipating what I discovered. And I'm going to share that with you.
+
+196
+00:20:28,640 --> 00:20:32,480
+ And let me just to give you a sense of this. How important is it to learn them?
+
+197
+00:20:34,800 --> 00:20:40,480
+ Much less important, much less important. How important is it to learn bash? How important is
+
+198
+00:20:40,480 --> 00:20:45,600
+ it to learn the Linux terminal? How important is it to learn Tmux? We're going to go through
+
+199
+00:20:45,600 --> 00:20:49,360
+ and we're going to evaluate all the tools from the beginner boost that I've taught over several
+
+200
+00:20:49,360 --> 00:20:54,240
+ years with extreme passion for all for a number of reasons. And then we're going to talk about why
+
+201
+00:20:54,240 --> 00:21:00,880
+ those reasons have changed dramatically. And I want to show you how they've changed. Okay. So
+
+202
+00:21:03,280 --> 00:21:13,840
+ the first thing is typing. All right. Now I have to start with a story this week. So I have been
+
+203
+00:21:13,840 --> 00:21:18,720
+ spending eight to nine hours a day. I have been I've been building amazing applications on the
+
+204
+00:21:18,720 --> 00:21:23,840
+ side while I'm in meetings during my co-working. And I'm paying attention in the meeting, but I'm
+
+205
+00:21:23,840 --> 00:21:31,840
+ also babysitting agents working on projects of my own at the same time. And while I love typing,
+
+206
+00:21:31,840 --> 00:21:36,720
+ everybody knows I love typing. And there's like a whole culture around typing. Typing is optional.
+
+207
+00:21:37,920 --> 00:21:46,320
+ That's right. That's right. Hear me out. Typing is optional. And the most important tool that I
+
+208
+00:21:46,320 --> 00:21:54,320
+ would add to the list for beginner boost in 2026 is something like super whisper. So I have super
+
+209
+00:21:54,320 --> 00:21:58,880
+ whisper right now. I'm just going to mention it. I want you to go look at super whisper today.
+
+210
+00:22:00,320 --> 00:22:06,160
+ Because the method of coding in with the use of AI has become
+
+211
+00:22:07,200 --> 00:22:13,120
+ using words effectively. And so I'm going to try this right now. So we're in the beginner
+
+212
+00:22:13,120 --> 00:22:19,520
+ boosting right now. And I'm going to actually do this very thing. I'm going to use super whisper
+
+213
+00:22:19,520 --> 00:22:28,720
+ by a tip. I'm going to hold down the key. And I'm going to say. Can you help me create an article
+
+214
+00:22:28,720 --> 00:22:34,560
+ summarizing the importance of learning a tool like super whisper over obsessing with typing speed
+
+215
+00:22:34,560 --> 00:22:37,760
+ and best possible configuration of neo of import example.
+
+216
+00:22:41,840 --> 00:22:44,800
+ Enter. Could I have typed that? Yeah. Do I have to? No.
+
+217
+00:22:47,440 --> 00:22:48,960
+ Let's see what the AI comes up with.
+
+218
+00:22:52,720 --> 00:22:56,240
+ I see there's already a reference in the outline 36 to optional. Sorry, looking at the code I've
+
+219
+00:22:56,240 --> 00:23:01,280
+ already written the actual documentation. And typing matters less now.
+
+220
+00:23:02,720 --> 00:23:06,160
+ Build MCP servers. Oracle already exists and covers the topic. I'm trying to figure out
+
+221
+00:23:06,160 --> 00:23:09,840
+ whether the user wants me to expand on this. Should I expand on the missing type of matters
+
+222
+00:23:09,840 --> 00:23:13,680
+ less now and also cover the stop of sisting over neo am config angle? Yes.
+
+223
+00:23:16,800 --> 00:23:18,880
+ I just said enter, but I could have like said yes.
+
+224
+00:23:20,400 --> 00:23:24,080
+ You have any times that my job has become yes. Yes. Yes. Yes.
+
+225
+00:23:27,200 --> 00:23:32,240
+ There are people that are watching me do this. They're like, how have you possibly given in?
+
+226
+00:23:32,240 --> 00:23:38,720
+ How have you fallen so low to allow yourself to do this? How many of you have watched Star Trek
+
+227
+00:23:38,720 --> 00:23:44,480
+ or any science fiction where they're actually talking to the computer? I enter into evidence
+
+228
+00:23:44,480 --> 00:23:50,880
+ Tony Stark. Thrill me. His favorite thing to say when he wants something to like burn, you know,
+
+229
+00:23:50,880 --> 00:23:57,520
+ to make a new Tony Stark outfit? Thrill me. Tony Stark does most of his development using
+
+230
+00:23:57,520 --> 00:24:04,160
+ audio voice. We are in the Tony Stark era. We have come full circle. We are there. And if you don't
+
+231
+00:24:04,160 --> 00:24:08,560
+ buy into this fine, you can wait for three years and be behind the rest of us.
+
+232
+00:24:10,480 --> 00:24:18,320
+ The era of speaking into your AIs and your prompts is here. Conversational coding is here.
+
+233
+00:24:19,120 --> 00:24:26,160
+ Prompt engineering, agent engineering, conversational interfaces are here. And I am so glad I made
+
+234
+00:24:26,160 --> 00:24:32,800
+ Bonsai because already the AI community is latching on to my Bonsai framework because it was designed
+
+235
+00:24:32,800 --> 00:24:39,280
+ from the ground up to make conversational command line interfaces period. No dashes, no nothing.
+
+236
+00:24:39,280 --> 00:24:48,640
+ Because that is the new normal. And people who have made a living like typing really fast in like
+
+237
+00:24:48,640 --> 00:24:54,080
+ seeing their auto completion pop up and like, oh, and all these crazy stupid shit that they
+
+238
+00:24:54,080 --> 00:24:59,760
+ added in Louis to do the thing. Yeah. Okay, boomer. Enjoy using your new of them configuration. Nobody
+
+239
+00:24:59,760 --> 00:25:07,360
+ cares. In the age of the harness, the harness is the thing that we're using that that is textual
+
+240
+00:25:07,360 --> 00:25:14,240
+ that you're interacting with. Your editor doesn't matter. If you're a hacker, great. Use the editor
+
+241
+00:25:14,240 --> 00:25:22,560
+ that's on the system is even been from my position on editors has never been more valid. I have always
+
+242
+00:25:22,560 --> 00:25:29,200
+ said that being fast with the existing editor that's on a system is more important than being
+
+243
+00:25:29,200 --> 00:25:35,440
+ really, really good and fancy on a single system. In fact, I gave up using new of him this year because
+
+244
+00:25:35,440 --> 00:25:41,200
+ it's too slow to start up. It has to do tree prompting has to do all this stuff. I don't need any of
+
+245
+00:25:41,200 --> 00:25:46,160
+ that. I just needed to open a file quickly. And that's that's never been more true. I still have
+
+246
+00:25:46,160 --> 00:25:51,200
+ to edit files with AI. I just don't have to do it as often. And I can actually do things more
+
+247
+00:25:51,200 --> 00:25:55,520
+ efficiently with the AI, including like all the things you would do was said and off guess what?
+
+248
+00:25:55,520 --> 00:26:00,720
+ The AI uses said an oct and Python and parole and everything else to do the editing. And you still
+
+249
+00:26:00,720 --> 00:26:04,240
+ need to learn how those things are what they're doing. But one of the best ways to do that is
+
+250
+00:26:04,240 --> 00:26:08,880
+ watch what your AI is doing. It'll show you it'll show you how it's using pipelines and stuff.
+
+251
+00:26:08,880 --> 00:26:14,240
+ Being able to read the functions that are being passed to the Linux command line,
+
+252
+00:26:14,240 --> 00:26:19,440
+ especially pipelines and logic that has ampersands in it, we're going to go through all of that in
+
+253
+00:26:19,440 --> 00:26:23,840
+ the boost. But being able to read what is happening is more important than being able to do it,
+
+254
+00:26:23,840 --> 00:26:28,960
+ which means that the number one thing about your editor that you need is you need to be able to
+
+255
+00:26:28,960 --> 00:26:36,400
+ occasionally edit a file as effectively as you can and on anywhere that that exists in containers.
+
+256
+00:26:36,400 --> 00:26:40,880
+ The editor is not even installed usually if you want to stay with Neil have been fine. But why?
+
+257
+00:26:40,880 --> 00:26:46,400
+ What purpose? Seriously, this is a challenge to those out there. Why do you want fancy code
+
+258
+00:26:46,400 --> 00:26:54,880
+ completion in Neil VIM in 2026? If your answer is because I still edit my code using my editor.
+
+259
+00:26:56,240 --> 00:27:06,960
+ Okay, all right, that's fine. Let's go see what it's just for the article I already had written
+
+260
+00:27:06,960 --> 00:27:12,080
+ about this. Stop optimizing your editor instead of building things. The typing speed trap has a
+
+261
+00:27:12,080 --> 00:27:16,240
+ close cut because in spending weeks configuring Neil VIM chasing the perfect VMRC watching YouTube
+
+262
+00:27:16,240 --> 00:27:19,840
+ videos about someone else who will plug and set up an endlessly tweaking key bindings.
+
+263
+00:27:19,840 --> 00:27:24,160
+ The same pattern shows up in Emacs, Tmux Doc files, shell prompts and terminal color schemes.
+
+264
+00:27:24,160 --> 00:27:29,360
+ This is all stuff that I love. This is why it's so hard for me people. For me, this has been
+
+265
+00:27:29,360 --> 00:27:35,440
+ blowing up my cognitive dissonance because the things that I love, you guys all know how much I
+
+266
+00:27:35,440 --> 00:27:40,240
+ love the terminal, that doesn't matter anymore. Certain things in a terminal matter like your Tmux,
+
+267
+00:27:40,240 --> 00:27:45,440
+ and we'll talk about that in a second. This is a little overzealous on the Tmux thing. Actually,
+
+268
+00:27:45,440 --> 00:27:51,600
+ in fact, I'm going to tell it that. Can you tone it down on Tmux because Tmux is still a very relevant
+
+269
+00:27:51,600 --> 00:27:59,520
+ tool for multi-agent engineering? I think Tmux does, but
+
+270
+00:28:03,840 --> 00:28:09,440
+ even though there are other tools out there for it as well. Which ones, it's more about your
+
+271
+00:28:09,440 --> 00:28:16,880
+ harness, right? Then Tmux, I just don't know how to use harness as well. Cmux, there is conductor,
+
+272
+00:28:16,880 --> 00:28:22,960
+ Tmux, it is a relic from the past for servers, really. Yeah, I still think Tmux is worth learning,
+
+273
+00:28:22,960 --> 00:28:29,760
+ but I'm still learning about it. The same pattern shows up in Emacs, shell prompts,
+
+274
+00:28:29,760 --> 00:28:33,600
+ and terminal color schemes. None of this is building anything. It feels productive because
+
+275
+00:28:33,600 --> 00:28:36,640
+ you're learning and making decisions. You have to put in a config file, help you exit text,
+
+276
+00:28:36,640 --> 00:28:40,640
+ marginally faster. Meanwhile, the person next to you with a stroke of VS code install and super
+
+277
+00:28:40,640 --> 00:28:45,040
+ whisper shipping features by talking to their agent. Editor configuration is a form of procrastination
+
+278
+00:28:45,040 --> 00:28:50,240
+ that disguises itself as professionalism. Holy shit! I don't think there's a better quote in that
+
+279
+00:28:50,240 --> 00:28:57,120
+ entire article. People, people writing their editor instead of doing things. It signals depth to
+
+280
+00:28:57,120 --> 00:29:00,640
+ other, to other enthusiasts, but employers don't care how many plugins you have. They care whether
+
+281
+00:29:00,640 --> 00:29:05,840
+ you can deliver working software. Well said, this doesn't mean editors don't matter. Pick
+
+282
+00:29:05,840 --> 00:29:09,520
+ when it works, learn it well enough to not fight in it, and move on. The diminishing returns of
+
+283
+00:29:09,520 --> 00:29:14,160
+ editor configuration sit fast, usually within the first few hours. Everything after that is
+
+284
+00:29:14,160 --> 00:29:19,200
+ hobby time, not career investment. Couldn't have said it better myself. Learn tools that
+
+285
+00:29:19,200 --> 00:29:22,640
+ multiply your output instead. Super Whisper is a good example of a tool that actually changes
+
+286
+00:29:22,640 --> 00:29:27,680
+ how fast you work. Speaking of 200 word prompt takes about 90 seconds. Typing it takes several
+
+287
+00:29:27,680 --> 00:29:32,640
+ minutes over the course of a day spent working with AI agents voice input saves hours, not because
+
+288
+00:29:32,640 --> 00:29:37,680
+ it's a novelty, but because it removes the genuine bottleneck between your brain and the machine.
+
+289
+00:29:37,680 --> 00:29:42,720
+ The same logic applies to learning Git deeply. Understanding containers, writing good prompts,
+
+290
+00:29:42,720 --> 00:29:47,280
+ and knowing how to read code. There are tools that compound a faster niobim can pick does not
+
+291
+00:29:47,280 --> 00:29:51,920
+ compound if plateaus almost immediately. If you have an hour to invest in getting better at tech
+
+292
+00:29:51,920 --> 00:29:55,680
+ works, spend it on something that changed the shape of your workflow, not something that shapes
+
+293
+00:29:55,680 --> 00:30:05,520
+ milliseconds off keystrokes, you should be making the first place. Well said. Well said, AI.
+
+294
+00:30:07,440 --> 00:30:10,240
+ We're not touch typing. If you don't touch that at all, spending a week to learning
+
+295
+00:30:10,240 --> 00:30:14,160
+ homeroom position is worth it, not for speed, but so you can look at the screen white type,
+
+296
+00:30:14,880 --> 00:30:19,040
+ hunting and pecking while staring at the keyboard splits your attention in ways that slow things
+
+297
+00:30:19,040 --> 00:30:24,560
+ down, not just fingers. Bottom line, don't let slow typing or an unoptimized editor stop you
+
+298
+00:30:24,560 --> 00:30:28,800
+ from starting bottleneck in tech work today is thinking, not typing, and certainly not having
+
+299
+00:30:28,800 --> 00:30:33,360
+ the perfect niobim setup. Use voice input, long prompts, autocomplete per code, and save your
+
+300
+00:30:33,360 --> 00:30:36,960
+ keystrokes for the things that actually need them. Invest your learning time and tools that
+
+301
+00:30:36,960 --> 00:30:41,200
+ change the way you can do, not tools that make you marginally faster at what you already do.
+
+302
+00:30:42,160 --> 00:30:48,480
+ And that is it. That is it. So with that sentiment in mind, I'm going to go ahead and commit this.
+
+303
+00:30:49,440 --> 00:30:55,760
+ With that sentiment in mind, we now need to start looking at, look at this, it's going to
+
+304
+00:30:55,760 --> 00:31:00,000
+ commit it automatically. Look, you can study what it's going to do. It's going to cd into my directory,
+
+305
+00:31:00,000 --> 00:31:04,640
+ and if that works and if that fails, it fails. That means it's a pipe, it means it's a logic line.
+
+306
+00:31:05,280 --> 00:31:11,680
+ And then if that works, it's going to do a git add, this particular file, and then if that works,
+
+307
+00:31:11,680 --> 00:31:16,560
+ it's going to commit it with this document. This is a conventional commit. Doc's expanding
+
+308
+00:31:16,560 --> 00:31:19,600
+ the article of the thing, and it says, do you want to do that? Yes, I would. Do I don't want
+
+309
+00:31:19,600 --> 00:31:26,480
+ to type that in? No, I don't. People say, you're not really coding. I had somebody say that this
+
+310
+00:31:26,480 --> 00:31:38,880
+ week. I said, okay, boomer. If you want to spend time wasting time and say that I am not a developer
+
+311
+00:31:38,880 --> 00:31:44,160
+ because I'm not typing the actual code or the writing, and be my guest, meanwhile, I'm going to
+
+312
+00:31:44,160 --> 00:31:50,880
+ do things that matter. So they're done. The thing calls out Neobex rabbit holes, learn tools and
+
+313
+00:31:50,880 --> 00:31:55,280
+ multiply ball. All right, so here's the actual thing. It just made it committed it. This is now
+
+314
+00:31:55,280 --> 00:32:00,480
+ in my beginner boost repo. You can go look at it. And I can actually ask, did you link that
+
+315
+00:32:00,480 --> 00:32:08,800
+ from the main read me as an optional thing to read? I think it's already linked.
+
+316
+00:32:12,240 --> 00:32:17,040
+ All remarks is optional. Okay, thanks. Thank you for that. So this is now in there. Learn the
+
+317
+00:32:17,040 --> 00:32:23,840
+ tools superwister is a good example. And stuff. I mean, you can do like little things. I could
+
+318
+00:32:23,840 --> 00:32:30,400
+ do something like this. Watch this. Watch this. Hot link any reference to superwhisper to the
+
+319
+00:32:30,400 --> 00:32:34,880
+ actual page where you can get it. Make a suggestion about maybe getting lifelong membership now while
+
+320
+00:32:34,880 --> 00:32:52,320
+ you still can. And I hope that be doing this during the boost convinces somebody to try it.
+
+321
+00:32:53,520 --> 00:32:59,920
+ Uh, here's what is changing. Superwhisper has got the link there. That's good. That's fine.
+
+322
+00:32:59,920 --> 00:33:02,880
+ It's like, could I have done that by hand? Yes. Is it worth burning the tokens? Yes.
+
+323
+00:33:04,400 --> 00:33:12,720
+ It is to me. Um, I want to, you know, go rock climbing or something. Do you want to run this
+
+324
+00:33:12,720 --> 00:33:19,440
+ command? Go ahead and commit the latest changes. Yes. The thing, I hope you're seeing the fact that
+
+325
+00:33:19,440 --> 00:33:25,200
+ what this is doing is this is enabling me to do things ridiculously quickly. And that
+
+326
+00:33:26,000 --> 00:33:32,640
+ reduces the tension, the mental tension to want to make a change. Because it's so easy,
+
+327
+00:33:32,640 --> 00:33:37,440
+ I can make the changes that I've always wanted to make that I didn't have the time or I wouldn't
+
+328
+00:33:37,440 --> 00:33:42,880
+ dream of doing, including big ones. Like I re-implemented an entire project that was in Python and Bash
+
+329
+00:33:42,880 --> 00:33:47,920
+ and go in less than an hour because I was able to, if I had not to go through and write all that
+
+330
+00:33:47,920 --> 00:33:51,600
+ code and understand it, I would have had to architected everything. I didn't have to do any of that.
+
+331
+00:33:51,600 --> 00:33:57,120
+ And the code's fantastic. I read through the code myself to check it. So, you know, it's like,
+
+332
+00:33:57,840 --> 00:34:02,160
+ and there we go. Now we have a link. I mean, that took less than, less than two minutes.
+
+333
+00:34:03,120 --> 00:34:08,800
+ So, um, this is kind of where we're at. And I just, I wanted to make that point really quick.
+
+334
+00:34:09,360 --> 00:34:12,880
+ All right. So let's actually go through the list of tools that are from the boost effect.
+
+335
+00:34:12,880 --> 00:34:17,520
+ I'm going to do this right now. Can you summarize the tools that I normally teach
+
+336
+00:34:17,520 --> 00:34:23,040
+ from previous beginner boosts and make a, an evaluation for how important they are today
+
+337
+00:34:23,040 --> 00:34:27,200
+ to still learn and what the better tools might be to learn instead.
+
+338
+00:34:31,680 --> 00:34:38,960
+ Include things like harnesses, models, Git, and such things.
+
+339
+00:34:44,480 --> 00:34:47,280
+ I got boost wrong, but it'll fix some swelling. He'll do that.
+
+340
+00:34:54,160 --> 00:35:00,080
+ Focus on tools that were taught in previous beginner boosts and if necessary, you can look
+
+341
+00:35:00,080 --> 00:35:10,000
+ in other branches from previous years.
+
+342
+00:35:15,120 --> 00:35:24,560
+ You can include the rbx-rob/skill-stack, S-K-I-L-S-T-A-K repo in your evaluation.
+
+343
+00:35:38,400 --> 00:35:42,080
+ All right. And this is why I need to have two agents running because I could be doing
+
+344
+00:35:42,080 --> 00:35:47,280
+ something else while it's thinking, right? And that's why I have this going on, right?
+
+345
+00:35:48,160 --> 00:35:52,720
+ In fact, I might actually work on some of my TW issues right now.
+
+346
+00:35:56,480 --> 00:36:06,560
+ Create an issue about chat messages from the admin PWA being duplicated both on Twitch and
+
+347
+00:36:06,560 --> 00:36:15,360
+ in the log output view. All right. Let's go back and read what it came up with.
+
+348
+00:36:16,160 --> 00:36:20,240
+ All right. Here's the second.
+
+349
+00:36:23,680 --> 00:36:39,600
+ Did you include skill stack in your evaluation?
+
+350
+00:36:42,560 --> 00:36:48,000
+ It's using the mcp server. Actually, it's reading the content.
+
+351
+00:36:54,400 --> 00:37:01,200
+ Yep. And I'm going to go take a peek.
+
+352
+00:37:06,000 --> 00:37:09,200
+ Accomplices the tools traditionally taught on skills stack previous boosts,
+
+353
+00:37:09,200 --> 00:37:11,600
+ typing keyboard skills, basic learning how to really type.
+
+354
+00:37:12,800 --> 00:37:16,240
+ Or skills stack previous boost, get up, throughput, like, god damn, it's like
+
+355
+00:37:16,240 --> 00:37:17,600
+ summarizing everything so well.
+
+356
+00:37:24,080 --> 00:37:29,680
+ I can actually have it study the content of my previous videos and I can actually have it
+
+357
+00:37:29,680 --> 00:37:33,040
+ look at the transcripts of the videos and figure that out if it actually, if I wanted to give it
+
+358
+00:37:33,040 --> 00:37:39,920
+ even more detail. I feel like it's covering most of it though. New network fundamentals,
+
+359
+00:37:39,920 --> 00:37:45,040
+ Kubernetes, Ansible, Homelab hardware, skill stack method, tracking.
+
+360
+00:37:47,360 --> 00:37:54,560
+ Let's create the article still and again, I can still do it.
+
+361
+00:37:58,480 --> 00:38:00,000
+ Each of us should appear exactly once.
+
+362
+00:38:03,120 --> 00:38:07,520
+ Yep. I need to build that command.
+
+363
+00:38:16,320 --> 00:38:20,880
+ Create an issue to reduce the number of default historical messages to
+
+364
+00:38:23,360 --> 00:38:25,520
+ one and a half screenfuls on a mobile phone.
+
+365
+00:38:33,200 --> 00:38:34,880
+ All right. Let's read the article I came up with.
+
+366
+00:38:37,680 --> 00:38:40,880
+ And this is based on the data and the stuff that I've been writing. You should see the whole
+
+367
+00:38:40,880 --> 00:38:46,160
+ stuff we learned today about literary writing and training your own model against your
+
+368
+00:38:46,160 --> 00:38:51,120
+ own writing and your favorite literary influences and style guidelines in order to use it to write
+
+369
+00:38:51,120 --> 00:38:56,720
+ in your same voice. Boost tools in and now, the beginning of this has been running since 2020,
+
+370
+00:38:56,720 --> 00:39:00,160
+ skill stack has been teaching text skills since 2013. Over the years, the tools and skills were
+
+371
+00:39:00,160 --> 00:39:03,840
+ taught bald, the arrival of Gentige has forced the sharpest reassessment yet.
+
+372
+00:39:05,280 --> 00:39:08,400
+ Some tools that were one central have become optional, others that it seemed like power
+
+373
+00:39:08,400 --> 00:39:12,720
+ user luxuries are now essential. And some in China, we need categories of appear that did not
+
+374
+00:39:12,720 --> 00:39:16,960
+ exist in previous booths. Here's the honest evaluation of every tool and skill in the
+
+375
+00:39:16,960 --> 00:39:21,440
+ booth and skill stack up traditionally covered how important each one is today and what you
+
+376
+00:39:21,440 --> 00:39:26,560
+ should prioritize instead of something when something has shifted more important than ever.
+
+377
+00:39:26,560 --> 00:39:32,960
+ Get and get up. Oh my God. I totally agree. I totally agree. The single most important skill
+
+378
+00:39:32,960 --> 00:39:38,400
+ is get and get up. You have to get get and get up before you can get co-pilot and before you can
+
+379
+00:39:38,400 --> 00:39:44,240
+ start even we're having any sort of agentic AI work on your code and your knowledge by putting
+
+380
+00:39:44,240 --> 00:39:49,280
+ it into a gear repo so that you can revert it. This idea of managing knowledge is source.
+
+381
+00:39:49,280 --> 00:39:53,840
+ Okay. I'm going to actually add it. I'm going to add some tweaks to it. I have some tweaks to add
+
+382
+00:39:53,840 --> 00:40:02,800
+ already. I'm going to go add my tweaks. Add something about get and get up being important
+
+383
+00:40:02,800 --> 00:40:10,000
+ because knowledge is managed as source code these days with revision history and everything
+
+384
+00:40:10,000 --> 00:40:21,600
+ more now than ever. Include a strong emphasis on markdown, get a flavored markdown because
+
+385
+00:40:21,600 --> 00:40:27,760
+ it is the language of knowledge that can be revised. Make sure people learn that instead of
+
+386
+00:40:27,760 --> 00:40:37,200
+ proprietary tools like anything from Microsoft Word. All right. We'll let that word for a second.
+
+387
+00:40:39,200 --> 00:40:43,920
+ Let's see what the proposed solution is. Okay. So, when opening an admin PDBH app,
+
+388
+00:40:43,920 --> 00:40:47,440
+ you may have started a commission or a loaded by default. I'm going to phone this means a long
+
+389
+00:40:47,440 --> 00:40:50,160
+ scroll of history to reach the current conversation. Make it hard to catch up.
+
+390
+00:40:50,960 --> 00:40:54,240
+ Reduce the default number of historical shot messages on initialness so they feel roughly
+
+391
+00:40:54,240 --> 00:40:59,760
+ 1.5 screenfalls on a typical mobile device. It has to be configured by a VOSMR.
+
+392
+00:41:00,800 --> 00:41:04,640
+ Acceptous criteria to follow the circumstances of capture. This is exactly what I want. Thank you.
+
+393
+00:41:08,320 --> 00:41:20,960
+ Okay. We want to, I'm working on two things at once, create an issue to remove the mute button
+
+394
+00:41:21,760 --> 00:41:29,600
+ next to the send a message field on the chat log view.
+
+395
+00:41:34,960 --> 00:41:39,040
+ All right. Let's read the latest that came up with.
+
+396
+00:41:48,000 --> 00:41:54,160
+ But the beginning of this has been running since 2021.
+
+397
+00:41:54,160 --> 00:41:57,920
+ It's been, Git has been in every boost since the beginning. It was always important. Now,
+
+398
+00:41:57,920 --> 00:42:02,080
+ it is the foundation of everything. Every agenda guy I work for runs on top of Git,
+
+399
+00:42:02,080 --> 00:42:06,640
+ agents commit def branches and revert constantly. GitHub is where your proof of work lives,
+
+400
+00:42:06,640 --> 00:42:11,040
+ where employers look, where AI agents operate in a lay through GitHub and GitHub actions,
+
+401
+00:42:11,040 --> 00:42:13,760
+ Git work trees, which were barely mentioned in previous booths.
+
+402
+00:42:14,720 --> 00:42:18,240
+ booths are now essential for running multiple agents in parallel in the same repo.
+
+403
+00:42:18,240 --> 00:42:22,240
+ But Git is no longer just a tool. Knowledge itself is now managed in source code.
+
+404
+00:42:22,240 --> 00:42:25,600
+ Your notes, your documentation, your learning journal, your personal knowledge base, all of
+
+405
+00:42:25,600 --> 00:42:30,320
+ it belongs in Git repos with full revision history. Every change is tracked. Every version is recoverable
+
+406
+00:42:30,320 --> 00:42:34,320
+ and collaboration happens to pull requests and issues. This is how professional management
+
+407
+00:42:34,320 --> 00:42:40,080
+ of knowledge happens now. This is how you should manage yours from day one. Again,
+
+408
+00:42:40,080 --> 00:42:44,240
+ a repo full of well organized markdown files beats any proprietary neural kicking app because
+
+409
+00:42:44,240 --> 00:42:48,400
+ you own it. You can search it, you can version it, and no company can take it away from you or
+
+410
+00:42:48,400 --> 00:42:54,160
+ change the format out from under you. Then, important tool, now you had to see back then,
+
+411
+00:42:54,160 --> 00:42:58,960
+ important tool you had to learn for code. Now, the single most important tool in your stack for
+
+412
+00:42:58,960 --> 00:43:03,440
+ code, knowledge, documentation, and everything else, markdown. Every boost taught markdown as
+
+413
+00:43:03,440 --> 00:43:07,520
+ part of web development and note taking, it was always useful. Now, it is something more fundamental.
+
+414
+00:43:07,520 --> 00:43:12,720
+ Markdown is the language of knowledge. Every read me, every agents on MD, every obsidian ball,
+
+415
+00:43:12,720 --> 00:43:17,200
+ every GitHub issue, every AI prompt, every piece of documentation that matters is written in Markdown.
+
+416
+00:43:17,200 --> 00:43:21,920
+ It is plain text, which means it works with Git. It works with grep. It works with AI. It will
+
+417
+00:43:21,920 --> 00:43:26,320
+ still be readable in 50 years. No proprietary format can make the promise. Learn GitHub flavor
+
+418
+00:43:26,320 --> 00:43:30,240
+ Markdown specifically. Do not waste time learning Microsoft Word, Google Docs, or any other proprietary
+
+419
+00:43:30,240 --> 00:43:34,480
+ document format for your own knowledge work. Those tools lock into thinking inside someone else's
+
+420
+00:43:34,480 --> 00:43:38,560
+ software. Markdown files are yours. They live in your Git repo with full revision history. They
+
+421
+00:43:38,560 --> 00:43:42,800
+ are under beautiful and obsidian in GitHub, in any static site generator, and in every terminal.
+
+422
+00:43:42,800 --> 00:43:47,680
+ They are the universal format for human and AI communication. If you take one thing from the
+
+423
+00:43:47,680 --> 00:43:52,480
+ boost, make it this, write everything in Markdown stored in Git and never depend on a proprietary
+
+424
+00:43:52,480 --> 00:43:58,880
+ tool for your own knowledge again. Then basic web skill and note taking format. Now, the lingua
+
+425
+00:43:58,880 --> 00:44:02,800
+ franca of AI assisted development, knowledge management, and professional communication.
+
+426
+00:44:03,760 --> 00:44:08,400
+ Terminal and CLI Florence fluency. Every boost spent significant time on terminal basic
+
+427
+00:44:08,400 --> 00:44:14,080
+ file system navigation processes, that in, that out, that they're permissions, the whole PWA CD thing.
+
+428
+00:44:14,080 --> 00:44:18,000
+ This investment pays off more now than ever. A Gentic AI lives in the terminal.
+
+429
+00:44:18,000 --> 00:44:23,120
+ GitHub co-pilot CLI cloud code every serious AI coding tool runs in a terminal application.
+
+430
+00:44:23,120 --> 00:44:27,760
+ You need to read output, understand exit codes, spot failures, bury, bury, and log output and not
+
+431
+00:44:27,760 --> 00:44:32,800
+ panic when something goes wrong silently. Then it was core curriculum, the terminal velocity section.
+
+432
+00:44:32,800 --> 00:44:36,640
+ It's even more central. The terminal is now the primary interface for AI assisted work.
+
+433
+00:44:38,320 --> 00:44:42,640
+ Tmux. Previous first type, Tmux is terminal multiplex or anti-forkeeping sessions live in
+
+434
+00:44:42,640 --> 00:44:47,200
+ splitting pains. Skills Act Linux MD even showed synchronizing pains for configuring multiple
+
+435
+00:44:47,200 --> 00:44:52,160
+ machines at once. That was useful. What Tmux has become is something else entirely. A multi-agent
+
+436
+00:44:52,160 --> 00:44:56,960
+ orchestration layer, multiple agent AI agents and parallel Tmux pains scripting them with send keys,
+
+437
+00:44:56,960 --> 00:45:04,960
+ managing work trees with cross sessions. This is exactly what the mare, what is it called?
+
+438
+00:45:06,000 --> 00:45:09,920
+ The mare application does. It uses Tmux to do all this.
+
+439
+00:45:09,920 --> 00:45:13,600
+ There's a real multi-agent workflow and it beats every Google tool that's right on the problem.
+
+440
+00:45:16,400 --> 00:45:20,080
+ I have something to add here. I have to go all the way to bottom.
+
+441
+00:45:22,880 --> 00:45:32,000
+ Please make sure to mention that the session maintenance with a remote system during terminal
+
+442
+00:45:32,000 --> 00:45:45,040
+ crashes is still valuable for Tmux as well. Since using Tmux and even screen is still
+
+443
+00:45:45,680 --> 00:45:51,520
+ a common way to keep a running process on a remote system even after you're disconnected.
+
+444
+00:45:52,880 --> 00:46:00,080
+ All right, let's see. I want to have that updated a little bit.
+
+445
+00:46:01,840 --> 00:46:03,760
+ Accept this criteria. Do you want to run this command?
+
+446
+00:46:05,760 --> 00:46:09,680
+ I'm switching gears there. Jesus, you create pics, remove the mute button from the chat
+
+447
+00:46:09,680 --> 00:46:16,000
+ sunfield. There's a mute button. Especially, do you want to run this here? Yes. I'm just making
+
+448
+00:46:16,000 --> 00:46:19,920
+ issues for stuff that I'm thinking about that I want to work on later. I'm using GitHub for that.
+
+449
+00:46:20,480 --> 00:46:24,880
+ It's using the GitHub command line to create the issues. Which is another reason GitLab is not
+
+450
+00:46:24,880 --> 00:46:34,160
+ even a thing. I'm actually going to put that in here. Adam mentioned that GitLab is no longer
+
+451
+00:46:34,160 --> 00:46:40,160
+ relevant at all because it can't be used with AI. There's no GitHub command line tool for GitLab.
+
+452
+00:46:49,440 --> 00:46:55,040
+ All right. What else can I do? I created issue 99. I'm trying to think if there was some
+
+453
+00:46:55,040 --> 00:47:05,360
+ other issue with the UI that I was trying to do. I think we got the pinch thing.
+
+454
+00:47:19,600 --> 00:47:24,240
+ Create an issue
+
+455
+00:47:30,320 --> 00:47:40,800
+ to show the current number of users and bit rate when available.
+
+456
+00:47:46,160 --> 00:47:50,720
+ And number of moderators in the chat and number of VIPs in the chat
+
+457
+00:47:53,360 --> 00:48:01,360
+ as a summary at the top of the chat log.
+
+458
+00:48:10,320 --> 00:48:16,640
+ All right. Let's go read it again, see where it changed. A lot of hardware typing speed.
+
+459
+00:48:18,240 --> 00:48:21,840
+ Stimulancy assist data formats. That's still important. Yeah.
+
+460
+00:48:23,840 --> 00:48:28,400
+ Okay. T-mucks. Turn on C-line fluency.
+
+461
+00:48:31,120 --> 00:48:34,240
+ Something's on top of that. Let's see. If your connection drops, the process keeps running,
+
+462
+00:48:34,240 --> 00:48:39,120
+ reattach later and blah. Essential for both, it's a real purpose and the best multi-language
+
+463
+00:48:39,120 --> 00:48:42,880
+ orchestration to available reading code. It was always taught reading code, but it was bundled
+
+464
+00:48:42,880 --> 00:48:49,040
+ with learning to write code. Those two skills now have diverged completely. I have something to add
+
+465
+00:48:49,040 --> 00:49:08,960
+ right away. Add emphasis to learn to read the code that is most likely to be
+
+466
+00:49:08,960 --> 00:49:17,840
+ in the language model that is being used. This means languages like Python and Go,
+
+467
+00:49:20,800 --> 00:49:28,880
+ which have large code bases as well as web languages are more likely to work.
+
+468
+00:49:31,600 --> 00:49:41,280
+ Compare writing a multi-process daemon in bash to Python, for example.
+
+469
+00:49:44,400 --> 00:49:51,840
+ Also make a reference to languages which are easy to parse because of their simple syntax are
+
+470
+00:49:53,120 --> 00:50:00,240
+ less expensive when doing agent engineering and easier to review and scan
+
+471
+00:50:01,440 --> 00:50:04,960
+ during the agent driven development.
+
+472
+00:50:13,200 --> 00:50:20,320
+ All right. Propose solution. Okay. When using the advocate of your chat view,
+
+473
+00:50:20,320 --> 00:50:25,120
+ there is no quick glance at stream health status. Broadcast for us to leave a chat view to check
+
+474
+00:50:25,120 --> 00:50:33,040
+ view count and bit rate. Add a compact summary bar at the top of the chat log view showing.
+
+475
+00:50:42,240 --> 00:50:50,800
+ Add a note to make this a generic part of all log view types
+
+476
+00:50:53,040 --> 00:51:00,880
+ that can be omitted simply by not adding fields to it.
+
+477
+00:51:03,440 --> 00:51:11,280
+ It should always be just text and emojis and very small with relation to
+
+478
+00:51:12,800 --> 00:51:24,720
+ the other chat content and should never scale with the main content.
+
+479
+00:51:24,720 --> 00:51:27,280
+ All right. Let's go back and read where they came up with now.
+
+480
+00:51:29,040 --> 00:51:35,520
+ Less speed, Linux, HTML, CSS, bash scripting. Okay. So
+
+481
+00:51:40,240 --> 00:51:44,160
+ reading code. Okay. We always thought about reading code. The developers who get burned
+
+482
+00:51:44,160 --> 00:51:47,680
+ are the ones who stopped reading output and started just running it. Reading code, reading
+
+483
+00:51:47,680 --> 00:51:51,360
+ diffs, reading terminal output. This is now the single most valuable technical skill you can have.
+
+484
+00:51:52,560 --> 00:51:58,480
+ I mean, is it? I don't think so. That's like overstating it.
+
+485
+00:52:05,520 --> 00:52:13,840
+ Stop being so hyperbolic about everything. Reward stuff so that it's more
+
+486
+00:52:18,560 --> 00:52:19,040
+ accurate.
+
+487
+00:52:25,840 --> 00:52:30,800
+ For example, you said learning to read diffs is the most important skill you could have,
+
+488
+00:52:30,800 --> 00:52:37,280
+ but in fact, the most important skill you could have is thinking creatively about solutions
+
+489
+00:52:38,880 --> 00:52:53,520
+ and drawing corollaries between different systems to create efficiencies that bring value.
+
+490
+00:52:56,160 --> 00:53:03,920
+ All right. So let's see what this said now. When using the admin PWA, there is a quick glance
+
+491
+00:53:03,920 --> 00:53:09,840
+ with Sifova as to leave the chat variable game. Add a generic fixed summary bar component at the
+
+492
+00:53:09,840 --> 00:53:14,880
+ top of log style views. The bar is a reasonable component shared across all log view types,
+
+493
+00:53:14,880 --> 00:53:19,360
+ chat, debug, et cetera, displays key bag fields in its pocket. What I'm talking about, by the way,
+
+494
+00:53:19,360 --> 00:53:25,840
+ for those of you who want to know, is this thing here. So this is the, I had the agents,
+
+495
+00:53:25,840 --> 00:53:32,400
+ this was entirely coded with AI. I didn't code any of this. And this actually is a full chat
+
+496
+00:53:32,400 --> 00:53:39,520
+ bot with all of the colors and everything. And down here, I can test different things. I can,
+
+497
+00:53:39,520 --> 00:53:44,080
+ I can list only the priority people. I can take out the different events and only see the chat.
+
+498
+00:53:45,200 --> 00:53:49,680
+ And that was all coded with a Gentic AI. I can jump back and forth between the home.
+
+499
+00:53:49,680 --> 00:53:52,880
+ I can click on my settings. So I can do all this from my phone from anywhere.
+
+500
+00:53:52,880 --> 00:54:02,320
+ I can change the category. I can, I can go to RTRL, RTRL.com and go see where I am on the map.
+
+501
+00:54:02,320 --> 00:54:10,640
+ Here, this API for RTRL is unpublished. And the AI reverse engineered the push API
+
+502
+00:54:10,640 --> 00:54:18,400
+ that was used by the application to, to generate the GPS location in order to allow me to immediately
+
+503
+00:54:18,400 --> 00:54:27,360
+ push, activate it and push to the RTRL by just clicking on a button. So it's not letting me push,
+
+504
+00:54:27,360 --> 00:54:33,120
+ push right now, which is probably because I just added, I just added a new scene switcher.
+
+505
+00:54:33,120 --> 00:54:38,800
+ This will turn my clips on. So if I tap that today, I turn it clips off.
+
+506
+00:54:39,920 --> 00:54:46,880
+ I have all of my bugs right here. I can simulate subscribe events. Yep. And I can get this, get
+
+507
+00:54:46,880 --> 00:54:52,800
+ notified audibly by the whole thing. And this entire thing was built in less than a few hours
+
+508
+00:54:53,760 --> 00:54:59,200
+ by using AI and reviewing the code as I went as much as possible. It's still in POC mode,
+
+509
+00:54:59,200 --> 00:55:04,160
+ which means it's not final. But when it is final, I will review every single line of code that's
+
+510
+00:55:04,160 --> 00:55:10,000
+ there and go through it. So, so that's what I'm working on on the side while I'm also doing
+
+511
+00:55:10,000 --> 00:55:14,240
+ the beginner boost stuff. But yeah, I was trying to show you if I, if I tap, I think I might have
+
+512
+00:55:14,240 --> 00:55:20,000
+ to refresh actually. Yeah, I haven't, I haven't updated this in a while. You have to refresh it
+
+513
+00:55:20,000 --> 00:55:24,560
+ every time. I don't know if the push button is on. No, the push button is not enabled right now.
+
+514
+00:55:24,560 --> 00:55:29,280
+ I think it only allows me to put the push button on when the IRL stream is the, is the topic that
+
+515
+00:55:29,280 --> 00:55:34,240
+ was a recent change. So I was going to try to show it to you without, with the main screen. So that
+
+516
+00:55:34,240 --> 00:55:37,920
+ sounds like all, I sounds like another issue. I'm going to add, I'll go add it right now.
+
+517
+00:55:39,680 --> 00:55:45,280
+ I'm going to go add the issue right now. Let's go through the boost though. So let's go back to
+
+518
+00:55:45,280 --> 00:55:51,200
+ the boost. I'm, well, before I forget, I want to add this to, wait, which one is that?
+
+519
+00:55:52,320 --> 00:55:56,480
+ Which one am I listening to? I'm going to, I see these little robot things. That means that
+
+520
+00:55:56,480 --> 00:56:00,480
+ there's a robot prompt for me to go look at, and it puts notifications in my Tmux windows.
+
+521
+00:56:01,120 --> 00:56:05,200
+ Boost, so we're going to do that. Boost writing tool evaluation article,
+
+522
+00:56:05,200 --> 00:56:12,560
+ Tmux creating get a issue. Okay, so that's, yeah. Okay, that reusable components, this is,
+
+523
+00:56:12,560 --> 00:56:17,040
+ I want this, yes. All right, so, and then we're going to make, I'm going to make another issue
+
+524
+00:56:17,040 --> 00:56:17,520
+ really quick.
+
+525
+00:56:24,720 --> 00:56:32,800
+ Create an issue to allow sending GPS and RTRL data, even when not using one of the IRL scenes.
+
+526
+00:56:35,760 --> 00:56:43,120
+ All right, so let's go read this again. I reworded it to, like, be less hyperbolic. I
+
+527
+00:56:43,120 --> 00:56:46,880
+ could probably should read the whole article again, but I'm going to try to scan it. I don't
+
+528
+00:56:46,880 --> 00:56:52,080
+ want to waste the release time, but hopefully this will give you a document that you can go
+
+529
+00:56:52,080 --> 00:56:56,480
+ read right away and follow after this boost is over, which is in a few minutes.
+
+530
+00:56:57,200 --> 00:57:05,040
+ So, boost tools in and now, the bigger this is running, blah, that's the seven-time category, so I'm
+
+531
+00:57:05,040 --> 00:57:11,600
+ excited to do this, okay? Okay, here's an honest evaluation of every major tool.
+
+532
+00:57:12,720 --> 00:57:17,840
+ Before getting specific tools or saying, you see how it used sentence case here? That's because I
+
+533
+00:57:17,840 --> 00:57:22,640
+ set, I set up in my agentic template to use sentence case anytime I was using Markdown.
+
+534
+00:57:22,640 --> 00:57:28,000
+ You see how it's using single lines for my paragraph? So, they're easier to read and wrap.
+
+535
+00:57:28,000 --> 00:57:32,960
+ That's also a generic rule across the board that I put in my agent, my agent sign, deep file,
+
+536
+00:57:32,960 --> 00:57:38,080
+ and my agentic template. These are skills managing and a centralized agentic template that has your
+
+537
+00:57:38,080 --> 00:57:45,360
+ preferences is a skill that's just as important as learning how to use Tmux or VIN in 2026,
+
+538
+00:57:45,360 --> 00:57:50,800
+ learning how to put your preferences into something that's going to be used every time AI fires up.
+
+539
+00:57:51,360 --> 00:57:57,280
+ It's called context management. Before doing a thing, more important than ever,
+
+540
+00:57:57,280 --> 00:58:05,600
+ get a note. Okay, so, just a tool that I'm going to change. I trust a note on GitHub specifically.
+
+541
+00:58:06,800 --> 00:58:10,240
+ The boost is always recommended GitHub over alternatives. The AI and the AI era has made the
+
+542
+00:58:10,240 --> 00:58:14,720
+ recommendation stronger GitHub co-pilot. JCL, I get up actions in the agenda guy ecosystem,
+
+543
+00:58:14,720 --> 00:58:19,040
+ or built on GitHub. GitLab has no equivalent command line tool, no native AI agent integration,
+
+544
+00:58:19,040 --> 00:58:22,800
+ and no clear path for an agentic workflow that defines modern development. If you are starting
+
+545
+00:58:22,800 --> 00:58:28,080
+ fresh, GitHub is the right choice. Good. I asked it to add that. Foundation for code
+
+546
+00:58:28,080 --> 00:58:31,680
+ knowledge management documentation and agentic workflows should be good. It doesn't matter what
+
+547
+00:58:31,680 --> 00:58:36,400
+ you think about the company. It doesn't. Every boost top markdown as part of the web development
+
+548
+00:58:36,400 --> 00:58:44,560
+ note-taking, this is the same thing as before. Learn GitHub flavored, pretend or format for AI.
+
+549
+00:58:44,560 --> 00:58:50,080
+ Yeah, terminal CLI. Learn that. Okay, Tmux. Look at that.
+
+550
+00:58:51,840 --> 00:58:56,560
+ Reading code. This is the one I asked it to dial down a bit. Boost always taught reading code and
+
+551
+00:58:56,560 --> 00:59:00,880
+ bundling it to write code. But it was bundled with learning to write code. Those two skills have
+
+552
+00:59:00,880 --> 00:59:05,600
+ diverged. AI writing writes most of the code now. Your job is to direct it. Verify what it produces
+
+553
+00:59:05,600 --> 00:59:09,920
+ and cache mistakes before they ship. The ability to scan a diff, trace logic, and spot when something
+
+554
+00:59:09,920 --> 00:59:15,520
+ is off is a core part of working with AI agents effectively. This is more important than knowing
+
+555
+00:59:15,520 --> 00:59:20,800
+ how to write code or type bust, is knowing how to read what the code is, what's happening and
+
+556
+00:59:20,800 --> 00:59:25,440
+ how it's changing the code. Those dips that we've been looking at, we're looking at a dip right now.
+
+557
+00:59:25,440 --> 00:59:29,760
+ What do the pluses mean? Why aren't they there? How can I make sense of that? What is, you know,
+
+558
+00:59:29,760 --> 00:59:34,800
+ all of these things, these are all way more important than knowing even how to configure
+
+559
+00:59:34,800 --> 00:59:40,400
+ the Neo-Vim. This does not replace creative thinking and systems reasoning. There are still the skills that some people generally value
+
+560
+00:59:40,400 --> 00:59:43,760
+ of. But reading code is the mechanism prerequisites that applies to think care.
+
+561
+00:59:44,800 --> 00:59:49,440
+ Then part of learning to code. Now a critical verification skill that sits alongside creative
+
+562
+00:59:49,440 --> 00:59:56,480
+ problem solving containers. We've done containers many, many times. I'm going to go ahead and save
+
+563
+00:59:56,480 --> 01:00:02,320
+ this one. All right. So, skills act taught us to see containers early on and the boost was moved
+
+564
+01:00:02,320 --> 01:00:09,680
+ to Podman. Containers are how modern software ships, every CI/CD pipeline, every cloud development,
+
+565
+01:00:09,680 --> 01:00:13,520
+ every reproducible dev environment, Gente Gei makes this even more true because
+
+566
+01:00:13,520 --> 01:00:18,800
+ agents often run inside containers for isolation and reproducibility. Because you want them to do
+
+567
+01:00:18,800 --> 01:00:22,720
+ safely. Then important for off-shark is that's what everyone learning at OSAC and playing
+
+568
+01:00:22,720 --> 01:00:27,840
+ container engine. Okay. So it missed something and I'm going to ask you to add it to ask that.
+
+569
+01:00:32,320 --> 01:00:38,560
+ Add something about learning to use containers and VMs that is essential to running
+
+570
+01:00:39,920 --> 01:00:47,520
+ powerful, agentic, automatic AI workflows safely without risk to host systems.
+
+571
+01:00:52,000 --> 01:00:58,800
+ Okay. So I wanted to like fix that one section a little bit for the issue. All right. So what
+
+572
+01:00:58,800 --> 01:01:11,680
+ other issues can we go into? Yeah. I don't think I already have one for that. Was it still working?
+
+573
+01:01:11,680 --> 01:01:22,000
+ Okay. Do we have an issue for screenshot snapshots of OBS to preview what people are seeing?
+
+574
+01:01:28,800 --> 01:01:45,920
+ Yeah. It's works in open code. Right now, I don't know about open code. I know about GitHub
+
+575
+01:01:45,920 --> 01:01:50,240
+ co-pilot because that's supported at my work. That's the one I recommend people learn first.
+
+576
+01:01:51,440 --> 01:02:03,280
+ Have you made me a burger? I know. I almost good. All right.
+
+577
+01:02:22,320 --> 01:02:26,960
+ The containers. Here we go. It's got like the containers in the booth room from public containers
+
+578
+01:02:26,960 --> 01:02:31,840
+ or how shop for ships block. Jenna guys, add a new dimension. When you give an AI agent access
+
+579
+01:02:31,840 --> 01:02:35,040
+ to your terminal, it can run arbitrary commands on your system and containers and virtual machines
+
+580
+01:02:35,040 --> 01:02:39,360
+ provide the isolation layer that makes it safe. Running agents inside a container or VM means
+
+581
+01:02:39,360 --> 01:02:43,440
+ they can sell packages, modify files, execute code and make mistakes without the risk to your
+
+582
+01:02:43,440 --> 01:02:47,840
+ system. This is not theoretical. It is how responsible agentic workflows operate in practice.
+
+583
+01:02:47,840 --> 01:02:52,240
+ Understanding containers and VMs is no longer just about deployment. It's about safely running
+
+584
+01:02:52,240 --> 01:02:56,240
+ powerful automatic AI workflows that would be reckless to run directly on your machine.
+
+585
+01:02:58,160 --> 01:03:09,760
+ To ask me how I know, I blew away my OBS not doing this. Yeah. So, you know, learn those lessons
+
+586
+01:03:09,760 --> 01:03:15,920
+ early. And now before you do that at work, I have blown away so many systems in my home lab.
+
+587
+01:03:16,480 --> 01:03:22,880
+ Guess what? I didn't blow those same systems away at work because I blew them away in my home lab
+
+588
+01:03:24,000 --> 01:03:30,880
+ or on my laptop. So, I have been learning about the powers of root access to gentic AI firsthand
+
+589
+01:03:32,000 --> 01:03:36,720
+ by trying it and learning from it. And I am encouraging you to do the same.
+
+590
+01:03:39,280 --> 01:03:41,360
+ Cloud code is also, I'm not using Cloud code right now.
+
+591
+01:03:43,200 --> 01:03:50,480
+ Cloud code, I prefer a gentic open AI. I prefer to cloud model running on the
+
+592
+01:03:50,480 --> 01:03:58,160
+ GitHub co-pilot harness. That's my current preference. All right. So, because I can use it at work,
+
+593
+01:03:58,160 --> 01:04:04,560
+ I can't use cloud code at work for reasons I don't want to get into. I made a video about it if you
+
+594
+01:04:04,560 --> 01:04:11,040
+ want to go watch. It's also more expensive. And you can add more tokens to GitHub co-pilot. You
+
+595
+01:04:11,040 --> 01:04:14,320
+ can't to cloud. You can pay your 200 a month. You run out of tokens. You're done.
+
+596
+01:04:15,360 --> 01:04:20,320
+ So, there's a number of reasons to pick this. This is where the conversation should be, people.
+
+597
+01:04:20,320 --> 01:04:24,480
+ You should be making having conversations about what harness use, not what new of
+
+598
+01:04:24,480 --> 01:04:28,560
+ them, not what editor use. You should be having conversations about what model is more powerful
+
+599
+01:04:28,560 --> 01:04:33,040
+ to do, what things. Those are the things you should be talking about if you want a job in tech today.
+
+600
+01:04:33,040 --> 01:04:37,360
+ That's where most of your conversations should be happening. If you're spending time
+
+601
+01:04:37,360 --> 01:04:44,240
+ fighting over what language you're writing in, or which editor is better, or the best color scheme
+
+602
+01:04:44,240 --> 01:04:50,800
+ or window manager, or what's the best desktop Linux, then you're wasting time reading code.
+
+603
+01:04:50,800 --> 01:04:56,880
+ The boost always taught reading code blah, blah, blah. All right. Containers are virtual machines.
+
+604
+01:04:56,880 --> 01:05:02,400
+ We did that. Still worth learning, but the depth has changed. Programming language is Python
+
+605
+01:05:02,400 --> 01:05:07,280
+ Go and JavaScript. Still sack top Python JavaScript and go simultaneously. The boost covered coding
+
+606
+01:05:07,280 --> 01:05:10,640
+ fundamentals. Writing code for scratch is still useful skill, but AI has reduced the
+
+607
+01:05:10,640 --> 01:05:14,400
+ advantage of being a fast coder. What happens more now is understanding code well enough to
+
+608
+01:05:14,400 --> 01:05:18,880
+ direct AI efficiently and verify what it generates. I could not have said that better myself.
+
+609
+01:05:26,240 --> 01:05:32,240
+ No, you can use, you can use, no, I've made all my main projects using opus cloud model
+
+610
+01:05:32,400 --> 01:05:38,240
+ under GitHub. Publish your reading fluency on the languages that AI knows best. Language models
+
+611
+01:05:38,240 --> 01:05:42,080
+ were trained on massive code bases in Python Go and JavaScript and TypeScript. These are the
+
+612
+01:05:42,080 --> 01:05:47,200
+ languages where it's through TypeScript, didn't I? I didn't say that. Or AI output is more reliable
+
+613
+01:05:47,200 --> 01:05:50,560
+ and more abundant. If you can read these language confidently, you can review the vast majority
+
+614
+01:05:50,560 --> 01:05:54,800
+ of AI agents produced. This also means using the right language for the task matters differently
+
+615
+01:05:54,800 --> 01:05:59,440
+ now. Consider writing a multi-process statement in bash. That means fragile background job, trap
+
+616
+01:05:59,440 --> 01:06:05,440
+ or app or PID files and signal gymnastics that are hard to write and hard to review. My AI knows
+
+617
+01:06:05,440 --> 01:06:09,520
+ that because I made it do it. In Python or Go, the same name is a straightforward program with
+
+618
+01:06:09,520 --> 01:06:14,640
+ clerical currency primitives that both you and your AI can understand easily. The language is that
+
+619
+01:06:14,640 --> 01:06:18,880
+ as easy as for AI to generate correctly and easiest for you to scan and verify as the right choice.
+
+620
+01:06:18,880 --> 01:06:22,000
+ Languages with simple concise syntax have a real advantage in the genetic development,
+
+621
+01:06:22,000 --> 01:06:25,360
+ goes minimal syntax, no exceptions, no inheritance, no operator over lending,
+
+622
+01:06:25,360 --> 01:06:29,600
+ means there is less to misread during a fast code review. Python's readability has always
+
+623
+01:06:29,600 --> 01:06:33,600
+ been a strength and it pays off even more when you are scanning AI generated output rather than
+
+624
+01:06:33,600 --> 01:06:38,400
+ writing it yourself. Complex languages with heavy syntax and many implicit behaviors produce code
+
+625
+01:06:38,400 --> 01:06:46,960
+ that takes longer to verify and slows down the agentic loop. So then learning three languages
+
+626
+01:06:46,960 --> 01:06:51,760
+ was a major curriculum investment. Read fluency across languages matters more than right fluency
+
+627
+01:06:51,760 --> 01:06:56,080
+ in any single one. Prioritize languages, AI knows best and that are easiest to scan.
+
+628
+01:06:58,880 --> 01:07:02,640
+ Bash scripting. Every boost covered batch from basic through shell scripting with shell check
+
+629
+01:07:02,640 --> 01:07:06,480
+ shell format, knowing the batch for writes, quiz script, chain commands, understand what AI
+
+630
+01:07:06,480 --> 01:07:11,600
+ generated. But deep bash mastery, complex traps, parameter expansion tricks, associate arrays,
+
+631
+01:07:11,600 --> 01:07:16,080
+ matters less than when AI can generate and maintain those scripts for you. I don't
+
+632
+01:07:16,080 --> 01:07:21,440
+ install bash on max anymore. I used to, I don't anymore because I can use the ancient version
+
+633
+01:07:21,440 --> 01:07:26,160
+ of bash for anything that I would do with bash. And for anything involving concurrency, networking,
+
+634
+01:07:26,160 --> 01:07:30,000
+ our system game, as you are better off in Python or go, the whole argument between Z shell and
+
+635
+01:07:30,000 --> 01:07:34,960
+ bash, for example, is totally stupid now. Where the code is easier for both you and your AI to get
+
+636
+01:07:34,960 --> 01:07:39,120
+ right. Then deep curriculum ties on its own section, learn the fundamentals, let AI write the
+
+637
+01:07:39,120 --> 01:07:46,400
+ complex stuff, use a real language for anything beyond the simple. I want to add something.
+
+638
+01:07:52,240 --> 01:08:03,040
+ Add something about being really good at reading single line shell commands because that's what AI
+
+639
+01:08:04,240 --> 01:08:11,600
+ uses and displays for validation to do everything, particularly the use of logical and
+
+640
+01:08:13,040 --> 01:08:21,280
+ and logical or as well as redirects of output so that
+
+641
+01:08:25,120 --> 01:08:30,400
+ keys stay out of agentic AI sessions.
+
+642
+01:08:33,920 --> 01:08:39,760
+ Simple things like writing secrets to files, rather than saving them as environment variables
+
+643
+01:08:39,760 --> 01:08:45,280
+ are now substantially more significant or overall safety.
+
+644
+01:08:55,360 --> 01:08:55,920
+ No shit.
+
+645
+01:08:59,760 --> 01:09:03,520
+ Of course, you can. You can use Claude, the Claude Opus model
+
+646
+01:09:04,800 --> 01:09:08,080
+ with co-pilot, which is the same thing. It's exactly the same thing.
+
+647
+01:09:09,920 --> 01:09:14,880
+ It's just a different harness, is it? In fact, it's better because co-pilot, I've noticed co-pilot
+
+648
+01:09:14,880 --> 01:09:22,560
+ is more likely to not do something without asking you. They all eventually will do they'll see that
+
+649
+01:09:22,560 --> 01:09:25,600
+ you like doing something and they'll start doing it automatically. You have to tell them not to.
+
+650
+01:09:26,480 --> 01:09:30,880
+ But Claude, in my experience, very brief experience was more likely to do that. I've also read that.
+
+651
+01:09:34,000 --> 01:09:41,040
+ That's that's that's that. Yeah, agents reading secrets from files. Yep.
+
+652
+01:09:42,720 --> 01:09:47,360
+ Environment variables are horrible for that. You should be putting secrets in files
+
+653
+01:09:49,040 --> 01:09:55,040
+ and not. Look, if you think putting them into your environment is going to be, you say, no.
+
+654
+01:09:58,160 --> 01:10:04,320
+ Yep. I don't trust anything from Y Combinator. I don't even read that crap.
+
+655
+01:10:05,360 --> 01:10:13,680
+ Y Combinator is a source of hot air and no actual information. In fact, I'm going to put
+
+656
+01:10:13,680 --> 01:10:21,200
+ a comment in here to do that. Okay, let's go back to the boost tools and focus on that.
+
+657
+01:10:24,960 --> 01:10:50,080
+ Yeah, create an issue to explain why reading Y Combinator is a waste of time, 90% of the time.
+
+658
+01:10:55,680 --> 01:11:00,960
+ All right, so back to
+
+659
+01:11:08,240 --> 01:11:14,720
+ secrets belong to V one secret and they belong in vault. But if you're going to do automation,
+
+660
+01:11:14,720 --> 01:11:18,400
+ you can't use vault because you got to push your you got to unless you're going to do something
+
+661
+01:11:18,400 --> 01:11:27,120
+ really fancy and there are ways to do it.
+
+662
+01:11:29,360 --> 01:11:33,760
+ Bash scripting. All right, here we go. Everybody's covered bash. Existence names are off.
+
+663
+01:11:35,440 --> 01:11:36,800
+ You're better off with Python or go. Okay.
+
+664
+01:11:39,840 --> 01:11:42,000
+ Let AI write the complex stuff. Okay, so
+
+665
+01:11:46,080 --> 01:11:50,880
+ yeah. All right, so what's even boost out of them in the context of internal text editing at
+
+666
+01:11:50,880 --> 01:11:56,400
+ Ed Vivim nano. Now knowing how to open a file, make quick edit, save and quit is a survival
+
+667
+01:11:56,400 --> 01:12:00,080
+ skill for machines where VIM is the only editor, but investing serious time of VIM motions.
+
+668
+01:12:00,080 --> 01:12:04,000
+ Custom VM configs a little plug in the ecosystem is no longer a good use of learning hours.
+
+669
+01:12:04,000 --> 01:12:10,960
+ Snip can correct you on time on editor options of VIM. Learn I escape WQ search DDP. That is
+
+670
+01:12:10,960 --> 01:12:16,640
+ enough unless you enjoy it as a hobby. Python filters in the unix way. The boost I always taught
+
+671
+01:12:16,640 --> 01:12:20,880
+ unix philosophy, small tools doing its job well, understanding study out and et cetera,
+
+672
+01:12:20,880 --> 01:12:26,640
+ grip sort blah, but memorizing dozens of text commands less than now with AI than before.
+
+673
+01:12:26,640 --> 01:12:30,640
+ Core philosophy with deep command coverage understand the concepts and the command common
+
+674
+01:12:30,640 --> 01:12:36,720
+ commands. But I understand the that AI handled the exotic awk and said one liners, data formats,
+
+675
+01:12:36,720 --> 01:12:41,440
+ JSON, YAML, and tunnel. The skill stack web module and boost both cover and structure data formats.
+
+676
+01:12:42,160 --> 01:12:46,480
+ You will still encounter these constant config files, API responses, MCP definitions. You do not
+
+677
+01:12:46,480 --> 01:12:51,360
+ need to be an expert, but you need to recognize the syntax of spot errors when AI produces broken
+
+678
+01:12:51,360 --> 01:13:01,840
+ YAML and now form JSON. This is true. Yeah. If you're, if you're still doing Kubernetes by hand,
+
+679
+01:13:01,840 --> 01:13:06,400
+ which is going to be less than you need lots of YAML, HTML and CSS, skill stack web module,
+
+680
+01:13:06,400 --> 01:13:10,320
+ it was significant part of previous boost learning HTML, CSS, some basic websites.
+
+681
+01:13:10,320 --> 01:13:14,240
+ Today and I generate HTML and CSS as fast as you ever will. The skill that matters is
+
+682
+01:13:14,240 --> 01:13:18,240
+ understanding what it produced, not writing from scratch. Basic web literacy is still useful,
+
+683
+01:13:18,240 --> 01:13:24,400
+ but is moved from a core. Linux administration systems, skill stacks, Linux IDB covered,
+
+684
+01:13:24,400 --> 01:13:30,480
+ covered buying hardware, choosing distros, VMs, et cetera. The boost taught Linux is user-friendly
+
+685
+01:13:30,480 --> 01:13:35,040
+ skill. This is administration still matters for certain career paths, SRE platform engineering,
+
+686
+01:13:35,040 --> 01:13:38,480
+ but for most beginners, the path to a tech job now runs through AI fluency more than
+
+687
+01:13:38,480 --> 01:13:44,880
+ through configuring, configuring Prokmox clusters. Let's throw them at them before typing speed.
+
+688
+01:13:45,520 --> 01:13:48,000
+ I don't have to say anything about that. Homelab hardware.
+
+689
+01:13:48,880 --> 01:13:53,200
+ This tech start had detailed advice on buying laptops, mini servers, tower servers for a home
+
+690
+01:13:53,200 --> 01:13:57,280
+ lab. For certain career paths, not a home lab still has value, but for most beginners,
+
+691
+01:13:57,280 --> 01:14:01,520
+ laptop with GitHub, co-pilot, subscription, and container engine gets you further than any hardware
+
+692
+01:14:01,520 --> 01:14:07,440
+ investment. I don't agree with that.
+
+693
+01:14:15,360 --> 01:14:22,320
+ Emphasize having a Prokmox server with virtual machines on it in order to use AI combined with
+
+694
+01:14:22,320 --> 01:14:31,280
+ tools like Terraform to automate the creation and deployment of virtual machines and full environments
+
+695
+01:14:31,840 --> 01:14:37,840
+ and to test our interaction using AI from a centralized jump host.
+
+696
+01:14:51,120 --> 01:14:57,200
+ You don't need to know your shit. No, you don't. You need to learn AI to teach you to know your
+
+697
+01:14:57,200 --> 01:15:04,400
+ shit. Yes, you need to learn it, but you should learn how to use AI first so that AI can teach
+
+698
+01:15:04,400 --> 01:15:09,760
+ you how to do those things. I don't know how many times I have to say that. I was like,
+
+699
+01:15:09,760 --> 01:15:14,240
+ I'm leaving AI alone. I'm going to learn all this stuff. How are you folks supposed to learn it?
+
+700
+01:15:14,240 --> 01:15:19,920
+ Are you going to do a bunch of Google searches? You're going to learn AI is going to teach you
+
+701
+01:15:19,920 --> 01:15:25,680
+ the stuff that you need to learn so that you can read it while it's doing it and know what it's doing.
+
+702
+01:15:25,680 --> 01:15:31,600
+ In fact, creating a project from scratch at home and asking the AI to help you do it and telling
+
+703
+01:15:31,600 --> 01:15:37,200
+ the AI teach me what you're doing while you're doing it is a much better use of your time than
+
+704
+01:15:37,200 --> 01:15:43,520
+ trying to suffer through all of that on your own. I don't know how many times I have to beat this
+
+705
+01:15:43,520 --> 01:15:51,440
+ point over the head. There's still resistance from people against AI and that's fine, but I
+
+706
+01:15:51,440 --> 01:15:56,880
+ want to make this very clear. If you want to do anything that involves words, you need to learn it.
+
+707
+01:16:05,360 --> 01:16:11,040
+ I'm stating things strongly because the few people who actually listen to me are going to survive.
+
+708
+01:16:14,400 --> 01:16:19,280
+ It's that big a deal. This is that big of an existential threat and I am not overstating it,
+
+709
+01:16:19,280 --> 01:16:26,880
+ and that is after two and a half weeks of experience being convinced fully of this by myself and
+
+710
+01:16:26,880 --> 01:16:32,160
+ having been one of the cynics. I was going back and watch my videos from before. I was just a
+
+711
+01:16:32,160 --> 01:16:36,000
+ big a cynic and like, "Oh, I'm not so sure. Maybe it's good for helping you get with education."
+
+712
+01:16:36,560 --> 01:16:40,000
+ I was like kind of out there on the edge like that, and then I used it.
+
+713
+01:16:48,240 --> 01:16:54,000
+ Typing speed is no longer needed. Deep editor customization no longer needed. GitLab is no longer needed.
+
+714
+01:16:58,640 --> 01:17:02,640
+ This had a home lab stuff in it. It got rid of it. Thank God. GitLab not needed.
+
+715
+01:17:03,520 --> 01:17:08,880
+ Agentic AI tools, new skills that did not exist in previous booths. Compile with CLI cloud
+
+716
+01:17:08,880 --> 01:17:12,640
+ code. No previous booths covered this. You should at least learn cloud code since it's one of them.
+
+717
+01:17:12,640 --> 01:17:17,520
+ It's the main one. It's the number one one right now. Voice input with superwhisper.
+
+718
+01:17:18,160 --> 01:17:23,280
+ MCP servers. This is how agents connect to real system building MCP servers. One of those more
+
+719
+01:17:23,840 --> 01:17:26,640
+ in-demand skills in tech right now because a few people know how to do it well.
+
+720
+01:17:27,200 --> 01:17:30,640
+ The skill is impossible to teach in any previous booths because the protocol did not exist.
+
+721
+01:17:31,600 --> 01:17:36,080
+ That's true. You do need to learn that. Agents and agentic project templates is true. You need this
+
+722
+01:17:36,080 --> 01:17:39,760
+ skill stack method revised. It was really built around the idea of imagining your personal
+
+723
+01:17:39,760 --> 01:17:43,520
+ skill stack tracking what you're now scoring a master identifying blah. The concept is more
+
+724
+01:17:43,520 --> 01:17:48,080
+ relevant than ever, but the skills on the stack have changed. The evaluation framework still works
+
+725
+01:17:48,080 --> 01:17:52,880
+ and the items on the list are updated. This is what this article is for.
+
+726
+01:18:00,800 --> 01:18:09,360
+ We need to really emphasize that the most important skill is to learn how to use the AI
+
+727
+01:18:11,360 --> 01:18:19,200
+ to teach you to learn what you want to learn based on your interests and demonstrate what you
+
+728
+01:18:19,200 --> 01:18:28,320
+ know and that you can use AI to deliver those things. In other words, yes, it requires a significant
+
+729
+01:18:28,320 --> 01:18:34,000
+ amount of technical expertise to make good use of AI for development and deployment of operations
+
+730
+01:18:34,000 --> 01:18:41,520
+ infrastructure, but it requires you to use AI to learn that stuff.
+
+731
+01:18:52,400 --> 01:18:58,000
+ It just has an extra needed abstraction. I agree. I was about to drop MCP. I'm glad you said that
+
+732
+01:18:58,000 --> 01:19:03,840
+ because I agree. As nice as MCP is, I think it's going to die here pretty soon.
+
+733
+01:19:04,080 --> 01:19:10,560
+ It is getting used heavily right now still though, but I think creating an MCP is not a project
+
+734
+01:19:11,440 --> 01:19:16,480
+ that I would put in the boost. I think creating an application that provides value is more
+
+735
+01:19:16,480 --> 01:19:32,000
+ important than an MCP. I'll have it add that in a second. I think we're done for the day.
+
+736
+01:19:33,520 --> 01:19:38,080
+ I think we're done for the day and people are like, "Well, you didn't really teach me anything."
+
+737
+01:19:39,360 --> 01:19:44,880
+ I never have taught you anything. I've always shown you what you need to go learn. What you
+
+738
+01:19:44,880 --> 01:19:52,560
+ need to go learn right now is AI and how to open a terminal and then ask the AI what you need to
+
+739
+01:19:52,560 --> 01:20:05,600
+ learn. If you don't like what it says, run it by another person or another AI. No, you still have
+
+740
+01:20:05,600 --> 01:20:11,200
+ to get impacted. That's another thing. Thank you for reminding me. There's another big, big
+
+741
+01:20:11,200 --> 01:20:14,800
+ piece of this that I talked about last week that I want to emphasize in this book even more.
+
+742
+01:20:21,760 --> 01:20:25,520
+ Remove any reference to MCP since that's not a beginner thing at all.
+
+743
+01:20:32,080 --> 01:20:33,120
+ And then I'm going to make an O and
+
+744
+01:20:44,800 --> 01:20:56,240
+ add something about approaching tech careers as preparing for a professional career such as a
+
+745
+01:20:56,240 --> 01:21:05,920
+ doctor, an optometrist, or something like that since the junior and mid-level jobs in tech are
+
+746
+01:21:05,920 --> 01:21:18,960
+ gone. Therefore, making the early decision about entering into a tech career should include a much
+
+747
+01:21:18,960 --> 01:21:33,520
+ bigger commitment to learning a broad but deep number of skills that can be understood as they are
+
+748
+01:21:33,520 --> 01:21:47,280
+ used by AI. Previous boosts may have presented the idea. This is actually a problem with this
+
+749
+01:21:47,280 --> 01:21:52,880
+ harness. This is a problem with this harness. It doesn't let me, it goes back. You see what I'm
+
+750
+01:21:52,880 --> 01:22:00,000
+ saying? I made a really good prompt and it got blown away. This is actually a down part. I wonder
+
+751
+01:22:04,080 --> 01:22:08,800
+ if you want to add an anniversary to me.
+
+752
+01:22:13,440 --> 01:22:18,800
+ I'm going to add, I think what we should do is a separate prompt. I've had this happen twice now
+
+753
+01:22:18,800 --> 01:22:22,960
+ where I've gotten a really good prompt started and then it pops up and throws my prompt away.
+
+754
+01:22:24,080 --> 01:22:30,240
+ And that would not happen if I was using a graphic tool. So, you know, I still like the
+
+755
+01:22:30,240 --> 01:22:35,280
+ terminal-based approach, but all right, so here we go again.
+
+756
+01:22:43,200 --> 01:22:49,680
+ First, add something about approaching the decision to work in tech as a decision to become a doctor
+
+757
+01:22:50,880 --> 01:22:59,280
+ since the junior and mid-level jobs are gone, leaving the requirement to master multiple
+
+758
+01:22:59,280 --> 01:23:06,400
+ technologies relatively deeply in order to guide the AI to create the systems and solutions
+
+759
+01:23:06,400 --> 01:23:29,600
+ needed by enterprise. Yeah, I wonder if that's going to do. See there, while that prompt's working,
+
+760
+01:23:29,600 --> 01:23:33,840
+ I wish I could work on another prompt. This is something, it's like doing at least two prompts.
+
+761
+01:23:35,040 --> 01:23:39,360
+ All right, let's see what it added. Okay, so this is good because it's only the things
+
+762
+01:23:39,360 --> 01:23:44,400
+ that changed. I should have probably been doing this all along. So, there's a dip. Tech is now
+
+763
+01:23:44,400 --> 01:23:50,160
+ like medicine. Before anything else, understand what has changed about the career itself.
+
+764
+01:23:50,160 --> 01:23:54,960
+ AI has eliminated most junior and mid-level jobs. The entry level positions where you could learn
+
+765
+01:23:54,960 --> 01:23:58,560
+ on the job, write credit and points, build simple UIs, maintaining straightforward infrastructure,
+
+766
+01:23:58,560 --> 01:24:02,640
+ being handled by AI agents now, will remain as senior roles that require deep understanding
+
+767
+01:24:02,640 --> 01:24:06,080
+ across multiple technologies and the ability to architect systems, not just implement them.
+
+768
+01:24:07,520 --> 01:24:11,360
+ This means approaching a career in tech is now more like a decision to become a doctor.
+
+769
+01:24:11,360 --> 01:24:14,400
+ You're committing to mastering multiple disciplines at a meaningful depth,
+
+770
+01:24:14,400 --> 01:24:18,400
+ not because it's fun to collect skills, but because the work that still needs as human
+
+771
+01:24:18,400 --> 01:24:23,680
+ requires someone who can guide AI across complex systems and confidence. An AI agent can generate
+
+772
+01:24:23,680 --> 01:24:27,200
+ the Kubernetes deployment manifest, but it takes a person who understands networking, storage,
+
+773
+01:24:27,200 --> 01:24:31,280
+ security and application architecture to know whether that manifest will actually work in production.
+
+774
+01:24:32,560 --> 01:24:37,920
+ An AI agent can write a database migration, but it can't, it takes someone who understands how
+
+775
+01:24:37,920 --> 01:24:42,320
+ data modeling consists of guarantees and their specific business domain into whether the migration
+
+776
+01:24:42,320 --> 01:24:46,720
+ is safe. The good news is that AI itself is the fastest path to acquiring this depth. This is
+
+777
+01:24:46,720 --> 01:24:52,320
+ exactly what I was saying. Thank you. You are now studying from textbooks alone anymore or not.
+
+778
+01:24:52,320 --> 01:24:56,800
+ You are, you can use an AI to teach yourself interactively, build real things as you learn
+
+779
+01:24:56,800 --> 01:25:01,760
+ and reach working components in a technology faster than any previous generation of engineers.
+
+780
+01:25:02,720 --> 01:25:07,680
+ But you have to actually do the learning. There are no shortcuts to understanding only faster paths
+
+781
+01:25:07,680 --> 01:25:11,280
+ to it. Yeah, and then I would say,
+
+782
+01:25:18,640 --> 01:25:29,920
+ add the biggest boost to your learning is AI itself. AI is the boost.
+
+783
+01:25:32,560 --> 01:26:01,280
+ Okay. Good. Using AI to teach AI, AI is the boost. You are not studying from textbooks alone anymore.
+
+784
+01:26:02,720 --> 01:26:10,560
+ It even found the right place to put it. You can use AI to teach yourself interactively,
+
+785
+01:26:10,560 --> 01:26:16,640
+ build real things as you learn. Has it been listening to me? And I literally just said that.
+
+786
+01:26:17,200 --> 01:26:21,200
+ And reaching, working components in a new technology faster than any previous generation of engineers,
+
+787
+01:26:22,000 --> 01:26:33,760
+ the depth that, wait, adds something to remind the reader not to forget to tell the AI that you
+
+788
+01:26:33,760 --> 01:26:40,240
+ are learning while you are doing it so that it explains things more thoroughly and does things
+
+789
+01:26:40,240 --> 01:26:48,960
+ more safely. This is a perfect thing to add to your agents.md file for every project.
+
+790
+01:26:52,000 --> 01:27:01,120
+ I just love interactive writing like this. It's like so much more efficient.
+
+791
+01:27:02,640 --> 01:27:08,560
+ Is it generating? Do I get credit for writing it? I don't know if I need it.
+
+792
+01:27:09,760 --> 01:27:12,960
+ You know, sometimes it comes up with the best stuff there. This is the first thing people
+
+793
+01:27:12,960 --> 01:27:15,840
+ realize about AI is when they start having it write their emails for them and stuff.
+
+794
+01:27:18,000 --> 01:27:24,560
+ You know, one critical tip. Tell the AI that you are learning. Put it in your
+
+795
+01:27:24,560 --> 01:27:28,880
+ agents.md file for every project. Something like the person working on this project is actively
+
+796
+01:27:28,880 --> 01:27:32,240
+ learning these technologies. Explain this is certainly call up potential pitfalls and prefer
+
+797
+01:27:32,240 --> 01:27:36,400
+ safe well understood approaches over clever shortcuts. When the AI knows you are a learner,
+
+798
+01:27:36,400 --> 01:27:40,320
+ it explains why it made a choice instead of just making it. It warns you about things a
+
+799
+01:27:40,320 --> 01:27:45,280
+ senior engineer would catch on their own. It teaches you as it builds. Goddamn this is well written.
+
+800
+01:27:45,280 --> 01:27:50,160
+ Without the context, the AI optimizes for speed and assumes you already understand the trade-offs.
+
+801
+01:27:50,160 --> 01:27:55,280
+ The difference is the way you learn from each session is enormous. Oh my god, that's so good.
+
+802
+01:27:56,160 --> 01:28:03,040
+ Hell to the yes. Well done, AI. Easier to talk than type. Oh yeah, it is.
+
+803
+01:28:05,440 --> 01:28:07,520
+ Now, I'm typing very little if you haven't noticed.
+
+804
+01:28:09,200 --> 01:28:13,040
+ Okay, so this is what it's going to do. It's going to go into the boost directory.
+
+805
+01:28:14,080 --> 01:28:18,320
+ If that works, it's going to add this document that it just wrote. By the way,
+
+806
+01:28:18,320 --> 01:28:22,320
+ I told it to use slugs as titles in my agents.md file. That's why it does that.
+
+807
+01:28:23,520 --> 01:28:26,640
+ Then it's going to add the docs readme file, which has a link to this file.
+
+808
+01:28:27,680 --> 01:28:31,760
+ It does it commits the docs and adds a boost tools and then a new evaluation article.
+
+809
+01:28:36,640 --> 01:28:42,640
+ How visible is this in the main readme? I feel like this should be really emphasized at the very
+
+810
+01:28:42,640 --> 01:28:49,920
+ beginning of the readme file.
+
+811
+01:28:57,600 --> 01:28:59,920
+ It's period is an optional item under what do I need? Yeah.
+
+812
+01:29:03,120 --> 01:29:08,960
+ Okay, it made a change. Good. Oh my god, fine. An hour is this and then read.
+
+813
+01:29:08,960 --> 01:29:13,360
+ Boost tools then and now. Tech careers now require medical school depth. Junior roles are
+
+814
+01:29:13,360 --> 01:29:18,320
+ disappearing. AI is both the reason and the solution. Read this first to understand what
+
+815
+01:29:18,320 --> 01:29:22,400
+ skills matter now and why AI is still learning is more the most important skill you can develop.
+
+816
+01:29:27,680 --> 01:29:30,160
+ Yeah, damn. Okay, I think that's pretty good. Is there something else?
+
+817
+01:29:33,120 --> 01:29:36,000
+ Junior roles are disappearing. AI is both the reason and the solution.
+
+818
+01:29:36,720 --> 01:29:40,800
+ Read the first to understand what skills matter now and why AI is still learning is more important.
+
+819
+01:29:40,800 --> 01:29:46,800
+ The most important skill you can develop. What to do? Okay, so I say yes to that.
+
+820
+01:29:48,560 --> 01:29:55,440
+ And go ahead and commit that. Yeah, and that's going to remove it from the other location.
+
+821
+01:29:55,440 --> 01:29:59,280
+ So that's not optional reading anymore. That's mandatory reading.
+
+822
+01:30:00,240 --> 01:30:02,880
+ Compressed that I wish it would be tool and skill taught across previous
+
+823
+01:30:02,880 --> 01:30:16,640
+ business relevance. Do you want to run this command? Yes. And yeah. Yes. It's going to open
+
+824
+01:30:16,640 --> 01:30:25,200
+ in an obsidian for me. Okay, here's the tools committed to open an obsidian. We'll still
+
+825
+01:30:25,200 --> 01:30:33,040
+ send in now. Let's go back to the read me. Where is it? Here it is. All right. All righty then.
+
+826
+01:30:33,040 --> 01:30:38,160
+ So we got to read me. Best reading enter that allows collapsible blah. Get ready to even bother
+
+827
+01:30:38,160 --> 01:30:41,440
+ with the boost until you have achieved the following. Get a basic computer. Okay, get a
+
+828
+01:30:41,440 --> 01:30:48,080
+ compile subscription. Plan an hour a day of AI assistant learning. Boost tools then and now.
+
+829
+01:30:48,080 --> 01:30:51,920
+ Techers now require medical school debt. Junior roles are disappearing. AI is both the reason and
+
+830
+01:30:51,920 --> 01:30:58,320
+ the solution. Read this first to understand what skills matter more now. And why AI assistant learning
+
+831
+01:30:58,320 --> 01:31:03,440
+ is the most important skill you can develop. Boost then and now. The beginning of this is running
+
+832
+01:31:03,440 --> 01:31:08,880
+ simple skills. I've been teaching blah blah. Tech is now like medicine. Anything before. Okay.
+
+833
+01:31:10,720 --> 01:31:14,160
+ Most important skill you can develop is how to use AI to teach yourself.
+
+834
+01:31:16,960 --> 01:31:22,720
+ More important than ever. Getting GitHub. Markdown. Terminal and CLI.
+
+835
+01:31:24,000 --> 01:31:28,960
+ Secrets, hygienic and egenic workflows. Teamux. Reading code.
+
+836
+01:31:30,800 --> 01:31:37,840
+ Containers, virtual machines, home lab, proxy mocks. So I'll probably update this document as
+
+837
+01:31:37,840 --> 01:31:42,400
+ we go because we're going to be talking about different things. But this actually, I like this
+
+838
+01:31:42,400 --> 01:31:47,360
+ because this gives me an outline for the boost next time. Which is what I want to do. The goal
+
+839
+01:31:47,360 --> 01:31:56,560
+ for today, and we're wrapping up here, that the goal for today always was that I would identify
+
+840
+01:31:57,920 --> 01:32:04,880
+ in very detailed form using AI, the stuff that has changed and the relevance of all the technologies
+
+841
+01:32:04,880 --> 01:32:11,040
+ that have always been a focus of the beginner boost. And to talk about it in very specific terms
+
+842
+01:32:11,040 --> 01:32:16,640
+ based on my own experience over the last two weeks, two or three weeks. And what the AI would
+
+843
+01:32:16,640 --> 01:32:23,600
+ have to suggest in addition to that, along with our other contributors in the chat. And they're
+
+844
+01:32:23,600 --> 01:32:27,520
+ relatively quiet right now, but they've been very vocal over the last two weeks about some of the
+
+845
+01:32:27,520 --> 01:32:34,080
+ best choices here. So on that note, I think I'm going to go ahead and leave you guys.
+
+846
+01:32:36,880 --> 01:32:43,440
+ This, this outline needs some work. I'm really seriously thinking about dropping this outline.
+
+847
+01:32:45,280 --> 01:32:49,760
+ I started the outline using the old school approach to the beginner boost and I kind of
+
+848
+01:32:49,760 --> 01:32:55,600
+ want to, I kind of want to move away from that. But I will continue to do it and modify it a
+
+849
+01:32:55,600 --> 01:33:00,720
+ tweak it. So I encourage you to go out there, make sure you, if you want to, you can sub and follow.
+
+850
+01:33:00,720 --> 01:33:04,800
+ The truth is you don't need to follow me at all. If you, if you get, if you get an AI, you trust out
+
+851
+01:33:04,800 --> 01:33:11,280
+ there, you know, start using that and trusting that and learning to trust it. And that is one of the
+
+852
+01:33:11,280 --> 01:33:17,600
+ important skills is learning to trust the AI. In fact, I want to, I want to add a note about that.
+
+853
+01:33:20,720 --> 01:33:25,280
+ Add that one of the most important skills is learning to trust the AI as much as a human by
+
+854
+01:33:25,280 --> 01:33:30,880
+ interacting it with just as with the same as you would with a human that you should never trust
+
+855
+01:33:31,600 --> 01:33:41,120
+ or one who posts to stack exchange that is going to, that's learning to trust the AI as much as a
+
+856
+01:33:41,120 --> 01:33:45,600
+ human by interacting with just as the same as you with a human that you should never trust or who,
+
+857
+01:33:45,600 --> 01:33:51,840
+ or who posts to stack exchange. Yeah, I need to add that a comment about that. Because that's,
+
+858
+01:33:51,840 --> 01:33:58,160
+ that's, that is a skill learning. It's scary to say it because I am still mastering that skill.
+
+859
+01:33:59,520 --> 01:34:04,080
+ You need to learn how to trust an AI just as much as you would trust a human companion.
+
+860
+01:34:06,480 --> 01:34:11,440
+ I, it still makes me uncomfortable saying those words, but it's true. One of the most important
+
+861
+01:34:11,440 --> 01:34:15,040
+ skills to develop is learning to trust the AI exactly as much as you would trust a stranger who
+
+862
+01:34:15,040 --> 01:34:21,520
+ posts an answer on stack exchange, which is to say not at all until you verify it. Perfect.
+
+863
+01:34:22,320 --> 01:34:26,480
+ Interact with AI the same way you would interact with a human you have never worked with before
+
+864
+01:34:26,480 --> 01:34:31,440
+ assume confidence, but confirm everything. Read its output. Question is choices. Test its code.
+
+865
+01:34:31,440 --> 01:34:37,760
+ The people who get burned by AI are the ones who either refuse to use it or trust it blindly.
+
+866
+01:34:37,760 --> 01:34:42,000
+ The people who get the most out of it treat it like a competent colleague who is sometimes wrong,
+
+867
+01:34:42,000 --> 01:34:49,680
+ useful, fast, and worth double checking everything. Perfect. Um, that's great. Yes, please add that.
+
+868
+01:34:54,240 --> 01:35:03,760
+ So we're going to add that. You know what? It's like, I don't care how many
+
+869
+01:35:03,760 --> 01:35:08,000
+ upvotes your stack exchange answer got. It's still fucking wrong. Whoops, I swear.
+
+870
+01:35:09,760 --> 01:35:13,680
+ You have many times I'm about to go to the, the, the, the fifth thing under there to get the
+
+871
+01:35:13,680 --> 01:35:20,720
+ right answer for a thing. And I'm like, can I please just probably time I'm swearing already.
+
+872
+01:35:20,720 --> 01:35:25,760
+ It's probably, that must signal. That must be signaling. It's time for me to, to leave.
+
+873
+01:35:27,920 --> 01:35:33,600
+ A goody something else. Uh, it's been really fun. I promise I'm not just an angry old man.
+
+874
+01:35:33,600 --> 01:35:37,760
+ I am really here. Nobody's going to make it to the end. All the people that left after I yelled
+
+875
+01:35:37,760 --> 01:35:41,600
+ at them are already gone. But for those of you who are still here, thank you for being here.
+
+876
+01:35:42,320 --> 01:35:48,000
+ Honest to God, I have your best interests at heart. I am trying my best to help you succeed
+
+877
+01:35:48,000 --> 01:35:54,560
+ in a tech career as much as I am to survive in the tech career myself well into my upper 60s
+
+878
+01:35:55,120 --> 01:36:01,600
+ and, and profit from it. And I got to tell you, it's not all anger and, and stress. It's really fun.
+
+879
+01:36:02,160 --> 01:36:08,400
+ It's really freaking fun using an AI. In fact, AI, I've been talking about this a lot on my walks.
+
+880
+01:36:08,400 --> 01:36:16,240
+ AI has added a new obsession to my life with regard to creating things. I made the QR
+
+881
+01:36:16,240 --> 01:36:22,080
+ storage bin organizer. I made the world's best Twitch command line, IRL tool. I have got other
+
+882
+01:36:22,080 --> 01:36:28,000
+ projects in the works. And for the first time in my life, I can think of a thing and make it real
+
+883
+01:36:28,000 --> 01:36:34,960
+ myself, my own founder, my own startup. And that is exciting. Even if you don't end up taking on a
+
+884
+01:36:34,960 --> 01:36:38,800
+ tech career because you don't want to learn as much as you would have to be a doctor,
+
+885
+01:36:38,800 --> 01:36:43,840
+ you can still play around with this stuff and have a great time making things that you could
+
+886
+01:36:43,840 --> 01:36:50,320
+ never make before now that we have AI in our world. And I don't want to get into the philosophical
+
+887
+01:36:50,320 --> 01:36:56,880
+ implications of AI and its origins. That's not relevant. It's not relevant. It is and it is going
+
+888
+01:36:56,880 --> 01:37:03,200
+ to you only get better and for better or worse, honestly, but it is here. It's here to stay,
+
+889
+01:37:03,920 --> 01:37:11,520
+ learn to love it, learn to have fun with it and stop being so boomer about it. All right.
+
+890
+01:37:13,840 --> 01:37:23,820
+ [BLANK_AUDIO]
+

@@ -1,0 +1,204 @@
+1
+00:00:00,000 --> 00:00:04,800
+ I just want to do a quick video this morning about gas town.
+
+2
+00:00:04,800 --> 00:00:11,120
+ So I kept it from YouTube, I mean from Twitch, told me about it because they've been watching
+
+3
+00:00:11,120 --> 00:00:17,760
+ me do my programming or eventually doing a Gentic multi-agent programming right now.
+
+4
+00:00:17,760 --> 00:00:23,300
+ And something that's really cool about it is that it actually allows you to do persistence.
+
+5
+00:00:23,300 --> 00:00:30,920
+ So you can have multiple things happening at the same time and have each session remember
+
+6
+00:00:30,920 --> 00:00:31,920
+ it.
+
+7
+00:00:31,920 --> 00:00:35,940
+ And that's actually one of the biggest things that's kept me from doing any kind of multi-agent
+
+8
+00:00:35,940 --> 00:00:37,740
+ stuff that's not my own creation.
+
+9
+00:00:37,740 --> 00:00:42,940
+ This is my own customized Tmux config that the AI helped me make.
+
+10
+00:00:42,940 --> 00:00:47,380
+ That shows me all my stuff going on as of a given time.
+
+11
+00:00:47,380 --> 00:00:51,540
+ And I'm going to approve it for that session.
+
+12
+00:00:51,540 --> 00:00:57,060
+ So anyway, I'm using Tmux, I'm using notifications and updated things to see what's going on.
+
+13
+00:00:57,060 --> 00:00:59,920
+ And this is how I'm doing my multi-agent right now.
+
+14
+00:00:59,920 --> 00:01:04,540
+ The problem is as soon as this Tmux session dies, I lose all this agent context.
+
+15
+00:01:04,540 --> 00:01:09,200
+ No matter how much I put into my agent's MD file, it doesn't remember exactly the last
+
+16
+00:01:09,200 --> 00:01:12,260
+ task it was on.
+
+17
+00:01:12,260 --> 00:01:16,060
+ And so that can become an issue.
+
+18
+00:01:16,060 --> 00:01:21,580
+ And I have to interact with it a lot and I'm not as willing to say, hey, just do everything
+
+19
+00:01:21,580 --> 00:01:25,020
+ in this separate PR to babysit it.
+
+20
+00:01:25,020 --> 00:01:30,740
+ So a tool like Gastown, this is really an eating babysitting right now.
+
+21
+00:01:30,740 --> 00:01:35,620
+ So the tool like Gastown allows you to use up to 20 or 30 agent.
+
+22
+00:01:35,620 --> 00:01:41,980
+ But the key is that as the AI was telling me that it's niches that it's persistent.
+
+23
+00:01:41,980 --> 00:01:47,500
+ In other words, it keeps all the context and it lets you run an entire town of agents,
+
+24
+00:01:47,500 --> 00:01:50,820
+ all the different personalities and roles and context.
+
+25
+00:01:50,820 --> 00:01:54,100
+ That means they all remember everything differently.
+
+26
+00:01:54,100 --> 00:01:55,100
+ And so it's worth a look.
+
+27
+00:01:55,100 --> 00:01:57,620
+ I'm going to take a look at it right now and I'll report back.
+
+28
+00:01:57,620 --> 00:02:01,420
+ So far, I've looked at some of the other ones and this was my favorite one.
+
+29
+00:02:01,420 --> 00:02:06,420
+ I haven't really deep-dived into any of them because none of them interest me until they
+
+30
+00:02:06,420 --> 00:02:09,980
+ can do this, which is to remember a persistent state.
+
+31
+00:02:09,980 --> 00:02:14,580
+ The closest thing to that, by the way, made a video about this is to create an agentic
+
+32
+00:02:14,580 --> 00:02:15,580
+ template.
+
+33
+00:02:15,580 --> 00:02:21,460
+ So every time I remember that I want to have, you know, no options, I want to use Banzai
+
+34
+00:02:21,460 --> 00:02:28,220
+ for my going things or I want to have Markdown be a single line paragraph, I put all those
+
+35
+00:02:28,220 --> 00:02:33,460
+ into my long-term agent side and deep file and into a template.
+
+36
+00:02:33,460 --> 00:02:39,820
+ Every time I start up a new session, my thing is that it remembers it and it says go use
+
+37
+00:02:39,820 --> 00:02:44,660
+ the agentic.md and synchronize it in and then start using it all the time.
+
+38
+00:02:44,660 --> 00:02:50,140
+ So anytime I start up any new session, it goes to check my major agents on a deep file.
+
+39
+00:02:50,140 --> 00:02:55,940
+ That kind of stuff is covered apparently in the mirror of Gastown in order to hand off
+
+40
+00:02:55,940 --> 00:02:56,940
+ that.
+
+41
+00:02:56,940 --> 00:02:59,780
+ Those kind of context syncs to everybody else that's working.
+
+42
+00:02:59,780 --> 00:03:01,140
+ So it's going to be fun to look at.
+
+43
+00:03:01,140 --> 00:03:03,300
+ I'll report back more, but go ahead and peek at it.
+
+44
+00:03:03,300 --> 00:03:07,820
+ If you leave a comment down below on YouTube or come join me if you want to see how I'm
+
+45
+00:03:07,820 --> 00:03:13,940
+ using multi-agent to development, the best twitch power tool in the world or the storage
+
+46
+00:03:13,940 --> 00:03:17,500
+ bin organizer, which I've taken private because I want to sell it, it's so good.
+
+47
+00:03:17,500 --> 00:03:23,020
+ If you haven't got on board with the AI engineering and development, you're going to get left
+
+48
+00:03:23,020 --> 00:03:26,620
+ behind and I'm not going to harp on that anymore.
+
+49
+00:03:26,620 --> 00:03:30,820
+ It's just like, I'm not, I'm not, it's like there's either people who are going to do
+
+50
+00:03:30,820 --> 00:03:32,820
+ it and there's people who are going to not do it.
+
+51
+00:03:32,820 --> 00:03:34,620
+ You really need to look at it, I'm sorry.
+

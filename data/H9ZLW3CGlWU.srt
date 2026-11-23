@@ -1,0 +1,312 @@
+1
+00:00:00,000 --> 00:00:07,360
+ All right, well, I've been waiting for my AI to finish making my favorite software as
+
+2
+00:00:07,360 --> 00:00:12,200
+ a service company app slash thing.
+
+3
+00:00:12,200 --> 00:00:17,840
+ It's really occurred to me and I've been thinking about this for two days, but the new paradigm
+
+4
+00:00:17,840 --> 00:00:20,200
+ is that you are a startup.
+
+5
+00:00:20,200 --> 00:00:25,240
+ So I've been having a hard time putting my words around this, but I just want to say
+
+6
+00:00:25,240 --> 00:00:33,960
+ at point blank, if you are in tech today and you plan on continuing to work in tech, you
+
+7
+00:00:33,960 --> 00:00:35,960
+ have to become a startup.
+
+8
+00:00:35,960 --> 00:00:37,640
+ What I mean by that?
+
+9
+00:00:37,640 --> 00:00:43,440
+ Well, the first thing is that you have people working for you.
+
+10
+00:00:43,440 --> 00:00:47,160
+ That means the more agents you have working for you, the better.
+
+11
+00:00:47,160 --> 00:00:52,040
+ And whether you want to actually be a startup on your own or you want to work for a bigger
+
+12
+00:00:52,040 --> 00:00:53,920
+ company.
+
+13
+00:00:53,920 --> 00:01:00,340
+ These are hiring startups of one now that are hiring people who have everything that
+
+14
+00:01:00,340 --> 00:01:07,840
+ a founder of a startup has that they can employ to their benefit.
+
+15
+00:01:07,840 --> 00:01:12,720
+ And there are a lot of disruptive implications from this.
+
+16
+00:01:12,720 --> 00:01:20,880
+ The first one is you have to know everything enough to know how to authorize it.
+
+17
+00:01:20,880 --> 00:01:26,200
+ That means there's actually a lot of other streamers who are exploring with this.
+
+18
+00:01:26,200 --> 00:01:28,720
+ They're giving their agents personalities.
+
+19
+00:01:28,720 --> 00:01:29,920
+ This one's a project manager.
+
+20
+00:01:29,920 --> 00:01:32,800
+ This one's really good at coding math.
+
+21
+00:01:32,800 --> 00:01:36,800
+ This one's really good at integrating with Twitch or whatever.
+
+22
+00:01:36,800 --> 00:01:45,720
+ And they're building these agentic communities that are the equivalent of having their own
+
+23
+00:01:45,720 --> 00:01:47,280
+ miniature startup.
+
+24
+00:01:47,280 --> 00:01:49,640
+ And sometimes that's not even miniature.
+
+25
+00:01:49,640 --> 00:01:54,960
+ The way that multi-agent management is working and is going, the products that are coming
+
+26
+00:01:54,960 --> 00:02:03,120
+ out now, they are designed to take someone who thinks like a startup founder and give
+
+27
+00:02:03,120 --> 00:02:05,760
+ them all the tools that they need.
+
+28
+00:02:05,760 --> 00:02:11,040
+ In fact, I have a little bit of a thing on my screen here where I'm working on my storage
+
+29
+00:02:11,040 --> 00:02:16,520
+ manager just because I wanted to set up a QR code on a storage bin and be able to scan
+
+30
+00:02:16,520 --> 00:02:21,560
+ it with AR glasses and I don't want to tell you the rest of my idea because it's a really
+
+31
+00:02:21,560 --> 00:02:22,560
+ great idea.
+
+32
+00:02:22,560 --> 00:02:25,000
+ It's something that I made because I wanted it.
+
+33
+00:02:25,000 --> 00:02:31,920
+ In a sense, I found that a startup, a software as a service startup, for myself and I implemented
+
+34
+00:02:31,920 --> 00:02:37,840
+ over the course of the weekend spending not that many tokens, maybe a total of like $30
+
+35
+00:02:37,840 --> 00:02:38,840
+ total.
+
+36
+00:02:38,840 --> 00:02:44,880
+ And I have this really amazing application that I decided to take private because I'm
+
+37
+00:02:44,880 --> 00:02:48,880
+ like, I can sell this, I can totally sell this.
+
+38
+00:02:48,880 --> 00:02:52,280
+ And so, you know, it's just become really clear.
+
+39
+00:02:52,280 --> 00:02:57,640
+ I also met with somebody that I private mentor and we talked about this.
+
+40
+00:02:57,640 --> 00:03:02,840
+ We talked about the implications, you know, like, well, they were thinking about writing
+
+41
+00:03:02,840 --> 00:03:07,780
+ a program and like, oh, I want to write this program that shows me all of my conventional
+
+42
+00:03:07,780 --> 00:03:12,440
+ committers and helps me organize, you know, the different things and remember which ones
+
+43
+00:03:12,440 --> 00:03:13,440
+ they are.
+
+44
+00:03:13,440 --> 00:03:17,000
+ The whole time I was thinking, you can do all of that with AI already.
+
+45
+00:03:17,000 --> 00:03:20,600
+ You can just say AI put conventional commits on here.
+
+46
+00:03:20,600 --> 00:03:24,120
+ And if you want to understand conventional commits, you can say, please describe the
+
+47
+00:03:24,120 --> 00:03:26,260
+ commands, conventional commits as you're doing it.
+
+48
+00:03:26,260 --> 00:03:30,840
+ So if you don't mind spending the tokens, you can actually use your AI to do the work
+
+49
+00:03:30,840 --> 00:03:35,360
+ and to teach you how to do the work at the same time.
+
+50
+00:03:35,360 --> 00:03:37,880
+ Just like a founder of a startup would do.
+
+51
+00:03:37,880 --> 00:03:44,080
+ You would be there, you would be monitoring what's happening, you would be checking in
+
+52
+00:03:44,080 --> 00:03:47,400
+ to see, you know, yes, I like this, no, I don't like that.
+
+53
+00:03:47,400 --> 00:03:49,160
+ And you would be running the show.
+
+54
+00:03:49,160 --> 00:03:53,320
+ You would still be in charge of quality and everything, but you're the leader and the
+
+55
+00:03:53,320 --> 00:03:59,760
+ skills of a founder are now the most important skills, which means that you have creativity.
+
+56
+00:03:59,760 --> 00:04:05,960
+ You have the ability to see across boundaries and to associate things with each other.
+
+57
+00:04:05,960 --> 00:04:12,080
+ You know the industry, you know the domain that you're in, you're able to think about
+
+58
+00:04:12,080 --> 00:04:17,720
+ and to invent solutions to a real problem, probably from your own life, but maybe someone
+
+59
+00:04:17,720 --> 00:04:19,080
+ else's life.
+
+60
+00:04:19,080 --> 00:04:25,160
+ Those are all of the traits that every single technologist is going to require going forward.
+
+61
+00:04:25,160 --> 00:04:35,160
+ And if you're not willing to start doing that today by managing yourself, your time, your
+
+62
+00:04:35,160 --> 00:04:44,120
+ money, your investment in agents, you're not going to succeed in tech, you're just not.
+
+63
+00:04:44,120 --> 00:04:45,400
+ And it's already happening.
+
+64
+00:04:45,400 --> 00:04:49,040
+ People are getting let go who cannot do this.
+
+65
+00:04:49,040 --> 00:04:54,180
+ The ones that get let go are the ones that are just punching numbers and making stuff
+
+66
+00:04:54,180 --> 00:04:55,180
+ happen.
+
+67
+00:04:55,180 --> 00:05:01,120
+ The ones that are staying are the ones that have this solution mentality who want to understand
+
+68
+00:05:01,120 --> 00:05:06,240
+ the problems of the company or their own company and make things with it.
+
+69
+00:05:06,240 --> 00:05:09,480
+ And they're using AI and occasionally if they need a human, they say, okay, I need
+
+70
+00:05:09,480 --> 00:05:11,400
+ a human for this.
+
+71
+00:05:11,400 --> 00:05:17,000
+ And those are the people, the founders to start up, to start up mentality people that
+
+72
+00:05:17,000 --> 00:05:18,200
+ are going to win.
+
+73
+00:05:18,200 --> 00:05:22,000
+ And there are a lot of people, this is one of the things that I hate doing, but I have
+
+74
+00:05:22,000 --> 00:05:28,720
+ to now agree with everybody who has ever pushed startup culture because startup culture is
+
+75
+00:05:28,720 --> 00:05:32,360
+ now the only culture for tech.
+
+76
+00:05:32,360 --> 00:05:37,100
+ There are not punch clock jobs anymore in technology.
+
+77
+00:05:37,100 --> 00:05:41,320
+ And if you're in one of those jobs, get ready to get fired.
+
+78
+00:05:41,320 --> 00:05:45,680
+ So either start thinking like a startup or become an orthodontics assistant.
+

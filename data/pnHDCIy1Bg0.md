@@ -1,4 +1,0 @@
-# 🎧 "Why no music?"
-
-## Transcription
-

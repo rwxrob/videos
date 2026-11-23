@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:05,280
+ Here's just how dangerous this is.
+
+2
+00:00:05,280 --> 00:00:11,020
+ When you're using agents, you have to never, ever, ever trust the agent.
+
+3
+00:00:11,020 --> 00:00:15,440
+ That means don't give it authority to do anything, explicitly authorize every single
+
+4
+00:00:15,440 --> 00:00:16,440
+ thing.
+
+5
+00:00:16,440 --> 00:00:25,000
+ I asked my quad to back out a single file, so in this directory here in OBS directory,
+
+6
+00:00:25,000 --> 00:00:28,840
+ I had my index.html is just my overlay, which you're seeing right now.
+
+7
+00:00:28,840 --> 00:00:30,360
+ That's why it's not working.
+
+8
+00:00:30,360 --> 00:00:31,360
+ You see the logo.
+
+9
+00:00:31,360 --> 00:00:39,560
+ Then there was a Lua plugin that I had in there to just start all of my stuff up when
+
+10
+00:00:39,560 --> 00:00:40,560
+ I launched OBS.
+
+11
+00:00:40,560 --> 00:00:45,640
+ I decided to back off from it because OBS doesn't have the same environment as my user, which
+
+12
+00:00:45,640 --> 00:00:50,920
+ means it doesn't know where any of my categories or topic lists are, so it can't find anything.
+
+13
+00:00:50,920 --> 00:00:55,480
+ I just decided to just run topics D, which is the daemon by hand.
+
+14
+00:00:55,480 --> 00:01:01,020
+ I asked it to back it out, look what it tried to do.
+
+15
+00:01:01,020 --> 00:01:05,480
+ Remove my entire OBS directory, and I even told it, I've like, I removed it since you're
+
+16
+00:01:05,480 --> 00:01:09,320
+ going to delete an index station on the logo as well, which would have been bad.
+
+17
+00:01:09,320 --> 00:01:12,080
+ And Claude very politely says, "Oh, good catch.
+
+18
+00:01:12,080 --> 00:01:13,400
+ I should have checked."
+
+19
+00:01:13,400 --> 00:01:15,040
+ That was in that directory.
+
+20
+00:01:15,040 --> 00:01:19,640
+ Nothing was in there before I did, "RM-RF!"
+
+21
+00:01:19,640 --> 00:01:26,720
+ So Claude is stupid enough to not, even Claude, this is Opus 4.6, which is supposed to be
+
+22
+00:01:26,720 --> 00:01:34,080
+ really smart, is even stupid enough to not know not to do an RM-RF against an entire
+
+23
+00:01:34,080 --> 00:01:37,480
+ directory before checking what's in the directory.
+
+24
+00:01:37,480 --> 00:01:38,080
+ You've been warned.
+

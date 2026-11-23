@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:07,000
+ So this is just a quick video to let you know if you haven't heard yet that the new format
+
+2
+00:00:07,000 --> 00:00:13,400
+ for YouTube and everything is something called fragmented MP4.
+
+3
+00:00:13,400 --> 00:00:17,120
+ So if you're as old as me, you might remember MPV and all that.
+
+4
+00:00:17,120 --> 00:00:21,960
+ Yeah, no, and fragmented MP4 has all the resilience of MPV.
+
+5
+00:00:21,960 --> 00:00:28,400
+ So this is how you do it, settings, output, recording.
+
+6
+00:00:28,400 --> 00:00:31,940
+ I have my movies here and then I have fragmented MP4 right here.
+
+7
+00:00:31,940 --> 00:00:36,800
+ Don't forget to change your video encoder and make sure you have a video encoder here
+
+8
+00:00:36,800 --> 00:00:42,600
+ separate for your recording from your streaming, otherwise you won't be able to pause the
+
+9
+00:00:42,600 --> 00:00:45,600
+ video, which you definitely want to do.
+
+10
+00:00:45,600 --> 00:00:46,840
+ So that's all.
+

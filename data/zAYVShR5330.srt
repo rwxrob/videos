@@ -1,0 +1,368 @@
+1
+00:00:00,000 --> 00:00:06,160
+ Okay. Linters and fixtures. These are things that I did not really understand for a long time
+
+2
+00:00:06,160 --> 00:00:12,480
+ and definitely did not use until relatively recently. And if I did use them, I didn't really
+
+3
+00:00:12,480 --> 00:00:16,880
+ understand what they were about. And I want to talk about them really quickly about how to enable
+
+4
+00:00:16,880 --> 00:00:22,320
+ them about some ways you might want to use them explicitly rather than use the implicit ones and
+
+5
+00:00:22,320 --> 00:00:25,840
+ understand why they work sometimes, sometimes they don't, because a lot of it's built in.
+
+6
+00:00:26,560 --> 00:00:34,720
+ And then also what you can get rid of from the old school VIMM usage. So before we can get into
+
+7
+00:00:34,720 --> 00:00:41,040
+ Linters and stuff like that, I need to talk about editing in general and how and why editing files
+
+8
+00:00:41,040 --> 00:00:46,240
+ has changed over the years really quickly. So first of all, in 2027, most people are not editing
+
+9
+00:00:46,240 --> 00:00:55,440
+ at all. They're just watching their agents write 81,000 lines of code like mine has for Nomad IRL.
+
+10
+00:00:55,440 --> 00:01:00,720
+ They're not, they're just letting the agent do the typing and they're not doing a lot of editing.
+
+11
+00:01:00,720 --> 00:01:06,240
+ So the first thing that does is it completely deflates the editor wars. Who cares? You're going
+
+12
+00:01:06,240 --> 00:01:12,160
+ to be using an agent and promotes of it. And if you're not, then if you're using who cares how
+
+13
+00:01:12,160 --> 00:01:18,400
+ the other editor ends up coming around doing it. If you're being based on how fast you type and
+
+14
+00:01:18,400 --> 00:01:22,160
+ what your efficiencies are, your keyboard mappings and all that, and whether you use a split keyboard
+
+15
+00:01:22,160 --> 00:01:28,160
+ and all that, then it's kind of silly in 2027 to do that. It just means you don't know what's relevant.
+
+16
+00:01:29,520 --> 00:01:33,120
+ What's relevant is how fast you're generating the code and you're generating the code fastest
+
+17
+00:01:33,120 --> 00:01:41,040
+ by using an agent the end. So in that time frame, the guy like me in the 90s who's maintaining 200
+
+18
+00:01:41,040 --> 00:01:46,400
+ machines or so at a time needed to have a VIMRC that was really portable, that I could put some
+
+19
+00:01:46,400 --> 00:01:51,920
+ place. And more than that, I needed to be able to be good using V.I. instead of VIM, let me don't
+
+20
+00:01:51,920 --> 00:01:57,120
+ know what that is, but it predates it, which still exists by the way. So you know, AIX systems,
+
+21
+00:01:57,840 --> 00:02:04,880
+ some microsystems, busy box, you know, containers, a lot of things use a V.I. that don't use VIM at
+
+22
+00:02:04,880 --> 00:02:13,200
+ all. And it's pronounced V.I. by the way. And that stuff was what ruled the day. So we had to be
+
+23
+00:02:13,200 --> 00:02:18,400
+ able to be quick. And we copy our bachelor C over, we copy our VIMRC over to a system. And we didn't
+
+24
+00:02:18,400 --> 00:02:23,760
+ always have shared drives on which all of our hundreds of machines were loaded so that we could
+
+25
+00:02:23,760 --> 00:02:28,160
+ just maintain that one VIMRC and have it work everywhere. We did have that. We did have that,
+
+26
+00:02:28,160 --> 00:02:32,080
+ but not always, right? So sometimes in order to be efficient, you need to move your VIMRC over
+
+27
+00:02:32,080 --> 00:02:37,920
+ there really quickly. And that's why I'm still prone to having a single VIMRC file as opposed to
+
+28
+00:02:37,920 --> 00:02:44,240
+ an 80,000-line init.luaf file and a dependency on Neo VIM. I use Neo VIM all the time. I really
+
+29
+00:02:44,240 --> 00:02:52,880
+ love it. It does really great things such as show me inline mistakes that I'm making
+
+30
+00:02:53,680 --> 00:02:58,560
+ by running the linter with these pretty commands. That's actually an ale thing, but the fact that
+
+31
+00:02:58,560 --> 00:03:04,480
+ it's so pretty is a Neo VIM thing. So if you look at my dot files and my VIMRC, you can go look at
+
+32
+00:03:04,480 --> 00:03:12,080
+ that artybixrob/dot, drop a star on my thing if you want to follow that repo. And take a look
+
+33
+00:03:12,080 --> 00:03:17,840
+ at the linters. So what do the linters do? The linters actually spot problems. They don't fix
+
+34
+00:03:17,840 --> 00:03:21,360
+ the problems. They spot the problems and they tell you about it. So Shell Check is a really
+
+35
+00:03:21,360 --> 00:03:24,960
+ popular one these days. You pass some back script through it and it will give you all the problems,
+
+36
+00:03:24,960 --> 00:03:32,320
+ right? But you can do that live by adding a linter with ale. And Neo VIM has the equivalent,
+
+37
+00:03:32,320 --> 00:03:37,040
+ there are Neo VIM people that are anti-ail because ale is a VIM specific thing. They'll complain
+
+38
+00:03:37,040 --> 00:03:40,640
+ that it's a plug-in, it's heavy and all that. The reason I like that is because it works in VIM
+
+39
+00:03:40,640 --> 00:03:44,880
+ and Neo VIM. And if I choose to not use the Neo VIM, I don't have Neo VIM, I could still use it.
+
+40
+00:03:44,880 --> 00:03:50,400
+ So that's why I am still a big ale fan. In fact, so much so, I'm going to write my own linters
+
+41
+00:03:50,400 --> 00:03:56,000
+ and distribute them for YouTube descriptions, for example, which are sort of a Frankenstein
+
+42
+00:03:56,000 --> 00:04:01,520
+ version of Markdown. So, and then you have fixers. So what do fixers do? Fixers will
+
+43
+00:04:01,520 --> 00:04:09,920
+ automatically reformat live on Save, depending on how you have configured. So L, disable OSP,
+
+44
+00:04:09,920 --> 00:04:15,360
+ L, fix on Save, and stuff like this. So this actually fixes the code. And go users have been
+
+45
+00:04:15,360 --> 00:04:22,960
+ enjoying fixers and linters for a very long time with VIMGO. So VIMGO does this by default. And it's
+
+46
+00:04:22,960 --> 00:04:27,680
+ probably, I would say it's probably one of the main reasons that the terminal editor for Go has
+
+47
+00:04:27,680 --> 00:04:37,360
+ become kind of standard in the Go community since 2026, 2016. And so to that end, I created
+
+48
+00:04:38,320 --> 00:04:43,360
+ something that would work, even if plugins were not available to VIM. So even if I didn't have ale,
+
+49
+00:04:44,480 --> 00:04:50,880
+ and I also did not have VIMGO, which was very rare, but if I didn't have that, I had this little
+
+50
+00:04:50,880 --> 00:04:56,080
+ backup that would run this function, it would run on VIMP really, which is right before VIM
+
+51
+00:04:56,080 --> 00:05:01,760
+ exits out. And it would run Go FMT against the entire file and reformat it. So it was all pretty,
+
+52
+00:05:01,760 --> 00:05:07,520
+ you know, it was linted up pretty and formatted so that it would be submitted without any errors.
+
+53
+00:05:07,520 --> 00:05:13,440
+ And, you know, CI/CD would not have to do any work on it. And now the reason this video is
+
+54
+00:05:13,440 --> 00:05:20,800
+ being made is because I'm going to delete these lines out of here because I don't need to do it.
+
+55
+00:05:21,520 --> 00:05:27,600
+ No color scheme loaded, so apply directly. I don't need these lines anymore, right? Because I can
+
+56
+00:05:27,600 --> 00:05:33,280
+ use, I'm going to allow myself to have a dependency on an ale, on ale, because ale is a plugin. And
+
+57
+00:05:33,280 --> 00:05:39,040
+ if you don't have plugins in 2027, you know, you're probably not editing your files properly
+
+58
+00:05:40,080 --> 00:05:46,080
+ given the fact that we're not editing with agent agent.ai that we are, we have jump hosts that have
+
+59
+00:05:46,080 --> 00:05:50,560
+ shared drives that have those files on there. And we have containers that don't have any
+
+60
+00:05:50,560 --> 00:05:56,000
+ editor in there at all. So we are figuring out a way to edit things that are going to go into the
+
+61
+00:05:56,000 --> 00:06:02,240
+ container on our laptops and other places like that. So I just wanted to point to you the direction
+
+62
+00:06:02,240 --> 00:06:06,480
+ of linters and talk to you about it. Before I leave, though, I want to give you a little quick tip
+
+63
+00:06:06,480 --> 00:06:13,760
+ that I recently discovered. If you don't know what linter, so up until very recently,
+
+64
+00:06:15,200 --> 00:06:19,360
+ I had them and I did not have them in here, right? So let's go ahead and remove it for a second.
+
+65
+00:06:19,360 --> 00:06:23,920
+ And I'll reopen this. And you're like, you can see that I've got a linter working in here, right?
+
+66
+00:06:23,920 --> 00:06:28,160
+ Well, where's the when where's the linter coming from? Like, who's producing that error?
+
+67
+00:06:28,880 --> 00:06:34,160
+ And it's really hard when you first start enabling linters and stuff like this to determine what
+
+68
+00:06:34,160 --> 00:06:39,760
+ that is. But the the answer is pretty simple l info. If you do l info, it'll tell you what
+
+69
+00:06:39,760 --> 00:06:45,680
+ linters are automatically being used if those binaries are found. And I have there's there's one
+
+70
+00:06:45,680 --> 00:06:52,240
+ for bash called bash eight. It's horrible. It's absolutely horrible. And it was it was doing some
+
+71
+00:06:52,240 --> 00:06:58,560
+ stupid stuff. And I was like, I do not want to use this. But it was picking it up. And I did this
+
+72
+00:06:58,560 --> 00:07:02,400
+ very thing and I was like, I don't have any bash linters turns out shell check is good for both of
+
+73
+00:07:02,400 --> 00:07:08,320
+ them. Shelf FMT shell check are the best linters and fixers for any shell bash or bash or regular
+
+74
+00:07:08,320 --> 00:07:13,920
+ positive shell. But so yeah, so you can see here that it was using Vince. Well, the reason it's
+
+75
+00:07:13,920 --> 00:07:19,680
+ doing it is because I installed vent on here. And for a very long time, longer than I'm I like
+
+76
+00:07:19,680 --> 00:07:25,360
+ to admit, I did not know how to know where the linters were coming from. And that's where it is.
+
+77
+00:07:25,360 --> 00:07:30,720
+ It's ale info. And if you want to be more explicit about it, you can actually add them here so that
+
+78
+00:07:30,720 --> 00:07:36,960
+ someone coming to your VMRC can see which linters and fixers you're using. And they don't have to
+
+79
+00:07:36,960 --> 00:07:46,560
+ depend on that. And that that will also bypass the the the built in things. So if you go on a system,
+
+80
+00:07:47,440 --> 00:07:51,360
+ you're not going to be on a shared system in general. But if you were on a show, so you got
+
+81
+00:07:51,360 --> 00:07:55,920
+ a jump post, right? And you got VIM over there. And you don't have a lot of plugins installed,
+
+82
+00:07:55,920 --> 00:07:59,680
+ but but somebody has decided to install vent on there, right? You would automatically get
+
+83
+00:07:59,680 --> 00:08:03,280
+ VIMlanting and you would wonder why you didn't have it at home on your laptop. It's like, what's
+
+84
+00:08:03,280 --> 00:08:08,480
+ going on? Well, now you can find out, just do ale info. You can go see what programs were installed
+
+85
+00:08:08,480 --> 00:08:12,880
+ there and why your linters and stuff are all of a sudden working and fixers when when you may not
+
+86
+00:08:12,880 --> 00:08:20,240
+ have actually explicitly added them. My my preference from now on as of today is to always explicitly
+
+87
+00:08:20,240 --> 00:08:27,280
+ list my linters. Because if they're not there, you know, I can know about that plus when I'm doing
+
+88
+00:08:27,280 --> 00:08:32,160
+ my installer, I just recently cleaned up my dog files. And you know, my agent was really was
+
+89
+00:08:32,160 --> 00:08:37,440
+ really good about finding the linters that I need and putting them in my installer subsection
+
+90
+00:08:37,440 --> 00:08:42,960
+ of my dot files so I can go in there and auto install those when I from my my my global install
+
+91
+00:08:42,960 --> 00:08:48,160
+ or whatever. If I'm on my own machine or my own Linux Mac machine, whatever. So hopefully that
+
+92
+00:08:48,160 --> 00:08:52,800
+ helps you get going with linters and fixers.
+

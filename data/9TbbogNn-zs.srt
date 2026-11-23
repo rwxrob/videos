@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:04,160
+ I have to make a quick video so you don't waste your money like I did.
+
+2
+00:00:04,160 --> 00:00:08,520
+ I paid two hundred fourteen dollars per year membership of Claude Code and I don't have
+
+3
+00:00:08,520 --> 00:00:11,320
+ to tell you what a disaster Claude Code has been.
+
+4
+00:00:11,320 --> 00:00:17,040
+ The entropic company right now has just proven on multiple levels how stupid they are and
+
+5
+00:00:17,040 --> 00:00:19,800
+ I don't want anything to do with them.
+
+6
+00:00:19,800 --> 00:00:21,520
+ Their web UI is horrible.
+
+7
+00:00:21,520 --> 00:00:26,560
+ Their command line, even though it has voice support, which is super cool, is all in JavaScript?
+
+8
+00:00:26,560 --> 00:00:28,400
+ Who does that?
+
+9
+00:00:28,400 --> 00:00:33,680
+ I mean really in twenty twenty six what you should do instead you can't I can't use Claude
+
+10
+00:00:33,680 --> 00:00:39,220
+ Code at work because for obvious reasons and most works don't want you to use it but most
+
+11
+00:00:39,220 --> 00:00:44,160
+ enterprises already have a co-pilot membership with GitHub and Microsoft because they're cozy
+
+12
+00:00:44,160 --> 00:00:45,160
+ with them.
+
+13
+00:00:45,160 --> 00:00:49,360
+ It doesn't matter what you think of that if you want to be able to use the Claude Opus
+
+14
+00:00:49,360 --> 00:00:54,440
+ four point six model which you really should want to use you should be using it with GitHub
+
+15
+00:00:54,440 --> 00:00:59,840
+ co-pilot in my opinion because the GitHub command line interface is way better.
+
+16
+00:00:59,840 --> 00:01:00,840
+ It's more stable.
+
+17
+00:01:00,840 --> 00:01:01,840
+ It's written and go.
+
+18
+00:01:01,840 --> 00:01:05,000
+ It doesn't have voice interaction and it's completely modeled off the Claude CLI.
+
+19
+00:01:05,000 --> 00:01:09,040
+ You can totally tell that it's pretty obvious and you get everything you only paid ten bucks
+
+20
+00:01:09,040 --> 00:01:15,240
+ a month on pro but here's the kicker if you have any project at all that's used by a significant
+
+21
+00:01:15,240 --> 00:01:20,320
+ number of people or you're a teacher you can use pro which includes Claude Opus four point
+
+22
+00:01:20,320 --> 00:01:27,640
+ six four free so you save that even if you wanted Claude Code why would you pay double
+
+23
+00:01:27,640 --> 00:01:34,720
+ the money for the same model on GitHub co-pilot unless you have some like religious association
+
+24
+00:01:34,720 --> 00:01:38,640
+ with these different companies and by the way saying that anthropic is less evil than
+
+25
+00:01:38,640 --> 00:01:47,120
+ Microsoft is kind of silly so just get GitHub co-pilot and get it for free the end.
+

@@ -1,0 +1,756 @@
+1
+00:00:00,000 --> 00:00:10,720
+ GitHub is doing something nefarious, because I have just been denied access.
+
+2
+00:00:10,720 --> 00:00:12,440
+ I have a GitHub ProPlus.
+
+3
+00:00:12,440 --> 00:00:18,120
+ I am throwing money at them as fast as I can, because I predict, as I already have been
+
+4
+00:00:18,120 --> 00:00:23,840
+ right about, that GitHub is going to pull the rug out from everybody, because they can't
+
+5
+00:00:23,840 --> 00:00:29,360
+ pay, and whether or not anthropic is at fault for this, it doesn't matter.
+
+6
+00:00:29,360 --> 00:00:32,640
+ I can't use their product.
+
+7
+00:00:32,640 --> 00:00:37,880
+ For the last two weeks, while I've been working on my Twitch API, which is my integration thing,
+
+8
+00:00:37,880 --> 00:00:42,960
+ I have gone in here, and I have been doing a financial test, because so much of this has
+
+9
+00:00:42,960 --> 00:00:46,000
+ not been documented on the GitHub site.
+
+10
+00:00:46,000 --> 00:00:49,280
+ GitHub is an absolute chaos over there.
+
+11
+00:00:49,280 --> 00:00:51,160
+ They have no idea what they're doing.
+
+12
+00:00:51,160 --> 00:00:55,000
+ They're over-committing to everybody, and they just shut the doors down.
+
+13
+00:00:55,000 --> 00:00:58,400
+ They basically were like, "There's a bank run, and they shut the windows," and they said,
+
+14
+00:00:58,400 --> 00:01:00,520
+ "Nobody can have any new access."
+
+15
+00:01:00,520 --> 00:01:04,240
+ The people that are in here, you have access to get your money out of the bank, and you're
+
+16
+00:01:04,240 --> 00:01:06,120
+ lucky if you're in there.
+
+17
+00:01:06,120 --> 00:01:12,120
+ They pulled access to all the models that people were using, except for 4.7, and they
+
+18
+00:01:12,120 --> 00:01:17,720
+ told everybody that they were going to support GitHub ProPlus users using only 4.7 at a
+
+19
+00:01:17,720 --> 00:01:19,480
+ 7.5 times rate.
+
+20
+00:01:19,480 --> 00:01:23,880
+ Well, I've been doing that, and I'm like, "Oh my God, in fact, I've been saying it very
+
+21
+00:01:23,880 --> 00:01:30,080
+ publicly, I'm going to do as much coding as I can using this amazing model while I can,
+
+22
+00:01:30,080 --> 00:01:32,960
+ because they're still not meeting the demand.
+
+23
+00:01:32,960 --> 00:01:36,160
+ They're people that are running 20-40 agents at a time.
+
+24
+00:01:36,160 --> 00:01:40,360
+ There's no way that they're going to be able to provide capacity for the usage at spikes
+
+25
+00:01:40,360 --> 00:01:41,840
+ that are happening right now.
+
+26
+00:01:41,840 --> 00:01:47,080
+ I know that there's somebody at GitHub watching this video going, "Aha, aha, aha, aha, aha."
+
+27
+00:01:47,080 --> 00:01:53,520
+ What they just did, I'm very confident that they just silently blacklisted me.
+
+28
+00:01:53,520 --> 00:01:58,160
+ Because for the last two and a half weeks, every time I would hit this message, 4.2,
+
+29
+00:01:58,160 --> 00:02:02,440
+ you have conceded your quota, I would do to go into the GitHub page that you're seeing
+
+30
+00:02:02,440 --> 00:02:08,480
+ right here, and I would add 50 more dollars to my budget, and I'm happy to pay this, because
+
+31
+00:02:08,480 --> 00:02:10,160
+ I was doing a comparison.
+
+32
+00:02:10,160 --> 00:02:12,120
+ How much could I get done?
+
+33
+00:02:12,120 --> 00:02:15,960
+ How much would I pay by being able to incrementally bump up my quota?
+
+34
+00:02:15,960 --> 00:02:20,440
+ Unlike Clod Code, which I also have, I'm using a different thing, because Clod Code is a
+
+35
+00:02:20,440 --> 00:02:22,240
+ $200, and it's capped.
+
+36
+00:02:22,240 --> 00:02:27,080
+ So I just found out that somebody just told us that this might have more to do with Anthropic.
+
+37
+00:02:27,080 --> 00:02:33,360
+ I don't know, because Anthropic is having all kinds of problems, too, for lots of reasons,
+
+38
+00:02:33,360 --> 00:02:37,480
+ and they did some maintenance, and they cut Clod Code completely, so people couldn't use
+
+39
+00:02:37,480 --> 00:02:40,680
+ it last night while they were testing some pricing.
+
+40
+00:02:40,680 --> 00:02:43,240
+ I haven't looked into that one at all, don't trust me on that.
+
+41
+00:02:43,240 --> 00:02:47,560
+ This could be anthropic, but I tell you what, it's hitting me through GitHub, because I
+
+42
+00:02:47,560 --> 00:02:51,400
+ go to use it, so at first I started getting the quota errors, and I'm like, "Okay, the
+
+43
+00:02:51,400 --> 00:02:54,520
+ normal fixer, that is not bump up my budget."
+
+44
+00:02:54,520 --> 00:02:57,880
+ It's not this one, by the way, this over budget down here, because it says, "Stop usage,
+
+45
+00:02:57,880 --> 00:02:58,880
+ no."
+
+46
+00:02:58,880 --> 00:03:01,160
+ That has never blocked me ever, and that's never been a reason.
+
+47
+00:03:01,160 --> 00:03:04,960
+ So if that is blocking me now, that's definitely a change.
+
+48
+00:03:04,960 --> 00:03:06,200
+ I don't think that's it.
+
+49
+00:03:06,200 --> 00:03:08,720
+ So this thing here, I bumped it up.
+
+50
+00:03:08,720 --> 00:03:13,280
+ So this last time, I've been buying about 50 bucks every four days lately, because I've
+
+51
+00:03:13,280 --> 00:03:16,840
+ been doing a lot of coding with it, which I actually think has something to do with my
+
+52
+00:03:16,840 --> 00:03:23,440
+ being blacklisted, because I was running for five hours a day of single double agent kind
+
+53
+00:03:23,440 --> 00:03:24,440
+ of situation.
+
+54
+00:03:24,440 --> 00:03:28,960
+ So I was doing some hip, pretty heavy lifting on the whole thing, including making an entire
+
+55
+00:03:28,960 --> 00:03:33,200
+ to-do list from my app, where I click on it and send it to the copion in the background.
+
+56
+00:03:33,200 --> 00:03:37,560
+ I've been a heavy user, and I've been paying for it, and so I wanted to see how much it
+
+57
+00:03:37,560 --> 00:03:38,920
+ would take for me to get to 200.
+
+58
+00:03:38,920 --> 00:03:44,400
+ I hit that today, and then I was like, "Okay, let's see if I can go over 200."
+
+59
+00:03:44,400 --> 00:03:46,360
+ So what's going on here?
+
+60
+00:03:46,360 --> 00:03:47,720
+ Why can't I use it anymore?
+
+61
+00:03:47,720 --> 00:03:49,440
+ There's a $300 budget right there.
+
+62
+00:03:49,440 --> 00:03:51,080
+ I'm still being block quoted.
+
+63
+00:03:51,080 --> 00:03:52,280
+ Is it because of the model?
+
+64
+00:03:52,280 --> 00:03:53,280
+ No.
+
+65
+00:03:53,280 --> 00:03:56,520
+ I switched over to Sonnet, and I was using Sonnet for a while, which was really weird, because
+
+66
+00:03:56,520 --> 00:04:00,160
+ I was still using Sonnet even though my other agent session was being blocked, which means
+
+67
+00:04:00,160 --> 00:04:05,120
+ there's some coding errors in there where I've actually had another problem where I
+
+68
+00:04:05,120 --> 00:04:08,000
+ thought I was going to hit my thing, I'm like, "Why am I still being able to do things?"
+
+69
+00:04:08,000 --> 00:04:13,240
+ And then the next day, I got stopped, and I was like way over the budget, which means
+
+70
+00:04:13,240 --> 00:04:18,160
+ that whatever they're doing to track and block your usage is really dumb, because it's like
+
+71
+00:04:18,160 --> 00:04:19,160
+ not keeping up.
+
+72
+00:04:19,160 --> 00:04:23,560
+ Because I was able to run even after this block in another agent window terminal, I was able
+
+73
+00:04:23,560 --> 00:04:28,320
+ to continue running that thing and finish out whatever the context was that I was doing.
+
+74
+00:04:28,320 --> 00:04:31,600
+ And then all of a sudden, I tried to do a new thing, and it's like, "Nope, you're done."
+
+75
+00:04:31,600 --> 00:04:32,600
+ And it shut that down.
+
+76
+00:04:32,600 --> 00:04:36,200
+ I don't know what's going on in the back end, we get up, I don't care.
+
+77
+00:04:36,200 --> 00:04:40,320
+ All I know is that I'm paying the money, and that they can't provide the service, and rather
+
+78
+00:04:40,320 --> 00:04:44,360
+ than fix the service, they're like running around with their heads cut off, trying to
+
+79
+00:04:44,360 --> 00:04:46,920
+ figure out how to block more people.
+
+80
+00:04:46,920 --> 00:04:50,280
+ And I'm almost pausing it that I got blocked.
+
+81
+00:04:50,280 --> 00:04:51,280
+ I got blocked.
+
+82
+00:04:51,280 --> 00:04:58,440
+ I got identified as one of these troublemakers who doesn't make any sense to anybody who
+
+83
+00:04:58,440 --> 00:05:02,360
+ is going to be, "I'm still paying the money, but who cares about Artifacts Rob and his Twitch
+
+84
+00:05:02,360 --> 00:05:03,360
+ CCLI?"
+
+85
+00:05:03,360 --> 00:05:04,360
+ Nobody cares.
+
+86
+00:05:04,360 --> 00:05:08,640
+ But it's too bad, because I was really, really excited about their product, and I've been
+
+87
+00:05:08,640 --> 00:05:10,040
+ really pushing them a lot.
+
+88
+00:05:10,040 --> 00:05:13,280
+ And all of a sudden, I can't use the product anymore.
+
+89
+00:05:13,280 --> 00:05:14,280
+ What's going on?
+
+90
+00:05:14,280 --> 00:05:15,280
+ I have no idea.
+
+91
+00:05:15,280 --> 00:05:19,200
+ GitHub, can you please help us understand what the hell is happening over there?
+
+92
+00:05:19,200 --> 00:05:22,120
+ I mean, seriously, please keep us notified.
+
+93
+00:05:22,120 --> 00:05:25,200
+ You've got a marketing team, put another blog post out.
+
+94
+00:05:25,200 --> 00:05:29,320
+ If you have to shut us all the way down and have your director of product tell us why
+
+95
+00:05:29,320 --> 00:05:34,800
+ you decided to deny your services, that you've been marketing for the last year as the best
+
+96
+00:05:34,800 --> 00:05:39,520
+ in class, and getting everybody excited to use it, and blocking the doors, and in this
+
+97
+00:05:39,520 --> 00:05:43,920
+ case probably pulling the rug out from under me, this is not the way to do business.
+
+98
+00:05:43,920 --> 00:05:48,080
+ And I really hope that this is all something you can blame on anthropic, because I hate
+
+99
+00:05:48,080 --> 00:05:49,080
+ that company.
+
+100
+00:05:49,080 --> 00:05:52,120
+ They have a great model, but they have a horrible company.
+
+101
+00:05:52,120 --> 00:05:53,280
+ They have a horrible company.
+
+102
+00:05:53,280 --> 00:05:57,920
+ The business model is horrible, I hate everything about that company except for their model.
+
+103
+00:05:57,920 --> 00:06:00,760
+ So let's figure this out.
+
+104
+00:06:00,760 --> 00:06:04,160
+ If you can't get me the quota back, then I guess I'm stuck.
+
+105
+00:06:04,160 --> 00:06:06,760
+ I'm not going to do any development until the end of the thing.
+
+106
+00:06:06,760 --> 00:06:08,240
+ There's a couple of other theories I have.
+
+107
+00:06:08,240 --> 00:06:11,960
+ One of the theories is that the $200, which is the same amount of money that you can spend
+
+108
+00:06:11,960 --> 00:06:16,680
+ for Claude, is the soft, hidden, stealthy cap.
+
+109
+00:06:16,680 --> 00:06:20,080
+ You actually can't go over $200.
+
+110
+00:06:20,080 --> 00:06:22,520
+ You can't go $200 over a budget.
+
+111
+00:06:22,520 --> 00:06:27,240
+ I have a feeling that there is a soft cap, someplace that's completely undocumented,
+
+112
+00:06:27,240 --> 00:06:30,880
+ that says $200 is the maximum you can go over a budget.
+
+113
+00:06:30,880 --> 00:06:34,160
+ But nobody knows this, because it's not documented.
+
+114
+00:06:34,160 --> 00:06:36,880
+ All right, let's try it one more time.
+
+115
+00:06:36,880 --> 00:06:41,240
+ The thing that also sucks is it's like, I can't do anything.
+
+116
+00:06:41,240 --> 00:06:46,000
+ I can't use haiku, I can't use GPT, I can't even use the free models.
+
+117
+00:06:46,000 --> 00:06:48,400
+ I'm going to go to the free model now, all right?
+
+118
+00:06:48,400 --> 00:06:49,400
+ Let's go.
+
+119
+00:06:49,400 --> 00:06:50,400
+ And this is the latest.
+
+120
+00:06:50,400 --> 00:06:51,400
+ This is the latest.
+
+121
+00:06:51,400 --> 00:06:53,040
+ Kenny, this should be like free.
+
+122
+00:06:53,040 --> 00:06:54,040
+ This is zero.
+
+123
+00:06:54,040 --> 00:06:55,040
+ Let's see if I can work it.
+
+124
+00:06:55,040 --> 00:06:56,440
+ Let's see if it works.
+
+125
+00:06:56,440 --> 00:06:57,440
+ Let's see.
+
+126
+00:06:57,440 --> 00:06:59,240
+ Are you there?
+
+127
+00:06:59,240 --> 00:07:00,240
+ Are you there?
+
+128
+00:07:00,240 --> 00:07:01,240
+ Please work.
+
+129
+00:07:01,240 --> 00:07:02,240
+ Are you there?
+
+130
+00:07:02,240 --> 00:07:04,880
+ It looks like GPT 5 Mini might work.
+
+131
+00:07:04,880 --> 00:07:05,880
+ Yes.
+
+132
+00:07:05,880 --> 00:07:06,880
+ Yay.
+
+133
+00:07:06,880 --> 00:07:08,380
+ GPT 5 Mini is allowed.
+
+134
+00:07:08,380 --> 00:07:09,380
+ Okay.
+
+135
+00:07:09,380 --> 00:07:11,160
+ What other models are allowed?
+
+136
+00:07:11,160 --> 00:07:16,040
+ Can I use 5.2, can I use codecs?
+
+137
+00:07:16,040 --> 00:07:19,000
+ I actually, I would use codec if I could.
+
+138
+00:07:19,000 --> 00:07:20,960
+ I want to do the issue thing and see.
+
+139
+00:07:20,960 --> 00:07:21,960
+ Let's see if this works.
+
+140
+00:07:21,960 --> 00:07:22,960
+ I hope this works.
+
+141
+00:07:22,960 --> 00:07:24,120
+ If this works, it would be the end of my thing.
+
+142
+00:07:24,120 --> 00:07:25,120
+ Nope.
+
+143
+00:07:25,120 --> 00:07:27,360
+ Can't use that.
+
+144
+00:07:27,360 --> 00:07:30,080
+ I can't use any of the coding models.
+
+145
+00:07:30,080 --> 00:07:32,440
+ All of the coding models have been denied.
+
+146
+00:07:32,440 --> 00:07:34,200
+ So let's try them all.
+
+147
+00:07:34,200 --> 00:07:35,200
+ Let's try them all.
+
+148
+00:07:35,200 --> 00:07:36,200
+ I can't use codec.
+
+149
+00:07:36,200 --> 00:07:38,880
+ I know I can't use the 5.4, I tried it already.
+
+150
+00:07:38,880 --> 00:07:40,440
+ Kenny's this Mini.
+
+151
+00:07:40,440 --> 00:07:42,720
+ This is a 3.3.
+
+152
+00:07:42,720 --> 00:07:44,720
+ It's because I'm over budget.
+
+153
+00:07:44,720 --> 00:07:46,240
+ There's money right there.
+
+154
+00:07:46,240 --> 00:07:49,960
+ Is it because somebody suggested it's because the money hasn't hit the bank yet or something.
+
+155
+00:07:49,960 --> 00:07:50,960
+ See?
+
+156
+00:07:50,960 --> 00:07:51,960
+ But it's right there.
+
+157
+00:07:51,960 --> 00:07:52,960
+ It's right there.
+
+158
+00:07:52,960 --> 00:07:55,760
+ There's no extra save button or anything to click on.
+
+159
+00:07:55,760 --> 00:07:56,760
+ That's actually it.
+
+160
+00:07:56,760 --> 00:07:58,760
+ The money is actually there.
+
+161
+00:07:58,760 --> 00:07:59,760
+ So this isn't on me.
+
+162
+00:07:59,760 --> 00:08:02,000
+ This is on your dumb program.
+
+163
+00:08:02,000 --> 00:08:03,000
+ Okay.
+
+164
+00:08:03,000 --> 00:08:04,840
+ So let's figure this out.
+
+165
+00:08:04,840 --> 00:08:05,840
+ Medium.
+
+166
+00:08:05,840 --> 00:08:07,440
+ Let's try my thing here.
+
+167
+00:08:07,440 --> 00:08:08,440
+ Nope.
+
+168
+00:08:08,440 --> 00:08:10,080
+ Because it has money involved.
+
+169
+00:08:10,080 --> 00:08:11,080
+ All right.
+
+170
+00:08:11,080 --> 00:08:12,080
+ All right.
+
+171
+00:08:12,080 --> 00:08:13,080
+ We're seeing a pattern here.
+
+172
+00:08:13,080 --> 00:08:14,080
+ We're seeing a pattern here.
+
+173
+00:08:14,080 --> 00:08:19,920
+ The pattern is that if it doesn't cost any money, you can use it.
+
+174
+00:08:19,920 --> 00:08:25,920
+ If you want to use the ancient GPT models, which I wouldn't let anywhere near my code
+
+175
+00:08:25,920 --> 00:08:29,360
+ base, do you want to use those?
+
+176
+00:08:29,360 --> 00:08:30,360
+ Sure.
+
+177
+00:08:30,360 --> 00:08:31,840
+ You can use that.
+
+178
+00:08:31,840 --> 00:08:32,840
+ No.
+
+179
+00:08:32,840 --> 00:08:35,080
+ I'm not doing that.
+
+180
+00:08:35,080 --> 00:08:36,080
+ That's too risky.
+
+181
+00:08:36,080 --> 00:08:37,080
+ Wait.
+
+182
+00:08:37,080 --> 00:08:38,080
+ I tagged recently.
+
+183
+00:08:38,080 --> 00:08:39,080
+ No.
+
+184
+00:08:39,080 --> 00:08:40,080
+ I mean, this is the end of the video.
+
+185
+00:08:40,080 --> 00:08:42,640
+ GitHub, please just let us know what's going on.
+
+186
+00:08:42,640 --> 00:08:43,640
+ Really.
+
+187
+00:08:43,640 --> 00:08:46,000
+ I mean, we just want to know.
+
+188
+00:08:46,000 --> 00:08:47,000
+ That's all.
+
+189
+00:08:47,000 --> 00:08:48,000
+ I'm done.
+

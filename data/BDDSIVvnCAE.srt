@@ -1,0 +1,756 @@
+1
+00:00:00,000 --> 00:00:05,320
+ all right there's been some pretty big changes with co-pilot and I don't know
+
+2
+00:00:05,320 --> 00:00:09,120
+ all the reasons but I need to report on them like right now so we're gonna
+
+3
+00:00:09,120 --> 00:00:13,080
+ break down this blog that was posted from Bell and that found it this came
+
+4
+00:00:13,080 --> 00:00:21,000
+ about because I went to go do something with co-pilot with Opus 4.6 and it said
+
+5
+00:00:21,000 --> 00:00:25,480
+ I was not allowed to use the model anymore and I have ProPlus which is
+
+6
+00:00:25,480 --> 00:00:29,360
+ $50 a month I've also been going over budget on purpose I'm now I've been
+
+7
+00:00:29,360 --> 00:00:34,600
+ using pretty substantial at least four to four to seven hours a day pretty much
+
+8
+00:00:34,600 --> 00:00:38,920
+ single agent single or double agent time not more than one or two ages at a
+
+9
+00:00:38,920 --> 00:00:44,320
+ time and I have been I've reached my $50 over budget cap which means I spent
+
+10
+00:00:44,320 --> 00:00:49,920
+ $100 so far this month and it's the 20th I just bumped up my my quota on Opus
+
+11
+00:00:49,920 --> 00:00:57,400
+ 4.6 which is three times the rate and that cost me to it's gonna cost me I
+
+12
+00:00:57,400 --> 00:01:01,960
+ suspect I'm going to come in around 200 a month now I'm definitely gonna hit 200
+
+13
+00:01:01,960 --> 00:01:06,040
+ by now that I know about this apologize for the lack of a good mic but I wanted
+
+14
+00:01:06,040 --> 00:01:09,320
+ to get this video out right away as Sharon and our recent blog points were
+
+15
+00:01:09,320 --> 00:01:12,360
+ making the following changes the co-pilot plans for individuals as part of our
+
+16
+00:01:12,360 --> 00:01:16,240
+ ongoing effort to ensure service reliability so this is the biggest one
+
+17
+00:01:16,240 --> 00:01:20,400
+ the biggest announcement here is that they are no longer offering these plans
+
+18
+00:01:20,400 --> 00:01:24,640
+ anymore so to prioritize service quality for existing paying companies
+
+19
+00:01:24,640 --> 00:01:31,600
+ company customers we will be pausing new sign-ups remember I said that those
+
+20
+00:01:31,600 --> 00:01:36,040
+ of us need to get in there and get good to get it to get cut off it's happening
+
+21
+00:01:36,040 --> 00:01:41,840
+ they're cutting people off pausing new sign-ups for student pro and pro plus
+
+22
+00:01:41,840 --> 00:01:46,440
+ plans co-pilot free remains open for new sign-ups and existing users can still
+
+23
+00:01:46,440 --> 00:01:52,160
+ upgrade between plants but if you don't have a plan you're screwed you can't
+
+24
+00:01:52,160 --> 00:01:59,240
+ sign up and I predicted this I predicted this on Sunday on Sunday I noticed that
+
+25
+00:01:59,240 --> 00:02:03,040
+ eventually the resources were gonna go bad and that people were gonna start
+
+26
+00:02:03,040 --> 00:02:06,760
+ getting cut off and that there was a window opportunity right now to use
+
+27
+00:02:06,760 --> 00:02:11,360
+ these tools before everything went crazy and guess what two days later it went
+
+28
+00:02:11,360 --> 00:02:15,880
+ crazy and here's how it's going crazy you can't even get an account now that
+
+29
+00:02:15,880 --> 00:02:25,200
+ means all of my videos suggesting you get in a GitHub co-pilot AI sorry I
+
+30
+00:02:25,200 --> 00:02:29,760
+ mentioned this I mentioned exactly this on Sunday eventually we were gonna get
+
+31
+00:02:29,760 --> 00:02:34,080
+ cut off and here it is happening tighter usage limits for individual plans
+
+32
+00:02:34,080 --> 00:02:38,640
+ glad you stuck with Claude I have Claude as well tighter this isn't battle
+
+33
+00:02:38,640 --> 00:02:42,560
+ between GitHub co-pilot and Claude that's what's happening right now that's what's
+
+34
+00:02:42,560 --> 00:02:47,200
+ happening and the reason they're pausing it is because anthropic wants to make
+
+35
+00:02:47,200 --> 00:02:51,120
+ money and they are cutting GitHub off they're like saying nope you can't use
+
+36
+00:02:51,120 --> 00:02:58,600
+ our plan anymore and they're like oh shit so yeah max 20 times so tighter usage
+
+37
+00:02:58,600 --> 00:03:02,840
+ of the cloud is crap the Claude container if you're not using a different
+
+38
+00:03:02,840 --> 00:03:08,360
+ harness for Claude God help you so co-pilot free remains open to new sign-ups
+
+39
+00:03:08,360 --> 00:03:14,920
+ and existing users can still upgrade but there's no more free co-pilot you cannot
+
+40
+00:03:14,920 --> 00:03:22,520
+ sign up for co-pilot currently period so you know all the recommendations I made
+
+41
+00:03:22,520 --> 00:03:26,520
+ does that mean I think you should sign up for Claude hell no Claude is worse
+
+42
+00:03:26,520 --> 00:03:31,200
+ anthropic is way way worse and everyone else is gonna they're called as a
+
+43
+00:03:31,200 --> 00:03:36,040
+ company anthropic is way way worse we know that from the dump of the anthropic
+
+44
+00:03:36,040 --> 00:03:40,920
+ code base the entire code base was dumped by an idiot engineer and all their
+
+45
+00:03:40,920 --> 00:03:46,000
+ shitty JavaScript type script harness for this is bad I am going to explore
+
+46
+00:03:46,000 --> 00:03:51,480
+ using the Claude account it with a different harness because if you can get
+
+47
+00:03:51,480 --> 00:03:54,360
+ rid of the harness great I still want to use the model I don't know if it can be
+
+48
+00:03:54,360 --> 00:04:00,160
+ done maybe it can be done if that can be done but here's still the problem you're
+
+49
+00:04:00,160 --> 00:04:03,840
+ still paying for Claude and Claude still has budget problems as far as I know
+
+50
+00:04:03,840 --> 00:04:08,160
+ because you can only sign up for the 200 plan and I'm pretty I'm pretty sure
+
+51
+00:04:08,160 --> 00:04:12,360
+ I'm gonna go over the 200 plan so you but some months I'm not gonna use all
+
+52
+00:04:12,360 --> 00:04:17,840
+ 200 so the great thing about co-pilot is business model is you can get pro you
+
+53
+00:04:17,840 --> 00:04:21,400
+ can get pro plus for 50 bucks a month which is reasonable for somebody uses it
+
+54
+00:04:21,400 --> 00:04:25,080
+ every day and then you can add on those months that you use it heavily and you
+
+55
+00:04:25,080 --> 00:04:28,560
+ can charge an overly a budget you can't do that with the Claude model right now
+
+56
+00:04:28,560 --> 00:04:33,240
+ with the Claude model you pay 200 and if you don't use on screw you you're you're
+
+57
+00:04:33,240 --> 00:04:37,760
+ out of that money so the business model behind anthropic is shit it's
+
+58
+00:04:37,760 --> 00:04:42,960
+ absolutely horrible I will never do business with anthropic willfully I just
+
+59
+00:04:42,960 --> 00:04:48,120
+ won't I'll use Codex I'll use whatever else is out there I refuse to use
+
+60
+00:04:48,120 --> 00:04:54,520
+ anthropic especially their logo is an asshole why would you use that I just
+
+61
+00:04:54,520 --> 00:04:58,440
+ don't I am not touching their model is pretty good but I'm not touching that
+
+62
+00:04:58,440 --> 00:05:02,880
+ company ever and it's unless somebody else comes and they will they will they'll
+
+63
+00:05:02,880 --> 00:05:06,360
+ come out with a model that's every bit as good as anthropic because anthropic
+
+64
+00:05:06,360 --> 00:05:11,400
+ is a total fail of a company they're the biggest fail in the AI market and
+
+65
+00:05:11,400 --> 00:05:14,920
+ everyone else is saying how awesome Claude is and I want to use more Claude
+
+66
+00:05:14,920 --> 00:05:19,040
+ now that's a fine good to be them that company is not gonna last they have
+
+67
+00:05:19,040 --> 00:05:23,600
+ overspent their budget more than any other company including OpenAI and they
+
+68
+00:05:23,600 --> 00:05:27,840
+ suck and they dump their entire co-base and they choose to implement their
+
+69
+00:05:27,840 --> 00:05:34,720
+ harness on the command line in TypeScript how stupid can you be I refuse I
+
+70
+00:05:34,720 --> 00:05:37,960
+ refuse to use anthropic under any circumstances I will use their model I
+
+71
+00:05:37,960 --> 00:05:41,880
+ won't use anything else for them their website is absolutely horrible their
+
+72
+00:05:41,880 --> 00:05:45,680
+ business model is horrible I'm not using them even if they have to turn off
+
+73
+00:05:45,680 --> 00:05:50,160
+ copilot for a while anyway this is actually a really good news because this
+
+74
+00:05:50,160 --> 00:05:54,160
+ means that get up is gonna sweat it get up is sweating it right now because they
+
+75
+00:05:54,160 --> 00:05:58,600
+ have a business dependency on anthropic which means that Microsoft is gonna put
+
+76
+00:05:58,600 --> 00:06:01,520
+ all of their money they might not have the same expertise but they're gonna put
+
+77
+00:06:01,520 --> 00:06:05,120
+ all their money and they're gonna invest it in an alternative to anthropic that
+
+78
+00:06:05,120 --> 00:06:08,840
+ is everybody as good as anthropic and you can hate Microsoft all you want the
+
+79
+00:06:08,840 --> 00:06:12,560
+ one thing that they've done consistently is provide enterprise business value
+
+80
+00:06:12,560 --> 00:06:18,000
+ anthropic has not and you know they're about equal in terms of security
+
+81
+00:06:18,000 --> 00:06:23,080
+ vulnerabilities but GitHub at least is not so stupid to develop their entire
+
+82
+00:06:23,080 --> 00:06:27,480
+ harness in TypeScript you know they actually use a tool that works they use
+
+83
+00:06:27,480 --> 00:06:30,640
+ the GitHub and they have that plug-in architecture plus they're 100%
+
+84
+00:06:30,640 --> 00:06:34,200
+ integrating into the get-it workflow and and it's just way better than
+
+85
+00:06:34,200 --> 00:06:38,040
+ clouding every level I'm not going to use cloud so let's proceed to read this
+
+86
+00:06:38,040 --> 00:06:42,040
+ tighter uses limits and individual plans pro plus plans offer more than five
+
+87
+00:06:42,040 --> 00:06:46,960
+ times the limits of pro users on the pro plan who need higher limits can
+
+88
+00:06:46,960 --> 00:06:51,120
+ upgrade to pro plus did it uses users will see warning notifications if you
+
+89
+00:06:51,120 --> 00:06:55,160
+ just go to coupon is they approach their limit got it the use progress tracking
+
+90
+00:06:55,160 --> 00:06:59,020
+ is coming soon for more details on how you said we'll use documented user
+
+91
+00:06:59,020 --> 00:07:02,000
+ rate the biggest problem with GitHub right now is they don't have any of
+
+92
+00:07:02,000 --> 00:07:06,280
+ this documented because it's all in flux how you use their model and that's why
+
+93
+00:07:06,280 --> 00:07:09,860
+ I'm doing this experiment I want to see what happens I don't even know what
+
+94
+00:07:09,860 --> 00:07:13,520
+ these budgets are I didn't even know the budget started engaging when I spent all
+
+95
+00:07:13,520 --> 00:07:16,320
+ of my other tokens and I didn't know how many requests that was it turns out it
+
+96
+00:07:16,320 --> 00:07:20,720
+ was 1500 for pro plus so I spent all 1500 of mine in the first 12 days making
+
+97
+00:07:20,720 --> 00:07:24,480
+ crazy amazing stuff that I went all private on because it's so good I'm going
+
+98
+00:07:24,480 --> 00:07:29,280
+ to sell it so opus models removed from pro I'll put models are no longer
+
+99
+00:07:29,280 --> 00:07:34,640
+ available on copilot pro opus 4.7 remains available on pro plus as previously
+
+100
+00:07:34,640 --> 00:07:39,960
+ now so this 4.5 and 6 will be removed from pro plus I this makes me very sad
+
+101
+00:07:39,960 --> 00:07:48,400
+ because the 4.7 model is 7.5 times more expensive than they're basic and 4.6
+
+102
+00:07:48,400 --> 00:07:52,800
+ has been three times more expensive so I was never intending on upgrading and
+
+103
+00:07:52,800 --> 00:07:57,000
+ they are now forcing upgrade this means I'm going to read between the lines here
+
+104
+00:07:57,000 --> 00:08:01,880
+ this means that Microsoft has received an ultimatum from anthropic I don't have
+
+105
+00:08:01,880 --> 00:08:06,060
+ any knowledge to this effect I am just reading between the lines this mean
+
+106
+00:08:06,060 --> 00:08:11,320
+ anthropic went belly up making all those mistakes everybody dropped cloud they
+
+107
+00:08:11,320 --> 00:08:15,440
+ all decided let's go use copilot instead we can still use cloud and I can use it
+
+108
+00:08:15,440 --> 00:08:20,000
+ at my work I made a video about that I use I use get up copilot with Claude
+
+109
+00:08:20,000 --> 00:08:24,400
+ every day at work because my work allows me to use copilot for lots of
+
+110
+00:08:24,400 --> 00:08:27,640
+ reasons that include running models on our own servers instead of giving away
+
+111
+00:08:27,640 --> 00:08:33,280
+ our stuff to some you know cloudy sort of AI and that's the reason I'm able to
+
+112
+00:08:33,280 --> 00:08:37,880
+ use it at work I can't use cloud code at work I want to use a tool that I can use
+
+113
+00:08:37,880 --> 00:08:41,920
+ in my hobbies and at work that's not Claude code Claude code is not allowed
+
+114
+00:08:41,920 --> 00:08:47,320
+ at my rather concerned organization co-pilot is co-pilot with Claude is allowed
+
+115
+00:08:47,320 --> 00:08:51,720
+ so this is what happens good hub co-pilot and Microsoft they're like well we we
+
+116
+00:08:51,720 --> 00:08:55,000
+ really like this model this is a good model how are we gonna allow it and so
+
+117
+00:08:55,000 --> 00:08:58,520
+ they started saying okay we're gonna offer both models anthropic is in this
+
+118
+00:08:58,520 --> 00:09:02,440
+ shitter because of all this though the bad press they've had lately everybody's
+
+119
+00:09:02,440 --> 00:09:05,960
+ randomly abandoning them forget of copilot and using the Claude model and
+
+120
+00:09:05,960 --> 00:09:11,040
+ anthropics like hmm we've got to jack the price and we'll never know this but
+
+121
+00:09:11,040 --> 00:09:16,920
+ anthropic is probably tripled if not more the price of their new model they've
+
+122
+00:09:16,920 --> 00:09:21,120
+ also probably pulled the use of their old models which means and we saw this
+
+123
+00:09:21,120 --> 00:09:25,200
+ coming in fact when they did 4.7 they said that this 7.5 rate was an
+
+124
+00:09:25,200 --> 00:09:28,840
+ introductory rate that it was going to change later that's right in their
+
+125
+00:09:28,840 --> 00:09:31,440
+ documentation when they released it so that means it's going to get higher
+
+126
+00:09:31,440 --> 00:09:36,480
+ that's probably because anthropic is hitting them with a huge huge price spike
+
+127
+00:09:36,480 --> 00:09:40,760
+ and I predicted this on Sunday on Saturday when I was at the boost I knew
+
+128
+00:09:40,760 --> 00:09:44,120
+ this was coming so the price is just going to keep going up and they're going
+
+129
+00:09:44,120 --> 00:09:47,720
+ to keep denying access to these other models and all of us are going to be
+
+130
+00:09:47,720 --> 00:09:50,760
+ screwed and the only people that are going to be able to afford to play are
+
+131
+00:09:50,760 --> 00:09:55,600
+ going to be the people who have high-end financing who can afford pro plus most
+
+132
+00:09:55,600 --> 00:09:58,520
+ of the people that are watching this right now can afford pro plus that's 50
+
+133
+00:09:58,520 --> 00:10:03,600
+ bucks a month it's going to get worse you know why because the 4.7 model burns
+
+134
+00:10:03,600 --> 00:10:09,200
+ stuff faster even though pro plus is 50 dollars it's burning through tokens more
+
+135
+00:10:09,200 --> 00:10:14,600
+ which means you're more likely going to have to buy over budget stuff which
+
+136
+00:10:14,600 --> 00:10:18,440
+ means they've jacked the price up for all of this to the point where there's
+
+137
+00:10:18,440 --> 00:10:21,320
+ going to be a lot of engineers watching the super hobbyists and stuff that are
+
+138
+00:10:21,320 --> 00:10:25,100
+ going to be priced out of it you're not going to be able to use this for hobby
+
+139
+00:10:25,100 --> 00:10:30,240
+ work anymore and that's where it's going it's going it's going it's going to keep
+
+140
+00:10:30,240 --> 00:10:33,920
+ going up and up and it's probably just going to keep hijacking the price for
+
+141
+00:10:33,920 --> 00:10:36,280
+ their model they're going to still they're going to come out with mythos
+
+142
+00:10:36,280 --> 00:10:40,760
+ got when mythos comes out when they actually released mythos the price to
+
+143
+00:10:40,760 --> 00:10:44,720
+ be able to use that model is going to be so high remember when I said where are
+
+144
+00:10:44,720 --> 00:10:48,880
+ the companies going to find money I get up one of two things has happened and
+
+145
+00:10:48,880 --> 00:10:55,480
+ Tropic has said you can't use any model but 4.7 that's what that possible or
+
+146
+00:10:55,480 --> 00:11:01,000
+ they've made it so financially impossible for them to re offer resell
+
+147
+00:11:01,000 --> 00:11:05,800
+ their model that that get a Microsoft has decided we only can afford to offer
+
+148
+00:11:05,800 --> 00:11:10,960
+ this model 4.7 we can't afford to offer that we're going to lose money on 4.6
+
+149
+00:11:10,960 --> 00:11:16,160
+ because we miss guided we you know we didn't we didn't make we didn't charge
+
+150
+00:11:16,160 --> 00:11:19,480
+ it up for it and they're going to get all mad at us so rather than jack the
+
+151
+00:11:19,480 --> 00:11:24,280
+ price on 4.6 up and still pay on Tropic for it let's make everybody use the
+
+152
+00:11:24,280 --> 00:11:28,640
+ higher price 4.7 and then we just look like we're using the latest model and we
+
+153
+00:11:28,640 --> 00:11:32,760
+ can save face by charging more money without actually admitting we're
+
+154
+00:11:32,760 --> 00:11:36,680
+ charging more money that's what's happening behind the lines and it's
+
+155
+00:11:36,680 --> 00:11:41,160
+ going to get worse it's going to get way way worse they none of these companies
+
+156
+00:11:41,160 --> 00:11:45,800
+ haven't even come close to touching their expenses and it's going to keep going
+
+157
+00:11:45,800 --> 00:11:49,440
+ up and up and up and even though this is higher than it was before you have to
+
+158
+00:11:49,440 --> 00:11:52,160
+ decide what are you going to do and how are you going to use it the thing that's
+
+159
+00:11:52,160 --> 00:11:55,960
+ really sad about this is that the shitty models are still available so
+
+160
+00:11:55,960 --> 00:11:59,280
+ people who are trying to test out AI for the same time for this kind of stuff
+
+161
+00:11:59,280 --> 00:12:04,880
+ this is me this is what I did I was using chat GPT to write code no no don't do
+
+162
+00:12:04,880 --> 00:12:07,920
+ that I was trying to do and I was like this is horrible I mean it's better than
+
+163
+00:12:07,920 --> 00:12:11,000
+ you know but I had to keep it was just you really had to babysit it was a lot
+
+164
+00:12:11,000 --> 00:12:14,840
+ more work it wasn't worth my time and then I used clock 4.6 and I was like oh
+
+165
+00:12:14,840 --> 00:12:20,280
+ my god and it made entire applications in a week in an afternoon so the thing
+
+166
+00:12:20,280 --> 00:12:23,640
+ that's bad about this is that a lot of people who are going to try AI are not
+
+167
+00:12:23,640 --> 00:12:27,440
+ going to have the money to buy a real model a good one so they're in
+
+168
+00:12:27,440 --> 00:12:31,400
+ the impression of this whole thing in fact it does make me wonder what's my
+
+169
+00:12:31,400 --> 00:12:36,200
+ work going to do my work is going to pull 4.6 they might pull the use of the
+
+170
+00:12:36,200 --> 00:12:39,120
+ entire thing I got to know that today that's going to affect work I'm doing
+
+171
+00:12:39,120 --> 00:12:46,000
+ today yeah I gotta go look at that wow I just realized that this is going to
+
+172
+00:12:46,000 --> 00:12:52,120
+ impact me at work too so yeah and it I hope it doesn't mean they're jacking the
+
+173
+00:12:52,120 --> 00:12:55,720
+ price up at work as that means my manners going to say I don't know if we
+
+174
+00:12:55,720 --> 00:13:00,440
+ can pay to have use this anymore and and the decision to let's you know one or
+
+175
+00:13:00,440 --> 00:13:04,840
+ two team members use AI and you know shaft the rest of them because they don't
+
+176
+00:13:04,840 --> 00:13:07,920
+ have enough money on the team or budget to pay for it what I predicted is
+
+177
+00:13:07,920 --> 00:13:12,200
+ happening this is happening it's happening much faster than I thought it
+
+178
+00:13:12,200 --> 00:13:17,080
+ was going to happen so be careful out there if you if you don't learn this
+
+179
+00:13:17,080 --> 00:13:20,560
+ stuff the impression people are going to take away from AI is going to be wrong
+
+180
+00:13:20,560 --> 00:13:24,360
+ the division about whether you should use they are not is going to continue
+
+181
+00:13:24,360 --> 00:13:28,680
+ increase because when I said before people that are saying bad things about AI
+
+182
+00:13:28,680 --> 00:13:32,880
+ aren't using it it's going to get worse because they're going to go try it and
+
+183
+00:13:32,880 --> 00:13:36,440
+ they're going to use a shitty model they're going to make a bad wrong impression
+
+184
+00:13:36,440 --> 00:13:40,240
+ of how effective it can be and they're never going to get a chance to try the
+
+185
+00:13:40,240 --> 00:13:44,240
+ good stuff because it's too expensive meanwhile the people who invest in the
+
+186
+00:13:44,240 --> 00:13:48,680
+ good stuff who know how good it is are going to continue to dominate the AI
+
+187
+00:13:48,680 --> 00:13:52,520
+ development and deployment industry and they will become the superheroes they
+
+188
+00:13:52,520 --> 00:13:56,640
+ will become the mega gods of development and they will be the ones who could still
+
+189
+00:13:56,640 --> 00:13:59,880
+ have jobs in two years
+
