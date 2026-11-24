@@ -1,6 +1,12 @@
 # 😎 bash self-completion in zsh!
 
-`#linux #bash #zsh #completion #protips`
+Covers the discovery that the official Zsh project ships a bash completion compatibility script (bashcompinit) in its completion directory. This lets bash-style completion, including programs that provide their own completion such as Cobra-based tools, work fully in zsh, so the bonsai project supports both zsh and bash users.
+
+`#zsh #bash #shell #completion #bonsai #linux #terminal #cli #protips`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
