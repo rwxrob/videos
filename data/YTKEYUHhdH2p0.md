@@ -6,23 +6,24 @@ Managing your "skilstak" to know what to learn and where you are, then keep your
 
 Chapters:
 0:00 Intro and Beginner Boost updates
-9:00 Mentoring and Know Thyself recap
-15:00 Why manage your skill stack
-18:00 Career story and staying current
-27:00 Building the skill list and columns
-36:00 Proficiency scale from zero to ten
-48:00 Relevance scores and tech bets
-59:00 Just-in-time learning with AI
-1:18:00 Acquiring and capturing knowledge
-1:30:00 GitHub repo and committing changes
-1:43:00 Editing in the browser with VS Code
-1:54:00 Markdown tables, previews, and history
-2:06:00 Organizing notes and file naming
-2:18:00 Skill stack notes and blogging platforms
-2:31:00 Finding the Mac home directory
-2:43:00 Default Mac terminal versus custom setup
-2:58:00 Podman container setup and commands
-3:05:00 Terminal defaults and wrap-up
+8:01 Recap of last week and Know Thyself
+15:23 Managing your skill stack
+17:32 The story behind the skill stack
+26:42 Avoiding overwhelm with a skill list
+39:40 Relevance scores and self-assessment
+46:25 Separating relevance from target values
+1:09:30 Just-in-time learning with AI
+1:27:41 Building a knowledge base
+1:30:19 GitHub repo and committing changes
+1:41:52 Markdown tables and previews
+1:58:27 Editing notes on github.dev
+2:03:43 Organizing notes and file naming
+2:17:50 Blogging platforms and the boost container
+2:22:41 Setting up the Beginner Boost container
+2:36:41 Using the default Mac terminal
+2:43:15 Switching to Podman
+2:57:47 Running the container and terminal defaults
+3:12:04 Wrap-up
 
 `#careeradvice #markdown #github #beginners #skillstack #podman #learntocode #terminal #techjobs #mentoring #tips`
 

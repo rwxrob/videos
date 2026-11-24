@@ -1,8 +1,8 @@
 # converting using pandoc  | rwxrob on #Twitch
 
-Demonstrates generating a table with a single command by piping a range of lines from vim through Pandoc. The conversion is shown twice to highlight how quickly Markdown table output is produced.
+Demonstrates generating a table with a single command by piping a range of lines from vim through pandoc. The command is shown twice to highlight how quickly the table is produced.
 
-`#pandoc #vim #linux #terminal #markdown #commandline #shorts`
+`#pandoc #vim #tables #commandline #linux #shorts`
 
 ## Category
 

@@ -10,6 +10,7 @@ Chapters:
 4:35 Step 2: Cheap Linux laptop
 6:50 How the lab actually evolved
 8:25 USB sticks and installing multiple operating systems
+9:45 Step 3: Windows laptop
 10:30 Step 4: Why get a MacBook Pro
 13:00 Why know every operating system
 14:45 Desktop Linux versus Linux servers

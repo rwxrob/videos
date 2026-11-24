@@ -8,13 +8,13 @@ Chapters:
 0:00 Why balance matters before a tech career
 1:08 Maslow's hierarchy and physical needs
 5:30 Stress, alcohol, and sleep
-7:40 Sun, movement, and fitness as a reset
+8:02 Sun, movement, and fitness as a reset
 9:40 Personal safety and family in danger
 15:00 Turning stress into action
 17:10 Family and nurturing social connections
 18:55 Real friends and how to make them
 24:50 Third spaces and community
-28:20 Self-esteem and knowing your strengths
+28:41 Self-esteem and knowing your strengths
 30:30 Creativity, journaling, and self-actualization
 33:00 Fix financial stability first
 35:20 A story about a missed opportunity

@@ -1,8 +1,8 @@
 # holy shiiiite shell | rwxrob on #Twitch
 
-Captures a live reaction to a shell-related discovery that exposed how insecure everything can be. The clip consists of an emotional, unscripted response to the security implications, with no technical walkthrough.
+Short live reaction clip in which the streamer exclaims in shock and fear over something that just happened on stream, saying it "broke the hardest thing ever" and that they now feel unsafe. The clip has no explanation of what happened.
 
-`#shell #security #linux #terminal #livestream #twitch #shorts`
+`#security #reaction #livestream #twitch #shorts`
 
 ## Category
 

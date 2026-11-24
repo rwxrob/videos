@@ -10,7 +10,7 @@ Chapters:
 4:30 Obsidian versus AI and Zettelkasten
 5:40 Markdown compatibility and key settings
 7:47 Paid sync and GitHub publishing demo
-11:30 Sharing sync and live streaming from anywhere
+11:06 Live streaming from anywhere with synced notes
 14:18 Notes repo and standard Markdown links
 16:45 Mind maps, graphs, and writing books
 19:50 One thought per note and titles

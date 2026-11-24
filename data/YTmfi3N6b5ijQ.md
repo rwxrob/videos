@@ -35,7 +35,7 @@ Chapters:
 8:40 Liability protection and sharing criteria
 9:37 Apache and MIT compared
 11:00 GPLv2, GPLv3 and Tivoization
-16:40 BSD and the React patents controversy
+17:01 BSD and the React patents controversy
 20:50 Mozilla, Unlicense and public domain
 23:45 Why avoid GPLv3 and AGPLv3
 26:25 Beware of GPL trolls

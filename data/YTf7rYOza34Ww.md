@@ -5,7 +5,7 @@ Covers beginner terminal fundamentals for a tech career course, including using 
 Chapters:
 0:00 Intro and playlist housekeeping
 3:02 Using AI for learning
-9:04 Choosing a terminal
+7:42 Choosing a terminal
 12:00 Shell prompts and a sysadmin story
 18:05 Root prompt and sudo
 21:03 Podman containers and Kali Linux
@@ -27,11 +27,12 @@ Chapters:
 1:45:01 Listing files and navigation
 1:48:01 File metadata and names in directories
 1:57:02 Removing files safely
-2:03:04 Permissions and rwx bits
-2:09:05 Moving and renaming with mv
+2:03:04 File types and permission bits
+2:06:50 Changing permissions with chmod
+2:10:45 Moving and renaming with mv
 2:15:04 Fuzzy finders and moving up
 2:21:08 Hard links in practice
-2:30:05 Symbolic links and relative paths
+2:27:30 Symbolic links and relative paths
 2:39:00 Dotfiles, configs and shared servers
 
 `#linux #terminal #beginners #unix #bash #careerchange #ai #containers #devops #techjobs #livestream`

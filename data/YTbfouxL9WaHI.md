@@ -7,7 +7,7 @@ People are asking this question in job interviews (according to one member of ou
 Chapters:
 0:00 Interview question about reviewing code
 0:56 The stages of AI adoption
-3:27 Porting a Perl codebase with agentic AI
+3:50 Porting a Perl codebase with agentic AI
 5:49 How to answer the interview question
 8:10 Sponsorship and wrap-up
 

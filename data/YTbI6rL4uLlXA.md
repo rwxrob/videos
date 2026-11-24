@@ -10,7 +10,7 @@ Chapters:
 2:30 Creating the VM and its settings
 5:30 Booting the VM and starting setup
 9:00 Monitoring CPU, memory and disk I/O
-13:30 Proxmox version and why Windows 10
+14:00 Proxmox version and why Windows 10
 16:40 Account setup and privacy prompts
 20:00 Waiting on the installer and Edge
 24:30 Windows desktop reached

@@ -6,9 +6,9 @@ Yes. But DO NOT go into tech writing, cyber security, and these other jobs witho
 
 Chapters:
 0:00 Using Claude agentically for Slurm and Ansible
-1:17 Why tech writing is disappearing
+1:41 Why tech writing is disappearing
 2:45 Software engineering versus coding jobs
-5:00 Books, docs and learning with AI
+5:17 Books, docs and learning with AI
 6:06 Cybersecurity analyst jobs and bug bounties
 9:57 Safe careers: HPC, ML infrastructure, operations
 

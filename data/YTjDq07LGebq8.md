@@ -7,8 +7,9 @@ Beginners should expect everything they do in a container to die when when exit 
 Chapters:
 0:00 Why not mount configs into the container
 0:27 Containers as ephemeral in the enterprise
-1:26 Why laptop-style thinking misleads beginners
-1:52 Bending the rules for the Boost
+1:01 Why laptop-style thinking misleads beginners
+1:26 Beginners should treat containers as disposable
+1:52 Saving work outside the container
 2:28 Persisting work in Git instead
 2:53 Losing work is a lesson worth learning
 

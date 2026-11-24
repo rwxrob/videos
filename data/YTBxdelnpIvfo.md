@@ -15,7 +15,7 @@ Chapters:
 8:40 Trying af and if in Go code
 10:25 Wrap-up and comment toggle question
 
-`#vim #neovim #texteditor #treesitter #linux #terminal #perl #vimrc #vimal #nvim #tips`
+`#vim #neovim #texteditor #treesitter #linux #terminal #perl #vimrc #nvim #tips`
 
 ## Category
 

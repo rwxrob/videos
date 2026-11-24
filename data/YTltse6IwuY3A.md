@@ -7,10 +7,11 @@ Systems Development Engineers (SysDEs) face unique challenges facing both the so
 Chapters:
 0:00 Intro: SysDE, DevOps, and platform roles
 1:03 Legacy ops code and no version control
-3:30 Pushback against Git and PR process
+3:50 Pushback against Git and PR process
 5:23 Making breakage visible to drive change
-7:29 Untestable code and global database connections
-9:35 Being the person who complains
+7:29 Unsung quality work and outages from unsaved code
+8:09 Untestable code and global database connections
+9:19 Being the person who complains
 10:35 Replacing legacy code with Go APIs
 12:39 Bridging ops minimalism and software overengineering
 13:38 Wrap-up and the value of a good manager

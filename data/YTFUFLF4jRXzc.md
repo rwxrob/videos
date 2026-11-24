@@ -6,8 +6,9 @@ Tech books and tutorials can never keep up with a good AI that knows your and yo
 
 Chapters:
 0:00 Tutorials and textbooks are dead
-0:53 Using AI instead of studying
-1:42 Skip books, focus on people
+0:29 AI replaces studying and research
+1:43 Skip tutorials and textbooks
+2:08 Focus on people first
 2:43 AI-written PR summary at work
 3:28 Essays, schools and AI
 4:25 Talk to people, then use AI

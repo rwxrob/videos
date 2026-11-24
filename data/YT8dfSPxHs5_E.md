@@ -26,11 +26,11 @@ Chapters:
 17:20 Observability: Grafana, Prometheus, Elasticsearch
 20:00 SysDE versus DevOps and cloud roles
 21:00 Software engineering practices and testing
-24:00 Ansible, OpenShift and Red Hat
+25:00 Ansible, OpenShift and Red Hat
 25:50 Containers, Kubernetes and Slurm
 27:40 Story: building a server compliance platform
 31:30 Building platforms, not maintaining servers
-34:50 Idempotency, Claude and Markdown
+36:15 Idempotency, Claude and Markdown
 39:00 Recap: SysDE, DevOps and platform engineering
 
 `#sysde #golang #devops #automation #kubernetes #bash #sre #careeradvice #ansible #linux #techjobs #advice`

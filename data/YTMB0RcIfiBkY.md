@@ -6,7 +6,7 @@ The best way to start a new archive branch and start a new main with no commit h
 
 Chapters:
 0:00 Why start a fresh main branch
-1:24 Rename current branch to archive
+1:42 Rename current branch to archive
 2:28 Push the archive branch
 2:52 Create an orphan main branch
 3:58 Verify empty history and wrap up

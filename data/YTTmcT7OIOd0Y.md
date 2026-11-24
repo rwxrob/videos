@@ -1,6 +1,6 @@
 # 💢 The Single Most Important Tech Skill
 
-Rob argues that creativity is the most important skill for anyone in tech, more than terminal or coding proficiency. He explains how to build it through art, design, game development, brainstorming with others, and idea journaling, and ties it to a future where AI builds whatever you can imagine and describe.
+Argues that creativity is the most important skill for anyone in tech, more than terminal or coding proficiency. Covers how to build it through art, design, game development, brainstorming with others and keeping an ideas journal, and ties it to a future where AI builds whatever you can imagine and describe.
 
 It's not what you think. Learn it or die.
 
@@ -8,7 +8,7 @@ Chapters:
 0:00 Creativity as the top tech skill
 0:38 How to start building creativity
 0:59 Why 'I don't know what to make' fails
-2:14 Exercises and communities to spark ideas
+2:34 Develop creativity and brainstorm with others
 3:03 Creativity in the age of AI
 
 `#creativity #techcareer #programming #learntocode #beginners #ai #devculture #mindset #techlife`
