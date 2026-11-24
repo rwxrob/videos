@@ -1,10 +1,10 @@
 # 💢 GET OFF RESTREAM!
 
-Rob explains why he has stopped streaming to YouTube and will no longer use or recommend Restream. He says Restream took a free streaming plugin from another developer, kept its branding, built it into its paid product, and sent users to the original developer's Discord for support. He also cites Restream outages last year that left streamers, including churches, unable to broadcast.
+Criticizes Restream after it allegedly copied a free multistreaming plugin into its paid product and redirected support requests to the original developer's Discord. Explains why Restream was originally used for synchronized chat across platforms, and why past outages and this incident lead to a decision never to use or recommend it again.
 
 Yeah, this is just not cool.
 
-`#restream #livestreaming #twitch #streaming #opensource #devculture #livestream #fails`
+`#restream #livestreaming #twitch #streaming #obs #opensource #youtube #livestream #fails`
 
 ## Category
 
