@@ -1,8 +1,14 @@
 # Learn Slurm! More important than Kubernetes.
 
+Argues that learning the Slurm workload manager is a valuable career skill, citing its reported acquisition of SchedMD by NVIDIA and enterprise demand for batch processing of large machine learning jobs on expensive GPUs. Recommends learning to submit jobs, script, integrate with Slurm and use Linux.
+
 Slurm is way more important than any other enterprise technology and was acquired in december by nvidia because of its enterprise importance to the AI interests of large corporations.
 
-`#techjobs #enterprise #slurm`
+`#slurm #hpc #linux #nvidia #machinelearning #gpu #batchprocessing #devcareer #techjobs #enterprise`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
