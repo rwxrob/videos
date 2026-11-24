@@ -1,5 +1,13 @@
 # #linux #vim #editorials #reaction #theprimetime
 
+Reacts to a commentary on the vi versus Emacs editor wars, noting that vi was created by Bill Joy in 1976. Jokes that calling it "vim" or "vi" incorrectly, or using Ctrl-C instead of Escape, marks someone as not knowing the editor.
+
+`#vim #linux #editorwars #emacs #reaction #theprimetime #terminal`
+
+## Category
+
+Science & Technology
+
 ## Transcription
 
 [00:00:00] Orvalds liken to the controversy to Vi users versus eMac culture wars over which was the superior text editor also known as the editor wars
