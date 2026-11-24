@@ -1,4 +1,4 @@
-# 🐧⎈🏠 Breaking Lab
+# 🐧⎈🏠 Breaking Lab: Kubespray Cluster Apps, Management Cluster and Upgrade Steps
 
 Continues building a Kubernetes home lab deployed with Kubespray by listing the cluster apps to install, including MetalLB, Istio, External Secrets, LeaderWorkerSet and Kyverno. Reviews the management cluster design, outlines the steps for creating and upgrading clusters, and explains the complications of overlaying a modified Kubespray fork, added as a Git submodule, onto the container image at runtime.
 
