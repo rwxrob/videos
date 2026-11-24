@@ -1,18 +1,17 @@
 # 😎 Rename main and Start New Branch
 
-Shows how to keep an old repository's history while starting fresh: rename the current branch to archive, push it to the remote, then create a new orphan main branch with no commit history. Demonstrates the git commands live, including a stumble with a mistyped branch command and the discovery that git switch needs the --orphan flag.
+Walks through archiving an existing Git repository's history by renaming the current branch to archive, pushing it, and then creating a new orphan main branch with no commit history. Covers the git branch -m, git push -u, and git switch --orphan commands, including a mistake along the way, and ends with a fresh initial commit.
 
 The best way to start a new archive branch and start a new main with no commit history to slog through.
 
 Chapters:
-0:00 Rediscovering an old home lab repo
-1:12 The tip: rename, then orphan branch
-1:45 Renaming the branch to archive
-2:33 Pushing the archive branch
-2:52 Creating the orphan main branch
-3:53 Result and wrap-up
+0:00 Why start a fresh main branch
+1:24 Rename current branch to archive
+2:28 Push the archive branch
+2:52 Create an orphan main branch
+3:58 Verify empty history and wrap up
 
-`#git #github #terminal #linux #versioncontrol #beginners #livestream #tips #coding`
+`#git #github #terminal #linux #versioncontrol #beginners #devtips #tips #coding`
 
 ## Category
 
