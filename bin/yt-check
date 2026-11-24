@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# yt-check: compare data/YT<UID>.md with what is live on YouTube (read-only).
+#
+#   yt-check            check every data file
+#   yt-check <UID>...   check only these videos (bare IDs or data file paths)
+#
+# Reports, per video, whether the title, description and category match and
+# whether the video is public. Prints a summary and exits 1 if anything
+# differs. Never changes anything on YouTube.
+#
+# Needs: bash, curl, jq (same OAuth setup as yt-update).
+
+set -euo pipefail
+
+here=$(CDPATH= cd -- "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+root=$(dirname "$here")
+data=${YT_DATA_DIR:-$root/data}
+
+# shellcheck source=yt-lib.bash
+source "$here/yt-lib.bash"
+
+command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
+ensure_access
+
+ids=()
+if (( $# )); then
+  for a in "$@"; do ids+=("$(norm_id "$a")"); done
+else
+  for f in "$data"/YT*.md; do
+    b=$(basename "$f" .md); ids+=("${b#YT}")
+  done
+fi
+
+api=https://www.googleapis.com/youtube/v3
+cats=$(curl -fsS -H "Authorization: Bearer $access" \
+  "$api/videoCategories?part=snippet&regionCode=${YT_REGION:-US}")
+catname() { jq -r --arg i "$1" '.items[] | select(.id == $i) | .snippet.title' <<<"$cats"; }
+
+trim() { sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed -e '/./,$!d'; }
+
+bad=0 n=0
+for ((i = 0; i < ${#ids[@]}; i += 50)); do
+  batch=("${ids[@]:i:50}")
+  csv=$(IFS=,; echo "${batch[*]}")
+  live=$(curl -fsS -H "Authorization: Bearer $access" "$api/videos?part=snippet,status&id=$csv&maxResults=50")
+  for id in "${batch[@]}"; do
+    n=$((n + 1))
+    md=$data/YT$id.md
+    prob=()
+    item=$(jq --arg i "$id" '.items[] | select(.id == $i)' <<<"$live")
+    if [[ -z $item ]]; then echo "MISSING on YouTube: $id"; bad=$((bad + 1)); continue; fi
+    title=$(sed -n '1s/^# //p' "$md")
+    desc=$(awk 'NR==1{next} /^## /{exit} {print}' "$md" | sed -E 's/^`(#.*)`$/\1/' | trim)
+    cat=$(awk '/^## Category/{f=1;next} /^## /{f=0} f&&NF{print;exit}' "$md" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+    ltitle=$(jq -r '.snippet.title' <<<"$item")
+    ldesc=$(jq -r '.snippet.description' <<<"$item" | trim)
+    lcat=$(catname "$(jq -r '.snippet.categoryId' <<<"$item")")
+    lpriv=$(jq -r '.status.privacyStatus' <<<"$item")
+    [[ $title == "$ltitle" ]] || prob+=("title")
+    [[ $desc == "$ldesc" ]] || prob+=("description")
+    [[ -z $cat || ${cat,,} == "${lcat,,}" ]] || prob+=("category($cat vs $lcat)")
+    [[ $lpriv == public ]] || prob+=("privacy=$lpriv")
+    grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$md" || prob+=("no transcript")
+    if (( ${#prob[@]} )); then echo "DIFF $id: ${prob[*]}"; bad=$((bad + 1)); fi
+  done
+done
+echo "checked $n videos; $bad with differences"
+(( bad == 0 ))

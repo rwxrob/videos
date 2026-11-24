@@ -106,6 +106,10 @@ bin/yt-update auth       # log in again and exit
 
 The script fetches the video's current metadata first and sends it back with only the title and description changed, so category and tags are preserved. Each update costs about 50 of the 10,000 daily API quota units. Never commit the credentials file.
 
+### Checking that YouTube matches the repo (`bin/yt-check`)
+
+`bin/yt-check` fetches every video in `data/` from YouTube (read-only) and reports any whose title, description or category differs from `data/YT<UID>.md`, that is not public, or that has no transcript. It exits non-zero if anything differs. Pass UIDs or data file paths to check just those.
+
 ### Backfilling a whole channel (`bin/yt-sync`)
 
 `bin/yt-sync` builds `data/YT<UID>.md` (and `data/YT<UID>.srt`) for every video already on your channel. It only reads from YouTube; it never changes anything there (use `yt-update` for that). Anyone can use it for their own channel: do the one-time [OAuth setup](#updating-youtube-from-the-command-line) above, install the dependencies below, and run it from a clone of this repo.
