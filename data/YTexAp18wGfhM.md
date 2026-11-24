@@ -1,8 +1,14 @@
 # 💢 Buggy GitHub Without Logging In
 
+Demonstrates a GitHub bug where, when not logged in, clicking links to README files from a repository page produces an "Error loading page" message. Compares this with the same links working as expected in a logged-in profile, showing that logging in is the workaround.
+
 GitHub requires being logged in for browsing boost markdown files (unfortunately).
 
-`#bugs #github #tips`
+`#github #bug #markdown #podman #beginners #webdev #bugs #tips`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
