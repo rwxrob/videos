@@ -1,6 +1,25 @@
 # 😎 POSIX or Perl (Banishing Bash)
 
-`#perl #bash #scripting #dotfiles #coding`
+Explains why bash is being replaced by POSIX shell and Perl for dotfiles scripting, covering bash's weak regular expression handling, lack of Unicode support and floating-point math, and its poor fit for text manipulation. Discusses how Perl serves as a glue language, why a Go-based command line framework was built to work around the lack of Perl, and why scripts should not have file suffixes. Notes that Perl is available wherever Git is installed and that the Git project is raising its minimum Perl version.
+
+Chapters:
+0:00 Intro: POSIX or Perl for 2025
+0:21 Plan: bash, POSIX, and Go mistakes
+1:41 Bash's terrible regular expression handling
+4:15 Parameter expansion and text manipulation limits
+5:17 Bash versus Perl in a real script
+7:19 Regret over building Bonsai in Go
+9:38 Dotfiles in git with POSIX and Perl
+11:08 Perl as a shell on steroids
+12:35 Why scripts should have no suffixes
+13:27 sed, awk, and Perl memory footprint
+14:23 Git requires Perl and text processing
+
+`#perl #posix #bash #shellscripting #linux #dotfiles #terminal #git #golang #textprocessing #scripting #coding`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
