@@ -1,4 +1,4 @@
-# 🔨Your hammer sucks
+# 🔨Your hammer sucks: stop fighting over programming languages and editors
 
 Uses arguments over which hammer is best as an analogy for fights about programming languages, editors, and other tools. Explains why beginners should first decide what they want to do, and only then ask which tool is best for that job.
 
