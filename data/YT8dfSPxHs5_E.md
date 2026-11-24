@@ -1,5 +1,7 @@
 # 🚀 How can I transition to a SysDE career?
 
+Explains how to transition from a traditional sysadmin or software role into a systems development engineer (SysDE) career, centered on automation and building internal tools and APIs for developers. Covers key skills including Go, Bash, REST API development, certs, secrets and OAuth, containers, Kubernetes and Slurm, observability tooling, testing practices, and idempotent design, with examples from enterprise HPC work. Also distinguishes SysDE from DevOps and platform engineering and discusses the role of AI tools and Markdown in modern development.
+
 - Fundamentally about automation
 - Get wicked good bash
 - Learn Go really well — especially REST API development
@@ -10,7 +12,32 @@
 - Learn to provide and setup visibility and tool
 - What are any gaps I might have?
 
-`#sysde #techjobs #advice`
+Chapters:
+0:00 Why this question and the Go essentials
+1:40 Role of a SysDE in legacy environments
+3:00 Gaps: Claude, agentic AI and API work
+5:00 Seeing the enterprise holistically as an architect
+7:20 Skills, knowledge and abilities
+8:40 Asking ChatGPT about sysadmin to SysDE
+10:00 Automation, Ansible, Argo CD and K-SAP
+11:40 Bash and why Go wins over Python
+14:10 Systems as products and internal CLIs
+15:30 Certs, secrets and OAuth
+17:20 Observability: Grafana, Prometheus, Elasticsearch
+20:00 SysDE versus DevOps and cloud roles
+21:00 Software engineering practices and testing
+24:00 Ansible, OpenShift and Red Hat
+25:50 Containers, Kubernetes and Slurm
+27:40 Story: building a server compliance platform
+31:30 Building platforms, not maintaining servers
+34:50 Idempotency, Claude and Markdown
+39:00 Recap: SysDE, DevOps and platform engineering
+
+`#sysde #golang #devops #automation #kubernetes #bash #sre #careeradvice #ansible #linux #techjobs #advice`
+
+## Category
+
+Education
 
 ## Transcription
 
