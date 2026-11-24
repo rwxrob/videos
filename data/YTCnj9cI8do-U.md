@@ -1,4 +1,4 @@
-# 🤬 AP COMPUTER SCIENCE (COLLEGE BOARD) ROTS YOUR BAIN! 💢
+# 🤬 AP COMPUTER SCIENCE (COLLEGE BOARD) ROTS YOUR BRAIN! 💢
 
 Argues against taking AP Computer Science, criticizing its focus on classes and inheritance over composition and recounting a 2016 exam question involving one-based list indexes in College Board's Java-like notation. Also covers turning down work building AP programs, university advice to retake intro courses despite AP credit, alternatives such as writing a Java app for personal use, and a book in progress to teach fundamentals beforehand.
 
