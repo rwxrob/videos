@@ -25,17 +25,17 @@ https://github.com/rwxrob/zet/tree/main/20210728013938
 
 Chapters:
 0:00 Why tmux is my window manager
-1:00 Nested tmux and status bars
+0:30 Nested tmux and status bars
 1:30 Splitting panes and managing windows
 2:00 No need for i3 or other WMs
 2:40 Portable config and certification exams
 3:05 Starting a Debian Docker container
-4:00 Copying tmux config into the container
+4:10 Copying tmux config into the container
 5:40 Troubleshooting config loading and users
 9:00 Fixing the symlink problem
 10:35 Config working in the container
 11:10 Recap of tmux benefits
-12:30 Exams, monitoring stations, and persistence
+13:30 Monitoring stations and persistence
 
 `#tmux #terminal #linux #docker #windowmanager #dotfiles #devops #kubernetes`
 

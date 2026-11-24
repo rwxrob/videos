@@ -16,12 +16,12 @@ Chapters:
 0:00 Fast searching with Links demo
 0:39 Why Links beats other text browsers
 1:33 Installing Links and config overview
-3:40 Opening graphical pages from Links
+4:19 Opening graphical pages from Links
 5:25 DuckDuckGo versus Google, and HTTPS
 7:15 Colors and styles in links.lss
 8:38 Bash command function for Links
 11:56 Text-friendly web page design
-14:35 Command functions versus aliases
+14:07 Command functions versus aliases
 15:25 Search aliases and URL encoding
 17:10 Getting help and wrap-up
 

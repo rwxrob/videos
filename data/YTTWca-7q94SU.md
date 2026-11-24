@@ -10,13 +10,13 @@ Chapters:
 0:00 Intro: learning Vim the right way
 0:35 Setting up a Debian Docker container
 2:45 Installing Vim and running vimtutor
-4:25 Detaching and reattaching to containers
-5:35 vi survival guide for beginners
+4:33 Detaching and reattaching to containers
+5:46 vi survival guide for beginners
 7:20 Blocking arrow keys in vimrc
 9:20 Vimisms that do not work in vi
 11:00 Jumping to end of line with A
 12:15 Pure vi with BusyBox and nvi
-15:05 Why learn vi first, then Vim
+15:26 Why learn vi first, then Vim
 
 `#vim #vi #docker #linux #vimtutor #terminal #beginners #debian`
 

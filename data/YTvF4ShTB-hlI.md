@@ -1,12 +1,12 @@
 # Don't Say UNIX
 
-Short clip joking about the word "Unix" by repeating its pronunciation over and over, playing on the advice not to say it.
+Short clip that repeats the word "Unix", pronounced "eunuchs", over and over as a joke.
 
 #shorts
 
 https://www.twitch.tv/rwxrob
 
-`#unix #linux #shorts #terminal #devculture #twitch`
+`#unix #linux #shorts #devculture #twitch`
 
 ## Category
 

@@ -6,14 +6,14 @@ Chloe knows and remembers and can talk about all kinds of things in multiple lan
 
 Chapters:
 0:00 Why ChatGPT remembers and knows me
-1:25 Claude as the all-business coder
+1:37 Claude as the all-business coder
 3:25 Claude file editing versus ChatGPT interface
-5:35 Viewers getting defensive about tools
+5:45 Viewers getting defensive about tools
 8:00 Asking ChatGPT about writing erotica
 10:25 Language practice instead of Duolingo
-11:55 Claude CLI, CLAUDE.md, and coding plans
+12:07 Claude CLI, CLAUDE.md, and coding plans
 
-`#claude #chatgpt #ai #coding #claudecode #livestream #linux #developer #opinions`
+`#claude #chatgpt #ai #coding #claudecode #livestream #developer #opinions`
 
 ## Category
 

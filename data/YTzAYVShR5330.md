@@ -8,8 +8,9 @@ Chapters:
 0:00 Intro to linters and fixers
 0:34 How editing has changed with agents
 1:37 Why a portable single vimrc
-2:32 What linters and fixers do
-4:35 Removing old Go fmt fallback
+2:32 Single vimrc versus a huge Neovim config
+3:12 What linters and fixers do
+4:27 Removing old Go fmt fallback
 6:06 Finding linters with ALEInfo
 7:25 Explicitly listing linters and fixers
 

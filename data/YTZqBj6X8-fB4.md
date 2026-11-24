@@ -7,22 +7,21 @@ Stream archive — 2026-10-27
 Chapters:
 0:00 Setting up and deciding on co-working
 6:00 Music, chat, and stream setup
-12:00 Omarchy and DHH discussion
-21:00 ServiceNow to Jira migration
-30:00 Work priorities and Slurm conversion
-33:00 Setting up the work timer
+12:41 Omarchy and DHH discussion
+20:30 ServiceNow to Jira migration
+30:10 Work priorities and Slurm conversion
+33:03 Setting up the work timer
 45:00 Quiet co-working block
-1:18:00 Ad break and stream plans update
-1:26:00 IRL bike streaming and live music plans
-1:36:00 Muted co-working session
-2:27:00 Co-working explained and on-call incident
-2:36:00 Setting up the microwave
-2:55:00 Cleaning behind the fridge
-3:15:00 Perl modernization and API rewrite
-3:18:00 Dating and men's support discussion
-3:35:00 Back to work wrap-up
+1:20:00 Ad break
+1:26:43 Stream plans: IRL bike streaming and live music
+1:36:28 Muted co-working session
+2:31:23 Co-working explained and on-call incident
+2:36:21 Setting up the microwave
+2:46:00 Reaching behind the fridge
+3:14:54 Perl modernization and API rewrite
+3:15:44 Dating and men's support discussion
 
-`#coworking #livestream #devlife #linux #kubernetes #slurm #jira #irlstream #omarchy`
+`#coworking #livestream #devlife #slurm #jira #irlstream #omarchy`
 
 ## Category
 

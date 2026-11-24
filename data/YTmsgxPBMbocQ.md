@@ -15,7 +15,7 @@ Chapters:
 1:06:01 Python virtual environments and uv
 1:18:01 Single-line commands vs functions, alias resets
 1:24:03 Running opencode from the command line with session memory
-1:51:20 The new `ask` command: AI as a shell filter
+1:46:06 The new `ask` command: AI as a shell filter
 2:03:03 Replacing text in Vim with AI output (!!ask)
 2:15:01 Auto-fixing Markdown titles on save
 2:24:04 Aliases and environment wrap-up

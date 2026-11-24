@@ -9,7 +9,7 @@ Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/rwxrob
 Chapters:
 0:00 Two years on VS Code
 1:01 VS Code getting slower over time
-1:49 Why VS Code was once so fast
+1:37 Why VS Code was once so fast
 2:31 Sublime, Atom and the light editor era
 3:14 Loving VS Code for web development
 4:05 Slow server edits and returning to Vim

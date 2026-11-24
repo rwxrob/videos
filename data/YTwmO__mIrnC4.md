@@ -2,8 +2,6 @@
 
 Introduces Gas Town, a multi-agent workspace tool that keeps persistent state across agent sessions. Contrasts it with a current tmux-based multi-agent setup where agent context is lost when the session dies, and with using an agentic template file to carry preferences between sessions. Notes that Gas Town reportedly supports syncing context across 20 to 30 agents, with a deeper look to follow.
 
-Gas Town is a multi-agent workspace manager that solves the biggest problem with running lots of AI agents at once: they forget everything when the session ends. With git-backed persistent state, built-in agent mailboxes, and a coordinator called the Mayor, Gas Town lets you scale to 20-30 agents working in parallel without losing context or losing your mind. If you are serious about agentic development, this is the mental model you need.
-
 Chapters:
 0:00 Why look at Gas Town
 0:37 Current tmux multi-agent setup and its limits
@@ -11,7 +9,7 @@ Chapters:
 2:09 Agentic template as a workaround
 3:01 Wrap-up and AI engineering advice
 
-`#gastown #aiagents #multiagent #agenticengineering #aiengineering #tmux #claudecode #softwaredevelopment #agenticdevelopment #githubcopilot #devops #programming #beginnerboost #techjobs`
+`#gastown #aiagents #multiagent #agenticengineering #aiengineering #tmux #softwaredevelopment #agenticdevelopment #programming`
 
 ## Category
 

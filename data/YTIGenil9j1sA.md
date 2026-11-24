@@ -10,7 +10,7 @@ Chapters:
 2:05 Why cd prints output and how scripts break
 3:25 Using shellcheck to catch shell script errors
 4:25 Fix: CDPATH= and the leading dot entry
-5:10 Agents failing from extra cd output
+5:10 cd output going to standard output
 7:00 The cd, do work, cd back idiom
 8:55 Two takeaways: zero out CDPATH, skip rc
 

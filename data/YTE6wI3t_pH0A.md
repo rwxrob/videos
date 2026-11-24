@@ -32,9 +32,10 @@ Chapters:
 27:06 Editor config rabbit hole
 30:07 Voice input speeds up changes
 36:06 Asking AI to evaluate Boost tools
-39:00 Git, GitHub and worktrees for agents
+39:00 Git and GitHub as essential tools
 45:06 tmux and reading code
-54:02 Writing rules in AGENTS.md templates
+54:02 Building an IRL streaming app with AI
+57:05 Agentic templates, GitLab and tool evaluation
 1:00:02 Containers, Podman and root access
 1:06:05 Python, Go and language choice
 1:12:00 Vim, pipes and text tools

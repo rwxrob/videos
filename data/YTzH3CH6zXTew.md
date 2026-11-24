@@ -11,7 +11,7 @@ Chapters:
 0:53 Use a multiplexer for screen management
 2:12 Copy and paste with the mouse
 3:03 Copy and paste with tmux copy mode
-3:57 Copying multiple lines across systems
+4:05 Copying multiple lines across systems
 
 `#vim #tmux #terminal #linux #unix #productivity #commandline`
 

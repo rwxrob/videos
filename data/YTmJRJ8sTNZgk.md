@@ -6,8 +6,9 @@ Screeeech! Hold up. Rethink everything you know about learning and getting a job
 
 Chapters:
 0:00 Introduction and how tech careers changed
-3:04 Building a weekend AI project in hours
-9:00 What AI means for junior jobs
+3:04 Why the learn-tech-fast premise no longer holds
+5:35 Weekend AI project built in two hours
+8:46 What AI means for junior jobs
 15:00 Skills employers filter for now
 18:00 AI going mainstream and on-prem trends
 27:00 Learn a domain, not just computers
@@ -19,7 +20,7 @@ Chapters:
 1:00:00 Pricing, tokens and data privacy
 1:06:02 AGENTS.md, Markdown and conventional commits
 1:15:05 Letting the AI plan a curriculum
-1:26:01 Checking AI advice against sources
+1:26:01 Asking the AI about career skills and checking its sources
 1:36:01 Job-focused learning plan
 1:42:04 Sharing knowledge bases and wrap-up
 

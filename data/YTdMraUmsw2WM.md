@@ -20,7 +20,7 @@ Chapters:
 0:00 Why this prerequisites video comes first
 0:29 Computer, GitHub, and Copilot requirements
 1:51 Committing an hour a day
-2:56 What computer to buy
+3:21 What computer to buy
 3:57 Figuring out setup on your own
 
 `#techcareer #beginnerboost #githubcopilot #learntocode #ai #careeradvice #windows11 #mac`

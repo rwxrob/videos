@@ -92,8 +92,9 @@ Chapters:
 0:00 Why an agentic template matters
 0:58 Building the template and AGENTS.md
 1:58 What the template says about you
-2:52 Syncing AGENTS.md into existing repos
-3:52 Running terminal agents in tmux
+2:56 Syncing AGENTS.md into existing repos
+3:32 Keeping AGENTS.md out of the README
+3:58 Running terminal agents in tmux
 4:43 Next steps and using AI everywhere
 
 `#agenticai #agentsmd #dotfiles #aicoding #tmux #github #claudecode #developers #terminal #ai #devtools #career #techjobs #buildinpublic #softwaredevelopment`

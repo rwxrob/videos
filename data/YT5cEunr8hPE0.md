@@ -34,14 +34,17 @@ Chapters:
 8:40 Libraries, marshaling and Go syntax
 10:40 Rust documentation and core team comparison
 13:50 Unicode strings and panics in Rust
-17:20 Is Rust really safer than Go
-21:00 Concurrency and choosing by all angles
+19:00 Is Rust really safer than Go
+21:00 Documentation, testing and simplicity
+23:00 Choosing a language by all angles of speed
 25:20 Chat: testing and documentation in Rust
-31:10 Implicit returns and green threads
-36:40 Hype cycle and 64-core concurrency
-41:20 Node.js, Rust as Frankenstein language
+31:10 TJ and elegant code
+32:30 Implicit returns and green threads
+36:00 Productivity and trade-offs
+38:45 Hype cycle and 64-core concurrency
+41:45 Node.js and Rust as Frankenstein language
 43:30 JavaScript as a first language
-47:00 Closing thoughts and chat shoutouts
+47:20 Closing thoughts and chat shoutouts
 
 `#golang #rust #programming #concurrency #softwaredevelopment #livestream #nodejs #javascript`
 

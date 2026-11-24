@@ -8,7 +8,7 @@ Chapters:
 0:00 Why think like a hacker
 0:58 Hacker skills versus Metasploit myths
 1:33 Darlene and deep system knowledge
-3:19 Better systems through alternative thinking
+3:46 Better systems through alternative thinking
 4:45 Seeing alternative uses as a superpower
 5:46 The original definition of hacker
 

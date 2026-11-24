@@ -6,16 +6,17 @@ Two fundamentally different ways to work with AI agents: live interactive conver
 
 Chapters:
 0:00 The question: single prompt vs back-and-forth
-0:57 PR workflow from the Nomad IRL app
-1:58 Live interactive session with Haiku
-3:40 Why terminal beats ChatGPT for planning
-6:40 Controlling memory with agents.md
-10:40 Fresh sessions and preserved state
-12:20 Issues and PRs as prompt refinement
-14:30 Regression testing and large PRs
-16:25 Trial and error as how things evolve
+0:37 PR workflow from the Nomad IRL app
+1:53 Live interactive session with Haiku
+3:41 Why terminal beats ChatGPT for planning
+5:57 ChatGPT's opaque memory
+7:33 Controlling memory with agents.md
+10:06 Fresh sessions and preserved state
+12:25 Issues and PRs as prompt refinement
+14:25 Regression testing and large PRs
+16:27 Trial and error as how things evolve
 
-`#agenticai #githubcopilot #aicoding #terminal #claude #promptengineering #agentsmd #devworkflow #aiagents #aidevelopment #devops #gitworkflow #softwareengineering #pullrequests #github`
+`#agenticai #githubcopilot #aicoding #terminal #promptengineering #agentsmd #devworkflow #aiagents #aidevelopment #gitworkflow #softwareengineering #pullrequests #github`
 
 ## Category
 

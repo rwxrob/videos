@@ -8,13 +8,14 @@ Chapters:
 3:30 BSD as the basis of macOS Darwin
 6:25 Independent origins of BSD and Linux
 9:05 LXC, Docker and containers on Linux
-10:40 BSD jails and the micro VM shift
+10:25 BSD jails and the micro VM shift
 11:40 Where each system is used today
 12:45 Should beginners learn BSD?
 13:35 Other Unixes and the vi surprise
-15:25 Learning Unix and Linux transfers
+15:26 How the author first heard of Linux
+16:26 Takeaway: Unix and Linux knowledge transfers
 
-`#bsd #linux #unix #freebsd #containers #lxc #macos #posix #beginners #techjobs #education #learning`
+`#bsd #linux #unix #freebsd #containers #lxc #macos #posix #beginners #education #learning`
 
 ## Category
 

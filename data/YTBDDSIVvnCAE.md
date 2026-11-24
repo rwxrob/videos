@@ -15,9 +15,9 @@ Source: https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans
 
 Chapters:
 0:00 Hitting the Opus 4.6 usage block
-0:58 New signups paused for Copilot plans
+1:06 New signups paused for Copilot plans
 2:38 Anthropic, Claude and the harness debate
-5:38 Why GitHub and Microsoft are exposed
+5:45 Why GitHub and Microsoft are exposed
 6:38 Tighter usage limits on individual plans
 7:24 Opus models removed from Pro
 10:00 Rising prices and Opus 4.7 costs

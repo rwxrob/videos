@@ -6,12 +6,12 @@ Here's why M$ is rushing as fast as possible to get on a "tokens" based financia
 
 Chapters:
 0:00 The Copilot premium request loophole
-1:00 Interactive prompts burn premium requests
-2:54 Free models versus Haiku and Opus
+1:05 Interactive prompts burn premium requests
+3:07 Free models versus Haiku and Opus
 3:54 Gaming it with long detailed issues
 4:40 Testing PRs locally and from a phone
-5:37 Systems design as the key skill
-6:42 Why interactive Opus is wrong
+5:39 Systems design as the key skill
+7:27 Why interactive Opus is wrong
 
 `#githubcopilot #agenticai #ai #claudeopus #softwaredevelopment #systemsdesign #promptengineering #beginners #github #copilot #money`
 

@@ -8,10 +8,12 @@ I'm paying over budget but cannot use any of the coding models. Pretty sure they
 
 Chapters:
 0:00 Denied access despite paying GitHub
-1:30 Two weeks of budget testing and heavy use
-4:25 Frustration and call for GitHub transparency
-6:00 Theory of a hidden $200 cap
-6:45 Testing which models still work
+0:32 Two weeks of budget testing and heavy use
+1:47 Suspected silent blacklisting and capacity limits
+3:44 Blocked at a $300 budget; quota tracking seems broken
+5:15 Call for GitHub transparency
+6:06 Theory of a hidden $200 cap
+6:34 Testing which models still work
 8:10 Pattern: only free models allowed
 
 `#github #githubcopilot #claude #ai #coding #anthropic #devtools #fails`
