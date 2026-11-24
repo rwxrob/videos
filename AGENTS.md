@@ -4,6 +4,8 @@
 
 For every video on YouTube: review it for selection, approve, transcribe, update title, description, tags and chapters, publish the video, and keep all of that in sync with this repo.
 
+A video is not "synced" until it has been fully transcribed and its title has been validated against the transcript, in addition to the description, tags and chapters matching what is on YouTube.
+
 ## Adding a video
 
 - Create `data/YT<UID>.md`, where `<UID>` is the YouTube video ID.
