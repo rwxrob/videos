@@ -2,10 +2,6 @@
 
 Walks through a four-hour cleanup of a .bashrc and dotfiles repo using an AI coding agent that is reviewed change by change. Covers removing dead code, consolidating colors and themes, the CDPATH security risk, a new `ask` command that uses AI as a shell and Vim filter, completions, a per-machine setup script, git identity merging, SSH key and secrets considerations, portability issues, and squash-and-merge for pull requests.
 
-A four-hour, unedited livestream of me cleaning up my .bashrc and the rest of my dotfiles with AI (opencode connected to Claude Code Pro) doing the heavy lifting while I review every change.
-
-Along the way: removing dead and personal-only config, consolidating colors and themes, the security danger of CDPATH, a new `ask` command that keeps one AI session going from the shell and pipes Markdown through bat/glow, using AI output as a Unix filter inside Vim, a smarter completions strategy, a per-machine setup script, git config and identity merging, SSH key and secrets thoughts, portability gotchas, and why you should squash and merge PRs.
-
 Chapters:
 0:00 Setup: opencode, Claude Code Pro and the cleanup PR
 6:00 Reviewing the PR and working-tree changes

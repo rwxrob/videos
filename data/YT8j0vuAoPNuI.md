@@ -2,10 +2,6 @@
 
 Answers a viewer's question about whether to spend $30,000 on a one-year US master's program with no job or visa guarantee, or stay home and build Linux and cloud skills. Argues against the master's for job-hunting purposes and recommends putting a fraction of the money into a home lab. Covers student debt, what employers value such as communication and applied AI skills, and a CTO's preference for home-lab experience over degrees.
 
-A viewer asks whether to spend $30,000 on a one-year US master's program (no scholarship, no guaranteed job or visa afterward) or stay home, build Linux and cloud skills, and look for international work. The answer: skip the master's unless you want it for its own sake, and put a fraction of that money into a home lab that proves you can do the work.
-
-Covers what a master's will and won't do for a job search, why employers care more about communication and applied AI skills than another degree, the risk of debt with no job, and a CTO's view on hiring a home-lab builder over a degree holder.
-
 Have a big life decision you're comfortable sharing anonymously? Send it in Discord or email.
 
 Chapters:
