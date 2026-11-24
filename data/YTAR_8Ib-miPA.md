@@ -1,5 +1,13 @@
 # default env vars instead of arguments #bash #shell #coding
 
+Introduces using default environment variables in shell scripts as an alternative to passing and parsing command-line arguments. Expresses frustration with argument handling in bash scripts.
+
+`#bash #shell #coding #linux #scripting #envvars`
+
+## Category
+
+Education
+
 ## Transcription
 
 [00:00:00] This this is an argument destroyer and I mean like arguments like I absolutely hate
