@@ -1,4 +1,4 @@
-# go coding cli tool "kuti" for kubernetes
+# Get off Bitnami now: Broadcom's catalog changes will hit your Helm charts
 
 Warns that announced changes to Bitnami's public catalog under Broadcom affect Helm chart users, argues for moving away, and explains the likely rework for deployments such as Harbor with PostgreSQL and Redis. Also covers open source licensing, stream and road trip plans, and the Unix philosophy of small text-based programs that work together.
 
