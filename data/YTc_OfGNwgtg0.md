@@ -1,8 +1,16 @@
 # Humble C Gettin' Work Done Sigma Style | #rwxrob on #Twitch
 
+Jokes that Python gets the credit, raises, marketing and interviews while C quietly does the real work behind the scenes. Playfully contrasts the humble, hardworking C language with the more publicly celebrated Python.
+
 #shorts
 
 https://www.twitch.tv/rwxrob
+
+`#clang #c #python #programming #programmerhumor #softwaredevelopment #coding #shorts`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
