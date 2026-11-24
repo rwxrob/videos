@@ -1,8 +1,16 @@
 # ChatGPT Writes a Song! | #rwxrob on #Twitch
 
+Presents an AI-generated rhythmic poem about Google's monolithic repository, covering its single trunk of billions of lines, the Piper and CitC tooling, the roughly 86 terabyte size, trunk-based development without branches, and Rosie-driven large-scale refactoring.
+
 #shorts
 
 https://www.twitch.tv/rwxrob
+
+`#chatgpt #google #monorepo #ai #programming #devculture #twitch #shorts`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
