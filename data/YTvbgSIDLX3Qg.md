@@ -1,4 +1,4 @@
-# 🍅 XDG_STATE_HOME (~/.local/state) io.UserStateDir
+# 🍅 XDG_STATE_HOME (~/.local/state) and Go's Missing os.UserStateDir
 
 Covers the XDG state directory (~/.local/state), prompted by a viewer's correction about Neovim's use of it, and notes that Go has user directory functions for cache, config and home but none for state. Looks at Go issue 68988, which concerns telemetry data being stored under the config directory, and discusses the possibility of adding os.UserStateDir to Go.
 
