@@ -1,18 +1,17 @@
 # 🚀 "Would you be okay not coding and just vibing and reviewing code?"
 
-Rob discusses a job interview question a community member received about being okay with just reviewing code instead of writing it, and what interviewers may be filtering for. He describes four stages of developer attitudes toward AI, shares his experience porting a Perl utility with an agentic assistant, and recommends answering that you use AI but carefully review everything it produces.
+Discusses a job interview question about being comfortable with just reviewing AI-generated code instead of writing it, and what employers may be filtering for. Describes common stages of engineer attitudes toward AI, from refusal to agentic tools, with a personal example of porting a Perl codebase. Recommends answering that AI is useful but all generated code must be carefully reviewed.
 
 People are asking this question in job interviews (according to one member of our community). What are the implications and how should you answer?
 
 Chapters:
-0:00 The interview question about reviewing code
-0:56 Four stages of attitudes toward AI
-3:51 Porting a Perl codebase with agentic AI
-5:49 What interviewers are really filtering for
-6:55 How to answer the AI question
-8:11 Sponsorship and beginner booth wrap-up
+0:00 Interview question about reviewing code
+0:56 The stages of AI adoption
+3:27 Porting a Perl codebase with agentic AI
+5:49 How to answer the interview question
+8:10 Sponsorship and wrap-up
 
-`#ai #jobinterview #vibecoding #codereview #techjobs #beginners #agenticai #careeradvice #interview`
+`#ai #jobinterview #vibecoding #codereview #agenticai #techjobs #careeradvice #beginners #interview`
 
 ## Category
 
