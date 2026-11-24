@@ -1,18 +1,18 @@
 # 🪦 Tutorials and Tech Books are Dead
 
-Rob argues that tutorials and tech books are largely obsolete now that AI assistants can answer questions and summarize research on demand. He describes using AI for coding, training and language practice, and for generating detailed pull request summaries at work. He also covers AI's effect on school essays and recommends seeking out people for guidance, then using AI for interactive research.
+Argues that tutorials and tech books are obsolete now that AI assistants can answer questions, summarize research and generate detailed work such as pull request descriptions on demand. Covers using AI tools for coding, training and language practice, how AI is changing school essays, and why learners should focus on talking with people and then dig deeper with an AI.
 
 Tech books and tutorials can never keep up with a good AI that knows your and your project or needs. Start learning how today or get left in the dust. (And no, this does not apply to fiction, those are still way more fun with a warm beverage and a cozy couch.)
 
 Chapters:
 0:00 Tutorials and textbooks are dead
-0:55 Using AI for code, training, and language
-2:02 Why people still matter in the AI era
-2:56 AI-generated PR summaries at work
-3:29 AI and the end of school essays
-4:25 Find people, then learn with AI
+0:53 Using AI instead of studying
+1:42 Skip books, focus on people
+2:43 AI-written PR summary at work
+3:28 Essays, schools and AI
+4:25 Talk to people, then use AI
 
-`#ai #claude #learntocode #chatgpt #programming #devculture #education #githubcopilot #techlife #books`
+`#ai #claude #chatgpt #learning #programming #devculture #githubcopilot #tutorials #techlife #books`
 
 ## Category
 
