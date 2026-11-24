@@ -1,8 +1,22 @@
 # 🎤 Why not mount configs into boost container?
 
+Explains why the Boost beginner container does not load or mount configurations from outside, since containers are meant to be ephemeral and state should not live inside them. Argues that beginners should learn early to persist their work in Git, accepting the lesson of lost work now rather than later on the job.
+
 Beginners should expect everything they do in a container to die when when exit (for the most part). Even though we violate this a little for the Boost we want people to learn to save it in Git if they want to keep it around and make those mistakes (that we all make) now and not later on the job.
 
-`#questions #containers #tips`
+Chapters:
+0:00 Why not mount configs into the container
+0:27 Containers as ephemeral in the enterprise
+1:26 Why laptop-style thinking misleads beginners
+1:52 Bending the rules for the Boost
+2:28 Persisting work in Git instead
+2:53 Losing work is a lesson worth learning
+
+`#containers #docker #git #linux #devops #beginners #kubernetes #questions #tips`
+
+## Category
+
+Education
 
 ## Transcription
 
