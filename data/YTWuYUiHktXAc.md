@@ -1,6 +1,12 @@
 # CDPATH | rwxrob on #Twitch
 
-`#shorts`
+Explains how the CDPATH environment variable only searches the top level of each listed directory, and why that is enough. Demonstrates using tab completion to move into subdirectories such as a config directory and then into a nested folder.
+
+`#cdpath #bash #linux #terminal #shell #tabcompletion #commandline #shorts`
+
+## Category
+
+Education
 
 ## Transcription
 
