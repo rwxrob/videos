@@ -1,5 +1,7 @@
 # Experience is always better than education
 
+Answers a viewer's question about whether to spend $30,000 on a one-year US master's program with no job or visa guarantee, or stay home and build Linux and cloud skills. Argues against the master's for job-hunting purposes and recommends putting a fraction of the money into a home lab. Covers student debt, what employers value such as communication and applied AI skills, and a CTO's preference for home-lab experience over degrees.
+
 A viewer asks whether to spend $30,000 on a one-year US master's program (no scholarship, no guaranteed job or visa afterward) or stay home, build Linux and cloud skills, and look for international work. The answer: skip the master's unless you want it for its own sake, and put a fraction of that money into a home lab that proves you can do the work.
 
 Covers what a master's will and won't do for a job search, why employers care more about communication and applied AI skills than another degree, the risk of debt with no job, and a CTO's view on hiring a home-lab builder over a degree holder.
@@ -20,7 +22,21 @@ Chapters:
 7:33 A story: why an MFA wasn't needed
 8:33 Experience is always better than education
 
-`#career #advice #college #homelab #devops #linux`
+Chapters:
+0:00 Why this video
+1:10 The viewer's email
+2:01 They already know the answer
+2:45 Stay home and build a home lab
+3:46 What a master's will and won't get you
+4:25 College debt in America
+5:13 What employers actually hire for
+6:05 The risk of debt and no job
+6:54 A CTO on home labs vs. degrees
+7:19 Don't get a master's for a job
+7:33 A story: why an MFA wasn't needed
+8:33 Experience is always better than education
+
+`#career #homelab #devops #linux #careeradvice #mastersdegree #college #cloud #advice`
 
 ## Category
 
