@@ -1,4 +1,4 @@
-# 😎 gh pr FTW
+# 😎 Keep Project Conversations in GitHub PRs with gh pr comment
 
 Argues for keeping development conversations about a project in GitHub instead of Discord, Reddit or Slack, using a draft pull request where a comment about shell completion on Zsh is followed by the matching change. Shows how to add a comment from the command line with gh pr comment while coding, so collaborators can follow along and the discussion isn't lost.
 
