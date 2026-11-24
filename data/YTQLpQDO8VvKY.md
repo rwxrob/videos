@@ -1,8 +1,29 @@
 # 🤔 Reviewing My Most Popular Videos
 
+Reviews the most popular videos from a channel that had its 1,200-video back catalog unpublished, saying which opinions still hold in 2026 and which were wrong. Topics include Rust, Free Code Camp, BSD vs Linux, Go, vim vs Neovim, tmux, WSL2, cybersecurity careers and note-taking apps. Ends by collecting the videos that stay public into a most-popular playlist.
+
 After unpublishing most of videos until I could decide if they are still relevant I started adding them back based on the ones I still agree with. Here's the list and an explanation of why in 2026.
 
-`#videos #behindthescenes #popular`
+Chapters:
+0:00 Why the old videos were unpublished
+0:47 The Rust video and Rust vs Go
+4:37 Free Code Camp experiment and learning with AI
+7:56 BSD vs Linux and Go project setup
+10:02 Vim shell integration, VS Code, and Links browser
+12:42 Cybersecurity hacker careers vs operations
+16:51 Go vs Python for machine learning
+19:09 Changing views on Neovim and tree-sitter
+23:14 Note-taking apps and Obsidian
+23:48 tmux, desktop Linux, and pane splitting
+27:52 Git Bash vs WSL2 on Windows
+29:41 Quick verdicts on remaining videos
+33:14 Building the popular videos playlist
+
+`#youtubereview #rust #golang #vim #neovim #tmux #wsl2 #linux #cybersecurity #freecodecamp #videos #behindthescenes #popular`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
