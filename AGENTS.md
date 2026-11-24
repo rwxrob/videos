@@ -6,6 +6,16 @@ For every video on YouTube: review it for selection, approve, transcribe, update
 
 A video is not "synced" until it has been fully transcribed and its title has been validated against the transcript, in addition to the description, tags and chapters matching what is on YouTube.
 
+## Deliberate spellings
+
+Never "correct" these in transcripts, titles or descriptions; Whisper often mishears them, so fix the mishearing toward the spelling here:
+
+- `Bonzai` (the CLI framework; not Bonsai or Banzai)
+- `zet` (the Zettelkasten tool and repo)
+- `boost` (the Beginner Boost repo and container)
+- `Lynx` (the text web browser, `lynx.cfg`, `lynx.lss`; Whisper writes "links")
+- `rwxrob`
+
 ## Adding a video
 
 - Create `data/YT<UID>.md`, where `<UID>` is the YouTube video ID.
