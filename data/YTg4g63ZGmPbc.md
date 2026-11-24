@@ -1,8 +1,16 @@
 # I wrote that script in like day | #rwxrob on #Twitch
 
+Briefly shows a command-line tool whose built-in automatic tab completion comes from bash, after a remark about writing the script quickly with help from the team. Encourages learning bash and then returns to the previous activity.
+
 #shorts #bash #linux #scripting
 
 https://www.twitch.tv/rwxrob
+
+`#bash #linux #scripting #tabcompletion #terminal #commandline #shorts`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
