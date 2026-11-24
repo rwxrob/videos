@@ -1,8 +1,25 @@
 # 💩 Install Windows10 in Proxmox
 
+Walks through creating a Windows 10 virtual machine in Proxmox, from downloading the ISO by URL and choosing VM settings (4 cores, 8 GB RAM, 60 GB disk, QEMU agent) to stepping through the Windows setup. Explains why a VM is useful for occasionally testing software and terminal setup on Windows 10, and shows how Proxmox performance graphs reveal whether the installer is actually working.
+
 Sometimes you have to use Windows 💩 because you are helping people who one have it or don't yet know how to get rid of it by installing Linux or don't have the money to buy a Unix system (aka Mac).
 
-`#proxmox #windows10 #tips`
+Chapters:
+0:00 Why run Windows in Proxmox
+1:27 Downloading the Windows 10 ISO
+2:30 Creating the VM and its settings
+5:30 Booting the VM and starting setup
+9:00 Monitoring CPU, memory and disk I/O
+13:30 Proxmox version and why Windows 10
+16:40 Account setup and privacy prompts
+20:00 Waiting on the installer and Edge
+24:30 Windows desktop reached
+
+`#proxmox #windows10 #virtualization #homelab #windows #vm #terminal #beginners #tips`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
