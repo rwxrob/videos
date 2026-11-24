@@ -1,4 +1,4 @@
-# late night coding
+# Coding on the road: truck stop, hotel breakfast area, and Android hotspot streaming
 
 A late-night, early-morning stream from the road, with long stretches of unclear audio, breaks to sort out battery charging and a camera switch, and a brief rant about religion with strong language. Touches on chat commands not working through Restream, plans to code a lot of shell, and how reliable the Android Wi-Fi hotspot is for streaming, before stopping to restart the stream.
 
