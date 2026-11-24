@@ -1,4 +1,4 @@
-# dont-say-unix | #rwxrob on #Twitch
+# Don't Say UNIX
 
 Short clip joking about the word "Unix" by repeating its pronunciation over and over, playing on the advice not to say it.
 

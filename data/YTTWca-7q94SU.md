@@ -1,4 +1,4 @@
-# How to Learn Vim Quickly and Correctly [20210422163108]
+# How to Learn Vim Quickly and Correctly
 
 From 2021. I may have changed my mind on some of this.
 

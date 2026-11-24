@@ -1,4 +1,4 @@
-# ssh-keygen -C comment #linux #ssh #tips #terminal
+# Label Your SSH Keys with ssh-keygen -C
 
 Shows how to add a comment to a generated SSH key pair with the capital -C option of ssh-keygen and how to choose the output file location with -f. Explains that the public key shares the private key's name with a .pub extension, and that either key file can be used later with ssh -i. Cautions against putting sensitive data such as a social security number in the comment.
 

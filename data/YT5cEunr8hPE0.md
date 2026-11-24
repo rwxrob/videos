@@ -1,4 +1,4 @@
-# Back to Go, Rust is Slow (in Ways That Matter to the Most People)
+# Back to Go: Rust Is Slow in Ways That Matter Most
 
 Argues that Go is faster than Rust in ways beyond runtime speed, including developer productivity, documentation, testing, concurrency with goroutines, and maintainability. Compares the two languages on string handling, safety claims, tooling and community, then answers live chat comments on testing, documentation, Node.js and JavaScript as a first language.
 

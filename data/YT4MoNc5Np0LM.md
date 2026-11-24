@@ -1,4 +1,4 @@
-# 🤔 Claude vs Chloe (ChatGPT)
+# 🤔 Claude vs ChatGPT ("Chloe")
 
 Compares ChatGPT and Claude for coding and everyday use, covering memory, personality, voice conversations, language practice, and command-line access. Discusses Claude's strength at coding and file editing, the CLAUDE.md and command-line options for restoring context, and viewer pushback over which AI or tools a streamer uses.
 

@@ -1,4 +1,4 @@
-# Do NOT Use Vim Pane Splitting (Use TMUX Instead) [20210422165907]
+# Do NOT Use Vim Pane Splitting (Use TMUX Instead)
 
 From 2021. I may have changed my mind on some of this.
 

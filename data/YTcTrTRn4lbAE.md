@@ -1,4 +1,4 @@
-# Erlang is the hot old chick | #rwxrob on #Twitch
+# Erlang Is the Hot Old Chick
 
 Offers a joking, tongue-in-cheek comparison of the Erlang programming language to an attractive older woman, as a short clip from a live stream.
 

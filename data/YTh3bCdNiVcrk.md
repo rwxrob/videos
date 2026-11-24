@@ -1,4 +1,4 @@
-# Why nomadirl is so amazing. I made something I want to use. | #rwxrob on #Twitch
+# Why nomadirl Is So Amazing (I Made Something I Want to Use)
 
 Describes a custom-built IRL streaming app made after years of mobile live streaming, and demonstrates a swipe-left gesture that clips the previous 30 seconds. Presents the app as tailored to features the creator wanted for their own streams.
 
