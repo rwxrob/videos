@@ -1,16 +1,16 @@
 # minecraft mode jump line | #rwxrob on #Twitch
 
-Short clip from a live stream showing a Minecraft-style mode for jumping between lines in the editor. No speech is present, so the content is limited to what appears on screen.
+Short clip from an IRL live stream while riding a bike, when the camera glitches into what I call "minecraft mode." No speech is present, so the content is limited to what appears on screen.
 
 #shorts
 
 https://www.twitch.tv/rwxrob
 
-`#vim #terminal #minecraft #twitch #shorts #livecoding #linux`
+`#minecraft #irl #twitch #livestream #shorts #glitch`
 
 ## Category
 
-Science & Technology
+Entertainment
 
 ## Transcription
 
