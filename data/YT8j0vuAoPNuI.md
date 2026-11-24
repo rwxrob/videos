@@ -22,20 +22,6 @@ Chapters:
 7:33 A story: why an MFA wasn't needed
 8:33 Experience is always better than education
 
-Chapters:
-0:00 Why this video
-1:10 The viewer's email
-2:01 They already know the answer
-2:45 Stay home and build a home lab
-3:46 What a master's will and won't get you
-4:25 College debt in America
-5:13 What employers actually hire for
-6:05 The risk of debt and no job
-6:54 A CTO on home labs vs. degrees
-7:19 Don't get a master's for a job
-7:33 A story: why an MFA wasn't needed
-8:33 Experience is always better than education
-
 `#career #homelab #devops #linux #careeradvice #mastersdegree #college #cloud #advice`
 
 ## Category
