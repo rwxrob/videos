@@ -6,7 +6,7 @@ For every video on YouTube: review it for selection, approve, transcribe, update
 
 ## Adding a video
 
-- Create `data/<UID>.md`, where `<UID>` is the YouTube video ID.
+- Create `data/YT<UID>.md`, where `<UID>` is the YouTube video ID.
 - Start the file with the video title as a `#` heading.
 - Follow it with the YouTube description, then the hashtags on their own line, then a `## Transcription` heading with the timestamped transcript, one segment per line as `[HH:MM:SS] text`. Always keep timestamps so chapter headings can be created from them.
 - Wrap the hashtag line in backticks so Markdown doesn't treat `#` as a heading.
@@ -34,7 +34,7 @@ For every video on YouTube: review it for selection, approve, transcribe, update
   whisper-cli -m ~/whisper-work/models/ggml-base.en.bin -f audio.wav -osrt -of transcript
   ```
 
-  Do not pass `-nt`. Convert the `.srt` into `[HH:MM:SS] text` lines for the markdown file, and also save the `.srt` as `data/<UID>.srt`.
+  Do not pass `-nt`. Convert the `.srt` into `[HH:MM:SS] text` lines for the markdown file, and also save the `.srt` as `data/YT<UID>.srt`.
 
 ## After a video is processed
 

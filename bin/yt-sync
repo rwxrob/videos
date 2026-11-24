@@ -104,7 +104,7 @@ need_manifest() { [[ -f $manifest ]] || { echo "no manifest; run: yt-sync list" 
 # Split a description into body and trailing hashtag-only line (if any), and
 # write the data file in the repo format.
 write_md() { # id title description
-  local id=$1 title=$2 desc=$3 out=$data/$1.md body tags last
+  local id=$1 title=$2 desc=$3 out=$data/YT$1.md body tags last
   body=$desc
   tags=
   # Last non-blank line made only of #hashtags becomes the backtick line.
@@ -127,7 +127,7 @@ cmd_meta() {
   need_manifest
   local n=0 id title desc
   while IFS= read -r id; do
-    [[ -f $data/$id.md ]] && continue
+    [[ -f $data/YT$id.md ]] && continue
     title=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .title' "$manifest")
     desc=$(jq -r --arg id "$id" '.[] | select(.id == $id) | .description' "$manifest")
     write_md "$id" "$title" "$desc"
@@ -137,7 +137,7 @@ cmd_meta() {
 }
 
 # ---------------------------------------------------------------- transcribe
-has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/$1.md"; }
+has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/YT$1.md"; }
 
 srt_to_lines() {
   awk 'BEGIN{RS="";FS="\n"} {
@@ -164,10 +164,10 @@ transcribe_one() { # id
   whisper-cli ${YT_WHISPER_ARGS:-} -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
   [[ -e $work/t.srt ]] || return 1   # an empty SRT just means no speech was recognized
   # Keep everything through the "## Transcription" heading, replace the rest.
-  head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")
-  { printf '%s\n\n' "$head"; if [[ -s $work/t.srt ]]; then srt_to_lines < "$work/t.srt"; else echo "[00:00:00] (no speech detected)"; fi; } > "$data/$id.md.tmp"
-  mv "$data/$id.md.tmp" "$data/$id.md"
-  [[ ! -s $work/t.srt ]] || cp "$work/t.srt" "$data/$id.srt"
+  head=$(awk '{print} /^## Transcription/{exit}' "$data/YT$id.md")
+  { printf '%s\n\n' "$head"; if [[ -s $work/t.srt ]]; then srt_to_lines < "$work/t.srt"; else echo "[00:00:00] (no speech detected)"; fi; } > "$data/YT$id.md.tmp"
+  mv "$data/YT$id.md.tmp" "$data/YT$id.md"
+  [[ ! -s $work/t.srt ]] || cp "$work/t.srt" "$data/YT$id.srt"
 }
 
 cmd_transcribe() {
@@ -178,7 +178,7 @@ cmd_transcribe() {
   [[ -f $model ]] || { echo "whisper model not found: $model (set YT_WHISPER_MODEL)" >&2; exit 1; }
   local done_n=0 id rc
   while IFS= read -r id; do
-    [[ -f $data/$id.md ]] || continue
+    [[ -f $data/YT$id.md ]] || continue
     has_transcript "$id" && continue
     [[ -f $cache/failed/$id ]] && continue
     log "transcribing $id"
@@ -224,7 +224,7 @@ cmd_status() {
   total=$(jq length "$manifest")
   have=$(find "$data" -maxdepth 1 -name '*.md' | wc -l | tr -d ' ')
   while IFS= read -r id; do
-    [[ -f $data/$id.md ]] && has_transcript "$id" && tr=$((tr + 1))
+    [[ -f $data/YT$id.md ]] && has_transcript "$id" && tr=$((tr + 1))
   done < <(selected_ids)
   failed=$(find "$cache/failed" -type f | wc -l | tr -d ' ')
   echo "videos on channel: $total (processing: $(selected_ids | wc -l | tr -d ' '))"
@@ -235,11 +235,11 @@ cmd_status() {
 
 cmd_srt2md() {
   local id=${1:?usage: yt-sync srt2md <UID>} head
-  [[ -f $data/$id.md && -f $data/$id.srt ]] || { echo "need $data/$id.md and $data/$id.srt" >&2; exit 1; }
-  head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")
-  { printf '%s\n\n' "$head"; srt_to_lines < "$data/$id.srt"; } > "$data/$id.md.tmp"
-  mv "$data/$id.md.tmp" "$data/$id.md"
-  log "rebuilt transcript of $id from its SRT ($(grep -c '^\[' "$data/$id.md") lines)"
+  [[ -f $data/YT$id.md && -f $data/YT$id.srt ]] || { echo "need $data/YT$id.md and $data/YT$id.srt" >&2; exit 1; }
+  head=$(awk '{print} /^## Transcription/{exit}' "$data/YT$id.md")
+  { printf '%s\n\n' "$head"; srt_to_lines < "$data/YT$id.srt"; } > "$data/YT$id.md.tmp"
+  mv "$data/YT$id.md.tmp" "$data/YT$id.md"
+  log "rebuilt transcript of $id from its SRT ($(grep -c '^\[' "$data/YT$id.md") lines)"
 }
 
 cmd_launchd() {

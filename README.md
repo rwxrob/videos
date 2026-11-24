@@ -6,7 +6,7 @@ Searchable flat-text (YFM) database of all rwxrob videos.
 
 The text files that contain information about a video are designed to be cut and pasted directly into a YouTube description field.
 
-Each file lives at `data/<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the timestamped transcript, one `[HH:MM:SS] text` line per segment, under a `## Transcription` heading. The timestamps make it possible to generate chapter headings. An optional `## Category` section (before `## Transcription`) holds a YouTube category name such as `Science & Technology`; `yt-update` maps it to the numeric ID. The description sent to YouTube ends at the first `##` heading. The raw captions are also saved alongside as `data/<UID>.srt`.
+Each file lives at `data/YT<UID>.md`, named for the YouTube video ID, and has four parts: the title as a heading, the description, the hashtags (in backticks so Markdown doesn't treat `#` as a heading), and the timestamped transcript, one `[HH:MM:SS] text` line per segment, under a `## Transcription` heading. The timestamps make it possible to generate chapter headings. An optional `## Category` section (before `## Transcription`) holds a YouTube category name such as `Science & Technology`; `yt-update` maps it to the numeric ID. The description sent to YouTube ends at the first `##` heading. The raw captions are also saved alongside as `data/YT<UID>.srt`.
 
 ```markdown
 # Use explicit ALE linters and fixers
@@ -70,7 +70,7 @@ For those interested in knowing how I produce videos so that they can be consume
 
 ### Updating YouTube from the command line
 
-`bin/yt-update <UID>` pushes the title and description (including chapters and hashtags) from `data/<UID>.md` to YouTube using the YouTube Data API. It is optional; everything else here works without it. It needs `bash`, `curl`, and [`jq`](https://jqlang.org) (`brew install jq`).
+`bin/yt-update <UID>` pushes the title and description (including chapters and hashtags) from `data/YT<UID>.md` to YouTube using the YouTube Data API. It is optional; everything else here works without it. It needs `bash`, `curl`, and [`jq`](https://jqlang.org) (`brew install jq`).
 
 One-time setup, because changing a video requires OAuth as the channel owner (an API key is not enough):
 
@@ -106,11 +106,11 @@ The script fetches the video's current metadata first and sends it back with onl
 
 ### Backfilling a whole channel (`bin/yt-sync`)
 
-`bin/yt-sync` builds `data/<UID>.md` (and `data/<UID>.srt`) for every video already on your channel. It only reads from YouTube; it never changes anything there (use `yt-update` for that). Anyone can use it for their own channel: do the one-time [OAuth setup](#updating-youtube-from-the-command-line) above, install the dependencies below, and run it from a clone of this repo.
+`bin/yt-sync` builds `data/YT<UID>.md` (and `data/YT<UID>.srt`) for every video already on your channel. It only reads from YouTube; it never changes anything there (use `yt-update` for that). Anyone can use it for their own channel: do the one-time [OAuth setup](#updating-youtube-from-the-command-line) above, install the dependencies below, and run it from a clone of this repo.
 
 ```sh
 bin/yt-sync list         # fetch every upload into a manifest (~/.cache/videos/manifest.json)
-bin/yt-sync meta         # write data/<UID>.md with title, description, hashtags (never overwrites)
+bin/yt-sync meta         # write data/YT<UID>.md with title, description, hashtags (never overwrites)
 bin/yt-sync transcribe   # yt-dlp + ffmpeg + whisper-cli, adds timestamped transcripts (slow)
 bin/yt-sync run          # list, meta, transcribe; safe to re-run, resumes where it left off
 bin/yt-sync srt2md <UID> # rebuild a data file's transcript from its (hand-fixed) .srt
@@ -142,7 +142,7 @@ bin/yt-enrich status      # counts
 bin/yt-enrich launchd     # print a macOS launchd plist that runs `run` hourly
 ```
 
-Videos listed in `disclaimers.txt` (opinion or status videos from the past) get "From {YYYY}. I may have changed my mind on some of this." as the first line of the description. Results are written to `data/<UID>.md` and committed, one commit per video, on the current branch (only that file is committed). Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log`, then publish a video with `bin/yt-update <UID>`.
+Videos listed in `disclaimers.txt` (opinion or status videos from the past) get "From {YYYY}. I may have changed my mind on some of this." as the first line of the description. Results are written to `data/YT<UID>.md` and committed, one commit per video, on the current branch (only that file is committed). Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log`, then publish a video with `bin/yt-update <UID>`.
 
 ### Dependencies
 

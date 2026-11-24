@@ -63,7 +63,7 @@ categories='["Film & Animation","Autos & Vehicles","Music","Pets & Animals","Spo
 # shellcheck source=yt-lib.bash
 source "$here/yt-lib.bash"
 
-has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/$1.md"; }
+has_transcript() { grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$data/YT$1.md"; }
 trim() { sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' | sed '/./,$!d'; }
 
 # ------------------------------------------------------------ transcript
@@ -159,7 +159,7 @@ has_disclaimer() {
 
 # ------------------------------------------------------------ one video
 enrich_one() { # id
-  local id=$1 src=$data/$id.md work hdr title tagsline origbody dur prompt json reply attempt
+  local id=$1 src=$data/YT$id.md work hdr title tagsline origbody dur prompt json reply attempt
   work=$(mktemp -d "${TMPDIR:-/tmp}/yt-enrich.XXXXXX")
   # shellcheck disable=SC2064
   trap "rm -rf '$work'" RETURN
@@ -219,8 +219,8 @@ enrich_one() { # id
   # on the current branch (other staged or unstaged changes are left alone).
   { cat "$work/new.md"; awk '/^## Transcription/{f=1; next} f && NF' "$src"; } > "$work/out.md"
   cat "$work/out.md" > "$src"
-  git -C "$root" add -- "data/$id.md"
-  git -C "$root" commit -q -m "enrich $id: $title" -- "data/$id.md"
+  git -C "$root" add -- "data/YT$id.md"
+  git -C "$root" commit -q -m "enrich $id: $title" -- "data/YT$id.md"
   echo "$PROMPT_VERSION" > "$marks/$id"
 }
 
@@ -238,7 +238,7 @@ cmd_run() {
   local n=0 id
   while IFS= read -r id; do
     (( limit == 0 || n < limit )) || break
-    [[ -f $data/$id.md ]] && has_transcript "$id" || continue
+    [[ -f $data/YT$id.md ]] && has_transcript "$id" || continue
     is_done "$id" && continue
     [[ -f $failed/$id ]] && continue
     log "enriching $id"
@@ -250,7 +250,7 @@ cmd_run() {
 
 cmd_one() {
   local id=${1:?usage: yt-enrich one <UID>}
-  [[ -f $data/$id.md ]] && has_transcript "$id" || { echo "no transcript for $id in $data" >&2; exit 1; }
+  [[ -f $data/YT$id.md ]] && has_transcript "$id" || { echo "no transcript for $id in $data" >&2; exit 1; }
   command -v claude >/dev/null || { echo "claude is required" >&2; exit 1; }
   enrich_one "$id" </dev/null && log "done $id; see: git show HEAD"
 }
@@ -261,7 +261,7 @@ cmd_status() {
   fail_n=$(find "$failed" -type f | wc -l | tr -d ' ')
   if [[ -f $manifest ]]; then
     while IFS= read -r id; do
-      [[ -f $data/$id.md ]] && has_transcript "$id" && ! is_done "$id" && ready=$((ready + 1))
+      [[ -f $data/YT$id.md ]] && has_transcript "$id" && ! is_done "$id" && ready=$((ready + 1))
     done < <(selected_ids)
   fi
   echo "enriched:          $done_n"
