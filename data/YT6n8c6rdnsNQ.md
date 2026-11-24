@@ -1,5 +1,7 @@
 # 🟥 Simple Current Topic OBS Overlay
 
+Demonstrates a browser-based OBS overlay that shows the current stream topic, with a logo, link, date and time. Explains how changing the topic also updates the Twitch title, GitHub status and live YouTube title, and how recordings are automatically renamed to a slug of the topic. Walks through the code, the background services, token caching and the setup steps.
+
 Vibe coded simple OBS browser overlay. I use this because I am frequently changing the title of the stream based on topic and make recordings to be uploaded.
 
 - left: logo and link
@@ -17,7 +19,20 @@ Quick start:
 7. Optionally record a video for that topic (renames video when stopped)
 8. Upload video to YouTube
 
-`#livestream #coding #tools`
+Chapters:
+0:00 Overlay overview and what it updates
+1:18 Caveats with YouTube, Twitch and restreams
+2:08 Auto-renaming recordings to topic slug
+3:00 Setup steps and background services
+4:04 Topic server and failed curl demo
+5:56 Overlay customization and token caching
+7:05 Where to find it and wrap-up
+
+`#obs #streaming #bash #overlay #twitch #youtube #vibecoding #linux #github #livestream #coding #tools`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
