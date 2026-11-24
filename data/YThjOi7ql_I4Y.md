@@ -1,8 +1,25 @@
 # 🚀 Use Obsidian to Take GitHub-Compatible Notes
 
+Shows how to configure Obsidian so notes stay compatible with GitHub Flavored Markdown, using a repo's docs directory as the storage location. Covers the key settings (standard markdown links, relative link paths, automatic link updating, wiki links off), the benefit of automatic link fixing when moving files, naming files with web-friendly slugs, and setting up daily notes.
+
 Obsidian is AWESOME these days (even though it is still proprietary). Here's how you can make sure your notes, knowledge-base, and documentation is 100% compatible with GitHub Flavored Markdown so that it can be browsed, read, and shared in a standard way with others.
 
-`#notes #obsidian #knowledgemanagement`
+Chapters:
+0:00 Why Obsidian works with GitHub now
+0:50 Organizing notes in a GitHub docs directory
+2:28 Editing with github.dev and VS Code web
+4:07 Automatic link updating when moving files
+6:05 Using web-friendly file names and slugs
+8:32 Key Obsidian settings for compatibility
+10:40 Other settings and mobile publishing
+13:00 Daily notes setup and folder choice
+15:05 Avoiding spaces in file names and wrap-up
+
+`#obsidian #github #markdown #notetaking #knowledgemanagement #pkm #documentation #vscode #notes`
+
+## Category
+
+Education
 
 ## Transcription
 
