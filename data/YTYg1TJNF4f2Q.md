@@ -1,8 +1,23 @@
 # 🛒 Buy First $300 Linux Laptop
 
+Explains why a cheap, disposable laptop is the best first machine for learning Linux, and what to look for when buying one. Covers trusted brands (Acer, Asus, Lenovo, ThinkPad) and brands to avoid (HP, Dell), minimum specs such as 8 GB of RAM, and why USB 3 flash drives and a mix of USB-C and USB-A ports matter. Also compares a budget machine with a pricier option and a Raspberry Pi, and previews installing multiple distros.
+
 Your first Linux laptop should be cheap enough to not be afraid of screwing it up. Don’t pay more than $300. Acer, Asus, Thinkpad, Lenovo are only brands I recommend having bought hundreds for schools and my own students. Avoid HP and Dell at all costs, especially XPS. Remember this is a first laptop, not your final Linux daily driver.
 
-`#livestream #linux #beginners`
+Chapters:
+0:00 Why buy two cheap laptops
+0:47 A computer cheap enough to destroy
+2:45 Brands to buy and avoid
+3:53 Specs that actually matter
+5:05 Pricier options and Raspberry Pi
+6:09 USB 3 drives and ports
+6:58 Installing many distros next
+
+`#linux #laptop #beginners #buyinglaptop #linuxlaptop #budgettech #learnlinux #distros #livestream`
+
+## Category
+
+Education
 
 ## Transcription
 
