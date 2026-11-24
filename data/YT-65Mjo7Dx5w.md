@@ -1,8 +1,24 @@
 # 🚀 Install Windows Terminal on Windows 10
 
+Shows how to install the modern Windows Terminal app from the Microsoft Store on Windows 10, replacing the old command prompt. Demonstrates the setup inside a Proxmox virtual machine, explains why the legacy terminal is best avoided, and notes that Windows 11 already includes the new terminal. Ends with the default PowerShell prompt and a pointer to installing WSL2 in a separate video.
+
 If you still have Windows10 (and I know a lot of you do) you will need to install a decent (note the word "decent" not "best") on Windows to do anything actually interesting on your computer. Here's how to get Windows Terminal from the MS App store so you can do other things (until you learn now to get rid of Windows entirely by installing Linux or you get enough money to buy a Unix system aka Mac).
 
-`#windows10 #terminal #tips`
+Chapters:
+0:00 Running Windows 10 in a virtual machine
+0:56 Windows 11 already includes the terminal
+1:40 Why the old command prompt is bad
+3:25 Who this video is for
+4:05 Opening the Microsoft Store
+4:52 Choosing Windows Terminal, not Preview
+5:23 Other terminals and what people really use
+7:07 Opening the new terminal and PowerShell
+
+`#windowsterminal #windows10 #terminal #powershell #wsl2 #microsoftstore #proxmox #beginners #tips`
+
+## Category
+
+Education
 
 ## Transcription
 
