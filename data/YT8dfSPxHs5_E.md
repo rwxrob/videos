@@ -217,7 +217,7 @@ Education
 [00:14:31] we wrote.
 [00:14:32] A typical responsibility is to start looking like writing automation tools, building internet
 [00:14:36] CLIs, internal command line interfaces and APIs, again, this is, I wrote my own command
-[00:14:42] line interface like library, Bonsai, because of this.
+[00:14:42] line interface like library, Bonzai, because of this.
 [00:14:47] It means writing common functionality and putting it into modules that can be reused
 [00:14:50] and loaded into mostly Go or Bash.
 [00:14:56] That's why Bash falls on its face, by the way, as soon as it depends on some common
@@ -303,7 +303,7 @@ Education
 [00:21:08] is in Git, every configuration.
 [00:21:10] In fact, deploying configurations automatically through GitOps and through Git-A actions,
 [00:21:15] GitHub actions, those are all needed.
-[00:21:18] The kind of work you're going to do with bonsai command framework and automation is very close
+[00:21:18] The kind of work you're going to do with bonzai command framework and automation is very close
 [00:21:21] to SIST-E or Git.
 [00:21:23] Strengthening the programming side, the biggest difference rate is real software engineering
 [00:21:26] practice.

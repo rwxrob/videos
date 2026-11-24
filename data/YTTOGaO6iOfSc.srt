@@ -568,11 +568,11 @@
 
 143
 00:07:27,200 --> 00:07:29,040
- So you guys know I made Bonsai, right?
+ So you guys know I made Bonzai, right?
 
 144
 00:07:29,040 --> 00:07:30,040
- I made Bonsai.
+ I made Bonzai.
 
 145
 00:07:30,040 --> 00:07:31,320
@@ -600,11 +600,11 @@
 
 151
 00:07:43,600 --> 00:07:46,040
- And I wrote Bonsai specifically for one purpose.
+ And I wrote Bonzai specifically for one purpose.
 
 152
 00:07:46,040 --> 00:07:50,720
- The purpose for bonds initially that is usually purpose for bonsai wasn't to make multi call
+ The purpose for bonds initially that is usually purpose for bonzai wasn't to make multi call
 
 153
 00:07:50,720 --> 00:07:53,520
@@ -620,7 +620,7 @@
 
 156
 00:07:58,720 --> 00:08:01,440
- one monolith bonsai, uh, thing.
+ one monolith bonzai, uh, thing.
 
 157
 00:08:01,440 --> 00:08:03,520
@@ -684,11 +684,11 @@
 
 172
 00:08:36,000 --> 00:08:40,960
- And I, I'm still pro go, but, but the point with my, that I regret about bonsai is I made
+ And I, I'm still pro go, but, but the point with my, that I regret about bonzai is I made
 
 173
 00:08:40,960 --> 00:08:43,900
- bonsai because I didn't have Perl.
+ bonzai because I didn't have Perl.
 
 174
 00:08:43,900 --> 00:08:47,480
@@ -820,7 +820,7 @@
 
 206
 00:10:17,660 --> 00:10:22,000
- The reason I made bonsai is because I was not really, I made another video about my conversion
+ The reason I made bonzai is because I was not really, I made another video about my conversion
 
 207
 00:10:22,000 --> 00:10:26,560

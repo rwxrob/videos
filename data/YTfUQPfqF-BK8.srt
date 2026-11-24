@@ -8,7 +8,7 @@
 
 3
 00:00:08,200 --> 00:00:14,680
- Maybe I don't know, but I don't care because I found it and now my wonderful bonsai project
+ Maybe I don't know, but I don't care because I found it and now my wonderful bonzai project
 
 4
 00:00:14,680 --> 00:00:22,640
@@ -96,5 +96,5 @@
 
 25
 00:01:34,480 --> 00:01:40,720
- This means there's nothing about bonsai that can't be used by the two most biggest shells.
+ This means there's nothing about bonzai that can't be used by the two most biggest shells.
 

@@ -4712,15 +4712,15 @@
 
 1179
 01:46:14,740 --> 01:46:22,580
- nailed it. What's that? I just for fun. It's just narcissistic. What do you think about Bonsai
+ nailed it. What's that? I just for fun. It's just narcissistic. What do you think about Bonzai
 
 1180
 01:46:24,580 --> 01:46:37,700
- in the age of AI? This is just me. This is very narcissistic. I made Bonsai. So referring to
+ in the age of AI? This is just me. This is very narcissistic. I made Bonzai. So referring to
 
 1181
 01:46:37,700 --> 01:46:43,940
- Art of X's Bonsai project, which is a go-framer for building command line tools. So it goes and
+ Art of X's Bonzai project, which is a go-framer for building command line tools. So it goes and
 
 1182
 01:46:43,940 --> 01:46:51,300
@@ -4728,7 +4728,7 @@
 
 1183
 01:46:51,300 --> 01:46:54,900
- Bonsai is worth understanding. After you know, go well, it teaches good CLI design patterns. But
+ Bonzai is worth understanding. After you know, go well, it teaches good CLI design patterns. But
 
 1184
 01:46:54,900 --> 01:46:59,460

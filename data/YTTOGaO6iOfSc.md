@@ -8,7 +8,7 @@ Chapters:
 1:41 Bash's terrible regular expression handling
 4:15 Parameter expansion and text manipulation limits
 5:17 Bash versus Perl in a real script
-7:19 Regret over building Bonsai in Go
+7:19 Regret over building Bonzai in Go
 9:38 Dotfiles in git with POSIX and Perl
 11:08 Perl as a shell on steroids
 12:35 Why scripts should have no suffixes
@@ -165,20 +165,20 @@ Science & Technology
 [00:07:18] But here's the worst part.
 [00:07:19] And I almost don't want to admit this because because I, I'm actually really, really embarrassed
 [00:07:26] by this.
-[00:07:27] So you guys know I made Bonsai, right?
-[00:07:29] I made Bonsai.
+[00:07:27] So you guys know I made Bonzai, right?
+[00:07:29] I made Bonzai.
 [00:07:30] I wrote my own command line framework.
 [00:07:31] Why did I make it?
 [00:07:33] I made it because I wanted command line completion.
 [00:07:35] I wanted better documentation.
 [00:07:37] I want to command line completion and I want a full blown regular expression parsing and
 [00:07:40] all the other things, great things that come with go.
-[00:07:43] And I wrote Bonsai specifically for one purpose.
-[00:07:46] The purpose for bonds initially that is usually purpose for bonsai wasn't to make multi call
+[00:07:43] And I wrote Bonzai specifically for one purpose.
+[00:07:46] The purpose for bonds initially that is usually purpose for bonzai wasn't to make multi call
 [00:07:50] awesome, multi call binaries, you know, akin to busy box and alpine.
 [00:07:53] That wasn't the primary reason.
 [00:07:54] The primary reason was I wanted to get rid of my 360 shell scripts and put them all into
-[00:07:58] one monolith bonsai, uh, thing.
+[00:07:58] one monolith bonzai, uh, thing.
 [00:08:01] And that's why I made it.
 [00:08:03] Why?
 [00:08:04] Because I was using bash.
@@ -194,8 +194,8 @@ Science & Technology
 [00:08:30] This is in my blogging.
 [00:08:31] Go read it.
 [00:08:32] Uh, but this, this is really, this is really bliss right here.
-[00:08:36] And I, I'm still pro go, but, but the point with my, that I regret about bonsai is I made
-[00:08:40] bonsai because I didn't have Perl.
+[00:08:36] And I, I'm still pro go, but, but the point with my, that I regret about bonzai is I made
+[00:08:40] bonzai because I didn't have Perl.
 [00:08:43] And if, if I had had Perl to do all of the manipulation, everything, I'd be able to
 [00:08:47] write 10, 20 scripts a day, which is sometimes what I end up doing.
 [00:08:50] I could have, I could have busted those things out without a problem.
@@ -228,7 +228,7 @@ Science & Technology
 [00:10:11] and POSIX scripts.
 [00:10:13] I don't care because they're all going to come down instantaneously when I do a get
 [00:10:16] pull.
-[00:10:17] The reason I made bonsai is because I was not really, I made another video about my conversion
+[00:10:17] The reason I made bonzai is because I was not really, I made another video about my conversion
 [00:10:22] over this idea of having everything in a, in a repo as opposed to, oh, I've got two or
 [00:10:26] three files.
 [00:10:27] I got an SCP or FTP over.

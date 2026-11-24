@@ -286,7 +286,7 @@ Education
 [00:24:04] buy into this fine, you can wait for three years and be behind the rest of us.
 [00:24:10] The era of speaking into your AIs and your prompts is here. Conversational coding is here.
 [00:24:19] Prompt engineering, agent engineering, conversational interfaces are here. And I am so glad I made
-[00:24:26] Bonsai because already the AI community is latching on to my Bonsai framework because it was designed
+[00:24:26] Bonzai because already the AI community is latching on to my Bonzai framework because it was designed
 [00:24:32] from the ground up to make conversational command line interfaces period. No dashes, no nothing.
 [00:24:39] Because that is the new normal. And people who have made a living like typing really fast in like
 [00:24:48] seeing their auto completion pop up and like, oh, and all these crazy stupid shit that they

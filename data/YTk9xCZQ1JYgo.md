@@ -20,7 +20,7 @@ Education
 ## Transcription
 
 [00:00:00] Colors of juvenile colors of juvenile you do do do do do do do do do do do do do okay this is
-[00:00:07] sunrise by the way it's in my bonsai project you want to go find it bonsai b-o-n-z-a-i but
+[00:00:07] sunrise by the way it's in my bonzai project you want to go find it bonzai b-o-n-z-a-i but
 [00:00:12] let's talk a little bit let's put the fishies back and talk about colors in the terminals so
 [00:00:17] rob pike has been quoted as saying that color in the terminal I think is juvenile and you know I
 [00:00:27] love rob pike I mean he was a it was a big contributor was a little kid at bell labs with

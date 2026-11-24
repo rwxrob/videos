@@ -1210,11 +1210,11 @@ Education
 [01:45:49] I can't even deal. I can't even deal with how amazing that is. That just completely, I asked
 [01:46:00] a very generic question. So what does Rob say about Tmux? And it nailed it. And I am Rob. And
 [01:46:07] I'm telling you, it nailed it. It looked at my existence and looked at my Git repose and it totally
-[01:46:14] nailed it. What's that? I just for fun. It's just narcissistic. What do you think about Bonsai
-[01:46:24] in the age of AI? This is just me. This is very narcissistic. I made Bonsai. So referring to
-[01:46:37] Art of X's Bonsai project, which is a go-framer for building command line tools. So it goes and
+[01:46:14] nailed it. What's that? I just for fun. It's just narcissistic. What do you think about Bonzai
+[01:46:24] in the age of AI? This is just me. This is very narcissistic. I made Bonzai. So referring to
+[01:46:37] Art of X's Bonzai project, which is a go-framer for building command line tools. So it goes and
 [01:46:43] downloads the whole repo. The philosophy is solid, composable, single binary. Bottom line,
-[01:46:51] Bonsai is worth understanding. After you know, go well, it teaches good CLI design patterns. But
+[01:46:51] Bonzai is worth understanding. After you know, go well, it teaches good CLI design patterns. But
 [01:46:54] as a beginner, I focus on playing OS X. In fact, absolutely agree. Learn the language before the
 [01:46:59] framework is still a great example, but you can build once you go. What I'm trying to say is I
 [01:47:04] completely trust the Claude Opus 4.6 model on co-pilot to be my surrogate mentor while I'm not

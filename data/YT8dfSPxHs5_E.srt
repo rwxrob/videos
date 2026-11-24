@@ -704,7 +704,7 @@
 
 177
 00:14:42,900 --> 00:14:47,280
- line interface like library, Bonsai, because of this.
+ line interface like library, Bonzai, because of this.
 
 178
 00:14:47,280 --> 00:14:50,960
@@ -1048,7 +1048,7 @@
 
 263
 00:21:18,360 --> 00:21:21,260
- The kind of work you're going to do with bonsai command framework and automation is very close
+ The kind of work you're going to do with bonzai command framework and automation is very close
 
 264
 00:21:21,260 --> 00:21:23,840

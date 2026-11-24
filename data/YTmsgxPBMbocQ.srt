@@ -876,7 +876,7 @@
 
 220
 00:29:18,520 --> 00:29:30,520
- I think I think the clips tool already got rewritten in bonsai but I don't know so that's something we're going to need to look at
+ I think I think the clips tool already got rewritten in bonzai but I don't know so that's something we're going to need to look at
 
 221
 00:29:30,520 --> 00:29:34,520
@@ -4692,7 +4692,7 @@
 
 1174
 01:19:17,720 --> 01:19:19,720
- you want to make a Bonsai sub-command
+ you want to make a Bonzai sub-command
 
 1175
 01:19:19,720 --> 01:19:21,720
@@ -8164,7 +8164,7 @@
 
 2042
 02:28:00,660 --> 02:28:05,140
- It's what I built, hard coded into bonsai.
+ It's what I built, hard coded into bonzai.
 
 2043
 02:28:05,140 --> 02:28:11,440
@@ -8776,7 +8776,7 @@
 
 2195
 02:45:21,920 --> 02:45:27,640
- didn't learn about this from my bonsai, because bonsai made a really big deal about applications
+ didn't learn about this from my bonzai, because bonzai made a really big deal about applications
 
 2196
 02:45:27,640 --> 02:45:34,200

@@ -260,7 +260,7 @@ Science & Technology
 [00:28:59] environment variables for that purpose for that reason
 [00:29:03] virtual machines the clips directory okay so the clip data directory stuff that stuff is all super important
 [00:29:10] that does get used a lot I'm pretty sure although that we might have to set up the clips application before we do that
-[00:29:18] I think I think the clips tool already got rewritten in bonsai but I don't know so that's something we're going to need to look at
+[00:29:18] I think I think the clips tool already got rewritten in bonzai but I don't know so that's something we're going to need to look at
 [00:29:30] actual width that's a VIMP thing
 [00:29:34] um the go bin the case the go stuff has to definitely stay uh go proxy CEO and why is I'm shrinking down here that's like really weird
 [00:29:51] um that's just a default for screen key that's the thing you see at the top of the screen there
@@ -1214,7 +1214,7 @@ Science & Technology
 [01:19:11] or you're gonna try to call
 [01:19:13] this program from another program
 [01:19:15] so let's say
-[01:19:17] you want to make a Bonsai sub-command
+[01:19:17] you want to make a Bonzai sub-command
 [01:19:19] that's compiled
 [01:19:21] it can't see the aliases
 [01:19:23] and a lot of people
@@ -2082,7 +2082,7 @@ Science & Technology
 [02:27:44] This is just to set up my bash completion properly.
 [02:27:51] All these programs have their own completion, which means they can do complete dash C, which
 [02:27:57] is something very few programs know how to do.
-[02:28:00] It's what I built, hard coded into bonsai.
+[02:28:00] It's what I built, hard coded into bonzai.
 [02:28:05] So yeah, any of these programs will automatically get a complete dash C if they exist.
 [02:28:11] And then down here we have the have completion stuff.
 [02:28:15] The better way to do completion is to actually have these completion files in a directory
@@ -2235,7 +2235,7 @@ Science & Technology
 [02:44:55] section just got removed. How cool is that? Um, that is just so awesome. Uh, yeah, so
 [02:45:11] Terraform is interesting that Terraform is the only application in the wilds that I've
 [02:45:16] run into that actually knows about complete dash C. And I will not convince that they
-[02:45:21] didn't learn about this from my bonsai, because bonsai made a really big deal about applications
+[02:45:21] didn't learn about this from my bonzai, because bonzai made a really big deal about applications
 [02:45:27] that using complete dash capital C for their own completion. And, um, you can use that
 [02:45:34] was issue as well. Okay, I have SSH agents, uh, and just the agent. Wait, what? This is
 [02:45:47] a agent. No, we're not, we're not doing a situation anymore. No personal configs. So

@@ -521,7 +521,7 @@ Education
 [00:35:48] because you can create a sim link backwards my entire career yeah i do too
 [00:35:51] we haven't we haven't talked about um actually adding links
 [00:35:56] to something else um but um you know these are all the same thing
-[00:36:01] um as a kind of a side note uh if you want it i created the bonsai
+[00:36:01] um as a kind of a side note uh if you want it i created the bonzai
 [00:36:06] project for making commands and one of the primary things i did there
 [00:36:11] was to be able to make a single monolith multicolp binary
 [00:36:15] that then you could put all of your favorite commands in
@@ -532,7 +532,7 @@ Education
 [00:36:35] everything into a single binary and put that binary into a container and they
 [00:36:39] can run that container anywhere with all of their favorite tools in it
 [00:36:43] so if you want to get into making your own multicolp binaries this is extremely
-[00:36:48] advanced stuff but you know keep bonsai in mind and uh bonsai b-o-n-z-a-i
+[00:36:48] advanced stuff but you know keep bonzai in mind and uh bonzai b-o-n-z-a-i
 [00:36:54] and uh go have a look but we were talking about prompting
 [00:36:58] uh so that's all it really is yeah that's really all it is
 [00:37:04] absolutely election year yep and uh and so then we have uh the hashtag

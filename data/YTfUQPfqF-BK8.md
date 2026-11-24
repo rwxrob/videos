@@ -1,8 +1,8 @@
 # 😎 bash self-completion in zsh!
 
-Covers the discovery that the official Zsh project ships a bash completion compatibility script (bashcompinit) in its completion directory. This lets bash-style completion, including programs that provide their own completion such as Cobra-based tools, work fully in zsh, so the bonsai project supports both zsh and bash users.
+Covers the discovery that the official Zsh project ships a bash completion compatibility script (bashcompinit) in its completion directory. This lets bash-style completion, including programs that provide their own completion such as Cobra-based tools, work fully in zsh, so the bonzai project supports both zsh and bash users.
 
-`#zsh #bash #shell #completion #bonsai #linux #terminal #cli #protips`
+`#zsh #bash #shell #completion #bonzai #linux #terminal #cli #protips`
 
 ## Category
 
@@ -12,7 +12,7 @@ Science & Technology
 
 [00:00:00] Oh my gosh, I was so wrong.
 [00:00:03] Is this one of those things I could have just looked up?
-[00:00:08] Maybe I don't know, but I don't care because I found it and now my wonderful bonsai project
+[00:00:08] Maybe I don't know, but I don't care because I found it and now my wonderful bonzai project
 [00:00:14] can be used by everyone, Z shell, and bash users alike.
 [00:00:22] I'm sorry fish and power shell, we haven't got you yet, we'll get you.
 [00:00:26] Check this out, check this out my friends.
@@ -34,4 +34,4 @@ Science & Technology
 [00:01:28] Well don't say dummy, but you know, but if you don't know about this, go use this right
 [00:01:32] now.
 [00:01:33] This makes me very happy.
-[00:01:34] This means there's nothing about bonsai that can't be used by the two most biggest shells.
+[00:01:34] This means there's nothing about bonzai that can't be used by the two most biggest shells.

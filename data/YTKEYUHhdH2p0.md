@@ -118,7 +118,7 @@ Education
 [00:05:13] So it's going to, you know, I produce a lot of content now that I've got everything kind
 [00:05:18] of dialed in.
 [00:05:19] And if you want to see all of them, that's the place to go.
-[00:05:22] But if you just care about the beginner boost or bonsai or something, you know, just subscribe
+[00:05:22] But if you just care about the beginner boost or bonzai or something, you know, just subscribe
 [00:05:26] to the playlist.
 [00:05:27] And I will promise you this, I will put everything here on the playlist.
 [00:05:31] Another thing I want to strongly, strongly invite you to do, make as many comments, positive
@@ -723,7 +723,7 @@ Education
 [00:41:59] You invented microservices, your Visos, if you give them credit.
 [00:42:06] You didn't say that you were a 10 on all these other things, oh, I'm a 10 on that, I'm a 10.
 [00:42:11] And then nine was, so 10 is I made it, I invented it.
-[00:42:17] So I have a 10 on Bonsai, even though I've forgotten so much that Shite's probably more
+[00:42:17] So I have a 10 on Bonzai, even though I've forgotten so much that Shite's probably more
 [00:42:21] of a 10 than me, because I don't remember it, even though I made it.
 [00:42:27] So nine is I am a world authority on it.
 [00:42:34] So that means you're the one that they call to give presentations on it.
