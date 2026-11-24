@@ -1,6 +1,20 @@
 # 🤦‍♀️45 people completed FreeCodeCamp Certificate. None could make a web page when tested.
 
-`#webdev #learning #education`
+Recounts an experience sending about 45 mentored students through FreeCodeCamp's web development certificate, after which only two could build a basic web page unaided. Argues that gamified and online learning platforms such as FreeCodeCamp, Codecademy and Vim Adventures fail to reinforce earlier material or build skills with real tools. Recommends repeated, from-scratch projects in professional tools like VS Code and a real terminal.
+
+Chapters:
+0:00 Intro and the from-scratch web page challenge
+2:30 45 students and the FreeCodeCamp certificate
+5:00 Only two could build a web page
+7:40 Why online learning platforms fail to teach
+9:30 Vim Adventures and how the brain learns
+11:40 Code Combat and learning with real projects
+
+`#freecodecamp #webdevelopment #learntocode #html #programming #education #beginners #vim #webdev #learning`
+
+## Category
+
+Education
 
 ## Transcription
 
