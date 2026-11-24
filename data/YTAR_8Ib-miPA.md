@@ -1,4 +1,4 @@
-# Use Default Env Vars Instead of Arguments in Bash
+# default env vars instead of arguments #bash #shell #coding
 
 Introduces using default environment variables in shell scripts as an alternative to passing and parsing command-line arguments. Expresses frustration with argument handling in bash scripts.
 
