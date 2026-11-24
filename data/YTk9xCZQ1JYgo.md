@@ -1,18 +1,17 @@
 # 🤪 "Color Terminals are Juvenile"
 
-Rob responds to Rob Pike's view that color in the terminal is juvenile, arguing the idea is outdated. He tells a story of spotting a server-side setting mistakenly added to an SSH client config on a production jump host because it showed up in red in his terminal, which let him fix it before the SSH service was restarted.
+Discusses Rob Pike's view that color in the terminal is juvenile and argues the opposite. Tells a story of spotting a misplaced client option in an SSH server configuration on a production jump host because it was highlighted in red, preventing a broken restart.
 
 Terminal color could save your life. 🤪 I have a story about that.
 
 Chapters:
-0:00 Intro and the Bonsai sunrise
-0:12 Rob Pike on color in terminals
-0:55 Retro amber terminals and old ideas
-1:38 Setting up the SSH config story
-2:43 How color exposed the misconfiguration
-3:06 Jump host risk and the fix
+0:00 Intro and Rob Pike's view on color
+1:22 Retro terminals and why the idea is outdated
+1:43 Setting up the SSH config story
+2:26 Red text reveals the wrong config
+2:55 Why color saved the jump host
 
-`#terminal #ssh #linux #robpike #sysadmin #devops #bash #unix #commandline #colors #stories`
+`#terminal #linux #ssh #unix #devops #sysadmin #commandline #robpike #colors #stories`
 
 ## Category
 
