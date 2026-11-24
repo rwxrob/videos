@@ -1,4 +1,4 @@
-# 🎄🐹 Coding from the Get Go - #3
+# 🎄🐹 Coding from the Get Go - #3: Organizing Your Go Repo
 
 Explains how to organize a Go repository, including packages, modules, the cmd and pkg directory conventions, go.mod and go.sum, and building and installing commands. Also covers using type instead of which to troubleshoot shell command hashing, writing example-based tests that double as documentation, and reasons for choosing AsciiDoc over Markdown for notes and books.
 
