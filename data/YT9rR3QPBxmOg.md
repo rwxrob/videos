@@ -1,4 +1,4 @@
-# 🌳 Go Bonzai CLI framework 📺
+# 🌳 Zettelkasten Is Dead: A Personal AI That Remembers Is the New Second Brain
 
 Argues that the Zettelkasten method of knowledge management is outdated now that personal AI assistants can remember context and recall it in conversation, using a live voice chat with ChatGPT that includes recalling details of a bike trip planned months earlier. Also covers privacy and backup concerns, AI-assisted writing and learning, AI intimacy, specialized GPTs, and changes to future streaming and work on the Bonsai Go project.
 
