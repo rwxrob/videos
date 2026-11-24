@@ -1,8 +1,34 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 2
 
+Covers managing a personal skill stack by listing skills and scoring them for proficiency and relevance, and how just-in-time learning with AI changes keeping up with technology. Walks through building a Markdown knowledge base on GitHub, including committing, the web editor, and previewing Markdown. Sets up the Beginner Boost container with Podman and the default Mac terminal.
+
 Managing your "skilstak" to know what to learn and where you are, then keep your knowledge organized in a GitHub Flavored Markdown (GFM) knowledge base on GitHub.
 
-`#techjobs #mentoring #tips`
+Chapters:
+0:00 Intro and Beginner Boost updates
+9:00 Mentoring and Know Thyself recap
+15:00 Why manage your skill stack
+18:00 Career story and staying current
+27:00 Building the skill list and columns
+36:00 Proficiency scale from zero to ten
+48:00 Relevance scores and tech bets
+59:00 Just-in-time learning with AI
+1:18:00 Acquiring and capturing knowledge
+1:30:00 GitHub repo and committing changes
+1:43:00 Editing in the browser with VS Code
+1:54:00 Markdown tables, previews, and history
+2:06:00 Organizing notes and file naming
+2:18:00 Skill stack notes and blogging platforms
+2:31:00 Finding the Mac home directory
+2:43:00 Default Mac terminal versus custom setup
+2:58:00 Podman container setup and commands
+3:05:00 Terminal defaults and wrap-up
+
+`#careeradvice #markdown #github #beginners #skillstack #podman #learntocode #terminal #techjobs #mentoring #tips`
+
+## Category
+
+Education
 
 ## Transcription
 
