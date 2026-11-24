@@ -1,8 +1,25 @@
 # 💢 SysDE Team Dynamics and Challenges
 
+Describes the challenges of working as a systems development engineer between operations and software development teams, including legacy Perl code, resistance to Git and testing, and untestable modules. Covers strategies such as making breakage visible, building trust, and balancing minimal ops hacks against over-engineered software designs.
+
 Systems Development Engineers (SysDEs) face unique challenges facing both the software development world (apps) and the purely operations world (ops). Learning how to navigate the team dynamics, expectations, and misunderstandings and mismatched priorities is essential.
 
-`#techlife #rants #sysde`
+Chapters:
+0:00 Intro: SysDE, DevOps, and platform roles
+1:03 Legacy ops code and no version control
+3:30 Pushback against Git and PR process
+5:23 Making breakage visible to drive change
+7:29 Untestable code and global database connections
+9:35 Being the person who complains
+10:35 Replacing legacy code with Go APIs
+12:39 Bridging ops minimalism and software overengineering
+13:38 Wrap-up and the value of a good manager
+
+`#sysde #devops #platformengineering #git #testing #legacycode #operations #softwareengineering #teamdynamics #career #techlife #rants`
+
+## Category
+
+Education
 
 ## Transcription
 
