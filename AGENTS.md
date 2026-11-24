@@ -1,5 +1,9 @@
 # AGENTS.md
 
+## Goal
+
+For every video on YouTube: review it for selection, approve, transcribe, update title, description, tags and chapters, publish the video, and keep all of that in sync with this repo.
+
 ## Adding a video
 
 - Create `data/<UID>.md`, where `<UID>` is the YouTube video ID.

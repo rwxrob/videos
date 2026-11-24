@@ -142,7 +142,7 @@ bin/yt-enrich status      # counts
 bin/yt-enrich launchd     # print a macOS launchd plist that runs `run` hourly
 ```
 
-Videos listed in `disclaimers.txt` (opinion or status videos from the past) get "From {YYYY}. I may have changed my mind on some of this." as the first line of the description. Results are committed, one commit per video, on the `enrich` branch in a separate worktree (`~/.cache/videos/enrich-worktree`), so your working checkout and the transcription job are never touched. Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log enrich`, merge when happy, then publish a video with `bin/yt-update <UID>`.
+Videos listed in `disclaimers.txt` (opinion or status videos from the past) get "From {YYYY}. I may have changed my mind on some of this." as the first line of the description. Results are written to `data/<UID>.md` and committed, one commit per video, on the current branch (only that file is committed). Output is validated (chapters start at 0:00, at least 3, at least 10 seconds apart, within the 5,000-byte limit, category from YouTube's list) and retried once. Review with `git log`, then publish a video with `bin/yt-update <UID>`.
 
 ### Dependencies
 

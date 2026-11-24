@@ -78,6 +78,7 @@ ensure_access() {
 # Only public videos by default (YT_PRIVACY="public,unlisted" to widen; private
 # is never processed); YT_MAX_MINUTES skips longer videos.
 selected_ids() {
+  if [[ -n ${YT_ONLY_INCLUDE:-} ]]; then include_ids; return; fi
   jq -r --arg p "${YT_PRIVACY:-public}" --argjson max "${YT_MAX_MINUTES:-0}" '
     def secs: capture("PT(?:(?<h>[0-9]+)H)?(?:(?<m>[0-9]+)M)?(?:(?<s>[0-9]+)S)?")
       | ((.h // "0" | tonumber) * 3600 + (.m // "0" | tonumber) * 60 + (.s // "0" | tonumber));
@@ -88,13 +89,14 @@ selected_ids() {
     | awk '!seen[$0]++'
 }
 
+_yt_lib_dir=$(dirname "${BASH_SOURCE[0]}")
+
 # include_ids: IDs from include.txt (YT_INCLUDE_FILE overrides) that are in the
-# manifest, not live and not private, even if they are not public.
+# manifest, not live and not private, even if they are not public. The order of
+# the file is kept, so you can rank the videos you want processed first.
 include_ids() {
   local f=${YT_INCLUDE_FILE:-$_yt_lib_dir/../include.txt}
   [[ -f $f ]] || return 0
-  jq -r --rawfile ids <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | awk 'NF') '
-    ($ids | split("\n") | map(select(. != ""))) as $want
-    | .[] | select(.live == "none" and .privacy != "private" and (.id as $i | $want | index($i))) | .id' "$manifest"
+  grep -Fxf <(jq -r '.[] | select(.live == "none" and .privacy != "private") | .id' "$manifest") \
+    <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | awk 'NF') || true
 }
-

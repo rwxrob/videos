@@ -28,6 +28,8 @@
 #   YT_CACHE_DIR    manifest, failures, lock, logs (default ~/.cache/videos)
 #   YT_DATA_DIR     where the .md/.srt files go (default <repo>/data)
 #   YT_WHISPER_MODEL
+#   YT_WHISPER_ARGS extra whisper-cli flags (for example -ng to stay off the GPU)
+#   YT_INCLUDE_FILE / YT_ONLY_INCLUDE=1  process only the IDs in that file, in order
 #   YT_COOKIES      optional yt-dlp cookies file (default ~/.config/videos/cookies.txt);
 #                   used when YouTube answers "confirm you're not a bot"
 #   YT_PRIVACY      comma list of privacy states to process (default "public").
@@ -159,7 +161,7 @@ transcribe_one() { # id
     return 1
   fi
   ffmpeg -loglevel error -y -i "$work"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$work/audio.wav" </dev/null || return 1
-  whisper-cli -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
+  whisper-cli ${YT_WHISPER_ARGS:-} -m "$model" -f "$work/audio.wav" -osrt -of "$work/t" </dev/null >/dev/null 2>&1 || return 1
   [[ -e $work/t.srt ]] || return 1   # an empty SRT just means no speech was recognized
   # Keep everything through the "## Transcription" heading, replace the rest.
   head=$(awk '{print} /^## Transcription/{exit}' "$data/$id.md")

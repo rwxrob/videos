@@ -10,19 +10,18 @@
 #   launchd      print a macOS launchd plist that runs `run` hourly
 #   -l N         max videos this run (YT_ENRICH_MAX, default 10)
 #
-# Never touches YouTube. Results are committed, one commit per video, on the
-# `enrich` branch in a separate git worktree, so the checkout you and yt-sync
-# are working in is never modified. Review with `git log enrich`, merge when
-# happy, then publish with `yt-update <UID>` (which confirms each one).
+# Never touches YouTube. Results are written to data/<UID>.md and committed,
+# one commit per video, on the current branch (only that file is committed).
+# Review with `git log`, then publish with `yt-update <UID>` (which confirms
+# each one).
 #
 # Needs: bash, jq, git, and the `claude` CLI (Claude Code, logged in). Runs
 # `claude -p` with no tools and no saved session.
 #
 # Environment overrides:
 #   YT_DATA_DIR        where the transcripts are (default <repo>/data)
-#   YT_CACHE_DIR       manifest, markers, lock, worktree (default ~/.cache/videos)
+#   YT_CACHE_DIR       manifest, markers, lock (default ~/.cache/videos)
 #   YT_ENRICH_MODEL    model alias or ID passed to claude (default sonnet)
-#   YT_ENRICH_BRANCH   default enrich;   YT_MAIN_BRANCH  default main
 #   YT_ENRICH_MAX      default max videos per run
 #   YT_PRIVACY, YT_MAX_MINUTES   same meaning as in yt-sync
 
@@ -46,9 +45,6 @@ data=${YT_DATA_DIR:-$root/data}
 cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
 manifest=$cache/manifest.json
 model=${YT_ENRICH_MODEL:-sonnet}
-branch=${YT_ENRICH_BRANCH:-enrich}
-mainbranch=${YT_MAIN_BRANCH:-main}
-wt=$cache/enrich-worktree
 marks=$cache/enriched
 orig=$cache/enrich-orig
 failed=$cache/enrich-failed
@@ -219,29 +215,13 @@ enrich_one() { # id
   local bytes; bytes=$(awk '/^## /{exit} NR>2' "$work/new.md" | wc -c | tr -d ' ')
   (( bytes <= 4950 )) || { log "description too long ($bytes bytes) for $id"; return 1; }
 
-  # Write into the enrich worktree: new header + the transcript as it is in main.
-  mkdir -p "$wt/data"
-  { cat "$work/new.md"; awk '/^## Transcription/{f=1; next} f && NF' "$src"; } > "$wt/data/$id.md"
-  git -C "$wt" add "data/$id.md"
-  git -C "$wt" commit -q -m "enrich $id: $title" -- "data/$id.md"
+  # Write new header + the transcript as it is now, then commit just this file
+  # on the current branch (other staged or unstaged changes are left alone).
+  { cat "$work/new.md"; awk '/^## Transcription/{f=1; next} f && NF' "$src"; } > "$work/out.md"
+  cat "$work/out.md" > "$src"
+  git -C "$root" add -- "data/$id.md"
+  git -C "$root" commit -q -m "enrich $id: $title" -- "data/$id.md"
   echo "$PROMPT_VERSION" > "$marks/$id"
-}
-
-# ------------------------------------------------------------ worktree
-setup_worktree() {
-  if [[ ! -d $wt ]]; then
-    if git -C "$root" show-ref -q "refs/heads/$branch"; then
-      git -C "$root" worktree add -q "$wt" "$branch"
-    else
-      git -C "$root" worktree add -q -b "$branch" "$wt" "$mainbranch"
-    fi
-  fi
-  # Pick up whatever has been committed on main (new transcripts, fixes).
-  if ! git -C "$wt" merge -q --no-edit "$mainbranch" >/dev/null 2>&1; then
-    git -C "$wt" merge --abort 2>/dev/null || true
-    log "could not merge $mainbranch into $branch (conflict); resolve in $wt"
-    exit 1
-  fi
 }
 
 # ------------------------------------------------------------ commands
@@ -255,7 +235,6 @@ cmd_run() {
   fi
   echo $$ > "$lock/pid"
   trap "rm -rf '$lock'" EXIT
-  setup_worktree
   local n=0 id
   while IFS= read -r id; do
     (( limit == 0 || n < limit )) || break
@@ -273,8 +252,7 @@ cmd_one() {
   local id=${1:?usage: yt-enrich one <UID>}
   [[ -f $data/$id.md ]] && has_transcript "$id" || { echo "no transcript for $id in $data" >&2; exit 1; }
   command -v claude >/dev/null || { echo "claude is required" >&2; exit 1; }
-  setup_worktree
-  enrich_one "$id" </dev/null && log "done $id; see: git -C $wt show HEAD"
+  enrich_one "$id" </dev/null && log "done $id; see: git show HEAD"
 }
 
 cmd_status() {
