@@ -1,6 +1,21 @@
 # 🛒 Get a USB 3.0 Hub with SD Card Support
 
+Recommends a powered USB 3.0 hub with built-in SD card slots and a USB-C connector as a better alternative to a roughly $20 single-purpose adapter. Covers uses such as imaging cheap USB drives with Linux, connecting many streaming gadgets to a USB-C-only MacBook Pro, and quickly transferring video from cameras, drones and action cams via SD card.
+
 Instead of a USB converter consider just getting a powered USB 3.0 HUB that can handle SD cards as well. It will just make tech life that much easier.
+
+Chapters:
+0:00 Shopping list and affiliate links
+0:37 Why a powered hub beats an adapter
+1:54 Connecting streaming gear to one laptop
+2:29 Built-in SD card reader for video
+3:30 Home lab use and final thoughts
+
+`#usbhub #homelab #livestreaming #macbookpro #sdcard #linux #streamsetup #techgear`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
