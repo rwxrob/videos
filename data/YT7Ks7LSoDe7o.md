@@ -1,8 +1,23 @@
 # 🎤 What do you think of PARA note-taking method?
 
+Argues against using the PARA method (projects, areas, resources, archive) for note-taking in favor of plain tags. Shows an Obsidian-based Git repo knowledge base with auto-updating links, and explains why folder hierarchies break when items belong in multiple categories.
+
 Just use tags, skip PARA or anything else that attempts to categorize data and knowledge. Any such system is immediately broken by things that fit into both categories.
 
-`#knowledgemanagement #advice #notes`
+Chapters:
+0:00 Introduction and the PARA question
+0:15 Obsidian setup and naming conventions
+1:01 Link updating and standard markdown links
+1:32 Knowledge base as Git repo and website
+2:19 What PARA is and why just tag
+3:20 Example of PARA breaking: projects vs areas
+4:20 Hierarchies always break, tags fix it
+
+`#notetaking #para #obsidian #tags #markdown #git #knowledgemanagement #pkm #advice #notes`
+
+## Category
+
+Education
 
 ## Transcription
 
