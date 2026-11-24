@@ -1,6 +1,28 @@
 # How to Learn Vim Quickly and Correctly [20210422163108]
 
+From 2021. I may have changed my mind on some of this.
+
+Shows how to practice Vim safely using a throwaway Debian Docker container, installing Vim and running vimtutor, and detaching and reattaching to the container. Covers the minimal vi survival essentials, blocking arrow keys, and why vi should be learned before Vim by using BusyBox and nvi containers, with a caution against starting with NeoVim.
+
 Learn Vi and Vim like you would create a container, in overlays. First learn just plain vi. Then layer Vim on top of that. Then add NeoVim (if you so desire, I do not. I hate NeoVim because it is useless and brain dead at its core). Using a Docker container to do vimtutor is one easy way to get started. And do not forget https://rwx.gg/visurvive for the essentials.
+
+Chapters:
+0:00 Intro: learning Vim the right way
+0:35 Setting up a Debian Docker container
+2:45 Installing Vim and running vimtutor
+4:25 Detaching and reattaching to containers
+5:35 vi survival guide for beginners
+7:20 Blocking arrow keys in vimrc
+9:20 Vimisms that do not work in vi
+11:00 Jumping to end of line with A
+12:15 Pure vi with BusyBox and nvi
+15:05 Why learn vi first, then Vim
+
+`#vim #vi #docker #linux #vimtutor #terminal #beginners #debian`
+
+## Category
+
+Education
 
 ## Transcription
 

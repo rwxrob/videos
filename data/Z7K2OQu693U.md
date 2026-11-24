@@ -1,5 +1,7 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 7
 
+Walks through using GitHub Copilot's free models and the GitHub web interface to build a personal learning plan for a remote tech career, including creating an issue, assigning it to an agent, and reviewing the generated research on distributed companies. Covers choosing models and billing, voice-driven prompting, and using an AI harness to explain Git commands, commits, branches, and POSIX shell concepts. Ends with committing notes to a repo, opening pull requests, labeling issues, and the case for using GitHub to save and share work.
+
 Want a high-paying, location-independent tech career? Day 7 of the Beginner Boost shows concrete steps and tools to get there. Watch to learn:
 - Why the Agentic AI Foundation (AAIF) matters: Linux Foundation stewardship, open standards for agentic systems, and how conference presence (AGNTCon, MCPCon) signals modern dev/ops readiness.
 - Voice-first coding: add Superwhisper for live transcription to speed up agentic sessions and pair-program by voice.
@@ -10,7 +12,33 @@ Want a high-paying, location-independent tech career? Day 7 of the Beginner Boos
 Repo & resources: https://github.com/rwxrob/boost
 Issue / learning plan: https://github.com/rwxrob/boost/issues/83
 
-`#BeginnerBoost #DigitalNomad #TechCareer #AAIF #Superwhisper #Copilot #Git #CI #VoiceCoding #LearningPlan`
+Chapters:
+0:00 Welcome and Day 7 Kickoff
+3:09 Using AI to Build Real Projects
+9:03 Answering the Vibe Coding Skeptics
+15:00 Learning Agentic Tools and Harnesses
+21:05 Copilot Billing and Model Choices
+24:01 Creating a Learning Plan Issue
+30:02 Skills: Thinking and Voice Input
+33:04 Choosing Models and Assigning to Copilot
+39:03 Notes Repo and Dotfiles Preview
+45:05 Remote Tech Career Research Results
+1:02:05 Reviewing Fully Distributed Companies
+1:03:01 Using the Harness for Planning
+1:09:01 Learning Shell and Free Models
+1:12:05 Asking AI to Explain Git Commands
+1:23:00 Committing and Pushing Notes Safely
+1:27:02 POSIX Explained and Daily Summary
+1:33:02 Agent Instructions Misbehaving
+1:36:02 Opening Issues and Pull Requests
+1:45:00 Labeling Issues and Searching the Repo
+1:51:00 Why to Get Good with GitHub
+
+`#github #githubcopilot #agenticai #git #beginners #techcareer #linux #remotework #ai #beginnerboost #digitalnomad #aaif #superwhisper #copilot #ci`
+
+## Category
+
+Education
 
 ## Transcription
 

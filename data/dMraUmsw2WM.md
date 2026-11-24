@@ -1,5 +1,7 @@
 # 🚀 Tech Career Beginner Boost - Get Ready
 
+Lays out the prerequisites for starting the Beginner Boost: a computer that can install software, a GitHub account with a Copilot subscription, and at least an hour a day of AI-assisted learning. Recommends an inexpensive Windows 11 laptop or a Mac over installing Linux, and sets expectations that an entry-level tech job will take at least a year of daily effort.
+
 Before you spend a single minute on Beginner Boost, you need a computer on which you can install software ($250), a GitHub account with Copilot subscription ($10/month), and an hour per day to dedicate to AI-assisted learning. No one can help you until you are at least willing and able to prepare yourself.
 
 What kind of computer?
@@ -13,6 +15,19 @@ Maybe. But the Boost (and most tech jobs) are focused on Copilot with the claude
 How long will it take to get a tech job?
 
 At least a year even if you dedicate an hour per day learning. Most people won't land a good tech job until they have invested at least 3000 hours of their time. If that frustrates you, find something else.
+
+Chapters:
+0:00 Why this prerequisites video comes first
+0:29 Computer, GitHub, and Copilot requirements
+1:51 Committing an hour a day
+2:56 What computer to buy
+3:57 Figuring out setup on your own
+
+`#techcareer #beginnerboost #githubcopilot #learntocode #ai #careeradvice #windows11 #mac`
+
+## Category
+
+Education
 
 ## Transcription
 

@@ -1,5 +1,7 @@
 # 🤖 You are now a startup
 
+Argues that anyone working in tech now needs to operate like a startup founder, managing AI agents as a team and focusing on solving real problems. Covers building a personal SaaS app over a weekend for about $30 in tokens, using AI to both do and teach the work, and why founder skills like creativity and domain knowledge matter most. Warns that punch-clock tech jobs are disappearing.
+
 In 2026, you are not just a job seeker. You are a startup.
 
 AI has changed what one person can build, ship, and maintain on their own. The cost of going from idea to working product has never been lower. That means the old excuse — "I need a team, a budget, a job offer first" — no longer holds. You have everything you need to start right now.
@@ -12,7 +14,19 @@ Build in public. Document what you learned. Show the numbers. Keep shipping.
 
 You are not waiting for a chance to start. You already started.
 
-`#tech #career #startup #AI #buildinpublic #coding #softwaredevelopment #jobs #techjobs #intrapreneurship`
+Chapters:
+0:00 You are now a startup
+0:37 Agents as your team
+2:05 Building a SaaS app for $30
+2:52 Using AI to do and learn
+3:53 Founder skills every technologist needs
+4:44 Who gets let go and who stays
+
+`#ai #startup #aiagents #softwaredevelopment #techcareers #saas #buildinpublic #programming #tech #career #coding #jobs #techjobs #intrapreneurship`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

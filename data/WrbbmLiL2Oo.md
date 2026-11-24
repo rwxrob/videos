@@ -1,6 +1,12 @@
 # ⚙️ OBS Record Fragmented MP4
 
-`#livestreaming #tips #obs`
+Explains how to enable fragmented MP4 recording in OBS under Settings, Output, Recording, noting its resilience compared to older formats. Reminds viewers to set a separate video encoder for recording than for streaming so that pausing the recording works.
+
+`#obs #fragmentedmp4 #streaming #videorecording #youtube #obsstudio #livestreaming #tips`
+
+## Category
+
+Howto & Style
 
 ## Transcription
 

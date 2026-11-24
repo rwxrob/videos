@@ -1,8 +1,16 @@
 # Why nomadirl is so amazing. I made something I want to use. | #rwxrob on #Twitch
 
+Describes a custom-built IRL streaming app made after years of mobile live streaming, and demonstrates a swipe-left gesture that clips the previous 30 seconds. Presents the app as tailored to features the creator wanted for their own streams.
+
 #shorts
 
 https://www.twitch.tv/rwxrob
+
+`#irlstreaming #twitch #nomadirl #streaming #shorts #appdevelopment`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

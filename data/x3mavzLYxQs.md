@@ -1,6 +1,24 @@
 # 🤷🏻‍♂️ "How are BSD UNIX and Linux different?"
 
-`#techjobs #unix #linux #bsd #education #learning`
+Compares BSD and Linux as separate Unix-like operating systems that evolved independently, covering where BSD is used, its resistance to change, and its role as the basis of macOS Darwin. Highlights Linux containers (LXC) as the major practical difference, and advises beginners that learning Linux and POSIX commands transfers to BSD and other Unixes.
+
+Chapters:
+0:00 BSD and Linux are not the same
+1:58 Where BSD is used and its culture
+3:30 BSD as the basis of macOS Darwin
+6:25 Independent origins of BSD and Linux
+9:05 LXC, Docker and containers on Linux
+10:40 BSD jails and the micro VM shift
+11:40 Where each system is used today
+12:45 Should beginners learn BSD?
+13:35 Other Unixes and the vi surprise
+15:25 Learning Unix and Linux transfers
+
+`#bsd #linux #unix #freebsd #containers #lxc #macos #posix #beginners #techjobs #education #learning`
+
+## Category
+
+Education
 
 ## Transcription
 

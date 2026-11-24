@@ -1,6 +1,24 @@
 # Honestly, I Used VSCode for Two Full Years, Then Ran Back to Vim
 
+From 2020. I may have changed my mind on some of this.
+
+Recounts using VS Code as the main editor for two years of web development and why that ended. Covers how VS Code's GPU-accelerated speed compared to Atom, Brackets and Sublime Text, how it slowed over time, and how slow startup on servers pushed a return to Vim and a rework of the vimrc.
+
 Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/rwxrob
+
+Chapters:
+0:00 Two years on VS Code
+1:01 VS Code getting slower over time
+1:49 Why VS Code was once so fast
+2:31 Sublime, Atom and the light editor era
+3:14 Loving VS Code for web development
+4:05 Slow server edits and returning to Vim
+
+`#vim #vscode #texteditors #linux #webdevelopment #sublimetext #terminal #devtools`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

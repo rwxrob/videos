@@ -1,8 +1,23 @@
 # Use explicit ALE linters and fixers
 
+Explains what linters and fixers are in Vim and Neovim with the ALE plugin, and why relying on a lean single vimrc plus plugins makes sense when agents write most code. Shows how to use :ALEInfo to find which linters are being picked up automatically, and why to list linters and fixers explicitly in the vimrc. Covers shellcheck and shfmt for shell scripts and vim-go for Go.
+
 These days ALE linters and fixers are the way to keep your code clean and readable and free of bugs when and if you actually have to edit it by hand (and not by agent).
 
-`#vim #tips #editors`
+Chapters:
+0:00 Intro to linters and fixers
+0:34 How editing has changed with agents
+1:37 Why a portable single vimrc
+2:32 What linters and fixers do
+4:35 Removing old Go fmt fallback
+6:06 Finding linters with ALEInfo
+7:25 Explicitly listing linters and fixers
+
+`#vim #ale #linters #neovim #shellcheck #bash #golang #dotfiles #terminal #tips #editors`
+
+## Category
+
+Education
 
 ## Transcription
 

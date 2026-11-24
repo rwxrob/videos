@@ -1,5 +1,7 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 6
 
+Explains how agentic AI has changed advice for tech beginners, covering why AI-assisted learning is the central skill and why tech careers now demand broad, deep expertise. Walks through an AI-generated evaluation of tools such as git, tmux, containers, Go, Python, vim and typing speed, along with updates to the Boost articles and README. Also covers voice input, avoiding editor-config rabbit holes, telling the AI you are learning via AGENTS.md, and trusting AI as much as a stranger.
+
 Today on the Beginner Boost we wrote several new articles and made significant updates to the 2026 curriculum.
 
 🔥 NEW: "Boost tools then and now" — A comprehensive evaluation of every tool and skill taught across previous Boosts and SKILSTAK (since 2013), honestly assessed for the agentic AI era. Covers why tech careers now require medical-school depth, why AI-assisted learning is THE meta-skill, and why you should trust AI exactly as much as a stranger on Stack Exchange. Featured prominently at the top of the Boost README.
@@ -20,7 +22,33 @@ Key takeaways:
 • Typing speed and editor configs = diminishing returns
 • GitLab = missing the integrations that matter
 
-`#techjobs #LearnToCode #AgenticAI #GitHubCopilot #ClaudeCode #SKILSTAK #TechCareer #AIAssistedLearning #Superwhisper #tmux #Git #Markdown #Linux #Containers #Proxmox #Terraform #VoiceInput #CodingForBeginners #TechSkills2026 #rwxrob`
+Chapters:
+0:00 Welcome and why AI changed everything
+3:03 AI company economics and bait and switch
+6:07 Mythos and security implications
+9:05 Job impact and adopting AI now
+15:00 Why AI skeptics fall behind
+21:03 Typing is optional: voice and conversation
+27:06 Editor config rabbit hole
+30:07 Voice input speeds up changes
+36:06 Asking AI to evaluate Boost tools
+39:00 Git, GitHub and worktrees for agents
+45:06 tmux and reading code
+54:02 Writing rules in AGENTS.md templates
+1:00:02 Containers, Podman and root access
+1:06:05 Python, Go and language choice
+1:12:00 Vim, pipes and text tools
+1:15:04 Using AI to teach you
+1:22:00 Tech careers are like medicine
+1:27:02 Tell the AI you are learning
+1:30:00 README updates and trusting AI
+1:36:02 Building things with AI
+
+`#ai #agenticai #careeradvice #beginners #tmux #git #linux #voiceinput #golang #livestream #techjobs #learntocode #githubcopilot #claudecode #skilstak`
+
+## Category
+
+Education
 
 ## Transcription
 

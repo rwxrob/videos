@@ -1,8 +1,23 @@
 # ☕️ Is it worth going into tech with AI everywhere?
 
+Rob shares his experience using Claude agentically to install Slurm and write Ansible playbooks, and warns about the security risk of giving it full laptop access. He then argues which tech jobs AI will hit hardest, naming tech writing, entry-level coding and cybersecurity analyst roles, and which are safer: project management, software architecture and engineering, and hardware-focused high-performance computing and ML operations.
+
 Yes. But DO NOT go into tech writing, cyber security, and these other jobs without knowing how AI will shape them.
 
-`#ai #techlife #techjobs`
+Chapters:
+0:00 Using Claude to install Slurm
+1:17 Why AI tools need isolation
+1:33 Tech writing jobs are going away
+2:45 Software engineers versus coders
+6:00 Cybersecurity analyst jobs and AI
+8:00 Bug bounties and entry-level security
+9:57 Safe jobs: HPC, hardware, and operations
+
+`#ai #techcareers #cybersecurity #softwareengineering #claude #devops #career #hpc #techlife #techjobs`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

@@ -1,8 +1,33 @@
 # 🚀 Tech Career Beginner Boost 2026 - Day 5
 
+Discusses how AI has changed tech careers and entry-level hiring, and why beginners should focus on skills that remain valuable. Walks through setting up WSL, the GitHub CLI and GitHub Copilot CLI, creating a notes repo with an AGENTS.md file and conventional commits, and generating a job-focused learning plan with the AI.
+
 Screeeech! Hold up. Rethink everything you know about learning and getting a job in tech. If you are not using an AI to assist you in your learning (either because you don't have the money or desire) just stop waisting your time right now. You'll never keep up.
 
-`#techjobs #learning #beginners`
+Chapters:
+0:00 Introduction and how tech careers changed
+3:04 Building a weekend AI project in hours
+9:00 What AI means for junior jobs
+15:00 Skills employers filter for now
+18:00 AI going mainstream and on-prem trends
+27:00 Learn a domain, not just computers
+30:00 Why to avoid Claude Code
+33:00 Installing the GitHub CLI on WSL
+39:00 Repo directories and cloning with gh
+45:06 Why Copilot Pro suits beginners
+54:03 Starting Copilot CLI and notes repos
+1:00:00 Pricing, tokens and data privacy
+1:06:02 AGENTS.md, Markdown and conventional commits
+1:15:05 Letting the AI plan a curriculum
+1:26:01 Checking AI advice against sources
+1:36:01 Job-focused learning plan
+1:42:04 Sharing knowledge bases and wrap-up
+
+`#ai #githubcopilot #careeradvice #linux #github #beginners #markdown #wsl #techjobs #learning`
+
+## Category
+
+Education
 
 ## Transcription
 

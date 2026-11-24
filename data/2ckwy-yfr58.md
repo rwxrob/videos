@@ -1,10 +1,24 @@
 # 💢 GitHub BLACKLISTED ME!
 
+Describes being unable to use any paid coding models in GitHub Copilot despite raising the budget to $300 and paying for overage. Tests which models still work, finds only free or older models are allowed, and speculates about undocumented spending caps, quota tracking bugs, and capacity problems at GitHub or Anthropic.
+
 ***I finally had my budget take effect after about two hours. This is stuff is like crack once you use it to make something you really want. Guess just needed to be more patient, or perhaps GitHub fixed something in the background without telling anyone. I'll never know. Leaving this here mostly so everyone can enjoy the wonderful comments and others can actually realize they might just need to wait a little longer.***
 
 I'm paying over budget but cannot use any of the coding models. Pretty sure they pulled the plug on me.
 
-`#fails #github #ai`
+Chapters:
+0:00 Denied access despite paying GitHub
+1:30 Two weeks of budget testing and heavy use
+4:25 Frustration and call for GitHub transparency
+6:00 Theory of a hidden $200 cap
+6:45 Testing which models still work
+8:10 Pattern: only free models allowed
+
+`#github #githubcopilot #claude #ai #coding #anthropic #devtools #fails`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 

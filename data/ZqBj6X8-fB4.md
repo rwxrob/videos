@@ -1,6 +1,32 @@
 # Should we try coworking again?
 
+Covers a co-working style live stream where the group works quietly in timed blocks with short chat breaks. Includes a discussion of Omarchy and DHH, on-call work and a ServiceNow to Jira migration, plans for IRL bike streaming and live music, setting up a microwave, and a long off-topic conversation about dating and men's support.
+
 Stream archive — 2026-10-27
+
+Chapters:
+0:00 Setting up and deciding on co-working
+6:00 Music, chat, and stream setup
+12:00 Omarchy and DHH discussion
+21:00 ServiceNow to Jira migration
+30:00 Work priorities and Slurm conversion
+33:00 Setting up the work timer
+45:00 Quiet co-working block
+1:18:00 Ad break and stream plans update
+1:26:00 IRL bike streaming and live music plans
+1:36:00 Muted co-working session
+2:27:00 Co-working explained and on-call incident
+2:36:00 Setting up the microwave
+2:55:00 Cleaning behind the fridge
+3:15:00 Perl modernization and API rewrite
+3:18:00 Dating and men's support discussion
+3:35:00 Back to work wrap-up
+
+`#coworking #livestream #devlife #linux #kubernetes #slurm #jira #irlstream #omarchy`
+
+## Category
+
+People & Blogs
 
 ## Transcription
 

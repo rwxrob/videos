@@ -1,6 +1,24 @@
 # Linux Matrix Terminal Transparency
 
+Walks through creating a Matrix-style terminal effect in Linux Mint by layering a transparent gnome-terminal over a second terminal running cmatrix. Covers setting up a blank profile with colors and transparency, installing cmatrix, going full screen with F11, and mentions tmatrix as an alternative with speed and fade options.
+
 Transform your plain Linux (Mint) gnome-terminal into a portal to the Matrix by combining two terminals, a background running cmatrix (or tmatrix) and a foreground with transparency. -- Watch live at https://www.twitch.tv/rwxrob
+
+Chapters:
+0:00 Opening a terminal and blank profile
+1:30 Terminal preferences, fonts, and colors
+4:54 Installing and running cmatrix
+5:56 Opening a second transparent terminal
+8:00 Full screen and fixing transparency
+10:04 cmatrix options and bashrc config
+11:46 Trying tmatrix as an alternative
+13:54 Finding and installing tmatrix from GitHub
+
+`#linux #terminal #cmatrix #gnometerminal #linuxmint #tmatrix #customization #bash`
+
+## Category
+
+Howto & Style
 
 ## Transcription
 

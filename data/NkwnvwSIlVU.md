@@ -1,8 +1,14 @@
 # 🤪 IT is Pay to Play Now
 
+Rob argues that the IT career has become pay-to-play, comparing it to paid advantages in games like League of Legends and Magic: The Gathering. He describes engineers being limited to tools like GitHub Copilot while principal engineers get premium Claude subscriptions, and says people who can afford the best AI tools will have an advantage in performance, jobs, and pay.
+
 Whoever buys the best AI wins the IT game, whether as a company, an engineer, or a developer. It sucks, but it is the new reality.
 
-`#tips #techlife #career`
+`#ai #itcareer #claude #githubcopilot #paytoplay #softwaredevelopment #devculture #career #tips #techlife`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
