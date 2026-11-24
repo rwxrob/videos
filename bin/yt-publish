@@ -1,0 +1,235 @@
+#!/usr/bin/env bash
+# yt-publish: take videos approved with yt-review through to public.
+#
+# Pipeline per video:
+#   1. prepare   add to include.txt, transcribe (yt-sync), enrich the
+#                description (yt-enrich), validate the title against the
+#                transcript (claude -p)
+#   2. confirm   YOU read it (`yt-publish show <ID>`) and keep or drop it
+#   3. publish   push title and description (yt-update), make it public,
+#                verify against YouTube (yt-check)
+# Nothing becomes public until you run `yt-publish confirm <ID>`.
+#
+#   yt-publish prepare          one pass of step 1 over approved videos
+#   yt-publish publish          one pass of step 3 over confirmed videos
+#   yt-publish watch            loop prepare + publish until `yt-publish stop`
+#   yt-publish stop             ask a running watch to exit
+#   yt-publish queue            videos waiting for your confirmation
+#   yt-publish show <ID>        title, summary, chapters, category, title note
+#   yt-publish confirm <ID>...  keep: will be published by the next pass
+#   yt-publish drop <ID>...     do not keep: removes its data files and
+#                               include.txt entry, marks it rejected
+#   yt-publish status           counts per stage
+#
+# State is in $YT_CACHE_DIR (default ~/.cache/videos): approved.txt (from
+# yt-review), prepared.txt, confirmed.txt, published.txt, rejected.txt,
+# titlenote/<ID>, yt-publish.log. A video that fails a step is retried on the
+# next pass up to 3 times (counter in pfail/).
+
+set -uo pipefail
+
+here=$(CDPATH= cd -- "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+root=$(dirname "$here")
+data=${YT_DATA_DIR:-$root/data}
+cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
+manifest=$cache/manifest.json
+model=${YT_PUBLISH_MODEL:-sonnet}
+mkdir -p "$cache/titlenote" "$cache/pfail"
+for f in approved prepared confirmed published rejected; do touch "$cache/$f.txt"; done
+
+log() { printf '%s %s\n' "$(date '+%F %T')" "$*" | tee -a "$cache/yt-publish.log" >&2; }
+has() { grep -qxF -- "$2" "$cache/$1.txt"; }
+add() { has "$1" "$2" || printf '%s\n' "$2" >> "$cache/$1.txt"; }
+nid() { local x=${1##*/}; x=${x%.md}; x=${x%.srt}; [[ $x == YT* && ${#x} -eq 13 ]] && x=${x#YT}; printf '%s\n' "$x"; }
+md() { printf '%s/YT%s.md' "$data" "$1"; }
+transcribed() { [[ -f $(md "$1") ]] && grep -Eq '^\[[0-9]{2}:[0-9]{2}:[0-9]{2}\] ' "$(md "$1")"; }
+title_of() { sed -n '1s/^# //p' "$(md "$1")"; }
+git_() { git -C "$root" "$@"; }
+
+# ---------------------------------------------------------------- title check
+validate_title() { # id; may rewrite line 1 of the data file and writes titlenote/<id>
+  local id=$1 f title prompt reply json new reason
+  f=$(md "$id"); title=$(title_of "$id")
+  prompt=$(mktemp)
+  {
+    cat <<EOF
+You are checking the title of one of rwxrob's YouTube videos against its transcript
+(rwxrob is a Linux/shell/Go/vim/Kubernetes/career educator and streamer). The
+transcript is Whisper base.en output, so technical terms may be misheard.
+Spellings that are deliberate and must be kept: Bonzai, zet, boost, Lynx, rwxrob.
+
+Current title: $title
+
+Rules for a title: at most 100 characters; no "<" or ">"; no hashtags; no raw
+timestamps or "| rwxrob on #Twitch" suffixes; plain, specific, searchable, in the
+author's voice; a leading emoji is the author's branding and should be kept.
+Keep the current title if it is accurate and specific (even if casual). Change it
+only if it is wrong, misleading, vague, or has cruft. Never invent claims that are
+not in the transcript.
+
+Reply with ONLY a JSON object: {"title": "<final title>", "changed": true|false, "reason": "<one sentence with a timestamp as evidence>"}
+
+Summary and description so far:
+$(awk 'NR>1 && /^## /{exit} NR>1' "$f" | head -c 3000)
+
+Transcript:
+$(awk '/^## Transcription/{f=1;next} f' "$f" | head -c 60000)
+EOF
+  } > "$prompt"
+  reply=$( (cd "${TMPDIR:-/tmp}" && claude -p --model "$model" --tools "" --no-session-persistence < "$prompt") 2>/dev/null) || { rm -f "$prompt"; return 1; }
+  rm -f "$prompt"
+  json=$(printf '%s\n' "$reply" | sed -n '/^{/,/^}/p' | jq -c . 2>/dev/null) || return 1
+  [[ -n $json ]] || json=$(printf '%s' "$reply" | jq -c . 2>/dev/null) || return 1
+  new=$(jq -r '.title // empty' <<<"$json"); reason=$(jq -r '.reason // ""' <<<"$json")
+  [[ -n $new && ${#new} -le 100 && $new != *'<'* && $new != *'>'* ]] || return 1
+  if [[ $new != "$title" ]]; then
+    { printf '# %s\n' "$new"; tail -n +2 "$f"; } > "$f.tmp" && mv "$f.tmp" "$f"
+    git_ add -- "data/YT$id.md"; git_ commit -q -m "title $id: $new" -- "data/YT$id.md" || true
+    printf 'CHANGED from: %s\n%s\n' "$title" "$reason" > "$cache/titlenote/$id"
+  else
+    printf 'KEPT: %s\n' "$reason" > "$cache/titlenote/$id"
+  fi
+}
+
+# ---------------------------------------------------------------- prepare
+cmd_prepare() {
+  local id todo=() title
+  while IFS= read -r id; do
+    [[ -n $id ]] || continue
+    has prepared "$id" && continue; has rejected "$id" && continue
+    (( $(cat "$cache/pfail/$id" 2>/dev/null || echo 0) < 3 )) || continue
+    todo+=("$id")
+  done < "$cache/approved.txt"
+  (( ${#todo[@]} )) || return 0
+
+  # include.txt makes yt-sync process an unlisted video.
+  for id in "${todo[@]}"; do
+    grep -q -- "^$id\b" "$root/include.txt" && continue
+    title=$(jq -r --arg i "$id" '.[] | select(.id == $i) | .title' "$manifest" 2>/dev/null | tr -d '\n')
+    printf '%s  # %s\n' "$id" "$title" >> "$root/include.txt"
+    # Past-opinion note, if the earlier triage flagged it.
+    if [[ -f $cache/disclaimer.json ]] && [[ $(jq -r --arg i "$id" '[.[]|select(.id==$i)|.n][0] // 0' "$cache/disclaimer.json") == 1 ]]; then
+      printf '%s  # %s\n' "$id" "$title" >> "$root/disclaimers.txt"
+    fi
+  done
+  log "syncing ${#todo[@]} approved videos"
+  "$here/yt-sync" run >>"$cache/yt-publish.log" 2>&1 || log "yt-sync run returned $?"
+
+  for id in "${todo[@]}"; do
+    transcribed "$id" || { log "$id: not transcribed yet (will retry)"; continue; }
+    log "$id: enriching"
+    if ! "$here/yt-enrich" one "$id" >>"$cache/yt-publish.log" 2>&1; then
+      n=$(( $(cat "$cache/pfail/$id" 2>/dev/null || echo 0) + 1 )); echo "$n" > "$cache/pfail/$id"
+      log "$id: enrich failed ($n/3)"; continue
+    fi
+    log "$id: validating title"
+    validate_title "$id" || log "$id: title check failed; keeping the existing title"
+    add prepared "$id"
+    log "$id: READY for your confirmation: $(title_of "$id")"
+  done
+}
+
+# ---------------------------------------------------------------- publish
+cmd_publish() {
+  local id idf
+  while IFS= read -r id; do
+    [[ -n $id ]] || continue
+    has published "$id" && continue
+    (( $(cat "$cache/pfail/$id.pub" 2>/dev/null || echo 0) < 3 )) || continue
+    log "$id: publishing"
+    if "$here/yt-update" -y -- "$id" >>"$cache/yt-publish.log" 2>&1; then
+      idf=$(mktemp); printf '%s\n' "$id" > "$idf"
+      if "$here/yt-update" -y privacy "$idf" public >>"$cache/yt-publish.log" 2>&1 \
+         && "$here/yt-check" "$id" >>"$cache/yt-publish.log" 2>&1; then
+        rm -f "$idf"; add published "$id"
+        git_ add -- "data/YT$id.md" "data/YT$id.srt" include.txt disclaimers.txt 2>/dev/null
+        git_ commit -q -m "publish $id: $(title_of "$id")" 2>/dev/null || true
+        log "$id: PUBLISHED and verified: $(title_of "$id")"
+        continue
+      fi
+      rm -f "$idf"
+    fi
+    n=$(( $(cat "$cache/pfail/$id.pub" 2>/dev/null || echo 0) + 1 )); echo "$n" > "$cache/pfail/$id.pub"
+    log "$id: publish step failed ($n/3); see log"
+  done < <(comm -12 <(sort "$cache/confirmed.txt") <(sort "$cache/prepared.txt"))
+}
+
+# ---------------------------------------------------------------- review helpers
+cmd_queue() {
+  local id n=0
+  while IFS= read -r id; do
+    has confirmed "$id" && continue; has rejected "$id" && continue; has published "$id" && continue
+    n=$((n + 1)); printf '%s  %s\n' "$id" "$(title_of "$id")"
+    [[ ! -f $cache/titlenote/$id ]] || sed 's/^/    /' "$cache/titlenote/$id"
+  done < "$cache/prepared.txt"
+  (( n )) || echo "nothing waiting for confirmation"
+}
+
+cmd_show() {
+  local id; id=$(nid "${1:?usage: yt-publish show <ID>}")
+  [[ -f $(md "$id") ]] || { echo "no data file for $id" >&2; exit 1; }
+  echo "https://www.youtube.com/watch?v=$id"
+  [[ ! -f $cache/titlenote/$id ]] || { echo "-- title check"; cat "$cache/titlenote/$id"; }
+  echo "-- draft (this is what will go on YouTube)"
+  awk '/^## Transcription/{exit} {print}' "$(md "$id")"
+}
+
+cmd_confirm() {
+  local a id
+  for a in "$@"; do
+    id=$(nid "$a")
+    has prepared "$id" || { echo "not prepared: $id" >&2; continue; }
+    add confirmed "$id"; echo "confirmed $id"
+  done
+}
+
+cmd_drop() {
+  local a id
+  for a in "$@"; do
+    id=$(nid "$a")
+    has published "$id" && { echo "already published: $id" >&2; continue; }
+    git_ rm -q -f -- "data/YT$id.md" "data/YT$id.srt" 2>/dev/null || rm -f "$(md "$id")" "$data/YT$id.srt"
+    sed -i.bak "/^$id\b/d" "$root/include.txt" "$root/disclaimers.txt" 2>/dev/null; rm -f "$root"/include.txt.bak "$root"/disclaimers.txt.bak
+    add rejected "$id"
+    git_ add include.txt disclaimers.txt 2>/dev/null
+    git_ commit -q -m "drop $id (not kept)" 2>/dev/null || true
+    echo "dropped $id"
+  done
+}
+
+cmd_status() {
+  local approved prepared confirmed published rejected waiting
+  approved=$(grep -c . "$cache/approved.txt"); prepared=$(grep -c . "$cache/prepared.txt")
+  confirmed=$(grep -c . "$cache/confirmed.txt"); published=$(grep -c . "$cache/published.txt"); rejected=$(grep -c . "$cache/rejected.txt")
+  waiting=$(cmd_queue | grep -c '^[^ ]\{11\}  ' || true)
+  echo "approved (yt-review): $approved"
+  echo "prepared:             $prepared"
+  echo "waiting on you:       $waiting"
+  echo "confirmed:            $confirmed"
+  echo "published:            $published"
+  echo "dropped:              $rejected"
+}
+
+cmd_watch() {
+  rm -f "$cache/yt-publish.stop"
+  log "watch started (pid $$); stop with: yt-publish stop"
+  while [[ ! -f $cache/yt-publish.stop ]]; do
+    cmd_prepare; cmd_publish
+    for _ in $(seq 1 12); do [[ -f $cache/yt-publish.stop ]] && break; sleep 5; done
+  done
+  log "watch stopped"
+}
+
+cmd=${1:-status}; shift || true
+case $cmd in
+  prepare) cmd_prepare ;;
+  publish) cmd_publish ;;
+  watch) cmd_watch ;;
+  stop) touch "$cache/yt-publish.stop"; echo "asked watch to stop" ;;
+  queue) cmd_queue ;;
+  show) cmd_show "$@" ;;
+  confirm) cmd_confirm "$@" ;;
+  drop) cmd_drop "$@" ;;
+  status) cmd_status ;;
+  *) echo "usage: yt-publish prepare|publish|watch|stop|queue|show ID|confirm ID...|drop ID...|status" >&2; exit 2 ;;
+esac

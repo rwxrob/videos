@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+# yt-review: review unpublished (unlisted) videos for selection.
+#
+#   yt-review build            build the review queue from the manifest + triage
+#   yt-review next [N]         show the next N undecided videos (default 15)
+#   yt-review approve <ID>...  approve (queued for yt-publish)
+#   yt-review reject <ID>...   reject (never shown again)
+#   yt-review skip <ID>...     skip for now (shown again after the queue ends)
+#   yt-review status           counts
+#
+# Order of the queue ("no-brainers" first): triage class tech, not flagged
+# sensitive, a descriptive title (not a raw recording timestamp), 2 to 60
+# minutes long, then newest first; the rest of the tech videos follow, then
+# maybe. Private videos are never queued. Decisions live in
+# $YT_CACHE_DIR (default ~/.cache/videos): approved.txt, rejected.txt,
+# skipped.txt. Nothing here touches YouTube.
+#
+# Needs: bash, jq. Run `yt-sync list` first for a current manifest.
+
+set -euo pipefail
+
+cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
+manifest=$cache/manifest.json
+triage=$cache/triage.json
+queue=$cache/review-queue.tsv
+touch "$cache/approved.txt" "$cache/rejected.txt" "$cache/skipped.txt"
+
+cmd=${1:-status}
+shift || true
+
+decided() { cat "$cache/approved.txt" "$cache/rejected.txt" | awk '{print $1}'; }
+
+case $cmd in
+  build)
+    [[ -f $manifest && -f $triage ]] || { echo "need $manifest and $triage" >&2; exit 1; }
+    jq -r --slurpfile t "$triage" '
+      ($t[0] | map({(.id): .}) | add) as $c
+      | def secs: capture("PT(?:(?<h>[0-9]+)H)?(?:(?<m>[0-9]+)M)?(?:(?<s>[0-9]+)S)?")
+          | ((.h//"0"|tonumber)*3600 + (.m//"0"|tonumber)*60 + (.s//"0"|tonumber));
+      [ .[] | select(.privacy == "unlisted")
+        | ($c[.id] // {c: "new", s: 0, r: ""}) as $x
+        | (.duration | secs) as $d
+        | { id, title, date: .publishedAt[:10], d: $d, c: $x.c, s: $x.s, r: $x.r,
+            desc: ((.description // "") | gsub("[\\t\\n]+"; " ") | .[0:160]),
+            rank: ( if $x.c == "tech" and $x.s == 0
+                         and (.title | test("^[0-9]{4} [0-9]{2} [0-9]{2}") | not)
+                         and $d >= 120 and $d <= 3600 then 0
+                    elif $x.c == "tech" and $x.s == 0 then 1
+                    elif $x.c == "tech" then 2
+                    elif $x.c == "maybe" then 3
+                    else 9 end ) }
+        | select(.rank < 9) ]
+      | sort_by(.rank, (.date | explode | map(-.)))
+      | .[] | [.id, .rank, .date, (.d | tostring), .c, .s, .r, (.title | gsub("[\\t\\n]"; " ")), .desc] | @tsv' \
+      "$manifest" > "$queue"
+    echo "queued $(wc -l < "$queue" | tr -d ' ') videos in $queue"
+    ;;
+  next)
+    n=${1:-15}
+    [[ -f $queue ]] || { echo "run: yt-review build" >&2; exit 1; }
+    skip=$(mktemp); decided > "$skip"; awk '{print $1}' "$cache/skipped.txt" >> "$skip"
+    awk -F"\t" -v n="$n" 'FILENAME==ARGV[1] {done[$1]=1; next} !($1 in done) && c < n {
+        c++; d=$4; h=int(d/3600); m=int((d%3600)/60); s=d%60
+        dur = h ? sprintf("%d:%02d:%02d", h, m, s) : sprintf("%d:%02d", m, s)
+        printf "%d. %s  [%s, %s, %s]\n   %s\n", c, $1, $3, dur, $5 (($6 == 1) ? " SENSITIVE" : "") ($7 != "" ? ": " $7 : ""), $8
+        if ($9 != "") printf "   > %s\n", $9 }' "$skip" "$queue"
+    rm -f "$skip"
+    ;;
+  approve|reject|skip)
+    case $cmd in approve) f=$cache/approved.txt ;; reject) f=$cache/rejected.txt ;; *) f=$cache/skipped.txt ;; esac
+    [[ ${1:-} == -- ]] && shift
+    for id in "$@"; do
+      id=${id##*/}; id=${id%.md}; id=${id#YT}
+      grep -q "^$id"$'\t' "$queue" || { echo "not in queue: $id" >&2; continue; }
+      printf '%s\n' "$id" >> "$f"
+      echo "$cmd $id"
+    done
+    ;;
+  status)
+    total=$(wc -l < "$queue" 2>/dev/null | tr -d ' ' || echo 0)
+    echo "queue:    ${total:-0}"
+    echo "approved: $(grep -c . "$cache/approved.txt" || true)"
+    echo "rejected: $(grep -c . "$cache/rejected.txt" || true)"
+    echo "skipped:  $(grep -c . "$cache/skipped.txt" || true)"
+    ;;
+  *) echo "usage: yt-review build|next [N]|approve ID...|reject ID...|skip ID...|status" >&2; exit 2 ;;
+esac
