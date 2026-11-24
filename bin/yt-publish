@@ -18,7 +18,8 @@
 #   yt-publish show <ID>        title, summary, chapters, category, title note
 #   yt-publish confirm <ID>...  keep: will be published by the next pass
 #   yt-publish drop <ID>...     do not keep: removes its data files and
-#                               include.txt entry, marks it rejected
+#                               include.txt entry, marks it rejected and makes
+#                               the video private on YouTube (never deletes)
 #   yt-publish status           counts per stage
 #
 # State is in $YT_CACHE_DIR (default ~/.cache/videos): approved.txt (from
@@ -184,13 +185,16 @@ cmd_confirm() {
 }
 
 cmd_drop() {
-  local a id
+  local a id idf
   for a in "$@"; do
     id=$(nid "$a")
     has published "$id" && { echo "already published: $id" >&2; continue; }
     git_ rm -q -f -- "data/YT$id.md" "data/YT$id.srt" 2>/dev/null || rm -f "$(md "$id")" "$data/YT$id.srt"
     sed -i.bak "/^$id\b/d" "$root/include.txt" "$root/disclaimers.txt" 2>/dev/null; rm -f "$root"/include.txt.bak "$root"/disclaimers.txt.bak
     add rejected "$id"
+    idf=$(mktemp); printf '%s\n' "$id" > "$idf"
+    "$here/yt-update" -y privacy "$idf" private >>"$cache/yt-publish.log" 2>&1 || echo "WARNING: could not make $id private; do it by hand" >&2
+    rm -f "$idf"
     git_ add include.txt disclaimers.txt 2>/dev/null
     git_ commit -q -m "drop $id (not kept)" 2>/dev/null || true
     echo "dropped $id"

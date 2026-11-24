@@ -4,8 +4,8 @@
 #   yt-review build            build the review queue from the manifest + triage
 #   yt-review next [N]         show the next N undecided videos (default 15)
 #   yt-review approve <ID>...  approve (queued for yt-publish)
-#   yt-review reject <ID>...   reject (never shown again)
-#   yt-review skip <ID>...     skip for now (shown again after the queue ends)
+#   yt-review reject <ID>...   archive: made private on YouTube, never shown again
+#   yt-review skip <ID>...     same as reject (skipped videos are kept but private)
 #   yt-review status           counts
 #
 # Order of the queue ("no-brainers" first): triage class tech, not flagged
@@ -69,12 +69,20 @@ case $cmd in
   approve|reject|skip)
     case $cmd in approve) f=$cache/approved.txt ;; reject) f=$cache/rejected.txt ;; *) f=$cache/skipped.txt ;; esac
     [[ ${1:-} == -- ]] && shift
+    to_private=()
     for id in "$@"; do
       id=${id##*/}; id=${id%.md}; id=${id#YT}
       grep -q "^$id"$'\t' "$queue" || { echo "not in queue: $id" >&2; continue; }
       printf '%s\n' "$id" >> "$f"
       echo "$cmd $id"
+      [[ $cmd == approve ]] || to_private+=("$id")
     done
+    # Archived and skipped videos are kept, but made private.
+    if (( ${#to_private[@]} )); then
+      idf=$(mktemp); printf '%s\n' "${to_private[@]}" > "$idf"
+      "$(dirname "${BASH_SOURCE[0]}")/yt-update" -y privacy "$idf" private | tail -n +1
+      rm -f "$idf"
+    fi
     ;;
   status)
     total=$(wc -l < "$queue" 2>/dev/null | tr -d ' ' || echo 0)

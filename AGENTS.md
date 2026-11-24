@@ -6,6 +6,10 @@ For every video on YouTube: review it for selection, approve, transcribe, update
 
 A video is not "synced" until it has been fully transcribed and its title has been validated against the transcript, in addition to the description, tags and chapters matching what is on YouTube.
 
+## Archiving and skipping
+
+When we archive or skip a video (reject it in `yt-review`, or drop it in `yt-publish`), keep it on YouTube but make it private. Never delete a video. `yt-review reject|skip` and `yt-publish drop` do this with `yt-update privacy`.
+
 ## Deliberate spellings
 
 Never "correct" these in transcripts, titles or descriptions; Whisper often mishears them, so fix the mishearing toward the spelling here:
