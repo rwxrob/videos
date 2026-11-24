@@ -1,5 +1,7 @@
 # 📜 Which license should I use?
 
+Compares common software licenses from the standpoint of using personal projects at work, being protected from liability, and sharing code widely. Covers Apache, MIT, GPLv2, BSD, Mozilla, Unlicense and public domain, and explains why GPLv3 and AGPLv3 are avoided, including the Tivoization issue, the Facebook BSD plus patents React episode, and GPL enforcement trolls.
+
 # 📜 Which license should I use?
 
 Criteria for me:
@@ -26,7 +28,23 @@ Never
 
 Beware of GPL trolls.
 
-`#license #opensource #thoughts`
+Chapters:
+0:00 Intro and licensing background
+0:45 Criteria: using personal code at work
+6:20 Why corporations dislike viral licenses
+8:40 Liability protection and sharing criteria
+9:37 Apache and MIT compared
+11:00 GPLv2, GPLv3 and Tivoization
+16:40 BSD and the React patents controversy
+20:50 Mozilla, Unlicense and public domain
+23:45 Why avoid GPLv3 and AGPLv3
+26:25 Beware of GPL trolls
+
+`#opensource #licenses #apache #mit #gpl #softwarelicensing #linux #react #developers #license #thoughts`
+
+## Category
+
+Education
 
 ## Transcription
 
