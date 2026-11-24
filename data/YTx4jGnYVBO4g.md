@@ -1,8 +1,29 @@
 # ⚖️ Living a Balanced Life
 
+Uses Maslow's hierarchy of needs as a framework for living a balanced life across physical, mental, social, financial, creative and spiritual areas. Covers fitness, sleep, stress, personal safety, friendships and third spaces, self-esteem, creativity and journaling, and why stable income should come before pursuing a tech career or other goals. Closes with a personal story about a missed chance to help someone.
+
 Mavslov's Heirachy of needs helps understand living a balanced life physically, spiritually, mentally, financially, socially, and creatively.
 
-`#lifehacks #philosophy #balancedlife`
+Chapters:
+0:00 Why balance matters before a tech career
+1:08 Maslow's hierarchy and physical needs
+5:30 Stress, alcohol, and sleep
+7:40 Sun, movement, and fitness as a reset
+9:40 Personal safety and family in danger
+15:00 Turning stress into action
+17:10 Family and nurturing social connections
+18:55 Real friends and how to make them
+24:50 Third spaces and community
+28:20 Self-esteem and knowing your strengths
+30:30 Creativity, journaling, and self-actualization
+33:00 Fix financial stability first
+35:20 A story about a missed opportunity
+
+`#balancedlife #maslow #selfactualization #mentalhealth #fitness #careeradvice #beginnerboost #friendship #lifehacks #philosophy`
+
+## Category
+
+People & Blogs
 
 ## Transcription
 
