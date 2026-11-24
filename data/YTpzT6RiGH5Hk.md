@@ -1,4 +1,4 @@
-# 🎄🐹 Coding from the Get Go - #4
+# 🎄🐹 Coding from the Get Go - #4: Go Functions vs Procedures, entr, and Example Tests
 
 Continues learning Go from zero by using entr to rerun code and tests automatically whenever files change, then factoring code into subroutines. Explains the difference between procedures and true functions, covers return values and variable assignment, and writes simple math functions checked with Go's built-in example-based tests.
 
