@@ -1,4 +1,4 @@
-# 🎄🚀 Holiday Boost 2024 - #2
+# 🎄🚀 Holiday Boost 2024 - #2: What It Takes to Code, Git Bash and Homebrew Setup
 
 Reads through and comments on the "What It Takes" section of a book for beginning coders, covering creativity, lifelong learning, passion for the craft and whether it is ever too late to start. Then moves on to setting up a coding lab, including Git Bash on Windows, Homebrew and Bash on macOS, and creating a GitHub account.
 
