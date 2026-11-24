@@ -1,18 +1,18 @@
 1
 00:00:00,000 --> 00:00:07,280
- All right, so this is a quick video on how to set up links and you're like, what is links?
+ All right, so this is a quick video on how to set up lynx and you're like, what is lynx?
 
 2
 00:00:07,280 --> 00:00:16,240
- Links is what lets you do a wicked fast searching that uses a question mark or just whatever.
+ Lynx is what lets you do a wicked fast searching that uses a question mark or just whatever.
 
 3
 00:00:16,240 --> 00:00:22,440
- So question mark, what is links and I can just hit enter and I go down here and I say, what
+ So question mark, what is lynx and I can just hit enter and I go down here and I say, what
 
 4
 00:00:22,440 --> 00:00:23,440
- is links?
+ is lynx?
 
 5
 00:00:23,440 --> 00:00:30,440
@@ -24,7 +24,7 @@
 
 7
 00:00:36,640 --> 00:00:39,680
- And so yeah, this is what links is.
+ And so yeah, this is what lynx is.
 
 8
 00:00:39,680 --> 00:00:45,680
@@ -32,11 +32,11 @@
 
 9
 00:00:45,680 --> 00:00:51,360
- I'm just going to say that I believe links is still the best for lots of reasons, but
+ I'm just going to say that I believe lynx is still the best for lots of reasons, but
 
 10
 00:00:51,360 --> 00:00:58,920
- primarily because links allows you to really scan quickly.
+ primarily because lynx allows you to really scan quickly.
 
 11
 00:00:58,920 --> 00:01:04,440
@@ -48,7 +48,7 @@
 
 13
 00:01:05,520 --> 00:01:10,880
- And links is just super fast and uses the maximum amount of real estate.
+ And lynx is just super fast and uses the maximum amount of real estate.
 
 14
 00:01:10,880 --> 00:01:14,520
@@ -64,7 +64,7 @@
 
 17
 00:01:21,800 --> 00:01:27,000
- I also believe I also use links instead of things like IntelliSense or built in help because
+ I also believe I also use lynx instead of things like IntelliSense or built in help because
 
 18
 00:01:27,000 --> 00:01:29,160
@@ -76,7 +76,7 @@
 
 20
 00:01:33,400 --> 00:01:36,760
- So the first thing you need to do is do is install links.
+ So the first thing you need to do is do is install lynx.
 
 21
 00:01:36,760 --> 00:01:37,840
@@ -84,19 +84,19 @@
 
 22
 00:01:37,840 --> 00:01:43,120
- So after installing links, if you're on arches, you know, you do your arches, Pacman, Yay thing
+ So after installing lynx, if you're on arches, you know, you do your arches, Pacman, Yay thing
 
 23
 00:01:43,120 --> 00:01:45,640
- or whatever, but you need links.
+ or whatever, but you need lynx.
 
 24
 00:01:45,640 --> 00:01:48,960
- And links lives in user bin links.
+ And lynx lives in user bin lynx.
 
 25
 00:01:48,960 --> 00:01:54,600
- But the problem is that links was originally designed some time ago and it was designed
+ But the problem is that lynx was originally designed some time ago and it was designed
 
 26
 00:01:54,600 --> 00:02:02,600
@@ -108,7 +108,7 @@
 
 28
 00:02:08,520 --> 00:02:14,000
- levels of access to using links, but it was a way for you to browse on the system.
+ levels of access to using lynx, but it was a way for you to browse on the system.
 
 29
 00:02:14,000 --> 00:02:19,000
@@ -116,7 +116,7 @@
 
 30
 00:02:19,000 --> 00:02:24,800
- So there's two configuration files that you need to do links.
+ So there's two configuration files that you need to do lynx.
 
 31
 00:02:24,800 --> 00:02:27,720
@@ -136,7 +136,7 @@
 
 35
 00:02:41,120 --> 00:02:46,480
- links.cfg and links.lss.
+ lynx.cfg and lynx.lss.
 
 36
 00:02:46,480 --> 00:02:52,920
@@ -184,7 +184,7 @@
 
 47
 00:03:32,360 --> 00:03:39,800
- go look for VI mode, if I can find it here, plus I'm not using the links here.
+ go look for VI mode, if I can find it here, plus I'm not using the lynx here.
 
 48
 00:03:39,800 --> 00:03:47,960
@@ -196,11 +196,11 @@
 
 50
 00:03:53,240 --> 00:03:58,640
- Okay, so the file we're looking at now is links.cfg.
+ Okay, so the file we're looking at now is lynx.cfg.
 
 51
 00:03:58,640 --> 00:04:05,480
- This file is configuring how links works and how you navigate it and all that stuff.
+ This file is configuring how lynx works and how you navigate it and all that stuff.
 
 52
 00:04:05,480 --> 00:04:09,040
@@ -224,7 +224,7 @@
 
 57
 00:04:22,400 --> 00:04:28,240
- You can make links so that when it opens a picture or something like that, you can actually
+ You can make lynx so that when it opens a picture or something like that, you can actually
 
 58
 00:04:28,240 --> 00:04:32,040
@@ -244,7 +244,7 @@
 
 62
 00:04:40,940 --> 00:04:45,840
- for example, of a thing, so we'll do the search for links again.
+ for example, of a thing, so we'll do the search for lynx again.
 
 63
 00:04:45,840 --> 00:04:50,480
@@ -268,7 +268,7 @@
 
 68
 00:05:10,880 --> 00:05:18,240
- So I use links even to search for stuff that I know is ultimately going to be graphic because
+ So I use lynx even to search for stuff that I know is ultimately going to be graphic because
 
 69
 00:05:18,240 --> 00:05:20,920
@@ -304,7 +304,7 @@
 
 77
 00:05:46,000 --> 00:05:49,080
- They can't track me because there's no way to track with links.
+ They can't track me because there's no way to track with lynx.
 
 78
 00:05:49,080 --> 00:05:54,440
@@ -324,11 +324,11 @@
 
 82
 00:06:05,760 --> 00:06:09,820
- So there's lots of reasons to use links, but let's continue with how to configure it.
+ So there's lots of reasons to use lynx, but let's continue with how to configure it.
 
 83
 00:06:09,820 --> 00:06:15,600
- So the other file that's involved, of course, the first file is links.cfg.
+ So the other file that's involved, of course, the first file is lynx.cfg.
 
 84
 00:06:15,600 --> 00:06:20,120
@@ -336,7 +336,7 @@
 
 85
 00:06:20,120 --> 00:06:25,120
- But the first use, the first file to configure is links.cfg.
+ But the first use, the first file to configure is lynx.cfg.
 
 86
 00:06:25,120 --> 00:06:29,200
@@ -356,7 +356,7 @@
 
 90
 00:06:37,200 --> 00:06:42,640
- I was actually, the interesting thing about links is that it is being updated for a while
+ I was actually, the interesting thing about lynx is that it is being updated for a while
 
 91
 00:06:42,640 --> 00:06:48,480
@@ -384,7 +384,7 @@
 
 97
 00:07:03,200 --> 00:07:08,320
- But if you, so that's this file that config, the links.cfg file, so I had an idea to talk
+ But if you, so that's this file that config, the lynx.cfg file, so I had an idea to talk
 
 98
 00:07:08,320 --> 00:07:09,320
@@ -400,7 +400,7 @@
 
 101
 00:07:15,000 --> 00:07:18,480
- So the other key file when you're dealing with links is the one that deals with colors
+ So the other key file when you're dealing with lynx is the one that deals with colors
 
 102
 00:07:18,480 --> 00:07:19,640
@@ -408,7 +408,7 @@
 
 103
 00:07:19,640 --> 00:07:22,400
- And this file is called links.lss.
+ And this file is called lynx.lss.
 
 104
 00:07:22,400 --> 00:07:28,720
@@ -480,11 +480,11 @@
 
 121
 00:08:25,160 --> 00:08:31,480
- So after you install links, you'll be able to run it, no problem.
+ So after you install lynx, you'll be able to run it, no problem.
 
 122
 00:08:31,480 --> 00:08:39,960
- But I'm going to show you a file that I use that sets up the links aliases so that it's
+ But I'm going to show you a file that I use that sets up the lynx aliases so that it's
 
 123
 00:08:39,960 --> 00:08:42,000
@@ -508,7 +508,7 @@
 
 128
 00:08:52,680 --> 00:08:56,320
- This is my sort of modular links configuration.
+ This is my sort of modular lynx configuration.
 
 129
 00:08:56,320 --> 00:09:00,880
@@ -528,11 +528,11 @@
 
 133
 00:09:10,040 --> 00:09:19,240
- So what I've done here is I've exported a links function that takes the old links and
+ So what I've done here is I've exported a lynx function that takes the old lynx and
 
 134
 00:09:19,240 --> 00:09:22,080
- finds the links wherever the path might be.
+ finds the lynx wherever the path might be.
 
 135
 00:09:22,080 --> 00:09:26,400
@@ -572,15 +572,15 @@
 
 144
 00:09:54,560 --> 00:09:58,360
- So links here, we have this, we're doing links here.
+ So lynx here, we have this, we're doing lynx here.
 
 145
 00:09:58,360 --> 00:10:05,000
- We do if dash Z links, it says if I cannot find a links variable, I mean, I mean, if
+ We do if dash Z lynx, it says if I cannot find a lynx variable, I mean, I mean, if
 
 146
 00:10:05,000 --> 00:10:08,520
- I cannot find links at all, that means I didn't find links on the system.
+ I cannot find lynx at all, that means I didn't find lynx on the system.
 
 147
 00:10:08,520 --> 00:10:12,440
@@ -592,11 +592,11 @@
 
 149
 00:10:15,240 --> 00:10:19,320
- And it colorizes the output and says doesn't look like links is installed.
+ And it colorizes the output and says doesn't look like lynx is installed.
 
 150
 00:10:19,320 --> 00:10:23,360
- And then it just returns one because there's no links on the system.
+ And then it just returns one because there's no lynx on the system.
 
 151
 00:10:23,360 --> 00:10:27,640
@@ -604,11 +604,11 @@
 
 152
 00:10:27,640 --> 00:10:36,160
- It says if I see that there is a home directory containing dot links dot CFG, then go ahead
+ It says if I see that there is a home directory containing dot lynx dot CFG, then go ahead
 
 153
 00:10:36,160 --> 00:10:43,080
- and let's set a variable called links CFG to be the following dash CFG equals home links
+ and let's set a variable called lynx CFG to be the following dash CFG equals home lynx
 
 154
 00:10:43,080 --> 00:10:44,080
@@ -624,7 +624,7 @@
 
 157
 00:10:51,480 --> 00:10:55,800
- Here we do dash R does the file and that's readable as a readable links dot LSS in the
+ Here we do dash R does the file and that's readable as a readable lynx dot LSS in the
 
 158
 00:10:55,800 --> 00:10:56,800
@@ -636,11 +636,11 @@
 
 160
 00:11:02,680 --> 00:11:08,640
- So my underscore links variable environment variable contains the full path to the true
+ So my underscore lynx variable environment variable contains the full path to the true
 
 161
 00:11:08,640 --> 00:11:10,280
- links program.
+ lynx program.
 
 162
 00:11:10,280 --> 00:11:14,160
@@ -656,11 +656,11 @@
 
 165
 00:11:21,560 --> 00:11:27,520
- to links, which says use this configuration file instead of the one from the system.
+ to lynx, which says use this configuration file instead of the one from the system.
 
 166
 00:11:27,520 --> 00:11:31,680
- And unfortunately links will not identify or look into your home directory without you
+ And unfortunately lynx will not identify or look into your home directory without you
 
 167
 00:11:31,680 --> 00:11:34,640
@@ -668,7 +668,7 @@
 
 168
 00:11:34,640 --> 00:11:40,480
- So now we have dollar links LSS and we can put that in there and that says, okay, let's
+ So now we have dollar lynx LSS and we can put that in there and that says, okay, let's
 
 169
 00:11:40,480 --> 00:11:41,480
@@ -692,11 +692,11 @@
 
 174
 00:11:56,440 --> 00:12:00,360
- So for example, if I wanted to call links without the search parameter, which I'll get
+ So for example, if I wanted to call lynx without the search parameter, which I'll get
 
 175
 00:12:00,360 --> 00:12:07,840
- to, I would call links and then I would say I want to go to skillstack.io and boom, there's
+ to, I would call lynx and then I would say I want to go to skillstack.io and boom, there's
 
 176
 00:12:07,840 --> 00:12:09,080
@@ -724,7 +724,7 @@
 
 182
 00:12:32,320 --> 00:12:38,800
- links optimized, like I say, you should probably consider what your page looks like when it's
+ lynx optimized, like I say, you should probably consider what your page looks like when it's
 
 183
 00:12:38,800 --> 00:12:42,400
@@ -736,7 +736,7 @@
 
 185
 00:12:48,440 --> 00:12:54,640
- change how easy it is to view from links or from other text-based readers.
+ change how easy it is to view from lynx or from other text-based readers.
 
 186
 00:12:54,640 --> 00:13:00,040
@@ -752,19 +752,19 @@
 
 189
 00:13:09,520 --> 00:13:13,520
- like to somebody using links and I even have a little joke here at the bottom that says
+ like to somebody using lynx and I even have a little joke here at the bottom that says
 
 190
 00:13:13,520 --> 00:13:18,240
- optimize for links and true terminal experts or masters.
+ optimize for lynx and true terminal experts or masters.
 
 191
 00:13:18,240 --> 00:13:25,600
- There's really no reason not to allow links as a method and the entire documentation on
+ There's really no reason not to allow lynx as a method and the entire documentation on
 
 192
 00:13:25,600 --> 00:13:31,120
- my site is all links friendly and it's very, very fast to browse.
+ my site is all lynx friendly and it's very, very fast to browse.
 
 193
 00:13:31,120 --> 00:13:37,760
@@ -788,11 +788,11 @@
 
 198
 00:13:46,480 --> 00:13:50,080
- So we've talked about links, we've talked about the links configuration file, we've
+ So we've talked about lynx, we've talked about the lynx configuration file, we've
 
 199
 00:13:50,080 --> 00:13:57,480
- talked about the links color file, and we've talked about one of the ways to write a command
+ talked about the lynx color file, and we've talked about one of the ways to write a command
 
 200
 00:13:57,480 --> 00:14:05,920
@@ -812,7 +812,7 @@
 
 204
 00:14:15,200 --> 00:14:20,480
- Unfortunately, if you do an alias, you won't be able to call links from other programs.
+ Unfortunately, if you do an alias, you won't be able to call lynx from other programs.
 
 205
 00:14:20,480 --> 00:14:24,880
@@ -820,7 +820,7 @@
 
 206
 00:14:24,880 --> 00:14:30,160
- a few questions and then fire up links, you could not do that because aliases are not,
+ a few questions and then fire up lynx, you could not do that because aliases are not,
 
 207
 00:14:30,160 --> 00:14:37,880
@@ -840,11 +840,11 @@
 
 211
 00:14:49,020 --> 00:14:51,080
- right from VI until links if I needed to.
+ right from VI until lynx if I needed to.
 
 212
 00:14:51,080 --> 00:14:55,040
- So we've talked about, we've talked about what links is, how to search the value of
+ So we've talked about, we've talked about what lynx is, how to search the value of
 
 213
 00:14:55,040 --> 00:14:56,040
@@ -876,7 +876,7 @@
 
 220
 00:15:17,640 --> 00:15:22,240
- And then we have this command function to call links, the actual links.
+ And then we have this command function to call lynx, the actual lynx.
 
 221
 00:15:22,240 --> 00:15:25,560
@@ -912,7 +912,7 @@
 
 229
 00:15:52,800 --> 00:15:57,320
- So it calls links and links therefore calls this command function up here.
+ So it calls lynx and lynx therefore calls this command function up here.
 
 230
 00:15:57,320 --> 00:16:00,160
@@ -992,7 +992,7 @@
 
 249
 00:16:58,080 --> 00:17:06,280
- my sentences on to, to links and to their, and to duck to do those things.
+ my sentences on to, to lynx and to their, and to duck to do those things.
 
 250
 00:17:06,280 --> 00:17:08,040
@@ -1040,7 +1040,7 @@
 
 261
 00:17:44,440 --> 00:17:47,880
- We have a couple of people who say good old links here.
+ We have a couple of people who say good old lynx here.
 
 262
 00:17:47,880 --> 00:17:51,680

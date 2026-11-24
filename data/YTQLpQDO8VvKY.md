@@ -81,7 +81,7 @@ Science & Technology
 [00:04:04] This is coming from people who have led large-scale write it and rust projects and written blogs about it because it was so
 [00:04:12] Catastropically bad and destroyed their project and they had to redo it and go or Python or something that could be written much faster
 [00:04:18] the entire
-[00:04:19] Reason that Python and Pearl came to power and node in is because of their dynamic rapid applications development
+[00:04:19] Reason that Python and Perl came to power and node in is because of their dynamic rapid applications development
 [00:04:26] Idea that you could turn around applications faster and rust is the antithesis of that
 [00:04:31] So go is the nice happy sweet spot in the middle, and that's why it dominates for enterprise computing. Sorry
 [00:04:37] That's just the facts. Okay, so if you go back to my number one video though

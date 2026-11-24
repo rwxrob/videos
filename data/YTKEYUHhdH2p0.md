@@ -718,7 +718,7 @@ Education
 [00:41:43] It's really nothing proprietary about it.
 [00:41:44] It's like are you a one or a 10, right?
 [00:41:47] The difference was is that at Google, a 10 means you made the thing.
-[00:41:51] That means you invented Pearl, your Larry Wall.
+[00:41:51] That means you invented Perl, your Larry Wall.
 [00:41:54] That means you invented Parth Python, you're going to make a real something.
 [00:41:59] You invented microservices, your Visos, if you give them credit.
 [00:42:06] You didn't say that you were a 10 on all these other things, oh, I'm a 10 on that, I'm a 10.
@@ -2513,7 +2513,7 @@ Education
 [03:01:48] boost container. Let's try to attach no container name boost. Okay. So now we're going to do
 [03:01:55] run it. Okay. So now it works. Yay. So the tree sitter thing is fine. It's, it's minor.
 [03:02:03] Well, we'll fix it eventually. It doesn't just make your, your colorful, it gives you syntax.
-[03:02:08] It gives you syntax to know what a function is in Bash and Pearl and everything else. It's
+[03:02:08] It gives you syntax to know what a function is in Bash and Perl and everything else. It's
 [03:02:12] really cool. It's, I'll, I'll show you when we get into editing. So that's one of the reasons I
 [03:02:16] have a container for this. Okay. So now you can type clear to clear to the screen. And we have a
 [03:02:22] container. Boo. Yeah. You've got a new bunch of container. You're able to edit things. You can

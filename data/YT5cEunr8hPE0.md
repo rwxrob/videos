@@ -507,10 +507,10 @@ Science & Technology
 [00:38:05] And you mark my words and I put this in the blog mark my words in five to ten years
 [00:38:10] You're gonna see tons of massive rust code bases that are gonna come out of this and you're gonna start seeing people say
 [00:38:18] Rust is read only and they're gonna forget
-[00:38:20] They'll have forgotten about Pearl by then and they will be telling you all of the same things that people today hate on Pearl about
-[00:38:27] When Pearl was used for server-side web development when it was never intended to do that
+[00:38:20] They'll have forgotten about Perl by then and they will be telling you all of the same things that people today hate on Perl about
+[00:38:27] When Perl was used for server-side web development when it was never intended to do that
 [00:38:32] It was intended to be you know the world's best
-[00:38:35] Auk and said and TR and cut replacement and people continue to to bag on Pearl
+[00:38:35] Auk and said and TR and cut replacement and people continue to to bag on Perl
 [00:38:39] But you mark my words one of these days somebody is gonna say that they're gonna this all of a sudden become popular
 [00:38:45] Back right now rust is at the beginning of the Gartner hype sky Gartner hype cycle
 [00:38:49] And if you don't know what that is go look it up

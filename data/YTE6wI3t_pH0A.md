@@ -62,7 +62,7 @@ Education
 [00:00:46] the time of the last boost, I've produced four high quality, not AI slop, high quality applications
 [00:00:56] using AI for my personal use and some for company use. One of the things I've been doing for my
 [00:01:01] company, including this very objective long-winded project manager speak for recommendations about
-[00:01:09] how to modernize our Pearl code base has saved me weeks of time and created opportunities to
+[00:01:09] how to modernize our Perl code base has saved me weeks of time and created opportunities to
 [00:01:17] collaborate and understand one another that were not possible before because the document to write
 [00:01:22] it would have taken me a day or two just by itself not counting all the research, the highly
 [00:01:28] detailed research the AI was able to do for me. The takeaway from this statement is that if you

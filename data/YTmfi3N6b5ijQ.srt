@@ -228,7 +228,7 @@
 
 58
 00:05:00,880 --> 00:05:04,760
- you're fine because I had written some pearl code that I wanted to use at work
+ you're fine because I had written some perl code that I wanted to use at work
 
 59
 00:05:04,760 --> 00:05:09,440

@@ -128,7 +128,7 @@
 
 33
 00:02:15,580 --> 00:02:21,460
- So every time I remember that I want to have, you know, no options, I want to use Banzai
+ So every time I remember that I want to have, you know, no options, I want to use Bonsai
 
 34
 00:02:21,460 --> 00:02:28,220

@@ -2740,7 +2740,7 @@
 
 686
 00:41:51,520 --> 00:41:54,520
- That means you invented Pearl, your Larry Wall.
+ That means you invented Perl, your Larry Wall.
 
 687
 00:41:54,520 --> 00:41:59,840
@@ -9920,7 +9920,7 @@ ation set up.
 
 2481
 03:02:08,640 --> 03:02:12,000
- It gives you syntax to know what a function is in Bash and Pearl and everything else. It's
+ It gives you syntax to know what a function is in Bash and Perl and everything else. It's
 
 2482
 03:02:12,000 --> 03:02:16,720

@@ -105,7 +105,7 @@ Education
 [00:04:48] important the project is how much money it's worth I actually had a lawyer from
 [00:04:53] a company that shall not be named call me because I was so paranoid about this
 [00:04:56] very sort of thing and they said yeah I don't worry about it this is and you
-[00:05:00] you're fine because I had written some pearl code that I wanted to use at work
+[00:05:00] you're fine because I had written some perl code that I wanted to use at work
 [00:05:04] but I had written it as an open source project separate and at the time the
 [00:05:09] company that I worked for claimed to own everything including your dreams it
 [00:05:14] was all theirs and they would litigate against you to get it and I don't work

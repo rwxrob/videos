@@ -1464,7 +1464,7 @@
 
 367
 00:28:15,120 --> 00:28:21,920
- I wrote a compiled pearl using something called Pearl-the-E-X-E.
+ I wrote a compiled perl using something called Perl-the-E-X-E.
 
 368
 00:28:21,920 --> 00:28:25,360
@@ -1836,7 +1836,7 @@
 
 460
 00:35:30,900 --> 00:35:38,080
- potent operations, item potent is a big, big word in system DE, it's a big word in all
+ potent operations, idempotent is a big, big word in system DE, it's a big word in all
 
 461
 00:35:38,080 --> 00:35:39,080
@@ -1844,7 +1844,7 @@
 
 462
 00:35:39,080 --> 00:35:45,600
- Item potent simply means that you declare what you want, and then the system over time
+ idempotent simply means that you declare what you want, and then the system over time
 
 463
 00:35:45,600 --> 00:35:47,880
@@ -1876,7 +1876,7 @@
 
 470
 00:36:07,580 --> 00:36:12,200
- it, and it'll automatically make a new one because of the item potent declaration that
+ it, and it'll automatically make a new one because of the idempotent declaration that
 
 471
 00:36:12,200 --> 00:36:14,760
@@ -1888,7 +1888,7 @@
 
 473
 00:36:19,200 --> 00:36:24,320
- The thing that's really great about item potent operations is that they are meshing really
+ The thing that's really great about idempotent operations is that they are meshing really
 
 474
 00:36:24,320 --> 00:36:28,920
@@ -1900,7 +1900,7 @@
 
 476
 00:36:33,840 --> 00:36:40,680
- I think you should learn it, but item potent stuff, I was reading about the CLOD MD file.
+ I think you should learn it, but idempotent stuff, I was reading about the CLOD MD file.
 
 477
 00:36:40,680 --> 00:36:45,000
@@ -1952,7 +1952,7 @@
 
 489
 00:37:32,320 --> 00:37:37,800
- repo during a software development project with CLOD is largely an item potent thing.
+ repo during a software development project with CLOD is largely an idempotent thing.
 
 490
 00:37:37,800 --> 00:37:42,920
@@ -1976,7 +1976,7 @@
 
 495
 00:37:55,720 --> 00:38:03,760
- Those are item potent declarations about how the system should always be from a software
+ Those are idempotent declarations about how the system should always be from a software
 
 496
 00:38:03,760 --> 00:38:05,240
@@ -2108,7 +2108,7 @@
 
 528
 00:40:22,620 --> 00:40:29,880
- software, bash versus go, pearl versus go, well that's sort of software and you're there.
+ software, bash versus go, perl versus go, well that's sort of software and you're there.
 
 529
 00:40:29,880 --> 00:40:35,280

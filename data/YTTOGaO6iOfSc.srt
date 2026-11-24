@@ -108,7 +108,7 @@
 
 28
 00:01:26,640 --> 00:01:32,400
- to go, which don't belong and go and how Pearl fixes all of that.
+ to go, which don't belong and go and how Perl fixes all of that.
 
 29
 00:01:32,400 --> 00:01:33,720
@@ -160,7 +160,7 @@
 
 41
 00:02:16,600 --> 00:02:20,600
- which you can do in Pearl, so you have to put the plus, you know, the negative thing above
+ which you can do in Perl, so you have to put the plus, you know, the negative thing above
 
 42
 00:02:20,600 --> 00:02:25,240
@@ -172,7 +172,7 @@
 
 44
 00:02:28,320 --> 00:02:32,320
- you, you know, because they're extended regular expressions are not Pearl regular expressions,
+ you, you know, because they're extended regular expressions are not Perl regular expressions,
 
 45
 00:02:32,320 --> 00:02:37,320
@@ -232,7 +232,7 @@
 
 59
 00:03:19,320 --> 00:03:24,400
- So, so I found myself reaching for Pearl and, and calling out to a sub shell or something
+ So, so I found myself reaching for Perl and, and calling out to a sub shell or something
 
 60
 00:03:24,400 --> 00:03:26,440
@@ -244,7 +244,7 @@
 
 62
 00:03:32,120 --> 00:03:36,440
- of the stuff that's been redefined in Pearl to, to match regular expression, to match
+ of the stuff that's been redefined in Perl to, to match regular expression, to match
 
 63
 00:03:36,440 --> 00:03:37,440
@@ -256,7 +256,7 @@
 
 65
 00:03:40,400 --> 00:03:45,320
- But if you, if you can't in, in, in Pearl, you can actually use capital P and stuff like
+ But if you, if you can't in, in, in Perl, you can actually use capital P and stuff like
 
 66
 00:03:45,320 --> 00:03:48,840
@@ -280,7 +280,7 @@
 
 71
 00:03:58,520 --> 00:04:00,320
- It's absolutely horrible that you come from Pearl.
+ It's absolutely horrible that you come from Perl.
 
 72
 00:04:00,320 --> 00:04:03,360
@@ -316,11 +316,11 @@
 
 80
 00:04:21,720 --> 00:04:25,800
- These are all things that Pearl has in two characters, LC, UC, and a bunch of these things
+ These are all things that Perl has in two characters, LC, UC, and a bunch of these things
 
 81
 00:04:25,800 --> 00:04:27,480
- are all covered by Pearl already.
+ are all covered by Perl already.
 
 82
 00:04:27,480 --> 00:04:33,520
@@ -340,7 +340,7 @@
 
 86
 00:04:46,600 --> 00:04:49,280
- the installer scripts that I write should be written in Pearl.
+ the installer scripts that I write should be written in Perl.
 
 87
 00:04:49,280 --> 00:04:50,280
@@ -384,7 +384,7 @@
 
 97
 00:05:24,560 --> 00:05:27,400
- This code right here, people say that Pearl is hard to read, right?
+ This code right here, people say that Perl is hard to read, right?
 
 98
 00:05:27,400 --> 00:05:29,600
@@ -392,7 +392,7 @@
 
 99
 00:05:29,600 --> 00:05:32,960
- This is bash doing the same thing that Pearl would do, right?
+ This is bash doing the same thing that Perl would do, right?
 
 100
 00:05:32,960 --> 00:05:34,120
@@ -412,7 +412,7 @@
 
 104
 00:05:43,000 --> 00:05:45,120
- You have to like shell out to BC to get it with Pearl.
+ You have to like shell out to BC to get it with Perl.
 
 105
 00:05:45,120 --> 00:05:49,360
@@ -440,7 +440,7 @@
 
 111
 00:05:56,320 --> 00:06:00,800
- Let's imagine the fact that Pearl is like one half the side, no, one quarter of the size
+ Let's imagine the fact that Perl is like one half the side, no, one quarter of the size
 
 112
 00:06:00,800 --> 00:06:02,680
@@ -452,7 +452,7 @@
 
 114
 00:06:03,680 --> 00:06:08,440
- And I mean, if you do shell out and you use Pearl as a, as a, as a shell on steroids,
+ And I mean, if you do shell out and you use Perl as a, as a, as a shell on steroids,
 
 115
 00:06:08,440 --> 00:06:09,440
@@ -464,7 +464,7 @@
 
 117
 00:06:11,440 --> 00:06:17,520
- Um, we actually had somebody report that somebody was saying that Python, that Pearl
+ Um, we actually had somebody report that somebody was saying that Python, that Perl
 
 118
 00:06:17,520 --> 00:06:19,640
@@ -484,11 +484,11 @@
 
 122
 00:06:26,280 --> 00:06:29,880
- Pearl does all of that automatically, you, you use, use Pearl doc and then you can make
+ Perl does all of that automatically, you, you use, use Perl doc and then you can make
 
 123
 00:06:29,880 --> 00:06:32,680
- your Pearl program be its own man page.
+ your Perl program be its own man page.
 
 124
 00:06:32,680 --> 00:06:35,000
@@ -500,7 +500,7 @@
 
 126
 00:06:37,280 --> 00:06:42,080
- This setting of default values is like crazy, stupid compared to Pearl, compared to Pearl,
+ This setting of default values is like crazy, stupid compared to Perl, compared to Perl,
 
 127
 00:06:42,080 --> 00:06:45,680
@@ -524,7 +524,7 @@
 
 132
 00:06:57,560 --> 00:07:00,320
- They're actually easier to understand in Pearl.
+ They're actually easier to understand in Perl.
 
 133
 00:07:00,320 --> 00:07:02,120
@@ -568,11 +568,11 @@
 
 143
 00:07:27,200 --> 00:07:29,040
- So you guys know I made Banzai, right?
+ So you guys know I made Bonsai, right?
 
 144
 00:07:29,040 --> 00:07:30,040
- I made Banzai.
+ I made Bonsai.
 
 145
 00:07:30,040 --> 00:07:31,320
@@ -600,7 +600,7 @@
 
 151
 00:07:43,600 --> 00:07:46,040
- And I wrote Banzai specifically for one purpose.
+ And I wrote Bonsai specifically for one purpose.
 
 152
 00:07:46,040 --> 00:07:50,720
@@ -668,7 +668,7 @@
 
 168
 00:08:29,480 --> 00:08:30,880
- a shell Pearl go bliss.
+ a shell Perl go bliss.
 
 169
 00:08:30,880 --> 00:08:31,880
@@ -688,11 +688,11 @@
 
 173
 00:08:40,960 --> 00:08:43,900
- bonsai because I didn't have Pearl.
+ bonsai because I didn't have Perl.
 
 174
 00:08:43,900 --> 00:08:47,480
- And if, if I had had Pearl to do all of the manipulation, everything, I'd be able to
+ And if, if I had had Perl to do all of the manipulation, everything, I'd be able to
 
 175
 00:08:47,480 --> 00:08:50,840
@@ -744,7 +744,7 @@
 
 187
 00:09:27,160 --> 00:09:30,520
- shell scripts and Python and Pearl and that kind of thing, right?
+ shell scripts and Python and Perl and that kind of thing, right?
 
 188
 00:09:30,520 --> 00:09:33,400
@@ -752,7 +752,7 @@
 
 189
 00:09:33,400 --> 00:09:38,600
- So we're, I'm going to do a whole curse on, on Pearl now, and because, because I've been
+ So we're, I'm going to do a whole curse on, on Perl now, and because, because I've been
 
 190
 00:09:38,600 --> 00:09:42,800
@@ -804,7 +804,7 @@
 
 202
 00:10:06,400 --> 00:10:11,760
- That's got all my config and then that, that frees me to make 300, 400, 600 Pearl scripts
+ That's got all my config and then that, that frees me to make 300, 400, 600 Perl scripts
 
 203
 00:10:11,760 --> 00:10:13,080
@@ -892,7 +892,7 @@
 
 224
 00:11:08,040 --> 00:11:12,480
- tonight that basically, you know, Pearl is the king of glue languages.
+ tonight that basically, you know, Perl is the king of glue languages.
 
 225
 00:11:12,480 --> 00:11:15,720
@@ -920,7 +920,7 @@
 
 231
 00:11:33,380 --> 00:11:38,440
- So as soon as I start needing to do extra things, I like reaching for Pearl.
+ So as soon as I start needing to do extra things, I like reaching for Perl.
 
 232
 00:11:38,440 --> 00:11:41,840
@@ -944,11 +944,11 @@
 
 237
 00:11:56,480 --> 00:12:02,880
- have spent so much time writing go to replace my shell scripts had I had Pearl had had Pearl.
+ have spent so much time writing go to replace my shell scripts had I had Perl had had Perl.
 
 238
 00:12:02,880 --> 00:12:05,640
- It would have been Pearl all the way the whole entire time.
+ It would have been Perl all the way the whole entire time.
 
 239
 00:12:05,640 --> 00:12:09,360
@@ -984,7 +984,7 @@
 
 247
 00:12:28,720 --> 00:12:30,880
- That is, you know, that was kind of things you don't want for Pearl.
+ That is, you know, that was kind of things you don't want for Perl.
 
 248
 00:12:30,880 --> 00:12:35,520
@@ -1000,7 +1000,7 @@
 
 251
 00:12:46,400 --> 00:12:48,800
- And most of those are going to be changed from bash to Pearl.
+ And most of those are going to be changed from bash to Perl.
 
 252
 00:12:48,800 --> 00:12:53,040
@@ -1028,7 +1028,7 @@
 
 258
 00:13:09,840 --> 00:13:13,320
- and make it Python instead of Pearl or instead of bash, right, I can go back to positive
+ and make it Python instead of Perl or instead of bash, right, I can go back to positive
 
 259
 00:13:13,320 --> 00:13:14,320
@@ -1084,15 +1084,15 @@
 
 272
 00:13:48,360 --> 00:13:53,120
- way to use a Pearl compatible regular expression on something that may or may not be installed.
+ way to use a Perl compatible regular expression on something that may or may not be installed.
 
 273
 00:13:53,120 --> 00:13:59,720
- If you have Pearl, you have all of that for free for one, fourth, the RAM size consumption.
+ If you have Perl, you have all of that for free for one, fourth, the RAM size consumption.
 
 274
 00:13:59,720 --> 00:14:04,400
- This is that blew me away when I saw when I saw that the Pearl execute, the Pearl interpreters
+ This is that blew me away when I saw when I saw that the Perl execute, the Perl interpreters
 
 275
 00:14:04,400 --> 00:14:08,760
@@ -1112,15 +1112,15 @@
 
 279
 00:14:15,960 --> 00:14:18,280
- talking, uh, Pearl and this era.
+ talking, uh, Perl and this era.
 
 280
 00:14:18,280 --> 00:14:23,040
- So, uh, most platforms, Pearl work anywhere that there's a Git.
+ So, uh, most platforms, Perl work anywhere that there's a Git.
 
 281
 00:14:23,040 --> 00:14:25,920
- So anywhere that there is a Git, there will be Pearl.
+ So anywhere that there is a Git, there will be Perl.
 
 282
 00:14:25,920 --> 00:14:29,000
@@ -1132,7 +1132,7 @@
 
 284
 00:14:33,920 --> 00:14:41,560
- are requiring Pearl version 5.26, which is amazing because they're already up to like
+ are requiring Perl version 5.26, which is amazing because they're already up to like
 
 285
 00:14:41,560 --> 00:14:46,680
@@ -1148,7 +1148,7 @@
 
 288
 00:14:52,040 --> 00:14:56,120
- to pull Pearl out of the project and instead they're upgrading it.
+ to pull Perl out of the project and instead they're upgrading it.
 
 289
 00:14:56,120 --> 00:14:57,120

@@ -72,7 +72,7 @@ Education
 [00:03:40] They do not accept Claude as the lord and savior.
 [00:03:43] But you, so you kind of quietly use it and you don't tell anybody else because, you know,
 [00:03:47] but you like are crazy more efficient than them.
-[00:03:51] For example, I just wrote 18, I ported an entire ancient pearl code base for a utility
+[00:03:51] For example, I just wrote 18, I ported an entire ancient perl code base for a utility
 [00:03:58] thing that had 18 or 20 different operators inside of it called FQ util and it took me
 [00:04:04] less than six hours.
 [00:04:07] And sure the most, the thing that took me the longest amount of time was reading the code

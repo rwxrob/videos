@@ -4,7 +4,7 @@
 
 2
 00:00:06,600 --> 00:00:11,600
- You might think the answer is pandock vi and get and and that would be partially true
+ You might think the answer is pandoc vi and get and and that would be partially true
 
 3
 00:00:11,680 --> 00:00:15,280
@@ -20,7 +20,7 @@
 
 6
 00:00:27,520 --> 00:00:30,520
- Pandock I have no hate for people who want to use it
+ Pandoc I have no hate for people who want to use it
 
 7
 00:00:31,760 --> 00:00:33,760

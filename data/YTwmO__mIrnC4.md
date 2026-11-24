@@ -49,7 +49,7 @@ Science & Technology
 [00:02:06] can do this, which is to remember a persistent state.
 [00:02:09] The closest thing to that, by the way, made a video about this is to create an agentic
 [00:02:14] template.
-[00:02:15] So every time I remember that I want to have, you know, no options, I want to use Banzai
+[00:02:15] So every time I remember that I want to have, you know, no options, I want to use Bonsai
 [00:02:21] for my going things or I want to have Markdown be a single line paragraph, I put all those
 [00:02:28] into my long-term agent side and deep file and into a template.
 [00:02:33] Every time I start up a new session, my thing is that it remembers it and it says go use

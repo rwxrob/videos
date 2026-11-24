@@ -115,8 +115,8 @@ Education
 [00:05:51] their deliverable slip, and their timeline slip, because, because somebody is rolling
 [00:05:57] out somebody's code because there's no coordination among, and a team of only six people, okay?
 [00:06:02] So you can't bring other people onto the team if you're not following these practices,
-[00:06:07] because, you know, three or four cooks in the kitchen all in the same, you know, pearl
-[00:06:10] module is going to break everything, whether it's pearl or python doesn't matter.
+[00:06:07] because, you know, three or four cooks in the kitchen all in the same, you know, perl
+[00:06:10] module is going to break everything, whether it's perl or python doesn't matter.
 [00:06:14] So just the first challenge you're going to have to face is that, is that you're going
 [00:06:18] to be dealing with people who don't code, people who don't code, and not only do they
 [00:06:22] not code, they don't value coding best practices, period.
@@ -147,7 +147,7 @@ Education
 [00:08:02] You really can't convince people that, you know, because as long as it's working, they
 [00:08:07] don't see this in issue.
 [00:08:09] And you have to let things break, and you know, I have another issue right now.
-[00:08:14] Somebody's importing a Pearl library that's making a database connection in the global
+[00:08:14] Somebody's importing a Perl library that's making a database connection in the global
 [00:08:18] space every time the module is imported, which prevents the entire module from being tested
 [00:08:23] in any way, because it requires a database to be up and running in order to even use the
 [00:08:29] module.

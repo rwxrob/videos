@@ -20,7 +20,7 @@ Science & Technology
 [00:00:35] members actually found, recreated the exact same script which already existed in the Z
 [00:00:40] shell project.
 [00:00:41] So under the github.com Z shell that's user slash zsh here, you'll see a directory called
-[00:00:46] completion, and there is this really amazing script called bash comp and knit.
+[00:00:46] completion, and there is this really amazing script called bashcompinit.
 [00:00:52] And if you run this, if you put this in your Z shell, which, you know, I don't know how
 [00:00:57] to do, because I don't use the shell, he's bash.
 [00:00:59] Guess what?

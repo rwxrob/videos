@@ -93,21 +93,21 @@ Education
 [00:06:22] bit. That's my biggest complaint about NeoVIM right now. That and the blistering pace of change,
 [00:06:29] where they break things all the time. But if you put, so here's the main relevant
 [00:06:37] stuff you need. You need NeoVIM tree sitter and NeoVIM tree sitter text objects. Now,
-[00:06:43] I've got a PR submitted against this project and even a tree sitter on project to add the pearl
-[00:06:54] stuff to that. So I've done a lot of pouring of old Pearl code that submits to PBS. 19,
+[00:06:43] I've got a PR submitted against this project and even a tree sitter on project to add the perl
+[00:06:54] stuff to that. So I've done a lot of pouring of old Perl code that submits to PBS. 19,
 [00:07:01] which is this ancient batch system and I'm modernizing it to submit the slurm.
-[00:07:05] And we have to do a lot of Pearl coding in there. So I'm working with that and actually added
+[00:07:05] And we have to do a lot of Perl coding in there. So I'm working with that and actually added
 [00:07:10] that line to do the AF thing, which you can go. That's actually Sam. I think I might have it
 [00:07:18] somewhere. All right. So actually, if you want to do this without, you can just use my plugin
-[00:07:25] as got it. But if you, because you can't do that with Pearl right now, it's not supported by NeoVIM.
+[00:07:25] as got it. But if you, because you can't do that with Perl right now, it's not supported by NeoVIM.
 [00:07:30] But if you use mine, then you'll be able to do it. Otherwise, you can just go edit the
 [00:07:37] the NeoVIM lines of what mine does. I can't remember where I put it.
 [00:07:51] I don't even know where it is. I just know that it's in the plugin now.
 [00:07:55] Oh, that's probably why. Yeah, I got rid of my personalized one and I put it in the actual
-[00:08:00] plugin, my version of the plugin. So what it was is it adds the idea of a function to Pearl
-[00:08:12] so that when you do the AF or it doesn't have I up, but if you do AF, it knows what a Pearl
+[00:08:00] plugin, my version of the plugin. So what it was is it adds the idea of a function to Perl
+[00:08:12] so that when you do the AF or it doesn't have I up, but if you do AF, it knows what a Perl
 [00:08:20] function is and that was missing from the NeoVIM two-seater text object. So it's in this version
-[00:08:27] of the plugin if you want to add it. If you're doing Pearl, that's really the only reason to
+[00:08:27] of the plugin if you want to add it. If you're doing Perl, that's really the only reason to
 [00:08:31] do mine. Otherwise, it's usually the other one. And eventually that one, hopefully they'll get
 [00:08:35] approved. It takes them. There's like PR from December that haven't been approved. Maybe they'll
 [00:08:40] get there someday. But yeah, that's how and it works for everything, by the way. So like if I'm

@@ -83,7 +83,7 @@ Science & Technology
 [00:02:22] I can go off BashRC.
 [00:02:24] It passes BashRC and show spec flags that escape fixes might be not going to work.
 [00:02:34] There's a reason I had an actual escape in my BashRC.
-[00:02:39] I can go ahead and fix BashRC and show specks and Pearl Pearl and be off a hooding.
+[00:02:39] I can go ahead and fix BashRC and show specks and Perl Perl and be off a hooding.
 [00:02:54] I want to start a local oops snippet so it's alone.
 [00:02:56] I haven't sourced it.
 [00:02:58] So I'm doing this all in a draft PR so that I can compare the changes it made.
@@ -2245,11 +2245,11 @@ Science & Technology
 [02:46:09] mention the fact that I'm just not fucking using note at all. It's disastrously bad,
 [02:46:14] horrible technology that I avoid at all costs. Um, so not using it. Um, and I don't know what
 [02:46:27] all this pro stuff is a four left over for, uh, install base. I don't remember why I have
-[02:46:38] all this pearl crap in here. Use me's, I didn't even know that was a thing. So, yeah, but
+[02:46:38] all this perl crap in here. Use me's, I didn't even know that was a thing. So, yeah, but
 [02:46:46] NVM is not getting used. Mies is better. Yeah. Well, that's pretty much node, like something
 [02:46:56] new is the thing to use every two weeks. No, not interested. I, I am, if I never write
 [02:47:03] a line of JavaScript code at the end of my life, so help me God, I won't. Uh, what about
-[02:47:10] all the pearl stuff? And I think if you, um, it's not that new, it's been around forever
+[02:47:10] all the perl stuff? And I think if you, um, it's not that new, it's been around forever
 [02:47:21] than why is NVM required by so many things before we're doing pro, uh, the till the
 [02:47:30] pro five holds real modules to my cursor and that block is what makes pro find them. It
 [02:47:37] confirms that without parole of fishies can't find us models. Okay. Wait, what? Don't do

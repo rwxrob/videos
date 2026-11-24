@@ -216,7 +216,7 @@
 
 55
 00:04:19,800 --> 00:04:25,940
- Reason that Python and Pearl came to power and node in is because of their dynamic rapid applications development
+ Reason that Python and Perl came to power and node in is because of their dynamic rapid applications development
 
 56
 00:04:26,680 --> 00:04:30,960

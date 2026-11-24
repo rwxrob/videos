@@ -364,11 +364,11 @@
 
 92
 00:06:07,400 --> 00:06:10,560
- because, you know, three or four cooks in the kitchen all in the same, you know, pearl
+ because, you know, three or four cooks in the kitchen all in the same, you know, perl
 
 93
 00:06:10,560 --> 00:06:14,120
- module is going to break everything, whether it's pearl or python doesn't matter.
+ module is going to break everything, whether it's perl or python doesn't matter.
 
 94
 00:06:14,120 --> 00:06:18,840
@@ -492,7 +492,7 @@
 
 124
 00:08:14,600 --> 00:08:18,320
- Somebody's importing a Pearl library that's making a database connection in the global
+ Somebody's importing a Perl library that's making a database connection in the global
 
 125
 00:08:18,320 --> 00:08:23,680

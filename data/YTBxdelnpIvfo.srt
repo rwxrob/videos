@@ -280,11 +280,11 @@
 
 71
 00:06:43,520 --> 00:06:52,160
- I've got a PR submitted against this project and even a tree sitter on project to add the pearl
+ I've got a PR submitted against this project and even a tree sitter on project to add the perl
 
 72
 00:06:54,800 --> 00:07:01,360
- stuff to that. So I've done a lot of pouring of old Pearl code that submits to PBS. 19,
+ stuff to that. So I've done a lot of pouring of old Perl code that submits to PBS. 19,
 
 73
 00:07:01,360 --> 00:07:05,520
@@ -292,7 +292,7 @@
 
 74
 00:07:05,520 --> 00:07:09,360
- And we have to do a lot of Pearl coding in there. So I'm working with that and actually added
+ And we have to do a lot of Perl coding in there. So I'm working with that and actually added
 
 75
 00:07:10,640 --> 00:07:18,560
@@ -304,7 +304,7 @@
 
 77
 00:07:25,120 --> 00:07:30,640
- as got it. But if you, because you can't do that with Pearl right now, it's not supported by NeoVIM.
+ as got it. But if you, because you can't do that with Perl right now, it's not supported by NeoVIM.
 
 78
 00:07:30,640 --> 00:07:36,240
@@ -324,11 +324,11 @@
 
 82
 00:08:00,800 --> 00:08:12,400
- plugin, my version of the plugin. So what it was is it adds the idea of a function to Pearl
+ plugin, my version of the plugin. So what it was is it adds the idea of a function to Perl
 
 83
 00:08:12,960 --> 00:08:20,320
- so that when you do the AF or it doesn't have I up, but if you do AF, it knows what a Pearl
+ so that when you do the AF or it doesn't have I up, but if you do AF, it knows what a Perl
 
 84
 00:08:20,320 --> 00:08:27,280
@@ -336,7 +336,7 @@
 
 85
 00:08:27,280 --> 00:08:31,920
- of the plugin if you want to add it. If you're doing Pearl, that's really the only reason to
+ of the plugin if you want to add it. If you're doing Perl, that's really the only reason to
 
 86
 00:08:31,920 --> 00:08:35,520

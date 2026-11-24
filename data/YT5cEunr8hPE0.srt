@@ -1812,11 +1812,11 @@
 
 454
 00:38:20,680 --> 00:38:27,480
- They'll have forgotten about Pearl by then and they will be telling you all of the same things that people today hate on Pearl about
+ They'll have forgotten about Perl by then and they will be telling you all of the same things that people today hate on Perl about
 
 455
 00:38:27,480 --> 00:38:31,960
- When Pearl was used for server-side web development when it was never intended to do that
+ When Perl was used for server-side web development when it was never intended to do that
 
 456
 00:38:32,040 --> 00:38:35,000
@@ -1824,7 +1824,7 @@
 
 457
 00:38:35,000 --> 00:38:39,560
- Auk and said and TR and cut replacement and people continue to to bag on Pearl
+ Auk and said and TR and cut replacement and people continue to to bag on Perl
 
 458
 00:38:39,560 --> 00:38:45,120

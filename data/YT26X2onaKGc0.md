@@ -47,11 +47,11 @@ Education
 ## Transcription
 
 [00:00:00] What I have to use to take notes so I'm actually answer this a lot of other times and the answer
-[00:00:06] You might think the answer is pandock vi and get and and that would be partially true
+[00:00:06] You might think the answer is pandoc vi and get and and that would be partially true
 [00:00:11] So I kind of got to tell you it's not emax. God. No fucking hate me max
 [00:00:16] That's gonna get me banned from YouTube for saying that that early, but you said emax and I had to say
 [00:00:23] If you like emax fine, I don't that's all I have to say about that
-[00:00:27] Pandock I have no hate for people who want to use it
+[00:00:27] Pandoc I have no hate for people who want to use it
 [00:00:31] and get
 [00:00:33] get get
 [00:00:36] github

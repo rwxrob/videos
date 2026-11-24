@@ -407,7 +407,7 @@ Education
 [00:27:57] I got pulled in on a team, and their job was to manage a bunch of servers, and to just
 [00:28:03] check them for security compliance and stuff like that, but to do it at a massive scale.
 [00:28:09] I'm trying to give you a sense of what the job entails by telling you about this.
-[00:28:15] I wrote a compiled pearl using something called Pearl-the-E-X-E.
+[00:28:15] I wrote a compiled perl using something called Perl-the-E-X-E.
 [00:28:21] This is what we only had back then, there was no go.
 [00:28:25] It would run, I wrote a transport layer, and you'd run this agent on all of the nodes.
 [00:28:32] We didn't call them nodes back then, we just called them servers.
@@ -500,9 +500,9 @@ Education
 [00:35:17] focus on system design, reliability, scalability, failure modes, and automation.
 [00:35:23] Automation is a big, big piece of this.
 [00:35:25] I think in terms of control planes, agents, APIs, and events, events queues, and item
-[00:35:30] potent operations, item potent is a big, big word in system DE, it's a big word in all
+[00:35:30] potent operations, idempotent is a big, big word in system DE, it's a big word in all
 [00:35:38] of this.
-[00:35:39] Item potent simply means that you declare what you want, and then the system over time
+[00:35:39] idempotent simply means that you declare what you want, and then the system over time
 [00:35:45] creates that situation.
 [00:35:47] I want three servers that are doing this and this and this, and it will maintain the state
 [00:35:52] of the system.
@@ -510,13 +510,13 @@ Education
 [00:35:56] It's really amazing.
 [00:35:57] You can say, look, I want three servers constantly answering this thing about this thing, and
 [00:36:03] then if one of those pods goes down or gets bad or out of health, or you can even kill
-[00:36:07] it, and it'll automatically make a new one because of the item potent declaration that
+[00:36:07] it, and it'll automatically make a new one because of the idempotent declaration that
 [00:36:12] I want three of them.
 [00:36:14] And then the system knows that you want that third one, and then we'll do it.
-[00:36:19] The thing that's really great about item potent operations is that they are meshing really
+[00:36:19] The thing that's really great about idempotent operations is that they are meshing really
 [00:36:24] well with the idea of systems development.
 [00:36:28] Recently, I've been learning CLOD, and I don't know it very well.
-[00:36:33] I think you should learn it, but item potent stuff, I was reading about the CLOD MD file.
+[00:36:33] I think you should learn it, but idempotent stuff, I was reading about the CLOD MD file.
 [00:36:40] So one of the things that I don't like about CLOD, at least when I initially used it, is
 [00:36:45] that it doesn't remember context, at least I didn't, not the way I was doing it.
 [00:36:49] If you provide a CLOD MD file in Markdown, which is an essential skill now, Markdown
@@ -529,13 +529,13 @@ Education
 [00:37:19] going to be able to develop anything.
 [00:37:21] So spend some time on it, get it right.
 [00:37:26] But in Markdown, so the Markdown specification of what the context is for a particular Git
-[00:37:32] repo during a software development project with CLOD is largely an item potent thing.
+[00:37:32] repo during a software development project with CLOD is largely an idempotent thing.
 [00:37:37] So the reason you're putting it in there is so that when CLOD does anything, CLOD remembers
 [00:37:42] the item potency of the main prompts that were required for the context of that development.
 [00:37:49] It's like, no, I never ever want to use JavaScript here.
 [00:37:52] I only want to use this go tool.
 [00:37:54] I want to use this thing.
-[00:37:55] Those are item potent declarations about how the system should always be from a software
+[00:37:55] Those are idempotent declarations about how the system should always be from a software
 [00:38:03] side of things.
 [00:38:05] From a server administration side of things, it's more about, oh, I need three servers
 [00:38:09] all the time, or I always want two database connections or I, you know, whatever.
@@ -568,7 +568,7 @@ Education
 [00:40:09] do that automation.
 [00:40:12] The real change is manual operations going to infrastructure software.
 [00:40:17] So yeah, I am writing infrastructure scripts or infrastructure software, script versus
-[00:40:22] software, bash versus go, pearl versus go, well that's sort of software and you're there.
+[00:40:22] software, bash versus go, perl versus go, well that's sort of software and you're there.
 [00:40:29] So skill measures companies like Amazon, Google, Stripe are looking for hiring SISTIs.
 [00:40:35] Well, that's good to know.
 [00:40:37] So, and I think as we're saying that three people on my team went to work for NVIDIA.
