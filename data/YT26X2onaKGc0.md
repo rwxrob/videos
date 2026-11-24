@@ -144,8 +144,8 @@ Education
 [00:07:23] It's so overly complex. It's like why do you need that?
 [00:07:26] I just need maybe a picture and a note to remind me about something
 [00:07:29] I don't need all the extra stuff. So I like focus on minimalism. I
-[00:07:35] Actually built my own snap next let me show you a Zed
-[00:07:39] Titles I built my own snap shot or so so here I watch I'll show you so I can do Zed
+[00:07:35] Actually built my own snap next let me show you a zet
+[00:07:39] Titles I built my own snap shot or so so here I watch I'll show you so I can do zet
 [00:07:47] Snap wait screenshot zet screenshot. It says go take a screenshot. Okay. I'll take a screenshot here
 [00:07:54] We go and then I press enter
 [00:07:57] And then it adds it I'll say I'll put random screenshot it created it created it inspected the image for its dimensions

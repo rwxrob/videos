@@ -732,7 +732,7 @@ Education
 [00:54:34] whatever notes dash boost, right? So you can pick whatever one you want. If you just want a generic
 [00:54:41] notes there, I noticed in my evaluation, like 2,500, you know, repos the other day, a lot of people
 [00:54:48] have just knowledge. They have a central knowledge base. A few people have KB. And really, some people
-[00:54:54] have ZET, some people call it obsidian, some people call it whatever they want, whatever you name
+[00:54:54] have zet, some people call it obsidian, some people call it whatever they want, whatever you name
 [00:54:58] it, it's up to you. But we'll talk more about knowledge management in a second. So, you know,
 [00:55:03] when I'm the boost, I had to make one called notes. And so that's how you would repo cloner.
 [00:55:08] You put repo clone notes. And what that does is that pulls the notes repo down. I don't have one.
