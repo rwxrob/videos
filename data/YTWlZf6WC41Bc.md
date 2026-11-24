@@ -1,6 +1,12 @@
 # holy shiiiite shell | rwxrob on #Twitch
 
-`#shorts`
+Captures a live reaction to a shell-related discovery that exposed how insecure everything can be. The clip consists of an emotional, unscripted response to the security implications, with no technical walkthrough.
+
+`#shell #security #linux #terminal #livestream #twitch #shorts`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
