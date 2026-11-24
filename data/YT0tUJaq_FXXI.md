@@ -1,4 +1,4 @@
-# 🎄🚀 Holiday Boost - #1
+# 🎄🚀 Holiday Boost Day 1: Learn to Code Go in the Terminal with The Code Mage's First Spellbook
 
 Kicks off a Holiday Boost series by reading through the opening of The Code Mage's First Spellbook, a free beginner book on learning to code, with notes on related books still being written. Covers its licensing, learner ownership of their work, finding mentors, focusing on one language and the terminal first, and why coding and operations skills matter for careers.
 
