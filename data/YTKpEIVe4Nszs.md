@@ -1,9 +1,17 @@
 # Rusty Terminal | #rwxrob on #Twitch
 
+Claims that a terminal emulator written in Rust is extremely fast, second only to C. Argues that Rust is the best language for writing a terminal.
+
 Yeah, Rust is best for terminals.
 #shorts #rustlang #terminal
 
 https://www.twitch.tv/rwxrob
+
+`#rustlang #terminal #rust #linux #programming #performance #shorts`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
