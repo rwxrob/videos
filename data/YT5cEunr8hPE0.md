@@ -1,5 +1,7 @@
 # Back to Go, Rust is Slow (in Ways That Matter to the Most People)
 
+Argues that Go is faster than Rust in ways beyond runtime speed, including developer productivity, documentation, testing, concurrency with goroutines, and maintainability. Compares the two languages on string handling, safety claims, tooling and community, then answers live chat comments on testing, documentation, Node.js and JavaScript as a first language.
+
 People are now writing formal academic papers debunking Rust's lies about safety and the rest. The more I learn about how shitty and dishonest Rust is (and its community)  the more motivated I am to look at C and C++ (again) and the more I'm not just ambivalent about Rust, I'm actively advocating against it. Rust is fucking bad for the world. There are still *zero* significant projects in Rust while there are now hundreds in Go including Kubernetes, Docker and the entire cloud native ecosystem. Rust is a fail. Die, die, die. Learn it and watch your career die with it.
 
 
@@ -24,6 +26,28 @@ I expect a lot of C++ code to be replaced with Rust, and that's a good thing. Ru
 
 
 [Please do not comment unless you watched the entire video. Comments prove people aren't. And by the way, this is a live stream that's why it's messy and opinionated and downright wrong in several places. I've noted the important corrections. Thank you.]
+
+Chapters:
+0:00 Why Rust feels slow compared to Go
+2:00 Rust strengths versus Go strengths
+6:40 Go developer speed and Python displacement
+8:40 Libraries, marshaling and Go syntax
+10:40 Rust documentation and core team comparison
+13:50 Unicode strings and panics in Rust
+17:20 Is Rust really safer than Go
+21:00 Concurrency and choosing by all angles
+25:20 Chat: testing and documentation in Rust
+31:10 Implicit returns and green threads
+36:40 Hype cycle and 64-core concurrency
+41:20 Node.js, Rust as Frankenstein language
+43:30 JavaScript as a first language
+47:00 Closing thoughts and chat shoutouts
+
+`#golang #rust #programming #concurrency #softwaredevelopment #livestream #nodejs #javascript`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
