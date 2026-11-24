@@ -41,6 +41,7 @@ esac
 
 # shellcheck source=yt-lib.bash
 source "$(dirname "${BASH_SOURCE[0]}")/yt-lib.bash"
+[[ -z ${uid:-} ]] || uid=$(norm_id "$uid")
 
 if [[ $login == yes ]]; then
   command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }

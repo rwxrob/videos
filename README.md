@@ -102,6 +102,8 @@ bin/yt-update privacy <file> [unlisted|public|private]   # set privacy for every
 bin/yt-update auth       # log in again and exit
 ```
 
+`<UID>` can also be a data file name or path, such as `data/YT-RqoPoOQd7w.md`, which is the easy way to pass an ID that starts with `-` (a bare `-RqoPoOQd7w` is read as an option unless you write `--` first). `yt-enrich one` and `yt-sync srt2md` accept the same forms.
+
 The script fetches the video's current metadata first and sends it back with only the title and description changed, so category and tags are preserved. Each update costs about 50 of the 10,000 daily API quota units. Never commit the credentials file.
 
 ### Backfilling a whole channel (`bin/yt-sync`)

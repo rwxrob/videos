@@ -100,3 +100,12 @@ include_ids() {
   grep -Fxf <(jq -r '.[] | select(.live == "none" and .privacy != "private") | .id' "$manifest") \
     <(sed 's/[[:space:]]*#.*//; s/[[:space:]]*$//' "$f" | awk 'NF') || true
 }
+
+# norm_id accepts a bare video ID, or a data file name or path such as
+# data/YT-RqoPoOQd7w.md (handy with tab completion), and prints the bare ID.
+norm_id() {
+  local x=${1##*/}
+  x=${x%.md}; x=${x%.srt}
+  [[ $x == YT* && ${#x} -eq 13 ]] && x=${x#YT}
+  printf '%s\n' "$x"
+}

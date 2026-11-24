@@ -234,7 +234,7 @@ cmd_status() {
 }
 
 cmd_srt2md() {
-  local id=${1:?usage: yt-sync srt2md <UID>} head
+  local id head; id=$(norm_id "${1:?usage: yt-sync srt2md <UID>}")
   [[ -f $data/YT$id.md && -f $data/YT$id.srt ]] || { echo "need $data/YT$id.md and $data/YT$id.srt" >&2; exit 1; }
   head=$(awk '{print} /^## Transcription/{exit}' "$data/YT$id.md")
   { printf '%s\n\n' "$head"; srt_to_lines < "$data/YT$id.srt"; } > "$data/YT$id.md.tmp"
