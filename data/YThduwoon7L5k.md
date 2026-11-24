@@ -1,8 +1,29 @@
 # 🚀 Home Lab Evolution of a Balanced Tech Professional
 
+Lays out a gradual, budget-conscious path for building a home lab that exposes a beginner to every major operating system. Steps run from a good router with VPN and an isolated network, to cheap Linux and Windows laptops, a MacBook Pro as a daily driver, and a Proxmox server, then a larger hardware cluster with managed switches, Kubernetes and Slurm. Also covers why non-dogmatic familiarity with Linux, BSD, Windows and macOS matters for a tech career.
+
 Here's how to build a home lab that covers all the bases, gradually including one of every major operating system, a good network router to learn networking, and an eventual Proxmox server to chop up into virtual machines of all shapes and sizes for kinds of work-related scenario testing.
 
-`#homelab #linux #beginners`
+Chapters:
+0:00 Intro and goals of the home lab
+1:00 Step 1: Get a good router
+4:35 Step 2: Cheap Linux laptop
+6:50 How the lab actually evolved
+8:25 USB sticks and installing multiple operating systems
+10:30 Step 4: Why get a MacBook Pro
+13:00 Why know every operating system
+14:45 Desktop Linux versus Linux servers
+16:15 Proxmox server and virtual machines
+18:40 Step 5: Hardware clusters and networking
+20:40 The air-gapped lab and what was unnecessary
+21:55 Recap, streaming, and meetup advice
+24:40 Windows, ARM, and final thoughts
+
+`#homelab #linux #proxmox #macbookpro #networking #openwrt #sysadmin #beginners #windows #freebsd`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
