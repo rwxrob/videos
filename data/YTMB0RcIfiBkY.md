@@ -1,4 +1,4 @@
-# 😎 Rename main and Start New Branch
+# 😎 Archive Main and Start a Fresh Orphan Main Branch
 
 Walks through archiving an existing Git repository's history by renaming the current branch to archive, pushing it, and then creating a new orphan main branch with no commit history. Covers the git branch -m, git push -u, and git switch --orphan commands, including a mistake along the way, and ends with a fresh initial commit.
 

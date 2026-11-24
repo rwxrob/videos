@@ -1,4 +1,4 @@
-# converting using pandoc  | rwxrob on #Twitch
+# Make a Table in One Command with pandoc
 
 Demonstrates generating a table with a single command by piping a range of lines from vim through pandoc. The command is shown twice to highlight how quickly the table is produced.
 

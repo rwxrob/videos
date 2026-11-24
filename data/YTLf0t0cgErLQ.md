@@ -1,4 +1,4 @@
-# 🤦‍♀️45 people completed FreeCodeCamp Certificate. None could make a web page when tested.
+# 🤦‍♀️45 people completed the FreeCodeCamp certificate. Only 2 could make a web page when tested.
 
 Recounts an experience sending about 45 mentored students through FreeCodeCamp's web development certificate, after which only two could build a basic web page unaided. Argues that gamified and online learning platforms such as FreeCodeCamp, Codecademy and Vim Adventures fail to reinforce earlier material or build skills with real tools. Recommends repeated, from-scratch projects in professional tools like VS Code and a real terminal.
 

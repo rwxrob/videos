@@ -1,4 +1,4 @@
-# Rusty Terminal | #rwxrob on #Twitch
+# A Terminal Written in Rust Is Wicked Fast (Fastest Other Than C)
 
 Says a terminal written in Rust is extremely fast, second only to C, and that Rust is the best language for writing a terminal.
 

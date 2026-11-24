@@ -1,4 +1,4 @@
-# Learn Slurm! More important than Kubernetes.
+# Learn Slurm! NVIDIA Acquired SchedMD and Enterprises Need It
 
 Argues that learning the Slurm workload manager is a valuable career skill, citing its reported acquisition of SchedMD by NVIDIA and enterprise demand for batch processing of large machine learning jobs on expensive GPUs. Recommends learning to submit jobs, script, integrate with Slurm and use Linux.
 

@@ -1,4 +1,4 @@
-# holy shiiiite shell | rwxrob on #Twitch
+# Holy Sh*t, Do You Have Any Idea How Insecure Everything Is?
 
 Short live reaction clip in which the streamer exclaims in shock and fear over something that just happened on stream, saying it "broke the hardest thing ever" and that they now feel unsafe. The clip has no explanation of what happened.
 

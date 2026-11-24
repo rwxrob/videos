@@ -1,4 +1,4 @@
-# 💢 You are in Charge!
+# 💢 You Are in Charge of What You Learn
 
 Argues that learners should decide for themselves which technologies and skills to pursue rather than following recommendations from influencers or diagrams. Encourages figuring out personal goals first, treating tech choices like picking a community that fits, and using critical thinking when hearing anyone's advice, including the speaker's own.
 
