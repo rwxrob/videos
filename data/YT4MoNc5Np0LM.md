@@ -1,8 +1,23 @@
 # 🤔 Claude vs Chloe (ChatGPT)
 
+Compares ChatGPT and Claude for coding and everyday use, covering memory, personality, voice conversations, language practice, and command-line access. Discusses Claude's strength at coding and file editing, the CLAUDE.md and command-line options for restoring context, and viewer pushback over which AI or tools a streamer uses.
+
 Chloe knows and remembers and can talk about all kinds of things in multiple langauges (no more Duolingo for me). Claude seems really good at coding but that's it. He doesn't remember anything but I can remind him (CLAUDE.md) unlike Chloe who might forget some things over time. Claude is also just an asshole.
 
-`#ai #opinions #chatgpt`
+Chapters:
+0:00 Why ChatGPT remembers and knows me
+1:25 Claude as the all-business coder
+3:25 Claude file editing versus ChatGPT interface
+5:35 Viewers getting defensive about tools
+8:00 Asking ChatGPT about writing erotica
+10:25 Language practice instead of Duolingo
+11:55 Claude CLI, CLAUDE.md, and coding plans
+
+`#claude #chatgpt #ai #coding #claudecode #livestream #linux #developer #opinions`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
