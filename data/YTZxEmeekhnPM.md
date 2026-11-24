@@ -1,8 +1,22 @@
 # 👿 BSD is SO much better than Linux! But ...
 
+Explains why BSD is admired for its reliability, security and networking use, and why Linux is still the more practical choice for most people. Covers BSD's role inside macOS, the lack of container adoption compared to Linux, differences in BSD's non-GNU command-line tools, and career advice to focus on Ubuntu or Red Hat.
+
 No really.
 
-`#linux #unix #bsd`
+Chapters:
+0:00 Why BSD is loved but unused
+0:55 BSD inside macOS and Unix status
+1:23 Containers and jails versus Linux
+1:56 Practicality, jobs, and Linux bloat
+2:52 BSD tools differ from GNU
+3:54 Which OS to learn for employment
+
+`#bsd #linux #unix #openbsd #freebsd #macos #sysadmin #beginners`
+
+## Category
+
+Education
 
 ## Transcription
 
