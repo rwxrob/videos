@@ -1,8 +1,14 @@
 # 💢 You are in Charge!
 
+Argues that learners should decide for themselves which technologies and skills to pursue rather than following recommendations from influencers or diagrams. Encourages figuring out personal goals first, treating tech choices like picking a community that fits, and using critical thinking when hearing anyone's advice, including the speaker's own.
+
 Learn to make your own decisions about what technologies and skills are necessary to do the things that YOU want to do, not what someone tells you to do. Developer your own ability to know what is best for you.
 
-`#philosophy #techlife #advice`
+`#learning #careeradvice #criticalthinking #softwaredevelopment #beginners #devculture #programming #philosophy #techlife #advice`
+
+## Category
+
+Education
 
 ## Transcription
 
