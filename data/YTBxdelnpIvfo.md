@@ -1,8 +1,25 @@
 # 🌟 Yank/Delete Whole Functions with Vim af
 
+Demonstrates the Vim text object af for deleting, yanking, filtering and commenting out whole functions, including swapping functions pasted back and forth with an AI chat window. Shows the relevant vimrc and Neovim treesitter text objects setup, including a plugin fork that adds Perl function support, and compares behavior in Go code with the inner function object if.
+
 Yank and delete whole functions with vim af and here's how to add to Perl as well (yes Perl).
 
-`#vimal #nvim #tips`
+Chapters:
+0:00 Intro to the Vim af text object
+0:33 Why whole-function editing matters with AI
+2:20 Delete and yank functions with daf and yaf
+3:35 Replacing functions and reviewing with git diff
+4:21 Commenting out functions with gcaf
+5:36 Vimrc and treesitter text objects setup
+7:00 Adding Perl function support to the plugin
+8:40 Trying af and if in Go code
+10:25 Wrap-up and comment toggle question
+
+`#vim #neovim #texteditor #treesitter #linux #terminal #perl #vimrc #vimal #nvim #tips`
+
+## Category
+
+Education
 
 ## Transcription
 
