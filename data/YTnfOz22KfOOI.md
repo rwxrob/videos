@@ -1,8 +1,33 @@
 # ❤️ Obsidian is great! (now)
 
+Explains why Obsidian became the preferred note-taking tool, centered on taking speech-to-text notes from a phone that sync automatically to GitHub. Walks through settings and conventions for keeping notes compatible with GitHub-flavored Markdown, including standard relative links, flat files with readable titles, one thought per note, and tags over folders. Also covers the paid sync, the Git sync plugin, and using the setup for offline real-time note taking while cycling.
+
 I meant "sentence case" and not "title case".
 
-`#obsidian #notes #markdown`
+Chapters:
+0:00 Why switch to Obsidian
+1:42 Speech-to-text notes from the phone
+4:30 Obsidian versus AI and Zettelkasten
+5:40 Markdown compatibility and key settings
+7:47 Paid sync and GitHub publishing demo
+11:30 Sharing sync and live streaming from anywhere
+14:18 Notes repo and standard Markdown links
+16:45 Mind maps, graphs, and writing books
+19:50 One thought per note and titles
+24:00 Dropping unique IDs and slugs
+27:30 Searching flat notes through GitHub
+31:00 Creating links and note workflow
+36:10 Git sync plugin and offline notes on the bike
+40:40 Remaining settings and book writing
+44:20 Publishing raw Markdown and flat structure
+46:00 Why tags beat folders and categories
+52:40 Final thoughts and thanks to Obsidian
+
+`#obsidian #notetaking #markdown #github #zettelkasten #productivity #speechtotext #notes`
+
+## Category
+
+Science & Technology
 
 ## Transcription
 
