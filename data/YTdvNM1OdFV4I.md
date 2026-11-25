@@ -6,7 +6,7 @@ Chapters:
 0:00 Postgres 13 pinned in Harbor values
 0:53 PostgreSQL subchart dependency and chart versions
 2:07 Built-in backups missing from Harbor values
-3:39 Why the version mismatch seems broken
+3:44 Why the version mismatch seems broken
 
 `#helm #harbor #bitnami #postgresql #kubernetes #devops #fail`
 
