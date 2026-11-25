@@ -1,0 +1,560 @@
+1
+00:00:00,000 --> 00:00:02,900
+ People, I've decided to do something.
+
+2
+00:00:02,900 --> 00:00:07,600
+ Somebody recently asked me to review a book called The Complete Guide to Programming in
+
+3
+00:00:07,600 --> 00:00:12,200
+ Reliable and Efficient Programming Progo, which is an absolute disaster.
+
+4
+00:00:12,200 --> 00:00:20,560
+ I mean, yeah, you'll learn something in it, but it covers all of the wrong things in exactly
+
+5
+00:00:20,560 --> 00:00:22,000
+ the wrong way, in my opinion.
+
+6
+00:00:22,000 --> 00:00:24,280
+ And I am a very opinion guy.
+
+7
+00:00:24,280 --> 00:00:26,760
+ I have nothing against whoever it was that wrote the book.
+
+8
+00:00:26,760 --> 00:00:28,080
+ I don't care about that.
+
+9
+00:00:28,080 --> 00:00:29,760
+ I care about you.
+
+10
+00:00:29,760 --> 00:00:32,360
+ I want to help you get through the crap.
+
+11
+00:00:32,360 --> 00:00:36,240
+ So, what I'm going to do, I'm going to commit to you in 2022 to do, because I don't want
+
+12
+00:00:36,240 --> 00:00:38,000
+ to write another book.
+
+13
+00:00:38,000 --> 00:00:42,160
+ Friends, you guys, anybody who's been following me over the last month and a half, I've gotten
+
+14
+00:00:42,160 --> 00:00:44,520
+ out of shape, writing a book is hard.
+
+15
+00:00:44,520 --> 00:00:49,080
+ I would rather educate you and keep you finding the good books out there and curating the
+
+16
+00:00:49,080 --> 00:00:50,080
+ book.
+
+17
+00:00:50,080 --> 00:00:51,080
+ So, listen to me.
+
+18
+00:00:51,080 --> 00:00:57,620
+ I want you to go onto my awesome go, GitHub, and like and subscribe to that.
+
+19
+00:00:57,620 --> 00:01:00,960
+ I got, I'm not drifting here, I just want to be able, and this is what I want, is what
+
+20
+00:01:00,960 --> 00:01:02,600
+ I'm asking you to do.
+
+21
+00:01:02,600 --> 00:01:07,760
+ What I'm asking you to do is to list, is to open issues, and I'll create a tag.
+
+22
+00:01:07,760 --> 00:01:12,880
+ I want you to open issues on my awesome go site, and I want you to suggest the books
+
+23
+00:01:12,880 --> 00:01:17,400
+ that you have found that have been useful or books that you want reviewed, okay?
+
+24
+00:01:17,400 --> 00:01:22,320
+ And I'll buy it on my dollars, I'll use, you know, you're streaming money, your contributions,
+
+25
+00:01:22,320 --> 00:01:23,320
+ whatever.
+
+26
+00:01:23,320 --> 00:01:26,720
+ I'll use that money, and I will review the book, and I'll give you my honest opinion
+
+27
+00:01:26,720 --> 00:01:27,720
+ of the book.
+
+28
+00:01:27,720 --> 00:01:30,840
+ If you're like, "Why the hell should we listen to you?"
+
+29
+00:01:30,840 --> 00:01:33,000
+ The only thing I can tell you about that is I've been coding.
+
+30
+00:01:33,000 --> 00:01:38,200
+ Ghost is 2014, when TJ Holloway Check started coding Go as well, gave up Node, wrote Farewell
+
+31
+00:01:38,200 --> 00:01:39,200
+ the Node.
+
+32
+00:01:39,200 --> 00:01:44,000
+ I've been doing it a long time, I just saved my company $3 million by writing middleware
+
+33
+00:01:44,000 --> 00:01:48,920
+ APIs for machine learning, high performance computing, and I'm working on my own mentoring
+
+34
+00:01:48,920 --> 00:01:51,920
+ and my own, you know, projects, including Wansai.
+
+35
+00:01:51,920 --> 00:01:56,240
+ So, anyway, that's my creds, that's my flex, so you may be trust, but I'm going to say about
+
+36
+00:01:56,240 --> 00:01:57,240
+ a book.
+
+37
+00:01:57,240 --> 00:01:59,680
+ When I say I don't like a book, I'm going to tell you why I don't like the book, but
+
+38
+00:01:59,680 --> 00:02:00,680
+ here's the problem.
+
+39
+00:02:00,680 --> 00:02:07,740
+ I can't give a full review of this 857 page book, because I have to buy it, and I'm fundamentally
+
+40
+00:02:07,740 --> 00:02:11,520
+ against buying books in general, if somebody in the chat said it, why would I buy this
+
+41
+00:02:11,520 --> 00:02:14,120
+ book and I can just go read the standard docs?
+
+42
+00:02:14,120 --> 00:02:15,120
+ Good question.
+
+43
+00:02:15,120 --> 00:02:19,800
+ Not to mention the fact that it probably doesn't cover a lot of modern things, so, you
+
+44
+00:02:19,800 --> 00:02:25,240
+ know, but who knows, maybe there's a book out there that is really worth learning from.
+
+45
+00:02:25,240 --> 00:02:26,840
+ Let me give you an example of some positive things.
+
+46
+00:02:26,840 --> 00:02:31,320
+ So, there's a book called, what is it called?
+
+47
+00:02:31,320 --> 00:02:37,040
+ I forget it now, HeadfirstGo.
+
+48
+00:02:37,040 --> 00:02:40,960
+ So far, my absolute favorite book about Go is a book I cannot recommend to you.
+
+49
+00:02:40,960 --> 00:02:43,480
+ It's called HeadfirstGo, because the author is amazing.
+
+50
+00:02:43,480 --> 00:02:49,880
+ He's really great at how he presents everything, but the book covers like Go 1.9 or something,
+
+51
+00:02:49,880 --> 00:02:54,040
+ and it's never been updated, and somebody told me that he's working on a new book, and
+
+52
+00:02:54,040 --> 00:02:56,960
+ I'm really excited for that book.
+
+53
+00:02:56,960 --> 00:02:59,400
+ The bottom line is this, is there a 2024 version?
+
+54
+00:02:59,400 --> 00:03:01,040
+ Did it get released?
+
+55
+00:03:01,040 --> 00:03:04,240
+ Even more reason for me to review.
+
+56
+00:03:04,240 --> 00:03:08,880
+ I'm a huge fan of the Headfirst model.
+
+57
+00:03:08,880 --> 00:03:13,920
+ It's a technique for learning that's grounded in neuroscience, and it's silly, but it's
+
+58
+00:03:13,920 --> 00:03:20,920
+ silly for a reason, and so, I think books with projects are the way to go.
+
+59
+00:03:20,920 --> 00:03:23,240
+ Anything in a C#, damn.
+
+60
+00:03:23,240 --> 00:03:28,200
+ So, but we need to start reviewing these books and reviewing these things, and I'm happy
+
+61
+00:03:28,200 --> 00:03:29,200
+ to do that for you.
+
+62
+00:03:29,200 --> 00:03:31,920
+ I'm going to make it a regular thing.
+
+63
+00:03:31,920 --> 00:03:36,480
+ Yeah, the Headfirst series, I learned C from HeadfirstC, really, truly, I learned about
+
+64
+00:03:36,480 --> 00:03:37,480
+ it.
+
+65
+00:03:37,480 --> 00:03:39,720
+ They heap and stack by reading HeadfirstC.
+
+66
+00:03:39,720 --> 00:03:42,360
+ So, I mean, I'm a huge fan of the Headfirst series.
+
+67
+00:03:42,360 --> 00:03:46,560
+ The biggest problem with any book of course is that they get so out of date.
+
+68
+00:03:46,560 --> 00:03:52,120
+ So, the only thing you need to take away from this is if you have a book that you want me
+
+69
+00:03:52,120 --> 00:03:55,840
+ to review, that you're thinking of buying before you drop 40 bucks on it, don't.
+
+70
+00:03:55,840 --> 00:03:56,840
+ And let me tell you why.
+
+71
+00:03:56,840 --> 00:04:00,280
+ I'm going to end with a very negative story.
+
+72
+00:04:00,280 --> 00:04:04,520
+ There's a person who shall remain unnamed who made a book ago.
+
+73
+00:04:04,520 --> 00:04:08,960
+ I wanted to learn generics, so I dropped 40 bucks on a book from Packed Publishing, one
+
+74
+00:04:08,960 --> 00:04:12,120
+ of the worst, nothing, no book who was at Packed Publishing.
+
+75
+00:04:12,120 --> 00:04:15,320
+ Every single book from Packed Publishing is absolute shit.
+
+76
+00:04:15,320 --> 00:04:16,760
+ Do not buy Packed Publishing.
+
+77
+00:04:16,760 --> 00:04:19,240
+ I did a whole video about this, but let me hear me out.
+
+78
+00:04:19,240 --> 00:04:22,560
+ So, I bought this book because I wanted to learn generics.
+
+79
+00:04:22,560 --> 00:04:24,680
+ Generics are hard.
+
+80
+00:04:24,680 --> 00:04:29,120
+ Rob Pike prefers to call them parameterized polymorphism, which is a really great way
+
+81
+00:04:29,120 --> 00:04:30,680
+ to think of it.
+
+82
+00:04:30,680 --> 00:04:34,600
+ And I've since learned them by studying them and writing my own rooted node trees and
+
+83
+00:04:34,600 --> 00:04:36,320
+ link lists and all these cool, fun things.
+
+84
+00:04:36,320 --> 00:04:39,720
+ You can all see them in my bonsai library.
+
+85
+00:04:39,720 --> 00:04:44,440
+ But because I needed to learn generics, the problem is I bought this book and it covered
+
+86
+00:04:44,440 --> 00:04:47,520
+ a proposal that wasn't even close to being final.
+
+87
+00:04:47,520 --> 00:04:48,520
+ And I learned it.
+
+88
+00:04:48,520 --> 00:04:54,000
+ I learned generics by using this completely wrong proposal.
+
+89
+00:04:54,000 --> 00:04:55,000
+ I paid the money.
+
+90
+00:04:55,000 --> 00:04:58,440
+ I actually bought two copies of the book, a Kindle one and that one.
+
+91
+00:04:58,440 --> 00:05:01,600
+ It wasn't until I got through the book and I got through the whole thing that I realized
+
+92
+00:05:01,600 --> 00:05:03,800
+ later on that it had nothing to do with reality.
+
+93
+00:05:03,800 --> 00:05:05,160
+ You know what they did?
+
+94
+00:05:05,160 --> 00:05:09,840
+ They released another book and said, get our updated book and they charged another $40
+
+95
+00:05:09,840 --> 00:05:15,320
+ and they're hubris to charge more money without ever even saying that the other book had problems
+
+96
+00:05:15,320 --> 00:05:16,320
+ in it.
+
+97
+00:05:16,320 --> 00:05:20,880
+ We didn't say our book accurately covered generics, it says right here that it's just
+
+98
+00:05:20,880 --> 00:05:24,960
+ a proposal, blah, blah, blah, blah, blah, no, it wasn't even close to what ended up being
+
+99
+00:05:24,960 --> 00:05:25,960
+ final.
+
+100
+00:05:25,960 --> 00:05:26,960
+ It actually had to relearn the whole thing.
+
+101
+00:05:26,960 --> 00:05:28,240
+ And I'm mad about it.
+
+102
+00:05:28,240 --> 00:05:29,240
+ To this day, I'm mad.
+
+103
+00:05:29,240 --> 00:05:33,880
+ I'm mad at myself for not reading the fine print if it was there and for letting it happen.
+
+104
+00:05:33,880 --> 00:05:37,400
+ So don't get mad, you're busy.
+
+105
+00:05:37,400 --> 00:05:41,520
+ And in this case, I'm maybe going to save you from pain and suffering by doing that kind
+
+106
+00:05:41,520 --> 00:05:42,520
+ of thing.
+
+107
+00:05:42,520 --> 00:05:46,080
+ Now, certainly you can do that kind of evaluation for yourself, but if it's more fun and we can
+
+108
+00:05:46,080 --> 00:05:51,000
+ do it together, what I'm asking you to do is once again, go out to my awesome go, to
+
+109
+00:05:51,000 --> 00:05:52,400
+ my awesome go repo.
+
+110
+00:05:52,400 --> 00:05:57,280
+ It's like one read me and tell me open issues about the books you want me to review and
+
+111
+00:05:57,280 --> 00:06:01,320
+ I will go in there and we will close those issues off and we will make a review and we'll
+
+112
+00:06:01,320 --> 00:06:04,760
+ do an exhaust to review and I'll buy the book, I'll buy it.
+
+113
+00:06:04,760 --> 00:06:09,040
+ I'll buy the book and I will say, okay, let's go look at this and see what's wrong with it.
+
+114
+00:06:09,040 --> 00:06:13,120
+ To tell you what though, if I read through something, if I read something in the Amazon
+
+115
+00:06:13,120 --> 00:06:16,240
+ thing and I can see what's in the book and I know right away it's not going to cover
+
+116
+00:06:16,240 --> 00:06:18,400
+ something, I'm going to be like, no, I'm not wasting money on that.
+
+117
+00:06:18,400 --> 00:06:21,680
+ I am not even wasting money on the book to even do a review.
+
+118
+00:06:21,680 --> 00:06:24,880
+ There are lots of good books that have around an end, I'm so like go in action, I reviewed,
+
+119
+00:06:24,880 --> 00:06:28,600
+ I had to submit an around it on it because it's code wouldn't even compile, I'm not
+
+120
+00:06:28,600 --> 00:06:29,800
+ even kidding.
+
+121
+00:06:29,800 --> 00:06:33,480
+ I absolutely love Kennedy Bill Kennedy and the people that and all the things that they're
+
+122
+00:06:33,480 --> 00:06:36,880
+ doing, the code in that book wouldn't even compile.
+
+123
+00:06:36,880 --> 00:06:43,040
+ So, you know, these are things that you think you would test before you release the book.
+
+124
+00:06:43,040 --> 00:06:48,520
+ So anyway, that's an invitation to you to help me help you and maybe we can have fun
+
+125
+00:06:48,520 --> 00:06:49,520
+ with it.
+
+126
+00:06:49,520 --> 00:06:53,720
+ Maybe, maybe we can just watch me rant and blow my blood pressure.
+
+127
+00:06:53,720 --> 00:06:57,320
+ Hopefully, the reason I want to do this is because maybe there's a really great book
+
+128
+00:06:57,320 --> 00:06:58,520
+ out there.
+
+129
+00:06:58,520 --> 00:07:03,840
+ There might be a, everybody knows there's like a plethora of books now.
+
+130
+00:07:03,840 --> 00:07:06,600
+ Would you say I have a plethora of books on go?
+
+131
+00:07:06,600 --> 00:07:11,160
+ Yeah, before they weren't like any, I mean not any good ones.
+
+132
+00:07:11,160 --> 00:07:12,800
+ And so, we can do that review.
+
+133
+00:07:12,800 --> 00:07:15,960
+ A lot of the books that you might be recommending, I've already purchased them, and I've already
+
+134
+00:07:15,960 --> 00:07:20,260
+ reviewed them, including pre-ordering the Go programming language from Donovan and
+
+135
+00:07:20,260 --> 00:07:25,040
+ Kerrigan that I had a beginner throw at me because I hated it so bad.
+
+136
+00:07:25,040 --> 00:07:27,320
+ I'll tell you that story later too when we do that review.
+
+137
+00:07:27,320 --> 00:07:29,880
+ I had to get rid of all 20 of those books.
+
+138
+00:07:29,880 --> 00:07:33,840
+ So, just because you are a genius and you can make Unix, doesn't mean you can write a
+
+139
+00:07:33,840 --> 00:07:34,840
+ book.
+
+140
+00:07:34,840 --> 00:07:37,320
+ Bye now, bye.
+
