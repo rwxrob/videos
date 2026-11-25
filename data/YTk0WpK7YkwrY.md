@@ -1,6 +1,6 @@
 # ⛔️ don't make these postgresql developer mistakes
 
-Covers mistakes made while setting up a local PostgreSQL container with Podman to test a pg_dump backup intended to run as a Kubernetes cron job. Explains how installing client tools from OS package managers can lead to version mismatches with the server, and weighs using a client container or the official Postgres image instead.
+Covers mistakes made while setting up a local PostgreSQL container with Podman to test a pg_dump backup intended to run as a Kubernetes cron job. Explains how installing client tools from OS package managers can lead to version mismatches with the server, and weighs using a client container or the Postgres image instead.
 
 Chapters:
 0:00 Building a Postgres backup cron job
