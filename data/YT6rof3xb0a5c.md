@@ -4,7 +4,7 @@ Walks through installing a newer bash on macOS with Homebrew, calling brew by it
 
 Chapters:
 0:00 Installing bash using the full brew path
-1:14 Restarting the terminal to find bash
+1:38 Restarting the terminal to find bash
 2:07 Checking which bash version is running
 3:52 Changing the login shell on macOS
 4:58 Troubleshooting the non-standard shell error
