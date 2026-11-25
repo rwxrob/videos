@@ -1,4 +1,4 @@
-# 🎉 bitnami/harbor has a pg_dump backup k8s cronjob INCLUDED!
+# 🎉 bitnami/harbor has a pg_dumpall backup k8s cronjob INCLUDED!
 
 Shows how enabling backup in the bitnami/harbor Helm chart's values file adds a configurable Kubernetes CronJob that runs pg_dumpall to a persistent volume. Also explains how Chart.lock pins subchart versions, how subchart default values are included and overridden from the parent values.yaml, and why helm show values makes flattening and tracking those defaults difficult.
 
