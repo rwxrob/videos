@@ -17,13 +17,13 @@ Chapters:
 22:22 Shell hashing: use type, not which
 26:42 Why go install paths need ./
 29:29 You may not need a Makefile
-33:16 Commenting code and preparing to test
+33:16 Introducing testing and code comments
 37:16 Writing an example-based test
 42:09 Examples as runnable documentation
 47:50 Why switch from Markdown to AsciiDoc
-52:21 AsciiDoc includes, callouts, and wrap-up
+53:31 AsciiDoc callouts, includes, and wrap-up
 
-`#golang #go #coding #programming #unittesting #asciidoc #linux #terminal #beginners #education #beginner`
+`#golang #go #coding #programming #unittesting #asciidoc #terminal #education #beginner`
 
 ## Category
 
