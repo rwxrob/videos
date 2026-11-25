@@ -5,15 +5,15 @@ Looks at what employers can reasonably expect in tech jobs, comparing IT work wi
 Chapters:
 0:00 When can a job make you stay
 0:54 Comparing IT with firefighters and surgeons
-1:59 Called to stay late at Nike.com
+1:59 Told to stay at work at Nike.com
 4:55 Crunch time and a mass resignation
 6:14 A recruiter call and doubled salary
-7:47 Sysadmin expectations during outages
+7:49 Sysadmin expectations during outages
 8:59 Overnight bridge calls and security incidents
 11:03 Flexible hours in the tech lifestyle
 12:24 Setting boundaries and getting enough sleep
 
-`#techcareers #worklifebalance #sysadmin #devops #softwaredeveloper #itjobs #burnout #techjobs #learning #advice #livestream`
+`#techcareers #worklifebalance #sysadmin #softwaredeveloper #itjobs #burnout #techjobs #learning #advice #livestream`
 
 ## Category
 
