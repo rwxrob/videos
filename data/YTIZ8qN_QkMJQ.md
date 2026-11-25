@@ -4,13 +4,15 @@ Explains a change to the Bitnami Harbor Helm chart's values.yaml that updates th
 
 Chapters:
 0:00 Daily Harbor testing summary and stream plans
-0:46 Finding which PostgreSQL version Harbor supports
-2:22 Fixing the Postgres image tag in values.yaml
+0:46 Yesterday's Harbor install and the values.yaml bug
+1:25 Finding which PostgreSQL version Harbor supports
+2:22 Checking whether PostgreSQL 16.4 could work
+3:25 Changing the Postgres image tag in values.yaml
 4:55 Plan to test Harbor on Minikube
 5:49 System testing, observability and disaster recovery
 9:07 Writing manual validation and regression test procedures
 11:44 Build script and Harbor namespace handling
-12:56 Draft pull request and feedback welcome
+13:00 Draft pull request and feedback welcome
 
 `#kubernetes #harbor #helm #postgresql #bitnami #minikube #devops #testing #coworking`
 
