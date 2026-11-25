@@ -1,18 +1,18 @@
 # Coding on the road: truck stop, hotel breakfast area, and Android hotspot streaming
 
-A late-night, early-morning stream from the road, with long stretches of unclear audio, breaks to sort out battery charging and a camera switch, and a brief rant about religion with strong language. Touches on chat commands not working through Restream, plans to code a lot of shell, and how reliable the Android Wi-Fi hotspot is for streaming, before stopping to restart the stream.
+An early-morning stream from the road, starting near a truck stop and later moving to a hotel breakfast area. Includes a low battery and the need to fetch a charger, a camera switch, and a brief rant about religion with strong language. Also touches on chat commands not working for YouTube (possibly because of what the Restream bot adds in front of them), plans to code a lot of shell, and how reliable the Android Wi-Fi hotspot has been for streaming, ahead of stopping to restart the stream.
 
 Chapters:
 0:00 Intro and coding at a truck stop
-6:51 Chat messages and new followers
+6:51 Chat question and a new follower
 9:53 Morning check-in and getting back to work
 17:40 Low battery and fetching the charger
 22:52 Switching cameras and a religion rant
 25:24 Chat commands and plans for shell coding
-27:38 Setting up in the hotel breakfast area
-30:13 Android hotspot reliability and stream restart
+28:43 Setting up in the hotel breakfast area
+30:21 Android hotspot reliability and stream restart
 
-`#coding #livestream #shell #linux #twitch #travel #devlife`
+`#coding #livestream #shell #twitch #travel`
 
 ## Category
 
