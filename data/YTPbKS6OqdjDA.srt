@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:05,060
+ This is a quick video to talk about something I found out.
+
+2
+00:00:05,060 --> 00:00:08,760
+ It's very esoteric, and as far as I know, it's not documented in Go.
+
+3
+00:00:08,760 --> 00:00:10,760
+ This should be short, but pay attention.
+
+4
+00:00:10,760 --> 00:00:16,480
+ Here we have, a lot of people may not know this, but you can actually have two different
+
+5
+00:00:16,480 --> 00:00:21,840
+ files that get one gets compiled for a particular target operating system type or architecture.
+
+6
+00:00:21,840 --> 00:00:22,840
+ This is a Go thing.
+
+7
+00:00:22,840 --> 00:00:26,560
+ I'm not going to get into the details of that deeply, but there's something very special
+
+8
+00:00:26,560 --> 00:00:27,800
+ that I found out.
+
+9
+00:00:27,800 --> 00:00:32,760
+ That is, the first one, the first file alphabetically wins.
+
+10
+00:00:32,760 --> 00:00:34,680
+ That's the takeaway.
+
+11
+00:00:34,680 --> 00:00:35,800
+ What I mean by that is this.
+
+12
+00:00:35,800 --> 00:00:39,560
+ If you go into this other, you can put this thing at the top here.
+
+13
+00:00:39,560 --> 00:00:43,080
+ It says, "Any other operating system that's not Windows," right?
+
+14
+00:00:43,080 --> 00:00:44,080
+ Here is the function.
+
+15
+00:00:44,080 --> 00:00:48,440
+ There is no documentation for that function, and then we open another one that has the
+
+16
+00:00:48,440 --> 00:00:53,560
+ same function down here at the bottom that has documentation, but when I do the docs,
+
+17
+00:00:53,560 --> 00:00:56,960
+ you can see, "Go doc all," you see there's no documentation.
+
+18
+00:00:56,960 --> 00:01:02,600
+ The reason for that is because the order that is what matters, and we've confirmed this
+
+19
+00:01:02,600 --> 00:01:07,520
+ with Go doc online as well, so it doesn't find it no matter what, but if I take that
+
+20
+00:01:07,520 --> 00:01:14,560
+ same documentation and I put it, so there's four lines of documentation, right, four,
+
+21
+00:01:14,560 --> 00:01:20,160
+ and I put that documentation in the alphabetically first one, it will be documented properly,
+
+22
+00:01:20,160 --> 00:01:24,040
+ so the same Go doc dash dash all command will actually show it up.
+
+23
+00:01:24,040 --> 00:01:29,160
+ The moral of the story is make sure your documentation for the functions is either the
+
+24
+00:01:29,160 --> 00:01:35,160
+ same in both places, which is super hard to keep synchronized, or that it is in the first
+
+25
+00:01:35,160 --> 00:01:39,320
+ one that wins alphabetically, so if you change the names, make sure you move the documentation.
+
+26
+00:01:39,320 --> 00:01:43,640
+ Sort of annoying, but make sure you do it, otherwise you will stuff will not be documented.
+
+27
+00:01:43,640 --> 00:01:48,040
+ If you document both separately, like this one just does this because it's this, that
+
+28
+00:01:48,040 --> 00:01:55,560
+ will be the final documentation for that function for both and all operating systems and architecture,
+
+29
+00:01:55,560 --> 00:02:00,880
+ so make sure that you don't do that, which is probably a really easy mistake to make.
+
