@@ -4,9 +4,10 @@ Continues building a Kubernetes home lab deployed with Kubespray by listing the 
 
 Chapters:
 0:00 Recap of the Kubespray Cluster Install
-3:10 Listing the Required Kubernetes Apps
+3:10 Listing the Kubernetes Cluster Apps
 5:39 Investigating the LeaderWorkerSet (LWS) Operator
-9:33 Kyverno, OPA and the CNCF Landscape
+9:21 Metrics Server, Storage, Prometheus and Operator Apps
+10:46 Kyverno, OPA and the CNCF Landscape
 13:36 Cron Jobs, Harbor and Provided Services
 16:02 Lab Architecture and the Management Cluster
 19:47 Documenting Cluster Creation and Upgrade Steps
