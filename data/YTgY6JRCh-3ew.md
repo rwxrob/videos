@@ -1,16 +1,16 @@
 # 💰 DON'T SPEND A TON on your first linux lab "server"
 
-Recommends refurbished Dell OptiPlex mini computers as an affordable first machine for a home Linux or Kubernetes lab. Covers the requirements for lab nodes, including low cost, small size, low power use, SSD storage, solid networking and network (PXE) booting. Compares them with Raspberry Pi style boards and with a larger tower for running virtual machines later.
+Recommends refurbished Dell OptiPlex small desktops as an affordable first machine for a home Linux or Kubernetes lab. Covers what lab nodes need, including low cost, small size, low power use, SSD storage, solid networking and network (PXE) boot. Compares them with Raspberry Pi-style boards and with larger towers used for virtual machines.
 
 Chapters:
-0:00 What computers to get for a lab
-0:47 Refurbished Dell OptiPlex as lab nodes
-1:38 Requirements: cheap, small, and network bootable
-2:29 Who should buy one, versus Raspberry Pi
-3:17 Specs and networking practice over VMs
-3:40 Your first lab purchase and next steps
+0:00 Which computers for a home lab
+0:47 Refurbished Dell OptiPlex price and specs
+1:49 What a lab node needs
+2:29 Who should buy one of these
+3:00 Raspberry Pi comparison and hardware specs
+3:40 Your first lab purchase and towers later
 
-`#homelab #linux #delloptiplex #kubernetes #networking #pxeboot #devops #techjobs #learning`
+`#homelab #linux #delloptiplex #kubernetes #refurbished #networking #pxeboot #devops #techjobs #learning`
 
 ## Category
 
