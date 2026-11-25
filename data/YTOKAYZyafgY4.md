@@ -1,19 +1,23 @@
 # 🎄🚀 Holiday Boost 2024 - #4: Setting Up WezTerm, Bash, Neovim and Vim Plugins
 
-Continues a beginner development environment setup, focusing on installing and configuring the WezTerm terminal with the dotfiles setup script and fonts, and getting Bash running in it on Windows and Mac. Also covers the lineage of ed, vi, Vim and Neovim, setting up the Vim configuration, checking the Vim version, and activating plugins.
+Continues a beginner development environment setup, focusing on installing the WezTerm terminal, configuring it and its fonts with the dotfiles setup script, and getting Bash running in it on Windows and Mac. Also covers the lineage of ed, vi, Vim and Neovim, setting up the Vim and Neovim configuration, checking the Neovim and Vim versions, and activating plugins.
 
 Chapters:
 0:00 Why WezTerm instead of Alacritty
-6:01 Installing fonts and WezTerm configuration
+3:18 WezTerm setup script and fonts
+7:58 Walking through the WezTerm Lua config
 15:00 Running the WezTerm setup script
-18:00 Installing WezTerm and editor tips
-27:03 Verifying Bash runs inside WezTerm
-30:05 Troubleshooting Bash setup on Windows
-36:02 Beginner system and Linux distro advice
-42:00 History of ed, vi, Vim, Neovim
-45:05 Setting up and testing Vim
-51:03 Terminal colors and default editor
-54:05 Activating and using Vim plugins
+18:20 Installing WezTerm and a ZZ debate
+22:46 WezTerm tabs on Windows
+24:51 Verifying Bash runs inside WezTerm
+28:42 Troubleshooting Bash setup on Windows
+34:45 Beginner system and Linux distro advice
+40:46 Neovim and its lineage from ed, vi and Vim
+42:42 Setting up the Vim and Neovim configuration
+47:45 Checking Neovim and Vim versions
+48:21 Troubleshooting WezTerm colors
+52:51 How vi and the default editor use Neovim
+54:19 Activating Vim plugins
 
 `#wezterm #vim #bash #terminal #dotfiles #linux #coding #education`
 
