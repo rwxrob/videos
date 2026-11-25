@@ -7,14 +7,14 @@ Chapters:
 1:10 Problems with other Go learning resources
 2:09 Who Go by Example is best for
 3:07 Running examples in the Go Playground
-4:29 Avoid Go versions older than 1.19
-5:17 Contributing to Bonsai and open source
+4:33 Avoid Go versions older than 1.19
+5:17 Contributing to Bonzai and open source
 5:48 Strengths of simplicity and Head First Go
-7:14 Outdated code and the closures example
+7:20 Outdated code and the closures example
 8:57 Can absolute beginners learn from it
-11:03 Pending pull requests and possible fork
+11:07 Pending pull requests and possible fork
 
-`#golang #gobyexample #learntocode #programming #goplayground #opensource #codingforbeginners #coding #education #protips`
+`#golang #gobyexample #learntocode #programming #goplayground #opensource #coding #education #protips`
 
 ## Category
 
