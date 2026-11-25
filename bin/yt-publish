@@ -321,14 +321,17 @@ cmd_drop() {
   for a in "$@"; do
     id=$(nid "$a")
     has published "$id" && { echo "already published: $id" >&2; continue; }
-    git_ rm -q -f -- "data/YT$id.md" "data/YT$id.srt" 2>/dev/null || rm -f "$(md "$id")" "$data/YT$id.srt"
-    sed -i.bak "/^$id\b/d" "$root/include.txt" "$root/disclaimers.txt" 2>/dev/null; rm -f "$root"/include.txt.bak "$root"/disclaimers.txt.bak
+    git_ rm -q -f --ignore-unmatch -- "data/YT$id.md" "data/YT$id.srt"
+    rm -f "$(md "$id")" "$data/YT$id.srt"
+    # BSD sed has no \b, so match the ID followed by a space or end of line.
+    sed -i.bak -E "/^$id([[:space:]]|$)/d" "$root/include.txt" "$root/disclaimers.txt"
+    rm -f "$root/include.txt.bak" "$root/disclaimers.txt.bak"
     add rejected "$id"
     idf=$(mktemp); printf '%s\n' "$id" > "$idf"
     "$here/yt-update" -y privacy "$idf" private >>"$cache/yt-publish.log" 2>&1 || echo "WARNING: could not make $id private; do it by hand" >&2
     rm -f "$idf"
-    git_ add include.txt disclaimers.txt 2>/dev/null
-    git_ commit -q -m "drop $id (not kept)" 2>/dev/null || true
+    git_ add -- include.txt disclaimers.txt
+    git_ commit -q -m "drop $id (not kept)" || echo "WARNING: nothing committed for $id" >&2
     echo "dropped $id"
   done
 }
