@@ -1,0 +1,1244 @@
+1
+00:00:00,000 --> 00:00:04,800
+ all right so i have to make this video somebody somebody i'm i'm doing
+
+2
+00:00:04,800 --> 00:00:09,920
+ container D commands and like what's ctr and this lbg answered the the question
+
+3
+00:00:09,920 --> 00:00:12,640
+ about you know what's the difference between container D and darker and i
+
+4
+00:00:12,640 --> 00:00:17,600
+ love this answer i just have to share it lbg dn says to put it short darker is
+
+5
+00:00:17,600 --> 00:00:20,800
+ container D plus of the other stuff on top of it
+
+6
+00:00:20,800 --> 00:00:24,240
+ that's useless for Kubernetes
+
+7
+00:00:24,720 --> 00:00:29,760
+ and that's that's kind of my take on it um
+
+8
+00:00:29,760 --> 00:00:35,120
+ this is a very short video so of the container engines that exist
+
+9
+00:00:35,120 --> 00:00:39,280
+ and and maybe maybe i'll go to make a point mode here we go
+
+10
+00:00:39,280 --> 00:00:44,960
+ this is make a point mode behold um also it gives me a better thumbnail
+
+11
+00:00:44,960 --> 00:00:50,080
+ so there let's go through the container engines right
+
+12
+00:00:50,080 --> 00:00:53,200
+ so i believe it's called the container runtime interface it's a Kubernetes
+
+13
+00:00:53,200 --> 00:00:57,440
+ thing it's Kubernetes has got all these acronyms that define
+
+14
+00:00:57,440 --> 00:01:00,720
+ pieces of architecture that have to be there again kubernetes is a specification
+
+15
+00:01:00,720 --> 00:01:05,520
+ it's not software it specifies how software should be and how it should work
+
+16
+00:01:05,520 --> 00:01:08,880
+ uh krio is still better and we're gonna that's a great fight to have
+
+17
+00:01:08,880 --> 00:01:15,440
+ okay uh and and so here we have uh you know i'm using
+
+18
+00:01:15,440 --> 00:01:18,560
+ container D most people these days i'm just gonna cut to the chase everybody
+
+19
+00:01:18,560 --> 00:01:24,080
+ uses container D today a few uh people you know use krio
+
+20
+00:01:24,080 --> 00:01:27,360
+ which is an even light we're gonna get into what their differences are but a
+
+21
+00:01:27,360 --> 00:01:30,960
+ few people use krio almost never nobody still uses
+
+22
+00:01:30,960 --> 00:01:35,280
+ docker community edition or docker as their container engine
+
+23
+00:01:35,280 --> 00:01:38,880
+ particularly since i think it's been now two years since Kubernetes
+
+24
+00:01:38,880 --> 00:01:44,480
+ officially kicked docker out and said we don't want any
+
+25
+00:01:44,480 --> 00:01:49,360
+ docker and apparently apparently my reactions from my
+
+26
+00:01:49,360 --> 00:01:53,040
+ mac and pro are in favor of kicking docker out
+
+27
+00:01:53,040 --> 00:01:56,640
+ and so there's no docker right why no docker
+
+28
+00:01:56,640 --> 00:01:59,040
+ docker is a devil i've made videos about this before
+
+29
+00:01:59,040 --> 00:02:02,880
+ the docker company original founder of docker is long gone moved on to pursue
+
+30
+00:02:02,880 --> 00:02:06,640
+ other interests and docker is seriously the devil
+
+31
+00:02:06,640 --> 00:02:11,200
+ um uh it doesn't have a CRTO term no it doesn't and that's the biggest argument
+
+32
+00:02:11,200 --> 00:02:13,600
+ against it which we will talk about in a second so
+
+33
+00:02:13,600 --> 00:02:18,880
+ um the now the docker is out and let's just really quickly summarize why
+
+34
+00:02:18,880 --> 00:02:21,200
+ docker is a devil and why it's out number one
+
+35
+00:02:21,200 --> 00:02:24,720
+ docker has pulled fast ones on people in the business world
+
+36
+00:02:24,720 --> 00:02:26,880
+ for a long time and the people in the open source world
+
+37
+00:02:26,880 --> 00:02:30,560
+ the company actually pulled the rug out from several open source projects
+
+38
+00:02:30,560 --> 00:02:33,360
+ that said you can't store your stuff here and end up making charging money
+
+39
+00:02:33,360 --> 00:02:35,760
+ even though they're open source and it was a huge fiasco they couldn't even
+
+40
+00:02:35,760 --> 00:02:38,640
+ get to their own containers and the entire open source world
+
+41
+00:02:38,640 --> 00:02:42,640
+ said whoa we're out of here and so what do they do they all go to the
+
+42
+00:02:42,640 --> 00:02:46,640
+ github container registry these days g h c r is where you'll see images coming
+
+43
+00:02:46,640 --> 00:02:49,440
+ and getting pulled from or they decided to run their own registries
+
+44
+00:02:49,440 --> 00:02:53,680
+ like harvard like uh Kubernetes itself and a bunch of other places
+
+45
+00:02:53,680 --> 00:02:57,680
+ because they're just done with docker uh there are still some images that are
+
+46
+00:02:57,680 --> 00:03:01,840
+ being hosted on docker hub but nobody you know who's paying any attention
+
+47
+00:03:01,840 --> 00:03:04,800
+ wants any dependency on this kind of this horrible horrible company
+
+48
+00:03:04,800 --> 00:03:09,600
+ docker also turned around and tried to charge uh everybody who was running
+
+49
+00:03:09,600 --> 00:03:13,200
+ docker on the desktop uh money overnight they gave them like
+
+50
+00:03:13,200 --> 00:03:16,080
+ six months and then they they pushed it out farther because all of a sudden
+
+51
+00:03:16,080 --> 00:03:19,360
+ they're saying hey enterprises we're going bankrupt and now you have to pay
+
+52
+00:03:19,360 --> 00:03:22,400
+ and so everybody clamored this was two years ago
+
+53
+00:03:22,400 --> 00:03:25,440
+ everybody clamored to try to find an alternative for the desktop to run
+
+54
+00:03:25,440 --> 00:03:28,400
+ containers for small projects and things like that and people tried
+
+55
+00:03:28,400 --> 00:03:31,920
+ podman desktop there was a at one point there was uh uh
+
+56
+00:03:31,920 --> 00:03:36,400
+ what was the other one um uh open open what was the open container
+
+57
+00:03:36,400 --> 00:03:40,880
+ quay yeah there've been tons of alternates it turned out to put podman
+
+58
+00:03:40,880 --> 00:03:44,720
+ is usually the winner when it comes to like desktop container engines
+
+59
+00:03:44,720 --> 00:03:48,160
+ and tools uh podman is kind of one in that space it's
+
+60
+00:03:48,160 --> 00:03:51,280
+ you know red hat with the 11 rahatum they've decided that it's also safer
+
+61
+00:03:51,280 --> 00:03:53,760
+ because it doesn't you know have that socket issue going
+
+62
+00:03:53,760 --> 00:03:56,400
+ if you don't want anything that is then you just have to study containers and
+
+63
+00:03:56,400 --> 00:04:00,000
+ short docker is the devil nobody wants to use it anymore and nobody should use
+
+64
+00:04:00,000 --> 00:04:02,800
+ it and so what are you going to use right the entire
+
+65
+00:04:02,800 --> 00:04:05,360
+ Kubernetes infrastructure was based on docker originally
+
+66
+00:04:05,360 --> 00:04:08,880
+ well that's no longer but it hasn't been the case for something like two years
+
+67
+00:04:08,880 --> 00:04:13,680
+ so what is the case now is that a lot of things have emerged to replace it and
+
+68
+00:04:13,680 --> 00:04:18,560
+ i'm going to name the top three things uh we're talking okay we're talking about
+
+69
+00:04:18,560 --> 00:04:23,600
+ container engines right now not uh tools for running containers on your
+
+70
+00:04:23,600 --> 00:04:26,960
+ desktop they're different so podman and docker
+
+71
+00:04:26,960 --> 00:04:31,520
+ uh scopio build up all those things that you use to deal with containers and
+
+72
+00:04:31,520 --> 00:04:34,800
+ move them around those tools and stuff those are not in the scope of
+
+73
+00:04:34,800 --> 00:04:38,640
+ conversation right now set those aside what we're talking about is a container
+
+74
+00:04:38,640 --> 00:04:41,760
+ engine in other words i want to put a container engine on a thing because i
+
+75
+00:04:41,760 --> 00:04:46,960
+ want to run kubernetes or i want to run many kubernetes or i want to run no
+
+76
+00:04:46,960 --> 00:04:50,400
+ mad right uh and all of these things require
+
+77
+00:04:50,400 --> 00:04:54,720
+ containers and and some of them share they all have they all have similarities
+
+78
+00:04:54,720 --> 00:04:59,360
+ in particular no mad and kubernetes are very interesting because they both
+
+79
+00:04:59,360 --> 00:05:03,360
+ require a container engine and they both require something as started as a
+
+80
+00:05:03,360 --> 00:05:06,240
+ kubernetes standard called the container network interface
+
+81
+00:05:06,240 --> 00:05:10,000
+ um so the c&i and that's the way the container does networking and how it
+
+82
+00:05:10,000 --> 00:05:12,800
+ talks to each other and how containers network with each other
+
+83
+00:05:12,800 --> 00:05:16,720
+ and so these are all related to the conversation
+
+84
+00:05:16,720 --> 00:05:19,760
+ um they all are built obviously container these containers we're talking
+
+85
+00:05:19,760 --> 00:05:23,920
+ about are not jails or not bsd they're all built on something called lxc
+
+86
+00:05:23,920 --> 00:05:27,200
+ then and a lot of people would argue for the lx community that lxc is the one
+
+87
+00:05:27,200 --> 00:05:30,320
+ true way to use a container and it's really low level and that uses
+
+88
+00:05:30,320 --> 00:05:34,240
+ something called cgroups and there's actually a low level component called
+
+89
+00:05:34,240 --> 00:05:38,240
+ run c which has become the abstraction of how to run a container
+
+90
+00:05:38,240 --> 00:05:41,440
+ on top of lxc and that has now become sort of
+
+91
+00:05:41,440 --> 00:05:44,960
+ dependent pieces all of these things use run c why is this important
+
+92
+00:05:44,960 --> 00:05:47,920
+ because all of the container engines that i'm going to talk about
+
+93
+00:05:47,920 --> 00:05:51,600
+ have different layers of complexity and bloat
+
+94
+00:05:51,600 --> 00:05:54,800
+ that are layered on top of run c more or less
+
+95
+00:05:54,800 --> 00:05:58,400
+ okay so krio which our friend is abigee has been mentioning
+
+96
+00:05:58,400 --> 00:06:02,320
+ is by far the lightest it is super duper lightweight
+
+97
+00:06:02,320 --> 00:06:06,640
+ it's this teeny tiny wrapper of run c it's pretty much just run c
+
+98
+00:06:06,640 --> 00:06:09,680
+ and for that reason if you need to debug a container or you want to do
+
+99
+00:06:09,680 --> 00:06:12,880
+ docker type things like you know exec into a container
+
+100
+00:06:12,880 --> 00:06:16,320
+ or see it or ls and remove the image and all these different things
+
+101
+00:06:16,320 --> 00:06:20,240
+ a lot of those functions are not included with the command line tools to use
+
+102
+00:06:20,240 --> 00:06:26,480
+ uh to use uh that there are a number of utilities that relate to all of this
+
+103
+00:06:26,480 --> 00:06:30,480
+ uh new container engines stuff some of which i actually am kind of deficient
+
+104
+00:06:30,480 --> 00:06:36,880
+ skills wise in uh one of them is crease c t l so uh c ri c t l this is called
+
+105
+00:06:36,880 --> 00:06:41,200
+ container runtime uh interface so all the container engines since
+
+106
+00:06:41,200 --> 00:06:44,400
+ kubernetes made the the the declaration dau shalt
+
+107
+00:06:44,400 --> 00:06:46,960
+ define and follow the container runtime interface
+
+108
+00:06:46,960 --> 00:06:49,280
+ every container engine on the planet that matters
+
+109
+00:06:49,280 --> 00:06:53,040
+ uses c ri and so this tool has been maintained
+
+110
+00:06:53,040 --> 00:06:56,880
+ that interfaces directly with anything that speaks c ri
+
+111
+00:06:56,880 --> 00:06:59,760
+ now but the container runtime interface doesn't cover everything that you would
+
+112
+00:06:59,760 --> 00:07:02,960
+ want to do with docker podd man and so you may be like thinking oh my god
+
+113
+00:07:02,960 --> 00:07:06,640
+ where did my commands go right and that is because
+
+114
+00:07:06,640 --> 00:07:09,360
+ the container runtime interface has been designed for kubernetes
+
+115
+00:07:09,360 --> 00:07:11,680
+ that's where the comment at the beginning of the video comes in
+
+116
+00:07:11,680 --> 00:07:15,280
+ uh that it's it's not the stuff that you would want to do on a desktop so
+
+117
+00:07:15,280 --> 00:07:18,160
+ it's eliminated a lot of those things that you might want
+
+118
+00:07:18,160 --> 00:07:21,360
+ uh for better or worse right and then so each container runtime engine is
+
+119
+00:07:21,360 --> 00:07:24,640
+ decided okay how much are we going to add on top of the base
+
+120
+00:07:24,640 --> 00:07:29,440
+ functionality of run c and c ri and c n i the container networking interface
+
+121
+00:07:29,440 --> 00:07:33,680
+ which defines how they talk to each other so um you know if you're trying to
+
+122
+00:07:33,680 --> 00:07:35,760
+ if you're just trying to get containers to work
+
+123
+00:07:35,760 --> 00:07:38,640
+ uh on your desktop this is not the video for you this is the video for
+
+124
+00:07:38,640 --> 00:07:44,080
+ which engine should i pick so krio is c ri dash o is it when we first used it
+
+125
+00:07:44,080 --> 00:07:47,680
+ two years ago was rather immature and it didn't really work and had some bugs
+
+126
+00:07:47,680 --> 00:07:50,480
+ in it um and but it but it since it's it's come
+
+127
+00:07:50,480 --> 00:07:53,440
+ around i'm not going to use it though for reasons we'll talk about later
+
+128
+00:07:53,440 --> 00:07:56,160
+ it's the lightest weight it's the smallest engine you can
+
+129
+00:07:56,160 --> 00:07:59,920
+ possibly run on a node uh whether it's a virtual or a real
+
+130
+00:07:59,920 --> 00:08:04,080
+ node being a machine um and you you know it's the smallest thing you can get
+
+131
+00:08:04,080 --> 00:08:09,040
+ it's just baseline layer on top of run c uh and it is step up from that and you
+
+132
+00:08:09,040 --> 00:08:13,600
+ get container d container d is kind of the legacy from
+
+133
+00:08:13,600 --> 00:08:18,080
+ docker and docker se uh and as actually unfortunately
+
+134
+00:08:18,080 --> 00:08:21,840
+ the packages if you want a package installed container d uh you still
+
+135
+00:08:21,840 --> 00:08:27,760
+ have to go to the docker project uh uh for those things and that is why i
+
+136
+00:08:27,760 --> 00:08:31,760
+ wrote my own uh installer for container d based on
+
+137
+00:08:31,760 --> 00:08:35,840
+ container d's documentation uh that is not a package
+
+138
+00:08:35,840 --> 00:08:39,280
+ but this is all the stuff that you would get from a package this is how you
+
+139
+00:08:39,280 --> 00:08:42,800
+ install container d it's ads bash completion for container d
+
+140
+00:08:42,800 --> 00:08:47,600
+ this installs run c it installs the the container d plugins for c and i
+
+141
+00:08:47,600 --> 00:08:52,240
+ and all of that stuff now why would you pick container d over over over
+
+142
+00:08:52,240 --> 00:08:56,080
+ just um you know korea uh korea is the default for open shift
+
+143
+00:08:56,080 --> 00:08:59,360
+ yeah but open shift is a red hat offering and they have more control over the
+
+144
+00:08:59,360 --> 00:09:02,720
+ container engines they don't want people open shift is more of a
+
+145
+00:09:02,720 --> 00:09:06,960
+ one solution meets you know come is is good for everybody kind of thing
+
+146
+00:09:06,960 --> 00:09:09,680
+ and they want lightweight you know so they don't want to impact their thing
+
+147
+00:09:09,680 --> 00:09:12,720
+ plus usually if you're doing an open shift you're already deploying red
+
+148
+00:09:12,720 --> 00:09:16,080
+ hat and so red you know open shift plus red hat equals you know
+
+149
+00:09:16,080 --> 00:09:19,520
+ joy for them and enterprise um and and so they
+
+150
+00:09:19,520 --> 00:09:24,400
+ they kind of control the whole ecosystem so they really don't want people poking
+
+151
+00:09:24,400 --> 00:09:27,680
+ around in the container engine but if you're me
+
+152
+00:09:27,680 --> 00:09:31,120
+ or you're any other a lot of other people in their home lab or some other
+
+153
+00:09:31,120 --> 00:09:34,240
+ thing sometimes you want to use that container engine on that node for
+
+154
+00:09:34,240 --> 00:09:37,120
+ other purposes or you want to you just don't trust
+
+155
+00:09:37,120 --> 00:09:40,880
+ uh the minimalism of korea and other things like that because
+
+156
+00:09:40,880 --> 00:09:44,080
+ you really want to see what's going on when kubernetes stops working and you
+
+157
+00:09:44,080 --> 00:09:47,280
+ want to go you know look kick you know get under the hood or whatever and see
+
+158
+00:09:47,280 --> 00:09:49,920
+ what's actually going on and the only way you can actually see what's going
+
+159
+00:09:49,920 --> 00:09:55,440
+ on a container engine is um uh so yeah well it's it is now
+
+160
+00:09:55,440 --> 00:09:59,520
+ korea was not battle tested two years ago it was not we was throwing all kinds of
+
+161
+00:09:59,520 --> 00:10:02,560
+ errors in our test cases at work and so we started to decide
+
+162
+00:10:02,560 --> 00:10:06,400
+ enough to do it um you know these technologies are
+
+163
+00:10:06,400 --> 00:10:09,440
+ evolving all the time so you probably want to reevaluate every year
+
+164
+00:10:09,440 --> 00:10:11,760
+ whether you want to do it but if you're deploying a cluster and that cluster
+
+165
+00:10:11,760 --> 00:10:14,960
+ can be around for a year or two uh which is probably a bad idea by the way
+
+166
+00:10:14,960 --> 00:10:18,160
+ you should be automatically updating your cluster pretty frequently
+
+167
+00:10:18,160 --> 00:10:22,160
+ otherwise you're going to get you know day two problems in your enterprise
+
+168
+00:10:22,160 --> 00:10:25,920
+ so what container engine you use that decision is larger than a few
+
+169
+00:10:25,920 --> 00:10:29,920
+ uh but if you want more access you've been using it for five
+
+170
+00:10:29,920 --> 00:10:33,760
+ that doesn't surprise me a lot of a lot of advanced people have been using
+
+171
+00:10:33,760 --> 00:10:37,760
+ uh korea for a long time and making it work um i'm just telling you that when
+
+172
+00:10:37,760 --> 00:10:41,280
+ we tried it in our enterprise uh that the people who did it wasn't me
+
+173
+00:10:41,280 --> 00:10:44,560
+ they had an exceptional number of complications with the container engine
+
+174
+00:10:44,560 --> 00:10:47,760
+ in our enterprise now we might have had hardware concerns that were different
+
+175
+00:10:47,760 --> 00:10:51,040
+ um but you know obviously you have to test all these things out korea was the
+
+176
+00:10:51,040 --> 00:10:54,400
+ lightest weight therefore technically it probably is going to be
+
+177
+00:10:54,400 --> 00:10:56,960
+ the least likely to have problems once it gets stable because there's not a lot
+
+178
+00:10:56,960 --> 00:11:00,240
+ of things to maintain but it also exposes the least amount of
+
+179
+00:11:00,240 --> 00:11:03,760
+ things to you under the hood you have to go through
+
+180
+00:11:03,760 --> 00:11:07,440
+ uh kubernetes or no matter whatever it is to get to the stuff that you want to
+
+181
+00:11:07,440 --> 00:11:11,520
+ see about the container engine there's no way to you know open the hood or go
+
+182
+00:11:11,520 --> 00:11:13,920
+ under the car and see how it's working you can't
+
+183
+00:11:13,920 --> 00:11:17,120
+ you know SSH into the box and then run a command that doesn't have anything to
+
+184
+00:11:17,120 --> 00:11:19,760
+ do with the with the thing using the container engine
+
+185
+00:11:19,760 --> 00:11:23,520
+ and that can be that can be problematic and by the way that is
+
+186
+00:11:23,520 --> 00:11:28,240
+ primarily the difference between these things so korea gives you almost zero
+
+187
+00:11:28,240 --> 00:11:31,200
+ access to any of the things that are happening under the hood
+
+188
+00:11:31,200 --> 00:11:34,880
+ uh you found some small issues open prs for them okay nice
+
+189
+00:11:34,880 --> 00:11:39,120
+ um but and then and then but but you know it's it's lightweight mobile
+
+190
+00:11:39,120 --> 00:11:42,400
+ container d it's kind of the step up from that it's not docker but it's
+
+191
+00:11:42,400 --> 00:11:46,560
+ heavily inspired by docker and currently controlled by docker
+
+192
+00:11:46,560 --> 00:11:50,320
+ and i think that's super important container container d has not yet
+
+193
+00:11:50,320 --> 00:11:54,960
+ broken free of the docker umbrella if you want to install container d it is a
+
+194
+00:11:54,960 --> 00:11:58,560
+ separate project but the project the the package installs and everything
+
+195
+00:11:58,560 --> 00:12:01,600
+ are still coming from the docker the docker team
+
+196
+00:12:01,600 --> 00:12:04,560
+ if i'm wrong about that please you know put it in the comments be nice
+
+197
+00:12:04,560 --> 00:12:08,560
+ you know i'm just going on what i last heard so but as far as i know as of
+
+198
+00:12:08,560 --> 00:12:11,840
+ this moment the container d project it still has ties with docker
+
+199
+00:12:11,840 --> 00:12:14,400
+ it's so much so that you can't apt install container d
+
+200
+00:12:14,400 --> 00:12:20,000
+ unless you add the docker bloat which includes adding the literal docker
+
+201
+00:12:20,000 --> 00:12:24,960
+ hub package repository to your app repose just to install it by using
+
+202
+00:12:24,960 --> 00:12:29,760
+ apt install if you're on a bun too and i'm not doing that so i wrote a
+
+203
+00:12:29,760 --> 00:12:33,840
+ script to do it in the official container d alternative way which is
+
+204
+00:12:33,840 --> 00:12:36,480
+ you know download the service and add it to the system to
+
+205
+00:12:36,480 --> 00:12:39,840
+ download you know the container d stuff download run see download the plug-ins
+
+206
+00:12:39,840 --> 00:12:45,120
+ you know add an edc and edc control d can pick that
+
+207
+00:12:45,120 --> 00:12:48,640
+ tom will file and modify it using a tom will python script which is all in
+
+208
+00:12:48,640 --> 00:12:52,480
+ my script you can go look at it and and that's all the stuff that a
+
+209
+00:12:52,480 --> 00:12:56,400
+ package install would do for you but you know it's not a package it's
+
+210
+00:12:56,400 --> 00:13:02,000
+ ugly should somebody make a package under the apt repo that
+
+211
+00:13:02,000 --> 00:13:05,200
+ is coming from a distant repository for container d i think they should but i
+
+212
+00:13:05,200 --> 00:13:08,240
+ don't want to be the one to do it and if it if it does happen it should come
+
+213
+00:13:08,240 --> 00:13:12,240
+ from the container d project which right now doesn't seem motivated to do that
+
+214
+00:13:12,240 --> 00:13:16,160
+ they just want to continue to use the one that's being maintained by docker
+
+215
+00:13:16,160 --> 00:13:19,040
+ so i i don't know the reason for that but it's important that you know that
+
+216
+00:13:19,040 --> 00:13:21,440
+ you're not getting you're not free of docker
+
+217
+00:13:21,440 --> 00:13:25,120
+ uh you know things in fact there are still some pieces
+
+218
+00:13:25,120 --> 00:13:27,760
+ even if Kubernetes that used to be docker you have to install the docker
+
+219
+00:13:27,760 --> 00:13:30,320
+ se package to get them that may have changed in the last two years i'm about
+
+220
+00:13:30,320 --> 00:13:34,560
+ to find out so that's a lot to talk about what about
+
+221
+00:13:34,560 --> 00:13:39,280
+ docker se community edition yeah you can just install docker se community edition
+
+222
+00:13:39,280 --> 00:13:42,160
+ docker we're talking about the desktop saying the docker same docker command
+
+223
+00:13:42,160 --> 00:13:45,200
+ everything you can use that you can use that that will put in the
+
+224
+00:13:45,200 --> 00:13:48,400
+ all the container engine you want on your on your nodes if you want but it's
+
+225
+00:13:48,400 --> 00:13:50,880
+ got a lot of extra stuff there that doesn't need to be there
+
+226
+00:13:50,880 --> 00:13:54,000
+ uh you can use docker if you want if you want to install docker on all those
+
+227
+00:13:54,000 --> 00:13:56,960
+ nodes you can do that too you can install pod band on those
+
+228
+00:13:56,960 --> 00:14:01,040
+ nodes and any of those tools will work but at each stage in the game
+
+229
+00:14:01,040 --> 00:14:05,360
+ you you you've added more bloat um to give you one solid example
+
+230
+00:14:05,360 --> 00:14:08,240
+ which i think is a bad example but i'm going to cite it for you anyway i think
+
+231
+00:14:08,240 --> 00:14:10,640
+ this is an anti-pattern let me just say it right up front
+
+232
+00:14:10,640 --> 00:14:14,640
+ but our business when we might the place that i work when i first got here
+
+233
+00:14:14,640 --> 00:14:20,320
+ they had people using this it makes me sick to even say this
+
+234
+00:14:20,320 --> 00:14:25,440
+ because it's such a bad practice um yeah extra attack service all kind of
+
+235
+00:14:25,440 --> 00:14:28,960
+ thing we had people that were using they didn't have
+
+236
+00:14:28,960 --> 00:14:31,280
+ docker on their desktop and they weren't allowed to install it
+
+237
+00:14:31,280 --> 00:14:34,640
+ so we had system administrators who needed to use docker to for all the
+
+238
+00:14:34,640 --> 00:14:37,600
+ normal docker things right for getting an image and compiling an image and
+
+239
+00:14:37,600 --> 00:14:39,520
+ creating a docker file and all those things right
+
+240
+00:14:39,520 --> 00:14:43,760
+ they were actually reusing Kubernetes node machines
+
+241
+00:14:43,760 --> 00:14:49,840
+ as their personal docker space and so they would SSH in they would SSH in
+
+242
+00:14:49,840 --> 00:14:53,120
+ his route because they had root access the rest of the user base didn't
+
+243
+00:14:53,120 --> 00:14:56,080
+ and they said well i need docker i don't want to put on my desktop or whatever
+
+244
+00:14:56,080 --> 00:14:59,360
+ and so they would SSH in his route and they would use docker use in the docker
+
+245
+00:14:59,360 --> 00:15:02,480
+ command and they and their container images and all their
+
+246
+00:15:02,480 --> 00:15:05,840
+ stuff would end up getting intermixed with the stuff being managed by
+
+247
+00:15:05,840 --> 00:15:11,680
+ Kubernetes on that node that is a major major violation of best practice
+
+248
+00:15:11,680 --> 00:15:16,080
+ one of the biggest anti-patterns in history i can't believe they did it
+
+249
+00:15:16,080 --> 00:15:19,680
+ and they they did this because they said they didn't have any other way to use
+
+250
+00:15:19,680 --> 00:15:24,000
+ docker i think that's totally stupid thank you for
+
+251
+00:15:24,000 --> 00:15:27,120
+ the follow i thought that was totally stupid i was like why are you doing this
+
+252
+00:15:27,120 --> 00:15:30,320
+ this is so dangerous and then and then and then the other guys were saying
+
+253
+00:15:30,320 --> 00:15:33,680
+ well we can't administer our endpoint nodes unless we can use docker and i'm
+
+254
+00:15:33,680 --> 00:15:36,400
+ like what are you talking about let's say well we need to get in there and see
+
+255
+00:15:36,400 --> 00:15:38,480
+ what's going on in the container engine to be fair
+
+256
+00:15:38,480 --> 00:15:42,160
+ the container engine docker container engine Kubernetes was broken back then
+
+257
+00:15:42,160 --> 00:15:45,760
+ and there were certain cases where the images would stick around and they would
+
+258
+00:15:45,760 --> 00:15:50,160
+ bloat out the container engine did you ever remember this this was Kubernetes
+
+259
+00:15:50,160 --> 00:15:52,400
+ version whatever i don't remember what version it was
+
+260
+00:15:52,400 --> 00:15:55,600
+ but there was a time when Kubernetes had a legitimate bug in it
+
+261
+00:15:55,600 --> 00:15:59,680
+ that caused containers to sit there forever and not ever get cleaned out
+
+262
+00:15:59,680 --> 00:16:03,680
+ and the only way to clean up those images was to give ssh over with docker
+
+263
+00:16:03,680 --> 00:16:06,320
+ and then delete all the extraneous images and make sure they weren't being
+
+264
+00:16:06,320 --> 00:16:09,200
+ used by Kubernetes which if you're a Kubernetes admin
+
+265
+00:16:09,200 --> 00:16:12,400
+ i mean the whole you know promise of Kubernetes is to save you from that
+
+266
+00:16:12,400 --> 00:16:15,840
+ crap and they did not do that oh my god and it was
+
+267
+00:16:15,840 --> 00:16:18,800
+ it was horrible i don't ever want to go back to that world um
+
+268
+00:16:18,800 --> 00:16:21,760
+ you know it's been two or three years since i really looked at that level of
+
+269
+00:16:21,760 --> 00:16:24,400
+ Kubernetes that deeply i'm doing it now in my home lab
+
+270
+00:16:24,400 --> 00:16:29,600
+ but the point i'm trying to make is um if if you didn't get
+
+271
+00:16:29,600 --> 00:16:33,200
+ if you weren't burned but people who have been burned by not being able to
+
+272
+00:16:33,200 --> 00:16:36,320
+ manipulate the images that are in the container runtime engine
+
+273
+00:16:36,320 --> 00:16:40,960
+ on their on their endpoint nodes people have been burned by light like we were
+
+274
+00:16:40,960 --> 00:16:46,800
+ they're very very leery of krio because they don't have the access to do that
+
+275
+00:16:46,800 --> 00:16:50,160
+ they don't they don't have the same debugging and administration access to
+
+276
+00:16:50,160 --> 00:16:54,480
+ the underlying container image that was absolutely essential to restoring
+
+277
+00:16:54,480 --> 00:16:57,040
+ Kubernetes functionality when that bug existed
+
+278
+00:16:57,040 --> 00:17:00,320
+ and so they've been burned by that and they're like oh hell no i am not doing
+
+279
+00:17:00,320 --> 00:17:02,800
+ that i want access to my container engine
+
+280
+00:17:02,800 --> 00:17:07,040
+ you know attack surface insecurity or not i don't care i'm going to go do it
+
+281
+00:17:07,040 --> 00:17:10,640
+ and maybe they have other you know bad reasons like i need a docker engine
+
+282
+00:17:10,640 --> 00:17:13,760
+ someplace i don't want to put on my desktop because docker i have to pay for
+
+283
+00:17:13,760 --> 00:17:17,120
+ it now which is stupid that's totally stupid don't do that
+
+284
+00:17:17,120 --> 00:17:20,000
+ but if but that so they've been burned by it so
+
+285
+00:17:20,000 --> 00:17:25,280
+ so a lot of people have sort of landed on this middle ground
+
+286
+00:17:25,280 --> 00:17:29,600
+ and and the middle ground i i personally believe the most popular container
+
+287
+00:17:29,600 --> 00:17:34,320
+ engine right now um and is yeah i'll definitely link to this
+
+288
+00:17:34,320 --> 00:17:40,480
+ that um i think that the most the most uh the most popular container engine today
+
+289
+00:17:40,480 --> 00:17:44,480
+ particularly for home labs is container d for that reason
+
+290
+00:17:44,480 --> 00:17:48,400
+ it has the level of access for tweaking and watching what's going on with your
+
+291
+00:17:48,400 --> 00:17:51,280
+ images even if it's just for learning purposes
+
+292
+00:17:51,280 --> 00:17:54,800
+ um and you know it doesn't it doesn't hobble you when you try to see what's
+
+293
+00:17:54,800 --> 00:17:58,240
+ actually happening under the hood uh like krio does
+
+294
+00:17:58,240 --> 00:18:03,120
+ but it also you know it it's it's kind of on that side so it gives you more
+
+295
+00:18:03,120 --> 00:18:05,840
+ access into it so people like me that are uncomfortable with
+
+296
+00:18:05,840 --> 00:18:09,600
+ the absolute minimum of and by the way i did try to run a Kubernetes cluster
+
+297
+00:18:09,600 --> 00:18:13,040
+ with krio and tested it when i did my last Kubernetes cluster
+
+298
+00:18:13,040 --> 00:18:16,160
+ and then i realized that i couldn't do anything in the image and that was when
+
+299
+00:18:16,160 --> 00:18:18,240
+ i decided i did not want anything to do with it
+
+300
+00:18:18,240 --> 00:18:22,160
+ um because i i wanted to be able to to tinker and that is why
+
+301
+00:18:22,160 --> 00:18:26,800
+ that i have chosen container d all of my peers at work including the ones that
+
+302
+00:18:26,800 --> 00:18:30,640
+ by the way the people who did that shit in the cluster sorry for the swear word
+
+303
+00:18:30,640 --> 00:18:34,080
+ they're gone now all of them they've all went on to do other things
+
+304
+00:18:34,080 --> 00:18:37,280
+ the team that i'm with now they know their shit they know what they're
+
+305
+00:18:37,280 --> 00:18:40,800
+ doing i'm super happy to have them as teammates
+
+306
+00:18:40,800 --> 00:18:45,040
+ why is my reaction at working that makes me sad there we go
+
+307
+00:18:45,040 --> 00:18:49,440
+ so that is why i am using container d uh
+
+308
+00:18:49,440 --> 00:18:52,880
+ container d or krio that's what i would use um
+
+309
+00:18:52,880 --> 00:18:56,240
+ there may be other content container runtime engines i don't know about them
+
+310
+00:18:56,240 --> 00:19:00,160
+ let me know in the comments uh if i should know about them
+
+311
+00:19:00,160 --> 00:19:02,700
+ Those are the only ones that really matter, though, in my opinion.
+
