@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:06,000
+ Guys, we were just talking about GitLab and this cool tool from Hera Oddsimplots, which
+
+2
+00:00:06,000 --> 00:00:11,960
+ is a friend of the stream on occasion to come by here, the good sea coder, amazing streamer,
+
+3
+00:00:11,960 --> 00:00:15,040
+ and all around, you know, create human being.
+
+4
+00:00:15,040 --> 00:00:20,360
+ And you know, he made GCLI to talk to GitHub and GitLab and everything.
+
+5
+00:00:20,360 --> 00:00:24,720
+ And I just want to make a quick video about why I made lots of videos about this in the
+
+6
+00:00:24,720 --> 00:00:29,980
+ past, but I just want to reiterate, my hatred for GitLab has been coming from three reasons
+
+7
+00:00:29,980 --> 00:00:36,280
+ because the first one is GitLab is ridiculously slow.
+
+8
+00:00:36,280 --> 00:00:42,240
+ The API is, I mean, whatever is causing it, it's really, really slow.
+
+9
+00:00:42,240 --> 00:00:43,240
+ The UI is slow.
+
+10
+00:00:43,240 --> 00:00:46,180
+ The UI is prettier, but it's totally slow.
+
+11
+00:00:46,180 --> 00:00:49,840
+ And it also has gatekeeping blocking, so you can't browse repost unless you have a GitLab
+
+12
+00:00:49,840 --> 00:00:54,680
+ account and all kinds of weird things that just kind of get in your way.
+
+13
+00:00:54,680 --> 00:00:56,120
+ And that's the number one reason.
+
+14
+00:00:56,120 --> 00:00:58,760
+ The number two reason, it's written in Ruby, right?
+
+15
+00:00:58,760 --> 00:01:04,040
+ The number two reason, and by the way, if you try to install GitLab server, good luck.
+
+16
+00:01:04,040 --> 00:01:05,560
+ No way.
+
+17
+00:01:05,560 --> 00:01:08,840
+ It is a pain in the butt setup and it's so slow.
+
+18
+00:01:08,840 --> 00:01:10,760
+ It's just so bad.
+
+19
+00:01:10,760 --> 00:01:12,520
+ Number two, and I love GitLab.
+
+20
+00:01:12,520 --> 00:01:13,520
+ This is what sucked.
+
+21
+00:01:13,520 --> 00:01:15,880
+ I was pushing for everybody to go to GitLab because it would win.
+
+22
+00:01:15,880 --> 00:01:19,160
+ Number two, and this is the other main reason.
+
+23
+00:01:19,160 --> 00:01:21,280
+ This is the pain point that reminded me of this.
+
+24
+00:01:21,280 --> 00:01:26,280
+ I was on GitLab and I was making code, I was writing my own code to talk to the API.
+
+25
+00:01:26,280 --> 00:01:30,300
+ The GitLab API is ridiculously stupid.
+
+26
+00:01:30,300 --> 00:01:31,840
+ It's so bad.
+
+27
+00:01:31,840 --> 00:01:35,640
+ And apparently the author of this tool has complained about the same thing.
+
+28
+00:01:35,640 --> 00:01:39,920
+ Now the Git Hub API uses GraphQL pretty overzealousy.
+
+29
+00:01:39,920 --> 00:01:41,840
+ I think it's kind of over-engineered by TAYWUD.
+
+30
+00:01:41,840 --> 00:01:43,040
+ It's amazing.
+
+31
+00:01:43,040 --> 00:01:44,040
+ It's amazing.
+
+32
+00:01:44,040 --> 00:01:45,440
+ It does things that are intuitive.
+
+33
+00:01:45,440 --> 00:01:49,360
+ It's really great and it's super easy to code against.
+
+34
+00:01:49,360 --> 00:01:52,600
+ And three, this is the nail in the coffin.
+
+35
+00:01:52,600 --> 00:01:59,440
+ GitHub made their own command line API tool that directly talks to some of the back-end
+
+36
+00:01:59,440 --> 00:02:00,600
+ in GitHub is Ruby.
+
+37
+00:02:00,600 --> 00:02:01,600
+ Some of it is.
+
+38
+00:02:01,600 --> 00:02:03,960
+ The statement that GitHub is Ruby is a lie.
+
+39
+00:02:03,960 --> 00:02:06,440
+ It's mostly Elixir, actually.
+
+40
+00:02:06,440 --> 00:02:09,640
+ Last time I checked, somebody correct me in the comments if I'm wrong on that if you know
+
+41
+00:02:09,640 --> 00:02:11,840
+ exactly what's going on there.
+
+42
+00:02:11,840 --> 00:02:12,840
+ There is some Ruby.
+
+43
+00:02:12,840 --> 00:02:14,400
+ Jekyll is in there and stuff.
+
+44
+00:02:14,400 --> 00:02:18,720
+ So the third thing is, whether or not it's Ruby doesn't matter.
+
+45
+00:02:18,720 --> 00:02:19,920
+ GitHub is not slow.
+
+46
+00:02:19,920 --> 00:02:21,720
+ You can say a lot of things about GitHub.
+
+47
+00:02:21,720 --> 00:02:25,400
+ The things you can't say about GitHub is that it is slow.
+
+48
+00:02:25,400 --> 00:02:27,160
+ The website is not slow.
+
+49
+00:02:27,160 --> 00:02:28,520
+ The API is not slow.
+
+50
+00:02:28,520 --> 00:02:32,160
+ I have never ever had a complaint about slowness.
+
+51
+00:02:32,160 --> 00:02:37,360
+ So in terms of integration, the GitHub command line tool is way, way better than anything
+
+52
+00:02:37,360 --> 00:02:39,560
+ out there in the world right now.
+
+53
+00:02:39,560 --> 00:02:44,880
+ So if you and obviously the fourth reason, which is a major reason for everybody, it's
+
+54
+00:02:44,880 --> 00:02:49,480
+ usually their first reason, is GitHub is in the time that I did the evaluation, I made
+
+55
+00:02:49,480 --> 00:02:50,480
+ another video about this.
+
+56
+00:02:50,480 --> 00:02:54,960
+ And in the time that I did my evaluation of GitLab versus GitHub, GitHub added something
+
+57
+00:02:54,960 --> 00:02:59,160
+ like 8 million users and GitLab didn't.
+
+58
+00:02:59,160 --> 00:03:02,200
+ And which brings me, I guess, to sort of a reason I hadn't thought of.
+
+59
+00:03:02,200 --> 00:03:08,320
+ And that is GitLab is built entirely, almost a huge percentage of GitLab depends entirely
+
+60
+00:03:08,320 --> 00:03:13,120
+ on open source contributions, which on the surface seems like a really great thing, but
+
+61
+00:03:13,120 --> 00:03:14,440
+ it's really not.
+
+62
+00:03:14,440 --> 00:03:21,840
+ Because as much as you hate Microsoft and all of their stealing and private data and GitHub
+
+63
+00:03:21,840 --> 00:03:25,640
+ and all that and putting it into their AI and all those things that Microsoft does, as much
+
+64
+00:03:25,640 --> 00:03:30,920
+ as you might hate them for that, GitHub stominates, it's got the greatest adoption, it's got your
+
+65
+00:03:30,920 --> 00:03:34,760
+ most, more likely to get a job from having a GitHub account than anything else.
+
+66
+00:03:34,760 --> 00:03:37,600
+ And it doesn't depend on open source contributions.
+
+67
+00:03:37,600 --> 00:03:41,280
+ It does take all open source contributions, but it doesn't depend on them.
+
+68
+00:03:41,280 --> 00:03:45,360
+ So you can complain about GitHub all you want, and I'm going to get hate in the comments.
+
+69
+00:03:45,360 --> 00:03:50,200
+ I don't care if you're watching this because you want to be taken seriously.
+
+70
+00:03:50,200 --> 00:03:51,200
+ Use GitHub.
+
+71
+00:03:51,200 --> 00:03:52,120
+ I'm sorry.
+
