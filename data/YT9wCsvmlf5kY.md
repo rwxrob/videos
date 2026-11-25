@@ -1,6 +1,6 @@
 # Best computer for tech and streaming
 
-Argues for a MacBook Air or entry-level MacBook Pro as the best first computer for learning to code and starting a tech career, citing the Unix base, reliability, and streaming capability. Covers a budget Asus-with-Linux alternative, then walks through a Micro Center shopping trip for streaming gear such as the DJI Pocket 3, wireless mics, XLR microphones, and audio interfaces, with a brief note on DJing mixers.
+Argues for a MacBook Air or entry-level MacBook Pro as the best first computer for learning to code and starting a tech career, citing the Unix base, reliability, and streaming capability. Covers a budget Asus-with-Linux alternative and, during a Micro Center visit, streaming gear such as the DJI Pocket 3, DJI wireless mics, the Shure SM7B, and Scarlett and Cloudlifter audio gear, with a brief note on mixing boards for DJing.
 
 Let's buy a computer for tech career and streaming and djing.
 
@@ -8,14 +8,15 @@ Chapters:
 0:00 Intro and arriving at Micro Center
 1:27 Why a Mac is best for tech
 4:00 MacBook Air for coding on a budget
-7:47 Why choose a MacBook Pro for streaming
-12:45 Budget option: Asus laptop with Linux
-16:40 Fastest path to a tech job
-17:17 Streaming gear: DJI Pocket 3 and more
-18:46 Microphones, Shure SM7B and audio interfaces
+7:36 Why choose a MacBook Pro for streaming
+12:35 Budget option: Asus laptop with Linux
+14:58 Fastest path to a tech job
+16:22 Streaming gear: DJI Pocket 3 and more
+18:28 Microphones, Shure SM7B and audio gear
 24:13 DJing and mixing boards
 25:02 Pocket 3 and DJI mic setup
-29:00 Budget recap and checkout
+28:59 Moblin camera control and the Mac's built-in mic
+30:13 Budget recap and checkout
 
 `#macbook #techcareer #streaming #learntocode #microcenter #djipocket3 #linux #unix #obs`
 
