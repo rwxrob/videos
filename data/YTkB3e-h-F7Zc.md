@@ -1,6 +1,6 @@
 # 🎄🚀 Bash Scripting Basics: Permissions, Shebang Lines, ShellCheck (Holiday Boost 2024 - #8)
 
-Introduces Bash by showing that typing commands is already programming, then turning those commands into executable scripts. Compares how compiled binaries and interpreted scripts run, explains permissions and portable shebang lines using env, and shows how to set up ShellCheck and shfmt and learn from their warnings.
+Introduces Bash by showing that typing commands is already programming, then turning those commands into executable scripts. Compares how compiled binaries and interpreted scripts run, explains permissions and portable shebang lines using env, and shows how to set up ShellCheck and shfmt and learn Bash from ShellCheck warnings.
 
 Chapters:
 0:00 What a shell is and boost goals
