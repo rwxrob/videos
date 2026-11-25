@@ -1,21 +1,21 @@
 # 🔰 Get bash with brew
 
-Walks through installing a newer version of bash on macOS with Homebrew and checking which version is actually running. Covers running brew by its full path, changing the login shell, and working through a "non-standard shell" error, then previews adding brew to the path and learning some scripting to customize the shell.
+Walks through installing a newer bash on macOS with Homebrew, calling brew by its full path, and checking which bash version is running. Shows how to make the Homebrew bash the login shell, including troubleshooting a non-standard shell error, and previews why customizing the shell requires learning some scripting.
 
 Chapters:
 0:00 Installing bash using the full brew path
-1:14 Restarting the terminal to find new bash
-2:15 Checking which bash version is running
-3:52 Changing the login shell to new bash
-4:57 Troubleshooting the non-standard shell error
-6:40 Confirming bash 5 and Homebrew path issues
-8:08 Scripting basics and borrowing shell configs
+1:14 Restarting the terminal to find bash
+2:07 Checking which bash version is running
+3:52 Changing the login shell on macOS
+4:58 Troubleshooting the non-standard shell error
+6:47 Homebrew paths and Apple's shell change
+8:08 Customizing the shell means learning to script
 
 `#bash #homebrew #macos #terminal #commandline #shell #unix #linux #techjobs #learning #mac #brew`
 
 ## Category
 
-Science & Technology
+Education
 
 ## Transcription
 
