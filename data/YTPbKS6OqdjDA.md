@@ -1,4 +1,4 @@
-# ⚠️ Don't do this in Golang function doc
+# ⚠️ Golang func docs in per-OS files: the first file alphabetically wins
 
 Explains a Go documentation pitfall when the same function is defined in separate files for different target operating systems or architectures. Shows that go doc uses the comment from the alphabetically first file, even if only a later file is documented, so the documentation should go in that first file and cover every platform.
 
