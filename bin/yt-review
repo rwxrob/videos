@@ -80,7 +80,11 @@ case $cmd in
     # Archived and skipped videos are kept, but made private.
     if (( ${#to_private[@]} )); then
       idf=$(mktemp); printf '%s\n' "${to_private[@]}" > "$idf"
-      "$(dirname "${BASH_SOURCE[0]}")/yt-update" -y privacy "$idf" private | tail -n +1
+      if ! "$(dirname "${BASH_SOURCE[0]}")/yt-update" -y privacy "$idf" private; then
+        # Usually the daily API quota; the yt-publish runner retries these.
+        cat "$idf" >> "$cache/toprivate.txt"
+        echo "could not make them private yet; queued for the yt-publish runner to retry" >&2
+      fi
       rm -f "$idf"
     fi
     ;;
