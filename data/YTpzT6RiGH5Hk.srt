@@ -1,0 +1,4992 @@
+1
+00:00:00,000 --> 00:00:03,440
+ All right, here we are, we're back to the code.
+
+2
+00:00:03,440 --> 00:00:06,720
+ We've done our Hello Friend program.
+
+3
+00:00:06,720 --> 00:00:08,200
+ We've got it installed.
+
+4
+00:00:08,200 --> 00:00:09,800
+ We've organized ourselves a little bit,
+
+5
+00:00:09,800 --> 00:00:12,800
+ and we start time to learn the rest
+
+6
+00:00:12,800 --> 00:00:15,360
+ of the basic parts of Go.
+
+7
+00:00:15,360 --> 00:00:17,520
+ We're gonna cram as much as we can into this hour
+
+8
+00:00:17,520 --> 00:00:18,920
+ and see what we can cover.
+
+9
+00:00:18,920 --> 00:00:22,920
+ So we have our program Hello Friend,
+
+10
+00:00:22,920 --> 00:00:24,880
+ and we know how to install it with Go Install.
+
+11
+00:00:24,880 --> 00:00:26,360
+ You can see that on the screen.
+
+12
+00:00:26,360 --> 00:00:29,400
+ Now, what if I could make it so that I could rerun it
+
+13
+00:00:29,400 --> 00:00:31,160
+ any time the file changed?
+
+14
+00:00:31,160 --> 00:00:32,840
+ So I'm gonna use something called ENTR,
+
+15
+00:00:32,840 --> 00:00:36,280
+ which is only available on Unix or Linux.
+
+16
+00:00:36,280 --> 00:00:37,320
+ If you're doing good programming,
+
+17
+00:00:37,320 --> 00:00:38,800
+ anything else it won't work.
+
+18
+00:00:39,760 --> 00:00:41,760
+ So here's how it works.
+
+19
+00:00:41,760 --> 00:00:45,440
+ ENTR, we'll use bash, you could use shell or bash,
+
+20
+00:00:45,440 --> 00:00:47,880
+ doesn't matter, -c, it means the whole command.
+
+21
+00:00:47,880 --> 00:00:49,680
+ And then we're gonna say,
+
+22
+00:00:50,920 --> 00:00:52,640
+ we're gonna clear the screen,
+
+23
+00:00:52,640 --> 00:00:57,160
+ and then we're gonna run the program.
+
+24
+00:00:57,160 --> 00:01:02,160
+ Go install dot slash cmd slash hello.
+
+25
+00:01:03,300 --> 00:01:05,000
+ So that should install it.
+
+26
+00:01:05,000 --> 00:01:08,200
+ And then we wanna run it, and yeah.
+
+27
+00:01:08,200 --> 00:01:10,440
+ So we could just do Go Run here,
+
+28
+00:01:10,440 --> 00:01:13,120
+ but let's go ahead and just do that.
+
+29
+00:01:13,120 --> 00:01:15,600
+ Make sure it install properly and everything.
+
+30
+00:01:15,600 --> 00:01:16,440
+ And then done.
+
+31
+00:01:16,440 --> 00:01:19,160
+ So this is the command that's gonna be run.
+
+32
+00:01:20,520 --> 00:01:22,680
+ In terms of the loss to be covered basic shell scripting,
+
+33
+00:01:22,680 --> 00:01:25,280
+ that's we have to go to for that to understand it.
+
+34
+00:01:25,280 --> 00:01:27,960
+ And then we're gonna do,
+
+35
+00:01:27,960 --> 00:01:30,320
+ in fact, that could just be vensh.
+
+36
+00:01:30,320 --> 00:01:33,400
+ It doesn't really have to, it could just do sh here.
+
+37
+00:01:33,400 --> 00:01:34,240
+ Yep.
+
+38
+00:01:34,240 --> 00:01:38,520
+ And then now this, however, is a Z shell,
+
+39
+00:01:38,520 --> 00:01:40,280
+ k shell or bash thing,
+
+40
+00:01:40,280 --> 00:01:44,520
+ we're gonna say if the file of one has changed.
+
+41
+00:01:44,520 --> 00:01:47,840
+ So dot slash cmd main.go.
+
+42
+00:01:47,840 --> 00:01:52,040
+ That means if this, whoops, hello slash main.go.
+
+43
+00:01:52,040 --> 00:01:54,000
+ What this command does is it says,
+
+44
+00:01:54,000 --> 00:01:58,720
+ if that file changes in any way, run this program.
+
+45
+00:01:58,720 --> 00:02:02,800
+ So, which it doesn't like,
+
+46
+00:02:02,800 --> 00:02:04,960
+ is there no such thing as sh-dushy?
+
+47
+00:02:05,880 --> 00:02:07,480
+ Well, I didn't know that.
+
+48
+00:02:07,480 --> 00:02:08,720
+ I guess it's just bash.
+
+49
+00:02:09,760 --> 00:02:10,600
+ Wait, what?
+
+50
+00:02:11,920 --> 00:02:14,440
+ Boom, boom, boom, boom, boom, boom.
+
+51
+00:02:14,440 --> 00:02:17,640
+ Go command dot install hello.
+
+52
+00:02:19,680 --> 00:02:21,480
+ Oh, I put it done on there.
+
+53
+00:02:21,480 --> 00:02:22,760
+ There's no necessary for that.
+
+54
+00:02:22,760 --> 00:02:24,920
+ I don't know why I did that, it was done.
+
+55
+00:02:24,920 --> 00:02:25,760
+ All right, there we go.
+
+56
+00:02:25,760 --> 00:02:28,040
+ So, now it's clearing the screen and it's running it.
+
+57
+00:02:28,040 --> 00:02:30,680
+ And then just to prove it, it's running every time.
+
+58
+00:02:32,240 --> 00:02:33,320
+ Let's do this.
+
+59
+00:02:33,320 --> 00:02:38,320
+ Let's say, let's slash cmd hello main, oops.
+
+60
+00:02:39,840 --> 00:02:40,680
+ Come on, Rob.
+
+61
+00:02:43,960 --> 00:02:44,800
+ Dot go.
+
+62
+00:02:45,840 --> 00:02:47,760
+ I don't know if you can see everything on there.
+
+63
+00:02:47,760 --> 00:02:49,360
+ The screen's a little bit weird.
+
+64
+00:02:50,640 --> 00:02:53,280
+ I mean, print it down just a little, how's that?
+
+65
+00:02:53,280 --> 00:02:54,120
+ That's better, okay.
+
+66
+00:02:54,120 --> 00:02:59,120
+ So, I mean, it's kind of better.
+
+67
+00:03:01,480 --> 00:03:04,480
+ So, we're doing chat right now.
+
+68
+00:03:04,480 --> 00:03:08,360
+ We're making a video about coding and go.
+
+69
+00:03:08,360 --> 00:03:11,560
+ So, here's the program.
+
+70
+00:03:11,560 --> 00:03:14,800
+ If we change it to friend, we can say hello, Rob, I guess.
+
+71
+00:03:14,800 --> 00:03:17,640
+ Let's say Doris, let's do Doris more fun that way.
+
+72
+00:03:17,640 --> 00:03:19,320
+ You see how the program changes?
+
+73
+00:03:19,320 --> 00:03:22,360
+ So, I can actually reduce the size of this a little bit.
+
+74
+00:03:22,360 --> 00:03:25,840
+ I'm just doing control A and then J, J, J down.
+
+75
+00:03:25,840 --> 00:03:29,440
+ This is a Tmux config that you can learn
+
+76
+00:03:29,440 --> 00:03:30,800
+ about internal velocity.
+
+77
+00:03:32,480 --> 00:03:35,640
+ So, anyway, so this is the program, right?
+
+78
+00:03:35,640 --> 00:03:39,280
+ And, but wouldn't it be great if we could make this,
+
+79
+00:03:39,280 --> 00:03:42,440
+ instead of saying hello, we could maybe make
+
+80
+00:03:42,440 --> 00:03:45,200
+ another program called Greet and then we would give it
+
+81
+00:03:45,200 --> 00:03:49,320
+ the name, you know, here, so that the command
+
+82
+00:03:49,320 --> 00:03:52,320
+ would be Greet, Space, and then a thing.
+
+83
+00:03:52,320 --> 00:03:54,520
+ So, we're gonna get to there today.
+
+84
+00:03:54,520 --> 00:03:56,400
+ I know that seems like a simple thing,
+
+85
+00:03:56,400 --> 00:03:59,240
+ but I wanna go through it kind of slowly meticulously
+
+86
+00:03:59,240 --> 00:04:02,360
+ so you can deconstruct everything that's going on.
+
+87
+00:04:02,360 --> 00:04:06,160
+ So, the first thing is to introduce variables,
+
+88
+00:04:06,160 --> 00:04:08,480
+ which we already talked about variables
+
+89
+00:04:08,480 --> 00:04:12,560
+ in a programmatic sense of, you know,
+
+90
+00:04:12,560 --> 00:04:16,160
+ in an argument in parameters sense, you know,
+
+91
+00:04:16,160 --> 00:04:21,160
+ 2x plus 3, 4y minus 2 or something.
+
+92
+00:04:21,520 --> 00:04:24,720
+ So, the x and the y, those are variables.
+
+93
+00:04:24,720 --> 00:04:27,760
+ In this case, they're also arguments of parameters.
+
+94
+00:04:27,760 --> 00:04:29,640
+ I mean, they're parameters.
+
+95
+00:04:29,640 --> 00:04:31,200
+ And we talked about that already,
+
+96
+00:04:31,200 --> 00:04:33,400
+ but I just wanna remind you about that.
+
+97
+00:04:33,400 --> 00:04:36,800
+ So, what I wanna show you here is that the equals,
+
+98
+00:04:36,800 --> 00:04:40,680
+ in this case, does not mean assignment.
+
+99
+00:04:40,680 --> 00:04:44,600
+ It means is equal to, or this is this thing.
+
+100
+00:04:44,600 --> 00:04:47,320
+ And in that sense, it is kind of a definition.
+
+101
+00:04:48,160 --> 00:04:51,640
+ So, you know, and we're gonna actually make one of these later.
+
+102
+00:04:51,640 --> 00:04:52,840
+ Well, let's keep that up there
+
+103
+00:04:52,840 --> 00:04:54,040
+ because we're gonna make this later.
+
+104
+00:04:54,040 --> 00:04:55,360
+ Let's put it to do there.
+
+105
+00:04:56,720 --> 00:04:59,640
+ You know, we'll make an actual function in a bit.
+
+106
+00:04:59,640 --> 00:05:02,040
+ But for right now, let's just keep it as it is.
+
+107
+00:05:02,040 --> 00:05:04,440
+ And so, let's say if we wanted the word Doris
+
+108
+00:05:04,440 --> 00:05:08,560
+ to be in a variable, we could define a variable called,
+
+109
+00:05:08,560 --> 00:05:11,120
+ and I'm gonna change this up, don't worry.
+
+110
+00:05:11,120 --> 00:05:15,680
+ So, we wanna have the name equals Doris, right?
+
+111
+00:05:16,800 --> 00:05:18,920
+ And notice there's no semicolons or anything.
+
+112
+00:05:18,920 --> 00:05:20,000
+ Declare to not use.
+
+113
+00:05:20,000 --> 00:05:23,240
+ This is a warning from Go, BIMGo.
+
+114
+00:05:23,240 --> 00:05:24,960
+ So, you know, in shell,
+
+115
+00:05:24,960 --> 00:05:26,640
+ we would have done something like this, right?
+
+116
+00:05:26,640 --> 00:05:28,280
+ Well, that's not a thing.
+
+117
+00:05:28,280 --> 00:05:30,560
+ That's not a thing in Go at all.
+
+118
+00:05:31,480 --> 00:05:33,960
+ There's a number of things we could do here
+
+119
+00:05:33,960 --> 00:05:37,920
+ because it's print Ln, print Ln is special.
+
+120
+00:05:37,920 --> 00:05:40,480
+ It automatically adds a space.
+
+121
+00:05:40,480 --> 00:05:45,200
+ And, you know, and it will automatically interpret
+
+122
+00:05:45,200 --> 00:05:46,560
+ whatever the type is.
+
+123
+00:05:46,560 --> 00:05:50,040
+ So, you know, print Ln is kind of special,
+
+124
+00:05:50,040 --> 00:05:51,320
+ but it doesn't work.
+
+125
+00:05:51,320 --> 00:05:52,600
+ I'm just telling you about it
+
+126
+00:05:52,600 --> 00:05:53,680
+ because you can put a period here
+
+127
+00:05:53,680 --> 00:05:55,160
+ and you see it's gonna put a space there, right?
+
+128
+00:05:55,160 --> 00:05:57,920
+ So, again, print Ln is special
+
+129
+00:05:57,920 --> 00:06:00,240
+ because it doesn't concatenate them.
+
+130
+00:06:00,240 --> 00:06:02,040
+ It does each one and puts a space between it,
+
+131
+00:06:02,040 --> 00:06:04,000
+ which is useful for like basic output,
+
+132
+00:06:04,000 --> 00:06:05,920
+ but not for what we wanna do here.
+
+133
+00:06:05,920 --> 00:06:09,880
+ For this, we wanna use the concatenate operator or the plus.
+
+134
+00:06:09,880 --> 00:06:12,240
+ And so what that would say is it's like,
+
+135
+00:06:12,240 --> 00:06:16,800
+ I want this to be added to the other string, right?
+
+136
+00:06:16,800 --> 00:06:19,000
+ And now you see it says, hello, Doris,
+
+137
+00:06:19,000 --> 00:06:22,080
+ and there's no space, so we have to add a space here.
+
+138
+00:06:22,080 --> 00:06:24,440
+ And it'll give us everything we need.
+
+139
+00:06:24,440 --> 00:06:28,320
+ So, one last thing that you can also do
+
+140
+00:06:28,320 --> 00:06:30,880
+ is you already know this from the last video,
+
+141
+00:06:30,880 --> 00:06:32,680
+ but you can use print F instead,
+
+142
+00:06:32,680 --> 00:06:35,160
+ and you can use a placeholder here,
+
+143
+00:06:35,160 --> 00:06:39,840
+ and you could say percent S, oops, V, sorry.
+
+144
+00:06:39,840 --> 00:06:42,400
+ S is shell, and then name.
+
+145
+00:06:42,400 --> 00:06:47,400
+ Now, that says, let's put this thing wherever we want to,
+
+146
+00:06:47,720 --> 00:06:50,160
+ and do it that way.
+
+147
+00:06:51,200 --> 00:06:52,240
+ I already showed you this,
+
+148
+00:06:52,240 --> 00:06:55,400
+ but we're not gonna go into this.
+
+149
+00:06:55,400 --> 00:06:56,920
+ You can actually read about it.
+
+150
+00:06:56,920 --> 00:06:58,600
+ I just pushed capital K,
+
+151
+00:06:58,600 --> 00:07:01,080
+ and you can go read about print F,
+
+152
+00:07:01,080 --> 00:07:03,600
+ and other things like it.
+
+153
+00:07:03,600 --> 00:07:06,840
+ There are a whole host of things you can do
+
+154
+00:07:06,840 --> 00:07:11,840
+ to the V to make it different.
+
+155
+00:07:12,720 --> 00:07:14,640
+ So it's not line returning, for example,
+
+156
+00:07:14,640 --> 00:07:15,640
+ let's put the line return there,
+
+157
+00:07:15,640 --> 00:07:19,280
+ or sorry, the line feed, whatever you want to call it.
+
+158
+00:07:19,280 --> 00:07:23,320
+ If I put 10 here,
+
+159
+00:07:24,360 --> 00:07:26,000
+ and now I change the name,
+
+160
+00:07:26,000 --> 00:07:27,560
+ so I can say name equals,
+
+161
+00:07:27,560 --> 00:07:29,760
+ I want to show you the variable is just a box.
+
+162
+00:07:29,760 --> 00:07:34,760
+ So name equals Rob, and you'll see that it will do both,
+
+163
+00:07:35,440 --> 00:07:39,880
+ but you see how it space them appropriately, right?
+
+164
+00:07:41,280 --> 00:07:44,840
+ And that is because of the 10.
+
+165
+00:07:44,840 --> 00:07:48,960
+ Now, if you dash, it'll do the opposite of that,
+
+166
+00:07:50,240 --> 00:07:52,920
+ and it's like making sure there's 10 spaces
+
+167
+00:07:52,920 --> 00:07:53,760
+ before the period.
+
+168
+00:07:53,760 --> 00:07:54,600
+ I don't know why you would do that,
+
+169
+00:07:54,600 --> 00:07:56,080
+ but you get the point.
+
+170
+00:07:56,080 --> 00:08:00,880
+ You can do formatting and line things up and all that jazz.
+
+171
+00:08:01,800 --> 00:08:03,720
+ Sometimes we might want to put a color in here,
+
+172
+00:08:03,720 --> 00:08:08,120
+ which we're going to get to in a couple sessions,
+
+173
+00:08:08,120 --> 00:08:10,760
+ but so this is print F.
+
+174
+00:08:10,760 --> 00:08:13,920
+ And so this has been an introduction to variables,
+
+175
+00:08:13,920 --> 00:08:15,440
+ how they can change,
+
+176
+00:08:15,440 --> 00:08:18,520
+ and how they can hold different things,
+
+177
+00:08:18,520 --> 00:08:20,480
+ and particularly in this case of string.
+
+178
+00:08:20,480 --> 00:08:23,920
+ So we've only talked about a couple of basic types,
+
+179
+00:08:23,920 --> 00:08:26,160
+ strings, bullions, and numbers.
+
+180
+00:08:26,160 --> 00:08:28,920
+ We're going to break down all the primitive types today,
+
+181
+00:08:28,920 --> 00:08:32,720
+ and we're going to break down complex types,
+
+182
+00:08:32,720 --> 00:08:35,160
+ which are made up of other types.
+
+183
+00:08:35,160 --> 00:08:37,720
+ So we're going to do all of that within the next hour.
+
+184
+00:08:38,720 --> 00:08:41,480
+ And trust me, this is going to be a lot to cover.
+
+185
+00:08:41,480 --> 00:08:44,040
+ So let's keep going.
+
+186
+00:08:44,920 --> 00:08:46,880
+ The next, the first thing you need to know here
+
+187
+00:08:46,880 --> 00:08:51,640
+ is that when it comes to variables, there is the scope.
+
+188
+00:08:51,640 --> 00:08:55,200
+ So you can decide where the variables live.
+
+189
+00:08:55,200 --> 00:08:59,800
+ And if we want to make another subroutine,
+
+190
+00:08:59,800 --> 00:09:03,000
+ I'm using that word very specifically,
+
+191
+00:09:03,000 --> 00:09:04,480
+ we want to put another couple,
+
+192
+00:09:04,480 --> 00:09:08,480
+ maybe we want to factor these things out, right?
+
+193
+00:09:09,360 --> 00:09:11,800
+ Because it seems like I could,
+
+194
+00:09:11,800 --> 00:09:13,920
+ you know, I'm changing the variable
+
+195
+00:09:13,920 --> 00:09:15,600
+ and I'm recalling the same thing.
+
+196
+00:09:15,600 --> 00:09:17,320
+ So let's factor that out.
+
+197
+00:09:17,320 --> 00:09:20,680
+ How do we factor that out into another subroutine?
+
+198
+00:09:20,680 --> 00:09:23,200
+ And I promise you, I'm going to define subroutine
+
+199
+00:09:23,200 --> 00:09:25,080
+ and procedure for you in just a second.
+
+200
+00:09:25,080 --> 00:09:26,680
+ So let's do that.
+
+201
+00:09:26,680 --> 00:09:28,040
+ Let's do funk.
+
+202
+00:09:30,240 --> 00:09:33,720
+ We'll call this, I don't know, greet.
+
+203
+00:09:33,720 --> 00:09:36,680
+ You could say, say hello, you could say greet, whatever.
+
+204
+00:09:36,680 --> 00:09:38,040
+ And now we have a function.
+
+205
+00:09:38,040 --> 00:09:41,600
+ So a function is defined as being, you know,
+
+206
+00:09:41,600 --> 00:09:43,840
+ having the keyword function at the beginning.
+
+207
+00:09:43,840 --> 00:09:45,440
+ In this case, I said it was a subroutine
+
+208
+00:09:45,440 --> 00:09:47,360
+ and a procedure, stay with me.
+
+209
+00:09:48,240 --> 00:09:50,080
+ And we're taking the steps here,
+
+210
+00:09:50,080 --> 00:09:53,080
+ then the main ones that we're going to put it inside of here.
+
+211
+00:09:53,080 --> 00:09:55,240
+ And it kind of goes without saying, right?
+
+212
+00:09:55,240 --> 00:09:58,080
+ Well, where do we get the name variable from, right?
+
+213
+00:09:58,080 --> 00:10:00,240
+ Well, now we have to pass an argument.
+
+214
+00:10:00,240 --> 00:10:03,120
+ So we're going to say name, we're going to put it here,
+
+215
+00:10:03,120 --> 00:10:04,600
+ but we're going to give it a type.
+
+216
+00:10:04,600 --> 00:10:05,800
+ So now it's a string.
+
+217
+00:10:05,800 --> 00:10:08,880
+ This is the first time, since you've been with me,
+
+218
+00:10:08,880 --> 00:10:11,960
+ that you've used a type, the name of a type.
+
+219
+00:10:11,960 --> 00:10:16,200
+ So we're actually saying this thing is of type string.
+
+220
+00:10:16,200 --> 00:10:19,960
+ So as I said before, the parameter and thing,
+
+221
+00:10:19,960 --> 00:10:22,760
+ X and Y, in this case, these are, you know,
+
+222
+00:10:22,760 --> 00:10:25,640
+ if you're doing algebra, these types are always numbers, right?
+
+223
+00:10:25,640 --> 00:10:27,200
+ Or particular type of number.
+
+224
+00:10:27,200 --> 00:10:29,560
+ In this case, whole numbers are not in whole numbers.
+
+225
+00:10:29,560 --> 00:10:30,640
+ We're going to get there.
+
+226
+00:10:30,640 --> 00:10:32,760
+ So right here, we have the name thing.
+
+227
+00:10:32,760 --> 00:10:34,720
+ Let's get rid of this, we don't need that.
+
+228
+00:10:34,720 --> 00:10:37,200
+ You can actually pass that as a variable, by the way.
+
+229
+00:10:38,600 --> 00:10:42,640
+ And so once you figure out how much space you need.
+
+230
+00:10:43,760 --> 00:10:46,800
+ So here we print and greet, and we have name here.
+
+231
+00:10:46,800 --> 00:10:49,120
+ Now, what happens if I leave it off, right?
+
+232
+00:10:49,120 --> 00:10:51,200
+ Let's do that first.
+
+233
+00:10:51,200 --> 00:10:54,840
+ So the point of this is, as soon as we get that in there,
+
+234
+00:10:54,840 --> 00:10:56,480
+ we don't need this anymore.
+
+235
+00:10:56,480 --> 00:10:58,480
+ And we can now do this instead.
+
+236
+00:10:58,480 --> 00:11:03,400
+ We could say greet, and we could say Doris.
+
+237
+00:11:03,400 --> 00:11:05,880
+ And we can pass the argument,
+
+238
+00:11:05,880 --> 00:11:07,240
+ not to be confused with the parameter,
+
+239
+00:11:07,240 --> 00:11:09,960
+ into the parameter variable.
+
+240
+00:11:09,960 --> 00:11:11,680
+ And now we can do that.
+
+241
+00:11:11,680 --> 00:11:12,880
+ We can change this whole code,
+
+242
+00:11:12,880 --> 00:11:15,520
+ it's to greet Doris and greet Rob.
+
+243
+00:11:15,520 --> 00:11:20,520
+ And now we've got, it's starting to yell at us.
+
+244
+00:11:21,680 --> 00:11:23,080
+ Why is it yelling at us?
+
+245
+00:11:23,080 --> 00:11:25,560
+ Because we don't have name,
+
+246
+00:11:25,560 --> 00:11:30,120
+ we didn't open up a parameter variable slot-ish thing,
+
+247
+00:11:30,120 --> 00:11:32,560
+ up here in the signature.
+
+248
+00:11:32,560 --> 00:11:33,600
+ So we're going to add one.
+
+249
+00:11:33,600 --> 00:11:35,880
+ We're going to say name and string.
+
+250
+00:11:35,880 --> 00:11:37,720
+ And now that'll open it up,
+
+251
+00:11:37,720 --> 00:11:40,040
+ so that it allows it to be passed in.
+
+252
+00:11:40,040 --> 00:11:44,320
+ That strict typing of parameters
+
+253
+00:11:44,320 --> 00:11:47,400
+ is one of the single biggest advantages
+
+254
+00:11:47,400 --> 00:11:50,400
+ of Go over other languages.
+
+255
+00:11:50,400 --> 00:11:52,280
+ Oh, hey, how you doing Raiders?
+
+256
+00:11:52,280 --> 00:11:53,440
+ Great to see you.
+
+257
+00:11:53,440 --> 00:11:55,560
+ All right, so we're just coding ago, we're making a video,
+
+258
+00:11:55,560 --> 00:11:57,240
+ but I'm just going to keep on talking.
+
+259
+00:11:57,240 --> 00:11:59,200
+ Appreciate you being here B7.
+
+260
+00:11:59,200 --> 00:12:04,200
+ So we are doing just a quick little thing for my Raiders.
+
+261
+00:12:04,680 --> 00:12:06,080
+ You'll see the little flashing red,
+
+262
+00:12:06,080 --> 00:12:07,760
+ that means I'm recording videos for YouTube.
+
+263
+00:12:07,760 --> 00:12:11,280
+ Thank you for being here, I really appreciate it, love you.
+
+264
+00:12:11,280 --> 00:12:14,600
+ And we are coding from the get-go,
+
+265
+00:12:14,600 --> 00:12:16,720
+ coding from the get-go it's called,
+
+266
+00:12:16,720 --> 00:12:19,160
+ and we are on the third video of coding
+
+267
+00:12:19,160 --> 00:12:21,640
+ and go from absolute zero.
+
+268
+00:12:21,640 --> 00:12:23,920
+ So there's two other videos on YouTube,
+
+269
+00:12:23,920 --> 00:12:27,040
+ you can go check that out, okay, great.
+
+270
+00:12:27,040 --> 00:12:29,360
+ And your chat is safe though,
+
+271
+00:12:29,360 --> 00:12:31,840
+ it's not on the screen, so you're all good.
+
+272
+00:12:31,840 --> 00:12:35,680
+ All right, so here we go, we've got a function,
+
+273
+00:12:35,680 --> 00:12:36,840
+ we broke this function out,
+
+274
+00:12:36,840 --> 00:12:37,920
+ and down here you can see it running
+
+275
+00:12:37,920 --> 00:12:39,440
+ at the bottom of the screen.
+
+276
+00:12:39,440 --> 00:12:44,320
+ And by doing that, we simplify it, right?
+
+277
+00:12:44,320 --> 00:12:47,080
+ And I call it a subroutine,
+
+278
+00:12:47,080 --> 00:12:50,440
+ so let me talk about the terminology here for a bit.
+
+279
+00:12:50,440 --> 00:12:54,560
+ And this is actually written about in here,
+
+280
+00:12:54,560 --> 00:12:57,920
+ so document all the things, hi there, let's talk about it.
+
+281
+00:12:57,920 --> 00:13:02,200
+ Okay, so what we have, let's call the function,
+
+282
+00:13:02,200 --> 00:13:03,960
+ we have a procedure,
+
+283
+00:13:07,600 --> 00:13:12,600
+ and we have subroutine, okay?
+
+284
+00:13:12,760 --> 00:13:15,520
+ And a lot of people are gonna use these terms differently.
+
+285
+00:13:15,520 --> 00:13:19,600
+ I'm gonna tell you how I think they should be used.
+
+286
+00:13:19,600 --> 00:13:24,600
+ A subroutine is any collection of steps
+
+287
+00:13:28,120 --> 00:13:33,120
+ or instructions, period, within a block.
+
+288
+00:13:35,160 --> 00:13:38,360
+ It's usually a block, and what's a block?
+
+289
+00:13:38,360 --> 00:13:39,200
+ What's a block?
+
+290
+00:13:39,200 --> 00:13:44,200
+ A block is anything within curly brackets, and go.
+
+291
+00:13:47,800 --> 00:13:48,920
+ You guys know the other languages,
+
+292
+00:13:48,920 --> 00:13:51,080
+ you know that blocks are defined differently.
+
+293
+00:13:54,840 --> 00:13:56,920
+ And so anything with curly brackets,
+
+294
+00:13:56,920 --> 00:13:58,760
+ anything collection of steps, anything today.
+
+295
+00:13:58,760 --> 00:14:01,760
+ A procedure is a specific procedure.
+
+296
+00:14:05,160 --> 00:14:10,160
+ Specifically, a collection of instructions in a block,
+
+297
+00:14:14,000 --> 00:14:15,480
+ in a subroutine, right?
+
+298
+00:14:16,880 --> 00:14:20,040
+ In a subroutine, okay?
+
+299
+00:14:20,040 --> 00:14:25,040
+ And a function is a, let's see,
+
+300
+00:14:27,960 --> 00:14:32,960
+ internal calculation or instructions
+
+301
+00:14:34,880 --> 00:14:39,880
+ with a specific output return value, like math, okay?
+
+302
+00:14:43,400 --> 00:14:47,520
+ So, this is sometimes called a true function.
+
+303
+00:14:50,960 --> 00:14:52,960
+ Why do we have to say true function?
+
+304
+00:14:52,960 --> 00:14:56,240
+ Because the keyword funk, or at the end,
+
+305
+00:14:56,240 --> 00:14:57,960
+ depending on the language you're talking about,
+
+306
+00:14:57,960 --> 00:15:01,920
+ has been taken over, it's been taken over,
+
+307
+00:15:01,920 --> 00:15:04,360
+ and it's become known to use everything,
+
+308
+00:15:04,360 --> 00:15:06,440
+ but in Pascal, anybody?
+
+309
+00:15:06,440 --> 00:15:07,880
+ Hold on up there, Pascal.
+
+310
+00:15:07,880 --> 00:15:10,040
+ Pascal, SQL, there are several languages
+
+311
+00:15:10,040 --> 00:15:12,280
+ where you have to use a different keyword
+
+312
+00:15:12,280 --> 00:15:15,640
+ to define a different collection of instructions,
+
+313
+00:15:15,640 --> 00:15:18,760
+ a subroutine, a block, whatever you wanna call it.
+
+314
+00:15:18,760 --> 00:15:21,440
+ And it's super important that at this stage
+
+315
+00:15:21,440 --> 00:15:23,760
+ in your learnings that you've just learned a code
+
+316
+00:15:23,760 --> 00:15:27,520
+ that you think differently about them,
+
+317
+00:15:27,520 --> 00:15:31,040
+ because it will make you a better coder from the first day.
+
+318
+00:15:32,120 --> 00:15:35,360
+ A function is defined as being something
+
+319
+00:15:35,360 --> 00:15:37,440
+ that has a very specific return value
+
+320
+00:15:38,640 --> 00:15:43,480
+ that, in general, has no side effects, Pascal.
+
+321
+00:15:43,480 --> 00:15:44,480
+ We love it, don't we?
+
+322
+00:15:45,880 --> 00:15:47,680
+ And it has no side effects.
+
+323
+00:15:47,680 --> 00:15:49,280
+ And by side effects, I mean,
+
+324
+00:15:49,280 --> 00:15:53,240
+ it is affecting things outside of its block.
+
+325
+00:15:53,240 --> 00:15:54,480
+ You remember, the block is everything
+
+326
+00:15:54,480 --> 00:15:56,480
+ with incredibly bracket brackets, right?
+
+327
+00:15:56,480 --> 00:15:59,320
+ So, and there's actually one other thing here
+
+328
+00:15:59,320 --> 00:16:02,360
+ that we're talking about, and that is called scope.
+
+329
+00:16:02,360 --> 00:16:07,360
+ It's like, how visible a thing is to other things.
+
+330
+00:16:09,840 --> 00:16:11,160
+ That's really all scope is.
+
+331
+00:16:11,160 --> 00:16:12,800
+ And it's the same in English.
+
+332
+00:16:12,800 --> 00:16:17,800
+ So, when a function, we would say in programming,
+
+333
+00:16:19,880 --> 00:16:23,280
+ we say a function has very limited scope.
+
+334
+00:16:23,280 --> 00:16:27,420
+ That means nothing happens outside of its block.
+
+335
+00:16:28,360 --> 00:16:32,040
+ And everything, any change to the system
+
+336
+00:16:32,040 --> 00:16:34,840
+ that's gonna happen is not gonna happen.
+
+337
+00:16:34,840 --> 00:16:36,960
+ It's gonna come as a return value.
+
+338
+00:16:36,960 --> 00:16:40,320
+ And then something called the caller.
+
+339
+00:16:40,320 --> 00:16:45,320
+ The caller is the thing that calls the other thing.
+
+340
+00:16:49,200 --> 00:16:50,760
+ That's called the caller.
+
+341
+00:16:50,760 --> 00:16:53,240
+ How's that for an academic?
+
+342
+00:16:55,880 --> 00:16:57,760
+ Oh God, the crack was over.
+
+343
+00:16:57,760 --> 00:17:00,840
+ The caller is the thing that calls the other thing.
+
+344
+00:17:03,040 --> 00:17:04,760
+ I like having simple definitions
+
+345
+00:17:04,760 --> 00:17:07,640
+ because they're just so much easier to, you know.
+
+346
+00:17:07,640 --> 00:17:11,080
+ Anyway, so sometimes usually the caller
+
+347
+00:17:11,080 --> 00:17:16,080
+ is another subroutine procedure function or something, right?
+
+348
+00:17:17,400 --> 00:17:19,760
+ But the caller has its own scope.
+
+349
+00:17:19,760 --> 00:17:21,040
+ But that's important that you know that, right?
+
+350
+00:17:21,040 --> 00:17:22,280
+ So, you have the one thing.
+
+351
+00:17:22,280 --> 00:17:23,760
+ It's kind of like you have one program
+
+352
+00:17:23,760 --> 00:17:25,640
+ that runs another program.
+
+353
+00:17:25,640 --> 00:17:26,480
+ That's the caller.
+
+354
+00:17:26,480 --> 00:17:30,040
+ Okay, so, and the scope.
+
+355
+00:17:30,040 --> 00:17:33,440
+ So, the scope of a function is, you know,
+
+356
+00:17:33,440 --> 00:17:34,960
+ all of the things that are gonna happen,
+
+357
+00:17:34,960 --> 00:17:36,480
+ they happen inside of the block.
+
+358
+00:17:36,480 --> 00:17:38,280
+ And the only thing you know about it
+
+359
+00:17:38,280 --> 00:17:40,400
+ is that it returns something.
+
+360
+00:17:40,400 --> 00:17:41,920
+ And the thing that comes out of it,
+
+361
+00:17:41,920 --> 00:17:44,160
+ like a machine or a factory sort of thing,
+
+362
+00:17:44,160 --> 00:17:46,080
+ is it can then be used by the caller.
+
+363
+00:17:46,080 --> 00:17:48,160
+ And the caller can decide what it wants to do with the thing.
+
+364
+00:17:48,160 --> 00:17:50,960
+ Okay, and this is actually one of the greatest advantages
+
+365
+00:17:50,960 --> 00:17:52,200
+ when it goes to first language
+
+366
+00:17:52,200 --> 00:17:55,720
+ is because the return types are called
+
+367
+00:17:55,720 --> 00:17:57,680
+ are strictly typed.
+
+368
+00:17:57,680 --> 00:17:59,440
+ And this is actually one of the reasons,
+
+369
+00:17:59,440 --> 00:18:02,480
+ this is kind of a side note that I struggled so heavily
+
+370
+00:18:03,520 --> 00:18:06,920
+ to help you learn coding with a language like bash
+
+371
+00:18:06,920 --> 00:18:11,120
+ or even Python, because the return values
+
+372
+00:18:11,120 --> 00:18:13,080
+ are kind of all over the board and stuff.
+
+373
+00:18:13,080 --> 00:18:16,880
+ And you're gonna see here what I mean by that.
+
+374
+00:18:16,880 --> 00:18:20,200
+ So, a procedure, a subroutine is any,
+
+375
+00:18:20,200 --> 00:18:22,520
+ so both a function and a procedure are a subroutine
+
+376
+00:18:22,520 --> 00:18:27,520
+ in my world, but a procedure is not a function.
+
+377
+00:18:27,960 --> 00:18:31,760
+ A procedure is a bunch of steps, you know,
+
+378
+00:18:31,760 --> 00:18:34,920
+ like you would give the military even or somebody to do
+
+379
+00:18:34,920 --> 00:18:36,960
+ that are gonna affect their environment.
+
+380
+00:18:36,960 --> 00:18:39,880
+ They're gonna go do this, go do this, go do this now,
+
+381
+00:18:39,880 --> 00:18:43,560
+ and everything they do is gonna affect their environment.
+
+382
+00:18:43,560 --> 00:18:45,880
+ Whereas a function is more like a machine,
+
+383
+00:18:45,880 --> 00:18:48,640
+ you put stuff in the machine and the machine does what it says
+
+384
+00:18:48,640 --> 00:18:51,680
+ and then it comes out and it gives you something out of it.
+
+385
+00:18:51,680 --> 00:18:55,360
+ So, thinking in terms of a procedure versus a function,
+
+386
+00:18:55,360 --> 00:18:58,760
+ even though they both have a funky word is worth it to me.
+
+387
+00:18:58,760 --> 00:19:00,720
+ And I'll tell you right now,
+
+388
+00:19:00,720 --> 00:19:04,080
+ even though they both have a funky word,
+
+389
+00:19:04,080 --> 00:19:07,560
+ if you keep your functions separate from your procedures
+
+390
+00:19:07,560 --> 00:19:11,560
+ in your code, your life will be easier.
+
+391
+00:19:11,560 --> 00:19:13,200
+ Because raise your hand, which one do you think
+
+392
+00:19:13,200 --> 00:19:14,720
+ is easier to test?
+
+393
+00:19:14,720 --> 00:19:16,200
+ We're gonna write a unit test case here,
+
+394
+00:19:16,200 --> 00:19:18,160
+ we already did one, we're gonna do another one.
+
+395
+00:19:18,160 --> 00:19:22,440
+ What one is easier to test? Pretty obvious, right?
+
+396
+00:19:22,440 --> 00:19:25,400
+ It's obviously easier to test a function.
+
+397
+00:19:25,400 --> 00:19:30,400
+ Because a function, you always know that you can just
+
+398
+00:19:30,560 --> 00:19:33,400
+ run the function, give it a set of parameters
+
+399
+00:19:33,400 --> 00:19:35,920
+ and arguments into its parameters,
+
+400
+00:19:35,920 --> 00:19:37,040
+ and then you can look check for it
+
+401
+00:19:37,040 --> 00:19:39,600
+ if the result is the expected value.
+
+402
+00:19:39,600 --> 00:19:42,780
+ That's super, duper, duper easy to test, right?
+
+403
+00:19:43,840 --> 00:19:46,840
+ Let's say you wanna test a procedure
+
+404
+00:19:46,840 --> 00:19:49,080
+ that makes several changes to the system,
+
+405
+00:19:49,080 --> 00:19:53,800
+ creates a file, it does all this other stuff and everything.
+
+406
+00:19:53,800 --> 00:19:55,040
+ How do you test that?
+
+407
+00:19:57,240 --> 00:19:59,000
+ A lot of these procedures, by the way,
+
+408
+00:19:59,000 --> 00:20:00,760
+ will return a return value
+
+409
+00:20:00,760 --> 00:20:03,720
+ about whether it succeeded or it failed,
+
+410
+00:20:03,720 --> 00:20:04,960
+ and that would be chill.
+
+411
+00:20:04,960 --> 00:20:07,480
+ Was it able to do all of the changes
+
+412
+00:20:07,480 --> 00:20:10,720
+ to the system that you told it to do, right?
+
+413
+00:20:10,720 --> 00:20:14,440
+ And if so, great, you get a success return value,
+
+414
+00:20:14,440 --> 00:20:17,200
+ and then you have to trust the return value
+
+415
+00:20:17,200 --> 00:20:21,020
+ to mean that all of your requested changes have been made.
+
+416
+00:20:21,020 --> 00:20:25,480
+ It's almost like giving commands to a general or whatever,
+
+417
+00:20:25,480 --> 00:20:27,960
+ and you're saying, okay, go do this thing,
+
+418
+00:20:27,960 --> 00:20:29,840
+ and it's like, okay, all the things you ask for
+
+419
+00:20:29,840 --> 00:20:31,920
+ have been successfully completed.
+
+420
+00:20:31,920 --> 00:20:34,480
+ But if I were gonna validate that, how do I do it?
+
+421
+00:20:36,240 --> 00:20:40,200
+ I have to have something or someone out there
+
+422
+00:20:40,200 --> 00:20:45,200
+ validating the criteria for success for every single thing.
+
+423
+00:20:46,520 --> 00:20:50,120
+ I'd have to have the measurement of this effect over here
+
+424
+00:20:50,120 --> 00:20:51,800
+ and the measurement of this effect over here
+
+425
+00:20:51,800 --> 00:20:52,800
+ and this effect over here.
+
+426
+00:20:52,800 --> 00:20:54,600
+ In order to test the thing,
+
+427
+00:20:54,600 --> 00:20:58,240
+ you have to have a comprehensive system
+
+428
+00:20:58,240 --> 00:21:01,600
+ that is able to know about the entire system.
+
+429
+00:21:01,600 --> 00:21:05,560
+ And so it's much harder to test a procedure
+
+430
+00:21:05,560 --> 00:21:07,200
+ than it is to test a function,
+
+431
+00:21:07,200 --> 00:21:11,160
+ and this is the fundamental argument
+
+432
+00:21:11,160 --> 00:21:15,080
+ between people who argue for procedural programming
+
+433
+00:21:15,080 --> 00:21:17,360
+ versus functional programming.
+
+434
+00:21:17,360 --> 00:21:21,320
+ And at some point you get drawn into one of these arguments
+
+435
+00:21:21,320 --> 00:21:25,520
+ and now you know what the argument is about.
+
+436
+00:21:25,520 --> 00:21:28,160
+ And by the way, both of them have limitations obviously,
+
+437
+00:21:28,160 --> 00:21:31,560
+ but the functional people would turn everything
+
+438
+00:21:31,560 --> 00:21:35,080
+ into a function that's got one specific return value
+
+439
+00:21:35,080 --> 00:21:38,000
+ and that can then they would combine a bunch of functions
+
+440
+00:21:38,000 --> 00:21:39,960
+ to make to increase complexity.
+
+441
+00:21:41,400 --> 00:21:44,080
+ But now you know the fundamental idea behind that.
+
+442
+00:21:44,080 --> 00:21:47,240
+ When we talk about programming paradigms,
+
+443
+00:21:47,240 --> 00:21:50,440
+ which I should put another word here for you,
+
+444
+00:21:50,440 --> 00:21:55,440
+ a paradigm is how to look at the world.
+
+445
+00:21:56,040 --> 00:21:59,440
+ So a programming paradigm is like,
+
+446
+00:21:59,440 --> 00:22:01,760
+ how do we approach programming?
+
+447
+00:22:01,760 --> 00:22:03,680
+ What do we make it?
+
+448
+00:22:03,680 --> 00:22:05,720
+ How do we make programming look at the world
+
+449
+00:22:05,720 --> 00:22:08,800
+ as if everything was an object
+
+450
+00:22:08,800 --> 00:22:12,200
+ or everything was a function or everything is an event?
+
+451
+00:22:12,200 --> 00:22:15,200
+ And so this is the language.
+
+452
+00:22:15,200 --> 00:22:16,800
+ I don't wanna get too deep in the woods on this,
+
+453
+00:22:16,800 --> 00:22:19,240
+ but now you at least know what these things are
+
+454
+00:22:19,240 --> 00:22:20,720
+ so you can talk about them.
+
+455
+00:22:20,720 --> 00:22:22,160
+ So back to variables, right?
+
+456
+00:22:22,160 --> 00:22:23,720
+ So let's get back in the code.
+
+457
+00:22:23,720 --> 00:22:27,360
+ So we're now looking at the code.
+
+458
+00:22:27,360 --> 00:22:28,240
+ And while we're at it,
+
+459
+00:22:28,240 --> 00:22:30,120
+ since we just got done talking about functions,
+
+460
+00:22:30,120 --> 00:22:32,000
+ let's go ahead and for the fun of it.
+
+461
+00:22:33,360 --> 00:22:37,520
+ This is actually a procedure.
+
+462
+00:22:37,520 --> 00:22:39,800
+ Okay, by the way, can anybody think about
+
+463
+00:22:39,800 --> 00:22:42,080
+ how I might be able to make this into a function
+
+464
+00:22:42,080 --> 00:22:43,320
+ instead of a procedure?
+
+465
+00:22:45,040 --> 00:22:47,200
+ Pause the video and test yourself.
+
+466
+00:22:47,200 --> 00:22:49,240
+ How could I, let's make a function first,
+
+467
+00:22:49,240 --> 00:22:51,220
+ but I want you to start thinking about this.
+
+468
+00:22:51,220 --> 00:22:56,220
+ How can I make this a function?
+
+469
+00:22:58,640 --> 00:23:00,160
+ It can be done, all right?
+
+470
+00:23:00,160 --> 00:23:03,440
+ So what does this appear? Right now it's kind of a procedure,
+
+471
+00:23:03,440 --> 00:23:04,280
+ right?
+
+472
+00:23:04,280 --> 00:23:08,520
+ So let's like another one, let's make it say calculate slope.
+
+473
+00:23:08,520 --> 00:23:09,580
+ What is it, line?
+
+474
+00:23:11,640 --> 00:23:12,760
+ Let's just say double.
+
+475
+00:23:14,000 --> 00:23:18,080
+ Let's say double, double X, okay, but what is X?
+
+476
+00:23:18,080 --> 00:23:20,720
+ X is now a number, let's call it an int.
+
+477
+00:23:20,720 --> 00:23:23,560
+ So this is your second type that you know about.
+
+478
+00:23:23,560 --> 00:23:25,440
+ And we can say, okay, it's gonna turn it.
+
+479
+00:23:25,440 --> 00:23:27,440
+ But now this is different.
+
+480
+00:23:27,440 --> 00:23:28,280
+ This is a function.
+
+481
+00:23:28,280 --> 00:23:29,280
+ That means it has a return value.
+
+482
+00:23:29,280 --> 00:23:30,520
+ We haven't seen one of these before.
+
+483
+00:23:30,520 --> 00:23:31,720
+ So here it goes.
+
+484
+00:23:31,720 --> 00:23:33,400
+ The return value comes right here.
+
+485
+00:23:33,400 --> 00:23:35,360
+ And we're gonna say what type of thing
+
+486
+00:23:35,360 --> 00:23:36,960
+ is gonna be returned?
+
+487
+00:23:36,960 --> 00:23:38,120
+ Well, it's gonna be an int.
+
+488
+00:23:38,120 --> 00:23:39,600
+ We don't know about the name.
+
+489
+00:23:39,600 --> 00:23:43,200
+ If we wanna give the name a, you know,
+
+490
+00:23:43,200 --> 00:23:44,480
+ we wanna give the return value a name,
+
+491
+00:23:44,480 --> 00:23:46,680
+ we can do that and go.
+
+492
+00:23:46,680 --> 00:23:48,360
+ And sometimes it's valuable to do that.
+
+493
+00:23:48,360 --> 00:23:49,280
+ We'll get into that more.
+
+494
+00:23:49,280 --> 00:23:51,520
+ But most of the time it's not necessary.
+
+495
+00:23:51,520 --> 00:23:53,600
+ So we can just say int.
+
+496
+00:23:53,600 --> 00:23:55,800
+ And then it's giving me a problem.
+
+497
+00:23:55,800 --> 00:23:58,360
+ You know, I'm just gonna say return zero for now.
+
+498
+00:23:58,360 --> 00:24:00,600
+ And because it's not done yet, right?
+
+499
+00:24:00,600 --> 00:24:02,360
+ So let's do that.
+
+500
+00:24:02,360 --> 00:24:07,360
+ So let's say f of x equals two x, all right?
+
+501
+00:24:07,440 --> 00:24:11,000
+ So this is an actual function.
+
+502
+00:24:11,000 --> 00:24:13,120
+ The same as a pure versus on pure functions.
+
+503
+00:24:13,120 --> 00:24:16,080
+ Yes, that's what I call them, or true function.
+
+504
+00:24:16,080 --> 00:24:18,560
+ That's, the people have had to say that
+
+505
+00:24:18,560 --> 00:24:22,520
+ because the name function has been commandeered.
+
+506
+00:24:22,520 --> 00:24:24,800
+ I feel like that's one of the greatest failures
+
+507
+00:24:24,800 --> 00:24:27,320
+ of computer science is so many people
+
+508
+00:24:27,320 --> 00:24:29,800
+ using the word function for procedures to subroutines
+
+509
+00:24:29,800 --> 00:24:32,440
+ when it really isn't a function at all.
+
+510
+00:24:32,440 --> 00:24:34,680
+ And it's kinda sad.
+
+511
+00:24:34,680 --> 00:24:37,760
+ So I had to go into this big spiel about it
+
+512
+00:24:37,760 --> 00:24:39,960
+ so you would know the difference.
+
+513
+00:24:39,960 --> 00:24:42,200
+ These days you'll have people say true function
+
+514
+00:24:42,200 --> 00:24:44,560
+ or pure function, that's what they mean.
+
+515
+00:24:44,560 --> 00:24:48,760
+ And so that's all we're gonna talk about that.
+
+516
+00:24:48,760 --> 00:24:51,600
+ But here you see we have, this is a very, very true function
+
+517
+00:24:51,600 --> 00:24:53,640
+ because we have it returns one value, right?
+
+518
+00:24:53,640 --> 00:24:55,760
+ Now currently it's broken, right?
+
+519
+00:24:55,760 --> 00:25:00,480
+ So let's actually write some code to test this, right away.
+
+520
+00:25:00,480 --> 00:25:02,520
+ You already know this, we did it already.
+
+521
+00:25:02,520 --> 00:25:07,520
+ But let's write, we already did this, let's go in our command.
+
+522
+00:25:09,240 --> 00:25:11,080
+ I'm gonna go D and dig down here.
+
+523
+00:25:12,160 --> 00:25:15,000
+ And we wrote a test code already
+
+524
+00:25:15,000 --> 00:25:16,600
+ and we're gonna write main.test.
+
+525
+00:25:16,600 --> 00:25:19,520
+ And so we have another thing to test, okay?
+
+526
+00:25:19,520 --> 00:25:22,600
+ So funk, and we're gonna try this
+
+527
+00:25:22,600 --> 00:25:24,440
+ as an example based test for now.
+
+528
+00:25:25,560 --> 00:25:30,560
+ And we're gonna say example, double, all right?
+
+529
+00:25:31,520 --> 00:25:34,040
+ So, and by the way, I don't know if you noticed
+
+530
+00:25:34,040 --> 00:25:36,520
+ but the name has to be the same as the function
+
+531
+00:25:36,520 --> 00:25:38,840
+ which is a whole thing we'll get into later.
+
+532
+00:25:38,840 --> 00:25:40,000
+ What is the output gonna be?
+
+533
+00:25:40,000 --> 00:25:40,840
+ Well, I don't know.
+
+534
+00:25:40,840 --> 00:25:45,840
+ Let's say that if I call double, double two,
+
+535
+00:25:46,440 --> 00:25:47,960
+ what should the answer be?
+
+536
+00:25:47,960 --> 00:25:49,220
+ Four, right?
+
+537
+00:25:50,840 --> 00:25:54,840
+ All right, so by the way, let's change our test.
+
+538
+00:25:55,800 --> 00:25:59,040
+ Now, so I'm gonna change our test.
+
+539
+00:25:59,040 --> 00:25:59,880
+ Oopsie.
+
+540
+00:26:01,280 --> 00:26:02,720
+ I'm gonna change our test.
+
+541
+00:26:04,360 --> 00:26:06,960
+ I just am not coding very well today.
+
+542
+00:26:07,960 --> 00:26:08,920
+ We're gonna change our test
+
+543
+00:26:08,920 --> 00:26:11,440
+ and we're gonna say rather than doing all that,
+
+544
+00:26:12,880 --> 00:26:13,720
+ let's do this.
+
+545
+00:26:13,720 --> 00:26:18,720
+ Let's do E-N-T-R, go test, go, let's see, go test.
+
+546
+00:26:20,080 --> 00:26:22,000
+ All right, and there's no test files here, right?
+
+547
+00:26:22,000 --> 00:26:27,000
+ So, what we wanna do is we can go test.slash.dot.dot
+
+548
+00:26:27,440 --> 00:26:29,880
+ and that will test everything, okay?
+
+549
+00:26:29,880 --> 00:26:32,080
+ All the way down in your program.
+
+550
+00:26:32,080 --> 00:26:34,280
+ So, what we're gonna do is we're gonna change
+
+551
+00:26:34,280 --> 00:26:37,840
+ our E-N-T-R program to clear the screen
+
+552
+00:26:37,840 --> 00:26:41,800
+ and to do go test and that will not only test this
+
+553
+00:26:41,800 --> 00:26:45,720
+ but any test here or down and that is a go thing.
+
+554
+00:26:45,720 --> 00:26:47,880
+ That is not a shell thing.
+
+555
+00:26:47,880 --> 00:26:52,040
+ So, that's gonna, instead of, so that's gonna run our test
+
+556
+00:26:52,040 --> 00:26:54,840
+ for us and you can see we're failing
+
+557
+00:26:54,840 --> 00:26:56,780
+ a couple different tests here, okay?
+
+558
+00:26:57,800 --> 00:26:59,720
+ At this point, it's getting kind of hard
+
+559
+00:26:59,720 --> 00:27:02,000
+ to see the test on the same screen.
+
+560
+00:27:02,000 --> 00:27:05,960
+ So, what I'm gonna do is get rid of this
+
+561
+00:27:05,960 --> 00:27:07,880
+ or break it out into its own screen,
+
+562
+00:27:07,880 --> 00:27:11,000
+ which I don't remember the command for that.
+
+563
+00:27:11,000 --> 00:27:14,120
+ There is a command to break out a T-mux window
+
+564
+00:27:14,120 --> 00:27:16,160
+ into its own pane into its own window
+
+565
+00:27:16,160 --> 00:27:17,120
+ but I haven't done it in a long time.
+
+566
+00:27:17,120 --> 00:27:20,400
+ I'm gonna ask my API, I mean, in my chat,
+
+567
+00:27:20,400 --> 00:27:25,400
+ how do I break out a T-mux pane into own window?
+
+568
+00:27:28,720 --> 00:27:30,960
+ I think it, is it Z?
+
+569
+00:27:30,960 --> 00:27:34,400
+ I think Z is zoom but it doesn't break it out.
+
+570
+00:27:34,400 --> 00:27:35,480
+ So, I wanna break it out.
+
+571
+00:27:35,480 --> 00:27:37,440
+ I wanna break that pane out into its own thing.
+
+572
+00:27:37,440 --> 00:27:38,520
+ I don't do this very much.
+
+573
+00:27:38,520 --> 00:27:41,160
+ So, I usually just start with separate windows
+
+574
+00:27:41,160 --> 00:27:43,360
+ but I made a pane because of the stream.
+
+575
+00:27:44,320 --> 00:27:48,140
+ So, okay, so let's see here.
+
+576
+00:27:50,440 --> 00:27:52,100
+ Control B, yes, I know.
+
+577
+00:27:53,000 --> 00:27:54,960
+ And that, we'll move the active pane
+
+578
+00:27:54,960 --> 00:27:56,800
+ to a new window with the same session.
+
+579
+00:27:57,840 --> 00:28:01,680
+ It says, exclamation point, we'll move the active pane.
+
+580
+00:28:01,680 --> 00:28:03,420
+ Interesting, okay, let's try that.
+
+581
+00:28:05,520 --> 00:28:06,360
+ Let's try that.
+
+582
+00:28:11,000 --> 00:28:12,960
+ I mean, double quotes just splits it.
+
+583
+00:28:12,960 --> 00:28:14,320
+ That's not what I wanted.
+
+584
+00:28:14,320 --> 00:28:17,020
+ So, exclamation point.
+
+585
+00:28:17,020 --> 00:28:18,360
+ Yeah, there we go, that's what I wanted.
+
+586
+00:28:18,360 --> 00:28:20,800
+ Okay, so it was exclamation point.
+
+587
+00:28:20,800 --> 00:28:22,200
+ That's what my AI said.
+
+588
+00:28:22,200 --> 00:28:24,360
+ So, now we have these two things
+
+589
+00:28:24,360 --> 00:28:26,840
+ and by the way, these are both windows.
+
+590
+00:28:26,840 --> 00:28:29,280
+ I use windows over these little things across the top
+
+591
+00:28:29,280 --> 00:28:30,720
+ 'cause I can never read them.
+
+592
+00:28:30,720 --> 00:28:31,840
+ One of the reasons I like this better
+
+593
+00:28:31,840 --> 00:28:32,920
+ is it gives me my directory.
+
+594
+00:28:32,920 --> 00:28:34,480
+ It also shows me the file that's open.
+
+595
+00:28:34,480 --> 00:28:37,360
+ So, this is kinda cool because now I don't have to close
+
+596
+00:28:37,360 --> 00:28:41,880
+ the file, I can do, you know, I can do CMD
+
+597
+00:28:41,880 --> 00:28:45,400
+ which is, you know, my Neo-Vam likes a lot better
+
+598
+00:28:45,400 --> 00:28:46,400
+ when I don't close it all the time
+
+599
+00:28:46,400 --> 00:28:48,080
+ 'cause you see it's updating it.
+
+600
+00:28:48,080 --> 00:28:52,480
+ This is a Tmux thing, control A, W to see the windows.
+
+601
+00:28:52,480 --> 00:28:56,360
+ Okay, so, and then I have my test here.
+
+602
+00:28:56,360 --> 00:29:00,040
+ I can actually update this with a comma and say test
+
+603
+00:29:00,040 --> 00:29:02,360
+ so now I can see all my windows
+
+604
+00:29:02,360 --> 00:29:04,720
+ and, you know, you might have your own way of doing this
+
+605
+00:29:04,720 --> 00:29:06,760
+ but this is how I do it.
+
+606
+00:29:07,800 --> 00:29:09,640
+ Okay, so we're running main
+
+607
+00:29:09,640 --> 00:29:11,960
+ and main seems to be failing, right?
+
+608
+00:29:11,960 --> 00:29:13,200
+ Because we changed the output.
+
+609
+00:29:13,200 --> 00:29:15,720
+ So let's go ahead and fix that unit test
+
+610
+00:29:15,720 --> 00:29:18,080
+ 'cause we changed it without changing our unit test.
+
+611
+00:29:18,080 --> 00:29:20,160
+ That was bad of us, so me.
+
+612
+00:29:20,160 --> 00:29:22,200
+ So I'm gonna go ahead and make a new one
+
+613
+00:29:22,200 --> 00:29:27,400
+ and I'm gonna CMD a low main_test
+
+614
+00:29:27,400 --> 00:29:29,680
+ and I can now change this.
+
+615
+00:29:29,680 --> 00:29:31,800
+ We know we're not getting a little friend anymore
+
+616
+00:29:31,800 --> 00:29:32,880
+ and so we know what we're getting
+
+617
+00:29:32,880 --> 00:29:35,480
+ so I can actually make the test pass.
+
+618
+00:29:35,480 --> 00:29:37,800
+ I can actually, I do this all the time.
+
+619
+00:29:37,800 --> 00:29:40,680
+ I can just copy the output of the test
+
+620
+00:29:40,680 --> 00:29:44,160
+ and put it into the test case and make it succeed.
+
+621
+00:29:46,000 --> 00:29:49,200
+ You know, which is horrible of me to do, right?
+
+622
+00:29:51,280 --> 00:29:52,120
+ So I just copied it.
+
+623
+00:29:52,120 --> 00:29:53,000
+ There's an easier way to do that
+
+624
+00:29:53,000 --> 00:29:55,560
+ but I'm trying to save my stuff for you.
+
+625
+00:29:55,560 --> 00:29:58,520
+ Okay, so that did not update.
+
+626
+00:29:58,520 --> 00:30:00,520
+ Okay, the reason that didn't update
+
+627
+00:30:00,520 --> 00:30:03,280
+ is because our ENTR is too limited.
+
+628
+00:30:04,480 --> 00:30:09,480
+ What it's doing is it's only looking for main.go, changing.
+
+629
+00:30:09,920 --> 00:30:14,920
+ So we're actually gonna change this to be a list
+
+630
+00:30:15,640 --> 00:30:20,360
+ and we're gonna say, I mean, you can do LS-1,
+
+631
+00:30:20,360 --> 00:30:21,840
+ you can do find, there's a whole bunch of things
+
+632
+00:30:21,840 --> 00:30:22,680
+ you can do here.
+
+633
+00:30:23,880 --> 00:30:28,560
+ I'm gonna do findanything.anything
+
+634
+00:30:30,000 --> 00:30:31,880
+ that has the name.go.
+
+635
+00:30:32,760 --> 00:30:36,760
+ Okay, if any of those files changes, I wanna rerun.
+
+636
+00:30:36,760 --> 00:30:39,160
+ Okay, so now it fixed it.
+
+637
+00:30:39,160 --> 00:30:41,120
+ So, but the other one is failing.
+
+638
+00:30:41,120 --> 00:30:46,120
+ So let's make that one not fail by implementing it.
+
+639
+00:30:47,600 --> 00:30:51,920
+ So we can say to here, you can put 9, 9, 9, 18,
+
+640
+00:30:51,920 --> 00:30:54,080
+ put 18 here.
+
+641
+00:30:54,080 --> 00:30:57,160
+ All right, so there's a little bit of our test code.
+
+642
+00:30:57,160 --> 00:30:58,560
+ All right, so now let's go back
+
+643
+00:30:58,560 --> 00:31:02,840
+ and update the test code.
+
+644
+00:31:02,840 --> 00:31:06,040
+ Well, why isn't that one showing the program?
+
+645
+00:31:06,040 --> 00:31:09,200
+ It's testing, that one should have, oh, there we go.
+
+646
+00:31:09,200 --> 00:31:13,720
+ Okay, and then we're gonna go back into the main here.
+
+647
+00:31:13,720 --> 00:31:14,840
+ So let's make it work.
+
+648
+00:31:14,840 --> 00:31:17,280
+ So instead of returning zero,
+
+649
+00:31:18,320 --> 00:31:20,200
+ I don't really need to do a variable here, right?
+
+650
+00:31:20,200 --> 00:31:24,680
+ I could, I could say, you know, something,
+
+651
+00:31:24,680 --> 00:31:27,120
+ some, and this is a walrus operator.
+
+652
+00:31:27,120 --> 00:31:29,800
+ So this is exactly the same.
+
+653
+00:31:29,800 --> 00:31:34,800
+ So var, var doubles, if I want, I'm not doing this.
+
+654
+00:31:36,760 --> 00:31:41,240
+ But if I did, I could say var doubled isn't int.
+
+655
+00:31:41,240 --> 00:31:42,640
+ So we declare it.
+
+656
+00:31:42,640 --> 00:31:47,640
+ And then we say doubled equals x times two, right?
+
+657
+00:31:50,240 --> 00:31:52,240
+ And then declared, but not done.
+
+658
+00:31:52,240 --> 00:31:55,920
+ Now we return doubled, okay?
+
+659
+00:31:55,920 --> 00:31:57,080
+ I'm deliberately writing this
+
+660
+00:31:57,080 --> 00:31:59,000
+ the way a beginner would write it
+
+661
+00:31:59,000 --> 00:32:01,800
+ because it doesn't always come to you
+
+662
+00:32:01,800 --> 00:32:03,600
+ that you can simplify this.
+
+663
+00:32:03,600 --> 00:32:05,760
+ So that's the first iteration, right?
+
+664
+00:32:05,760 --> 00:32:09,160
+ So, and you might wanna keep this in your notes.
+
+665
+00:32:10,440 --> 00:32:13,600
+ You know, I'm actually gonna keep it in here
+
+666
+00:32:13,600 --> 00:32:15,040
+ just so you guys can see it.
+
+667
+00:32:15,920 --> 00:32:18,480
+ Because I want you to see that it's getting simplified.
+
+668
+00:32:18,480 --> 00:32:20,240
+ So let's actually rewrite this.
+
+669
+00:32:22,080 --> 00:32:24,480
+ So let's first of all see if it's working.
+
+670
+00:32:24,480 --> 00:32:26,080
+ So let's go look at our tests.
+
+671
+00:32:27,080 --> 00:32:28,880
+ We have to go back to the other window to test it,
+
+672
+00:32:28,880 --> 00:32:31,560
+ but I can just toggle with a, a, in my case.
+
+673
+00:32:32,760 --> 00:32:34,960
+ Let's go to the tests, where is it?
+
+674
+00:32:36,920 --> 00:32:37,760
+ Here we go.
+
+675
+00:32:37,760 --> 00:32:40,760
+ So, wait, am I running the tests?
+
+676
+00:32:42,600 --> 00:32:43,440
+ Oh, here we go.
+
+677
+00:32:47,200 --> 00:32:48,040
+ Wait, what?
+
+678
+00:32:49,200 --> 00:32:51,120
+ Oh, let's go test on this one test.
+
+679
+00:32:51,120 --> 00:32:53,920
+ All right, so, yeah, there we go.
+
+680
+00:32:53,920 --> 00:32:56,160
+ So that's, we got, this is my dog.
+
+681
+00:32:56,160 --> 00:32:58,040
+ So we got a test, the test is still running
+
+682
+00:32:58,040 --> 00:32:59,520
+ and we're still failing the test.
+
+683
+00:33:02,040 --> 00:33:03,920
+ Why are we failing the test?
+
+684
+00:33:05,480 --> 00:33:07,360
+ Why are we failing the test?
+
+685
+00:33:07,360 --> 00:33:09,080
+ I don't know, let's try again.
+
+686
+00:33:10,280 --> 00:33:11,520
+ X double.
+
+687
+00:33:14,440 --> 00:33:16,160
+ We should not be failing that test.
+
+688
+00:33:20,160 --> 00:33:21,680
+ Why are we failing?
+
+689
+00:33:21,680 --> 00:33:22,680
+ What am I missing?
+
+690
+00:33:24,760 --> 00:33:28,600
+ We're missing something obvious, I don't know what it is.
+
+691
+00:33:30,360 --> 00:33:32,560
+ Oh, we're not printing it.
+
+692
+00:33:32,560 --> 00:33:33,520
+ We're just returning it.
+
+693
+00:33:33,520 --> 00:33:35,440
+ Oh, that's an important thing.
+
+694
+00:33:35,440 --> 00:33:39,040
+ So the value is being returned, but it's being thrown away.
+
+695
+00:33:39,040 --> 00:33:41,480
+ So we need to take that value and we need to assign it
+
+696
+00:33:41,480 --> 00:33:43,320
+ to something and print it, right?
+
+697
+00:33:43,320 --> 00:33:48,320
+ We could say, we could say doubled equals, right?
+
+698
+00:33:50,000 --> 00:33:52,400
+ This is, normally you wouldn't do this, right?
+
+699
+00:33:52,400 --> 00:33:56,080
+ But I want to show you, so doubled, it's like,
+
+700
+00:33:56,080 --> 00:33:57,560
+ we used wireless operator, okay?
+
+701
+00:33:57,560 --> 00:34:01,040
+ So doubled actually infers the type
+
+702
+00:34:01,040 --> 00:34:02,520
+ that's coming out of the thing.
+
+703
+00:34:02,520 --> 00:34:05,400
+ So it doesn't need to be, this is called a wireless operator.
+
+704
+00:34:05,400 --> 00:34:07,240
+ And it says, okay, doubled.
+
+705
+00:34:07,240 --> 00:34:10,560
+ And then we can print doubled, empty, print all in.
+
+706
+00:34:10,560 --> 00:34:13,480
+ You guys already know about this, doubled.
+
+707
+00:34:14,360 --> 00:34:16,800
+ All right, so that's going to get us our four,
+
+708
+00:34:18,040 --> 00:34:19,920
+ but what about the rest, right?
+
+709
+00:34:19,920 --> 00:34:22,160
+ So we need the 18.
+
+710
+00:34:22,160 --> 00:34:25,280
+ Well, we can do the same thing again.
+
+711
+00:34:25,280 --> 00:34:28,040
+ This is very painful for me to do,
+
+712
+00:34:28,040 --> 00:34:30,100
+ but I'm doing it on purpose.
+
+713
+00:34:30,100 --> 00:34:32,840
+ Thank you, because I want you to see the pain.
+
+714
+00:34:32,840 --> 00:34:34,080
+ So we're going to break something here.
+
+715
+00:34:34,080 --> 00:34:35,480
+ What's going to break?
+
+716
+00:34:35,480 --> 00:34:37,080
+ Before I save this, is anybody,
+
+717
+00:34:37,080 --> 00:34:39,120
+ can you think about what's going to break here?
+
+718
+00:34:40,680 --> 00:34:41,880
+ What's going to break here?
+
+719
+00:34:43,840 --> 00:34:45,760
+ I really want you to see this.
+
+720
+00:34:45,760 --> 00:34:47,320
+ Okay, it says you can't put another one here.
+
+721
+00:34:47,320 --> 00:34:48,160
+ Why?
+
+722
+00:34:48,160 --> 00:34:49,400
+ Because we are using short hand.
+
+723
+00:34:49,400 --> 00:34:51,760
+ Let me go back to the long hand here.
+
+724
+00:34:51,760 --> 00:34:53,800
+ And if you're a beginner, knowing a long hand,
+
+725
+00:34:53,800 --> 00:34:55,800
+ don't do the long hand, but know about it.
+
+726
+00:34:55,800 --> 00:34:58,680
+ Because what we're actually doing,
+
+727
+00:34:58,680 --> 00:35:00,320
+ with the wireless operator is this.
+
+728
+00:35:00,320 --> 00:35:02,840
+ We're saying, var doubled is an int,
+
+729
+00:35:02,840 --> 00:35:04,680
+ and then we're saying doubled equals a butt.
+
+730
+00:35:04,680 --> 00:35:09,080
+ And then down here, we're doing the exact same thing again.
+
+731
+00:35:10,960 --> 00:35:13,120
+ This is what we,
+
+732
+00:35:13,120 --> 00:35:15,560
+ when we use the wireless operator the way we did,
+
+733
+00:35:15,560 --> 00:35:19,440
+ this is what we, ultimately, this is what we were doing.
+
+734
+00:35:19,440 --> 00:35:22,280
+ And you see how doubled is getting redeclared here?
+
+735
+00:35:22,280 --> 00:35:27,200
+ It's like, you know, so that doesn't make any sense, right?
+
+736
+00:35:27,200 --> 00:35:28,960
+ So we could either do this.
+
+737
+00:35:28,960 --> 00:35:30,560
+ We could get rid of it here,
+
+738
+00:35:30,560 --> 00:35:31,960
+ and have it be declared in both places
+
+739
+00:35:31,960 --> 00:35:35,080
+ that will pass the test, or,
+
+740
+00:35:35,080 --> 00:35:37,680
+ or we can make one of them,
+
+741
+00:35:37,680 --> 00:35:40,000
+ if we want to get rid of this part,
+
+742
+00:35:40,000 --> 00:35:40,920
+ then we can do this.
+
+743
+00:35:40,920 --> 00:35:43,600
+ We can put the wireless operator here and get rid of this.
+
+744
+00:35:43,600 --> 00:35:47,880
+ Because doubled is defined as being a function
+
+745
+00:35:47,880 --> 00:35:50,480
+ that gives us an int, right?
+
+746
+00:35:50,480 --> 00:35:54,480
+ So, the program can infer from that
+
+747
+00:35:54,480 --> 00:35:57,080
+ that this thing should be an int.
+
+748
+00:35:57,080 --> 00:35:59,760
+ And that happens a lot in a lot of other programming languages,
+
+749
+00:35:59,760 --> 00:36:02,000
+ too, that inference about what the type is.
+
+750
+00:36:02,000 --> 00:36:04,400
+ It saves you from typing a bunch of stuff, obviously.
+
+751
+00:36:04,400 --> 00:36:05,960
+ But that's what this operator does.
+
+752
+00:36:05,960 --> 00:36:08,400
+ This wireless operator, it's an assignment operator.
+
+753
+00:36:08,400 --> 00:36:09,760
+ It takes the thing on the right
+
+754
+00:36:09,760 --> 00:36:11,480
+ and puts it into the thing on the left,
+
+755
+00:36:11,480 --> 00:36:14,720
+ making a new one and declaring it at the same time.
+
+756
+00:36:14,720 --> 00:36:17,960
+ Okay, that's a lot to put in that little operator.
+
+757
+00:36:17,960 --> 00:36:21,160
+ And some people criticize go for being too magical in that sense.
+
+758
+00:36:21,160 --> 00:36:23,560
+ But it makes it, you know, that's that Goldilocks thing.
+
+759
+00:36:23,560 --> 00:36:26,320
+ It's just enough to help us not have to write
+
+760
+00:36:26,320 --> 00:36:28,200
+ a whole bunch of crazy stuff.
+
+761
+00:36:28,200 --> 00:36:30,320
+ And then down here we have an equal assignment.
+
+762
+00:36:30,320 --> 00:36:33,480
+ If I do this again, it's going to fail because why?
+
+763
+00:36:33,480 --> 00:36:35,520
+ Because it's like, no, you're trying to make a new one,
+
+764
+00:36:35,520 --> 00:36:38,600
+ and you already have one, you can't reuse that, right?
+
+765
+00:36:38,600 --> 00:36:40,400
+ If you want to use it, just do this.
+
+766
+00:36:40,400 --> 00:36:42,640
+ And that uses it as a variable.
+
+767
+00:36:42,640 --> 00:36:44,840
+ In other words, it's another, you know, it's a value
+
+768
+00:36:44,840 --> 00:36:47,280
+ that's coming out of it, and it's going into the other one,
+
+769
+00:36:47,280 --> 00:36:49,200
+ and it's just replacing the thing that was there
+
+770
+00:36:49,200 --> 00:36:52,040
+ in the previous example, and then it's printing it out.
+
+771
+00:36:52,040 --> 00:36:56,480
+ Now, this passes the test, but this is unnecessary.
+
+772
+00:36:56,480 --> 00:36:58,720
+ And what I want to show you is,
+
+773
+00:36:58,720 --> 00:37:01,880
+ because it's so easy to just pass these things,
+
+774
+00:37:01,880 --> 00:37:04,080
+ we can get rid of the variable altogether,
+
+775
+00:37:04,080 --> 00:37:06,720
+ and just call double two is a very functional way
+
+776
+00:37:06,720 --> 00:37:10,080
+ to do things, and we could say down here,
+
+777
+00:37:10,080 --> 00:37:12,020
+ we could just say double nine.
+
+778
+00:37:13,480 --> 00:37:18,480
+ All right, and now we have two very simple programs.
+
+779
+00:37:19,560 --> 00:37:21,120
+ There's even a simple way to do it later,
+
+780
+00:37:21,120 --> 00:37:25,320
+ which I'll show you, but it's got some redundancy in it
+
+781
+00:37:25,320 --> 00:37:26,760
+ that we can get rid of later with a loop,
+
+782
+00:37:26,760 --> 00:37:28,200
+ but we're not there yet.
+
+783
+00:37:29,640 --> 00:37:32,920
+ So that's it, so we've got it, that's a pure function.
+
+784
+00:37:32,920 --> 00:37:35,400
+ We have taken in some things, we've changed those things,
+
+785
+00:37:35,400 --> 00:37:37,160
+ and then we have given out another thing,
+
+786
+00:37:37,160 --> 00:37:38,520
+ and then we print it.
+
+787
+00:37:38,520 --> 00:37:40,560
+ So what I want you to notice here is,
+
+788
+00:37:40,560 --> 00:37:44,260
+ what is different between main and this?
+
+789
+00:37:45,120 --> 00:37:47,520
+ And this gets back to the earlier question I asked
+
+790
+00:37:47,520 --> 00:37:52,520
+ about how can we make greet,
+
+791
+00:37:53,760 --> 00:37:56,680
+ how can we change greet from being a procedure
+
+792
+00:37:56,680 --> 00:37:59,520
+ to a function, a testable function?
+
+793
+00:37:59,520 --> 00:38:01,880
+ Now, it just so happens, this is one of the cases
+
+794
+00:38:01,880 --> 00:38:05,720
+ where Go's amazing unit testability
+
+795
+00:38:05,720 --> 00:38:08,600
+ is kind of hurting us in terms of learning,
+
+796
+00:38:08,600 --> 00:38:11,880
+ because what these example-based tests do
+
+797
+00:38:11,880 --> 00:38:13,840
+ is they use something called reflection
+
+798
+00:38:13,840 --> 00:38:15,960
+ to look at the output and compare it
+
+799
+00:38:15,960 --> 00:38:17,840
+ to the thing that's being tested.
+
+800
+00:38:17,840 --> 00:38:18,840
+ And so it's kind of magical,
+
+801
+00:38:18,840 --> 00:38:21,520
+ and it's not completely apparent what's going on,
+
+802
+00:38:21,520 --> 00:38:26,040
+ but basically, main is being called the procedure main.
+
+803
+00:38:26,040 --> 00:38:28,280
+ It says function, it's not.
+
+804
+00:38:28,280 --> 00:38:31,040
+ It never has been, it never will be.
+
+805
+00:38:31,040 --> 00:38:33,920
+ The main procedure, which is called a function,
+
+806
+00:38:33,920 --> 00:38:35,080
+ and everybody will call it a function,
+
+807
+00:38:35,080 --> 00:38:39,440
+ and it's a procedure, it says run these steps,
+
+808
+00:38:39,440 --> 00:38:41,960
+ and it doesn't even have a return value.
+
+809
+00:38:41,960 --> 00:38:44,880
+ So it is the definition of a procedure,
+
+810
+00:38:44,880 --> 00:38:46,280
+ a subroutine if you wish.
+
+811
+00:38:46,280 --> 00:38:47,880
+ So it runs this thing, and you're looking at it,
+
+812
+00:38:47,880 --> 00:38:50,560
+ and you're like, okay, well, what's going on here?
+
+813
+00:38:50,560 --> 00:38:53,920
+ I have no idea, and it's because the side effect
+
+814
+00:38:53,920 --> 00:38:55,960
+ of running main, in this case,
+
+815
+00:38:55,960 --> 00:38:58,760
+ is printing stuff to standard output.
+
+816
+00:38:58,760 --> 00:39:03,000
+ That is a sure sign of a subroutine or a procedure.
+
+817
+00:39:03,000 --> 00:39:04,600
+ It is affecting its environment,
+
+818
+00:39:04,600 --> 00:39:06,360
+ and in this case, its environment
+
+819
+00:39:06,360 --> 00:39:09,040
+ is the standard output data pipe.
+
+820
+00:39:09,040 --> 00:39:10,760
+ It's putting it out there, and it's printing it.
+
+821
+00:39:10,760 --> 00:39:12,520
+ And I know you guys think I'm in the weeds here,
+
+822
+00:39:12,520 --> 00:39:14,240
+ but I promise you, you'll be better coders
+
+823
+00:39:14,240 --> 00:39:15,720
+ by annoying this up front.
+
+824
+00:39:15,720 --> 00:39:20,440
+ So by running main, it takes it,
+
+825
+00:39:20,440 --> 00:39:25,000
+ and it just runs those steps,
+
+826
+00:39:25,000 --> 00:39:26,080
+ and what are those steps?
+
+827
+00:39:26,080 --> 00:39:30,000
+ Those steps are other procedure calls that say,
+
+828
+00:39:30,000 --> 00:39:31,720
+ hey, or subroutine calls, whatever you wanna call them,
+
+829
+00:39:31,720 --> 00:39:34,560
+ go do these other things, right?
+
+830
+00:39:34,560 --> 00:39:36,480
+ But there's no return value.
+
+831
+00:39:36,480 --> 00:39:37,280
+ What's the difference?
+
+832
+00:39:37,280 --> 00:39:42,000
+ Down here, nothing happened until I captured the return value
+
+833
+00:39:42,000 --> 00:39:45,080
+ and did something with it, right?
+
+834
+00:39:45,080 --> 00:39:47,520
+ So double is a pure function.
+
+835
+00:39:47,520 --> 00:39:50,840
+ It's a pure function, whereas main is a procedure function.
+
+836
+00:39:51,760 --> 00:39:53,720
+ And that means it's just a bunch of steps.
+
+837
+00:39:53,720 --> 00:39:55,560
+ But how can we fix this?
+
+838
+00:39:55,560 --> 00:39:57,040
+ Well, let's go ahead and test this.
+
+839
+00:39:57,040 --> 00:39:59,080
+ Let's, by the way, if you ever wanna yank
+
+840
+00:39:59,080 --> 00:40:02,480
+ an entire function and go, Y-A-F.
+
+841
+00:40:02,480 --> 00:40:05,440
+ That says yank the outer function.
+
+842
+00:40:05,440 --> 00:40:08,040
+ All of it, including the, you can do I-F,
+
+843
+00:40:08,040 --> 00:40:09,680
+ which is just the lines inside.
+
+844
+00:40:09,680 --> 00:40:11,560
+ If you U-A-F, it's the whole function.
+
+845
+00:40:11,560 --> 00:40:12,720
+ So I just grab the whole function,
+
+846
+00:40:12,720 --> 00:40:13,760
+ come down here and push P,
+
+847
+00:40:13,760 --> 00:40:16,760
+ and I can copy that whole function in one command, okay?
+
+848
+00:40:16,760 --> 00:40:18,520
+ So that's very valuable.
+
+849
+00:40:18,520 --> 00:40:23,160
+ I promise you, because it doesn't see blank lines as sub.
+
+850
+00:40:23,160 --> 00:40:26,840
+ Like D-A-P or Y-A-P would do.
+
+851
+00:40:26,840 --> 00:40:29,200
+ So here we have example main.
+
+852
+00:40:29,200 --> 00:40:31,440
+ And we wanna make it not main.
+
+853
+00:40:31,440 --> 00:40:33,760
+ And we wanna make it greet.
+
+854
+00:40:33,760 --> 00:40:35,680
+ We wanna test greet, right?
+
+855
+00:40:35,680 --> 00:40:38,120
+ All right, so we have greet here.
+
+856
+00:40:38,120 --> 00:40:40,240
+ And right away, this is gonna blow up, right?
+
+857
+00:40:40,240 --> 00:40:42,080
+ Because it's like, no, we don't have that thing.
+
+858
+00:40:42,080 --> 00:40:43,320
+ There's not enough arguments.
+
+859
+00:40:43,320 --> 00:40:45,360
+ So let's put an argument in here.
+
+860
+00:40:45,360 --> 00:40:49,160
+ Let's say Doris, give it a string Doris,
+
+861
+00:40:49,160 --> 00:40:52,560
+ and let's try it again.
+
+862
+00:40:52,560 --> 00:40:54,280
+ And of course it doesn't blow up there,
+
+863
+00:40:54,280 --> 00:40:55,360
+ but it's not right, right?
+
+864
+00:40:55,360 --> 00:40:56,680
+ It's not doing both of them.
+
+865
+00:40:56,680 --> 00:40:58,520
+ And then I could have greet Doris,
+
+866
+00:40:58,520 --> 00:41:00,800
+ or I could have greet Rob.
+
+867
+00:41:00,800 --> 00:41:05,600
+ So now I can test, okay, that's passing, right?
+
+868
+00:41:05,600 --> 00:41:10,040
+ Do I really need to test the main program anymore?
+
+869
+00:41:10,040 --> 00:41:11,040
+ Really don't, right?
+
+870
+00:41:11,040 --> 00:41:13,120
+ Because we just need to test greet.
+
+871
+00:41:13,120 --> 00:41:16,840
+ But there is a better way to do this.
+
+872
+00:41:16,840 --> 00:41:18,720
+ And I'm gonna leave the main test here
+
+873
+00:41:18,720 --> 00:41:20,760
+ for just a second, just to make a point.
+
+874
+00:41:20,760 --> 00:41:25,240
+ So what if we turned greet into a function
+
+875
+00:41:25,240 --> 00:41:27,280
+ instead of a procedure?
+
+876
+00:41:27,280 --> 00:41:32,280
+ What if we made greet return a modified string?
+
+877
+00:41:32,620 --> 00:41:34,920
+ And this is the very much the Unix way.
+
+878
+00:41:34,920 --> 00:41:36,800
+ You know, pipelines at the end of the day
+
+879
+00:41:36,800 --> 00:41:39,640
+ are just connected functions
+
+880
+00:41:39,640 --> 00:41:41,360
+ that are operating on string data.
+
+881
+00:41:41,360 --> 00:41:46,360
+ So here we have greet with string,
+
+882
+00:41:46,360 --> 00:41:47,160
+ and we have this thing.
+
+883
+00:41:47,160 --> 00:41:49,600
+ So rather than FMT printing it,
+
+884
+00:41:49,600 --> 00:41:51,200
+ what if we did this instead?
+
+885
+00:41:51,200 --> 00:41:54,400
+ What if we just returned it, okay?
+
+886
+00:41:54,400 --> 00:41:55,880
+ Okay, we got that comma there.
+
+887
+00:41:55,880 --> 00:41:59,040
+ So, huh, we were doing that fancy replacement.
+
+888
+00:41:59,040 --> 00:42:01,480
+ So you gotta learn a new function.
+
+889
+00:42:01,480 --> 00:42:04,400
+ So here we go, FMT, now we could,
+
+890
+00:42:04,400 --> 00:42:08,320
+ you guys know I could just join it, right?
+
+891
+00:42:08,320 --> 00:42:10,880
+ Probably the more efficient to do that, let's do that.
+
+892
+00:42:10,880 --> 00:42:12,920
+ Rather than to do, let me show you another way
+
+893
+00:42:12,920 --> 00:42:15,200
+ we could do it and keep it exactly like it is.
+
+894
+00:42:15,200 --> 00:42:18,000
+ We could do S print out, okay?
+
+895
+00:42:18,000 --> 00:42:19,160
+ What does S print F?
+
+896
+00:42:19,160 --> 00:42:22,280
+ S print F is exactly the same as print F
+
+897
+00:42:22,280 --> 00:42:27,080
+ except for it returns a string instead of send,
+
+898
+00:42:27,080 --> 00:42:29,840
+ instead of actually printing it to standard output.
+
+899
+00:42:29,840 --> 00:42:32,760
+ So, and that way nothing gets printed
+
+900
+00:42:32,760 --> 00:42:34,800
+ until we actually print it.
+
+901
+00:42:34,800 --> 00:42:38,320
+ But that is exactly identical to the other thing
+
+902
+00:42:38,320 --> 00:42:43,280
+ that we just did, and I'm gonna make a little comment here
+
+903
+00:42:43,280 --> 00:42:46,000
+ 'cause I wanna make sure that I cover a sprint F.
+
+904
+00:42:46,000 --> 00:42:48,080
+ And P sprint F, all right.
+
+905
+00:42:48,080 --> 00:42:53,080
+ So, and so we covered that, but you know,
+
+906
+00:42:53,360 --> 00:42:55,760
+ that is a little bit of an expensive operation.
+
+907
+00:42:55,760 --> 00:42:58,000
+ And so let's just give it a string.
+
+908
+00:42:58,000 --> 00:43:01,400
+ So let's see, we want hello,
+
+909
+00:43:01,400 --> 00:43:05,520
+ and we don't really care about the line return, right?
+
+910
+00:43:05,520 --> 00:43:07,720
+ That's not, in fact, you know.
+
+911
+00:43:07,720 --> 00:43:10,560
+ So let's go ahead and give hello name,
+
+912
+00:43:10,560 --> 00:43:12,680
+ and let's join it together with the plus
+
+913
+00:43:12,680 --> 00:43:14,240
+ Kencatenate operator.
+
+914
+00:43:14,240 --> 00:43:16,280
+ And now we have this.
+
+915
+00:43:16,280 --> 00:43:18,600
+ It says the string literal is not terminated.
+
+916
+00:43:18,600 --> 00:43:21,200
+ Hello, whoops, there's an extra quote there.
+
+917
+00:43:21,200 --> 00:43:23,920
+ All right, so, and because it's so small,
+
+918
+00:43:23,920 --> 00:43:27,000
+ we can actually do this, and we're good to go.
+
+919
+00:43:27,000 --> 00:43:29,760
+ Now, in some languages in JavaScript,
+
+920
+00:43:29,760 --> 00:43:31,920
+ you can actually take this one step further.
+
+921
+00:43:31,920 --> 00:43:34,240
+ It's just one of the reasons I love JavaScript.
+
+922
+00:43:34,240 --> 00:43:36,920
+ In JavaScript, you can actually get rid of the return value
+
+923
+00:43:36,920 --> 00:43:39,040
+ because it's the last thing on the line.
+
+924
+00:43:39,040 --> 00:43:42,360
+ And in JavaScript, you can also do this.
+
+925
+00:43:42,360 --> 00:43:46,520
+ You can change the function definition to be
+
+926
+00:43:46,520 --> 00:43:48,720
+ something like this instead.
+
+927
+00:43:48,720 --> 00:43:50,480
+ It gets really, really fun.
+
+928
+00:43:50,480 --> 00:43:52,200
+ You could actually have it be,
+
+929
+00:43:55,040 --> 00:43:56,760
+ see, it would be, I gotta spend a long time
+
+930
+00:43:56,760 --> 00:43:58,120
+ since I've done it.
+
+931
+00:43:58,120 --> 00:44:00,560
+ But you can actually get really functional about it
+
+932
+00:44:00,560 --> 00:44:03,120
+ so that it's just, you know, that.
+
+933
+00:44:03,120 --> 00:44:05,560
+ And if you've done any Python,
+
+934
+00:44:05,560 --> 00:44:07,480
+ it's like a single line lambda.
+
+935
+00:44:07,480 --> 00:44:10,240
+ You could do that with a lambda function.
+
+936
+00:44:10,240 --> 00:44:13,240
+ But once it becomes like a function that's just doing
+
+937
+00:44:13,240 --> 00:44:15,720
+ one small transformation and returning a new value,
+
+938
+00:44:15,720 --> 00:44:18,040
+ it starts to really feel functional.
+
+939
+00:44:18,040 --> 00:44:20,360
+ And you'll notice this over time.
+
+940
+00:44:21,480 --> 00:44:23,400
+ I'm spending a lot of time on these paradigm differences
+
+941
+00:44:23,400 --> 00:44:26,280
+ because you are going to run into these things.
+
+942
+00:44:26,280 --> 00:44:28,120
+ And now you'll be able to speak about them.
+
+943
+00:44:28,120 --> 00:44:31,520
+ But that's very, very, very functional at that point.
+
+944
+00:44:31,520 --> 00:44:34,120
+ Now, obviously, main is gonna fail now, right?
+
+945
+00:44:34,120 --> 00:44:35,600
+ Why is main gonna fail?
+
+946
+00:44:35,600 --> 00:44:39,720
+ Because it's not doing what we told it to.
+
+947
+00:44:39,720 --> 00:44:41,720
+ There's, it's not printing anything.
+
+948
+00:44:41,720 --> 00:44:43,440
+ Why isn't it printing anything?
+
+949
+00:44:43,440 --> 00:44:46,760
+ Because we told it that Greet was no longer a function.
+
+950
+00:44:46,760 --> 00:44:48,920
+ Greet is now a procedure.
+
+951
+00:44:48,920 --> 00:44:51,000
+ I'm sorry, a function, it was supposed to be a procedure.
+
+952
+00:44:51,000 --> 00:44:53,080
+ So we have to print it, right?
+
+953
+00:44:53,080 --> 00:44:55,640
+ And we can do a bunch of things here, right?
+
+954
+00:44:55,640 --> 00:44:58,080
+ So this is, I mean, for right now,
+
+955
+00:44:58,080 --> 00:45:01,360
+ we're gonna do it the long way based on what you know.
+
+956
+00:45:01,360 --> 00:45:06,120
+ But we're gonna say print a line, Greet Doris,
+
+957
+00:45:06,120 --> 00:45:08,280
+ and you know, FMT, print a line.
+
+958
+00:45:08,280 --> 00:45:11,160
+ I could've done that at the same time, but I will.
+
+959
+00:45:11,160 --> 00:45:14,600
+ And we're gonna run that.
+
+960
+00:45:14,600 --> 00:45:18,200
+ And we go back here, and it prints it out.
+
+961
+00:45:18,200 --> 00:45:21,760
+ We forgot the periods, but other than that, it looks fine.
+
+962
+00:45:21,760 --> 00:45:26,080
+ So we need to update our, yeah,
+
+963
+00:45:26,080 --> 00:45:28,800
+ I guess I can kill the period there, right?
+
+964
+00:45:28,800 --> 00:45:32,400
+ All right, so, wait, what, what?
+
+965
+00:45:33,480 --> 00:45:34,480
+ What's going on?
+
+966
+00:45:37,240 --> 00:45:39,320
+ Oh, right, because this, I don't, wait.
+
+967
+00:45:41,880 --> 00:45:42,960
+ Why isn't it doing it?
+
+968
+00:45:44,480 --> 00:45:45,560
+ That should be passing.
+
+969
+00:45:48,840 --> 00:45:49,680
+ Hmm.
+
+970
+00:45:52,320 --> 00:45:54,640
+ That should be passing, people.
+
+971
+00:45:54,640 --> 00:45:55,760
+ Why isn't it passing?
+
+972
+00:45:58,200 --> 00:46:00,280
+ That should be passing.
+
+973
+00:46:05,440 --> 00:46:07,760
+ Oh, wait, it's an example, Greet that's failing.
+
+974
+00:46:08,800 --> 00:46:10,520
+ Yeah, it's a different thing.
+
+975
+00:46:10,520 --> 00:46:11,440
+ Main was passing.
+
+976
+00:46:11,440 --> 00:46:12,640
+ Did you see that?
+
+977
+00:46:12,640 --> 00:46:13,880
+ Example, Greet's failing.
+
+978
+00:46:13,880 --> 00:46:16,040
+ Okay, I was checking the wrong thing.
+
+979
+00:46:16,040 --> 00:46:18,440
+ So this one is the one that's failing.
+
+980
+00:46:19,520 --> 00:46:20,840
+ Oh, right, because why?
+
+981
+00:46:20,840 --> 00:46:22,960
+ Because we're not printing anymore, right?
+
+982
+00:46:22,960 --> 00:46:25,520
+ But here's, this is where stuff gets kind of interesting.
+
+983
+00:46:25,520 --> 00:46:29,280
+ So I'm actually gonna show you another unit test right now,
+
+984
+00:46:29,280 --> 00:46:32,160
+ and that's using the testing library.
+
+985
+00:46:32,160 --> 00:46:35,040
+ And so instead of having an example,
+
+986
+00:46:35,040 --> 00:46:39,440
+ we're gonna change this one to be testing, testing, right?
+
+987
+00:46:39,440 --> 00:46:41,000
+ And we're gonna test Greet.
+
+988
+00:46:41,000 --> 00:46:42,800
+ Now, when you do test Greet,
+
+989
+00:46:42,800 --> 00:46:44,520
+ now that you know what an argument is,
+
+990
+00:46:44,520 --> 00:46:46,280
+ we're gonna go ahead and pass it an argument.
+
+991
+00:46:46,280 --> 00:46:49,600
+ So the standard argument is testing dot t,
+
+992
+00:46:49,600 --> 00:46:51,200
+ and we're gonna send it a t,
+
+993
+00:46:51,200 --> 00:46:54,320
+ and this is, you just have to know this.
+
+994
+00:46:54,320 --> 00:46:56,720
+ You don't know what pointers are yet, but you'll learn it.
+
+995
+00:46:56,720 --> 00:46:59,840
+ And so now we can actually say
+
+996
+00:46:59,840 --> 00:47:02,560
+ that we wanna do more of a test on it.
+
+997
+00:47:03,880 --> 00:47:07,640
+ And, you know, this doesn't fail
+
+998
+00:47:07,640 --> 00:47:10,680
+ unless we exclusively make it fail.
+
+999
+00:47:10,680 --> 00:47:14,560
+ And I honestly don't wanna do that with you right now.
+
+1000
+00:47:14,560 --> 00:47:16,000
+ I'm gonna make it back to examples.
+
+1001
+00:47:16,000 --> 00:47:17,880
+ I regret my decision immediately,
+
+1002
+00:47:17,880 --> 00:47:19,320
+ because I have to tell you about pointers
+
+1003
+00:47:19,320 --> 00:47:20,360
+ and you don't know about them yet.
+
+1004
+00:47:20,360 --> 00:47:25,320
+ So let's do example Greet,
+
+1005
+00:47:25,320 --> 00:47:27,880
+ and let's actually do the print, right?
+
+1006
+00:47:27,880 --> 00:47:29,560
+ FMT to print on N.
+
+1007
+00:47:30,440 --> 00:47:31,680
+ I mean, you already know this
+
+1008
+00:47:31,680 --> 00:47:34,240
+ because this is exactly what Maine does.
+
+1009
+00:47:34,240 --> 00:47:36,640
+ So if Maine is passing, you know this is passing.
+
+1010
+00:47:37,640 --> 00:47:39,120
+ This is new of him.
+
+1011
+00:47:39,120 --> 00:47:43,920
+ So print on N, and we'll go do this one.
+
+1012
+00:47:43,920 --> 00:47:47,480
+ And now our tests should be passing.
+
+1013
+00:47:47,480 --> 00:47:48,880
+ Yep, okay, so there we go.
+
+1014
+00:47:48,880 --> 00:47:50,360
+ That's the passing test.
+
+1015
+00:47:50,360 --> 00:47:51,520
+ All right, so let's regroup.
+
+1016
+00:47:51,520 --> 00:47:52,800
+ We're burning up time here.
+
+1017
+00:47:52,800 --> 00:47:55,640
+ We got about 15 minutes left,
+
+1018
+00:47:55,640 --> 00:47:57,120
+ and we've done a lot of things.
+
+1019
+00:47:57,120 --> 00:47:57,920
+ So we've done a lot of things.
+
+1020
+00:47:57,920 --> 00:48:00,840
+ So please, like, slow down and process this
+
+1021
+00:48:00,840 --> 00:48:02,760
+ and see all the differences here.
+
+1022
+00:48:03,960 --> 00:48:07,280
+ But we're not gonna introduce pointers yet.
+
+1023
+00:48:07,280 --> 00:48:08,400
+ No, God, no.
+
+1024
+00:48:08,400 --> 00:48:09,680
+ We don't know where we're close to pointers.
+
+1025
+00:48:09,680 --> 00:48:11,400
+ We haven't even talked about typeset.
+
+1026
+00:48:11,400 --> 00:48:15,720
+ So we're gonna go ahead and talk about,
+
+1027
+00:48:25,000 --> 00:48:26,080
+ Maine.gov, okay.
+
+1028
+00:48:26,080 --> 00:48:29,120
+ So, all right, so we have our function here.
+
+1029
+00:48:29,120 --> 00:48:30,920
+ We have the old one that we did here.
+
+1030
+00:48:30,920 --> 00:48:34,160
+ Can you see, let's take a moment to regroup on the code.
+
+1031
+00:48:34,160 --> 00:48:37,600
+ Can you see a way to make this more like this function here?
+
+1032
+00:48:39,240 --> 00:48:42,240
+ So, right here we have,
+
+1033
+00:48:42,240 --> 00:48:44,840
+ this can be radically simplified, okay?
+
+1034
+00:48:44,840 --> 00:48:45,700
+ But you see it.
+
+1035
+00:48:47,000 --> 00:48:49,000
+ Should I jump right to the answer here?
+
+1036
+00:48:50,800 --> 00:48:52,360
+ Let's jump right to the answer here.
+
+1037
+00:48:52,360 --> 00:48:56,960
+ We can make this entire thing much, much simpler.
+
+1038
+00:48:56,960 --> 00:49:01,280
+ Call refactoring, we can return X times two
+
+1039
+00:49:02,720 --> 00:49:04,200
+ and get rid of these lines.
+
+1040
+00:49:05,440 --> 00:49:07,880
+ All right, how's that?
+
+1041
+00:49:07,880 --> 00:49:09,760
+ Something that's kind of cool about functions
+
+1042
+00:49:09,760 --> 00:49:12,440
+ is when you put them next to each other,
+
+1043
+00:49:12,440 --> 00:49:16,440
+ the formatter will automatically make them line up,
+
+1044
+00:49:16,440 --> 00:49:17,480
+ which is really great.
+
+1045
+00:49:18,720 --> 00:49:19,880
+ So if you're writing, you know,
+
+1046
+00:49:19,880 --> 00:49:22,440
+ if you're writing operations functions,
+
+1047
+00:49:22,440 --> 00:49:24,320
+ like, you know, things that double things
+
+1048
+00:49:24,320 --> 00:49:26,080
+ and multiply things, I mean,
+
+1049
+00:49:26,080 --> 00:49:27,880
+ it probably goes without saying that in math,
+
+1050
+00:49:27,880 --> 00:49:30,600
+ the plus sign represents an operation.
+
+1051
+00:49:30,600 --> 00:49:35,600
+ And the two things on both sides plus two are operands.
+
+1052
+00:49:37,120 --> 00:49:39,280
+ A lot of people don't know this,
+
+1053
+00:49:39,280 --> 00:49:41,960
+ but I want to make sure you know
+
+1054
+00:49:41,960 --> 00:49:45,520
+ because you should learn this, you really should.
+
+1055
+00:49:45,520 --> 00:49:48,760
+ So what is an operator, okay?
+
+1056
+00:49:48,760 --> 00:49:53,760
+ An operator performs some action on one
+
+1057
+00:49:55,520 --> 00:49:59,160
+ or more operands, okay?
+
+1058
+00:49:59,160 --> 00:50:04,040
+ And an operand is the thing in the idea of a plus
+
+1059
+00:50:04,040 --> 00:50:06,880
+ is the thing that's receiving the action,
+
+1060
+00:50:06,880 --> 00:50:11,880
+ receives the action of an operator.
+
+1061
+00:50:11,880 --> 00:50:13,480
+ We're gonna come back to these terms a lot,
+
+1062
+00:50:13,480 --> 00:50:16,020
+ so it's important that you know them.
+
+1063
+00:50:17,360 --> 00:50:18,600
+ Again, if for no other reason,
+
+1064
+00:50:18,600 --> 00:50:20,680
+ then being able to talk intelligently
+
+1065
+00:50:20,680 --> 00:50:24,280
+ with a computer science person, that's what they are.
+
+1066
+00:50:24,280 --> 00:50:29,280
+ So when we come back here, two is,
+
+1067
+00:50:29,840 --> 00:50:32,000
+ so f of x, x is the parameter.
+
+1068
+00:50:32,000 --> 00:50:33,240
+ You know, we put the number in there,
+
+1069
+00:50:33,240 --> 00:50:34,360
+ becomes our argument.
+
+1070
+00:50:34,360 --> 00:50:38,440
+ So the operands, in this case, are x and two.
+
+1071
+00:50:38,440 --> 00:50:42,480
+ The operator is the star, okay?
+
+1072
+00:50:42,480 --> 00:50:45,400
+ And the star represents multiplication.
+
+1073
+00:50:45,400 --> 00:50:50,400
+ So there are a number of other basic mathematical operators
+
+1074
+00:50:52,920 --> 00:50:56,180
+ in Go, and I'm gonna quickly introduce you
+
+1075
+00:50:56,180 --> 00:50:58,920
+ to a number of them right now
+
+1076
+00:50:58,920 --> 00:51:01,720
+ because we're covering functions, okay?
+
+1077
+00:51:01,720 --> 00:51:05,560
+ So, and we're gonna write them really quickly,
+
+1078
+00:51:05,560 --> 00:51:07,840
+ but I'm pretty sure you could figure out
+
+1079
+00:51:07,840 --> 00:51:09,920
+ how to do this on your own.
+
+1080
+00:51:09,920 --> 00:51:11,520
+ So if you wanna pause the video
+
+1081
+00:51:11,520 --> 00:51:13,220
+ and write these on your own,
+
+1082
+00:51:13,220 --> 00:51:18,220
+ write a function that divides by two,
+
+1083
+00:51:18,920 --> 00:51:20,280
+ we'll call it half,
+
+1084
+00:51:20,280 --> 00:51:25,280
+ write a function that increases something by some amount,
+
+1085
+00:51:27,200 --> 00:51:29,040
+ and write a function that decreases something
+
+1086
+00:51:29,040 --> 00:51:30,720
+ by some amount.
+
+1087
+00:51:30,720 --> 00:51:33,160
+ So let's actually write them, okay?
+
+1088
+00:51:33,160 --> 00:51:35,500
+ So I'll give you the stubs for these.
+
+1089
+00:51:36,800 --> 00:51:39,280
+ And let's see here.
+
+1090
+00:51:39,280 --> 00:51:41,320
+ So you could, this is a place where you could write code
+
+1091
+00:51:41,320 --> 00:51:42,640
+ to write code, actually.
+
+1092
+00:51:44,240 --> 00:51:46,260
+ So you want me to do that?
+
+1093
+00:51:48,240 --> 00:51:49,080
+ All right, let's do this.
+
+1094
+00:51:49,080 --> 00:51:54,080
+ Let's say decrement, increment, multiply,
+
+1095
+00:51:59,360 --> 00:52:03,760
+ let's see, multiply by,
+
+1096
+00:52:03,760 --> 00:52:08,760
+ let's say multiply, divide, divisor, I guess.
+
+1097
+00:52:11,120 --> 00:52:12,720
+ What?
+
+1098
+00:52:12,720 --> 00:52:14,960
+ These all have actual things.
+
+1099
+00:52:14,960 --> 00:52:19,760
+ How can I decrement, multiply, we could do exponent,
+
+1100
+00:52:19,760 --> 00:52:20,960
+ exponential, right?
+
+1101
+00:52:20,960 --> 00:52:23,960
+ We could take the divisor of a thing.
+
+1102
+00:52:23,960 --> 00:52:25,040
+ There's a bunch of them,
+
+1103
+00:52:25,040 --> 00:52:27,160
+ and I'm trying to decide which ones to show you
+
+1104
+00:52:27,160 --> 00:52:29,000
+ because there's so many cool ones.
+
+1105
+00:52:30,240 --> 00:52:31,360
+ But I don't wanna lose you.
+
+1106
+00:52:31,360 --> 00:52:33,480
+ So just try these, okay?
+
+1107
+00:52:33,480 --> 00:52:35,840
+ I'm actually gonna write some code here.
+
+1108
+00:52:35,840 --> 00:52:38,100
+ So, where I in
+
+1109
+00:52:41,000 --> 00:52:46,000
+ do echo, bunk, I, let's say x.
+
+1110
+00:52:55,200 --> 00:52:57,360
+ We still change and multiply to have,
+
+1111
+00:53:00,360 --> 00:53:02,280
+ and it'll have the y to be double.
+
+1112
+00:53:04,240 --> 00:53:05,760
+ 'Cause we wanna just be on,
+
+1113
+00:53:05,760 --> 00:53:07,520
+ operators on a single operand.
+
+1114
+00:53:08,480 --> 00:53:12,760
+ So, I mean, there's a two there, but still it's implied.
+
+1115
+00:53:12,760 --> 00:53:16,360
+ And then we wanna say return int.
+
+1116
+00:53:16,360 --> 00:53:20,760
+ So we have x be an int, and we have int here.
+
+1117
+00:53:21,720 --> 00:53:23,240
+ And what else do we have?
+
+1118
+00:53:26,320 --> 00:53:27,520
+ Wait, wait, I did that wrong.
+
+1119
+00:53:27,520 --> 00:53:32,520
+ Int, so we say return x times whatever, right?
+
+1120
+00:53:34,600 --> 00:53:36,880
+ We're gonna change that though, so done.
+
+1121
+00:53:38,600 --> 00:53:39,360
+ Does that look right?
+
+1122
+00:53:39,360 --> 00:53:42,040
+ F function, actually, blah, blah, blah.
+
+1123
+00:53:42,040 --> 00:53:44,780
+ Okay, so I'm gonna send this whole thing to my shell.
+
+1124
+00:53:46,080 --> 00:53:48,320
+ I'm gonna send it to bash,
+
+1125
+00:53:48,320 --> 00:53:52,000
+ and actually generate the code for that.
+
+1126
+00:53:52,000 --> 00:53:53,920
+ You could do that with a macro other ways,
+
+1127
+00:53:53,920 --> 00:53:55,600
+ but we're just gonna do it that way.
+
+1128
+00:53:55,600 --> 00:53:57,680
+ So let's change these decrement, decrement.
+
+1129
+00:53:57,680 --> 00:54:00,400
+ We could say x equals, all right?
+
+1130
+00:54:00,400 --> 00:54:02,220
+ So return x minus one.
+
+1131
+00:54:03,200 --> 00:54:05,380
+ We could say x plus one.
+
+1132
+00:54:07,360 --> 00:54:10,440
+ Now, I'm gonna show you a better way to do this.
+
+1133
+00:54:10,440 --> 00:54:12,840
+ In half, we could say divided by two.
+
+1134
+00:54:12,840 --> 00:54:14,800
+ We could say times two, okay?
+
+1135
+00:54:14,800 --> 00:54:19,520
+ So these are the basic operations in Go.
+
+1136
+00:54:19,520 --> 00:54:21,200
+ And there's a number of other ones
+
+1137
+00:54:21,200 --> 00:54:25,200
+ that we could get into, modulo and everything.
+
+1138
+00:54:25,200 --> 00:54:28,080
+ But just so you know, these are the basics.
+
+1139
+00:54:28,080 --> 00:54:33,080
+ Decimate and increment actually have two other useful alternatives
+
+1140
+00:54:34,360 --> 00:54:38,240
+ that are just shorthand, plus plus,
+
+1141
+00:54:38,240 --> 00:54:42,120
+ I'm sorry, minus, minus, and plus plus.
+
+1142
+00:54:42,120 --> 00:54:44,280
+ What that does is that as one,
+
+1143
+00:54:46,240 --> 00:54:47,400
+ does it need to be at the end of the line?
+
+1144
+00:54:47,400 --> 00:54:48,840
+ I was afraid of this.
+
+1145
+00:54:48,840 --> 00:54:50,680
+ I go, Go does not like these.
+
+1146
+00:54:50,680 --> 00:54:52,560
+ See you can do this, other languages you can do this.
+
+1147
+00:54:52,560 --> 00:54:54,040
+ Go doesn't want like this.
+
+1148
+00:54:55,600 --> 00:54:57,600
+ So it's not gonna let me do it.
+
+1149
+00:54:57,600 --> 00:54:59,800
+ I have to do it on, it has to be on its own line.
+
+1150
+00:54:59,800 --> 00:55:01,680
+ And that's because in other languages,
+
+1151
+00:55:01,680 --> 00:55:05,280
+ you don't know what the options are when it happens,
+
+1152
+00:55:05,280 --> 00:55:07,120
+ like whether it happens before or after.
+
+1153
+00:55:07,120 --> 00:55:11,120
+ So dash dash and minus, minus, minus and plus plus
+
+1154
+00:55:11,120 --> 00:55:12,560
+ are kind of frowned upon.
+
+1155
+00:55:12,560 --> 00:55:15,040
+ Unless they're on their own line and Go, you can't even do it.
+
+1156
+00:55:15,040 --> 00:55:17,280
+ But other languages will let you do that, no problem.
+
+1157
+00:55:17,280 --> 00:55:20,080
+ So I guess we'll just keep these for now.
+
+1158
+00:55:20,080 --> 00:55:21,200
+ It's probably good.
+
+1159
+00:55:21,200 --> 00:55:23,360
+ So how do we test all these?
+
+1160
+00:55:23,360 --> 00:55:24,720
+ You know how to write the test code.
+
+1161
+00:55:24,720 --> 00:55:26,160
+ I am not gonna write the test code.
+
+1162
+00:55:26,160 --> 00:55:28,960
+ We are approaching the end of this particular video.
+
+1163
+00:55:28,960 --> 00:55:31,200
+ I encourage you to go write your own functions
+
+1164
+00:55:31,200 --> 00:55:35,720
+ that can, that can, you know, do different things.
+
+1165
+00:55:35,720 --> 00:55:37,280
+ And, you know, write your own.
+
+1166
+00:55:37,280 --> 00:55:40,080
+ Proaches don't have to return mathematical values.
+
+1167
+00:55:40,080 --> 00:55:43,680
+ Obviously they can return transformations on input.
+
+1168
+00:55:43,680 --> 00:55:45,920
+ They don't even have to have input at all.
+
+1169
+00:55:45,920 --> 00:55:48,360
+ You could have them actually grab things
+
+1170
+00:55:48,360 --> 00:55:51,320
+ from their environment, which is not modifying
+
+1171
+00:55:51,320 --> 00:55:53,800
+ their environment, but inspecting their environment
+
+1172
+00:55:53,800 --> 00:55:56,960
+ to get something new and to return it to you.
+
+1173
+00:55:56,960 --> 00:55:59,040
+ And that's kind of a gray area when it comes
+
+1174
+00:55:59,040 --> 00:56:01,440
+ to functional programming because, like, is that functional
+
+1175
+00:56:01,440 --> 00:56:02,280
+ or not?
+
+1176
+00:56:02,280 --> 00:56:04,680
+ I mean, it looked at it's a universe to see,
+
+1177
+00:56:04,680 --> 00:56:06,800
+ but it didn't alter the environment at all.
+
+1178
+00:56:06,800 --> 00:56:07,880
+ But it looked at it.
+
+1179
+00:56:07,880 --> 00:56:09,840
+ So does that count as functional?
+
+1180
+00:56:09,840 --> 00:56:10,920
+ I don't know.
+
+1181
+00:56:10,920 --> 00:56:13,800
+ I'm not a computer science nerd to that degree,
+
+1182
+00:56:13,800 --> 00:56:15,880
+ but other people are, you could go give them a,
+
+1183
+00:56:15,880 --> 00:56:16,960
+ give them ask.
+
+1184
+00:56:16,960 --> 00:56:18,440
+ This has been a lot to cover.
+
+1185
+00:56:18,440 --> 00:56:20,000
+ This has been an hour or so,
+
+1186
+00:56:20,000 --> 00:56:22,960
+ but we've covered a lot less review.
+
+1187
+00:56:22,960 --> 00:56:28,000
+ So we've covered, you know, what a function is,
+
+1188
+00:56:28,000 --> 00:56:30,880
+ what a subroutine is, what blocks and scopes are.
+
+1189
+00:56:30,880 --> 00:56:33,360
+ We did cover an additional type.
+
+1190
+00:56:33,360 --> 00:56:35,480
+ We learned about operators.
+
+1191
+00:56:35,480 --> 00:56:36,400
+ We talked about paradigms,
+
+1192
+00:56:36,400 --> 00:56:38,320
+ particularly the functional paradigm.
+
+1193
+00:56:38,320 --> 00:56:39,400
+ And I don't know if you've noticed,
+
+1194
+00:56:39,400 --> 00:56:42,880
+ but I spent a lot of time on the functional paradigm.
+
+1195
+00:56:42,880 --> 00:56:46,000
+ And quite frankly, this probably should have gone
+
+1196
+00:56:46,000 --> 00:56:49,200
+ into, you know, another, another thing.
+
+1197
+00:56:49,200 --> 00:56:52,560
+ So right now it's saying we're saying hi there,
+
+1198
+00:56:52,560 --> 00:56:55,400
+ and we're using greet as a function,
+
+1199
+00:56:55,400 --> 00:56:56,760
+ as opposed to procedure.
+
+1200
+00:56:56,760 --> 00:57:01,200
+ But now we're actually ready to start documenting things.
+
+1201
+00:57:01,200 --> 00:57:03,520
+ We are gonna do one last thing before we do that.
+
+1202
+00:57:03,520 --> 00:57:05,200
+ I'm gonna put another one here.
+
+1203
+00:57:05,200 --> 00:57:09,720
+ And we'll probably put the,
+
+1204
+00:57:10,880 --> 00:57:14,440
+ I think we should probably put the age calculator here.
+
+1205
+00:57:14,440 --> 00:57:19,440
+ So this is, this is something that, you know,
+
+1206
+00:57:22,080 --> 00:57:23,840
+ well, I don't know if we should do that.
+
+1207
+00:57:23,840 --> 00:57:28,840
+ The calculator, calculator, which is kind of stupid,
+
+1208
+00:57:30,280 --> 00:57:32,040
+ but, you know, that's what we did.
+
+1209
+00:57:32,040 --> 00:57:32,920
+ We use the calculator.
+
+1210
+00:57:32,920 --> 00:57:36,360
+ So let's actually, the next, in the next session,
+
+1211
+00:57:36,360 --> 00:57:38,560
+ we're gonna use all the functions we just made.
+
+1212
+00:57:38,560 --> 00:57:40,720
+ And we're gonna, we're gonna make them the brains
+
+1213
+00:57:40,720 --> 00:57:42,360
+ of a command line calculator,
+
+1214
+00:57:42,360 --> 00:57:45,160
+ which obviously already exists,
+
+1215
+00:57:45,160 --> 00:57:47,840
+ but it's good to see how that's going on
+
+1216
+00:57:47,840 --> 00:57:49,160
+ and what's going on.
+
+1217
+00:57:49,160 --> 00:57:51,160
+ And that'll help us learn some other,
+
+1218
+00:57:51,160 --> 00:57:53,840
+ some other important things out there.
+
+1219
+00:57:53,840 --> 00:57:57,120
+ And we'll also get us ready for, later on,
+
+1220
+00:57:57,120 --> 00:58:01,240
+ we're gonna actually make our own domain specific language
+
+1221
+00:58:01,240 --> 00:58:05,560
+ where we do date calculations between two points in time
+
+1222
+00:58:05,560 --> 00:58:08,840
+ and some really cool things that actually have bearing
+
+1223
+00:58:08,840 --> 00:58:11,400
+ with regards to, you know, your real world work,
+
+1224
+00:58:11,400 --> 00:58:13,120
+ but are also really fun when it comes to making
+
+1225
+00:58:13,120 --> 00:58:15,120
+ a text adventure because you can also calculate
+
+1226
+00:58:15,120 --> 00:58:17,520
+ the real world time that it has elapsed
+
+1227
+00:58:17,520 --> 00:58:18,680
+ and decided things are happening.
+
+1228
+00:58:18,680 --> 00:58:21,360
+ So all of these functions and procedures and stuff,
+
+1229
+00:58:21,360 --> 00:58:24,600
+ this is all gonna help us organize our code
+
+1230
+00:58:24,600 --> 00:58:27,960
+ and move on to the next things that we're doing.
+
+1231
+00:58:28,920 --> 00:58:31,780
+ So one last look at the code before we break today.
+
+1232
+00:58:32,760 --> 00:58:37,200
+ So we've got, again, we've got the main procedure,
+
+1233
+00:58:37,200 --> 00:58:40,040
+ you now know, I'm gonna keep calling a procedure.
+
+1234
+00:58:40,040 --> 00:58:43,360
+ You might wanna not call it that around another go person.
+
+1235
+00:58:43,360 --> 00:58:45,960
+ You and I know we have a secret, okay?
+
+1236
+00:58:45,960 --> 00:58:46,840
+ We have a secret.
+
+1237
+00:58:46,840 --> 00:58:49,720
+ But if you use that word around another go person,
+
+1238
+00:58:49,720 --> 00:58:52,160
+ it'll look at you like you have nine heads.
+
+1239
+00:58:52,160 --> 00:58:54,440
+ But now you know what we're talking about, okay?
+
+1240
+00:58:54,440 --> 00:58:56,820
+ You know the inside secret.
+
+1241
+00:58:56,820 --> 00:58:59,400
+ So here we have a procedure for main
+
+1242
+00:58:59,400 --> 00:59:02,040
+ and we have several functions.
+
+1243
+00:59:02,040 --> 00:59:06,080
+ We have three mathematical, four mathematical functions
+
+1244
+00:59:06,080 --> 00:59:09,160
+ and a string transformation function,
+
+1245
+00:59:09,160 --> 00:59:11,040
+ which is, you know, taking something in,
+
+1246
+00:59:11,040 --> 00:59:13,200
+ it's changing it and then returning it, okay?
+
+1247
+00:59:13,200 --> 00:59:15,040
+ Go ahead, have fun with those
+
+1248
+00:59:15,040 --> 00:59:17,120
+ and we'll talk to you later.
+
