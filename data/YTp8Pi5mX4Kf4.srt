@@ -1,0 +1,548 @@
+1
+00:00:00,000 --> 00:00:12,160
+ Let me share with you a trick that will allow you to keep sub chart values files with your
+
+2
+00:00:12,160 --> 00:00:17,760
+ main chart values.yaml file and you're like, "Well, why would I do this?"
+
+3
+00:00:17,760 --> 00:00:24,140
+ As you can see here, Helm, Helm template, Harmer, so Harmer has, at least a bit not only chart
+
+4
+00:00:24,140 --> 00:00:30,160
+ has three different charts involved and the only place to look for these, I've talked about
+
+5
+00:00:30,160 --> 00:00:36,760
+ some other videos, is in charts.lock. You can't look it up with Helm's show chart and you can't
+
+6
+00:00:36,760 --> 00:00:41,800
+ look it up with, you know, get values or any of those things after you've even put it in a mini
+
+7
+00:00:41,800 --> 00:00:49,240
+ cube, we tried all that. So why would you do this? The main reason to do this is it's very simple.
+
+8
+00:00:49,240 --> 00:00:57,320
+ You want all of your values.yaml files together because you've made customizations to them. You've
+
+9
+00:00:57,320 --> 00:01:02,020
+ done whatever you want to do to them and you want to store that at that level. So you can go back
+
+10
+00:01:02,020 --> 00:01:08,640
+ and do change management and, you know, all of the good things that you do. So here is the secret.
+
+11
+00:01:08,640 --> 00:01:14,920
+ And I'm going to give Chad GPT a little bit of credit here. I asked Chad GPT how to do it and
+
+12
+00:01:14,920 --> 00:01:18,160
+ initially had told me how to do it with Python and then I said, "What about the Go version?"
+
+13
+00:01:18,160 --> 00:01:23,760
+ And it kind of turned me on to this idea. And then I added about comments. So what this magic
+
+14
+00:01:23,760 --> 00:01:26,880
+ right here is this is, this is really, if you don't see anything else in the video, this is what
+
+15
+00:01:26,880 --> 00:01:32,840
+ this magic of YQ is. I love YQ. If you haven't learned YQ, the Go-Lang version of YQ, you need
+
+16
+00:01:32,840 --> 00:01:39,800
+ to learn it. You need to put that tool in your shed. And what this does is it takes all of the
+
+17
+00:01:39,800 --> 00:01:50,240
+ values inside of this YAML file, which I'll show you in a second. And it puts them under this new
+
+18
+00:01:50,240 --> 00:01:59,240
+ root node, key. So they're all under Postgres. And then it removes all the comments. And that's
+
+19
+00:01:59,240 --> 00:02:08,080
+ just to make it easier to see. Okay. And the same thing here. So why am I doing this in this build
+
+20
+00:02:08,080 --> 00:02:15,520
+ script? I'm doing this in the build script because, you know, I could have done that, right? I
+
+21
+00:02:15,520 --> 00:02:21,440
+ could have altered the values dash Postgres file to be all indented. But then I would have been
+
+22
+00:02:21,440 --> 00:02:29,400
+ messing with the original file. And how did I get those files? Well, as is updated, is documented
+
+23
+00:02:29,400 --> 00:02:34,880
+ in my updating section, I've actually went into the night trying to make a helm update. I want to
+
+24
+00:02:34,880 --> 00:02:39,000
+ do helm show chart or helm show lock so you can get the actual versions, which you can't do with
+
+25
+00:02:39,000 --> 00:02:44,000
+ show chart. I also wanted to actually dash dash, you know, helm show values dash dash include some
+
+26
+00:02:44,000 --> 00:02:48,720
+ values, but then it would have to coalesce the values. It was really complicated. And the takeaway
+
+27
+00:02:48,720 --> 00:02:54,520
+ is as I screw it, I'm not messing with helm. I'm just going to make my build script do the right
+
+28
+00:02:54,520 --> 00:03:02,240
+ thing. And I'm going to document in my case app, read me how I got those values. So the by hand
+
+29
+00:03:02,240 --> 00:03:10,480
+ process to get those values is to do a show values on each of these specific charts at a
+
+30
+00:03:10,480 --> 00:03:16,240
+ specific version. And you're probably asking, how do I get that information? The only way to get
+
+31
+00:03:16,240 --> 00:03:23,440
+ that information is to open the charts dot lock file in the chart that you have. That means you
+
+32
+00:03:23,440 --> 00:03:27,520
+ have to download the source or get to open the tarball or whatever or go look at the charts
+
+33
+00:03:27,520 --> 00:03:33,440
+ lock file. That's the only place it's saved. Unfortunately, the helm command does not have show lock or
+
+34
+00:03:33,440 --> 00:03:37,920
+ whatever. And I was considering adding a PR for that. If somebody wants to help me convince me to do
+
+35
+00:03:37,920 --> 00:03:44,480
+ that fine, I didn't care enough because I got past what I needed. And so by doing this, you can see
+
+36
+00:03:44,480 --> 00:03:50,600
+ this is actually really simplified the creation of these values files. So I've kept the name and
+
+37
+00:03:50,600 --> 00:03:57,680
+ convention of values.yaml for the main one, right? That is a pretty common convention. And that's a
+
+38
+00:03:57,680 --> 00:04:04,360
+ pre existing convention from our Kate's app standard that we kind of follow. And then in order to
+
+39
+00:04:04,360 --> 00:04:09,640
+ avoid, you know, omitting or missing data that is in the other values stuff that was implied but
+
+40
+00:04:09,640 --> 00:04:14,360
+ never seen, including the Postgres backup, which is in there just has to be enabled, which we
+
+41
+00:04:14,360 --> 00:04:19,880
+ recoded because we didn't know it was there. These values files are now being saved. So let's look at
+
+42
+00:04:19,880 --> 00:04:29,800
+ those briefly. So in the resources file, you see values Postgres. And this is the reason that I put
+
+43
+00:04:29,800 --> 00:04:37,000
+ that fancy YQ command in there, right? Because this is exactly the same values.yaml file, you would
+
+44
+00:04:37,000 --> 00:04:44,680
+ expect to find if you were Kate's appifying Postgres, right? Because it's not Postgres because it's a
+
+45
+00:04:44,680 --> 00:04:50,440
+ sub chart, it is Postgres, but it's, you know, it's part of the harbor project in this case. Then I'm
+
+46
+00:04:50,440 --> 00:04:55,720
+ bringing it in, I'm bringing the exact one in that the same exact one, and I validated this by doing
+
+47
+00:04:55,720 --> 00:05:00,600
+ get keys after installing the whole thing. So I know it works. But here you got all these beautiful
+
+48
+00:05:00,600 --> 00:05:05,720
+ comments, right? And this is where you would find in this case, you would find the PG dump. This is
+
+49
+00:05:05,720 --> 00:05:10,200
+ where we I found the PG dump command existed already. There's already a full blown backup in here,
+
+50
+00:05:10,200 --> 00:05:17,320
+ but you just had to enable it. In fact, if you go to backup, let me go find it. So here's the backup.
+
+51
+00:05:17,320 --> 00:05:22,760
+ And you can actually enable a set enable to true. It's false by default, right? So now I just go in
+
+52
+00:05:22,760 --> 00:05:28,840
+ here and I change this. And next time that I wanted to update the version, I can just get this value
+
+53
+00:05:28,840 --> 00:05:33,080
+ file against the upstream version without any modification to the values file itself.
+
+54
+00:05:34,200 --> 00:05:39,320
+ The modification that happens to it happens dynamically when we run build. And that's when
+
+55
+00:05:39,320 --> 00:05:48,040
+ it drops the comments and kind of tucks all of that file under the Postgres and Redis does the same
+
+56
+00:05:48,040 --> 00:05:53,560
+ thing so that when it's combined, and this, by the way, the order matters of the values. You can use
+
+57
+00:05:53,560 --> 00:05:59,640
+ dash F here if you want instead. So when this order comes in, these things are kind of layered
+
+58
+00:05:59,640 --> 00:06:06,360
+ over the top of each other. And and this this value is filed at the end, which also includes Postgres
+
+59
+00:06:06,360 --> 00:06:15,720
+ stuff is is still kept. It's still kept, right? We tested this by activating the backup in this
+
+60
+00:06:15,720 --> 00:06:21,480
+ one, and then disabling it again in the overriding values of YAML file and the disabling one, which
+
+61
+00:06:21,480 --> 00:06:30,440
+ means to use a big fancy word that the values data from all three of these is coalesced so
+
+62
+00:06:30,440 --> 00:06:34,760
+ that ultimately you get what you would see when you do get values after the whole thing has been
+
+63
+00:06:34,760 --> 00:06:39,320
+ applied. And if you want to do that, you can actually build this out and do kubectl apply or
+
+64
+00:06:39,320 --> 00:06:48,680
+ whatever install. And you will see the exact same result. You'll see the there will be a Postgres
+
+65
+00:06:48,680 --> 00:06:53,000
+ top level node and a Redis Post the top level node and it'll have all the data from the original
+
+66
+00:06:53,560 --> 00:06:58,200
+ Postgres values file and the Redis values file. And they will all have been combined coalesced,
+
+67
+00:06:58,200 --> 00:07:02,440
+ if you will, together. And I've considered, you know, running a little bit of mini cube and doing
+
+68
+00:07:02,440 --> 00:07:06,760
+ it all and then grabbing that combined data and putting it in. But then if you did that,
+
+69
+00:07:06,760 --> 00:07:15,720
+ you would lose all of that really useful build information that, you know, goes into that.
+
+70
+00:07:15,720 --> 00:07:20,840
+ I mean, the point of pulling the values file out, and this has become a very solid convention
+
+71
+00:07:20,840 --> 00:07:26,280
+ in this world, is, is that all of the documentation about how you would configure your Kuberty's
+
+72
+00:07:26,280 --> 00:07:30,760
+ application is in the values file. This is, in fact, so much so that they've got parameters and
+
+73
+00:07:30,760 --> 00:07:36,280
+ they've got, you know, ways to document, you know, the JSON schema and everything in here. So,
+
+74
+00:07:36,280 --> 00:07:40,600
+ you really don't want to mess with this. And, and being able to inspect this file
+
+75
+00:07:41,400 --> 00:07:45,320
+ at any moment, if you're coming to the project new or something, and you want to know what's
+
+76
+00:07:45,320 --> 00:07:48,920
+ going on, you want to read, what do I change the thing, what do I, what do I do to change the
+
+77
+00:07:48,920 --> 00:07:53,880
+ image tag or whatever. This is where you would come to do it, right? Speaking of image tags,
+
+78
+00:07:54,600 --> 00:08:01,800
+ the image, here's an interesting case. So, the actual image tag here, for Bitnami Postgres,
+
+79
+00:08:01,800 --> 00:08:07,720
+ is 16.4. Now, something that's very interesting that I want to show you, is even though the image
+
+80
+00:08:07,720 --> 00:08:13,640
+ tag in the, you know, this chart, I want to show you how that the last one wins, because this is,
+
+81
+00:08:13,640 --> 00:08:19,080
+ this is correct, right? And this is why this harbor chart is so messed up, because this harbor
+
+82
+00:08:19,080 --> 00:08:24,200
+ chart has a dependency on this specific chart, that is pointed to for the image tag, 16.4.
+
+83
+00:08:24,760 --> 00:08:31,880
+ And then, the bug is, and this is very much a bug, the, the bug is, is it the values.yaml file
+
+84
+00:08:33,160 --> 00:08:39,720
+ that is in harbor here. Oopsie, where am I, am I, am I in the image file? What am I doing?
+
+85
+00:08:39,720 --> 00:08:48,280
+ Resources. All right, so, and here you'll see that the bit, this is, this is, I've already talked
+
+86
+00:08:48,280 --> 00:08:53,880
+ about this bug in another chart. So, there's this, like, really outdated comment here that has no
+
+87
+00:08:53,880 --> 00:09:00,040
+ relevance. We're on 2.11, I'm almost done, I'm going to make it a bit. And then, and then we've
+
+88
+00:09:00,040 --> 00:09:06,120
+ got, right here, we've got image, Docker.io, Bitnami Postgres, 13.6, right? So, so this image tag
+
+89
+00:09:06,760 --> 00:09:12,440
+ overrides the one in the actual chart, which is listed as a dependency in charts.log,
+
+90
+00:09:12,440 --> 00:09:17,800
+ which is totally asked backwards and broken. And you, you need to fix it yourself if you're
+
+91
+00:09:17,800 --> 00:09:23,000
+ going to do that. That's why I found it here. But let me just prove to you that, that the last one
+
+92
+00:09:23,000 --> 00:09:28,520
+ wins. And then we will do that is just with a simple, like, you command against, uh, the, the
+
+93
+00:09:28,520 --> 00:09:39,240
+ Postgres, um, we'll do Postgres Postgres SQL dot image dot tag in the, uh, resources, um,
+
+94
+00:09:39,240 --> 00:09:42,520
+ I'm sorry, the manifest, which is the one that was generated with the build command.
+
+95
+00:09:43,160 --> 00:09:47,080
+ Uh, man, where am I? Why are you not? Why you know work?
+
+96
+00:09:48,120 --> 00:09:59,800
+ manifest slash base slash app.io. And I, oops, that's why I'm using practice. Rob. Oh my God.
+
+97
+00:10:01,880 --> 00:10:09,000
+ What? Oh, right. Right. Um, that's all right. Um, all right. I, I, I, I, I, I did the same thing
+
+98
+00:10:09,000 --> 00:10:15,160
+ I did before. Um, we actually need to see if the crown job got added. Okay. So, because this is
+
+99
+00:10:15,160 --> 00:10:19,560
+ much more verbose, right? So, so there it is. There's the PG dump thing. And, and the way you
+
+100
+00:10:19,560 --> 00:10:24,120
+ know that this was installed is because, because it's got PG dump ball here, right? Then that,
+
+101
+00:10:24,120 --> 00:10:28,360
+ I've already established it. That's the way to know that that, that, that, uh, that that got,
+
+102
+00:10:28,360 --> 00:10:32,520
+ but, but that's not what we were looking at. We were looking for the image. So let's go, uh,
+
+103
+00:10:32,520 --> 00:10:37,480
+ let's go look for what images, uh, let's actually just grep images out of there. I'm mixing my
+
+104
+00:10:37,480 --> 00:10:46,760
+ things up, uh, grep image, um, out of here, actually image grep, uh, postgres. And you'll see
+
+105
+00:10:46,760 --> 00:10:53,080
+ that this is at postgres image 13, even though, as you saw, and the other chart, it was right.
+
+106
+00:10:53,640 --> 00:10:59,800
+ So that there are a number, there's, there's two fixes for this. Um, and one of them would be
+
+107
+00:11:00,520 --> 00:11:08,520
+ to remove, to alter the, the values file, the incorrect values file and to fix it. And that would
+
+108
+00:11:08,520 --> 00:11:14,840
+ mean taking this, just getting rid of it. So if I get rid of this section now, it should resolve
+
+109
+00:11:14,840 --> 00:11:19,960
+ correctly because the upstream chart is correct, right? Now there's a bunch of other stuff here
+
+110
+00:11:19,960 --> 00:11:22,920
+ that you can't mess with. So you don't, don't take it rid of that, but I'm going to go ahead
+
+111
+00:11:22,920 --> 00:11:28,040
+ and remove this because it's absolute bull crap. All right. So we're going to, we're going to take
+
+112
+00:11:28,040 --> 00:11:36,520
+ this or out. Um, and that one, I guess we could leave postgres image registry. Uh, I don't know if
+
+113
+00:11:36,520 --> 00:11:42,760
+ even want to keep these postgres image shagging will tell us the recommended, um, please postgres.
+
+114
+00:11:42,760 --> 00:11:47,160
+ I just think, Hey, I think all of this stuff could, could get taken out. So we're going to take this
+
+115
+00:11:47,160 --> 00:11:55,400
+ out. Um, and just leave that there. This is stuff that was that I think is still needed. We haven't
+
+116
+00:11:55,400 --> 00:12:01,160
+ tested that yet. But so now when we run, uh, when we run our build, uh, it should actually put the
+
+117
+00:12:01,160 --> 00:12:07,400
+ right version in and I don't know, we're going to, we're going to say, oh, by the way, I am still
+
+118
+00:12:07,400 --> 00:12:14,680
+ dumping the temp file. This is, this is what the data looks like that is getting, uh, you see,
+
+119
+00:12:14,680 --> 00:12:20,280
+ with that, that fancy YQ magic, you see what it does. It got rid of the comments. And this is the
+
+120
+00:12:20,280 --> 00:12:24,600
+ same YAML file. This is the same postgres YAML file. It just put everything under postgres SQL so
+
+121
+00:12:24,600 --> 00:12:29,240
+ that it could be combined, uh, and, and override the, the, you know, the stuff in the other one
+
+122
+00:12:29,240 --> 00:12:33,720
+ at the right place. So, so now we're going to grab for the image tag and hopefully we'll have the
+
+123
+00:12:33,720 --> 00:12:39,720
+ right one. Now we do. Now we have the 16.4 image tag, which is authoritative because according to
+
+124
+00:12:39,720 --> 00:12:48,600
+ charts dot lock, that is the, the charts on which the harbor chart depends. And that is the, the,
+
+125
+00:12:48,600 --> 00:12:54,840
+ the, the version and the, the ancient bug, you know, inclusion and the, the, you know, the postgres
+
+126
+00:12:54,840 --> 00:12:58,280
+ override that was there and now it needs to be removed. That bug needs to be submitted to the
+
+127
+00:12:58,280 --> 00:13:04,200
+ harbor chart. I might end up doing it myself. Um, because 16.4 is totally valid and it will
+
+128
+00:13:04,200 --> 00:13:09,560
+ totally work. Even since some of the documentation postgres 12 and up, uh, is required actually for
+
+129
+00:13:09,560 --> 00:13:16,280
+ the latest version of harbor, the harbor, uh, version 2.11. And there you go. So that, that's a summary
+
+130
+00:13:16,280 --> 00:13:21,320
+ of how to, how to make those changes. I actually think that that is the most elegant way to fix this
+
+131
+00:13:21,320 --> 00:13:28,760
+ problem. Uh, before I did this, before I included these other charts into the resources file, uh,
+
+132
+00:13:28,760 --> 00:13:35,880
+ my fix was to, uh, override that and to change that line from the other one. But now if somebody
+
+133
+00:13:35,880 --> 00:13:41,000
+ would do a get dip against the upstream chart value file, they would see that that entire section
+
+134
+00:13:41,000 --> 00:13:45,560
+ has been taken out and then they could look at the build file and go, well, what are we actually
+
+135
+00:13:45,560 --> 00:13:52,280
+ using for that? And then the answer now is we're using the postgres upstream chart officially.
+
+136
+00:13:52,280 --> 00:13:57,880
+ We're not screwing with it and we fix things the way, you know, the home gods intended.
+
+137
+00:13:59,800 --> 00:14:04,520
+ I don't know what to say there. It's probably time for me to stop talking. Bye.
+
