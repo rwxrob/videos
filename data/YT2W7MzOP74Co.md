@@ -1,11 +1,11 @@
 # 🐹 Why Coding from the Get Go Is on Hold: Go Needs Functions Early
 
-Explains why the Coding from the Get Go videos are on hold: teaching Go as a first language requires introducing functions, arguments, parameters and return values much earlier than in Python or JavaScript, so the lesson order needs more work. Also covers upcoming work, including dotfile script cleanup and a new playlist of Go projects for people who already know Go, featuring a Bonsai port of a Bash clips program and a Pomodoro timer.
+Explains why the Coding from the Get Go videos are on hold: teaching Go as a first language requires introducing functions, arguments, parameters and return values much earlier than in Python or JavaScript, so the lesson order needs more work. Also covers current and upcoming work, including dotfile script cleanup and a new playlist of Go projects for people who already know Go, featuring a Bonzai port of a Bash clips program and a Pomodoro timer.
 
 Chapters:
 0:00 Why Coding from the Get Go paused
 0:44 Go needs functions much earlier
-2:44 Dotfile cleanup and new Go projects
+2:47 Dotfile cleanup and new Go projects
 4:17 Learn the terminal or Go first
 
 `#golang #programming #learntocode #coding #bash #terminal #dotfiles`
