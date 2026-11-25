@@ -4,7 +4,7 @@ Explains a shift away from relying on a few easily copied config files toward pu
 
 Chapters:
 0:00 Rethinking the few-config-files approach
-1:45 Vanilla system or full dotfiles
+1:38 Vanilla system or full dotfiles
 2:42 Setting up a shared HPC jump box
 5:56 Three ways to work anywhere
 8:14 Read-only Git pulls and code ownership
