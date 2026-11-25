@@ -1,0 +1,3156 @@
+1
+00:00:00,000 --> 00:00:07,220
+ All right, so we're gonna boost how they boost number three and we left off having set up bash and
+
+2
+00:00:08,040 --> 00:00:12,960
+ Bash our C. So we have a nice pretty terminal now and a pretty command line now
+
+3
+00:00:12,960 --> 00:00:17,040
+ We need a pretty terminal and I I'm gonna start by saying I
+
+4
+00:00:17,760 --> 00:00:22,660
+ Didn't know about was I mean I'd heard of it for you know or a while maybe a month or two
+
+5
+00:00:23,280 --> 00:00:26,440
+ But I hadn't really given it try and up until last week
+
+6
+00:00:26,440 --> 00:00:30,120
+ I was using alacrity and alacrity has got a lot of problems and I told you it wasn't gonna compare the two
+
+7
+00:00:30,120 --> 00:00:32,760
+ But there is a if you go to my books list
+
+8
+00:00:32,760 --> 00:00:37,560
+ There is a why not alacrity summary of why I dropped alacrity, but most important reasons are
+
+9
+00:00:38,840 --> 00:00:42,680
+ compatibility with control left bracket for escape over VNC
+
+10
+00:00:43,920 --> 00:00:45,920
+ the use of
+
+11
+00:00:46,840 --> 00:00:49,520
+ You know just not supporting emojis at all
+
+12
+00:00:50,360 --> 00:00:53,640
+ In terms of like color pickers. There's just a lot of reasons not to you
+
+13
+00:00:53,640 --> 00:00:58,060
+ But why I should use Wes term instead so Wes term is the biggest
+
+14
+00:00:59,140 --> 00:01:01,140
+ accomplishment in terminal
+
+15
+00:01:01,140 --> 00:01:06,080
+ Science and tech that I have ever experienced in three years. I it is absolutely amazing
+
+16
+00:01:06,920 --> 00:01:12,120
+ It uses little for configuration and a bunch of a bunch of really amazing reasons that you won't understand right now
+
+17
+00:01:12,120 --> 00:01:17,560
+ I'm just gonna ask you to trust me on this one, but it is great. Is there gonna be another terminal come up?
+
+18
+00:01:17,560 --> 00:01:23,120
+ Yes, in fact one of the subjects you're gonna get the most fight with people on the internet over is the best terminal
+
+19
+00:01:23,640 --> 00:01:28,220
+ You know what and I debated for a long and hard why not just use the bail built-in terminal
+
+20
+00:01:28,280 --> 00:01:31,140
+ So up to this point in the book that we've been working through
+
+21
+00:01:31,520 --> 00:01:37,120
+ You we have used the default terminals and they're not horrible. They work, right? They work and
+
+22
+00:01:38,400 --> 00:01:40,640
+ But you know, they have they have limitations
+
+23
+00:01:40,640 --> 00:01:45,480
+ So let me show you one of the limitations of why we're using Wes term really quickly and one of the limitations
+
+24
+00:01:45,480 --> 00:01:49,640
+ so I'm gonna bring up the old terminal here and I'm gonna run something called sunrise and
+
+25
+00:01:50,200 --> 00:01:54,880
+ As you can see the colors is pretty slow and the colors are janky. It's because the built-in
+
+26
+00:01:55,200 --> 00:02:00,080
+ Terminal for Mac. It does not support millions of colors. It's also slower. It's not GPU accelerated
+
+27
+00:02:00,080 --> 00:02:04,600
+ That means the graphics processing unit that runs games can be used to accelerate your terminal
+
+28
+00:02:05,440 --> 00:02:09,520
+ Windows terminal preview also has that but it's not nearly as good as Wes term
+
+29
+00:02:10,040 --> 00:02:13,760
+ What's term was written to rust if you care, which means it's wicked wicked fast
+
+30
+00:02:13,760 --> 00:02:19,360
+ There's one thing nobody will debate about on rust. It is the fastest of all the things out there other than see
+
+31
+00:02:19,720 --> 00:02:23,760
+ So, you know, I'm not kidding. Nobody's nobody, you know
+
+32
+00:02:23,760 --> 00:02:28,960
+ Any level of sanity would ever argue that rust isn't the best language you write a terminal in I completely agree with that
+
+33
+00:02:29,360 --> 00:02:33,600
+ Lockety is written in it as well as was term. So a modern terminal. Why do you need it?
+
+34
+00:02:33,600 --> 00:02:37,160
+ Well, if I I'm gonna show you now, I'm gonna do that exact same command that I just did
+
+35
+00:02:37,680 --> 00:02:38,720
+ but
+
+36
+00:02:38,720 --> 00:02:40,720
+ We're gonna do it in was term
+
+37
+00:02:42,160 --> 00:02:45,180
+ And as you can see it's much smoother
+
+38
+00:02:45,440 --> 00:02:54,080
+ it's got millions of colors and it supports all kinds of things including if you haven't already noticed italics and
+
+39
+00:02:54,680 --> 00:02:58,840
+ It's just it's just all around better. There's the entire quality of it. It supports more
+
+40
+00:02:59,600 --> 00:03:02,000
+ fonts. It supports better
+
+41
+00:03:03,200 --> 00:03:07,080
+ You know more granularity on the fonts into the fonts just looks sharper
+
+42
+00:03:07,080 --> 00:03:09,960
+ I know it's you just just trust me. Wes term is like
+
+43
+00:03:10,840 --> 00:03:14,320
+ Overwhelmingly better and for that reason we're gonna actually install it
+
+44
+00:03:15,440 --> 00:03:17,440
+ And I pretty much said all that in our first paragraph
+
+45
+00:03:18,140 --> 00:03:20,140
+ So how do we install it?
+
+46
+00:03:21,240 --> 00:03:24,400
+ Well, it's probably not gonna be much of a surprise effect
+
+47
+00:03:24,400 --> 00:03:29,360
+ This steps gonna go very quickly because we already wrote an installer for you
+
+48
+00:03:29,360 --> 00:03:32,320
+ So you can go ahead and use that if you want now
+
+49
+00:03:33,320 --> 00:03:39,360
+ You're probably still using the old terminal. So let me pretend like I'm you I'm gonna pick pick up the old terminal here
+
+50
+00:03:39,360 --> 00:03:43,840
+ And and you know, I've got the new, you know, the new bash, whatever
+
+51
+00:03:43,840 --> 00:03:50,880
+ I'm using a different color scheme, but you basically idea and so so where are we we got to go into dot two
+
+52
+00:03:52,040 --> 00:03:57,160
+ In my case to your probably daughter dot files and there is so where are we gonna go into now?
+
+53
+00:03:57,160 --> 00:04:03,480
+ we're now we're gonna go into the was term file directory and you see we do an LS we see a bunch of things in here and
+
+54
+00:04:04,800 --> 00:04:08,160
+ We have what I want you to notice in here is that we've actually
+
+55
+00:04:08,720 --> 00:04:14,400
+ Downloaded for you the Ubuntu Mono Nerd font. This is an open source font. It's a hundred percent free
+
+56
+00:04:15,200 --> 00:04:21,840
+ So nobody need worry and we bundled the font into the dog files so that you don't have to go get it
+
+57
+00:04:22,200 --> 00:04:24,200
+ It's already there. So
+
+58
+00:04:24,480 --> 00:04:29,840
+ And we put it into the setup script. So let's go look at the setup script more or less setup
+
+59
+00:04:30,760 --> 00:04:35,560
+ And you can see that it's there in order to read this better though. I'm gonna actually use
+
+60
+00:04:36,080 --> 00:04:38,400
+ View instead. So this is something new
+
+61
+00:04:39,440 --> 00:04:43,320
+ I'm gonna run view instead of more setup. I'm gonna do view setup
+
+62
+00:04:43,840 --> 00:04:47,080
+ Now the thing for view setup is view is actually using the eye
+
+63
+00:04:47,080 --> 00:04:52,280
+ So I'm gonna use my arrow keys and I'm gonna navigate around in view right now
+
+64
+00:04:53,520 --> 00:04:54,480
+ To look around now
+
+65
+00:04:54,480 --> 00:04:55,800
+ This is you don't know this yet
+
+66
+00:04:55,800 --> 00:04:59,720
+ But you're actually using the vi editor when you do this and you're looking around
+
+67
+00:04:59,720 --> 00:05:03,360
+ Why am I having to do this because you can read it better because there's color and there's syntax highlighting
+
+68
+00:05:03,360 --> 00:05:05,360
+ It's with better than less, right?
+
+69
+00:05:05,600 --> 00:05:07,600
+ So we're just we're just looking at it
+
+70
+00:05:08,040 --> 00:05:14,600
+ And you can see that it's gonna copy this it's gonna hard link of I mean sim link a file for the the configuration file
+
+71
+00:05:14,600 --> 00:05:16,960
+ Lua is a language if you know Roblox it was written in it
+
+72
+00:05:17,600 --> 00:05:19,240
+ and
+
+73
+00:05:19,240 --> 00:05:24,720
+ So if the operating system is a Mac it means it's called Darwin which is VSD Unix
+
+74
+00:05:25,040 --> 00:05:29,240
+ Then it will install using brew and it will install a font config
+
+75
+00:05:29,720 --> 00:05:35,640
+ If it's emsis, which is specifically git bash or emsis 2, but you don't know about that yet
+
+76
+00:05:36,400 --> 00:05:38,600
+ Then it will install those fonts for you
+
+77
+00:05:38,840 --> 00:05:46,280
+ We'll actually run PowerShell and it will go out and grab the latest Ubuntu amount of fonts and install them for you
+
+78
+00:05:47,040 --> 00:05:52,040
+ What else does it do it? It says again? If you don't understand, I'm just giving you the overview
+
+79
+00:05:52,040 --> 00:05:54,120
+ So you can know I'm not doing anything nefarious here
+
+80
+00:05:54,200 --> 00:06:00,760
+ So here it's gonna run this is gonna say if I already have local share fonts installed
+
+81
+00:06:01,360 --> 00:06:06,920
+ Don't bother otherwise make a directory and unzip the fonts in there and then try to run them
+
+82
+00:06:06,920 --> 00:06:09,320
+ I'm not sure that this actually works. I
+
+83
+00:06:11,120 --> 00:06:13,120
+ Think this is the way it's supposed to work
+
+84
+00:06:13,600 --> 00:06:16,120
+ But this actually this piece might still need to be fixed
+
+85
+00:06:16,120 --> 00:06:20,920
+ So I might be changing this but you don't have to worry because if I do change it will change it in the dot files
+
+86
+00:06:22,280 --> 00:06:26,600
+ It went in doubt if the fonts don't work out and you need to do the install
+
+87
+00:06:26,600 --> 00:06:30,120
+ I'm gonna show you an alternative way to get them to work just in case this doesn't work for you
+
+88
+00:06:31,320 --> 00:06:35,480
+ But we why are we getting a bunch of model fonts because the font you're looking at right now is a bunch of money
+
+89
+00:06:35,480 --> 00:06:39,000
+ It's just easiest to read. I've loved it for years people are always asking me for
+
+90
+00:06:39,400 --> 00:06:43,120
+ You can you wouldn't know that ever fonts you want the default was from fonts are not horrible
+
+91
+00:06:43,880 --> 00:06:49,920
+ but if you're gonna use this particular installer you're gonna want to do this and the reason for that is because
+
+92
+00:06:50,480 --> 00:06:52,480
+ the fonts are
+
+93
+00:06:52,560 --> 00:06:55,280
+ Built in to the configuration. Okay, so
+
+94
+00:06:56,360 --> 00:07:02,440
+ How do you quit BI? This is a big meme out on the internet. So we're actually in BI. How do we get out?
+
+95
+00:07:03,080 --> 00:07:08,720
+ You can just do shift is easy and that will get you out. Okay, so two capital Z's will take you out
+
+96
+00:07:09,160 --> 00:07:13,320
+ You can do a lot of other ways to get out, but that's probably the easiest. All right, so
+
+97
+00:07:15,520 --> 00:07:20,400
+ Now what let's go look at something else. Let's look let's go use view
+
+98
+00:07:20,480 --> 00:07:23,440
+ To look at Western. I'm gonna make a little sign up
+
+99
+00:07:26,840 --> 00:07:28,840
+ Wait
+
+100
+00:07:29,440 --> 00:07:33,960
+ Give me a second I just gonna see see see document
+
+101
+00:07:40,960 --> 00:07:43,960
+ Move to view with less
+
+102
+00:07:45,520 --> 00:07:50,900
+ For viewing because syntax something. I want to change in the book actually
+
+103
+00:07:51,440 --> 00:07:53,800
+ I'm just making a note here to go change that in the book
+
+104
+00:07:54,840 --> 00:07:56,840
+ All right, so
+
+105
+00:07:58,120 --> 00:08:04,640
+ Anyway, so let's actually do this. Let's do view view was term and you can see it was term now
+
+106
+00:08:05,680 --> 00:08:07,680
+ And again, you can use it
+
+107
+00:08:08,560 --> 00:08:10,760
+ It says those EQ does not yes, I know
+
+108
+00:08:11,440 --> 00:08:16,360
+ CZ is easier to remember. Yep, and in that case is easy. He's usually always what you want
+
+109
+00:08:17,240 --> 00:08:19,240
+ Because you want to say when you exit
+
+110
+00:08:20,840 --> 00:08:23,160
+ No boy somebody clip my rest to comment
+
+111
+00:08:25,160 --> 00:08:31,160
+ Dude, I I have never said anything bad about rust for for terminal stuff. I've always said it was positive
+
+112
+00:08:31,480 --> 00:08:36,760
+ So here we go. So I am using the arrow keys. I want everybody to see me using the arrow keys here
+
+113
+00:08:36,960 --> 00:08:44,840
+ There's no shame in using arrow keys. You don't know how to use the eye yet. So don't let anybody shame you about using arrow keys
+
+114
+00:08:45,840 --> 00:08:47,320
+ Okay
+
+115
+00:08:47,320 --> 00:08:50,240
+ Not when you're first starting out when you're first starting out. It's okay
+
+116
+00:08:50,840 --> 00:08:53,960
+ Again, I did view and I'm using the arrow keys and look around and
+
+117
+00:08:54,600 --> 00:08:58,800
+ What does this thing do? Oh my gosh, okay? Well, first of all, it's Lewis. So you can see it's a different thing
+
+118
+00:08:58,960 --> 00:09:05,160
+ It's checking to see okay. What OS it is and okay, that's cool. It's telling us what kind of shell
+
+119
+00:09:05,160 --> 00:09:10,120
+ Oh, hey, look, there's where it decides to run bash. That's cool. Okay, then it says oh, hey
+
+120
+00:09:10,120 --> 00:09:13,440
+ If it's on a Mac use home brand home home brew bin bash
+
+121
+00:09:14,800 --> 00:09:20,000
+ Which is why we need to do the you know the bash install in order to use the right one for to get the right one
+
+122
+00:09:20,720 --> 00:09:21,840
+ and
+
+123
+00:09:21,840 --> 00:09:25,800
+ Actually, I think that that's plenty without actually changing it to be a default shell
+
+124
+00:09:25,800 --> 00:09:28,160
+ I think it actually will work just doing that by itself
+
+125
+00:09:29,040 --> 00:09:32,760
+ The detect font so this is actually we spent a lot of time on this
+
+126
+00:09:34,440 --> 00:09:39,880
+ Bontum mono is the way the font gets detected on Windows. It's actually a bunch of mono nerd fonts on that
+
+127
+00:09:41,320 --> 00:09:43,820
+ We're still struggling a little bit with the Windows fonts
+
+128
+00:09:45,160 --> 00:09:48,520
+ It's yeah, so here we have
+
+129
+00:09:49,520 --> 00:09:52,640
+ We don't want to be prompted every time we close we want to set that up
+
+130
+00:09:52,720 --> 00:09:57,200
+ We use the built-in group box material theme which is the colors that I'm using right now
+
+131
+00:09:58,480 --> 00:10:02,200
+ We're going to detect the font. I'm going to set the font size of 26
+
+132
+00:10:02,200 --> 00:10:08,040
+ So you're looking at a font size. It's like 37 right now. So that it's easier to read with my base on the screen
+
+133
+00:10:08,840 --> 00:10:12,200
+ And then I set I set the cursor colors a little bit
+
+134
+00:10:12,200 --> 00:10:16,080
+ You know, they're a little too bright for my taste so I kind of turned them down
+
+135
+00:10:16,080 --> 00:10:18,880
+ You don't know what CSS colors are or anything like that yet
+
+136
+00:10:18,880 --> 00:10:22,220
+ But they that is something that we could look at a little bit of padding
+
+137
+00:10:23,080 --> 00:10:26,200
+ And this is I put this here just for information
+
+138
+00:10:26,320 --> 00:10:31,040
+ So those of you who want to see my values, that's what that's what are it's what's going on here
+
+139
+00:10:31,400 --> 00:10:37,120
+ This actually starts up my stuff exactly where I want to and I don't have any decorations. I don't have
+
+140
+00:10:38,240 --> 00:10:44,400
+ Like the tabs at the top of a Western and I don't suggest doing this if you're on Windows because on Windows
+
+141
+00:10:44,400 --> 00:10:48,120
+ There's no team looks so having those tabs at the top in fact team looks
+
+142
+00:10:49,000 --> 00:10:51,000
+ Because it's not available on Windows
+
+143
+00:10:51,700 --> 00:10:54,960
+ A lot of Western users in fact Sergeant Pepper another streamer
+
+144
+00:10:55,960 --> 00:11:03,680
+ Said that he he has gotten used to the multiple tabs and and using that on Western on Windows when
+
+145
+00:11:04,000 --> 00:11:07,000
+ When you know when there's no there's no team looks you don't have a team up says yet
+
+146
+00:11:07,000 --> 00:11:09,640
+ Too much there's a way of having multiple windows inside of the terminal
+
+147
+00:11:10,680 --> 00:11:13,800
+ But but so so so to mux
+
+148
+00:11:14,560 --> 00:11:17,600
+ Being absent means, you know the Western is kind of nice
+
+149
+00:11:17,600 --> 00:11:22,200
+ So I don't recommend turning into that on but so now that's a brief summary of what's in the file
+
+150
+00:11:22,520 --> 00:11:25,640
+ All right, so now having gone through that again is easy to quit
+
+151
+00:11:25,960 --> 00:11:30,920
+ If you somebody mentioned in the chat, you can use EQ if you don't want to we're gonna learn BI later
+
+152
+00:11:30,920 --> 00:11:36,000
+ Okay, and you can pick from the five different ways of exiting at that time right now as a beginner
+
+153
+00:11:36,000 --> 00:11:39,840
+ It's just easy to remember ZZ top in fact. I used to play the ZZ top legs video
+
+154
+00:11:41,040 --> 00:11:43,040
+ Probably not suitable for work
+
+155
+00:11:43,640 --> 00:11:51,040
+ So when you want to remember how to exit them just remember ZZ top that's the mnemonic device the legs video
+
+156
+00:11:51,640 --> 00:11:53,640
+ She got legs
+
+157
+00:11:53,880 --> 00:12:00,480
+ She knows how to use them. Yeah, I'll answer that question a bit. Okay, so it's so
+
+158
+00:12:02,920 --> 00:12:08,640
+ Seriously, if you have not seen is easy top videos, especially if you're a 13 year old boy, which is the target of this book
+
+159
+00:12:10,680 --> 00:12:13,640
+ Go watch every ZZ top video right now
+
+160
+00:12:15,320 --> 00:12:18,920
+ You can thank me later. You can thank me later. Oh
+
+161
+00:12:22,840 --> 00:12:28,800
+ Then you come back and we'll talk about who your favorite ZZ top girl is I know it's probably not appropriate for me to suggest that I
+
+162
+00:12:29,520 --> 00:12:33,920
+ Did anyway, I'm sorry. I'm such a bad Santa
+
+163
+00:12:35,320 --> 00:12:37,320
+ Anyway, here we go
+
+164
+00:12:39,720 --> 00:12:45,000
+ What was I saying now I can think about is is the brunette in this easy top video? Oh my gosh
+
+165
+00:12:45,880 --> 00:12:48,280
+ Okay, so anyway, I was 13 once
+
+166
+00:12:49,160 --> 00:12:51,640
+ I'm kind of 13 going on 58 or whatever
+
+167
+00:12:52,840 --> 00:12:56,940
+ So their favorite ZZ top girl is the one with the beard lol
+
+168
+00:12:58,400 --> 00:12:59,920
+ Is it?
+
+169
+00:12:59,920 --> 00:13:06,280
+ So why when you think it's easy top you're gonna think about ZZ and you'll remember how to get out of him see what I did there
+
+170
+00:13:06,880 --> 00:13:08,040
+ See
+
+171
+00:13:08,040 --> 00:13:11,100
+ It's not a wizard thing, but it's a mnemonic device
+
+172
+00:13:11,920 --> 00:13:14,480
+ Sexy girl equals mnemonic device get it
+
+173
+00:13:18,160 --> 00:13:22,200
+ Okay, so have we looked at all the files in here Rob? Yes
+
+174
+00:13:22,200 --> 00:13:25,700
+ We have we haven't looked at it set up yet. Let's look at that one. So we're gonna view set up
+
+175
+00:13:26,800 --> 00:13:30,440
+ We viewed set up. Yeah, I'm using arrows. I'm using the arrows
+
+176
+00:13:31,280 --> 00:13:35,560
+ Okay, I'm gonna tell you something right now if you want to instead of using arrows
+
+177
+00:13:35,560 --> 00:13:40,000
+ You can put your hand in the middle of the keyboard so that your fingers are on JK and L
+
+178
+00:13:40,000 --> 00:13:44,360
+ And you can push J for down and K for up and you can do L
+
+179
+00:13:44,360 --> 00:13:48,280
+ They go over here and you can do H to go over here. Why don't you try it right now? Okay?
+
+180
+00:13:49,000 --> 00:13:56,800
+ And you tell me which one you want. Okay, this is we're using VI bit view the really great thing about using view is you can't hurt anything
+
+181
+00:13:57,920 --> 00:13:59,920
+ By using view
+
+182
+00:13:59,920 --> 00:14:04,800
+ You're using V. I don't know this yet, but you're using VI in read-only mode
+
+183
+00:14:04,800 --> 00:14:07,760
+ So even if you were to try to change something you can't hurt it
+
+184
+00:14:08,160 --> 00:14:12,080
+ You can't hurt it and a lot of beginners a lot of veterans don't know about view
+
+185
+00:14:12,600 --> 00:14:17,480
+ I'm telling you right now. It's very useful because sometimes you just want to be absolutely sure
+
+186
+00:14:17,480 --> 00:14:24,920
+ I am not gonna absolutely you know accidentally fat finger something in that file and by using view instead of VI or VIM or whatever
+
+187
+00:14:26,240 --> 00:14:31,600
+ It tried to change it. Yeah, well, they'd have to know about that, but you know, yeah
+
+188
+00:14:32,360 --> 00:14:39,480
+ So so yeah, so like if I try to change it it just it won't it won't change it, right?
+
+189
+00:14:39,480 --> 00:14:45,800
+ So I mean, I'm not look don't change it, but you know, I'm just trying it. That's why that's the difference between view and VI
+
+190
+00:14:47,080 --> 00:14:51,320
+ So we already looked at this file, but this is this is the one that's doing all the setup installation
+
+191
+00:14:51,320 --> 00:14:56,720
+ We looked at it already again ZZ and I'm out of there. All right, so now what I?
+
+192
+00:14:57,200 --> 00:15:00,040
+ Do this all the time just cuz all right, so we're ready to run it
+
+193
+00:15:00,520 --> 00:15:03,800
+ What and so let's just do it you can do dot slash set up
+
+194
+00:15:04,280 --> 00:15:09,240
+ And you can go ahead and and run that and that will set up your your wes term loop, okay?
+
+195
+00:15:09,920 --> 00:15:17,040
+ Now I'm not gonna do it for one reason only because I already have a customized wes term set up
+
+196
+00:15:18,000 --> 00:15:20,160
+ But you know what to do here, right?
+
+197
+00:15:20,160 --> 00:15:25,480
+ Notice don't forget the dot slash and make sure you're in the directory the right directory and do dot slash and run that right now
+
+198
+00:15:25,480 --> 00:15:31,440
+ You're go ahead and run that right now. Okay, and when you run that after you run that you can actually test it and
+
+199
+00:15:32,200 --> 00:15:38,200
+ The way to test it is quite simply and I'm gonna actually turn mine off. So I'm gonna turn
+
+200
+00:15:39,520 --> 00:15:44,240
+ I'm gonna turn off the question this thing here. So let's show you how to how to start it up
+
+201
+00:15:45,520 --> 00:15:49,380
+ And let's actually let's go on let's go on
+
+202
+00:15:50,040 --> 00:15:54,760
+ Windows and try it. Okay, so let's let's do our windows one. So this is a brand new one
+
+203
+00:15:54,760 --> 00:15:57,600
+ So let's go ahead. Let's go. Oh wait. I forgot to show you something
+
+204
+00:15:57,800 --> 00:16:02,160
+ So did you see how I went cd dot dot that went up a level?
+
+205
+00:16:02,840 --> 00:16:06,020
+ So I'm in dot files and I went cd dot dot and went up
+
+206
+00:16:08,380 --> 00:16:10,380
+ So you're so right
+
+207
+00:16:12,480 --> 00:16:15,940
+ Hey, and you're gonna set right with or with that. Yes
+
+208
+00:16:17,800 --> 00:16:19,800
+ Yeah, okay, so thank you for that
+
+209
+00:16:23,160 --> 00:16:25,560
+ So wq is not a thing
+
+210
+00:16:26,040 --> 00:16:30,080
+ Yeah, wq will quit, but don't do it. It's just too hard to type
+
+211
+00:16:30,520 --> 00:16:34,240
+ Why would you type that and not just easy? I'm telling you trust me do ZZ
+
+212
+00:16:34,760 --> 00:16:36,760
+ It's way easier to type
+
+213
+00:16:37,280 --> 00:16:39,720
+ Nobody ever talks about it. That's the way you should do it
+
+214
+00:16:39,720 --> 00:16:44,040
+ If you want to learn the extra ones that take five extra keystrokes, I'm fine. I don't care
+
+215
+00:16:44,520 --> 00:16:49,520
+ I'm telling you ZZ is what I teach people use ZZ. It's easier to remember. It's faster
+
+216
+00:16:50,000 --> 00:16:54,880
+ The only other yeah, anyway, so I don't do ZQ. It's too hard. I do wq exclamation point
+
+217
+00:16:54,880 --> 00:16:58,800
+ But that we'll talk about that later. All right, so we got to run our thing here
+
+218
+00:16:58,800 --> 00:17:04,760
+ Are we in the right place? And I don't know what am I looking at here? Okay, I'm in the wrong place. So cd was term
+
+219
+00:17:05,680 --> 00:17:09,920
+ All right, LS. Okay, there's my stuff. I already know what's in there. I looked at it. So now it's time to run it
+
+220
+00:17:12,320 --> 00:17:14,520
+ You top does not have the same ring to it
+
+221
+00:17:15,400 --> 00:17:19,920
+ We're learning how to code and we're working through the book. It's in the chat. So click on the pin
+
+222
+00:17:19,920 --> 00:17:21,560
+ You can go follow along. All right
+
+223
+00:17:21,560 --> 00:17:27,320
+ So as you can see I know that the windows was term setup works because I've gone through this extensively
+
+224
+00:17:27,920 --> 00:17:29,720
+ This doesn't solve the nerd font
+
+225
+00:17:29,720 --> 00:17:32,360
+ There is some question about whether the mac one has a bug in it or not
+
+226
+00:17:32,360 --> 00:17:37,520
+ But that will rest assured it'll be fixed in the dot files template if you want to follow that template
+
+227
+00:17:37,520 --> 00:17:38,360
+ You can go click on it
+
+228
+00:17:38,360 --> 00:17:41,200
+ You can follow it on get up if you want to see about notifications or changes
+
+229
+00:17:41,280 --> 00:17:46,400
+ So here we go. We've got the nerd font. This is all installed. So now now what we can do. So
+
+230
+00:17:46,840 --> 00:17:49,240
+ So actually right now I can start it. So
+
+231
+00:17:50,120 --> 00:17:53,960
+ I'm gonna go exit and now I'm gonna go start I can you know
+
+232
+00:17:53,960 --> 00:17:59,880
+ I can either click down here and type it in or if you want to do the hotkey you can push the windows key same thing and
+
+233
+00:18:00,000 --> 00:18:06,560
+ Then you can type was you just have to type was you're not type the whole thing usually just type was enter and
+
+234
+00:18:06,920 --> 00:18:13,840
+ You're gonna get the Western and there's your happy pretty Western now what I'm gonna show you here is that
+
+235
+00:18:14,920 --> 00:18:16,920
+ that
+
+236
+00:18:17,360 --> 00:18:19,360
+ You know we
+
+237
+00:18:20,160 --> 00:18:23,080
+ Well, I don't know if you've even got Western installed yet
+
+238
+00:18:23,600 --> 00:18:29,480
+ Do we forget that step? I'm not going through the book and I'm being bad. I forgot to install Western
+
+239
+00:18:30,280 --> 00:18:35,760
+ We can figure wisdom, but we didn't install it whoopsie. All right, so let's actually let's install it
+
+240
+00:18:35,760 --> 00:18:40,840
+ You guys don't know you don't have it. I'm I'm I'm bad streamer bad streamer. Okay, so back up
+
+241
+00:18:40,840 --> 00:18:46,480
+ It doesn't matter if you did it out of order. The book is in the right order. Okay, so let's actually do it the right way
+
+242
+00:18:46,480 --> 00:18:48,480
+ So let's go back to bash
+
+243
+00:18:49,160 --> 00:18:54,920
+ Let's pretend like I didn't do that. Okay, so so here's bash again. So let's install Western. All right
+
+244
+00:18:55,760 --> 00:19:02,840
+ And I believe it's I don't remember what it is. Let me show you a new can this is bonus command for the viewers at home
+
+245
+00:19:04,080 --> 00:19:06,600
+ Yeah, you can't yeah. Yeah, yeah
+
+246
+00:19:07,720 --> 00:19:12,720
+ I'm trying to install it by yeah, you can't do less what you need to do there is you need to go execute it
+
+247
+00:19:12,720 --> 00:19:14,720
+ I'm gonna show you. I'm so sorry. Yeah
+
+248
+00:19:15,760 --> 00:19:17,260
+ so
+
+249
+00:19:17,260 --> 00:19:21,600
+ CD and what is it dot files to?
+
+250
+00:19:22,720 --> 00:19:24,720
+ All right, so the way to
+
+251
+00:19:24,960 --> 00:19:29,160
+ To install let's go into the installer CD into install
+
+252
+00:19:30,200 --> 00:19:32,200
+ Oopsie
+
+253
+00:19:32,880 --> 00:19:34,880
+ CD dot slash install and
+
+254
+00:19:36,400 --> 00:19:38,400
+ Wait where to go?
+
+255
+00:19:38,720 --> 00:19:41,880
+ Where am I I don't feel like I'm in the right place. I
+
+256
+00:19:44,240 --> 00:19:46,240
+ Feel like I'm in the wrong place here
+
+257
+00:19:48,120 --> 00:19:51,600
+ Guys don't don't worry. I'm I'm missing things up here. Okay, so
+
+258
+00:19:52,280 --> 00:19:58,480
+ Don't do you don't have to worry about this. Okay, let me get let me catch up. All right, so you see the end to install and
+
+259
+00:20:00,360 --> 00:20:02,920
+ Okay, there we go. So you see all those installers in there
+
+260
+00:20:06,160 --> 00:20:10,080
+ It's easy pretty often I don't want to accidentally you setting is easy to know up
+
+261
+00:20:10,600 --> 00:20:16,600
+ Anybody watching my stream right now on twitch disregard with that person just said that is ridiculously stupid idea
+
+262
+00:20:17,600 --> 00:20:21,680
+ I mean, I respect your right to do that if you want to but
+
+263
+00:20:22,280 --> 00:20:28,040
+ That's the second stupidest thing I've ever heard. That's almost as stupid as like remapping control C to escape
+
+264
+00:20:30,200 --> 00:20:32,200
+ I rent your whole comment
+
+265
+00:20:32,920 --> 00:20:36,280
+ Because you see pretty often I don't actually end up I'm close if they have a
+
+266
+00:20:36,280 --> 00:20:39,240
+ Sorry for trying to be a true Scotsman. There are many ways to yes
+
+267
+00:20:40,560 --> 00:20:43,160
+ Yeah, that that's an absolutely horrible idea
+
+268
+00:20:44,680 --> 00:20:46,960
+ That's one of the stupidest ideas I've ever heard
+
+269
+00:20:50,360 --> 00:20:52,640
+ Okay, fine anyway, so
+
+270
+00:20:54,800 --> 00:21:02,680
+ This person has disabled ZZ on purpose because they're afraid of accidentally pushing ZZ to exit their editor on accident
+
+271
+00:21:02,680 --> 00:21:09,320
+ First of all if you accidentally did that who cares you're you've exited them and saved at the same time
+
+272
+00:21:09,320 --> 00:21:13,480
+ So you just open it back up again worst case scenario best case scenario
+
+273
+00:21:13,760 --> 00:21:18,520
+ You don't fat fingers ZZ all the time and you actually use it as the fastest way to exit them I
+
+274
+00:21:19,480 --> 00:21:22,560
+ Don't want to hear that again. Okay. Here we go. So
+
+275
+00:21:23,480 --> 00:21:26,560
+ Yeah, you do you but I'm telling you that's dumb so
+
+276
+00:21:27,440 --> 00:21:31,680
+ People all right. We're installing wisdom because I forgot to tell you how to do this. So view
+
+277
+00:21:33,280 --> 00:21:35,280
+ was term and
+
+278
+00:21:37,760 --> 00:21:40,560
+ What do we got here we have a was termed thing?
+
+279
+00:21:42,200 --> 00:21:43,760
+ That's running
+
+280
+00:21:43,760 --> 00:21:46,920
+ You can't really see it very well because I'm running bash
+
+281
+00:21:47,320 --> 00:21:53,280
+ But you can see that there's a win and get if you feel more comfortable. You can just run win get install was termed
+
+282
+00:21:53,280 --> 00:21:57,200
+ Do why don't we just do that you get you know what you can just look at the script if you run the script
+
+283
+00:21:57,200 --> 00:22:00,020
+ It will do that it will do that for you, but let's just actually do it
+
+284
+00:22:00,760 --> 00:22:05,900
+ When get install - - ID. It's not that hard, right when get
+
+285
+00:22:06,760 --> 00:22:08,760
+ Oh, sorry was
+
+286
+00:22:09,840 --> 00:22:15,400
+ Was dot was term and that'll go install was term for you
+
+287
+00:22:16,360 --> 00:22:23,440
+ Mine's been already on there. So it doesn't need it and and now we can go back to the previous step which is go ahead and add
+
+288
+00:22:25,200 --> 00:22:30,340
+ Was term by the way my strongest agreement with what you said, you know, I still love you
+
+289
+00:22:30,560 --> 00:22:35,480
+ You're probably a wonderful person, but that is a horrible suggestion. Okay, so
+
+290
+00:22:36,360 --> 00:22:38,360
+ Anyway, here we go
+
+291
+00:22:39,400 --> 00:22:41,240
+ Wes term
+
+292
+00:22:41,240 --> 00:22:46,480
+ So there we go and push enter and now we get was term. All right, so let's let's talk about Western for a second here
+
+293
+00:22:46,480 --> 00:22:48,880
+ Well, it's up now. I know it's not very I'm gonna zoom in
+
+294
+00:22:49,320 --> 00:22:56,320
+ So this is something that's super important on Windows. Okay, on I am not a tabs person
+
+295
+00:22:56,320 --> 00:22:59,840
+ See how you can open up multiple terminals by opening multiple tabs, right?
+
+296
+00:22:59,840 --> 00:23:04,000
+ I am not I don't like tabs. I think they're a waste of time
+
+297
+00:23:04,000 --> 00:23:10,280
+ I would rather use T mux and you'll learn about that in terminal velocity, but what I want to tell you is that
+
+298
+00:23:10,920 --> 00:23:12,520
+ for
+
+299
+00:23:12,520 --> 00:23:19,820
+ That for when it comes to Windows since you don't have T mux yet. This is actually extremely nice
+
+300
+00:23:20,640 --> 00:23:23,080
+ right, this is extremely nice and
+
+301
+00:23:24,400 --> 00:23:31,120
+ so in the absence of in the absence of T mux on Windows as an absolute beginner and
+
+302
+00:23:31,560 --> 00:23:35,720
+ I mean that as an absolute beginner you do not know about these other things
+
+303
+00:23:35,720 --> 00:23:38,800
+ Don't let people tell you that you need to know about them now. It's gonna distract you
+
+304
+00:23:38,800 --> 00:23:44,520
+ We've already talked about it too much. So just know that this is gonna give you the ability to work on two things at once
+
+305
+00:23:44,640 --> 00:23:47,960
+ You can open up another tab and you can have that running your tests
+
+306
+00:23:47,960 --> 00:23:50,640
+ And you can have and we're gonna do that and the other tab
+
+307
+00:23:50,640 --> 00:23:54,680
+ You can have that to be where your code is running and another tab can be your test cases
+
+308
+00:23:54,680 --> 00:23:59,600
+ So you can have three files open at the same time without having to get into the fancy ways to do that
+
+309
+00:23:59,920 --> 00:24:05,040
+ Using n-bim or T mux you can just have three tabs open for now
+
+310
+00:24:05,040 --> 00:24:11,280
+ And let me just say that right now for now as soon as somebody hears this this this kind of speech
+
+311
+00:24:11,640 --> 00:24:16,320
+ Like activates a certain type of person because they're like, oh my god
+
+312
+00:24:16,320 --> 00:24:20,000
+ I can't believe you're teaching him that that's like so such a waste of time and blah blah blah blah
+
+313
+00:24:20,000 --> 00:24:23,320
+ And there's a million other ways to do it and why are they using multiple new in the oven panes?
+
+314
+00:24:23,320 --> 00:24:25,640
+ All right, you're teaching that first of all new in panes are painted
+
+315
+00:24:25,640 --> 00:24:30,680
+ Yes, and you shouldn't learn them you should run multiple t-mux windows because you can cut and paste from shell and VIM processes
+
+316
+00:24:30,680 --> 00:24:35,000
+ Which you can't do with in panes. I could go on I'm not going to I'm gonna stop right there
+
+317
+00:24:35,120 --> 00:24:38,680
+ I'm gonna say this for right now as an absolute beginner
+
+318
+00:24:38,800 --> 00:24:43,160
+ Just know that if you need a new window you can use it using using
+
+319
+00:24:43,800 --> 00:24:50,840
+ Wester, okay, you can use Wester me you can open up a new window, okay, and that that's the only thing you need to take away from that
+
+320
+00:24:51,840 --> 00:24:55,280
+ You'll notice that you're already using the bash prompt
+
+321
+00:24:55,280 --> 00:25:00,320
+ You don't have to do anything extra for that if for any reason you are not looking at this
+
+322
+00:25:00,440 --> 00:25:04,640
+ You need to stop and get this working because we're gonna proceed from this point
+
+323
+00:25:04,640 --> 00:25:09,560
+ And and and that's it. Let's go back to the book and review at what we've done so far
+
+324
+00:25:09,800 --> 00:25:14,720
+ So we did install Westerm. We did it kind of out of order. We were installed Westerm
+
+325
+00:25:15,360 --> 00:25:19,600
+ And you can do you can just install it like I did or you can do it with the win get the way
+
+326
+00:25:19,600 --> 00:25:21,600
+ I did the way that by just looking in the file
+
+327
+00:25:21,600 --> 00:25:25,840
+ It doesn't matter as long as it gets on there and then and then we did some other things, right?
+
+328
+00:25:25,840 --> 00:25:28,000
+ So we did the setup. Here's the setup steps
+
+329
+00:25:29,400 --> 00:25:36,080
+ Here says command.exe in the tab that means you didn't run the config yet. So that means you didn't run the config properly
+
+330
+00:25:36,680 --> 00:25:37,760
+ so
+
+331
+00:25:37,760 --> 00:25:44,000
+ Yeah, so if you if you just installed the wiz term you need to make sure to go run this
+
+332
+00:25:44,680 --> 00:25:47,360
+ If it still says that please let me know
+
+333
+00:25:47,720 --> 00:25:54,680
+ Okay, so we had somebody we had somebody say in the chat that they're showing command.cmd as their wiz term prompt
+
+334
+00:25:54,680 --> 00:26:00,960
+ And that means that they're not there their configuration file is not being seen in the right place
+
+335
+00:26:01,200 --> 00:26:07,800
+ so that means you need to cd into wiz term and you dot slash setup and then what that will do is that will create
+
+336
+00:26:08,320 --> 00:26:11,600
+ Those things for you, right? It's gonna put this symbol
+
+337
+00:26:11,600 --> 00:26:16,280
+ It's actually in the case of windows is gonna make a copy of the wiz term that lua file where it goes
+
+338
+00:26:16,280 --> 00:26:20,880
+ And then the then then and then when you open up wiz term it should open up, okay?
+
+339
+00:26:23,000 --> 00:26:25,080
+ But yes, oh gosh
+
+340
+00:26:26,680 --> 00:26:33,440
+ So so here we go. We're gonna do let me just read repeat this step. So if you're not seeing
+
+341
+00:26:34,360 --> 00:26:40,360
+ bash.exe up here then something is not right with wiz term that means it hasn't been configured
+
+342
+00:26:41,200 --> 00:26:46,440
+ And if that's the case, let me just repeat the steps one more time go back to your git bash
+
+343
+00:26:47,160 --> 00:26:52,940
+ Right cd into your dot files in my case. It's a weird name, but cd into each
+
+344
+00:26:53,720 --> 00:26:55,720
+ wiz term and
+
+345
+00:26:56,080 --> 00:27:02,440
+ Then ls and then you see the setup file there and then dot slash setup and that will set up that'll install
+
+346
+00:27:03,440 --> 00:27:06,120
+ Your Ubuntu monofawns and it will copy
+
+347
+00:27:06,800 --> 00:27:14,160
+ It will either sim like your copy the wiz term lua configuration file so that the first time you run wiz term
+
+348
+00:27:14,800 --> 00:27:18,600
+ It will be bash. So let me repeat that one more time
+
+349
+00:27:18,600 --> 00:27:22,000
+ So here we do we're gonna say wiz and now we pull up wiz term
+
+350
+00:27:22,120 --> 00:27:29,520
+ We have bash as our as our terminal that is the goal if you don't have that stop and
+
+351
+00:27:29,800 --> 00:27:37,400
+ Work on this and tell that's working for you because we everything else is gonna assume that you have this terminal running
+
+352
+00:27:38,280 --> 00:27:41,220
+ Okay, so let me go back to review the the book again
+
+353
+00:27:41,640 --> 00:27:45,360
+ So I talked about in the in the book here. I do talk about
+
+354
+00:27:46,200 --> 00:27:49,880
+ cd dot dot dot stands for parent directory and
+
+355
+00:27:51,120 --> 00:27:56,520
+ We we went ahead and started up the terminal terminal shows you how to close it and restart it showed you how to do that
+
+356
+00:27:56,720 --> 00:27:58,720
+ Congrats. You got a brand new terminal
+
+357
+00:27:59,520 --> 00:28:01,520
+ You got another command not found
+
+358
+00:28:01,960 --> 00:28:04,280
+ He says command tab in the tent. Okay
+
+359
+00:28:05,440 --> 00:28:07,440
+ Did you do dot slash?
+
+360
+00:28:07,840 --> 00:28:13,640
+ Yes, the custom Westerners actually set it for the terminal. I can think that uses this. No, please don't give them anything like that
+
+361
+00:28:14,560 --> 00:28:16,560
+ Leats don't give them anything like that
+
+362
+00:28:16,960 --> 00:28:18,960
+ Not right now beginners don't need it
+
+363
+00:28:19,960 --> 00:28:27,040
+ Stop stop. No, we don't want cool. We want minimal. We want the minimum
+
+364
+00:28:28,440 --> 00:28:30,440
+ Senate bash is no you don't
+
+365
+00:28:31,360 --> 00:28:35,400
+ People if you install get bash properly then everything should just work. I
+
+366
+00:28:36,520 --> 00:28:38,520
+ Mean from my own stuff. Yes, please
+
+367
+00:28:38,800 --> 00:28:41,600
+ Yes, late that would be great
+
+368
+00:28:42,520 --> 00:28:44,760
+ Okay, I ran the commands from the script one by one
+
+369
+00:28:45,920 --> 00:28:47,920
+ What script are you trying to run?
+
+370
+00:28:48,880 --> 00:28:53,880
+ First of all, do you have bash on your computer? All right. I'm talking somebody through a problem here guys
+
+371
+00:28:53,880 --> 00:28:57,320
+ Maybe somebody else has the same problem. So we're gonna we're gonna cover this
+
+372
+00:28:58,120 --> 00:29:02,440
+ All right, so type this for me type which which bash
+
+373
+00:29:03,320 --> 00:29:05,320
+ Are you okay?
+
+374
+00:29:05,320 --> 00:29:08,200
+ Let's do this. Okay, make sure you have your bash running
+
+375
+00:29:09,040 --> 00:29:14,880
+ Let's let's like go make please please do this exactly with me because I really need to know because if you have a problem
+
+376
+00:29:14,880 --> 00:29:17,480
+ I need to know about it. So I can fix it in the in the book
+
+377
+00:29:18,400 --> 00:29:22,040
+ All right, so in the Western setup scripts
+
+378
+00:29:23,680 --> 00:29:27,360
+ All right, okay, well, let's let's go
+
+379
+00:29:29,080 --> 00:29:30,560
+ Okay, so
+
+380
+00:29:30,560 --> 00:29:35,240
+ We're getting we're back. We're running get bash now. Okay, we're not we're not in Western. We're gonna get bash
+
+381
+00:29:35,440 --> 00:29:38,640
+ Okay, and then we're gonna cd into the dot files
+
+382
+00:29:40,560 --> 00:29:42,560
+ And we're gonna cd into
+
+383
+00:29:44,040 --> 00:29:46,040
+ Western
+
+384
+00:29:46,880 --> 00:29:49,360
+ All right, yeah, that's wrong
+
+385
+00:29:50,840 --> 00:29:53,800
+ That's totally wrong and that that means you're not using get bash
+
+386
+00:29:55,560 --> 00:29:57,880
+ Because I mean look I
+
+387
+00:29:59,760 --> 00:30:03,120
+ Don't know how you got that on your system, but
+
+388
+00:30:05,560 --> 00:30:08,280
+ Yeah, did you did you do the bash set up already?
+
+389
+00:30:11,400 --> 00:30:13,560
+ Yeah, you're using a different bash completely
+
+390
+00:30:15,480 --> 00:30:19,440
+ So I don't I don't know how what step
+
+391
+00:30:21,240 --> 00:30:23,480
+ Okay, that's good. That's what it should be
+
+392
+00:30:24,800 --> 00:30:28,800
+ That's what I'm trying to tell you so but here. Okay, let's do this
+
+393
+00:30:30,160 --> 00:30:32,440
+ It looks like you need to do your bash setup
+
+394
+00:30:32,440 --> 00:30:35,880
+ We'd already did that step, but that says sounds like you missed that step
+
+395
+00:30:36,200 --> 00:30:42,420
+ So let me let me go back on the system and get rid of my get bash and we'll pretend like we did everything from scratch
+
+396
+00:30:42,420 --> 00:30:45,940
+ Okay, and we already did this in a previous video, but I'm gonna do it again
+
+397
+00:30:46,480 --> 00:30:51,480
+ All right, so we're pretending here we go. So I'm gonna take you from
+
+398
+00:30:52,040 --> 00:30:59,240
+ From absolute scratch. Okay, so we just installed get bash. Okay, just installed get bash and
+
+399
+00:30:59,800 --> 00:31:04,280
+ bash enter get bash is on the screen. Okay, and
+
+400
+00:31:07,120 --> 00:31:09,120
+ You know, it's
+
+401
+00:31:10,920 --> 00:31:15,300
+ Yeah, I think it's still actually finding my my bash rc. I think it is
+
+402
+00:31:16,880 --> 00:31:19,080
+ It is I thought I deleted it, but
+
+403
+00:31:21,800 --> 00:31:26,680
+ I mean it's really hard for me to reset the system. I need a VM so I can do that, but
+
+404
+00:31:27,760 --> 00:31:30,560
+ All right, there we go. All right. Do you have this?
+
+405
+00:31:31,240 --> 00:31:34,800
+ Do you have this and when you have this get let me know?
+
+406
+00:31:35,800 --> 00:31:37,060
+ All right
+
+407
+00:31:37,060 --> 00:31:38,140
+ go
+
+408
+00:31:38,140 --> 00:31:40,140
+ Do you do you have?
+
+409
+00:31:40,560 --> 00:31:43,060
+ It's up here is the same in GW
+
+410
+00:31:44,800 --> 00:31:48,480
+ And does it say see users Rob? Do you have that?
+
+411
+00:31:50,480 --> 00:31:55,440
+ Because that's what we need to get we need to get to the point where you haven't done any bash setup yet
+
+412
+00:31:57,320 --> 00:31:59,320
+ right and
+
+413
+00:31:59,960 --> 00:32:04,160
+ And and when you're doing this and you do which bash it'll say user bin bash
+
+414
+00:32:04,840 --> 00:32:08,080
+ Okay, and that's fine because that's the bash that comes with get bash
+
+415
+00:32:09,240 --> 00:32:10,320
+ but
+
+416
+00:32:10,320 --> 00:32:13,440
+ Okay, now with CD we did the clone of the dot files
+
+417
+00:32:14,040 --> 00:32:20,280
+ So now we're going into the yours is yours is probably dots dot or dot files whatever yours is minus dot template
+
+418
+00:32:20,840 --> 00:32:24,240
+ So from inside of here, we're gonna set up bash again
+
+419
+00:32:25,080 --> 00:32:27,080
+ So we're gonna go into bash
+
+420
+00:32:27,960 --> 00:32:36,060
+ And we're gonna do now that file is showing as executable, which it is absolutely is not I do not know why that is
+
+421
+00:32:38,360 --> 00:32:40,360
+ That should not be
+
+422
+00:32:40,440 --> 00:32:42,440
+ executable I
+
+423
+00:32:43,200 --> 00:32:45,680
+ Have no idea why that is that's kind of weird actually
+
+424
+00:32:46,640 --> 00:32:53,140
+ That that file is not executable in in github. I don't know why that's listed as executable there
+
+425
+00:32:53,920 --> 00:32:56,200
+ It's some broken thing on github
+
+426
+00:32:56,200 --> 00:33:01,400
+ It absolutely is not executable. I don't it's stupid so
+
+427
+00:33:03,040 --> 00:33:08,120
+ Why why would it do that? This is Windows stupidity anyway, so
+
+428
+00:33:09,760 --> 00:33:11,760
+ Okay, so now we're gonna dot slash setup
+
+429
+00:33:13,000 --> 00:33:19,280
+ All right, so that's gonna create the symbolic links and and now rather than try to do exact bash dash shell
+
+430
+00:33:19,280 --> 00:33:21,280
+ let's just exit and
+
+431
+00:33:21,320 --> 00:33:24,860
+ Then let's go back and type bash again to get a new bash shell
+
+432
+00:33:25,640 --> 00:33:29,760
+ Just to be absolutely sure and now now
+
+433
+00:33:29,760 --> 00:33:34,200
+ I mean which bash should be the same, but you should see the terminal should be different now and
+
+434
+00:33:35,840 --> 00:33:42,240
+ It windows is stupid, but I'm trying to it's still easier for beginners than to force them to install Linux right now
+
+435
+00:33:42,240 --> 00:33:44,240
+ I swear by that
+
+436
+00:33:44,600 --> 00:33:51,080
+ Okay, so now we've got it now. Let's cd into dot template again or whatever yours is dot files whatever
+
+437
+00:33:51,600 --> 00:33:53,960
+ now, let's go into was term and
+
+438
+00:33:56,360 --> 00:33:59,420
+ Well, I mean we already installed was term, right?
+
+439
+00:34:00,020 --> 00:34:05,880
+ So you already went into install or however you want to do this, but we did was term install
+
+440
+00:34:07,840 --> 00:34:09,840
+ Wes term
+
+441
+00:34:10,480 --> 00:34:16,360
+ Tinsel was term and it's gonna install the fonts and everything, but it doesn't need it so it's already there and now we're gonna configure
+
+442
+00:34:16,360 --> 00:34:18,960
+ was term so we're gonna compete into was term and
+
+443
+00:34:20,360 --> 00:34:22,600
+ we're gonna run setup in here and
+
+444
+00:34:23,320 --> 00:34:28,960
+ That should install the symbolic links and create the was term configuration file
+
+445
+00:34:30,600 --> 00:34:32,200
+ and
+
+446
+00:34:32,200 --> 00:34:37,560
+ After that we can exit out of bash and we can type was term and
+
+447
+00:34:38,640 --> 00:34:40,640
+ We should have bash
+
+448
+00:34:42,720 --> 00:34:44,720
+ Yeah
+
+449
+00:34:45,520 --> 00:34:48,480
+ It's a lightweight good OS currently one lags a lot
+
+450
+00:34:49,560 --> 00:34:57,160
+ It's if you're gonna reinstall a different operating system and you have that option then and you know about Linux then install Linux
+
+451
+00:34:57,520 --> 00:35:02,480
+ But that's not everyone it used to be when I taught this stuff. I required people to have Linux installed
+
+452
+00:35:03,120 --> 00:35:07,040
+ But if you don't have Linux then if you don't know what I'm talking about then
+
+453
+00:35:07,360 --> 00:35:11,640
+ And we're not covering that in in this every time we try to cover installing Linux
+
+454
+00:35:11,640 --> 00:35:15,200
+ So it took us like a month to get everybody up to speed on Linux before we could even write code
+
+455
+00:35:16,720 --> 00:35:18,720
+ Which a bunch of men
+
+456
+00:35:19,040 --> 00:35:22,360
+ If you're gonna do a desktop do a bunch of men if you're a beginner the end
+
+457
+00:35:22,960 --> 00:35:24,960
+ because it won't blow up on you and
+
+458
+00:35:24,960 --> 00:35:29,800
+ It won't take you four months to master before you can start writing the code the reason everybody
+
+459
+00:35:29,800 --> 00:35:35,740
+ It's a super important the reason that we are not screwing around with Linux distros and pods and VMs right now
+
+460
+00:35:35,740 --> 00:35:40,160
+ Is because we want to get coding and every time that we screw around with that
+
+461
+00:35:40,160 --> 00:35:45,120
+ It takes us two months to get everybody up to speed before they can even write in a first line of code
+
+462
+00:35:45,760 --> 00:35:50,320
+ because all of all the installing and all the fighting about what Linux just ready to use and
+
+463
+00:35:51,160 --> 00:35:55,680
+ It just gets crazy and and I'm if I was dealing with you one-on-one
+
+464
+00:35:55,680 --> 00:36:02,600
+ I would have you create a Linux distro on your laptop and I would hand guide you about how to do that
+
+465
+00:36:02,600 --> 00:36:09,320
+ But because I'm not with you one-on-one the best thing we can do so we can get coding is set up get bash on Windows and
+
+466
+00:36:10,000 --> 00:36:13,200
+ Set up the terminal and West term on Mac the end
+
+467
+00:36:13,400 --> 00:36:19,640
+ if you've installed Linux you're already ahead that far if you know how to install Linux on your own or you know
+
+468
+00:36:19,640 --> 00:36:24,400
+ How to use containers or VMs or some by the way dot the then you know you can go ahead and do that
+
+469
+00:36:24,920 --> 00:36:26,200
+ so
+
+470
+00:36:26,200 --> 00:36:27,800
+ Ubuntu mint
+
+471
+00:36:27,800 --> 00:36:29,160
+ Linux mint
+
+472
+00:36:29,160 --> 00:36:35,120
+ Cinnamon specifically that's my favorite Linux distro for beginners because it's never done anybody wrong. It doesn't blow up
+
+473
+00:36:35,120 --> 00:36:36,360
+ Papa West blew up
+
+474
+00:36:36,360 --> 00:36:44,800
+ Montreal blew up on beginners. I've had I've had beginners in tears because they thought they broke their computer because of Montreal. I'm just telling you my experience, okay
+
+475
+00:36:45,720 --> 00:36:51,300
+ Mintus mintus and down the most stable Linux distribution on the planet. Is it the newest? No, it's not
+
+476
+00:36:51,300 --> 00:36:56,880
+ It's the most stable. It's the most supported. It's the most stable. It's the most mature. It's the most boring
+
+477
+00:36:57,280 --> 00:36:59,280
+ It's perfect for a beginner
+
+478
+00:36:59,400 --> 00:37:01,700
+ if you're a beginner look if you're
+
+479
+00:37:02,600 --> 00:37:08,480
+ I'm I'm getting frustrated here because we how much time we already lost on this topic, right? We're 10 minutes on
+
+480
+00:37:08,840 --> 00:37:10,840
+ What's wrong with Windows?
+
+481
+00:37:11,920 --> 00:37:13,680
+ All right, so
+
+482
+00:37:13,680 --> 00:37:20,880
+ Opps out of the snap packages. Yeah, which I like I know I love that. I love that minute. There's a reason that I pick mint, right?
+
+483
+00:37:21,640 --> 00:37:28,520
+ Yes, my mom uses mint. Yeah, yeah, people are gonna use it look arch if people gonna flex on you about their Linux ask them what they've done
+
+484
+00:37:29,600 --> 00:37:33,320
+ People who love to flex about their Linux just trying stuff don't do anything
+
+485
+00:37:33,800 --> 00:37:39,260
+ They spend all their time configuring their distro. They don't actually get anything done. I want to get stuff done
+
+486
+00:37:39,260 --> 00:37:43,760
+ I want to get you coding. I want to get you to start writing code right now as fast as possible
+
+487
+00:37:43,760 --> 00:37:46,680
+ If you want to spend time customizing your terminal great
+
+488
+00:37:46,680 --> 00:37:50,000
+ We're gonna cover that in terminal velocity next in another book
+
+489
+00:37:50,000 --> 00:37:55,700
+ Okay, and I'm trying really really really really hard to go against my own impulses here
+
+490
+00:37:55,760 --> 00:37:59,560
+ Which is to have you just you know put a links container on and be done with it
+
+491
+00:37:59,600 --> 00:38:04,720
+ And so I have to make Colonel before the drivers man has the Sir Lansing
+
+492
+00:38:04,720 --> 00:38:08,680
+ Yeah, we're not even talking about that mint is absolutely good. David is great. Yes
+
+493
+00:38:10,800 --> 00:38:16,800
+ Yeah, look we could I mean it never I brought I said Linux and now everybody's got you know chiming in with her opinion right now
+
+494
+00:38:16,800 --> 00:38:23,520
+ And as a beginner just don't just don't just stay with me. Okay get get bash installed
+
+495
+00:38:23,800 --> 00:38:28,120
+ Okay, it'll be your first experience with bash plus it integrates with your terminal
+
+496
+00:38:28,440 --> 00:38:33,080
+ then it was term working the way we've got it working right now and then we're gonna
+
+497
+00:38:33,560 --> 00:38:38,080
+ Couple other things to do and then we're gonna be writing code. We're gonna be writing code already
+
+498
+00:38:38,960 --> 00:38:44,480
+ Right and if you want to do all that stuff just know that you can there's nothing wrong with customizing your terminal
+
+499
+00:38:44,480 --> 00:38:50,000
+ But it's gonna stop you from getting to the coding and I've already spent way too much time talking about this
+
+500
+00:38:50,000 --> 00:38:54,560
+ but I need to because this is on the internet and the internet is full of
+
+501
+00:38:56,280 --> 00:39:02,400
+ Part of my French assholes that are don't care about you. They want to flex. They want to show how awesome they are
+
+502
+00:39:02,400 --> 00:39:04,400
+ They don't want to help you
+
+503
+00:39:04,400 --> 00:39:05,760
+ and
+
+504
+00:39:05,760 --> 00:39:08,680
+ And I'm telling you right now. I am here to help you
+
+505
+00:39:09,480 --> 00:39:14,960
+ Stick with the simple stuff for now poor now. There's gonna be plenty of time to learn all the other stuff later
+
+506
+00:39:15,680 --> 00:39:17,680
+ okay, so
+
+507
+00:39:18,600 --> 00:39:23,160
+ Dale I actually think you've already screwed yourself over because you've been listening to other people and
+
+508
+00:39:23,360 --> 00:39:27,280
+ They've either me or you put me emphasis to or you were trying to experiment
+
+509
+00:39:27,280 --> 00:39:33,560
+ Well, I was experimenting and you were coming along for the ride and now your system's kind of screwed up because it's got like five different things installed
+
+510
+00:39:33,920 --> 00:39:40,800
+ So that's why I spend so much time testing this stuff for the first time for the first for the easy person
+
+511
+00:39:41,920 --> 00:39:49,720
+ Yeah, anyway, so here we go. Let's go next. Okay, so we've got we've got the we should at this point have was term on
+
+512
+00:39:49,720 --> 00:39:54,240
+ If you don't have an on and you are you're still having problems and you screwed your computer up
+
+513
+00:39:54,640 --> 00:40:00,400
+ Come into the discord come into our chat ask your questions and we'll try to help you get it working
+
+514
+00:40:00,400 --> 00:40:06,200
+ Okay, get this working get it working. This is where having a community really helps
+
+515
+00:40:06,200 --> 00:40:11,360
+ You've got an entire community here on Sundays. It's available to help you you have a discord chat
+
+516
+00:40:11,360 --> 00:40:16,400
+ You can go to you have you know any number of people you can go to you can come into our IRC chat anytime
+
+517
+00:40:16,400 --> 00:40:20,880
+ You can say hey, I almost got it running, but I got this problem here and we can help you debug your problem
+
+518
+00:40:21,000 --> 00:40:25,240
+ The chances are if you're an absolute beginner you don't have these problems because you know
+
+519
+00:40:25,240 --> 00:40:29,040
+ You've done the steps in order and something hasn't gotten out of the out of control
+
+520
+00:40:30,160 --> 00:40:35,200
+ And you know learning how to debug those problems and fix them yourself is a skill
+
+521
+00:40:35,200 --> 00:40:39,520
+ That's good and essential, but that's it's also part of operations, but it's not
+
+522
+00:40:40,200 --> 00:40:45,920
+ Required right now, right? So we just want to get you the point where you can do the coin. All right, so let's go back to here
+
+523
+00:40:46,640 --> 00:40:48,640
+ All right, so next we're gonna install
+
+524
+00:40:48,800 --> 00:40:54,920
+ The new of a matter now this this this is actually kind of a thing for me. This is optional
+
+525
+00:40:55,560 --> 00:41:02,000
+ You do not need to install the new of a metater in order to participate in anything in this book
+
+526
+00:41:02,240 --> 00:41:07,080
+ In fact, you already have an editor on your system. You can use right now
+
+527
+00:41:07,920 --> 00:41:11,960
+ But but it is so easy to install a neo-vim
+
+528
+00:41:12,960 --> 00:41:19,360
+ That it's kind of worth doing so let's do it. Okay. What is neo-vim neo-vim is the terminal-based editor?
+
+529
+00:41:19,360 --> 00:41:25,960
+ That's the new VIM VIM is an older editor the improve version of V. I
+
+530
+00:41:26,400 --> 00:41:31,720
+ V. I is the visual mode of X and X is an improved version of Ed, which is the first
+
+531
+00:41:32,640 --> 00:41:36,000
+ Which is the first text editor ever made by human beings?
+
+532
+00:41:36,840 --> 00:41:40,660
+ So BIM is very popular out there. Okay
+
+533
+00:41:41,880 --> 00:41:45,560
+ People here's horror stories about them. It's actually not that hard as you saw
+
+534
+00:41:45,560 --> 00:41:47,240
+ We've been using them to view files
+
+535
+00:41:47,240 --> 00:41:51,960
+ But just pushing the arrows around and then and then you know escaping with or getting out of it with ZZ
+
+536
+00:41:52,240 --> 00:41:53,320
+ so
+
+537
+00:41:53,320 --> 00:41:57,440
+ It's it's not as hard as people think people love to make jokes about how hard it is to get out
+
+538
+00:41:57,600 --> 00:41:59,600
+ You know about ZZ now and you can get out
+
+539
+00:42:00,200 --> 00:42:06,360
+ Ed is the standard unit senator absolutely is and and X was it was it's credit with came after it
+
+540
+00:42:06,360 --> 00:42:11,320
+ ZZ says you know Ed came after it and then and and V. I is visual mode of ed and
+
+541
+00:42:11,880 --> 00:42:16,800
+ VIM is an improved version of the I and neo-vim is an improved version of VIM
+
+542
+00:42:17,280 --> 00:42:19,800
+ So just so you can see how that all plays out
+
+543
+00:42:20,640 --> 00:42:22,640
+ That's what it's written up here
+
+544
+00:42:23,160 --> 00:42:25,160
+ Okay, so
+
+545
+00:42:25,760 --> 00:42:27,760
+ Yes
+
+546
+00:42:28,120 --> 00:42:33,040
+ And we still have X or C. I knew him. I don't even know if you have X or C. Is that still a thing?
+
+547
+00:42:33,760 --> 00:42:35,760
+ interesting, okay, so
+
+548
+00:42:36,440 --> 00:42:41,880
+ So anyway, it used to be you have an extra C bar change back into the dot files directory. Hey Ben
+
+549
+00:42:42,360 --> 00:42:46,960
+ So, okay, so well, let's go let's go back to where we were the three group. I'm gonna do this on Windows
+
+550
+00:42:47,800 --> 00:42:50,720
+ because it's you know not messing with my system here I
+
+551
+00:42:51,640 --> 00:42:57,000
+ Mac or Windows. It doesn't matter. So in my case my dot files template is called a template yours might be called something else
+
+552
+00:42:57,240 --> 00:42:59,240
+ so let's go into
+
+553
+00:42:59,960 --> 00:43:05,480
+ The VIM directory now inside the VIM record. Let's look around. Okay, so let's do view
+
+554
+00:43:05,880 --> 00:43:07,880
+ view init.lua
+
+555
+00:43:07,880 --> 00:43:09,200
+ and
+
+556
+00:43:09,200 --> 00:43:13,600
+ You can see this is Lua language. You can see we've got a configure to help you out
+
+557
+00:43:14,400 --> 00:43:20,480
+ I actually have the screen keys stuff in here. So you can see the keystrokes that you're pressing on the screen by default
+
+558
+00:43:21,000 --> 00:43:23,680
+ You can disable that pretty easily, but I left that in there
+
+559
+00:43:24,120 --> 00:43:27,320
+ A lot of people ask for that and so I went ahead and left it in there
+
+560
+00:43:27,600 --> 00:43:31,520
+ You notice they're not on right now because we're not running that but
+
+561
+00:43:32,600 --> 00:43:38,640
+ So to get out is easy. Whoops. I'm doing a macro. Oh, no, I can't get out. There we go. So
+
+562
+00:43:40,040 --> 00:43:42,040
+ And so that's the first one of that
+
+563
+00:43:42,320 --> 00:43:44,320
+ You can you can view plug
+
+564
+00:43:45,360 --> 00:43:47,120
+ plug dot VIM
+
+565
+00:43:47,120 --> 00:43:51,200
+ Plug dot VIM is a big big plug-in manager that we're gonna use for VIM
+
+566
+00:43:51,320 --> 00:43:55,120
+ There's no reason to understand anything that's in here. Just know that it's there
+
+567
+00:43:55,920 --> 00:44:02,480
+ The VIM RC is the core file and at this point usually Neil VIM personal say why are you using VIM RC?
+
+568
+00:44:02,480 --> 00:44:03,840
+ Why don't you just use a knit dot lua?
+
+569
+00:44:03,840 --> 00:44:09,520
+ The reason is so that you can use your VIM RC on any system that has VIM or Neil VIM
+
+570
+00:44:09,840 --> 00:44:13,120
+ It does not require you to have Neil VIM which a lot of times you won't have
+
+571
+00:44:14,080 --> 00:44:18,640
+ So that's why we use VIM instead of everything in a knit dot lua
+
+572
+00:44:18,640 --> 00:44:22,440
+ But we have the two files together and if you want to see how those are set up
+
+573
+00:44:22,440 --> 00:44:25,240
+ I'm gonna show you if you don't if you just want to trust me on this
+
+574
+00:44:25,240 --> 00:44:27,320
+ We're just gonna run the setup, but I'm explaining it
+
+575
+00:44:27,560 --> 00:44:34,480
+ So the setup is very simple. It creates a symbolic link to the VIM RC file creates another it creates a directory for
+
+576
+00:44:34,640 --> 00:44:40,760
+ Auto loading the VIM plug-in manager and then creates a similar to that and then it creates an a knit dot lua file
+
+577
+00:44:40,920 --> 00:44:47,960
+ Which if you're running Neil VIM will be the first thing to run and then that will pull in or source the VIM RC files
+
+578
+00:44:47,960 --> 00:44:55,600
+ So that if you have Neil VIM it will use it and if you don't have Neil VIM it will just use the VIM RC and that is
+
+579
+00:44:56,000 --> 00:44:58,840
+ That actually allows us to use something called progressive enhancement
+
+580
+00:44:59,160 --> 00:45:05,440
+ So we can detect what's on your system and use what you have and so let's get down with the install
+
+581
+00:45:05,440 --> 00:45:13,560
+ So I'm gonna type setup here that creates a symbolic links and now we can actually test this by doing the same thing
+
+582
+00:45:13,560 --> 00:45:15,560
+ We just did
+
+583
+00:45:15,560 --> 00:45:19,120
+ Actually, let's just try let's do the same thing with BI. So now
+
+584
+00:45:20,000 --> 00:45:25,600
+ Actually, let's do this first. Let's exec bash -l which gives us a new login shell
+
+585
+00:45:26,000 --> 00:45:29,800
+ and then we can edit a file here just for fun. Let's do this BI setup and
+
+586
+00:45:30,320 --> 00:45:33,440
+ You can see that you have the file there now
+
+587
+00:45:33,920 --> 00:45:39,480
+ This is still using this is still using a different one. So I think we still need to like log out and log back in again
+
+588
+00:45:40,200 --> 00:45:41,520
+ but
+
+589
+00:45:41,520 --> 00:45:43,520
+ Let's do
+
+590
+00:45:43,520 --> 00:45:45,520
+ Yeah, I don't let's see
+
+591
+00:45:46,920 --> 00:45:50,600
+ Yeah, I don't know if it's gonna work since it was our editor say
+
+592
+00:45:53,240 --> 00:45:55,240
+ Huh
+
+593
+00:45:55,240 --> 00:45:57,800
+ I'm wondering why that didn't pull up. I
+
+594
+00:45:59,160 --> 00:46:04,920
+ Don't know let's try something here. Let's exit and start up start up a new a new was term
+
+595
+00:46:08,960 --> 00:46:10,960
+ Start up a new one
+
+596
+00:46:11,680 --> 00:46:13,680
+ Start a new was term
+
+597
+00:46:15,280 --> 00:46:18,400
+ You could probably just do another thing. I'm just trying to figure out why
+
+598
+00:46:23,360 --> 00:46:28,480
+ Oopsie control C to stop. I needed to do control C CD and a dot template
+
+599
+00:46:29,560 --> 00:46:32,720
+ Or whatever your dot is all right. I'm gonna read the read me file
+
+600
+00:46:35,400 --> 00:46:39,240
+ Yeah, oh, it's interesting. I must not have turned on the
+
+601
+00:46:40,400 --> 00:46:42,400
+ screen key by default
+
+602
+00:46:42,680 --> 00:46:45,600
+ I must not have turned the screen key on by default. I don't see it there
+
+603
+00:46:45,600 --> 00:46:47,600
+ So shifts easy to get out or
+
+604
+00:46:48,480 --> 00:46:54,880
+ Sips easy is what you're getting out with right now can use the other stuff later. All right now. We're ready to learn them everybody
+
+605
+00:46:54,880 --> 00:46:56,000
+ so
+
+606
+00:46:56,000 --> 00:46:59,880
+ That's it. We we are now ready to learn them and
+
+607
+00:47:00,880 --> 00:47:03,800
+ Let's actually recap a little bit what we've done
+
+608
+00:47:05,680 --> 00:47:07,960
+ We'll go back into here and
+
+609
+00:47:09,160 --> 00:47:11,160
+ We are 47 minutes in
+
+610
+00:47:11,720 --> 00:47:14,000
+ So here you can see
+
+611
+00:47:15,400 --> 00:47:18,240
+ So we got this we got neo-vam on there. It's installed
+
+612
+00:47:19,800 --> 00:47:21,800
+ and
+
+613
+00:47:22,280 --> 00:47:23,720
+ What else we got?
+
+614
+00:47:23,720 --> 00:47:29,200
+ Hey, don so you got this you got install neo-vam CD into neo-vam.slash setup and
+
+615
+00:47:29,560 --> 00:47:32,360
+ Then here's something new you haven't seen so you see this dash
+
+616
+00:47:32,920 --> 00:47:39,240
+ The dash will take you back to what you forgot you were at and I don't want anybody to worry
+
+617
+00:47:39,240 --> 00:47:45,680
+ Because there's like a lot of things to remember here and there's a review section coming up. That's got every single new thing that we learned line items
+
+618
+00:47:45,680 --> 00:47:52,880
+ So you can check yourself. Let's go there now. So confirm installation. You can do NVIM dash version VIM dash version
+
+619
+00:47:53,400 --> 00:47:54,600
+ so
+
+620
+00:47:54,600 --> 00:47:56,600
+ So this is actually kind of interesting
+
+621
+00:47:58,360 --> 00:48:04,360
+ Let's let's actually try this one. This is fun. So let's do NVIM dash dash version and
+
+622
+00:48:05,160 --> 00:48:07,160
+ Let's do VIM dash dash version
+
+623
+00:48:08,400 --> 00:48:13,720
+ Much different, right? All right. So let's actually go try that on on Windows as well
+
+624
+00:48:15,200 --> 00:48:17,640
+ So VIM dash dash version
+
+625
+00:48:18,480 --> 00:48:20,320
+ Whoa, look at that and VIM
+
+626
+00:48:21,760 --> 00:48:23,760
+ dash dash version
+
+627
+00:48:25,960 --> 00:48:31,200
+ It should you should have the same color scheme if you did the bash or see if you did the the west term configuration, right?
+
+628
+00:48:33,040 --> 00:48:36,080
+ If you did the west term configuration did you skip that step?
+
+629
+00:48:37,360 --> 00:48:40,720
+ If you reopen the west term you'll get the new configuration
+
+630
+00:48:42,720 --> 00:48:46,720
+ Yep, you should get the new one if your west term is being seen
+
+631
+00:48:49,080 --> 00:48:52,720
+ Yeah, if for any reason your west term lua file isn't being loaded
+
+632
+00:48:55,120 --> 00:48:57,400
+ It does have a bunch of them it really does
+
+633
+00:48:59,160 --> 00:49:03,320
+ So yeah, if you want there is something about west term you can do
+
+634
+00:49:05,160 --> 00:49:07,160
+ Or is it
+
+635
+00:49:08,080 --> 00:49:14,000
+ I don't remember where it is in west term you can actually reload it can fig but the if you're a beginner just close it and restart it
+
+636
+00:49:15,440 --> 00:49:19,040
+ So if you want to use a different color scheme, that's fine, but i'm telling you right now
+
+637
+00:49:19,760 --> 00:49:25,360
+ Everything in this book is designed for group box material and I can't promise you that
+
+638
+00:49:26,000 --> 00:49:28,720
+ It's not going to look bad in your stuff
+
+639
+00:49:29,440 --> 00:49:31,120
+ every single
+
+640
+00:49:31,120 --> 00:49:37,600
+ Theme in every app is designed using group box material if you want to start configuring with a different material thing
+
+641
+00:49:37,760 --> 00:49:40,160
+ That's fine, but just please wait
+
+642
+00:49:40,800 --> 00:49:46,560
+ Because you might end up making it so something doesn't appear as well and you might you know end up wasting time on that
+
+643
+00:49:47,200 --> 00:49:49,760
+ So I'm not opposed to you doing it. I just yeah
+
+644
+00:49:51,440 --> 00:49:55,280
+ Uh, it's not memory leak. I usually don't trust reading the config to not memory leak
+
+645
+00:49:56,640 --> 00:49:58,640
+ Yeah
+
+646
+00:49:58,800 --> 00:50:03,680
+ I have the default conversations for now. Okay, but are you are you do you have here?
+
+647
+00:50:03,840 --> 00:50:05,840
+ Okay, somebody is using a default color theme
+
+648
+00:50:06,480 --> 00:50:12,240
+ The only reason that would be is if you did not run the config right you did not run setup in the config directory
+
+649
+00:50:12,880 --> 00:50:19,040
+ So did you do this did you go into the west term directory and did you run dots? Did you run dot slash setup?
+
+650
+00:50:22,320 --> 00:50:24,320
+ Did you do this part
+
+651
+00:50:26,640 --> 00:50:29,920
+ Where it's writing all the vites and stuff and then it's doing the thing
+
+652
+00:50:31,840 --> 00:50:33,840
+ Inside of the west term
+
+653
+00:50:35,120 --> 00:50:39,680
+ Okay, now you have to restart so you go out and then start up a new west term
+
+654
+00:50:42,880 --> 00:50:47,360
+ I want to stay with you on this because maybe you found a bug so in our config
+
+655
+00:50:49,680 --> 00:50:52,960
+ So you should be getting the new colors
+
+656
+00:50:55,840 --> 00:50:59,920
+ I wonder I wonder if there's a reason that it wouldn't be built in
+
+657
+00:51:03,600 --> 00:51:05,600
+ It's still the default colors
+
+658
+00:51:07,120 --> 00:51:09,120
+ Did that not change it
+
+659
+00:51:11,200 --> 00:51:13,680
+ No, I don't I've been using west term we covered that already
+
+660
+00:51:14,880 --> 00:51:16,400
+ Yeah, you have to go back in the video and watch it
+
+661
+00:51:16,400 --> 00:51:20,560
+ I cover a whole thing about why I dropped a lacquered I wrote a whole thing in the epic you on the books link
+
+662
+00:51:20,960 --> 00:51:24,240
+ If you click on that code books link and you go back to just books and click on
+
+663
+00:51:24,880 --> 00:51:29,520
+ Uh, shut the pack up. You can go read why I dropped a lacquered if you want to know why
+
+664
+00:51:30,160 --> 00:51:32,320
+ um lacquered he did me wrong for the last time
+
+665
+00:51:34,000 --> 00:51:36,000
+ It's a lot slower too and west term
+
+666
+00:51:36,800 --> 00:51:41,360
+ Anyway, if if you're still having trouble getting the configuration is to just show up, you know
+
+667
+00:51:42,080 --> 00:51:44,240
+ Let us let us know. Otherwise, I'm gonna proceed
+
+668
+00:51:45,440 --> 00:51:46,800
+ um
+
+669
+00:51:46,800 --> 00:51:48,080
+ So again
+
+670
+00:51:48,080 --> 00:51:52,080
+ This these steps in the book are designed to go sequentially if you miss a step
+
+671
+00:51:52,800 --> 00:51:56,320
+ Like you didn't saw west term or your bachelor sees different
+
+672
+00:51:57,040 --> 00:52:01,040
+ Uh, or something like that, you know, then that that might be a problem
+
+673
+00:52:01,920 --> 00:52:04,080
+ Uh, see matrix in the background
+
+674
+00:52:05,440 --> 00:52:07,600
+ Is the screen saver see matrix? No, it's neo
+
+675
+00:52:08,960 --> 00:52:11,200
+ But it's not there right now. So yeah
+
+676
+00:52:12,160 --> 00:52:13,280
+ Uh
+
+677
+00:52:13,280 --> 00:52:15,680
+ Way better actually. Yeah, you're talking about this
+
+678
+00:52:17,120 --> 00:52:18,880
+ This is neo
+
+679
+00:52:18,880 --> 00:52:21,600
+ Yeah, it's it don't you have to compile it so
+
+680
+00:52:22,800 --> 00:52:26,480
+ Um, anyway, that's all stuff. That's terminal velocity stuff. That's not in the book
+
+681
+00:52:26,960 --> 00:52:27,760
+ Yeah
+
+682
+00:52:27,760 --> 00:52:32,560
+ Any ill it's in my dot files, which you know, art of the extra on get him and go find that
+
+683
+00:52:33,600 --> 00:52:36,720
+ Okay, so next what are we doing now? We're gonna do
+
+684
+00:52:37,920 --> 00:52:42,640
+ We did we did we did end them. We did both of the versions now. We know we got those different versions
+
+685
+00:52:43,840 --> 00:52:47,840
+ Uh, neo them is it talks about the difference between them. It's a lot of history
+
+686
+00:52:48,480 --> 00:52:51,040
+ Just know that no other editor can claim that line of authority
+
+687
+00:52:51,600 --> 00:52:55,680
+ It's true. Try this for fun vi version. Notice that is the same. Okay. So
+
+688
+00:52:56,320 --> 00:52:58,400
+ If you've done your bachelor see right
+
+689
+00:52:59,040 --> 00:53:02,080
+ Then vi will be neo them
+
+690
+00:53:02,560 --> 00:53:05,680
+ And let me show you what I mean by that vi dash dash version
+
+691
+00:53:06,560 --> 00:53:10,160
+ And the reason for that is something called progressive enhancement
+
+692
+00:53:10,720 --> 00:53:12,720
+ um, which says
+
+693
+00:53:13,280 --> 00:53:19,200
+ That vi is a ways to editor and editor is set. I'm gonna actually show you you don't need to not care about this
+
+694
+00:53:20,000 --> 00:53:22,000
+ But what it does is
+
+695
+00:53:22,880 --> 00:53:24,880
+ The bachelor see that you installed
+
+696
+00:53:25,280 --> 00:53:27,280
+ Actually will set up
+
+697
+00:53:28,080 --> 00:53:34,000
+ This progressive enhancement for vi and what it says this here is it says if I have them
+
+698
+00:53:34,960 --> 00:53:40,400
+ Then set my editor to be to to set the editor to to to them to vi
+
+699
+00:53:40,880 --> 00:53:43,440
+ Which in my case is is I could have put that to be vim
+
+700
+00:53:43,520 --> 00:53:47,360
+ But it's vi in that case if it's n-bim then set the editor
+
+701
+00:53:48,000 --> 00:53:52,800
+ to um, if I have them that should have been vim actually and then if it's n-bim set the editor to vim
+
+702
+00:53:54,000 --> 00:53:56,480
+ Right back there. I need to make I think that might be a bug
+
+703
+00:53:57,520 --> 00:53:59,520
+ So we'll have to it should be vim
+
+704
+00:53:59,520 --> 00:54:04,640
+ But the main reason is working is because n-bim gets detected and then it sets the editor to n-bim
+
+705
+00:54:05,040 --> 00:54:05,840
+ Okay
+
+706
+00:54:05,840 --> 00:54:12,000
+ So that's why when you say, you know type vi when you type vi whatever it does it in vi
+
+707
+00:54:12,160 --> 00:54:14,400
+ Okay, and it uses the editor that you have
+
+708
+00:54:14,960 --> 00:54:16,720
+ Um, so let's move on from that
+
+709
+00:54:16,720 --> 00:54:19,040
+ Let's actually start using it and learn how to use it
+
+710
+00:54:19,680 --> 00:54:23,840
+ So activate your plugins. Okay, so this is always a really tough one
+
+711
+00:54:24,400 --> 00:54:25,760
+ um
+
+712
+00:54:25,760 --> 00:54:27,760
+ and um
+
+713
+00:54:28,800 --> 00:54:31,440
+ This command actually activates the plugins from the command line
+
+714
+00:54:32,160 --> 00:54:39,520
+ But you can also do this inside of the program. So let's actually attempt it both ways. Okay. I'm going to show you how to do it both ways
+
+715
+00:54:40,160 --> 00:54:44,560
+ Um, just so you know whenever you do a plus here and a plus qa what that says is it says
+
+716
+00:54:45,200 --> 00:54:48,880
+ run vi do all the things and then exit
+
+717
+00:54:49,840 --> 00:54:51,840
+ right and
+
+718
+00:54:52,000 --> 00:54:56,080
+ So we're using that as a way to to to get our plugins ready
+
+719
+00:54:56,720 --> 00:55:01,360
+ Right. So let me show you what that does. Oh, let's do it on windows. I mean on macverse. So vi
+
+720
+00:55:02,160 --> 00:55:05,120
+ Uh, and this is the kind of thing that you can do it over and over and it's not going to hurt anything
+
+721
+00:55:05,440 --> 00:55:06,080
+ Okay
+
+722
+00:55:06,080 --> 00:55:10,880
+ So even if you have already done it once oops wrong system here
+
+723
+00:55:11,440 --> 00:55:14,320
+ Even if you've already done it once um, you can do it again
+
+724
+00:55:14,960 --> 00:55:20,880
+ Vi plus plug-in plug is it plug install? Yeah plug install not plug-in install did I did I have that right?
+
+725
+00:55:21,840 --> 00:55:25,440
+ Yeah, and then plus qa and that just says immediately exit
+
+726
+00:55:25,680 --> 00:55:26,560
+ So
+
+727
+00:55:26,560 --> 00:55:30,560
+ And then we're going to add to execute that and you see it ran so fast we didn't even see what it did
+
+728
+00:55:31,200 --> 00:55:35,200
+ Right now you can do the same thing from in within vi. It's just a little harder
+
+729
+00:55:35,600 --> 00:55:38,640
+ If you want to try that it's not in the book, but i'm going to show you how so uv
+
+730
+00:55:39,200 --> 00:55:45,200
+ Uvi it just started up on anything and then it's a blank page and then you type colon
+
+731
+00:55:45,840 --> 00:55:48,560
+ plug and if you want to you can type tab and then
+
+732
+00:55:49,120 --> 00:55:54,400
+ Tab tab tab tab to the install and then you can type plug install enter and it will do the same thing
+
+733
+00:55:54,400 --> 00:55:56,400
+ But in this case you get to see what it did
+
+734
+00:55:56,640 --> 00:56:00,960
+ So it actually went out and got all the plugins from the internet and it downloaded them
+
+735
+00:56:01,520 --> 00:56:06,080
+ Okay, and and now you can quit and you're quitting is the same way zz
+
+736
+00:56:07,040 --> 00:56:09,680
+ Uh, we'll get you out of there. Okay, so zz gets you out
+
+737
+00:56:10,160 --> 00:56:10,960
+ So
+
+738
+00:56:10,960 --> 00:56:16,480
+ There now if you if you want to at this time, you can also install the go binaries
+
+739
+00:56:16,560 --> 00:56:21,280
+ Now you can actually wait to install the go binaries until you do the go thing
+
+740
+00:56:21,840 --> 00:56:25,360
+ This is going to take you quite a while and let me show you what I mean
+
+741
+00:56:25,760 --> 00:56:30,960
+ It has to download and compile like 12 different programs in order for to run
+
+742
+00:56:30,960 --> 00:56:35,200
+ It will probably take you about five or ten minutes for it to finish
+
+743
+00:56:35,840 --> 00:56:38,880
+ Um, but so i'm not going to do that command right now
+
+744
+00:56:38,880 --> 00:56:41,120
+ But it's exactly the same and every other way
+
+745
+00:56:41,760 --> 00:56:46,400
+ As plug install it's just go install binaries and
+
+746
+00:56:47,200 --> 00:56:50,160
+ Again, you can run it from the command line and sit around and wait for it
+
+747
+00:56:50,880 --> 00:56:54,640
+ Or you can wait for that command and do it later on if you want
+
+748
+00:56:55,120 --> 00:56:58,480
+ Uh, I don't need to do it because i've already done it if you don't have that
+
+749
+00:56:59,120 --> 00:57:00,080
+ Uh
+
+750
+00:57:00,080 --> 00:57:02,080
+ Later just to give you a preview
+
+751
+00:57:02,480 --> 00:57:04,480
+ Um, you're not going to get
+
+752
+00:57:05,040 --> 00:57:09,600
+ This kind of stuff right so like if I screw something up, you see
+
+753
+00:57:10,160 --> 00:57:12,320
+ Uh, oops
+
+754
+00:57:12,320 --> 00:57:13,920
+ I'm trying to break something here
+
+755
+00:57:13,920 --> 00:57:17,280
+ All right, so you see how the errors pop up and everything and all that stuff
+
+756
+00:57:17,760 --> 00:57:19,760
+ That none of that stuff is going to happen
+
+757
+00:57:19,920 --> 00:57:22,080
+ Unless you have that set up correctly
+
+758
+00:57:22,560 --> 00:57:24,640
+ So you're going to need those binaries for that
+
+759
+00:57:25,280 --> 00:57:29,520
+ And um, you see this how this gets automatically installed watch what happens when I save it
+
+760
+00:57:30,000 --> 00:57:32,000
+ um, oops
+
+761
+00:57:33,040 --> 00:57:39,600
+ Okay, so when I automatically took that out you can see that it automatically remove the input import statement
+
+762
+00:57:40,000 --> 00:57:45,360
+ If I had if I had if I didn't have these plugins for any other reason that would be the major reason
+
+763
+00:57:45,680 --> 00:57:48,080
+ Well, the most annoying things about go that we'll get into is
+
+764
+00:57:48,640 --> 00:57:51,920
+ Removing and adding and managing everything in this little import section
+
+765
+00:57:52,400 --> 00:57:55,200
+ And the thing that's really cool about this is that when you save
+
+766
+00:57:56,000 --> 00:57:58,000
+ I don't know what's going on. I've got um
+
+767
+00:57:59,520 --> 00:58:01,520
+ I have something going on
+
+768
+00:58:02,560 --> 00:58:05,920
+ I must have broken something. I don't have to go figure out what I broke
+
+769
+00:58:07,200 --> 00:58:10,240
+ Error detected while processing buff free right on a commands buffer equals one
+
+770
+00:58:12,320 --> 00:58:16,080
+ Something about my install is causing it to break. I don't know what so
+
+771
+00:58:16,800 --> 00:58:22,720
+ I probably broke it doing all the install with you today. Um, I've been I mean I did 12 hours ago program yesterday
+
+772
+00:58:22,720 --> 00:58:28,640
+ So I have no idea what that's about. It's definitely new though. Um, anyway, so so that's what you do
+
+773
+00:58:30,000 --> 00:58:36,720
+ And okay, so now is learn the bim basics and that is a good place for us to end. So this has been an hour long
+
+774
+00:58:37,360 --> 00:58:43,600
+ Uh session, uh by the end of it. You should have every tool installed that you need
+
+775
+00:58:44,160 --> 00:58:50,480
+ Um to to have so we installed the west term terminal. We installed neo bim
+
+776
+00:58:50,960 --> 00:58:56,240
+ Uh, and we tried to resolve any problems. We did the last session. We installed bash and adopt files
+
+777
+00:58:56,560 --> 00:59:04,320
+ We are now ready to learn bim and so the next session we're going to learn the bim basics
+
+778
+00:59:05,040 --> 00:59:07,600
+ So stay tuned for that and come on back and check it out with us
+
+779
+00:59:08,080 --> 00:59:11,840
+ Um, and then we're going to go ahead and create a cookbook and we'll start practicing our bim
+
+780
+00:59:11,840 --> 00:59:13,920
+ We're very close to writing some code
+
+781
+00:59:13,920 --> 00:59:18,160
+ But let's learn bim in the next one. I know it's been frustrating if you have any help
+
+782
+00:59:18,240 --> 00:59:22,080
+ You need some help come on in find us in the discord find us in the chat
+
+783
+00:59:22,640 --> 00:59:26,480
+ Um and and ask your questions. Um, otherwise, um
+
+784
+00:59:27,200 --> 00:59:29,680
+ And yeah, if you if you guys have problems
+
+785
+00:59:30,160 --> 00:59:35,680
+ Uh, please let us know because i'm not ruling out that the problems are related to our configuration for the beginners
+
+786
+00:59:36,160 --> 00:59:41,280
+ Um because we we do tweak that quite a bit. So if please let us know if you have a problem, please don't be shy
+
+787
+00:59:41,840 --> 00:59:48,320
+ Um, if if you have a problem because it could very well be that the problem is is is on our side too
+
+788
+00:59:48,320 --> 00:59:53,120
+ So please don't be shy about the problem and um, only come back the next video of you about them
+
+789
+00:59:53,760 --> 00:59:55,120
+ See you in a bit
+
