@@ -9,7 +9,7 @@ Chapters:
 3:57 Chart.lock and the actual Postgres version
 5:06 Values file changes and enabling backup
 6:31 How Helm includes and overrides subchart values
-9:49 Flattening charts without subchart values files
+9:46 Flattening charts without subchart values files
 12:17 Open question on values file precedence
 
 `#kubernetes #helm #harbor #postgresql #bitnami #pgdump #cronjob #devops`
