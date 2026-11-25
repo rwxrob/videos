@@ -6,6 +6,10 @@ For every video on YouTube: review it for selection, approve, transcribe, update
 
 A video is not "synced" until it has been fully transcribed and its title has been validated against the transcript, in addition to the description, tags and chapters matching what is on YouTube.
 
+## Series titles
+
+Videos in a numbered series use `<emoji> <Topic> (<Series Name> - #N)`, for example `🎄🚀 Shell Redirection, Pipes, Here Docs, and tee (Holiday Boost 2024 - #15)`. Use only `- #N` for the number, state it once, and keep the title within 100 characters.
+
 ## Archiving and skipping
 
 When we archive or skip a video (reject it in `yt-review`, or drop it in `yt-publish`), keep it on YouTube but make it private. Never delete a video. `yt-review reject|skip` and `yt-publish drop` do this with `yt-update privacy`.

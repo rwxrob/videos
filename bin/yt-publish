@@ -76,6 +76,11 @@ author's voice; a leading emoji is the author's branding and should be kept.
 Keep the current title if it is accurate and specific (even if casual). Change it
 only if it is wrong, misleading, vague, or has cruft. Never invent claims that are
 not in the transcript.
+Videos that belong to a numbered series use the format
+"<emoji> <Topic> (<Series Name> - #N)", for example
+"🎄🚀 Shell Redirection, Pipes, Here Docs, and tee (Holiday Boost 2024 - #15)".
+Use only "- #N" for the number (never "Part N" or "Day N"), state it once, and
+shorten the topic if needed to stay within 100 characters.
 
 Reply with ONLY a JSON object: {"title": "<final title>", "changed": true|false, "reason": "<one sentence with a timestamp as evidence>"}
 
