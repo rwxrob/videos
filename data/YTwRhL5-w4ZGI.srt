@@ -1,0 +1,3776 @@
+1
+00:00:00,000 --> 00:00:03,760
+ So, all right, we're gonna do a quick little video.
+
+2
+00:00:03,760 --> 00:00:06,520
+ Hopefully, it'll be around 40 minutes
+
+3
+00:00:06,520 --> 00:00:10,720
+ about how to organize your Go repo.
+
+4
+00:00:10,720 --> 00:00:13,840
+ So we already did, so the last two videos,
+
+5
+00:00:13,840 --> 00:00:16,480
+ we started coding and Go,
+
+6
+00:00:16,480 --> 00:00:19,920
+ and we did lots of different things.
+
+7
+00:00:19,920 --> 00:00:22,400
+ We had VS Code running, right?
+
+8
+00:00:22,400 --> 00:00:26,840
+ And it was really fun, so that's covered.
+
+9
+00:00:26,840 --> 00:00:29,840
+ But now, how do you organize your files, right?
+
+10
+00:00:29,840 --> 00:00:34,280
+ And I wanted to avoid jumping into this right away,
+
+11
+00:00:34,280 --> 00:00:37,680
+ because we wanted to get going with the code.
+
+12
+00:00:37,680 --> 00:00:40,680
+ But now that it comes time to kind of reorganize,
+
+13
+00:00:40,680 --> 00:00:44,640
+ particularly since you're trying to organize your notes
+
+14
+00:00:44,640 --> 00:00:45,920
+ along with your code,
+
+15
+00:00:45,920 --> 00:00:48,520
+ it's a good time to start talking about that.
+
+16
+00:00:48,520 --> 00:00:50,400
+ And you may have noticed a few changes already,
+
+17
+00:00:50,400 --> 00:00:55,400
+ so I have changed my README file from .md to .adoc.
+
+18
+00:00:56,360 --> 00:00:57,920
+ We will talk about that today,
+
+19
+00:00:57,920 --> 00:00:59,760
+ ASCII doc versus Markdown,
+
+20
+00:00:59,760 --> 00:01:01,960
+ which one you should use and why.
+
+21
+00:01:01,960 --> 00:01:04,080
+ I'm not gonna show you how,
+
+22
+00:01:04,080 --> 00:01:06,600
+ just maybe what you wanna do about that.
+
+23
+00:01:06,600 --> 00:01:08,240
+ We're gonna talk about the go.mod file.
+
+24
+00:01:08,240 --> 00:01:10,400
+ We're gonna talk about the go.sum file.
+
+25
+00:01:10,400 --> 00:01:12,640
+ And we're gonna talk about main.go.
+
+26
+00:01:12,640 --> 00:01:15,480
+ We're gonna talk about what you would name your files.
+
+27
+00:01:15,480 --> 00:01:17,720
+ We're gonna talk about how the files are interacting
+
+28
+00:01:17,720 --> 00:01:21,760
+ with other files and how you should organize your directory,
+
+29
+00:01:21,760 --> 00:01:25,200
+ particularly when you wanna put other things in there.
+
+30
+00:01:25,200 --> 00:01:26,160
+ All right, so let's get into it.
+
+31
+00:01:26,160 --> 00:01:28,440
+ So the first thing that you need to know
+
+32
+00:01:28,440 --> 00:01:33,280
+ is that any package, a package is,
+
+33
+00:01:33,280 --> 00:01:34,840
+ so this goes in your notes,
+
+34
+00:01:34,840 --> 00:01:39,840
+ a package is a directory that has go files in it.
+
+35
+00:01:41,720 --> 00:01:43,840
+ The end, the end, right?
+
+36
+00:01:43,840 --> 00:01:45,960
+ So if we were to look at where this is,
+
+37
+00:01:45,960 --> 00:01:50,720
+ this actually main.go is currently in a package
+
+38
+00:01:50,720 --> 00:01:53,080
+ called coding from the get-go.
+
+39
+00:01:53,080 --> 00:01:55,800
+ That is the name of the package.
+
+40
+00:01:55,800 --> 00:01:59,400
+ So if you were to reference anything in here,
+
+41
+00:01:59,400 --> 00:02:01,000
+ you would have to use that
+
+42
+00:02:01,000 --> 00:02:02,640
+ and then you would put a dot after that.
+
+43
+00:02:02,640 --> 00:02:07,640
+ So we are not, it's tough because I wanna teach you
+
+44
+00:02:08,220 --> 00:02:10,560
+ like for loop system when we get into
+
+45
+00:02:10,560 --> 00:02:12,320
+ how to organize your modules.
+
+46
+00:02:12,320 --> 00:02:17,320
+ But this, so just know that a package is everything
+
+47
+00:02:17,320 --> 00:02:21,120
+ in a current directory, folder, whatever you wanna call it.
+
+48
+00:02:21,120 --> 00:02:26,120
+ And that's it, okay?
+
+49
+00:02:26,120 --> 00:02:31,120
+ So everything that's in a folder is a package.
+
+50
+00:02:31,400 --> 00:02:35,360
+ And the name of the package is the directory name.
+
+51
+00:02:35,360 --> 00:02:37,440
+ All right, so the second thing to take away from this
+
+52
+00:02:37,440 --> 00:02:40,240
+ is, I think we could probably put this in our notes here.
+
+53
+00:02:40,240 --> 00:02:44,160
+ So I have my notes here, get organized.
+
+54
+00:02:44,160 --> 00:02:46,200
+ So let's just make a thing.
+
+55
+00:02:46,200 --> 00:02:51,200
+ So we could say a package is anything, is the current
+
+56
+00:02:53,960 --> 00:02:56,120
+ directory name, all right?
+
+57
+00:02:56,120 --> 00:02:59,800
+ The second thing is is that all go files,
+
+58
+00:02:59,800 --> 00:03:04,800
+ all go.go files in directory
+
+59
+00:03:08,680 --> 00:03:13,680
+ are as if they were all in a single file.
+
+60
+00:03:14,000 --> 00:03:17,840
+ So that means that if you split your program
+
+61
+00:03:17,840 --> 00:03:20,520
+ over several files, they're all the same
+
+62
+00:03:20,520 --> 00:03:22,360
+ as if you had a really big, big file.
+
+63
+00:03:22,360 --> 00:03:24,000
+ The names don't matter.
+
+64
+00:03:24,000 --> 00:03:26,640
+ They just have to end with dot go.
+
+65
+00:03:26,640 --> 00:03:27,840
+ There's one exception to that,
+
+66
+00:03:27,840 --> 00:03:30,080
+ which we're gonna get into much, much later,
+
+67
+00:03:30,080 --> 00:03:35,080
+ but that is unit test files.
+
+68
+00:03:36,960 --> 00:03:41,960
+ Unit test files have underscore test.go.
+
+69
+00:03:42,640 --> 00:03:47,520
+ And, but more on that later, okay?
+
+70
+00:03:47,520 --> 00:03:49,200
+ There are, we're also gonna talk,
+
+71
+00:03:49,200 --> 00:03:51,920
+ there's a couple other special things you can do.
+
+72
+00:03:51,920 --> 00:03:54,400
+ Like test data will be ignored.
+
+73
+00:03:55,880 --> 00:03:57,200
+ We'll get into the modules later,
+
+74
+00:03:57,200 --> 00:03:59,120
+ but for right now, you just wanna know,
+
+75
+00:03:59,120 --> 00:04:00,400
+ how do I organize my code?
+
+76
+00:04:00,400 --> 00:04:05,400
+ So by convention, you guys know what a convention is?
+
+77
+00:04:06,360 --> 00:04:08,680
+ A convention is things that something else people do
+
+78
+00:04:08,680 --> 00:04:11,840
+ that's not required, but it's generally a good idea
+
+79
+00:04:11,840 --> 00:04:13,680
+ 'cause everybody does it.
+
+80
+00:04:13,680 --> 00:04:18,680
+ By convention, main.go contains the entry point
+
+81
+00:04:19,920 --> 00:04:21,480
+ of the code.
+
+82
+00:04:21,480 --> 00:04:25,320
+ It contains funk main.
+
+83
+00:04:26,600 --> 00:04:29,880
+ Okay, so by convention, main.go contains funk main.
+
+84
+00:04:29,880 --> 00:04:33,240
+ And of course, if you have a funk main,
+
+85
+00:04:33,240 --> 00:04:37,040
+ that means that the package is also name.
+
+86
+00:04:37,040 --> 00:04:40,040
+ Also, you know, package main.
+
+87
+00:04:40,040 --> 00:04:42,280
+ We already talked about that last time.
+
+88
+00:04:42,280 --> 00:04:45,640
+ So that means that when you look at this,
+
+89
+00:04:45,640 --> 00:04:49,080
+ you're like, okay, this is a command, right?
+
+90
+00:04:49,080 --> 00:04:50,840
+ And so that's another takeaway.
+
+91
+00:04:52,840 --> 00:04:57,840
+ All packages are either commands or libraries, okay?
+
+92
+00:05:01,200 --> 00:05:04,240
+ So this is a very, I'm picking these words carefully.
+
+93
+00:05:06,040 --> 00:05:08,840
+ So commands or libraries,
+
+94
+00:05:08,840 --> 00:05:11,720
+ I guess we could underscore these instead.
+
+95
+00:05:11,720 --> 00:05:13,640
+ This is gonna make a metallic, all right?
+
+96
+00:05:13,640 --> 00:05:18,640
+ So you either, your package is either a command or library, okay?
+
+97
+00:05:20,800 --> 00:05:24,200
+ We haven't gotten into what that means.
+
+98
+00:05:24,200 --> 00:05:26,000
+ Just know that a command is something
+
+99
+00:05:26,000 --> 00:05:29,640
+ that turns into an executable and a library
+
+100
+00:05:29,640 --> 00:05:33,840
+ is something that turns into a binary library
+
+101
+00:05:33,840 --> 00:05:35,800
+ that can be imported by,
+
+102
+00:05:35,800 --> 00:05:38,560
+ and statically linked by another program.
+
+103
+00:05:38,560 --> 00:05:41,360
+ So that's the difference between those two.
+
+104
+00:05:41,360 --> 00:05:43,400
+ We'll get into how to make your own libraries later,
+
+105
+00:05:43,400 --> 00:05:45,720
+ but just so you know that that's a thing.
+
+106
+00:05:45,720 --> 00:05:46,720
+ But that is fundamental
+
+107
+00:05:46,720 --> 00:05:48,720
+ because that is going to get us
+
+108
+00:05:48,720 --> 00:05:52,400
+ into one of the biggest conventions.
+
+109
+00:05:52,400 --> 00:05:57,400
+ So, and that is put a general package code into PKG.
+
+110
+00:06:02,840 --> 00:06:05,280
+ There's nothing that says you have to do this,
+
+111
+00:06:06,280 --> 00:06:08,840
+ maybe you put it on your hoodie.
+
+112
+00:06:08,840 --> 00:06:11,560
+ Yeah, I don't know why I would do that, but.
+
+113
+00:06:11,560 --> 00:06:16,720
+ So anyway, put general package code into PKG.
+
+114
+00:06:16,720 --> 00:06:21,720
+ So, and say, put packages, put, let's see,
+
+115
+00:06:24,000 --> 00:06:28,840
+ put command packages into CMD, all right?
+
+116
+00:06:28,840 --> 00:06:33,840
+ So, library packages into PKG
+
+117
+00:06:35,040 --> 00:06:37,800
+ and put command packages into CMD.
+
+118
+00:06:37,800 --> 00:06:39,880
+ Again, this is not required.
+
+119
+00:06:39,880 --> 00:06:44,400
+ This is just a suggestion by that people,
+
+120
+00:06:44,400 --> 00:06:45,880
+ you know, just paraphrasing stuff
+
+121
+00:06:45,880 --> 00:06:48,240
+ that you would read elsewhere.
+
+122
+00:06:48,240 --> 00:06:50,360
+ So, let's actually do that, all right?
+
+123
+00:06:50,360 --> 00:06:55,440
+ So, we've got to make, now let's see,
+
+124
+00:06:55,440 --> 00:07:00,160
+ I should probably put this, keep go.doc at the root.
+
+125
+00:07:02,120 --> 00:07:11,920
+ Okay, which identifies the top of the module.
+
+126
+00:07:13,760 --> 00:07:16,780
+ Okay, so a module, what is a module?
+
+127
+00:07:17,800 --> 00:07:22,800
+ All right, so a module is a collection
+
+128
+00:07:24,240 --> 00:07:29,240
+ of is, contains one or more packages.
+
+129
+00:07:32,520 --> 00:07:35,680
+ All right, you can have a single package module
+
+130
+00:07:36,800 --> 00:07:38,400
+ and there are a lot of them that are that.
+
+131
+00:07:38,400 --> 00:07:40,560
+ So, I could say you had a command, right?
+
+132
+00:07:40,560 --> 00:07:44,080
+ That is a thing, but usually they have more than that, okay?
+
+133
+00:07:44,080 --> 00:07:46,600
+ So, here's a kind of a question.
+
+134
+00:07:46,600 --> 00:07:51,560
+ What do you think, you know?
+
+135
+00:07:51,560 --> 00:07:53,000
+ So, let's make these directories.
+
+136
+00:07:53,000 --> 00:07:58,000
+ So, make directory PKG, CMD, and now what goes where?
+
+137
+00:07:59,000 --> 00:08:01,200
+ You can probably guess, right?
+
+138
+00:08:01,200 --> 00:08:04,600
+ Well, let's put main into CMD.
+
+139
+00:08:04,600 --> 00:08:06,920
+ All right, so now main is in CMD
+
+140
+00:08:06,920 --> 00:08:11,600
+ and we have the go.somepile, which we'll talk about
+
+141
+00:08:11,600 --> 00:08:13,600
+ in a second and we have the PKG pile.
+
+142
+00:08:13,600 --> 00:08:16,560
+ Now, we don't have anything in PKG right now
+
+143
+00:08:16,560 --> 00:08:19,760
+ and we probably won't for a while, but we can leave it there.
+
+144
+00:08:19,760 --> 00:08:21,800
+ And something to know about Git
+
+145
+00:08:21,800 --> 00:08:24,960
+ is that if you don't have a file in there,
+
+146
+00:08:24,960 --> 00:08:26,840
+ that directory will not appear.
+
+147
+00:08:26,840 --> 00:08:29,840
+ So, I'm actually gonna do a little trick here.
+
+148
+00:08:29,840 --> 00:08:32,480
+ I'm gonna do PKG.keep.
+
+149
+00:08:32,480 --> 00:08:35,360
+ It's a trick that people use to keep the directory there,
+
+150
+00:08:35,360 --> 00:08:38,080
+ even though there's nothing in it,
+
+151
+00:08:38,080 --> 00:08:39,720
+ because that will show up in GitHub.
+
+152
+00:08:39,720 --> 00:08:40,720
+ So, if you're looking through GitHub
+
+153
+00:08:40,720 --> 00:08:42,400
+ and you wanna know where things are,
+
+154
+00:08:42,400 --> 00:08:45,040
+ or going to be, you can go in there and look at that.
+
+155
+00:08:45,040 --> 00:08:48,820
+ So, let's just review all the changes we've made so far.
+
+156
+00:08:49,920 --> 00:08:52,280
+ In our go.mod file, it stays the same.
+
+157
+00:08:52,280 --> 00:08:53,760
+ It's the name of the GitHub repo.
+
+158
+00:08:53,760 --> 00:08:55,760
+ This is the module name.
+
+159
+00:08:55,760 --> 00:08:58,920
+ And the module name includes the full path from the internet
+
+160
+00:08:58,920 --> 00:09:00,720
+ about where you get the thing.
+
+161
+00:09:01,760 --> 00:09:03,680
+ I told you earlier that you can actually change it
+
+162
+00:09:03,680 --> 00:09:05,680
+ to other things, and that's definitely true,
+
+163
+00:09:05,680 --> 00:09:08,240
+ but that's good for now.
+
+164
+00:09:09,280 --> 00:09:11,840
+ We actually have this go.somefile, which is new,
+
+165
+00:09:11,840 --> 00:09:13,520
+ which I'll talk about right now.
+
+166
+00:09:13,520 --> 00:09:17,520
+ This go.somefile contains the check sums,
+
+167
+00:09:17,520 --> 00:09:20,240
+ which guarantee that the package
+
+168
+00:09:20,240 --> 00:09:22,880
+ that you have a dependency on is loaded.
+
+169
+00:09:22,880 --> 00:09:23,960
+ It tells you which one it is,
+
+170
+00:09:23,960 --> 00:09:26,120
+ and then it will always make sure
+
+171
+00:09:26,120 --> 00:09:27,120
+ that you get the right one.
+
+172
+00:09:27,120 --> 00:09:30,640
+ This prevents the really nefarious worms and things
+
+173
+00:09:30,640 --> 00:09:35,640
+ from taking out NPM before from being bad.
+
+174
+00:09:35,800 --> 00:09:38,600
+ So, anytime you have a dependency on another tool,
+
+175
+00:09:38,600 --> 00:09:40,000
+ you want that.
+
+176
+00:09:40,000 --> 00:09:42,400
+ Anytime you think you might not have stuff there,
+
+177
+00:09:42,400 --> 00:09:44,440
+ we already covered this, but go.mod tidy,
+
+178
+00:09:44,440 --> 00:09:46,240
+ that will pull out to your dependencies
+
+179
+00:09:46,240 --> 00:09:48,680
+ and your go.somefile will change.
+
+180
+00:09:48,680 --> 00:09:51,120
+ So, you see, it's now empty,
+
+181
+00:09:51,120 --> 00:09:53,960
+ and that's because there's no longer a dependency.
+
+182
+00:09:53,960 --> 00:09:55,960
+ Those dependencies kinda crept in
+
+183
+00:09:55,960 --> 00:09:59,640
+ while we were working on other things.
+
+184
+00:09:59,640 --> 00:10:02,560
+ You'll notice that when I did that go.mod tidy,
+
+185
+00:10:02,560 --> 00:10:06,200
+ it also got rid of the extra lines in my go.mod file.
+
+186
+00:10:06,200 --> 00:10:08,080
+ So, let's put that in the list.
+
+187
+00:10:09,360 --> 00:10:14,360
+ Regularly use go.mod tidy to remove unused depths,
+
+188
+00:10:17,160 --> 00:10:18,960
+ module dependencies.
+
+189
+00:10:18,960 --> 00:10:23,960
+ I find this annoying because go is so good
+
+190
+00:10:24,880 --> 00:10:27,600
+ that whole thing about telling you
+
+191
+00:10:27,600 --> 00:10:30,120
+ when something's not being used.
+
+192
+00:10:30,120 --> 00:10:32,640
+ And it won't even compile if you're importing
+
+193
+00:10:32,640 --> 00:10:34,960
+ a package that's not being used.
+
+194
+00:10:34,960 --> 00:10:39,120
+ And I find that annoying because they don't do that
+
+195
+00:10:39,120 --> 00:10:40,920
+ with modules.
+
+196
+00:10:40,920 --> 00:10:44,400
+ They should automatically go mod tidy, but they don't.
+
+197
+00:10:44,400 --> 00:10:47,080
+ And the reason for that is because of the same reason
+
+198
+00:10:47,080 --> 00:10:49,760
+ that it gets annoying when they remove an import line,
+
+199
+00:10:49,760 --> 00:10:51,480
+ even though you're gonna add it right back immediately
+
+200
+00:10:51,480 --> 00:10:53,120
+ 'cause you just commented it out.
+
+201
+00:10:53,120 --> 00:10:56,680
+ They left it out.
+
+202
+00:10:56,680 --> 00:10:58,040
+ They don't have it automatically removed
+
+203
+00:10:58,040 --> 00:11:02,120
+ because those check some lines could be very, very important
+
+204
+00:11:02,120 --> 00:11:07,120
+ because they indicate what exact version of a thing
+
+205
+00:11:07,480 --> 00:11:09,080
+ that you have a dependency on.
+
+206
+00:11:09,080 --> 00:11:12,240
+ And that's for security reasons, that's very important.
+
+207
+00:11:12,240 --> 00:11:14,640
+ And unless you explicitly say I wanna use
+
+208
+00:11:14,640 --> 00:11:17,480
+ a different version, assuming you've checked
+
+209
+00:11:17,480 --> 00:11:19,160
+ to make it sure it's safe and everything,
+
+210
+00:11:19,160 --> 00:11:20,520
+ then they can't just get rid of it
+
+211
+00:11:20,520 --> 00:11:22,840
+ because that would force you to automatically operate it
+
+212
+00:11:22,840 --> 00:11:23,680
+ to the latest one.
+
+213
+00:11:23,680 --> 00:11:25,400
+ You wouldn't be able to remember what the last one was.
+
+214
+00:11:25,400 --> 00:11:29,700
+ Which, by the way, is the reason that you should include,
+
+215
+00:11:30,920 --> 00:11:35,920
+ keep go.mod and go.some in your GitHub repos.
+
+216
+00:11:38,960 --> 00:11:40,160
+ I should say commit.
+
+217
+00:11:41,000 --> 00:11:43,440
+ This is actually really important.
+
+218
+00:11:43,440 --> 00:11:47,480
+ If you don't do that, you will get problems.
+
+219
+00:11:48,680 --> 00:11:52,280
+ You will, strictly speaking, if your go.mod is there
+
+220
+00:11:52,280 --> 00:11:55,680
+ to go.some's not, it'll create the go.some file.
+
+221
+00:11:55,680 --> 00:11:57,520
+ From the go.mod file, as long as the go.mod file
+
+222
+00:11:57,520 --> 00:11:59,320
+ has the right versions listed in it,
+
+223
+00:12:00,440 --> 00:12:03,720
+ but go.mod tidy removes both of those ones
+
+224
+00:12:03,720 --> 00:12:05,360
+ and those are no longer needed.
+
+225
+00:12:06,320 --> 00:12:08,880
+ We're gonna keep coming back to this module thing
+
+226
+00:12:08,880 --> 00:12:10,120
+ as we learn more about go,
+
+227
+00:12:10,120 --> 00:12:13,960
+ but it's probably good to give you this upfront organization
+
+228
+00:12:13,960 --> 00:12:15,400
+ about the repo structure.
+
+229
+00:12:16,720 --> 00:12:18,920
+ Which, so far, is pretty easy to understand, right?
+
+230
+00:12:18,920 --> 00:12:21,720
+ It's, I think it's easier than Python to understand.
+
+231
+00:12:21,720 --> 00:12:23,360
+ Python structures are, you know,
+
+232
+00:12:23,360 --> 00:12:26,080
+ the implied underscore, underscore in it
+
+233
+00:12:26,080 --> 00:12:27,640
+ and all this different thing.
+
+234
+00:12:27,640 --> 00:12:30,600
+ No, just everything in the directory
+
+235
+00:12:30,600 --> 00:12:32,720
+ belongs to the same package.
+
+236
+00:12:32,720 --> 00:12:35,880
+ A module contains multiple packages
+
+237
+00:12:35,880 --> 00:12:38,880
+ and the go.mod file indicates that we have a package.
+
+238
+00:12:38,880 --> 00:12:40,560
+ In fact, I can remove the go.some file.
+
+239
+00:12:40,560 --> 00:12:42,040
+ In this case, since we don't really need one,
+
+240
+00:12:42,040 --> 00:12:43,360
+ we have any dependencies.
+
+241
+00:12:43,360 --> 00:12:45,840
+ If you wanna simplify things, 'cause it was empty.
+
+242
+00:12:45,840 --> 00:12:47,760
+ You can always delete the go.some file
+
+243
+00:12:47,760 --> 00:12:49,920
+ and go get it to go get the latest,
+
+244
+00:12:49,920 --> 00:12:51,960
+ but if you do that, you're forcing yourself
+
+245
+00:12:51,960 --> 00:12:53,800
+ to get the latest versions of everything.
+
+246
+00:12:53,800 --> 00:12:55,800
+ And that, you might not wanna do.
+
+247
+00:12:55,800 --> 00:12:58,520
+ So that's what we know about that.
+
+248
+00:12:59,680 --> 00:13:01,200
+ Okay, and then we have a package directory
+
+249
+00:13:01,200 --> 00:13:03,120
+ that doesn't have any packages in it.
+
+250
+00:13:03,120 --> 00:13:05,040
+ That's where our libraries are gonna go,
+
+251
+00:13:05,040 --> 00:13:08,160
+ which we're gonna make either in the next lesson
+
+252
+00:13:08,160 --> 00:13:09,120
+ or the lesson after that.
+
+253
+00:13:09,120 --> 00:13:12,160
+ We're gonna create a colors library.
+
+254
+00:13:12,160 --> 00:13:16,080
+ We're gonna make it so that we can use terminal color
+
+255
+00:13:16,080 --> 00:13:17,640
+ and we're gonna put all those colors
+
+256
+00:13:17,640 --> 00:13:19,560
+ in a package that you can reuse.
+
+257
+00:13:19,560 --> 00:13:20,800
+ So that is coming.
+
+258
+00:13:22,040 --> 00:13:23,360
+ But we've already got our first command,
+
+259
+00:13:23,360 --> 00:13:24,680
+ but there's a problem.
+
+260
+00:13:24,680 --> 00:13:26,520
+ Some of you may have already caught this.
+
+261
+00:13:26,520 --> 00:13:28,520
+ When I go into the CMD directory,
+
+262
+00:13:30,520 --> 00:13:33,360
+ so far the only thing you know officially is go run,
+
+263
+00:13:33,360 --> 00:13:35,680
+ 'cause that's the only thing we've covered, is go run.
+
+264
+00:13:35,680 --> 00:13:37,400
+ This is how you run the program,
+
+265
+00:13:37,400 --> 00:13:39,080
+ that one we left off on.
+
+266
+00:13:39,080 --> 00:13:42,280
+ But obviously it's like, you know,
+
+267
+00:13:42,280 --> 00:13:45,560
+ I probably want to have that to do something more there.
+
+268
+00:13:45,560 --> 00:13:48,860
+ So let's add some more stuff to our notes.
+
+269
+00:13:50,040 --> 00:13:53,680
+ Okay, so make sure
+
+270
+00:13:55,520 --> 00:14:00,520
+ CMD packages have good names.
+
+271
+00:14:00,560 --> 00:14:05,000
+ All right, so can you see a problem here, guys?
+
+272
+00:14:05,000 --> 00:14:06,760
+ Right, so can you see a problem?
+
+273
+00:14:06,760 --> 00:14:10,960
+ What's the name of my repo there, right?
+
+274
+00:14:11,920 --> 00:14:13,600
+ All right, so let's learn the first command
+
+275
+00:14:13,600 --> 00:14:15,680
+ that you don't know besides go run.
+
+276
+00:14:15,680 --> 00:14:17,640
+ And that's like builds.
+
+277
+00:14:17,640 --> 00:14:21,040
+ We're gonna do build binaries
+
+278
+00:14:22,800 --> 00:14:26,920
+ in same directory with go build.
+
+279
+00:14:28,320 --> 00:14:31,000
+ All right, so there's lots of options for go build.
+
+280
+00:14:31,000 --> 00:14:34,000
+ You can go look them up, go build -h if you want,
+
+281
+00:14:35,840 --> 00:14:38,400
+ or go help build.
+
+282
+00:14:38,400 --> 00:14:39,680
+ We're not gonna go into all the options,
+
+283
+00:14:39,680 --> 00:14:41,880
+ just use the ones that we need right now.
+
+284
+00:14:41,880 --> 00:14:43,680
+ And make sure you know how to use a pager for this.
+
+285
+00:14:43,680 --> 00:14:45,720
+ This is one of my biggest pet peeves with go,
+
+286
+00:14:45,720 --> 00:14:47,960
+ is they're anti-text,
+
+287
+00:14:47,960 --> 00:14:50,060
+ and Rob Pike calls his color juvenile.
+
+288
+00:14:51,080 --> 00:14:53,600
+ So this is impossible to read.
+
+289
+00:14:53,600 --> 00:14:56,360
+ I really don't like it, but whatever.
+
+290
+00:14:58,000 --> 00:14:59,560
+ There are other ways to read this, by the way,
+
+291
+00:14:59,560 --> 00:15:01,680
+ you can go online and read it.
+
+292
+00:15:01,680 --> 00:15:05,520
+ And so anyway, so this tells you everything you can do.
+
+293
+00:15:05,520 --> 00:15:09,080
+ The only thing you need to know right now is this.
+
+294
+00:15:09,080 --> 00:15:10,400
+ Go build.
+
+295
+00:15:10,400 --> 00:15:13,320
+ And when you do go build, it does something, but what?
+
+296
+00:15:13,320 --> 00:15:17,280
+ So you LS, and we see we have a binary, brand new binary here.
+
+297
+00:15:18,120 --> 00:15:20,360
+ It'll tell you what type of binary it is.
+
+298
+00:15:20,360 --> 00:15:21,200
+ If you were to open it up,
+
+299
+00:15:21,200 --> 00:15:23,160
+ well, you'll see that it's actually a compiled binary,
+
+300
+00:15:23,160 --> 00:15:24,680
+ just like C.
+
+301
+00:15:24,680 --> 00:15:26,440
+ It's literally the same exact thing you get
+
+302
+00:15:26,440 --> 00:15:28,000
+ from compiling in C,
+
+303
+00:15:28,000 --> 00:15:31,120
+ or Rust, or any compiled language for that matter.
+
+304
+00:15:31,120 --> 00:15:34,320
+ I mean, they're all compiled, but you know what I mean?
+
+305
+00:15:34,320 --> 00:15:36,440
+ Explicitly compiled.
+
+306
+00:15:36,440 --> 00:15:38,400
+ Thank you for the full plex.
+
+307
+00:15:38,400 --> 00:15:41,000
+ So if we look at it now, we see that it's a program,
+
+308
+00:15:41,000 --> 00:15:44,600
+ and we have to, we can run the program without slash CMD.
+
+309
+00:15:44,600 --> 00:15:47,240
+ We can't just run CMD because it's not in our path,
+
+310
+00:15:47,240 --> 00:15:49,840
+ which we've talked about in other videos.
+
+311
+00:15:49,840 --> 00:15:51,400
+ You know, my path is this.
+
+312
+00:15:51,400 --> 00:15:53,000
+ They don't have, there's nothing, you know,
+
+313
+00:15:53,000 --> 00:15:55,080
+ there's nothing in this particular path.
+
+314
+00:15:56,240 --> 00:15:59,000
+ And you know, that's all well and good.
+
+315
+00:15:59,920 --> 00:16:01,720
+ We can actually update our path to do that.
+
+316
+00:16:01,720 --> 00:16:04,760
+ But the problem is, we don't want it to be named CMD.
+
+317
+00:16:04,760 --> 00:16:07,000
+ Now, there is another thing you could do,
+
+318
+00:16:08,000 --> 00:16:10,200
+ which I will tell you, but you don't do it,
+
+319
+00:16:10,200 --> 00:16:11,480
+ but I'll tell you about it.
+
+320
+00:16:12,720 --> 00:16:14,900
+ So you could do this.
+
+321
+00:16:16,680 --> 00:16:21,680
+ Build binary with specific name.
+
+322
+00:16:23,880 --> 00:16:26,320
+ So you could use one of the dash O,
+
+323
+00:16:26,320 --> 00:16:28,600
+ which is just the same as C, by the way.
+
+324
+00:16:28,600 --> 00:16:33,600
+ So you could do dash O, my CMD,
+
+325
+00:16:33,880 --> 00:16:36,200
+ or whatever, hello, how about that?
+
+326
+00:16:37,400 --> 00:16:42,400
+ Right, so we could do go build, build dash O, hello.
+
+327
+00:16:42,760 --> 00:16:43,720
+ This is very common.
+
+328
+00:16:43,720 --> 00:16:45,720
+ See people know this 'cause when they're using GCC
+
+329
+00:16:45,720 --> 00:16:47,520
+ or whatever, they know about dash O
+
+330
+00:16:47,520 --> 00:16:50,400
+ that makes a binary name, so that makes them very happy.
+
+331
+00:16:50,400 --> 00:16:53,760
+ 'Cause that's a cozy way to, they're used to that from C.
+
+332
+00:16:53,760 --> 00:16:55,800
+ But now we have a hello program,
+
+333
+00:16:55,800 --> 00:16:57,480
+ and you can definitely do that, right?
+
+334
+00:16:57,480 --> 00:16:58,360
+ You can do that.
+
+335
+00:16:58,360 --> 00:17:01,560
+ But if you would rather move the program into your,
+
+336
+00:17:01,560 --> 00:17:05,040
+ now, so in order to do hello like this,
+
+337
+00:17:07,720 --> 00:17:11,200
+ so we do which hello, it tells you where it is,
+
+338
+00:17:11,200 --> 00:17:13,640
+ lab sample is finding it because we added to the path.
+
+339
+00:17:13,640 --> 00:17:16,460
+ So in order to put one of these programs in your path,
+
+340
+00:17:16,460 --> 00:17:17,880
+ and you decide if you wanna do that,
+
+341
+00:17:17,880 --> 00:17:20,480
+ but you might want to, if you wanna put the program
+
+342
+00:17:20,480 --> 00:17:22,280
+ in your path, there's two ways to do that.
+
+343
+00:17:22,280 --> 00:17:26,200
+ One of them is to add the current directory
+
+344
+00:17:26,200 --> 00:17:29,040
+ where you are into your path
+
+345
+00:17:29,040 --> 00:17:30,400
+ so that it's always in your path
+
+346
+00:17:30,400 --> 00:17:32,760
+ every time you work on this project.
+
+347
+00:17:32,760 --> 00:17:33,920
+ Another way to do this, though,
+
+348
+00:17:33,920 --> 00:17:36,560
+ is to use the go install command.
+
+349
+00:17:36,560 --> 00:17:39,160
+ And what the go install command does
+
+350
+00:17:39,160 --> 00:17:44,160
+ is, let's see, install into go bin in path.
+
+351
+00:17:56,280 --> 00:17:59,080
+ With go install.
+
+352
+00:17:59,080 --> 00:18:02,720
+ And I think you can actually do a dash show with install,
+
+353
+00:18:02,720 --> 00:18:04,440
+ but I've never done it.
+
+354
+00:18:04,440 --> 00:18:08,040
+ And thanks, this video will be here for you in a bit.
+
+355
+00:18:08,040 --> 00:18:10,640
+ We're about done with it here, so.
+
+356
+00:18:10,640 --> 00:18:14,360
+ So to do the install part, we do, we do what?
+
+357
+00:18:14,360 --> 00:18:16,440
+ We do go install.
+
+358
+00:18:16,440 --> 00:18:18,840
+ Now, I don't wanna do go install, why?
+
+359
+00:18:20,160 --> 00:18:21,700
+ We didn't fix the other problem.
+
+360
+00:18:23,720 --> 00:18:26,040
+ Why don't I do go install?
+
+361
+00:18:26,040 --> 00:18:27,360
+ Can I, I'm gonna try something.
+
+362
+00:18:27,360 --> 00:18:28,720
+ I've never done this in my life.
+
+363
+00:18:28,720 --> 00:18:30,680
+ I don't know if this is even gonna work.
+
+364
+00:18:33,280 --> 00:18:34,360
+ Nope, doesn't work.
+
+365
+00:18:34,360 --> 00:18:38,440
+ Okay, so dash O only works for build
+
+366
+00:18:38,440 --> 00:18:41,240
+ and does not work for setting the name
+
+367
+00:18:41,240 --> 00:18:42,680
+ in the place you wanna put it.
+
+368
+00:18:42,680 --> 00:18:44,720
+ So what the go install program does
+
+369
+00:18:44,720 --> 00:18:48,040
+ is it takes where it is, compiles it, does a build
+
+370
+00:18:48,040 --> 00:18:51,560
+ and then takes a binary and puts it into your go bin.
+
+371
+00:18:51,560 --> 00:18:54,600
+ And you can get your go bin with go ENV.
+
+372
+00:18:55,560 --> 00:18:57,920
+ Go bin, I think that will do it.
+
+373
+00:18:57,920 --> 00:18:59,000
+ Yeah, there we go.
+
+374
+00:18:59,000 --> 00:19:00,720
+ So this gives you your go bin
+
+375
+00:19:01,640 --> 00:19:04,360
+ and you can set that to wherever you want.
+
+376
+00:19:04,360 --> 00:19:05,760
+ That's out of the scope of this video
+
+377
+00:19:05,760 --> 00:19:08,480
+ to talk about how to organize your home directory
+
+378
+00:19:08,480 --> 00:19:09,320
+ and stuff.
+
+379
+00:19:09,320 --> 00:19:11,040
+ I do talk about that in terminal velocity,
+
+380
+00:19:11,040 --> 00:19:12,660
+ so please check that out.
+
+381
+00:19:13,880 --> 00:19:17,120
+ And I like to put everything in dot local,
+
+382
+00:19:17,120 --> 00:19:20,320
+ so I put it in dot local bin and in that directory,
+
+383
+00:19:20,320 --> 00:19:24,040
+ you can actually see a bunch of stuff.
+
+384
+00:19:24,040 --> 00:19:29,040
+ So go ENV, go bin.
+
+385
+00:19:29,400 --> 00:19:32,520
+ So this is all the stuff that's inside of there.
+
+386
+00:19:32,520 --> 00:19:33,760
+ And you can see there's a bunch of stuff
+
+387
+00:19:33,760 --> 00:19:35,400
+ that I built in here.
+
+388
+00:19:35,400 --> 00:19:37,760
+ If I were to do a go install,
+
+389
+00:19:37,760 --> 00:19:41,440
+ it would put CMD in here, but we don't want that, right?
+
+390
+00:19:41,440 --> 00:19:44,120
+ And you can see the hello from the last time we did this.
+
+391
+00:19:44,120 --> 00:19:46,000
+ So I'm missing some things.
+
+392
+00:19:46,000 --> 00:19:47,720
+ Let's get rid of this hello program
+
+393
+00:19:47,720 --> 00:19:50,760
+ and let's get rid of this CMD program.
+
+394
+00:19:50,760 --> 00:19:51,720
+ And we have a main.go.
+
+395
+00:19:51,720 --> 00:19:56,720
+ So let's go ahead and see, the C is great, yes.
+
+396
+00:20:01,520 --> 00:20:03,920
+ The C is great, but yeah, go is a great,
+
+397
+00:20:03,920 --> 00:20:05,960
+ better first step in my opinion.
+
+398
+00:20:05,960 --> 00:20:08,000
+ So we're gonna make a directory here,
+
+399
+00:20:08,000 --> 00:20:11,080
+ you know, a package, a command package,
+
+400
+00:20:11,080 --> 00:20:14,320
+ specifically called hello, all right?
+
+401
+00:20:14,320 --> 00:20:18,400
+ And now we move our main into hello.
+
+402
+00:20:18,400 --> 00:20:21,680
+ And now, when we go into hello,
+
+403
+00:20:21,680 --> 00:20:25,000
+ we can, you know, if we do a go build,
+
+404
+00:20:25,000 --> 00:20:27,560
+ obviously it's gonna make it the right name.
+
+405
+00:20:27,560 --> 00:20:30,280
+ But better than that, we can actually do,
+
+406
+00:20:31,560 --> 00:20:34,920
+ we can do go install.
+
+407
+00:20:34,920 --> 00:20:36,800
+ And now it will automatically play like,
+
+408
+00:20:36,800 --> 00:20:38,720
+ well, what did it even do, right?
+
+409
+00:20:38,720 --> 00:20:40,280
+ Well, now when we do which hello,
+
+410
+00:20:40,280 --> 00:20:45,280
+ you'll see that hello has been added to local bin.
+
+411
+00:20:46,040 --> 00:20:50,680
+ So now I can actually add it and we can run hello
+
+412
+00:20:50,680 --> 00:20:52,760
+ and it doesn't need a dot slash in front of it.
+
+413
+00:20:52,760 --> 00:20:56,960
+ Actually, that's interesting, that that's interesting.
+
+414
+00:20:57,960 --> 00:20:59,440
+ It's still using the other one.
+
+415
+00:21:04,040 --> 00:21:05,360
+ That's very interesting.
+
+416
+00:21:10,960 --> 00:21:12,880
+ It should have, it should have run this one.
+
+417
+00:21:14,320 --> 00:21:15,340
+ What?
+
+418
+00:21:16,880 --> 00:21:21,200
+ What's going on, it's gotta be my path.
+
+419
+00:21:27,760 --> 00:21:29,160
+ Did it not override it?
+
+420
+00:21:41,360 --> 00:21:42,980
+ What am I forgetting, guys?
+
+421
+00:21:45,800 --> 00:21:46,840
+ This is interesting.
+
+422
+00:21:46,840 --> 00:21:49,240
+ I think it might be hashed incorrectly.
+
+423
+00:21:50,520 --> 00:21:51,360
+ Yeah.
+
+424
+00:21:53,560 --> 00:21:55,200
+ This is, this is why I do it live.
+
+425
+00:21:55,200 --> 00:21:58,560
+ This is fun stuff for you to find out on your own bin.
+
+426
+00:22:01,480 --> 00:22:02,400
+ Hello.
+
+427
+00:22:04,440 --> 00:22:07,000
+ No, okay, that's weird.
+
+428
+00:22:11,400 --> 00:22:13,640
+ That is, that is really weird.
+
+429
+00:22:16,800 --> 00:22:20,800
+ That's gotta be hash issue.
+
+430
+00:22:22,480 --> 00:22:26,320
+ Oh, okay, this, I'm glad this happened, okay?
+
+431
+00:22:26,320 --> 00:22:31,320
+ This is a perfect time to tell you
+
+432
+00:22:31,320 --> 00:22:34,200
+ why the which command can fail you.
+
+433
+00:22:35,160 --> 00:22:38,320
+ So the which two man only tells you which thing
+
+434
+00:22:38,320 --> 00:22:40,840
+ resolves in the order, but it doesn't tell you
+
+435
+00:22:40,840 --> 00:22:44,000
+ what hello is actually doing, for that you need type.
+
+436
+00:22:46,800 --> 00:22:50,800
+ Let's see that, you know how many times
+
+437
+00:22:50,800 --> 00:22:53,680
+ I've been burned by that and it just got burned by it again.
+
+438
+00:22:55,400 --> 00:22:57,800
+ When you want to know what is running
+
+439
+00:22:57,800 --> 00:23:01,080
+ when you enter a command use type, that's the takeaway.
+
+440
+00:23:02,280 --> 00:23:04,280
+ Okay, this is a kind of command.
+
+441
+00:23:04,280 --> 00:23:06,800
+ If I hadn't showed you that you would never know.
+
+442
+00:23:06,800 --> 00:23:07,800
+ You'd be like, what the hell?
+
+443
+00:23:07,800 --> 00:23:08,840
+ That's in the wrong path.
+
+444
+00:23:08,840 --> 00:23:10,480
+ It's the right program and everything.
+
+445
+00:23:10,480 --> 00:23:13,400
+ This is because it hasn't been hashed and you know what?
+
+446
+00:23:13,400 --> 00:23:15,360
+ This is not really a go thing,
+
+447
+00:23:15,360 --> 00:23:17,360
+ but I'm definitely putting it in the book
+
+448
+00:23:17,360 --> 00:23:22,360
+ because let me go back another one or two, yeah.
+
+449
+00:23:26,160 --> 00:23:33,160
+ All right, so sometimes let's see, use type hello to see what is being run.
+
+450
+00:23:45,160 --> 00:23:52,160
+ And use hash-r to reset to latest install.
+
+451
+00:23:58,160 --> 00:24:02,160
+ This is a thing that, you know, a few of you are going to run into.
+
+452
+00:24:02,160 --> 00:24:07,160
+ So by doing type hello there, we saw that it's not running that
+
+453
+00:24:07,160 --> 00:24:10,160
+ and I have to tell it, yeah.
+
+454
+00:24:10,160 --> 00:24:15,160
+ So hash-r rehashes it.
+
+455
+00:24:15,160 --> 00:24:18,160
+ The reason this happens is because some shells, you have to usually set it,
+
+456
+00:24:18,160 --> 00:24:20,160
+ but some shells don't have to be fast.
+
+457
+00:24:20,160 --> 00:24:23,160
+ They don't have to go search the file system every time.
+
+458
+00:24:23,160 --> 00:24:27,160
+ So they remember the last location for every session that you start.
+
+459
+00:24:27,160 --> 00:24:29,160
+ And after the first time you run it, it has to go find it
+
+460
+00:24:29,160 --> 00:24:31,160
+ and it takes a long time to run it.
+
+461
+00:24:31,160 --> 00:24:33,160
+ And after that, it runs it immediately because it's been cached.
+
+462
+00:24:33,160 --> 00:24:37,160
+ And that's one of the reasons it runs it so quickly after the first time.
+
+463
+00:24:37,160 --> 00:24:41,160
+ Because it doesn't cache it into memory as if it's going to rerun the same memory,
+
+464
+00:24:41,160 --> 00:24:43,160
+ but it caches the location into memory.
+
+465
+00:24:43,160 --> 00:24:46,160
+ And so it doesn't have to search for the file system every time.
+
+466
+00:24:46,160 --> 00:24:49,160
+ So we're doing great.
+
+467
+00:24:49,160 --> 00:24:55,160
+ So now when we do type hello, it's now pointing to the right one, right?
+
+468
+00:24:55,160 --> 00:24:59,160
+ So now when I run hello, you'll get what I expected.
+
+469
+00:24:59,160 --> 00:25:03,160
+ I knew it was a hashing related problem, but it was still confused.
+
+470
+00:25:03,160 --> 00:25:07,160
+ And I was using which. And so the takeaway from that is don't use which.
+
+471
+00:25:07,160 --> 00:25:12,160
+ Use type because it was saying it was which was telling me the right thing.
+
+472
+00:25:12,160 --> 00:25:15,160
+ But but type was telling me a completely different thing.
+
+473
+00:25:15,160 --> 00:25:18,160
+ So and it was telling me how it had been hash.
+
+474
+00:25:18,160 --> 00:25:24,160
+ So that's kind of in the woods in the weeds, as they say, but so be it.
+
+475
+00:25:24,160 --> 00:25:27,160
+ All right. So that means that now we've got, you know,
+
+476
+00:25:27,160 --> 00:25:30,160
+ I can run hello anywhere and I get the program as intended.
+
+477
+00:25:30,160 --> 00:25:35,160
+ So while I'm in here working on our program, which we'll continue to do after this,
+
+478
+00:25:35,160 --> 00:25:38,160
+ we'll be in here, like typing away different things.
+
+479
+00:25:38,160 --> 00:25:41,160
+ And then every time I want to make an install, I just do go install.
+
+480
+00:25:41,160 --> 00:25:46,160
+ And for that kind of thing, you can actually make an alias or a command.
+
+481
+00:25:46,160 --> 00:25:49,160
+ If you want to, in my case, I made a command.
+
+482
+00:25:49,160 --> 00:25:52,160
+ And this is what I do.
+
+483
+00:25:52,160 --> 00:25:54,160
+ I just do go install.
+
+484
+00:25:54,160 --> 00:25:57,160
+ If there's a file there and if there's not, just go for it.
+
+485
+00:25:57,160 --> 00:26:01,160
+ And so I can just type go away and I regularly do that.
+
+486
+00:26:01,160 --> 00:26:04,160
+ I just, we have a little time in today still.
+
+487
+00:26:04,160 --> 00:26:08,160
+ So I'll tell you about a couple of the other, well, as we get to them,
+
+488
+00:26:08,160 --> 00:26:09,160
+ I'll tell you about them.
+
+489
+00:26:09,160 --> 00:26:13,160
+ We haven't done testing yet, but when we do, I have a number of other like quick
+
+490
+00:26:13,160 --> 00:26:16,160
+ and dirty aliases that I run all the time.
+
+491
+00:26:16,160 --> 00:26:23,160
+ I want to say one last thing about this though, because people regularly get tripped up
+
+492
+00:26:23,160 --> 00:26:31,160
+ by this got you and I need to probably put this gotcha in my Golan Gotcha's book.
+
+493
+00:26:31,160 --> 00:26:35,160
+ Which, you know, this hashing thing, I should go in the Golan Gotcha's book as well,
+
+494
+00:26:35,160 --> 00:26:37,160
+ even though it's not specifically go.
+
+495
+00:26:37,160 --> 00:26:41,160
+ A lot of people would get tripped up by that.
+
+496
+00:26:41,160 --> 00:26:42,160
+ So let's do this.
+
+497
+00:26:42,160 --> 00:26:48,160
+ Let's say, I wanted to talk a little bit about the building.
+
+498
+00:26:48,160 --> 00:26:58,160
+ Make sure, let's see, build, let's see, go install, go install, let's see.
+
+499
+00:26:58,160 --> 00:27:13,160
+ Note that go install requires a full path, a full path to file.
+
+500
+00:27:13,160 --> 00:27:22,160
+ So, like this, go install dot slash cmd hello.
+
+501
+00:27:22,160 --> 00:27:28,160
+ All right, so this is not intuitive and I'm telling you this because you'll get burned by this.
+
+502
+00:27:28,160 --> 00:27:33,160
+ So let's say you don't want to have to keep deep diving, you can have multiple windows
+
+503
+00:27:33,160 --> 00:27:36,160
+ open in different places, you know, nice to just that.
+
+504
+00:27:36,160 --> 00:27:42,160
+ But sometimes you just want it to all be from the top level and, you know, just depends on
+
+505
+00:27:42,160 --> 00:27:44,160
+ how you want to do your work, especially if you've got VS code.
+
+506
+00:27:44,160 --> 00:27:45,160
+ It's a totally different thing.
+
+507
+00:27:45,160 --> 00:27:49,160
+ Which, before we leave today, we're going to do all of this also from VS code.
+
+508
+00:27:49,160 --> 00:27:52,160
+ I haven't been doing anything from VS code, but I really want everybody to understand
+
+509
+00:27:52,160 --> 00:27:55,160
+ that you still need to do all these terminal commands from VS code.
+
+510
+00:27:55,160 --> 00:28:01,160
+ There are tools and extra extensions and plugins you can get to do the building
+
+511
+00:28:01,160 --> 00:28:02,160
+ automatically and all that.
+
+512
+00:28:02,160 --> 00:28:08,160
+ But I suggest that you continue to, you know, build your own command line
+
+513
+00:28:08,160 --> 00:28:10,160
+ interactions with these kind of things.
+
+514
+00:28:10,160 --> 00:28:12,160
+ So right now let's do that.
+
+515
+00:28:12,160 --> 00:28:17,160
+ So to do go build from up here, you know, it's not going to work.
+
+516
+00:28:17,160 --> 00:28:19,160
+ It's like there's nothing to build.
+
+517
+00:28:19,160 --> 00:28:20,160
+ Go install.
+
+518
+00:28:20,160 --> 00:28:23,160
+ You know, you know, my GUI is like, go install, right?
+
+519
+00:28:23,160 --> 00:28:24,160
+ So there's no go files here.
+
+520
+00:28:24,160 --> 00:28:25,160
+ So I have to tell it.
+
+521
+00:28:25,160 --> 00:28:28,160
+ And so this is where you're going to screw up.
+
+522
+00:28:28,160 --> 00:28:30,160
+ You're going to do CMD slash, right?
+
+523
+00:28:30,160 --> 00:28:31,160
+ And then hello.
+
+524
+00:28:31,160 --> 00:28:34,160
+ You know, like, oh, why isn't that working?
+
+525
+00:28:34,160 --> 00:28:38,160
+ That's not working because for some reason, and I, to tell you the truth,
+
+526
+00:28:38,160 --> 00:28:40,160
+ I don't know the reason.
+
+527
+00:28:40,160 --> 00:28:46,160
+ Go does not resolve the current directory relatively.
+
+528
+00:28:46,160 --> 00:28:49,160
+ So go install CMD.
+
+529
+00:28:49,160 --> 00:28:51,160
+ Hello is not a thing.
+
+530
+00:28:51,160 --> 00:28:56,160
+ And the only way to fix this is to put dot slash in front.
+
+531
+00:28:56,160 --> 00:29:03,160
+ That fixes it, which would seem to indicate to me that go install is hard
+
+532
+00:29:03,160 --> 00:29:08,160
+ coded to not work on anything but an explicit path.
+
+533
+00:29:08,160 --> 00:29:12,160
+ It's not a fully resolved path like with a slash in front, but it's a,
+
+534
+00:29:12,160 --> 00:29:16,160
+ but dot slash means that it is a, you know, a resolvable path.
+
+535
+00:29:16,160 --> 00:29:20,160
+ And it does not assume that CMD is in the current directory.
+
+536
+00:29:20,160 --> 00:29:22,160
+ That will do just fine.
+
+537
+00:29:22,160 --> 00:29:26,160
+ It's a tiny little glitch and go install that drives me nuts.
+
+538
+00:29:26,160 --> 00:29:32,160
+ But now, you know, okay, because, you know, I don't even know the reason for
+
+539
+00:29:32,160 --> 00:29:33,160
+ that.
+
+540
+00:29:33,160 --> 00:29:36,160
+ I imagine at this point, it's worth mentioning.
+
+541
+00:29:36,160 --> 00:29:40,160
+ If you know about other build systems, I'm not assuming you do because I'm assuming
+
+542
+00:29:40,160 --> 00:29:42,160
+ you don't know anything about coding at all.
+
+543
+00:29:42,160 --> 00:29:45,160
+ But if you do know about build systems, it's probably worth mentioning that
+
+544
+00:29:45,160 --> 00:29:50,160
+ this is the time at which somebody generally will make a build script
+
+545
+00:29:50,160 --> 00:29:53,160
+ or they'll write a make file.
+
+546
+00:29:53,160 --> 00:29:58,160
+ And we do have 30 minutes left in this video.
+
+547
+00:29:58,160 --> 00:30:03,160
+ So you, not quite know.
+
+548
+00:30:03,160 --> 00:30:10,160
+ So, so I'm going to talk about things you can do to speed up your build
+
+549
+00:30:10,160 --> 00:30:11,160
+ process.
+
+550
+00:30:11,160 --> 00:30:18,160
+ And, but I want to begin by saying that I honestly do not think you need an
+
+551
+00:30:18,160 --> 00:30:22,160
+ extra, you know, step to your building and go.
+
+552
+00:30:22,160 --> 00:30:27,160
+ I think that almost everything you can do can be done just like we said.
+
+553
+00:30:27,160 --> 00:30:31,160
+ So, you know, go see, especially once you have it in your history, then you can just
+
+554
+00:30:31,160 --> 00:30:33,160
+ go back to it, right?
+
+555
+00:30:33,160 --> 00:30:35,160
+ And you can run your tests this way and everything.
+
+556
+00:30:35,160 --> 00:30:37,160
+ I don't think you need more than that.
+
+557
+00:30:37,160 --> 00:30:41,160
+ I think you can use go as your build system and you don't need an extra build
+
+558
+00:30:41,160 --> 00:30:42,160
+ system.
+
+559
+00:30:42,160 --> 00:30:45,160
+ It's very common to see phony make files.
+
+560
+00:30:45,160 --> 00:30:50,160
+ Fony make files are my term for make files that are mostly phony because they have
+
+561
+00:30:50,160 --> 00:30:56,160
+ dot phony in them because they're using make files for shell scripts instead.
+
+562
+00:30:56,160 --> 00:30:59,160
+ When they could have used the shell script or in this case, they could have just
+
+563
+00:30:59,160 --> 00:31:03,160
+ avoided all of it and then just known maybe even in the read me say to build this,
+
+564
+00:31:03,160 --> 00:31:05,160
+ do go install blot.
+
+565
+00:31:05,160 --> 00:31:06,160
+ You're done.
+
+566
+00:31:06,160 --> 00:31:12,160
+ One of the best things about go is that there's no layer of build process
+
+567
+00:31:12,160 --> 00:31:14,160
+ necessary on top of it.
+
+568
+00:31:14,160 --> 00:31:15,160
+ You can do that.
+
+569
+00:31:15,160 --> 00:31:18,160
+ And many people do depending on what kind of things they're building and as our
+
+570
+00:31:18,160 --> 00:31:22,160
+ projects get more complex, it kind of blends itself to it more.
+
+571
+00:31:22,160 --> 00:31:25,160
+ But right now you really don't need it.
+
+572
+00:31:25,160 --> 00:31:29,160
+ And I think it would be a mistake.
+
+573
+00:31:29,160 --> 00:31:36,160
+ But if you wanted to write a shell script to do the build in this particular case,
+
+574
+00:31:36,160 --> 00:31:40,160
+ or maybe you only wanted to update one thing or you only wanted to build one
+
+575
+00:31:40,160 --> 00:31:47,160
+ thing, short of learning make which was originally designed for C because C is
+
+576
+00:31:47,160 --> 00:31:51,160
+ usually a bunch of little teeny tiny dynamically in libraries getting built at
+
+577
+00:31:51,160 --> 00:31:54,160
+ the same time and then you build the one and then that triggers a rebuild of a
+
+578
+00:31:54,160 --> 00:31:55,160
+ bunch of other pieces.
+
+579
+00:31:55,160 --> 00:31:59,160
+ And the whole idea is you don't want to rebuild everything unless it has to be
+
+580
+00:31:59,160 --> 00:32:00,160
+ done.
+
+581
+00:32:00,160 --> 00:32:05,160
+ All this compiling is probably we're saying is a byproduct of go being and
+
+582
+00:32:05,160 --> 00:32:09,160
+ C being compiled language explicitly compiled languages.
+
+583
+00:32:09,160 --> 00:32:11,160
+ That's what we'll say explicitly compiled.
+
+584
+00:32:11,160 --> 00:32:17,160
+ That means you do the compiling and I'm going to put that there.
+
+585
+00:32:17,160 --> 00:32:27,160
+ Go is an explicitly compiled -- I'm going to -- is that a word?
+
+586
+00:32:27,160 --> 00:32:29,160
+ Can I say that wrong?
+
+587
+00:32:29,160 --> 00:32:32,160
+ I explicitly compiled language.
+
+588
+00:32:32,160 --> 00:32:36,160
+ And explicitly compiled language like C.
+
+589
+00:32:36,160 --> 00:32:38,160
+ Same with Java actually.
+
+590
+00:32:38,160 --> 00:32:41,160
+ Java still has bytecode but whatever.
+
+591
+00:32:41,160 --> 00:32:47,160
+ So, you know, that's what we mean by explicitly compiled and any language that
+
+592
+00:32:47,160 --> 00:32:52,160
+ has explicit compilation like that, when we did go run it was doing it was
+
+593
+00:32:52,160 --> 00:32:55,160
+ compiling it for you and then it was running it.
+
+594
+00:32:55,160 --> 00:32:56,160
+ Pretty fast, huh.
+
+595
+00:32:56,160 --> 00:32:59,160
+ Faster than Python according to the specs.
+
+596
+00:32:59,160 --> 00:33:04,160
+ So, you know, and when we do go test which we haven't done yet but when we get
+
+597
+00:33:04,160 --> 00:33:06,160
+ there, go test does the same thing.
+
+598
+00:33:06,160 --> 00:33:10,160
+ It compiles all your code and makes sure it runs and then it runs the test
+
+599
+00:33:10,160 --> 00:33:11,160
+ against it.
+
+600
+00:33:11,160 --> 00:33:12,160
+ Which is so cool.
+
+601
+00:33:12,160 --> 00:33:16,160
+ I cannot wait to talk to you about this.
+
+602
+00:33:16,160 --> 00:33:22,160
+ In fact, I'm inclined to tell you about this now because it kind of goes with
+
+603
+00:33:22,160 --> 00:33:25,160
+ what we're doing and none of the other languages I've ever taught beginners
+
+604
+00:33:25,160 --> 00:33:26,160
+ have this.
+
+605
+00:33:26,160 --> 00:33:29,160
+ So, there's really no right place to put it.
+
+606
+00:33:29,160 --> 00:33:30,160
+ Let's go ahead and do it.
+
+607
+00:33:30,160 --> 00:33:32,160
+ We've got 15 to 20 minutes left.
+
+608
+00:33:32,160 --> 00:33:34,160
+ So, let's get organized even further.
+
+609
+00:33:34,160 --> 00:33:40,160
+ Let's actually start our test driven development which is a huge pariah.
+
+610
+00:33:40,160 --> 00:33:43,160
+ It's like be careful who you talk to about this.
+
+611
+00:33:43,160 --> 00:33:45,160
+ There's a lot of strong opinions on this.
+
+612
+00:33:45,160 --> 00:33:47,160
+ But let's actually write a test.
+
+613
+00:33:47,160 --> 00:33:48,160
+ Right.
+
+614
+00:33:48,160 --> 00:33:49,160
+ So, let's go back to it.
+
+615
+00:33:49,160 --> 00:33:54,160
+ Let's start by making our command do a thing.
+
+616
+00:33:54,160 --> 00:34:00,160
+ And, well, you know what, we're going to be having kind of trouble here because
+
+617
+00:34:00,160 --> 00:34:05,160
+ do we, well, we're kind of getting in here ourselves.
+
+618
+00:34:05,160 --> 00:34:06,160
+ Yeah.
+
+619
+00:34:06,160 --> 00:34:09,160
+ Because we're going to be testing the main package which is really weird.
+
+620
+00:34:09,160 --> 00:34:11,160
+ Nobody does that.
+
+621
+00:34:11,160 --> 00:34:18,160
+ It's generally not a thing to write test suites for commands.
+
+622
+00:34:18,160 --> 00:34:21,160
+ I mean, for that kind of thing they would write an entire container system
+
+623
+00:34:21,160 --> 00:34:25,160
+ and test the command itself and entirely externally from go.
+
+624
+00:34:25,160 --> 00:34:32,160
+ But so generally speaking you want to test functions and subordains and procedures
+
+625
+00:34:32,160 --> 00:34:34,160
+ which we haven't covered yet.
+
+626
+00:34:34,160 --> 00:34:39,160
+ But let's just start really quickly because we're going to come back to this later.
+
+627
+00:34:39,160 --> 00:34:40,160
+ We're going to be doing it a lot.
+
+628
+00:34:40,160 --> 00:34:45,160
+ So, if I wanted to make, it does, this is related to the organization of the code
+
+629
+00:34:45,160 --> 00:34:46,160
+ and where it goes.
+
+630
+00:34:46,160 --> 00:34:48,160
+ That's why I think we need to talk about it right now.
+
+631
+00:34:48,160 --> 00:34:51,160
+ So, let's say that we wanted to make our program.
+
+632
+00:34:51,160 --> 00:34:55,160
+ So, right now main is printing, we want to have it just print a little friend.
+
+633
+00:34:55,160 --> 00:34:57,160
+ We'll get rid of all these other things for now.
+
+634
+00:34:57,160 --> 00:35:02,160
+ And let's actually talk about commenting really quick which we have not covered.
+
+635
+00:35:02,160 --> 00:35:06,160
+ Commenting can really be covered anywhere.
+
+636
+00:35:06,160 --> 00:35:07,160
+ So, let's do that.
+
+637
+00:35:07,160 --> 00:35:09,160
+ Okay.
+
+638
+00:35:09,160 --> 00:35:16,160
+ So, comment, comment a single line with back slash slash slash.
+
+639
+00:35:16,160 --> 00:35:23,160
+ Comment multiple lines with this.
+
+640
+00:35:23,160 --> 00:35:24,160
+ Okay.
+
+641
+00:35:24,160 --> 00:35:26,160
+ So, that's how you do multiple lines.
+
+642
+00:35:26,160 --> 00:35:31,160
+ These are very, very standard comments in many, many other languages.
+
+643
+00:35:31,160 --> 00:35:35,160
+ Many of you will already be very familiar with them.
+
+644
+00:35:35,160 --> 00:35:37,160
+ I don't know why that's doing that.
+
+645
+00:35:37,160 --> 00:35:38,160
+ All right.
+
+646
+00:35:38,160 --> 00:35:40,160
+ So, let's keep going.
+
+647
+00:35:40,160 --> 00:35:42,160
+ We've got plenty of time left.
+
+648
+00:35:42,160 --> 00:35:45,160
+ So, let's say we wanted to take all this stuff out.
+
+649
+00:35:45,160 --> 00:35:46,160
+ Okay.
+
+650
+00:35:46,160 --> 00:35:48,160
+ Now, there's a couple of things you can do here.
+
+651
+00:35:48,160 --> 00:35:56,160
+ You know, I can do this and CMT and have it like do it.
+
+652
+00:35:56,160 --> 00:35:57,160
+ Oops.
+
+653
+00:35:57,160 --> 00:36:03,160
+ What happened to my CMT command?
+
+654
+00:36:03,160 --> 00:36:05,160
+ My CMT command is not happy right now.
+
+655
+00:36:05,160 --> 00:36:06,160
+ I need to go fix it.
+
+656
+00:36:06,160 --> 00:36:08,160
+ Anyway, I could do this, right?
+
+657
+00:36:08,160 --> 00:36:11,160
+ And, you know, some of you will use visual mode for that.
+
+658
+00:36:11,160 --> 00:36:12,160
+ I don't.
+
+659
+00:36:12,160 --> 00:36:13,160
+ I don't like that.
+
+660
+00:36:13,160 --> 00:36:15,160
+ So, there's a filter.
+
+661
+00:36:15,160 --> 00:36:16,160
+ That's what I do.
+
+662
+00:36:16,160 --> 00:36:17,160
+ I have a CMT filter.
+
+663
+00:36:17,160 --> 00:36:18,160
+ CMT.
+
+664
+00:36:18,160 --> 00:36:20,160
+ What happened to my CMT command?
+
+665
+00:36:20,160 --> 00:36:21,160
+ Oh, no.
+
+666
+00:36:21,160 --> 00:36:22,160
+ I renamed it pre-picks.
+
+667
+00:36:22,160 --> 00:36:23,160
+ Yeah.
+
+668
+00:36:23,160 --> 00:36:24,160
+ I did.
+
+669
+00:36:24,160 --> 00:36:25,160
+ I forgot about that.
+
+670
+00:36:25,160 --> 00:36:26,160
+ There we go.
+
+671
+00:36:26,160 --> 00:36:27,160
+ Pre-picks.
+
+672
+00:36:27,160 --> 00:36:28,160
+ So, Bing Bing.
+
+673
+00:36:28,160 --> 00:36:29,160
+ And then I do pre...
+
+674
+00:36:29,160 --> 00:36:30,160
+ And that'll comment.
+
+675
+00:36:30,160 --> 00:36:33,160
+ And I could probably make another one that's called Go Command or something.
+
+676
+00:36:33,160 --> 00:36:34,160
+ And that'll do.
+
+677
+00:36:34,160 --> 00:36:35,160
+ That's one way to do it.
+
+678
+00:36:35,160 --> 00:36:37,160
+ Another way that's really great.
+
+679
+00:36:37,160 --> 00:36:38,160
+ I love that they support this.
+
+680
+00:36:38,160 --> 00:36:40,160
+ They use this all the time.
+
+681
+00:36:40,160 --> 00:36:42,160
+ And some people have macros and stuff set up to do that.
+
+682
+00:36:42,160 --> 00:36:43,160
+ You don't need it.
+
+683
+00:36:43,160 --> 00:36:44,160
+ You know, it's pretty easy.
+
+684
+00:36:44,160 --> 00:36:46,160
+ You just add that there and add that there.
+
+685
+00:36:46,160 --> 00:36:48,160
+ And now these things are all commented.
+
+686
+00:36:48,160 --> 00:36:49,160
+ They're not being used.
+
+687
+00:36:49,160 --> 00:36:50,160
+ So, that's comments.
+
+688
+00:36:50,160 --> 00:36:53,160
+ Comments we'll see later are actually used for comments.
+
+689
+00:36:53,160 --> 00:36:58,160
+ But, you know, mostly comments are used to turn code off.
+
+690
+00:36:58,160 --> 00:37:00,160
+ And that's what we've just done.
+
+691
+00:37:00,160 --> 00:37:02,160
+ Why did we do that?
+
+692
+00:37:02,160 --> 00:37:05,160
+ We did that because we want to actually make this code testable.
+
+693
+00:37:05,160 --> 00:37:07,160
+ So, you know, whether you do Go Run.
+
+694
+00:37:07,160 --> 00:37:09,160
+ No, we don't want to do Go Run Go.
+
+695
+00:37:09,160 --> 00:37:11,160
+ I mean, how do we really test this, right?
+
+696
+00:37:11,160 --> 00:37:14,160
+ We could write a program that tests the program.
+
+697
+00:37:14,160 --> 00:37:17,160
+ But instead, we're going to make a test case.
+
+698
+00:37:17,160 --> 00:37:21,160
+ A unit test case file called main_test.go.
+
+699
+00:37:21,160 --> 00:37:26,160
+ And again, it does look a little weird to me because we're testing the main package, which normally is not done.
+
+700
+00:37:26,160 --> 00:37:29,160
+ But let's go ahead and go forward on this.
+
+701
+00:37:29,160 --> 00:37:32,160
+ Thank you for the subscribe on that.
+
+702
+00:37:32,160 --> 00:37:33,160
+ All right.
+
+703
+00:37:33,160 --> 00:37:35,160
+ So, let's do this.
+
+704
+00:37:35,160 --> 00:37:38,160
+ Let's do main test.
+
+705
+00:37:38,160 --> 00:37:40,160
+ And we have nothing here.
+
+706
+00:37:40,160 --> 00:37:42,160
+ So, what goes in a test code, right?
+
+707
+00:37:42,160 --> 00:37:44,160
+ So, the first thing is, it has to be the same package.
+
+708
+00:37:44,160 --> 00:37:46,160
+ So, in this case, it's main.
+
+709
+00:37:46,160 --> 00:37:50,160
+ And we're going to alter that a little bit in just a second.
+
+710
+00:37:50,160 --> 00:37:53,160
+ So, in this case, it's main.
+
+711
+00:37:53,160 --> 00:37:58,160
+ And there is a -- we're not doing it for main.
+
+712
+00:37:58,160 --> 00:38:07,160
+ There -- in another world, which we'll get to when we do library packages, you can actually do main_test
+
+713
+00:38:07,160 --> 00:38:14,160
+ code test so that you can have it represent what you would write if you had an external dependency
+
+714
+00:38:14,160 --> 00:38:17,160
+ on it, but that's getting a little bit ahead of ourselves.
+
+715
+00:38:17,160 --> 00:38:18,160
+ So, let's write a test.
+
+716
+00:38:18,160 --> 00:38:20,160
+ So, we're going to write a function.
+
+717
+00:38:20,160 --> 00:38:24,160
+ We don't know about functions, but let's just assume I'm going to show you how to do it.
+
+718
+00:38:24,160 --> 00:38:26,160
+ So, we can write test.
+
+719
+00:38:26,160 --> 00:38:28,160
+ We can write test, or we can write example.
+
+720
+00:38:28,160 --> 00:38:29,160
+ Let's write example.
+
+721
+00:38:29,160 --> 00:38:34,160
+ And then we need to decide what we're going to be testing.
+
+722
+00:38:34,160 --> 00:38:39,160
+ So, in our case, we're going to be testing the main function itself, which is very weird,
+
+723
+00:38:39,160 --> 00:38:42,160
+ but we're going to do that.
+
+724
+00:38:42,160 --> 00:38:48,160
+ And then we make a comment, as we already talked about, with the very special comment called output,
+
+725
+00:38:48,160 --> 00:38:50,160
+ and it has a colon after it.
+
+726
+00:38:50,160 --> 00:38:53,160
+ And then here, we can say, "Hello, world."
+
+727
+00:38:53,160 --> 00:38:54,160
+ Right?
+
+728
+00:38:54,160 --> 00:38:57,160
+ Do we put a -- does it have a dot or anything in it?
+
+729
+00:38:57,160 --> 00:38:58,160
+ Oh, it's hello, friends.
+
+730
+00:38:58,160 --> 00:38:59,160
+ Sorry.
+
+731
+00:38:59,160 --> 00:39:00,160
+ Hello, friends.
+
+732
+00:39:00,160 --> 00:39:01,160
+ All right.
+
+733
+00:39:01,160 --> 00:39:03,160
+ And we probably want a dot in there.
+
+734
+00:39:03,160 --> 00:39:08,160
+ Okay, so this is the structure of an example-based unit test, and then we can do this.
+
+735
+00:39:08,160 --> 00:39:11,160
+ We can say, "Okay, I want to run it."
+
+736
+00:39:11,160 --> 00:39:12,160
+ So, what are we going to do?
+
+737
+00:39:12,160 --> 00:39:13,160
+ How are we going to run it?
+
+738
+00:39:13,160 --> 00:39:15,160
+ Well, we need to just call it.
+
+739
+00:39:15,160 --> 00:39:22,160
+ So, we can call main like this, and when we run it, it will do the thing.
+
+740
+00:39:22,160 --> 00:39:29,160
+ Now, this code is not something you can run directly, but you can indirectly run it with GoTest.
+
+741
+00:39:29,160 --> 00:39:36,160
+ When you run GoTest, you'll see that my test failed because it did not give me a hello,
+
+742
+00:39:36,160 --> 00:39:37,160
+ friend with a period.
+
+743
+00:39:37,160 --> 00:39:39,160
+ It tells me what it did get.
+
+744
+00:39:39,160 --> 00:39:45,160
+ So, this is actually a really great way to just the habit to get into testing your code.
+
+745
+00:39:45,160 --> 00:39:49,160
+ You can actually test your code as doing what you want, even if it's the main program.
+
+746
+00:39:49,160 --> 00:39:53,160
+ As long as it has an output, you can test it this way.
+
+747
+00:39:53,160 --> 00:40:01,160
+ You could decide that you're overly zealously testing too many small things.
+
+748
+00:40:01,160 --> 00:40:04,160
+ That's up to you to decide how granular to get it with your test.
+
+749
+00:40:04,160 --> 00:40:09,160
+ But for right now, we can do GoTest, and we see that we pass the test.
+
+750
+00:40:09,160 --> 00:40:16,160
+ So, there are many other ways to do unit testing that are built in to go.
+
+751
+00:40:16,160 --> 00:40:18,160
+ That's really the takeaway from this.
+
+752
+00:40:18,160 --> 00:40:24,160
+ With regard to organization, the underscore test.go file, that's what it is.
+
+753
+00:40:24,160 --> 00:40:28,160
+ It's there to run a unit test.
+
+754
+00:40:28,160 --> 00:40:34,160
+ When this package is imported or exported or any of those things are vendor, the test files are omitted.
+
+755
+00:40:34,160 --> 00:40:36,160
+ They're not sent.
+
+756
+00:40:36,160 --> 00:40:40,160
+ We're going to be dealing with this a lot more as we go.
+
+757
+00:40:40,160 --> 00:40:47,160
+ But I wanted to introduce you that so you can see what it means to write a test case.
+
+758
+00:40:47,160 --> 00:40:51,160
+ So, we're actually making sure that our program works without installing it.
+
+759
+00:40:51,160 --> 00:40:53,160
+ It did not effect to the install at all.
+
+760
+00:40:53,160 --> 00:40:54,160
+ I can do GoA to install it.
+
+761
+00:40:54,160 --> 00:41:01,160
+ I can do Hello, and you'll see that it's adapted and it's now running the right version.
+
+762
+00:41:01,160 --> 00:41:07,160
+ We can go all the way back up here and come back up.
+
+763
+00:41:07,160 --> 00:41:09,160
+ You can see these things are all here.
+
+764
+00:41:09,160 --> 00:41:11,160
+ I think that's about it.
+
+765
+00:41:11,160 --> 00:41:14,160
+ We've introduced you to unit testing.
+
+766
+00:41:14,160 --> 00:41:30,160
+ We've done, you know, so tests see create a same named file with underscore test for unit
+
+767
+00:41:30,160 --> 00:41:31,160
+ tests.
+
+768
+00:41:31,160 --> 00:41:32,160
+ Okay.
+
+769
+00:41:32,160 --> 00:41:40,160
+ And then add, you need to do the add the output comment.
+
+770
+00:41:40,160 --> 00:41:53,160
+ Comment followed followed by expected output as comment.
+
+771
+00:41:53,160 --> 00:41:55,160
+ Okay.
+
+772
+00:41:55,160 --> 00:41:56,160
+ And then what do we do?
+
+773
+00:41:56,160 --> 00:41:58,160
+ Then we did, we ran Go test.
+
+774
+00:41:58,160 --> 00:42:09,160
+ So, run Go test to check unit example based unit tests.
+
+775
+00:42:09,160 --> 00:42:19,240
+ So, the reason it's called an example is because that actually doubles as documentation.
+
+776
+00:42:19,240 --> 00:42:21,560
+ And I might be able to show you that.
+
+777
+00:42:21,560 --> 00:42:26,560
+ Let me see if I can demonstrate that to you, even though it's not a main part of what we're
+
+778
+00:42:26,560 --> 00:42:27,560
+ talking about.
+
+779
+00:42:27,560 --> 00:42:29,280
+ I have a little time left.
+
+780
+00:42:29,280 --> 00:42:31,280
+ I think you can do this.
+
+781
+00:42:31,280 --> 00:42:38,440
+ Let's see, show documentation wherever simple match case show.
+
+782
+00:42:38,440 --> 00:42:42,560
+ So, a lot of people don't know this, but in Go, if so, a lot of this documentation is
+
+783
+00:42:42,560 --> 00:42:55,040
+ available on the web, and I think it's actually Go dot doc, Go dot doc, Go documentation.
+
+784
+00:42:55,040 --> 00:42:56,040
+ And this is not it.
+
+785
+00:42:56,040 --> 00:42:57,600
+ We need to go to the packages.
+
+786
+00:42:57,600 --> 00:42:59,000
+ There we go.
+
+787
+00:42:59,000 --> 00:43:03,160
+ So, like, let's go see this from my bonsai package.
+
+788
+00:43:03,160 --> 00:43:06,600
+ So here's my bonsai package.
+
+789
+00:43:06,600 --> 00:43:09,360
+ And you can go read about it here.
+
+790
+00:43:09,360 --> 00:43:14,540
+ And what I'm trying to say is that all of this great documentation shows up.
+
+791
+00:43:14,540 --> 00:43:18,880
+ But the really great thing is to see all these examples we just put in our unit tests.
+
+792
+00:43:18,880 --> 00:43:24,840
+ They're now runnable testable examples that show up in the playground.
+
+793
+00:43:24,840 --> 00:43:29,140
+ So when people are trying to get acquainted with your package and they want to learn how
+
+794
+00:43:29,140 --> 00:43:34,600
+ to use it, because you've made it public, then they can come in here and they can see
+
+795
+00:43:34,600 --> 00:43:36,720
+ all this great stuff.
+
+796
+00:43:36,720 --> 00:43:41,340
+ And so this topic is related to get organized.
+
+797
+00:43:41,340 --> 00:43:46,280
+ You know, you should start documenting yourself from the very earliest, but don't overly
+
+798
+00:43:46,280 --> 00:43:51,280
+ document things because you might end up refactoring it, and then you have to redo all the documentation.
+
+799
+00:43:51,280 --> 00:43:56,640
+ So, and I'm going to show you a trick using Claude or chat GPT to automatically write
+
+800
+00:43:56,640 --> 00:43:59,400
+ your comments for you.
+
+801
+00:43:59,400 --> 00:44:03,800
+ Not a lot of people know about this, but it's one of the most amazing uses of AI.
+
+802
+00:44:03,800 --> 00:44:08,120
+ I can think of, nobody likes writing comments for their code.
+
+803
+00:44:08,120 --> 00:44:12,680
+ So it's a really great way to get started and a really great use of AI that doesn't
+
+804
+00:44:12,680 --> 00:44:15,240
+ distract from other things.
+
+805
+00:44:15,240 --> 00:44:16,560
+ We are going to do that.
+
+806
+00:44:16,560 --> 00:44:19,760
+ But so don't get too caught up in writing documentation.
+
+807
+00:44:19,760 --> 00:44:25,880
+ Yeah, air-generated PR summaries, there's a whole bunch of things there that quite frankly
+
+808
+00:44:25,880 --> 00:44:27,640
+ AI is perfect for.
+
+809
+00:44:27,640 --> 00:44:34,480
+ So don't waste a lot of time on those mundane tasks that AI can really do for you.
+
+810
+00:44:34,480 --> 00:44:37,880
+ You know, and that's one of them.
+
+811
+00:44:37,880 --> 00:44:42,600
+ But creating these examples, I haven't successfully got any of the AI's to write really great
+
+812
+00:44:42,600 --> 00:44:48,140
+ examples yet, but that might be possible in the future.
+
+813
+00:44:48,140 --> 00:44:52,080
+ But I was trying to show you that those examples become a part of your test.
+
+814
+00:44:52,080 --> 00:44:54,520
+ That's all I was trying to get at.
+
+815
+00:44:54,520 --> 00:45:01,480
+ And that's why it says example, because in the absolute genius idea, the Go designers,
+
+816
+00:45:01,480 --> 00:45:07,840
+ they decided to not only encourage unit testing by building it into the language itself, but
+
+817
+00:45:07,840 --> 00:45:17,520
+ also to or into the tooling, I should say, but also integrate testable runnable examples
+
+818
+00:45:17,520 --> 00:45:19,360
+ as that double as unit tests.
+
+819
+00:45:19,360 --> 00:45:29,080
+ I mean, I don't think I can overly state my admiration for that intensely genius idea
+
+820
+00:45:29,080 --> 00:45:30,640
+ on their part.
+
+821
+00:45:30,640 --> 00:45:36,240
+ And I got to tell you, I'm really sad that the Go community as a whole, and the next time
+
+822
+00:45:36,240 --> 00:45:39,400
+ you meet somebody who codes Go, ask them if they know about example-based tests straight
+
+823
+00:45:39,400 --> 00:45:40,400
+ up.
+
+824
+00:45:40,400 --> 00:45:41,400
+ Do you know about example-based tests?
+
+825
+00:45:41,400 --> 00:45:42,400
+ And they'll say no.
+
+826
+00:45:42,400 --> 00:45:43,400
+ They don't know.
+
+827
+00:45:43,400 --> 00:45:45,160
+ They could be doing it professionally forever.
+
+828
+00:45:45,160 --> 00:45:51,440
+ They'll know about testifier, some stupid third-party app or package that's completely
+
+829
+00:45:51,440 --> 00:45:53,440
+ unnecessary, but they will not.
+
+830
+00:45:53,440 --> 00:45:59,360
+ They discard the opportunity to create really amazing examples by writing example-based
+
+831
+00:45:59,360 --> 00:46:00,360
+ tests.
+
+832
+00:46:00,360 --> 00:46:02,160
+ And it's an absolute tragedy.
+
+833
+00:46:02,160 --> 00:46:11,360
+ It's a really, really easy way to identify a new Go programmer, because they don't know.
+
+834
+00:46:11,360 --> 00:46:13,240
+ They've never truly learned it.
+
+835
+00:46:13,240 --> 00:46:16,280
+ They've just learned all these one things that they just needed to get this other thing
+
+836
+00:46:16,280 --> 00:46:17,280
+ done.
+
+837
+00:46:17,280 --> 00:46:24,580
+ So, it's a great thing for me to end this video on, because there's so many things
+
+838
+00:46:24,580 --> 00:46:32,080
+ about code organization that go completely ignored in the Go community, and one of those
+
+839
+00:46:32,080 --> 00:46:41,440
+ things is unnecessary complexity, unnecessary make-biles, unnecessary dependency on tests
+
+840
+00:46:41,440 --> 00:46:45,760
+ of our whatever your favorite external test library is.
+
+841
+00:46:45,760 --> 00:46:48,000
+ And so don't do that.
+
+842
+00:46:48,000 --> 00:46:49,000
+ Don't do that.
+
+843
+00:46:49,000 --> 00:46:55,700
+ The beauty and the wonder of our favorite Goldilocks language here is that Go is simple.
+
+844
+00:46:55,700 --> 00:46:57,360
+ It's designed to be simple.
+
+845
+00:46:57,360 --> 00:47:00,840
+ It's designed to be understandable from the get-go.
+
+846
+00:47:00,840 --> 00:47:08,640
+ Don't break it by making your code repo so convoluted that nobody can understand what's
+
+847
+00:47:08,640 --> 00:47:09,640
+ happening in there.
+
+848
+00:47:09,640 --> 00:47:15,280
+ I mean, because it's completely against the idea of Go as being a comprehensible language
+
+849
+00:47:15,280 --> 00:47:22,960
+ and having coded Perl for more than a decade, and clean Perl for the most part, except for
+
+850
+00:47:22,960 --> 00:47:27,520
+ my classes, which manipulated the symbol table.
+
+851
+00:47:27,520 --> 00:47:33,840
+ I really enjoy the fact that Go is so simplistic, and so easy to grok, and so easy to do its
+
+852
+00:47:33,840 --> 00:47:34,840
+ thing.
+
+853
+00:47:34,840 --> 00:47:37,800
+ And so that's why I'm going to end this video.
+
+854
+00:47:37,800 --> 00:47:43,320
+ You're going to end at 47 minutes, so take some time to organize your Go projects and
+
+855
+00:47:43,320 --> 00:47:45,200
+ maybe learn about the documentation a little bit.
+
+856
+00:47:45,200 --> 00:47:53,020
+ We will cover documentation, which has its own syntax, and before we leave, I do want
+
+857
+00:47:53,020 --> 00:47:57,240
+ to end on the change that I made from Markdown to AskeyDoc.
+
+858
+00:47:57,240 --> 00:48:02,040
+ I am not going to dwell on it, but I am going to tell you why.
+
+859
+00:48:02,040 --> 00:48:12,400
+ Okay, so this is going to get its own video, but I have found writing books in AskeyDoc
+
+860
+00:48:12,400 --> 00:48:16,640
+ to be better than Markdown.
+
+861
+00:48:16,640 --> 00:48:25,280
+ You can find videos from me strongly advocating for the use of Markdown and Markdown only
+
+862
+00:48:25,280 --> 00:48:32,680
+ based on its universality and support on GitHub and simplicity.
+
+863
+00:48:32,680 --> 00:48:39,040
+ In fact, I've made meta languages to create my own sub-dial X of Markdown so that it would
+
+864
+00:48:39,040 --> 00:48:42,960
+ be even easier for people to write notes and documentation.
+
+865
+00:48:42,960 --> 00:48:49,000
+ And having been obsessed with that for many, many years and writing documentation and stuff,
+
+866
+00:48:49,000 --> 00:48:54,600
+ and having been recommended to use AskeyDoc from the late Kristinova, who I'm so happy
+
+867
+00:48:54,600 --> 00:49:02,440
+ she mentioned to me as I started publishing books, I now have not only have I started
+
+868
+00:49:02,440 --> 00:49:09,880
+ to adopt it for books, but I have quite honestly, I have, this is going to sound crazy, but
+
+869
+00:49:09,880 --> 00:49:13,760
+ I've banished Markdown from my life.
+
+870
+00:49:13,760 --> 00:49:16,440
+ And let me tell you the main reason for that.
+
+871
+00:49:16,440 --> 00:49:25,360
+ The main reason is that AskeyDoc is designed for people writing books and Markdown is not.
+
+872
+00:49:25,360 --> 00:49:26,680
+ It's just not.
+
+873
+00:49:26,680 --> 00:49:31,160
+ Markdown is designed for people who are making blogs and simple things.
+
+874
+00:49:31,160 --> 00:49:33,000
+ It can be adapted to write books.
+
+875
+00:49:33,000 --> 00:49:38,760
+ Pandock is a good example of that, and it's amazing for that, but it is nowhere near as
+
+876
+00:49:38,760 --> 00:49:41,560
+ comprehensive as AskeyDoc.
+
+877
+00:49:41,560 --> 00:49:46,920
+ Now a lot of people would say that that is a negative that AskeyDoc is too complicated
+
+878
+00:49:46,920 --> 00:49:51,760
+ for a beginner, has too many bills and whistles and unnecessary things, and they're right,
+
+879
+00:49:51,760 --> 00:49:52,760
+ it is.
+
+880
+00:49:52,760 --> 00:49:57,320
+ It's, if for a beginner you probably do want to still learn Markdown, but if you have
+
+881
+00:49:57,320 --> 00:50:06,840
+ any inclinations to write complex, you know, documentation or notes, and let me give you
+
+882
+00:50:06,840 --> 00:50:08,240
+ the criteria for that.
+
+883
+00:50:08,240 --> 00:50:16,240
+ Do you want, see this right here, this piece right here, that's being included, okay?
+
+884
+00:50:16,240 --> 00:50:19,920
+ That's being included from another source.
+
+885
+00:50:19,920 --> 00:50:21,680
+ So that's what I'm saying.
+
+886
+00:50:21,680 --> 00:50:25,400
+ We will do 30 minutes on AskeyDoc, we will do a video about AskeyDoc.
+
+887
+00:50:25,400 --> 00:50:31,480
+ It will not be a part of the Go coding series, it will be a part of terminal velocity, because
+
+888
+00:50:31,480 --> 00:50:36,320
+ I do believe writing documentation is either auto-dedactic or terminal velocity, one of
+
+889
+00:50:36,320 --> 00:50:38,480
+ those two books, that will go in there.
+
+890
+00:50:38,480 --> 00:50:45,160
+ So I'm also a fan of a practice which I've given the name for Perpetual Publishing, which
+
+891
+00:50:45,160 --> 00:50:51,240
+ means that you're constantly publishing something in book form, and it can be digestible, people
+
+892
+00:50:51,240 --> 00:50:59,900
+ can follow it, and quite recently I have discovered that AskeyDoc can be linked between completely
+
+893
+00:50:59,900 --> 00:51:05,600
+ separate websites, so I can actually include AskeyDoc from a totally different website
+
+894
+00:51:05,600 --> 00:51:12,000
+ where that AskeyDoc lives, and it will automatically be included in my build when I run the build,
+
+895
+00:51:12,000 --> 00:51:16,600
+ and that single fact alone, not to mention at the ease of tables and the fact that you
+
+896
+00:51:16,600 --> 00:51:23,360
+ can generate e-pubs and PDFs and everything from AskeyDoc out of the gate, makes AskeyDoc
+
+897
+00:51:23,360 --> 00:51:24,360
+ the clear winner for me.
+
+898
+00:51:24,360 --> 00:51:30,160
+ It has full support for LaTeX, not just K-TEX, which is just the math part, so a lot of people
+
+899
+00:51:30,160 --> 00:51:34,880
+ have suggested why are you not just writing your books in LaTeX, L-A-T-E-X, and the reason
+
+900
+00:51:34,880 --> 00:51:35,920
+ is because I don't need to.
+
+901
+00:51:35,920 --> 00:51:42,000
+ I can do that at any time with AskeyDoc, it has full support for all of LaTeX.
+
+902
+00:51:42,000 --> 00:51:49,200
+ I realize that AskeyDoc is kind of the outside person here, but one of the reasons that I
+
+903
+00:51:49,200 --> 00:51:55,960
+ switched it specifically related to this is I was starting to write the book in this repository
+
+904
+00:51:55,960 --> 00:52:00,640
+ along with the code, and the really great thing about this is, oh, this is, I haven't included
+
+905
+00:52:00,640 --> 00:52:05,040
+ this one yet, I need to move it, is that you can actually have runnable code.
+
+906
+00:52:05,040 --> 00:52:10,320
+ You can have code that executes, that can be tested, that is also a part of the book.
+
+907
+00:52:10,320 --> 00:52:14,760
+ So this module that we've been dealing with, this readme file, is now going to take the
+
+908
+00:52:14,760 --> 00:52:15,760
+ form of that.
+
+909
+00:52:15,760 --> 00:52:21,520
+ And so the last thing I want to say here is that in a directory like this, quite frequently
+
+910
+00:52:21,520 --> 00:52:28,240
+ you'll see a doc directory, all right, you'll see a doc directory like this, and that's
+
+911
+00:52:28,240 --> 00:52:36,000
+ where people put all of their documentations, and they'll put it in there.
+
+912
+00:52:36,000 --> 00:52:44,160
+ A lot of times people don't know this, but you can actually also serve your documentation
+
+913
+00:52:44,160 --> 00:52:51,720
+ and stuff from this same repository, and I will be adding a build script to this one
+
+914
+00:52:51,720 --> 00:52:58,160
+ to build my AskeyDoc, and I'm trying to decide whether I will include that work as a part
+
+915
+00:52:58,160 --> 00:53:05,240
+ of this organizational stuff or not, either way, I'll do a video on that.
+
+916
+00:53:05,240 --> 00:53:12,480
+ And that video doesn't really belong in the coding from the get-go, but it is related
+
+917
+00:53:12,480 --> 00:53:17,120
+ to taking notes, and taking notes is kind of a presupposition on my part that you are
+
+918
+00:53:17,120 --> 00:53:21,680
+ going to take healthy, awesome, amazing notes, and quite honestly, I think the best way to
+
+919
+00:53:21,680 --> 00:53:31,120
+ do that is with AskeyDoc, and the reason that I think that's true is because, let me
+
+920
+00:53:31,120 --> 00:53:34,560
+ actually do one right here for you, so this is the example that we had.
+
+921
+00:53:34,560 --> 00:53:39,400
+ You see how I can actually call out specific items in this example here, I can point to
+
+922
+00:53:39,400 --> 00:53:40,400
+ these items.
+
+923
+00:53:40,400 --> 00:53:43,880
+ These also are, if you ever read a Riley book, they're already there that way, okay.
+
+924
+00:53:43,880 --> 00:53:48,240
+ So if I wanted to change this, and I wanted to say I don't want that in there, I want
+
+925
+00:53:48,240 --> 00:53:54,880
+ to include, and this is a good thing to end on, it is related to documentation to organization,
+
+926
+00:53:54,880 --> 00:53:56,880
+ so I feel like it's okay.
+
+927
+00:53:56,880 --> 00:53:59,040
+ So I want to include, what do I want to include here?
+
+928
+00:53:59,040 --> 00:54:07,920
+ I want to include command, hello, we'll tab tab that out, slash main.go, main.go, put that
+
+929
+00:54:07,920 --> 00:54:14,400
+ in there, and I don't, I have a call out here, but the call doesn't say what it's being called
+
+930
+00:54:14,400 --> 00:54:19,520
+ out for, right, but I can actually, well, let's go add one.
+
+931
+00:54:19,520 --> 00:54:27,160
+ So we add the main.go there, and we could say, I could say, one, I can make some comment
+
+932
+00:54:27,160 --> 00:54:30,400
+ about that line, which you can do, right?
+
+933
+00:54:30,400 --> 00:54:33,440
+ So you can do, so you can actually learn how to publish your own books at the same time
+
+934
+00:54:33,440 --> 00:54:35,520
+ as you're taking notes.
+
+935
+00:54:35,520 --> 00:54:41,120
+ And by doing that now, I can actually, I can build this and, yeah, we'll put a build script
+
+936
+00:54:41,120 --> 00:54:42,120
+ in there.
+
+937
+00:54:42,120 --> 00:54:45,840
+ I feel like we need an entire hour about how to do documentation, so I'm going to leave
+
+938
+00:54:45,840 --> 00:54:47,880
+ it there.
+
+939
+00:54:47,880 --> 00:54:55,120
+ And I am going to do a full hour video about creating documentation.
+
+940
+00:54:55,120 --> 00:55:02,920
+ And I will, I will put it in coding for the get go in this particular stream so that it
+
+941
+00:55:02,920 --> 00:55:07,360
+ can be done, but that video itself should stand alone.
+
+942
+00:55:07,360 --> 00:55:09,080
+ So I'm going to end this video for now.
+
+943
+00:55:09,080 --> 00:55:15,040
+ This video has been about how to organize your directory and, and, and all of that.
+
+944
+00:55:15,040 --> 00:55:17,080
+ And we'll just let that go.
+
