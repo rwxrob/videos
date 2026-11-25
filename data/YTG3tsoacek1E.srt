@@ -1,0 +1,972 @@
+1
+00:00:00,000 --> 00:00:07,440
+ I never know if it's starting or not.
+
+2
+00:00:07,440 --> 00:00:12,320
+ Okay, so we're going to make a video about a very controversial topic.
+
+3
+00:00:12,320 --> 00:00:19,920
+ When is it okay for your company to say that you need to stay here whether or not you want
+
+4
+00:00:19,920 --> 00:00:21,760
+ to go home and sleep or not?
+
+5
+00:00:21,760 --> 00:00:25,000
+ So we were talking about this.
+
+6
+00:00:25,000 --> 00:00:26,640
+ We've been talking about this topic.
+
+7
+00:00:26,640 --> 00:00:30,440
+ We brought it up there like, you know, and then somebody else jokingly said, "Oh, you're
+
+8
+00:00:30,440 --> 00:00:34,400
+ making it bad for the rest of us because, you know, hey, some of us actually care about
+
+9
+00:00:34,400 --> 00:00:36,600
+ getting a good night's sleep and stuff."
+
+10
+00:00:36,600 --> 00:00:42,800
+ And this video is going to go under the skill stack beginner boost section for a tech lifestyle
+
+11
+00:00:42,800 --> 00:00:45,640
+ because what does it mean to be a technologist?
+
+12
+00:00:45,640 --> 00:00:47,240
+ What are you committing to?
+
+13
+00:00:47,240 --> 00:00:48,960
+ What are you signing up for?
+
+14
+00:00:48,960 --> 00:00:54,400
+ And in order to have this conversation, I want to start with one very important topic
+
+15
+00:00:54,400 --> 00:00:56,560
+ and comparison, the firefighter.
+
+16
+00:00:56,560 --> 00:00:58,600
+ The emergency responder, right?
+
+17
+00:00:58,600 --> 00:01:04,560
+ When someone signs up to be an EMT or a firefighter or even in the military, they know what they're
+
+18
+00:01:04,560 --> 00:01:05,760
+ getting into.
+
+19
+00:01:05,760 --> 00:01:10,600
+ They know that there's going to be lots and lots of uncomfortable nights and that for
+
+20
+00:01:10,600 --> 00:01:15,280
+ whatever reason, sometimes less than others, usually in the case of emergency responders,
+
+21
+00:01:15,280 --> 00:01:19,960
+ the military, people's lives are at stake and it's not too hard to justify it's working
+
+22
+00:01:19,960 --> 00:01:20,960
+ at 22-hour.
+
+23
+00:01:20,960 --> 00:01:21,960
+ My buddy's a surgeon.
+
+24
+00:01:21,960 --> 00:01:24,120
+ He's a very successful surgeon actually.
+
+25
+00:01:24,120 --> 00:01:30,040
+ And he regularly would work 22 hours and he gets to sleep in when he can.
+
+26
+00:01:30,040 --> 00:01:31,560
+ And that's a part of the job.
+
+27
+00:01:31,560 --> 00:01:37,800
+ So how does being an IT person, whether you're a developer or an operations person, how does
+
+28
+00:01:37,800 --> 00:01:44,360
+ that compare and what are the expectations of you that are justified for your employer
+
+29
+00:01:44,360 --> 00:01:45,520
+ to make of you?
+
+30
+00:01:45,520 --> 00:01:50,040
+ And this is a really tough topic because a lot of employers would see themselves as
+
+31
+00:01:50,040 --> 00:01:54,120
+ people are going to die if you don't work this extra hours.
+
+32
+00:01:54,120 --> 00:01:56,760
+ If you're just going to sign off and say, "Nope, you can't make me stay.
+
+33
+00:01:56,760 --> 00:01:59,400
+ I'm going to go home and sleep and be with my wife."
+
+34
+00:01:59,400 --> 00:02:00,880
+ And I have a couple stories about this.
+
+35
+00:02:00,880 --> 00:02:03,920
+ The first one I have is when I was working at Nike.com.
+
+36
+00:02:03,920 --> 00:02:09,600
+ So when I was working at Nike.com, my wife at the time was, she had two young toddlers
+
+37
+00:02:09,600 --> 00:02:14,880
+ at work at home and she was trying to manage those toddlers' lives and everything.
+
+38
+00:02:14,880 --> 00:02:16,600
+ And we went out to a Sunday dinner.
+
+39
+00:02:16,600 --> 00:02:20,760
+ We were supposed to go to a Sunday dinner and I went in because I needed to pick something
+
+40
+00:02:20,760 --> 00:02:21,760
+ up from work.
+
+41
+00:02:21,760 --> 00:02:22,760
+ I can't remember what it was.
+
+42
+00:02:22,760 --> 00:02:26,860
+ And it turned out that my whole team was there at work on the Nike.com project and they
+
+43
+00:02:26,860 --> 00:02:30,760
+ had an emergency that they hadn't been able to page me for or something and they needed
+
+44
+00:02:30,760 --> 00:02:31,760
+ me to stay.
+
+45
+00:02:31,760 --> 00:02:38,440
+ This was when I was a developer on the Nike.com project and I was building the very important
+
+46
+00:02:38,440 --> 00:02:39,440
+ the payment system.
+
+47
+00:02:39,440 --> 00:02:44,880
+ I was involved with the specifically the shopping cart and the payment system for the tool and
+
+48
+00:02:44,880 --> 00:02:48,880
+ they needed me and my manager saw that I was in and said, "Because I was there."
+
+49
+00:02:48,880 --> 00:02:50,760
+ She said, "You need to stay here.
+
+50
+00:02:50,760 --> 00:02:51,760
+ You need to stay here.
+
+51
+00:02:51,760 --> 00:02:52,760
+ We need you.
+
+52
+00:02:52,760 --> 00:02:53,760
+ We've got to have you here.
+
+53
+00:02:53,760 --> 00:02:54,760
+ I'm so good to see you."
+
+54
+00:02:54,760 --> 00:02:55,760
+ And I was like, "No.
+
+55
+00:02:55,760 --> 00:02:56,760
+ I'm on my way out.
+
+56
+00:02:56,760 --> 00:02:59,760
+ I'm going to dinner with the family, with my wife and her family."
+
+57
+00:02:59,760 --> 00:03:06,280
+ And yeah, I know.
+
+58
+00:03:06,280 --> 00:03:07,280
+ There we go.
+
+59
+00:03:07,280 --> 00:03:09,720
+ Someone bought a fart in the middle of the YouTube video.
+
+60
+00:03:09,720 --> 00:03:10,720
+ What a surprise.
+
+61
+00:03:10,720 --> 00:03:16,240
+ I think it's hilarious.
+
+62
+00:03:16,240 --> 00:03:20,080
+ So then my wife came in at the time.
+
+63
+00:03:20,080 --> 00:03:21,560
+ She came in and she said, "Where are you?
+
+64
+00:03:21,560 --> 00:03:22,560
+ Why are you waiting?
+
+65
+00:03:22,560 --> 00:03:23,560
+ Why does it take you so long?"
+
+66
+00:03:23,560 --> 00:03:25,560
+ She goes, "They want me to stay in for work."
+
+67
+00:03:25,560 --> 00:03:28,760
+ And she ended up yelling at them, screaming at them.
+
+68
+00:03:28,760 --> 00:03:33,280
+ She had a total emotional meltdown and she was screaming at them saying, "You don't
+
+69
+00:03:33,280 --> 00:03:35,120
+ know how hard it is to be a mother.
+
+70
+00:03:35,120 --> 00:03:36,120
+ It's a blah, blah, blah."
+
+71
+00:03:36,120 --> 00:03:37,640
+ And one of the person says, "I have a dog."
+
+72
+00:03:37,640 --> 00:03:38,640
+ She goes, "You have a dog.
+
+73
+00:03:38,640 --> 00:03:39,640
+ Do you have any idea what it's like?"
+
+74
+00:03:39,640 --> 00:03:46,480
+ So my wife just literally destroyed these people, these poor, wonderful people on my
+
+75
+00:03:46,480 --> 00:03:49,040
+ team and my poor wife too at the time.
+
+76
+00:03:49,040 --> 00:03:52,840
+ I mean, she just wanted to have a nice Sunday dinner and they were working me 90 hours a
+
+77
+00:03:52,840 --> 00:03:57,720
+ week easily and they were only paying me 30 grand a year, which was absolutely offensive
+
+78
+00:03:57,720 --> 00:04:04,560
+ because when I all fast forward the story, so they put us, it was really tough, right?
+
+79
+00:04:04,560 --> 00:04:10,640
+ And they let me have that time, so I said, "Fine, I'm going to swear here."
+
+80
+00:04:10,640 --> 00:04:11,880
+ I wasn't Doris, actually.
+
+81
+00:04:11,880 --> 00:04:14,160
+ This was my other wife.
+
+82
+00:04:14,160 --> 00:04:19,400
+ And I'm not going to say this because, I mean, the swear word.
+
+83
+00:04:19,400 --> 00:04:22,160
+ So I said, and I was Mormon at the time, so it matters.
+
+84
+00:04:22,160 --> 00:04:23,160
+ I said, "Fuck it.
+
+85
+00:04:23,160 --> 00:04:24,160
+ I'm out of here."
+
+86
+00:04:24,160 --> 00:04:26,840
+ And I thought that was going to lose my job right then and I left.
+
+87
+00:04:26,840 --> 00:04:32,200
+ I walked out, I got in the car, I got in the minivan, the transmission was flowing out
+
+88
+00:04:32,200 --> 00:04:35,820
+ and that was apparently one of the things that we yelled about during the time that my
+
+89
+00:04:35,820 --> 00:04:37,840
+ first wife, that's what she yelled about.
+
+90
+00:04:37,840 --> 00:04:42,120
+ And the next day I came into work thinking I was going to lose my job, my manager sat
+
+91
+00:04:42,120 --> 00:04:46,880
+ me down in the middle, sat me down and said, "We understand your transmission is bad and
+
+92
+00:04:46,880 --> 00:04:47,880
+ you need a new one.
+
+93
+00:04:47,880 --> 00:04:48,880
+ We'd like to buy you a new one."
+
+94
+00:04:48,880 --> 00:04:51,840
+ You got to understand, that was like $2,000 repair, right?
+
+95
+00:04:51,840 --> 00:04:55,680
+ So rather than getting fired, my manager said, "Here you go."
+
+96
+00:04:55,680 --> 00:04:59,000
+ Fast forward like six or seven months, nothing has changed, they're still working as just
+
+97
+00:04:59,000 --> 00:05:00,360
+ as hard as they ever were.
+
+98
+00:05:00,360 --> 00:05:07,640
+ They were literally teasing about locking us in our cubicles with caution, crime scene
+
+99
+00:05:07,640 --> 00:05:14,120
+ tape and everything and they would bring us really expensive salmon and I remember ham
+
+100
+00:05:14,120 --> 00:05:18,240
+ locks and all kinds of good food because they were trying to make a deadline that Bill Knight
+
+101
+00:05:18,240 --> 00:05:23,120
+ had promised we were going to make on time and I was like, "This is not happening."
+
+102
+00:05:23,120 --> 00:05:27,360
+ And so they put everybody in a room and inside of that room they told everybody, "It's a
+
+103
+00:05:27,360 --> 00:05:28,360
+ good thing I wasn't there.
+
+104
+00:05:28,360 --> 00:05:29,360
+ I probably would have yelled at them."
+
+105
+00:05:29,360 --> 00:05:31,720
+ They put everybody in a room and they said, "Look, we understand everybody's having a
+
+106
+00:05:31,720 --> 00:05:32,720
+ hard time.
+
+107
+00:05:32,720 --> 00:05:38,480
+ It's just really, they're having, this is, you guys are struggling and blah, blah, blah."
+
+108
+00:05:38,480 --> 00:05:41,680
+ And this is what they said, "We understand that this is true but we want you to understand
+
+109
+00:05:41,680 --> 00:05:46,880
+ that Nike.com is a dot com and it has a dot com culture and expectation and if this is,
+
+110
+00:05:46,880 --> 00:05:50,560
+ if this workload is too high for you, then this is probably not the right place for you.
+
+111
+00:05:50,560 --> 00:05:55,200
+ Half the people in the room quit within the next 24 hours.
+
+112
+00:05:55,200 --> 00:05:57,600
+ Half of the people quit.
+
+113
+00:05:57,600 --> 00:06:03,280
+ And so I ended up, half the people quit and I came back in the next day and I said, "What
+
+114
+00:06:03,280 --> 00:06:04,280
+ the hell is going on?
+
+115
+00:06:04,280 --> 00:06:05,280
+ Why is everybody packing?
+
+116
+00:06:05,280 --> 00:06:06,280
+ Why are so many people leaving?"
+
+117
+00:06:06,280 --> 00:06:09,000
+ They said they gave, they told us that it was not going to change.
+
+118
+00:06:09,000 --> 00:06:13,280
+ It was going to be the same thing as usual and they told us to leave if we didn't like
+
+119
+00:06:13,280 --> 00:06:14,280
+ it.
+
+120
+00:06:14,280 --> 00:06:17,800
+ Half the people left and one of the persons left, his recruiter called me within three
+
+121
+00:06:17,800 --> 00:06:22,320
+ days and the recruiter said to me, he said, "Look, I can't talk.
+
+122
+00:06:22,320 --> 00:06:23,320
+ I have a job.
+
+123
+00:06:23,320 --> 00:06:24,320
+ I have family.
+
+124
+00:06:24,320 --> 00:06:25,320
+ I have toddlers.
+
+125
+00:06:25,320 --> 00:06:26,320
+ I can't give up this job.
+
+126
+00:06:26,320 --> 00:06:27,320
+ I was terrified.
+
+127
+00:06:27,320 --> 00:06:28,320
+ I couldn't quit.
+
+128
+00:06:28,320 --> 00:06:29,320
+ At least I thought."
+
+129
+00:06:29,320 --> 00:06:31,160
+ And the recruiter said, "Please don't talk to me and bother me.
+
+130
+00:06:31,160 --> 00:06:32,160
+ I need to focus."
+
+131
+00:06:32,160 --> 00:06:38,280
+ He goes, "Well, so-and-so who just quit recommended you and he says you're one of the best people
+
+132
+00:06:38,280 --> 00:06:40,800
+ on the team and we should definitely go for you."
+
+133
+00:06:40,800 --> 00:06:42,520
+ And so he said, "I should personally call you."
+
+134
+00:06:42,520 --> 00:06:43,520
+ And I said, "Fine."
+
+135
+00:06:43,520 --> 00:06:46,120
+ I said, "But I really can't talk to you unless you can double my salary."
+
+136
+00:06:46,120 --> 00:06:47,360
+ I told him some ridiculous number.
+
+137
+00:06:47,360 --> 00:06:49,440
+ He said, "Absolutely, we can do that.
+
+138
+00:06:49,440 --> 00:06:51,640
+ Can you apply to Dallas next week?"
+
+139
+00:06:51,640 --> 00:06:52,640
+ I flew to Dallas.
+
+140
+00:06:52,640 --> 00:06:53,640
+ I interviewed.
+
+141
+00:06:53,640 --> 00:06:59,360
+ I had a job for twice, for more than twice the salary that I was making at Nike, on Nike.com.
+
+142
+00:06:59,360 --> 00:07:05,000
+ And I signed on to IBM and boom, had an $80 per DM for a month, on my first month of training.
+
+143
+00:07:05,000 --> 00:07:06,800
+ It was Skyzelin.
+
+144
+00:07:06,800 --> 00:07:12,280
+ My wife was completely ecstatic and my whole future just looked totally different because
+
+145
+00:07:12,280 --> 00:07:16,200
+ somebody actually had the courage to tell me what I was really making.
+
+146
+00:07:16,200 --> 00:07:21,880
+ So the moral of this story is that if you're going to go someplace, you have to know what
+
+147
+00:07:21,880 --> 00:07:24,760
+ the expectations are and sometimes those expectations literally are.
+
+148
+00:07:24,760 --> 00:07:27,120
+ You need to work 90 minutes a week or not.
+
+149
+00:07:27,120 --> 00:07:28,280
+ It's not that I made more money.
+
+150
+00:07:28,280 --> 00:07:33,000
+ It's that you need to know what the expectations are and that particular job's expectation was
+
+151
+00:07:33,000 --> 00:07:37,320
+ that they were going to underpay me and they were going to work me 90 hours a week.
+
+152
+00:07:37,320 --> 00:07:42,920
+ Now that's one job and that's one I left and I reset the expectation and I'm working
+
+153
+00:07:42,920 --> 00:07:46,440
+ for a company that didn't have the same expectation to pay me double the money.
+
+154
+00:07:46,440 --> 00:07:47,800
+ And why is this important?
+
+155
+00:07:47,800 --> 00:07:49,400
+ Because you need to set that expectation.
+
+156
+00:07:49,400 --> 00:07:50,400
+ Let me tell you another job.
+
+157
+00:07:50,400 --> 00:07:55,280
+ Another job that I took where they made me a system administrator, after my first job
+
+158
+00:07:55,280 --> 00:07:59,160
+ at IBM when I was a system administrator, the expectation was that when the systems would
+
+159
+00:07:59,160 --> 00:08:01,680
+ get down, you stayed around until it was fixed up.
+
+160
+00:08:01,680 --> 00:08:02,880
+ So I did.
+
+161
+00:08:02,880 --> 00:08:06,000
+ And the stuff would go down and I stayed until it was there, it was fixed up.
+
+162
+00:08:06,000 --> 00:08:11,120
+ And the next day, my manager sent a bouquet of roses to my wife, the same wife who had
+
+163
+00:08:11,120 --> 00:08:15,040
+ yelled at the other people at Nike.com and said, "We are so grateful that you let us
+
+164
+00:08:15,040 --> 00:08:18,680
+ have your husband, but he's been critical to fixing this stuff."
+
+165
+00:08:18,680 --> 00:08:21,880
+ This isn't a brag, it's just to say that the expectation was different.
+
+166
+00:08:21,880 --> 00:08:25,720
+ I was expected to be there, I was expected to be there and to fix the problem because
+
+167
+00:08:25,720 --> 00:08:29,740
+ I was being paid as a system administrator to keep things running.
+
+168
+00:08:29,740 --> 00:08:34,040
+ And if it hadn't been that way, it might have been a different thing.
+
+169
+00:08:34,040 --> 00:08:37,640
+ So some developer jobs, they're going to tell you straight up, we expect you to be, we're
+
+170
+00:08:37,640 --> 00:08:46,080
+ going to pay you this amount of money, but we expect you to do whatever amount of time
+
+171
+00:08:46,080 --> 00:08:48,840
+ and energy in the thing.
+
+172
+00:08:48,840 --> 00:08:50,680
+ And you just need to know what those expectations are.
+
+173
+00:08:50,680 --> 00:08:56,160
+ But in the IT field, particularly in operations, there's an unspoken expectation that you will
+
+174
+00:08:56,160 --> 00:08:58,840
+ stay with the job until stuff gets fixed.
+
+175
+00:08:58,840 --> 00:09:03,160
+ That means if the business critical systems are going down, you used to have one story
+
+176
+00:09:03,160 --> 00:09:04,880
+ about this too, this kind of fun.
+
+177
+00:09:04,880 --> 00:09:07,600
+ So one of the guys that I've talked about a lot who actually gave me a thanks award for
+
+178
+00:09:07,600 --> 00:09:12,680
+ teaching in Linux, he was on what's called a bridge call.
+
+179
+00:09:12,680 --> 00:09:17,360
+ Just when stuff hits the fan and everything goes down and we were on this poll trying
+
+180
+00:09:17,360 --> 00:09:18,920
+ to get the systems back up.
+
+181
+00:09:18,920 --> 00:09:25,160
+ Production systems were down and there was no, some jobs don't have expectations, yeah.
+
+182
+00:09:25,160 --> 00:09:30,720
+ That's probably true too, but in this particular job, the expectation was that we would keep
+
+183
+00:09:30,720 --> 00:09:33,840
+ systems running and there was literally nothing flowing.
+
+184
+00:09:33,840 --> 00:09:36,960
+ It was consolidated in great ways I can tell you the account that we were on and it was
+
+185
+00:09:36,960 --> 00:09:41,040
+ literally freight not moving and money being lost because the systems were down.
+
+186
+00:09:41,040 --> 00:09:46,500
+ And so we had to sit on a bridge call no matter what until the thing was fixed and a bridge
+
+187
+00:09:46,500 --> 00:09:53,640
+ call is when they get everybody to get all the people and they are talking about it back
+
+188
+00:09:53,640 --> 00:09:55,480
+ to management environments, yes.
+
+189
+00:09:55,480 --> 00:09:59,920
+ And so I just remember being on that call, I mean it went into the wee hours of the morning,
+
+190
+00:09:59,920 --> 00:10:07,240
+ 4 a.m. from my time and this guy, he literally fell asleep on the call and was snoring on
+
+191
+00:10:07,240 --> 00:10:08,240
+ the call.
+
+192
+00:10:08,240 --> 00:10:11,480
+ He didn't hear anybody else.
+
+193
+00:10:11,480 --> 00:10:14,480
+ Nobody could hear each other, we were all, he was totally snoring and they were like
+
+194
+00:10:14,480 --> 00:10:17,840
+ yelling in the phone, they were yelling in the name Trent, that was not his name, but
+
+195
+00:10:17,840 --> 00:10:23,160
+ they were yelling in the phone, they were like Trent Trent wake up and they couldn't
+
+196
+00:10:23,160 --> 00:10:28,440
+ get him to wake up because he was like nobody could hear or like just put the guy to bed
+
+197
+00:10:28,440 --> 00:10:31,360
+ until he could come back up because the expectation was you were going to stick around and you
+
+198
+00:10:31,360 --> 00:10:35,520
+ were going to contribute to getting the problem solved until it was getting solved.
+
+199
+00:10:35,520 --> 00:10:39,040
+ So if you're going to take up the operations field, that's going to be a thing.
+
+200
+00:10:39,040 --> 00:10:42,920
+ If you're going to take up the security field and you've been hacked, I remember one time
+
+201
+00:10:42,920 --> 00:10:46,560
+ the system admins were up for like almost three days trying to find how they'd been
+
+202
+00:10:46,560 --> 00:10:51,640
+ hacked and they were tracing, I remember that because they had to police in and they were
+
+203
+00:10:51,640 --> 00:10:55,600
+ like taking pictures of things and they were capturing logs, key logs of that person that
+
+204
+00:10:55,600 --> 00:11:00,960
+ was doing and the stuff, it was a big deal and everybody had to be on site until the
+
+205
+00:11:00,960 --> 00:11:03,600
+ emergency was taken off and then they went to bed.
+
+206
+00:11:03,600 --> 00:11:06,520
+ And with my wife, my wife right now, she has a different expectation when they're doing
+
+207
+00:11:06,520 --> 00:11:10,400
+ a show, there's a big expectation to push totally really hard, but they have sort of
+
+208
+00:11:10,400 --> 00:11:15,240
+ a soft expectation that you're going to cool down and take some time off later.
+
+209
+00:11:15,240 --> 00:11:20,680
+ This idea that you're going to punch the clock into 40 hours is not a thing in IT.
+
+210
+00:11:20,680 --> 00:11:24,200
+ Now, so it's yeah, stand up meetings are like that.
+
+211
+00:11:24,200 --> 00:11:28,080
+ So the point of it is that if you're going to take, if you're going to join into IT,
+
+212
+00:11:28,080 --> 00:11:33,240
+ if you're going to get into the IT tech lifestyle, you just have to know that you're signing
+
+213
+00:11:33,240 --> 00:11:38,480
+ up for a different type of lifestyle that does not work nine to five.
+
+214
+00:11:38,480 --> 00:11:39,480
+ It doesn't.
+
+215
+00:11:39,480 --> 00:11:40,480
+ It doesn't work nine to five.
+
+216
+00:11:40,480 --> 00:11:44,480
+ In fact, I have a relationship with my manager, they know very well that I use the daylight
+
+217
+00:11:44,480 --> 00:11:49,520
+ whenever possible for things that you can do in the daylight so that I can do things
+
+218
+00:11:49,520 --> 00:11:50,520
+ at night.
+
+219
+00:11:50,520 --> 00:11:54,680
+ Sometimes when my brain works better at night, when I can focus in the family's sleep and
+
+220
+00:11:54,680 --> 00:11:58,400
+ everything and I get a lot of coding and I get a lot of systems, you know, management
+
+221
+00:11:58,400 --> 00:12:01,800
+ API development, whatever I'm doing, I can do it during the off hours.
+
+222
+00:12:01,800 --> 00:12:04,760
+ So the lifestyle of the technologist is not always punched the clock.
+
+223
+00:12:04,760 --> 00:12:09,120
+ You do have to be there for meetings and you do have to be there to interact.
+
+224
+00:12:09,120 --> 00:12:13,120
+ Now today I missed a meeting completely, just totally missed a meeting because I wish it
+
+225
+00:12:13,120 --> 00:12:16,080
+ was not available and occasionally that's going to happen.
+
+226
+00:12:16,080 --> 00:12:22,160
+ But on the whole, people expect you to be at the few stand up meetings that are there
+
+227
+00:12:22,160 --> 00:12:29,760
+ and yeah, if you let the two cross, they can definitely control and so you do have to sit
+
+228
+00:12:29,760 --> 00:12:32,960
+ up boundaries and I got to tell you, that's one of the biggest challenges being an IT
+
+229
+00:12:32,960 --> 00:12:35,800
+ professional, is there's really no rules about it, right?
+
+230
+00:12:35,800 --> 00:12:39,840
+ So you kind of have to set up those rules and those expectations with the person that
+
+231
+00:12:39,840 --> 00:12:44,280
+ you're working with, with the team that you're working with and every team is different.
+
+232
+00:12:44,280 --> 00:12:49,700
+ Some systems administrator rules for a particular job are highly critical and people, you know,
+
+233
+00:12:49,700 --> 00:12:53,320
+ things will stop moving, freight will stop and sometimes people will die if you're like
+
+234
+00:12:53,320 --> 00:12:54,720
+ in medical tech.
+
+235
+00:12:54,720 --> 00:12:59,400
+ So you have to kind of weigh that and if that's the kind of thing you want to be involved
+
+236
+00:12:59,400 --> 00:13:00,400
+ with.
+
+237
+00:13:00,400 --> 00:13:03,320
+ But yeah, make sure that you take care of your health, make sure that you get a lot
+
+238
+00:13:03,320 --> 00:13:06,040
+ of sleep because your brain will work better when you get that sleep.
+
+239
+00:13:06,040 --> 00:13:10,840
+ We were joking about all the different ways to get sleep on the job, this is what led
+
+240
+00:13:10,840 --> 00:13:15,760
+ to this conversation because people will keep, you know, some, you know, surgeons will have
+
+241
+00:13:15,760 --> 00:13:19,760
+ a room they can go sleep in, IT professional, a lot of us will keep a pillow under the desk
+
+242
+00:13:19,760 --> 00:13:23,600
+ so you can take a nap and get your brain up to speed so you can do the things that need
+
+243
+00:13:23,600 --> 00:13:28,600
+ to be done to make sure your job gets fulfilled and all the expectations are met.
+
