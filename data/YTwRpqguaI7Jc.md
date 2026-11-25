@@ -12,12 +12,12 @@ Chapters:
 10:37 Installing xdg-utils and wslu
 13:36 GitHub CLI login and file associations
 15:01 Why WSL 2 over Git Bash or VMs
-21:09 Chat questions on setup and multiple distros
+20:44 Chat questions on setup and multiple distros
 24:05 Past WSL breakage and Linux desktop alternatives
 27:50 WezTerm configuration plans and book updates
 31:17 WezTerm, Lua configuration and perpetual publishing
-37:46 Why terminal emulators and displays matter
-41:00 Mac for development, Proxmox and home labs
+38:28 Why terminal emulators and displays matter
+41:07 Mac for development, Proxmox and home labs
 43:01 Early days running terminal-only Linux
 
 `#wsl2 #linux #windows #wslu #terminal #wezterm #bash #vim #beginners #protips #education`
