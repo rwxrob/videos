@@ -1,0 +1,476 @@
+1
+00:00:00,000 --> 00:00:05,000
+ What computer should you get and/or computers should you get?
+
+2
+00:00:07,680 --> 00:00:08,560
+ This is a big question.
+
+3
+00:00:08,560 --> 00:00:11,400
+ It came about people were asking me this question
+
+4
+00:00:11,400 --> 00:00:15,000
+ as a follow up to, well, I have my CKA,
+
+5
+00:00:15,000 --> 00:00:17,000
+ my certified Kubernetes administrator,
+
+6
+00:00:17,000 --> 00:00:18,480
+ and you're telling me I should make a lab,
+
+7
+00:00:18,480 --> 00:00:20,280
+ but I don't have money to make a lab.
+
+8
+00:00:20,280 --> 00:00:22,200
+ And the question is where do you get computers?
+
+9
+00:00:22,200 --> 00:00:23,440
+ What kind of computers do you recommend
+
+10
+00:00:23,440 --> 00:00:25,720
+ for building out your lab at home?
+
+11
+00:00:25,720 --> 00:00:28,560
+ So I'm gonna tell you, I'm gonna share with you
+
+12
+00:00:28,560 --> 00:00:32,160
+ the computers that I bought to build up my lab,
+
+13
+00:00:32,160 --> 00:00:34,520
+ and why I think that it's not as big an expense
+
+14
+00:00:34,520 --> 00:00:35,960
+ as you might think it is.
+
+15
+00:00:35,960 --> 00:00:39,120
+ You are gonna need a switch of some kind,
+
+16
+00:00:39,120 --> 00:00:40,560
+ and I don't wanna go through all the things
+
+17
+00:00:40,560 --> 00:00:41,400
+ you're gonna need here.
+
+18
+00:00:41,400 --> 00:00:42,960
+ That's part of the learning processes
+
+19
+00:00:42,960 --> 00:00:45,400
+ for you to figure out what stuff you actually need.
+
+20
+00:00:45,400 --> 00:00:47,800
+ But if you look on my screen,
+
+21
+00:00:47,800 --> 00:00:51,160
+ you can see the core piece of this.
+
+22
+00:00:51,160 --> 00:00:55,480
+ So in order to do any kind of lab environment,
+
+23
+00:00:55,480 --> 00:00:57,840
+ you need to have more than one computer,
+
+24
+00:00:57,840 --> 00:01:00,080
+ and those computers need to be actual computers,
+
+25
+00:01:00,080 --> 00:01:02,600
+ they need to be significant, they need to be fast,
+
+26
+00:01:02,600 --> 00:01:07,600
+ and they need to have pretty fast SSD solid-state drives
+
+27
+00:01:08,080 --> 00:01:10,720
+ in order to simulate things like SED,
+
+28
+00:01:10,720 --> 00:01:15,200
+ and these really, really low latency things you need at home.
+
+29
+00:01:16,400 --> 00:01:19,760
+ These Dell OptiPlex are some of the best ones you can get.
+
+30
+00:01:19,760 --> 00:01:24,040
+ These are refurbished, and I got these for $150 each.
+
+31
+00:01:24,040 --> 00:01:27,080
+ Now, consider for a side, this one was $127,
+
+32
+00:01:27,080 --> 00:01:28,920
+ they've gone even down even farther.
+
+33
+00:01:28,920 --> 00:01:32,680
+ Considering that these computers are,
+
+34
+00:01:32,680 --> 00:01:36,800
+ the specs on these computers is amazing.
+
+35
+00:01:37,720 --> 00:01:38,520
+ In fact, let's look at it.
+
+36
+00:01:38,520 --> 00:01:42,120
+ So it's got a quad core I5, you don't need more than this.
+
+37
+00:01:42,120 --> 00:01:44,440
+ You're doing simulations of nodes,
+
+38
+00:01:44,440 --> 00:01:46,520
+ you don't need a fan, don't think about gaming
+
+39
+00:01:46,520 --> 00:01:47,760
+ and all that stuff, that's not what you're doing.
+
+40
+00:01:47,760 --> 00:01:49,920
+ You're just building out hardware nodes
+
+41
+00:01:49,920 --> 00:01:52,720
+ that have other fundamental requirements,
+
+42
+00:01:52,720 --> 00:01:54,120
+ and what are those requirements?
+
+43
+00:01:54,120 --> 00:01:55,640
+ They need to be cheap,
+
+44
+00:01:55,640 --> 00:01:58,240
+ they need to be small, so they fit in wherever
+
+45
+00:01:58,240 --> 00:01:59,080
+ you're gonna put them,
+
+46
+00:01:59,080 --> 00:02:01,040
+ and that means they don't take a lot of power.
+
+47
+00:02:01,040 --> 00:02:05,240
+ They need to have really solid networking capabilities,
+
+48
+00:02:05,240 --> 00:02:07,240
+ and they need to be able to pixie boot,
+
+49
+00:02:07,240 --> 00:02:10,800
+ that means they need to be able to be booted from the network,
+
+50
+00:02:10,800 --> 00:02:13,320
+ so that you can practice re-imaging things
+
+51
+00:02:13,320 --> 00:02:15,400
+ by just rebooting them and having them pull down
+
+52
+00:02:15,400 --> 00:02:17,960
+ their operating system from the network.
+
+53
+00:02:17,960 --> 00:02:22,520
+ They need to do what's called network boot, and that's it.
+
+54
+00:02:22,520 --> 00:02:25,320
+ And so they don't need a lot of disk space.
+
+55
+00:02:25,320 --> 00:02:27,440
+ In fact, the disk space that you're gonna be adding
+
+56
+00:02:27,440 --> 00:02:29,920
+ is probably gonna be coming in another space.
+
+57
+00:02:29,920 --> 00:02:32,400
+ So, who needs a computer like this,
+
+58
+00:02:32,400 --> 00:02:34,480
+ and when should you get one?
+
+59
+00:02:34,480 --> 00:02:36,200
+ If you are just starting out,
+
+60
+00:02:36,200 --> 00:02:37,400
+ and you're watching this video
+
+61
+00:02:37,400 --> 00:02:38,520
+ because you're doing the beginner boost,
+
+62
+00:02:38,520 --> 00:02:40,920
+ and you wanna get good, and you don't wanna,
+
+63
+00:02:40,920 --> 00:02:42,800
+ I mean, you may have considered saving up your money
+
+64
+00:02:42,800 --> 00:02:45,120
+ for a good Mac laptop for your own personal use,
+
+65
+00:02:45,120 --> 00:02:47,320
+ but you wanna server, you can run at home,
+
+66
+00:02:47,320 --> 00:02:50,120
+ or two or four, and you wanna be able to run those,
+
+67
+00:02:50,120 --> 00:02:52,040
+ doing different things and practice networking,
+
+68
+00:02:52,040 --> 00:02:54,600
+ and all of the great things that you need to do
+
+69
+00:02:54,600 --> 00:02:58,740
+ to be able to become a real good infrastructure engineer,
+
+70
+00:02:58,740 --> 00:03:00,800
+ then this is the way to go.
+
+71
+00:03:00,800 --> 00:03:02,280
+ These are the things that you get.
+
+72
+00:03:02,280 --> 00:03:06,040
+ People buy raspberry pies and orange pies and things like that
+
+73
+00:03:06,040 --> 00:03:08,920
+ to try to replace an actual computer.
+
+74
+00:03:08,920 --> 00:03:09,800
+ They're good computers,
+
+75
+00:03:09,800 --> 00:03:11,320
+ and they have some pretty interesting racks
+
+76
+00:03:11,320 --> 00:03:12,680
+ where you can put them all in there,
+
+77
+00:03:12,680 --> 00:03:15,880
+ but in my opinion, they're a bit too small
+
+78
+00:03:15,880 --> 00:03:17,560
+ to kinda do this kind of thing.
+
+79
+00:03:17,560 --> 00:03:20,800
+ So 256 SSD is pretty damn good.
+
+80
+00:03:20,800 --> 00:03:23,400
+ 3.1 gigahertz, 16 gigabytes of RAM.
+
+81
+00:03:23,400 --> 00:03:25,120
+ You're not getting these machines
+
+82
+00:03:25,120 --> 00:03:28,440
+ to be able to carve them up into virtual machines, right?
+
+83
+00:03:28,440 --> 00:03:30,040
+ You're getting them so that you can put a whole bunch
+
+84
+00:03:30,040 --> 00:03:33,560
+ of them in a stack, and practice your networking
+
+85
+00:03:33,560 --> 00:03:37,800
+ and your VLAN setup, and you're setting up CNI
+
+86
+00:03:37,800 --> 00:03:40,840
+ for Kubernetes, that's why you're getting it.
+
+87
+00:03:40,840 --> 00:03:43,240
+ If you have no other decision to make,
+
+88
+00:03:43,240 --> 00:03:46,160
+ then what is my first computer that I'm gonna buy,
+
+89
+00:03:47,080 --> 00:03:49,240
+ and you already have a computer you're using
+
+90
+00:03:49,240 --> 00:03:53,040
+ to watch this video, probably a macro Windows machine,
+
+91
+00:03:53,040 --> 00:03:54,760
+ then I think probably your first purchase
+
+92
+00:03:54,760 --> 00:03:57,040
+ should be a computer like this.
+
+93
+00:03:57,040 --> 00:03:59,000
+ Somebody might also say, well Dell sucks,
+
+94
+00:03:59,000 --> 00:04:02,320
+ Dell sucks for laptops, but Dell for servers is really good.
+
+95
+00:04:02,320 --> 00:04:05,400
+ So this is the first kind of computer
+
+96
+00:04:05,400 --> 00:04:09,520
+ I suggest that everyone get for their server room,
+
+97
+00:04:09,520 --> 00:04:10,680
+ and one of the reasons it's nice,
+
+98
+00:04:10,680 --> 00:04:12,280
+ because it doesn't have a screen,
+
+99
+00:04:12,280 --> 00:04:13,440
+ that means you're gonna need to learn
+
+100
+00:04:13,440 --> 00:04:15,080
+ how to use a remote screen,
+
+101
+00:04:15,080 --> 00:04:17,040
+ you're gonna have to learn how to SSH into it,
+
+102
+00:04:17,040 --> 00:04:18,280
+ all of the great things that you need.
+
+103
+00:04:18,280 --> 00:04:22,360
+ So the first cheapest piece of your lab might be one
+
+104
+00:04:22,360 --> 00:04:25,120
+ or two, an OptiPlex, an OptiPlex like this.
+
+105
+00:04:25,120 --> 00:04:27,520
+ And then later, if you wanna splurge a little bit more money,
+
+106
+00:04:27,520 --> 00:04:29,960
+ you might wanna get a tower that you can practice
+
+107
+00:04:29,960 --> 00:04:32,000
+ carving up into virtual machines,
+
+108
+00:04:32,000 --> 00:04:34,680
+ which is something you would get later.
+
+109
+00:04:34,680 --> 00:04:35,920
+ A lot of people would recommend to you
+
+110
+00:04:35,920 --> 00:04:40,120
+ that you get that first, because you can put
+
+111
+00:04:40,120 --> 00:04:41,600
+ whatever you want on there to chop it up
+
+112
+00:04:41,600 --> 00:04:43,720
+ into multiple little tiny machines.
+
+113
+00:04:43,720 --> 00:04:47,200
+ But the truth of the matter is, you still need
+
+114
+00:04:47,200 --> 00:04:50,360
+ something to run a Minecraft server on for fun,
+
+115
+00:04:50,360 --> 00:04:53,240
+ running Linux to get your Linux skills good or whatever.
+
+116
+00:04:53,240 --> 00:04:56,160
+ And one of these Dell OptiPlexes is really great for that.
+
+117
+00:04:56,160 --> 00:04:58,640
+ So that's my recommendation.
+
+118
+00:04:58,640 --> 00:05:01,520
+ Take that to heart, make your own decisions,
+
+119
+00:05:01,520 --> 00:05:03,040
+ and we'll talk to you later.
+
