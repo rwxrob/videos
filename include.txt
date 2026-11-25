@@ -14,7 +14,6 @@ Vdd2MTv6vrs  # Lynx Text Web Browser FTW!
 9wCsvmlf5kY  # Best computer for tech and streaming
 iil3R6QGHyE  # late night coding
 oc76y6DEZQU  # go coding cli tool "kuti" for kubernetes
-kQVcqp2CSek  # k8s with kubespray
 X4pfjNvwLkQ  # ⎈🐧 kubernetes home lab kubespray
 xzLC5jNoBig  # 🐧⎈🏠 Breaking Lab
 jl7690X2UPw  # raw → git dotfiles → cozy workstation
