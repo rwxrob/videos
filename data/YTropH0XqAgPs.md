@@ -1,21 +1,21 @@
 # 📺 Porting clip program to Go Bonzai 🌳
 
-Starts porting a bash script that plays YouTube clips with mpv into a Go command in a Bonsai tree, so that a compiled binary can be launched from a Stream Deck without opening a terminal. Explores multi-call binaries and a helper for reading settings from Bonsai vars, environment variables, or defaults, which leads to refactoring the tightly coupled vars map package. The port is not finished by the end.
+Starts porting a bash script that plays YouTube clips with mpv into a Go command in a Bonzai tree, so that a compiled binary can be launched from a Stream Deck without opening a terminal. Explores multi-call binaries and a helper for reading settings from Bonzai vars, environment variables, or defaults, which leads to refactoring the tightly coupled vars map package. The port is not finished by the end.
 
 Chapters:
 0:00 Why port the clip script to Go
-4:13 Testing Stream Deck and full-screen behavior
-9:31 Creating the clip command in Bonsai
+4:28 Testing Stream Deck and full-screen behavior
+9:31 Creating the clip command in Bonzai
 12:30 Designing play subcommand and multi-call options
 17:26 Reading clip settings from environment variables
-20:33 Designing a prioritized variable lookup helper
-28:36 Loading vars from a custom file
+19:59 Designing a prioritized variable lookup helper
+29:53 Loading vars from a custom file
 35:59 Refactoring the tightly coupled vars map
 40:55 Using the new lookup for clip data
-44:52 Finding the user directory function in Bonsai
-49:23 Exploring the Go module cache and wrap-up
+44:52 Finding the user directory function in Bonzai
+49:31 Exploring the Go module cache and wrap-up
 
-`#golang #bonsai #bash #cli #streamdeck #refactoring #linux #livecoding #programming #bonzaicli`
+`#golang #bonzai #bash #cli #streamdeck #refactoring #livecoding #programming #bonzaicli`
 
 ## Category
 
