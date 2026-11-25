@@ -1,4 +1,4 @@
-# 🤣 Chatgpt is like that one friend who says "trust me bro"
+# 🤣 ChatGPT is like that "trust me bro" friend: confidently wrong about Go methods
 
 From 2024. I may have changed my mind on some of this.
 
