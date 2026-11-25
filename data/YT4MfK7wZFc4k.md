@@ -5,7 +5,7 @@ Walks through shell redirection and pipelines, including standard output, standa
 Chapters:
 0:00 Intro and plans to drop Bash scripting
 2:08 Redirecting and appending output to files
-4:11 Redirecting standard error and /dev/null
+4:17 Redirecting standard error and /dev/null
 10:25 Pipes and filtering with grep and Perl
 13:52 Unix filters, bc and Vim
 15:20 Building pipelines and redirecting input
