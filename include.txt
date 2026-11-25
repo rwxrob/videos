@@ -57,3 +57,7 @@ G3tsoacek1E  # 🤷‍♀️ WHAT TO EXPECT FROM A TECH JOB
 VvCGkd6yBFw  # 🤝 BEST THINGS TO SAY IN JOB INTERVIEW
 92jCCqGF5rU  # 🔰 Install Microsoft Visual Studio Code on Mac with brew
 ctupr3xNFQI  # 🔰 Don't learn XML/XHTML (but know what they are)
+gY6JRCh-3ew  # 💰 DON'T SPEND A TON on your first linux lab "server"
+6rof3xb0a5c  # 🔰 Get bash with brew
+xzDnBnmgXeE  # 🍺 Get brew for your Mac
+-ENS9Huq3dA  # 📺 Gruvbox terminal with Ubuntu Mono font on Mac

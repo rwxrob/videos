@@ -1,0 +1,380 @@
+1
+00:00:00,000 --> 00:00:07,200
+ So, here we are, it's nighttime, but it's dark mode, it's a good time to talk about
+
+2
+00:00:07,200 --> 00:00:18,240
+ dark things, and we're gonna install the GrooveBox terminal settings for Mac.
+
+3
+00:00:18,240 --> 00:00:24,240
+ So this is my favorite theme, if you want to pick a different theme, that's cool, but
+
+4
+00:00:24,240 --> 00:00:27,680
+ this is gonna go through the steps about how to set up a theme.
+
+5
+00:00:27,680 --> 00:00:30,480
+ There's lots of stuff on the YouTube about how to do this, but I'm just gonna go through
+
+6
+00:00:30,480 --> 00:00:31,680
+ it myself.
+
+7
+00:00:31,680 --> 00:00:35,800
+ So let's do it.
+
+8
+00:00:35,800 --> 00:00:46,520
+ Let's go down to, the first thing we're gonna do is search for GrooveBox Mac Terminal.
+
+9
+00:00:46,520 --> 00:00:52,240
+ And you'll be able to see, you'll be able to see GrooveBox Mac Terminal theme.
+
+10
+00:00:52,240 --> 00:00:57,480
+ This is actually an extension on, I don't know how to say that name.
+
+11
+00:00:57,480 --> 00:00:58,480
+ How do you say that name?
+
+12
+00:00:58,480 --> 00:01:02,760
+ It's kind of small, here let me zoom in.
+
+13
+00:01:02,760 --> 00:01:08,280
+ But yeah, this is the theme that you're gonna get, but this other extended one, it seems
+
+14
+00:01:08,280 --> 00:01:09,280
+ pretty good.
+
+15
+00:01:09,280 --> 00:01:14,960
+ I used to have this in my dot files, but I went ahead and looked for a new one.
+
+16
+00:01:14,960 --> 00:01:19,640
+ So we're gonna go here, we're gonna click on, this is if you want to see it, the dark
+
+17
+00:01:19,640 --> 00:01:23,000
+ one, there's a light one, why would you use that, I have no idea.
+
+18
+00:01:23,000 --> 00:01:29,280
+ So we're gonna use the light one, and we're gonna click on dark mode terminal here, and
+
+19
+00:01:29,280 --> 00:01:37,240
+ we get this raw data, and we need to go into the raw data, or it, actually this, I can
+
+20
+00:01:37,240 --> 00:01:38,880
+ just click on something wrong.
+
+21
+00:01:38,880 --> 00:01:47,400
+ Let's see, here we go, click on this, what is this, download raw file, I don't know where
+
+22
+00:01:47,400 --> 00:01:54,440
+ all that stuff came from, that's kind of weird.
+
+23
+00:01:54,440 --> 00:01:58,760
+ But find the way to download the raw file, all right, so here we are, we have that file
+
+24
+00:01:58,760 --> 00:02:06,080
+ that's been downloaded, if it tries to name it dot txt, just name it dot terminal instead,
+
+25
+00:02:06,080 --> 00:02:13,480
+ and then we go into the terminal app, so you can, you know, do what is it, command, space,
+
+26
+00:02:13,480 --> 00:02:19,880
+ terminal, that'll open the terminal, you get this junky terminal here, and we can go ahead
+
+27
+00:02:19,880 --> 00:02:26,400
+ and close this one, and then go to the terminal settings, and I already have one imported,
+
+28
+00:02:26,400 --> 00:02:32,640
+ but I'm gonna show you how to get it in, so you hit, right here you do import, and then
+
+29
+00:02:32,640 --> 00:02:38,400
+ you go get the terminal one, that one you download, I went to downloads, I had to authorize
+
+30
+00:02:38,400 --> 00:02:43,080
+ it, and then I'm gonna hit on terminal, I'm gonna click on open.
+
+31
+00:02:43,080 --> 00:02:48,280
+ And here it all is, now, once you're in here you're probably gonna wanna improve the font
+
+32
+00:02:48,280 --> 00:02:54,400
+ type, you might wanna click on default, to set the default, the default's nice to have,
+
+33
+00:02:54,400 --> 00:02:56,840
+ because then when you open up a new terminal, it doesn't affect the current terminal, by
+
+34
+00:02:56,840 --> 00:03:04,680
+ the way, you have to open a new terminal, so if you do terminal new window, you can actually
+
+35
+00:03:04,680 --> 00:03:08,400
+ tell it what you want, or actually, if you wanna get good with doing this, you can just
+
+36
+00:03:08,400 --> 00:03:11,760
+ use command T, always opens a new terminal.
+
+37
+00:03:11,760 --> 00:03:15,560
+ So now we have a new terminal with the group box colors, you can't really see the colors
+
+38
+00:03:15,560 --> 00:03:18,640
+ because we haven't done any further customization on the terminal, there'll be other videos
+
+39
+00:03:18,640 --> 00:03:25,840
+ about how to do that, but now you can see the group box terminal is there, I'm gonna try
+
+40
+00:03:25,840 --> 00:03:29,000
+ to see if there's anything here that I can show you, nope, I haven't put anything on
+
+41
+00:03:29,000 --> 00:03:31,080
+ here, this is a totally fresh system.
+
+42
+00:03:31,080 --> 00:03:35,720
+ Now the thing is, this is pretty tiny, the terminal's pretty tiny, so let's go ahead and
+
+43
+00:03:35,720 --> 00:03:43,300
+ make the terminal larger, and you can do that going back into the services, and I'm gonna
+
+44
+00:03:43,300 --> 00:03:51,560
+ actually change the fonts, in fact I'm gonna go ahead and download the Ubuntu mono font,
+
+45
+00:03:51,560 --> 00:04:00,000
+ which is my favorite, Google fonts, Ubuntu mono, and I'm pretty sure you can download
+
+46
+00:04:00,000 --> 00:04:12,480
+ this, get font, download all, and we're gonna put it on, where'd it go, did it get downloaded?
+
+47
+00:04:12,480 --> 00:04:22,120
+ Alright, so we're gonna double click it, there's all the fonts, and we can actually
+
+48
+00:04:22,120 --> 00:04:29,080
+ install all of them, I think you can just install them all, I think you'll have to
+
+49
+00:04:29,080 --> 00:04:38,280
+ then click them all, if you click them and then it'll say do you wanna install it, install,
+
+50
+00:04:38,280 --> 00:04:45,640
+ can you install them all at one time, I don't know, let's try, let me try them all, open
+
+51
+00:04:45,640 --> 00:04:52,180
+ with new folder, this section I have open with, pop up, move to trash, open with pop
+
+52
+00:04:52,180 --> 00:04:57,160
+ up, let's see, I think you have to put them all in there, there might be a way to drag
+
+53
+00:04:57,160 --> 00:05:04,200
+ them all in, can't sleep, yep, and then we're gonna hit install, we're making a video now,
+
+54
+00:05:04,200 --> 00:05:10,120
+ so install, I don't know if I got them all though, I feel like it didn't, I'm gonna do
+
+55
+00:05:10,120 --> 00:05:22,040
+ them all, each individually, Ubuntu font, nope, replaces in there, so that one's there,
+
+56
+00:05:22,040 --> 00:05:27,620
+ this one double click, Ubuntu font replace, that was already, I guess I must have all
+
+57
+00:05:27,620 --> 00:05:32,520
+ the get found in there already, I know I'm doing it this low way, I don't, it's fine,
+
+58
+00:05:32,520 --> 00:05:36,960
+ just whatever, just need to get the fonts in there, okay, so now that those fonts are
+
+59
+00:05:36,960 --> 00:05:49,960
+ in there, I'm gonna go change my fonts for the terminal, back to the terminal here, click
+
+60
+00:05:49,960 --> 00:06:01,960
+ on font, change, Helvetica, we're gonna change it to Ubuntu, so small, Ubuntu monoregular
+
+61
+00:06:01,960 --> 00:06:04,480
+ character is basically, I'm not gonna mess with any of that, I am gonna increase the
+
+62
+00:06:04,480 --> 00:06:16,280
+ size though, I usually do about 22.21, I mean it just changes on the day, I tend to change,
+
+63
+00:06:16,280 --> 00:06:21,720
+ but that makes it, it usually makes it nicer for me to be able to stream it, let's try
+
+64
+00:06:21,720 --> 00:06:26,640
+ 24, since that's one of the standard ones, these are really small, I apologize for that,
+
+65
+00:06:26,640 --> 00:06:34,720
+ not being able to see, but that's why we're doing this, um, regular 24 font, okay, so,
+
+66
+00:06:34,720 --> 00:06:41,840
+ Ubuntu monoregular font, let's try it, let's make a new terminal command T, and it didn't
+
+67
+00:06:41,840 --> 00:06:49,600
+ make a new one, maybe, maybe because I didn't save it, there I did it, that's 24, I feel
+
+68
+00:06:49,600 --> 00:06:54,160
+ like maybe we need it to be bigger, what do you think, what do you think, do we need it
+
+69
+00:06:54,160 --> 00:07:00,840
+ to be bigger than that, can you guys still see it, let me check, make sure you guys can
+
+70
+00:07:00,840 --> 00:07:07,960
+ still see, can you still see, looks like you can, it's just, it seems like it's like really
+
+71
+00:07:07,960 --> 00:07:15,360
+ small, let's go ahead and change it, let's make it a little bit bigger, um, let's make
+
+72
+00:07:15,360 --> 00:07:25,040
+ it bigger, let's do 24, let's do 36, I may be a 6 because it's a lower resolution, alright,
+
+73
+00:07:25,040 --> 00:07:35,480
+ so let's do command T, wow that one's really big, that seems like it works better, now if
+
+74
+00:07:35,480 --> 00:07:41,280
+ I had T mux on here, we could actually measure it, so we're gonna go ahead and not do that
+
+75
+00:07:41,280 --> 00:07:47,920
+ right now, so let's, that's gonna do it for us, we got, we got the terminal set up, we
+
+76
+00:07:47,920 --> 00:07:53,360
+ got it set up to the groove box by default, and it's ready, the terminal is ready to
+
+77
+00:07:53,360 --> 00:07:58,880
+ start customizing, I just want to end with a note about why I'm using terminal versus
+
+78
+00:07:58,880 --> 00:08:07,360
+ the lacherty, versus kitty, versus item two, the main reason is because the terminal is
+
+79
+00:08:07,360 --> 00:08:12,320
+ built into the system, it's the most efficient, it's the most standardized, and it's already
+
+80
+00:08:12,320 --> 00:08:17,440
+ on your Mac, it turns out it's a lot faster too, somebody raised that issue to me the
+
+81
+00:08:17,440 --> 00:08:22,560
+ other day when I was talking about item two, and they're right, they're right, I went back
+
+82
+00:08:22,560 --> 00:08:29,400
+ and tested it, and I was like my gosh, the raw terminal is so much faster than item two,
+
+83
+00:08:29,400 --> 00:08:33,560
+ even though item two's got some interesting fun things, integrations with T mux, cut and
+
+84
+00:08:33,560 --> 00:08:37,840
+ paste, and all that, it's not worth it, it's not worth trading, it's the raw speed of a
+
+85
+00:08:37,840 --> 00:08:42,000
+ terminal, especially when you start to use the terminal the way I do, and you will, you'll
+
+86
+00:08:42,000 --> 00:08:48,320
+ be starting to use the terminal a lot better, more effectively, so that's it, this has been
+
+87
+00:08:48,320 --> 00:08:54,600
+ how to get your Mac terminal set up, we'll do a separate video at some point about how
+
+88
+00:08:54,600 --> 00:08:58,600
+ to get Windows terminal set up, how to get git bash and that kind of thing, but right
+
+89
+00:08:58,600 --> 00:09:03,640
+ now, we, this is, I wanted to get this video done about how to do it, so try to get group
+
+90
+00:09:03,640 --> 00:09:08,440
+ box, you can, there's other terms, there's other themes out there you can try, so solarized
+
+91
+00:09:08,440 --> 00:09:14,440
+ is still a really popular one, there, I mean there's a bunch of them, people have, definitely
+
+92
+00:09:14,440 --> 00:09:19,720
+ have preferences, the group box is my favorite, it's the easiest on the eyes, so hopefully
+
+93
+00:09:19,720 --> 00:09:24,760
+ that'll help you out, see you later, well next time, the next video is probably going
+
+94
+00:09:24,760 --> 00:09:30,520
+ to be how to put brew on your Mac and then how to put T mux on your Mac, etc, so stay
+
+95
+00:09:30,520 --> 00:09:31,320
+ tuned for those.
+
