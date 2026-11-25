@@ -46,3 +46,14 @@ ANlE-RCtClE  # 🍎 Why the : at the beginning?
 ApDZ5R7loNU  # 😱 Minikube cheats and dynamically creates HostPath PVs for PVCs
 8d49javqZtc  # 😎 copy from one computer to another the cool way with netcat
 nckyj8wYpcs  # 🤷🏻‍♂️ "What's a 'container engine' and which one should I use?"
+p8Pi5mX4Kf4  # 🤷🏻‍♂️ How do I helm show values for sub-chart deps?
+5sw5u_2pgFM  # 🎉 bitnami/harbor has a pg_dump backup k8s cronjob INCLUDED!
+dvNM1OdFV4I  # 🤷🏻‍♂️ what is up with bitnami/harbor chart?
+k0WpK7YkwrY  # ⛔️ don't make these postgresql developer mistakes
+Lm1dokzdzz0  # harbor installed into minikube, but stuck not talking to redis
+IZ8qN_QkMJQ  # 🤩 we fixed bitnami/harbor values.yaml
+8Q_C_bsHd-U  # 🤣 Chatgpt is like that one friend who says "trust me bro"
+G3tsoacek1E  # 🤷‍♀️ WHAT TO EXPECT FROM A TECH JOB
+VvCGkd6yBFw  # 🤝 BEST THINGS TO SAY IN JOB INTERVIEW
+92jCCqGF5rU  # 🔰 Install Microsoft Visual Studio Code on Mac with brew
+ctupr3xNFQI  # 🔰 Don't learn XML/XHTML (but know what they are)
