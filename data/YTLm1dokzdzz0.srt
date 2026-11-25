@@ -1,0 +1,456 @@
+1
+00:00:00,000 --> 00:00:07,840
+ Okay, so it's Thursday September 26th and I'm going to report on what we did
+
+2
+00:00:07,840 --> 00:00:12,840
+ yesterday and in regard to Harbor and what we're going to do today and really
+
+3
+00:00:12,840 --> 00:00:18,320
+ quickly so this video should be under 15 minutes. I hope this is the video you're
+
+4
+00:00:18,320 --> 00:00:21,240
+ going to go watch to catch up when you come in middle stream and I say go watch
+
+5
+00:00:21,240 --> 00:00:25,840
+ the video and catch up. So yesterday we set out with a goal to get Postgres
+
+6
+00:00:25,840 --> 00:00:32,200
+ installed. The video coming, yeah. And we did. We got it. We got it working and
+
+7
+00:00:32,200 --> 00:00:37,360
+ installed. The problem is, in fact I'm going to put this down to the top. After
+
+8
+00:00:37,360 --> 00:00:42,040
+ we got it all installed, we finished the build deploy and deploy scripts, which
+
+9
+00:00:42,040 --> 00:00:50,120
+ the deploy and deploy is basically just kubectl apply -k using customize and
+
+10
+00:00:50,120 --> 00:00:53,780
+ there's no template. There's no template substitutions happening right now and
+
+11
+00:00:53,780 --> 00:00:56,440
+ customize. That'll come later when we do vaults and stuff like that. Still in the
+
+12
+00:00:56,440 --> 00:01:01,200
+ to-do list. But we need to and then the on deploy is ridiculously easy. That's
+
+13
+00:01:01,200 --> 00:01:07,560
+ just a kubectl delete to everything in that namespace. So that those are done.
+
+14
+00:01:07,560 --> 00:01:13,680
+ The build of course is now done because once we got the once we change the the
+
+15
+00:01:13,680 --> 00:01:19,600
+ tag for Postgres from 13 to 16.4, the build is now you know working and it's
+
+16
+00:01:19,600 --> 00:01:23,800
+ going in and that's that all that stuff ready is up no problem. At one point
+
+17
+00:01:23,800 --> 00:01:29,480
+ yesterday we got everything working. It was all working. It was it was ready. And
+
+18
+00:01:29,480 --> 00:01:37,520
+ then we spent probably two hours trying to get the web interface in a way that
+
+19
+00:01:37,520 --> 00:01:42,160
+ could be accessed. And that's because this is a VM running in Windows and I
+
+20
+00:01:42,160 --> 00:01:51,520
+ actually had to redo minicube. I should probably put that here. So tried we
+
+21
+00:01:51,520 --> 00:02:05,360
+ tried the kimoo driver. We tried the kimoo to the none and and the you know
+
+22
+00:02:05,360 --> 00:02:09,320
+ the docker driver. And I had to install a bunch of prerequisites for that to do
+
+23
+00:02:09,320 --> 00:02:16,920
+ none. I had to install crease ETL and and all this stuff. I had I spent spent
+
+24
+00:02:16,920 --> 00:02:28,880
+ spent a lot of time installing pre rec for drivers for minicube drivers. So we
+
+25
+00:02:28,880 --> 00:02:34,000
+ did we lost a lot of time on that but I feel like it was educational. There's
+
+26
+00:02:34,000 --> 00:02:36,560
+ probably I mean you can go watch the bot for the next 60 days but if you really
+
+27
+00:02:36,560 --> 00:02:43,160
+ care to do all that otherwise that we ended up landing on docker because of
+
+28
+00:02:43,160 --> 00:02:51,440
+ the resource issue went with the docker the docker driver. And we actually got
+
+29
+00:02:51,440 --> 00:02:59,120
+ that to work. Actually to remember I think we actually got the kimoo 2
+
+30
+00:02:59,120 --> 00:03:04,640
+ driver to work. Both of them allowed us to install everything but I'm trying to
+
+31
+00:03:04,640 --> 00:03:09,680
+ recall if we ever had a successful version of the whole thing with with all
+
+32
+00:03:09,680 --> 00:03:12,480
+ the stuff being ready. We saw there was at least one time yesterday where
+
+33
+00:03:12,480 --> 00:03:18,400
+ everything was installed and ready and there was no need to disable anything.
+
+34
+00:03:18,400 --> 00:03:24,520
+ And by the way don't try to disable Redis. We disabled Redis just to see if
+
+35
+00:03:24,520 --> 00:03:33,080
+ we could get to work as Redis was the problem and we ended up I noticed it in
+
+36
+00:03:33,080 --> 00:03:36,520
+ the value spell it actually still needs to do caching so it just does it in a
+
+37
+00:03:36,520 --> 00:03:42,600
+ different way. And that also failed. So we're having right now we're stuck and
+
+38
+00:03:42,600 --> 00:03:48,480
+ that's what we're going to do today. Right now we're stuck on on the Redis
+
+39
+00:03:48,480 --> 00:03:56,760
+ problem. So figure out why harbor cannot access Redis. And we did all of our you
+
+40
+00:03:56,760 --> 00:03:59,560
+ know we walked out the vents everything and the the errors is that it
+
+41
+00:03:59,560 --> 00:04:04,680
+ can't harbor can't create its cache because it can't talk to Redis. And this
+
+42
+00:04:04,680 --> 00:04:07,520
+ is a known problem. It's like all over the internet we found all the things but
+
+43
+00:04:07,520 --> 00:04:10,280
+ we couldn't we couldn't get anything to do to fix it. So that's where we are. We're
+
+44
+00:04:10,280 --> 00:04:14,720
+ stuck on that. I don't think it's resource related but it might actually be
+
+45
+00:04:14,720 --> 00:04:18,520
+ related to the fact that when we're trying to get all these drivers to
+
+46
+00:04:18,520 --> 00:04:25,120
+ work and we were trying to get a way to view the harbor interface the web interface
+
+47
+00:04:25,120 --> 00:04:31,000
+ we I did a lot of stuff with networking. I didn't do anything to the system to
+
+48
+00:04:31,000 --> 00:04:35,920
+ Anton specifically that explicitly that I can think of. We started up some SSH
+
+49
+00:04:35,920 --> 00:04:38,920
+ proxies or something like that those things we rebooted Anton so those
+
+50
+00:04:38,920 --> 00:04:43,600
+ sort of all gone away. It is possible that we have screwed up Anton and so
+
+51
+00:04:43,600 --> 00:04:51,320
+ Anton is the VM and so somehow Anton is unable to do the routing. It is also
+
+52
+00:04:51,320 --> 00:04:54,640
+ possible that I brought it up the first time and core DNS was not up yet
+
+53
+00:04:54,640 --> 00:04:59,640
+ before I ran the install within Kubernetes and so the second time I did it I
+
+54
+00:04:59,640 --> 00:05:03,120
+ let all the services for Kubernetes come up and I checked the system you
+
+55
+00:05:03,120 --> 00:05:07,440
+ know services to make sure they were already before I did any apply and I
+
+56
+00:05:07,440 --> 00:05:10,040
+ applied it went in but then from that point on it's having a problem getting
+
+57
+00:05:10,040 --> 00:05:14,120
+ Redis. It says it can't resolve it and so I have a feeling it might be DNS
+
+58
+00:05:14,120 --> 00:05:19,160
+ related but I don't know so that that's where we are and we're gonna be
+
+59
+00:05:19,160 --> 00:05:26,240
+ looking at that so if I can't get this working today I'm gonna try to just
+
+60
+00:05:26,240 --> 00:05:29,760
+ go through the steps again and recreate it maybe I missed something by just
+
+61
+00:05:29,760 --> 00:05:34,040
+ running up you know you know run the build script on a fresh VM. I have
+
+62
+00:05:34,040 --> 00:05:37,400
+ torn down and built back up the cluster in minicube several times we gave it
+
+63
+00:05:37,400 --> 00:05:41,880
+ more resources we bumped it up to I think six or seven procs in the VM and
+
+64
+00:05:41,880 --> 00:05:46,000
+ then and then when we did minicube we gave it 8 gigabytes or so 10 8 or 10
+
+65
+00:05:46,000 --> 00:05:55,560
+ gigabytes so so that you know that's a thing and that was it we talked a lot
+
+66
+00:05:55,560 --> 00:05:59,360
+ about the system integration testing to establish whether it's you know working
+
+67
+00:05:59,360 --> 00:06:03,760
+ or not the first point being can you access the web interface and and you know
+
+68
+00:06:03,760 --> 00:06:09,360
+ we spun our wheels a lot on that I am fighting internally because I am
+
+69
+00:06:09,360 --> 00:06:13,040
+ doing this for work I am fighting internally a bunch of dialogue with
+
+70
+00:06:13,040 --> 00:06:16,760
+ myself about trying this in our dev environment and seeing if it would just
+
+71
+00:06:16,760 --> 00:06:22,880
+ work but I still feel like the issues with getting it in minicube and stuff I
+
+72
+00:06:22,880 --> 00:06:27,120
+ still when I when I when I transferred over to work some of this work it's not
+
+73
+00:06:27,120 --> 00:06:30,560
+ gonna be you know the exact same thing but there's gonna have to be Istio we're
+
+74
+00:06:30,560 --> 00:06:33,400
+ gonna involve that some of the stuff's gonna have to change and come on and be
+
+75
+00:06:33,400 --> 00:06:41,320
+ added on to that and there's also the lingering knowledge that I need to get an
+
+76
+00:06:41,320 --> 00:06:46,600
+ actual lab running if I you know minicube service and minicube tunnel
+
+77
+00:06:46,600 --> 00:06:51,160
+ commands were not working of course because it's running from a VM and the
+
+78
+00:06:51,160 --> 00:06:55,040
+ VM just headless and is running in Windows so you know I'm wanting to start
+
+79
+00:06:55,040 --> 00:07:00,920
+ your browser so that minicube loves to do it couldn't do it so you know that if
+
+80
+00:07:00,920 --> 00:07:04,120
+ if I'm I'm glad I'm hitting all those problems because that is actually gonna
+
+81
+00:07:04,120 --> 00:07:07,240
+ influence my home lab decision so tuning on Fridays for the home lab thing if you
+
+82
+00:07:07,240 --> 00:07:13,000
+ want to but that is really definitely solidified my decision to make sure I
+
+83
+00:07:13,000 --> 00:07:20,200
+ have my own cluster number one and you know get KVM working on there and to
+
+84
+00:07:20,200 --> 00:07:27,320
+ put a a some sort of desktop environment on it and you might ask well why would
+
+85
+00:07:27,320 --> 00:07:33,120
+ you do that I'm no I'm not a fan of Linux desktop but by having a Linux
+
+86
+00:07:33,120 --> 00:07:36,920
+ desktop on my home lab when I need to do a quick and dirty test of this kind of
+
+87
+00:07:36,920 --> 00:07:42,200
+ thing I can VNC into it and I can run minicube you know as sort of got
+
+88
+00:07:42,200 --> 00:07:45,560
+ intended and it will pop up my browser and it will show me and I can forward
+
+89
+00:07:45,560 --> 00:07:49,200
+ services and do everything that makes minicube great for really quick and
+
+90
+00:07:49,200 --> 00:07:55,120
+ dirty testing of development of katsap development stuff like that so so that
+
+91
+00:07:55,120 --> 00:07:59,120
+ these those hurdles that I hit with minicube are actually good because I
+
+92
+00:07:59,120 --> 00:08:02,520
+ actually really like minicube lately the latest version of minicube has got a
+
+93
+00:08:02,520 --> 00:08:07,240
+ lot of things that including watching every single thing it does it I just
+
+94
+00:08:07,240 --> 00:08:11,720
+ found about this yesterday somebody told me it like puts it all in a log and so
+
+95
+00:08:11,720 --> 00:08:17,040
+ most of my development I'm I will maintain an individual cluster to run
+
+96
+00:08:17,040 --> 00:08:20,160
+ certain applications that I want but to tell you the truth most of the
+
+97
+00:08:20,160 --> 00:08:23,800
+ application development I'm gonna be doing is probably gonna be standing up
+
+98
+00:08:23,800 --> 00:08:30,080
+ minicube I don't use kind anymore kind kind is a great tool it is a still a
+
+99
+00:08:30,080 --> 00:08:34,520
+ great tool but it can't hold a candle to minicube these days all the stuff that
+
+100
+00:08:34,520 --> 00:08:38,760
+ many oh they added the add-ons for minicube are just insane we added added
+
+101
+00:08:38,760 --> 00:08:42,760
+ the ingress add-on yesterday so I'm a huge fan of minicube and minicube has
+
+102
+00:08:42,760 --> 00:08:49,480
+ gotten so good in my opinion that with a KBM back driver in minicube you really
+
+103
+00:08:49,480 --> 00:08:54,680
+ don't need much more than that if you're an API developer I'm honest to God I and
+
+104
+00:08:54,680 --> 00:08:57,520
+ I think you're you know that's kind of the sweet spot where minicube is trying
+
+105
+00:08:57,520 --> 00:09:02,340
+ to target so so that's to take away for today come join us if you want to be
+
+106
+00:09:02,340 --> 00:09:07,360
+ part of the of the debugging process and everything otherwise I'll report back
+
+107
+00:09:07,360 --> 00:09:12,200
+ tomorrow people have been asking about words go programming all that stuff if
+
+108
+00:09:12,200 --> 00:09:17,440
+ and when I do that I'll be sure to make a video about it but we it that is
+
+109
+00:09:17,440 --> 00:09:20,800
+ generally gonna be what I do this after this harbor stuff is done and I'm
+
+110
+00:09:20,800 --> 00:09:24,800
+ back to back to a bunch of the go-coding so stay tuned there we'll be go coding
+
+111
+00:09:24,800 --> 00:09:29,640
+ here there will be home labs stuff on Fridays it will be IRL things but I'm
+
+112
+00:09:29,640 --> 00:09:34,320
+ not pushing the IRL and the yoga bits anymore I'll make a occasional IRL
+
+113
+00:09:34,320 --> 00:09:36,480
+ clip or something like that but that stuff you don't need to worry it's not
+
+114
+00:09:36,480 --> 00:09:42,920
+ coming in the videos for YouTube so thank you YouTube see you later
+
