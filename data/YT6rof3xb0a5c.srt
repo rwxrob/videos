@@ -1,0 +1,376 @@
+1
+00:00:00,000 --> 00:00:06,460
+ All right, so the first thing we're going to install with brew is bash.
+
+2
+00:00:06,460 --> 00:00:10,240
+ We're not going to talk about bash versus e-shell right now, that's a separate video.
+
+3
+00:00:10,240 --> 00:00:17,240
+ So get on the command line, brew, oops, we're not going to be able to do brew, remember,
+
+4
+00:00:17,240 --> 00:00:24,840
+ because it's in that weird place, opt home brew, I pushed tab there, bin brew.
+
+5
+00:00:24,840 --> 00:00:29,720
+ Now we have to do this the first time because we haven't set up our shell yet to know where
+
+6
+00:00:29,720 --> 00:00:34,640
+ the brew command line, the brew command is, which we are going to do, but we're going
+
+7
+00:00:34,640 --> 00:00:37,600
+ to do it after we get bash installed.
+
+8
+00:00:37,600 --> 00:00:41,280
+ So we're going to go ahead and use this long winded one.
+
+9
+00:00:41,280 --> 00:00:44,280
+ If you're on an Intel Mac, it might be user local.
+
+10
+00:00:44,280 --> 00:00:52,160
+ So opt home brew, bin brew, install bash, I think, let's try it.
+
+11
+00:00:52,160 --> 00:00:57,480
+ So it's going to go get the bash cast, can download it, disable this by heavy, blah, blah,
+
+12
+00:00:57,480 --> 00:00:58,480
+ blah, blah.
+
+13
+00:00:58,480 --> 00:01:07,800
+ So now let's just see if it finds bash, bash, bash, v, oops, nope, not that, we don't need
+
+14
+00:01:07,800 --> 00:01:08,800
+ that yet.
+
+15
+00:01:08,800 --> 00:01:14,640
+ Oh, this is from my, this is from my bash RCA, which you're not supposed to know about yet.
+
+16
+00:01:14,640 --> 00:01:20,080
+ So, so that, so if you have a bash, it should be, you should be good to go.
+
+17
+00:01:20,080 --> 00:01:25,280
+ Man bash, this is not going to be the same bash, probably.
+
+18
+00:01:25,280 --> 00:01:32,280
+ Um, actually, let's do, well, you can do this, you can do bash.
+
+19
+00:01:32,280 --> 00:01:36,560
+ If you just execute bash, you should get a new bash, right?
+
+20
+00:01:36,560 --> 00:01:38,840
+ Now the question is, which bash is it though?
+
+21
+00:01:38,840 --> 00:01:41,920
+ And I, I think you're going to need a new shell for that.
+
+22
+00:01:41,920 --> 00:01:45,720
+ So right now you don't know how to reinitialize your shell.
+
+23
+00:01:45,720 --> 00:01:47,960
+ So go ahead and stop your terminal and restart it.
+
+24
+00:01:47,960 --> 00:01:53,480
+ I don't ever do that, but this is the thing to do for now because you don't know.
+
+25
+00:01:53,480 --> 00:02:00,440
+ So we're going to go ahead and open another terminal command T and this time we should
+
+26
+00:02:00,440 --> 00:02:07,280
+ be able to ex, ex, bash and we should get bash here.
+
+27
+00:02:07,280 --> 00:02:12,760
+ Let's, let's see what, what environment variables we have.
+
+28
+00:02:12,760 --> 00:02:20,640
+ I'm trying to, I'm trying to figure out which version of bash we actually have.
+
+29
+00:02:20,640 --> 00:02:26,840
+ Um, let's do a search, I mean, I know one way, but I want to see what you would do if you
+
+30
+00:02:26,840 --> 00:02:27,840
+ found it.
+
+31
+00:02:27,840 --> 00:02:28,840
+ What would you find?
+
+32
+00:02:28,840 --> 00:02:39,000
+ How can I know which version of bash, bash dash V usually, echo bash version.
+
+33
+00:02:39,000 --> 00:02:41,840
+ All right, so echo, that's what I was going to do.
+
+34
+00:02:41,840 --> 00:02:47,400
+ So honestly, I just wanted to make sure that was, there wasn't a better way.
+
+35
+00:02:47,400 --> 00:02:53,200
+ So this is 3.2. and if you can go to a search to say, what is the most recent version of
+
+36
+00:02:53,200 --> 00:02:59,280
+ bash, most, I'm still searching using, not using the German, I do this from the terminal.
+
+37
+00:02:59,280 --> 00:03:00,280
+ So stay tuned.
+
+38
+00:03:00,280 --> 00:03:03,680
+ If you want to see videos about how to search from the terminal, it's way more effective.
+
+39
+00:03:03,680 --> 00:03:11,160
+ So what is the most, uh, recent version of bash, because this is the kind of thing you
+
+40
+00:03:11,160 --> 00:03:17,460
+ could ask Chad CPT from the terminal as well, so this looks like it did not find the bash
+
+41
+00:03:17,460 --> 00:03:20,040
+ that we wanted to because our path is wrong.
+
+42
+00:03:20,040 --> 00:03:24,440
+ So I think we're going to probably want to do opt home brew bin.
+
+43
+00:03:24,440 --> 00:03:31,320
+ And I'm guessing that bash got installed here, which it did.
+
+44
+00:03:31,320 --> 00:03:41,480
+ And now let's echo bash version, go bash version, and we get 5.2.
+
+45
+00:03:41,480 --> 00:03:52,040
+ So that is going to be our new shell and, but that's, that's how you install that there.
+
+46
+00:03:52,040 --> 00:03:58,840
+ The hard part now is to change our shell, we're going to need to do this account.
+
+47
+00:03:58,840 --> 00:04:04,360
+ This, this particular command, now this, this change cell command is a, is a Mac only sort
+
+48
+00:04:04,360 --> 00:04:05,360
+ of thing.
+
+49
+00:04:05,360 --> 00:04:10,520
+ I mean, you can do it on the Unix as well, other unices, but it's generally not, you generally
+
+50
+00:04:10,520 --> 00:04:15,640
+ wouldn't do this, you would change it as you password, um, if you're doing some Linux,
+
+51
+00:04:15,640 --> 00:04:17,320
+ but that's information you don't need to do.
+
+52
+00:04:17,320 --> 00:04:25,680
+ So right now let's just do this opt home brew bin, bin bash.
+
+53
+00:04:25,680 --> 00:04:43,040
+ And that should get us where we need to be, yeah, I have, oopsie, I have to try it again
+
+54
+00:04:43,040 --> 00:05:02,800
+ because I have a really, really long password, I show, yeah, ah, non-standard shell, I'm going
+
+55
+00:05:02,800 --> 00:05:12,040
+ to have to throw this video away too, it is totally a standard shell, yeah, I don't know
+
+56
+00:05:12,040 --> 00:05:16,360
+ what's going on with that.
+
+57
+00:05:16,360 --> 00:05:21,080
+ My Mac doesn't have that, my other Mac is, is totally fine, it finds all the right things.
+
+58
+00:05:21,080 --> 00:05:43,400
+ They're not doing a CDU, super secret password, does it have to be CDU?
+
+59
+00:05:43,400 --> 00:05:55,400
+ Oh my gosh, the bad thing about having a good password is it's really hard.
+
+60
+00:05:55,400 --> 00:06:03,120
+ Changing shell for root, that was kind of stupid, but, oh well, ah, I guess we can give it a
+
+61
+00:06:03,120 --> 00:06:08,360
+ user, no, I needed to change it for root anyway, so, I don't use the change shell command,
+
+62
+00:06:08,360 --> 00:06:15,240
+ I know, I probably should, I usually use it in Etsy password, I changed it, off name shell
+
+63
+00:06:15,240 --> 00:06:26,280
+ user, yeah, I thought you could change your own shell, can't you change your own shell?
+
+64
+00:06:26,280 --> 00:06:40,840
+ That's very interesting, all right, let's try this again, all right, there we go, it worked,
+
+65
+00:06:40,840 --> 00:06:47,800
+ oh well, I guess I'll leave all that in there, so now I have, now bash is my new shell, echo
+
+66
+00:06:47,800 --> 00:06:55,080
+ bash version, thank you for the help everybody, sorry I was such a, a noob with that, but they've
+
+67
+00:06:55,080 --> 00:07:01,680
+ changed some things with brew, the way brew works, I know, I don't think you should need
+
+68
+00:07:01,680 --> 00:07:11,800
+ CDU for the individual user, but looks like that took, are not in your path, bash in this
+
+69
+00:07:11,800 --> 00:07:17,760
+ case, yeah see bash, bash used to install packages in the right place, I mean brew used to install
+
+70
+00:07:17,760 --> 00:07:24,520
+ packages that were, that would resolve properly, and I'm, I'm struggling right now because the
+
+71
+00:07:24,520 --> 00:07:31,000
+ new brew doesn't do that, so I'm glad I'm struggling for people to see it, and it says an on-setter
+
+72
+00:07:31,000 --> 00:07:37,240
+ shell because it's not the apple provided version, which is totally lame, so I'm glad you got to
+
+73
+00:07:37,240 --> 00:07:43,480
+ see my first hand struggles and reaction to all of the changes that they've made, I'm definitely
+
+74
+00:07:43,480 --> 00:07:51,240
+ going to do a ranty video about the difference between the, you know, the shells and Z shell and
+
+75
+00:07:51,240 --> 00:07:57,320
+ bash and how I think apples got their head up their rear end with regard to changing from the
+
+76
+00:07:57,320 --> 00:08:01,640
+ bash shell, the reason they did it primarily by the way is the licensing and legal restrictions,
+
+77
+00:08:01,640 --> 00:08:08,360
+ that, no matter what tell, anybody tells you that's the main reason they did it, so the good news
+
+78
+00:08:08,360 --> 00:08:15,320
+ is is that we actually have bash installed, we've got bash 5 on, and we can now start customizing bash
+
+79
+00:08:15,320 --> 00:08:22,920
+ beginning with putting brew into our path, and we'll start talking about what the path is,
+
+80
+00:08:22,920 --> 00:08:28,520
+ to do all of that though, we're going to have to start slowly getting into what does it mean to
+
+81
+00:08:28,520 --> 00:08:33,800
+ write shell scripts, what does it mean to write bash scripts, this is one of those chicken-and-the-egg
+
+82
+00:08:33,800 --> 00:08:39,320
+ scenarios that gets really messy, and I don't want you to be afraid of it, but we definitely are
+
+83
+00:08:39,320 --> 00:08:46,360
+ going to have to learn how to code a little bit before we learn to code, and just in order to
+
+84
+00:08:46,360 --> 00:08:52,520
+ customize the shell, so we'll be doing some things that are actually code, just to get the shell
+
+85
+00:08:52,520 --> 00:08:57,080
+ bright, and then we'll come back later, and we'll come to understand that all that stuff that we
+
+86
+00:08:57,080 --> 00:09:02,440
+ wrote into the configuration files was actually code, and we can now use that to write our own
+
+87
+00:09:02,440 --> 00:09:09,240
+ scripts for other things, that's probably one of the most challenging parts of getting started
+
+88
+00:09:09,240 --> 00:09:16,920
+ on Unix and Linux is this notion that you have to know how to script in order to set up the shell
+
+89
+00:09:16,920 --> 00:09:23,080
+ that you're going to use, and so where do you start, right, and I'm going to save the rest of
+
+90
+00:09:23,080 --> 00:09:28,120
+ the conversation about that to later, the spoiler is that you usually have to take somebody else's
+
+91
+00:09:28,120 --> 00:09:33,240
+ pre-configured settings and just adopt them and trust them, I mean people have been doing this for
+
+92
+00:09:33,240 --> 00:09:39,800
+ years, and then you gradually learn how to customize them and make them your own, and that has been
+
+93
+00:09:39,800 --> 00:09:45,160
+ a rite of passage for Unix people since the beginning of Unix, so don't be afraid of that,
+
+94
+00:09:45,160 --> 00:09:51,080
+ don't be afraid of making the mistakes like I made, and I'll end the video there.
+
