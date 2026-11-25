@@ -40,3 +40,9 @@ zE9VpcRH6Iw  # 🍅 Readable interface docs in golang
 vbgSIDLX3Qg  # 🍅 XDG_STATE_HOME (~/.local/state) io.UserStateDir
 p6dcrE617bM  # 🔨Your hammer sucks
 ropH0XqAgPs  # 📺 Porting clip program to Go Bonzai 🌳
+PbKS6OqdjDA  # ⚠️ Don't do this in Golang function doc
+ANlE-RCtClE  # 🍎 Why the : at the beginning?
+-uF21gtEtR4  # 🤯 WARNING: Kubernetes default storage is like /tmp
+ApDZ5R7loNU  # 😱 Minikube cheats and dynamically creates HostPath PVs for PVCs
+8d49javqZtc  # 😎 copy from one computer to another the cool way with netcat
+nckyj8wYpcs  # 🤷🏻‍♂️ "What's a 'container engine' and which one should I use?"

@@ -1,0 +1,376 @@
+1
+00:00:00,000 --> 00:00:06,120
+ Don't take AP computer science, it rots your brain.
+
+2
+00:00:06,120 --> 00:00:13,120
+ It teaches ancient techniques like object-oriented classes and inheritance, which the creators
+
+3
+00:00:13,120 --> 00:00:19,760
+ of object-oriented programming have disavowed and said, I quote, "The single worst thing
+
+4
+00:00:19,760 --> 00:00:23,160
+ that was created in object-oriented programming was inheritance.
+
+5
+00:00:23,160 --> 00:00:24,160
+ I regret it.
+
+6
+00:00:24,160 --> 00:00:27,640
+ I wish I could take it back."
+
+7
+00:00:27,640 --> 00:00:33,480
+ Why on earth would you do AP computer science that teaches you these broken principles and
+
+8
+00:00:33,480 --> 00:00:38,480
+ refuses even though they take money, hand over fist from educational institutions and
+
+9
+00:00:38,480 --> 00:00:46,320
+ students like you constantly and makes revisions every year and refuses to update their core
+
+10
+00:00:46,320 --> 00:00:52,840
+ computer science principles to represent modern programming with composition and embedded
+
+11
+00:00:52,840 --> 00:00:58,320
+ constructs and things that GoLang will teach you that Java never will?
+
+12
+00:00:58,320 --> 00:01:00,120
+ If college board's watches, I hope they do.
+
+13
+00:01:00,120 --> 00:01:02,800
+ Let me just show you how stupid college board is.
+
+14
+00:01:02,800 --> 00:01:09,200
+ This happened in 2016, in 2016, I had somebody taking AP computer science come to me and
+
+15
+00:01:09,200 --> 00:01:14,320
+ say, "Mr. Rob, I missed a question on the AP computer science test.
+
+16
+00:01:14,320 --> 00:01:16,960
+ Can you believe it?"
+
+17
+00:01:16,960 --> 00:01:24,640
+ They had answered that list indexes start with zero and they got it wrong because the stupid
+
+18
+00:01:24,640 --> 00:01:28,300
+ version of Java that they had, it's not even Java, okay?
+
+19
+00:01:28,300 --> 00:01:29,300
+ It's not even Java.
+
+20
+00:01:29,300 --> 00:01:31,360
+ Java and indexes start at zero.
+
+21
+00:01:31,360 --> 00:01:35,960
+ The only languages that start with one are Lua, which is totally stupid.
+
+22
+00:01:35,960 --> 00:01:38,880
+ I think Ada, what's another one?
+
+23
+00:01:38,880 --> 00:01:41,000
+ I can't think of another one.
+
+24
+00:01:41,000 --> 00:01:46,520
+ College board is teaching AP computer science and they have this thing that looks like Java,
+
+25
+00:01:46,520 --> 00:01:48,880
+ but they won't own it and say it's actually Java.
+
+26
+00:01:48,880 --> 00:01:50,800
+ They say it's derived from Java.
+
+27
+00:01:50,800 --> 00:01:51,800
+ And then what do they do?
+
+28
+00:01:51,800 --> 00:01:56,920
+ They do dumb shit like change the initial index to one because that will make more sense
+
+29
+00:01:56,920 --> 00:01:57,920
+ to people.
+
+30
+00:01:57,920 --> 00:02:01,440
+ But then as soon as they code in either of the language, including Java, they will get
+
+31
+00:02:01,440 --> 00:02:03,920
+ it wrong because they will do zero.
+
+32
+00:02:03,920 --> 00:02:09,160
+ It's such a stupid simple thing, but I really want you to understand this something.
+
+33
+00:02:09,160 --> 00:02:10,840
+ This is dumb.
+
+34
+00:02:10,840 --> 00:02:16,200
+ This is so stupid and this demonstrates a fundamental misunderstanding of basic modern
+
+35
+00:02:16,200 --> 00:02:17,560
+ computer science principles.
+
+36
+00:02:17,560 --> 00:02:19,960
+ I have never felt more strongly about something than ever.
+
+37
+00:02:19,960 --> 00:02:23,400
+ AP computer science needs to die in its current form.
+
+38
+00:02:23,400 --> 00:02:27,240
+ I spoke at length with the creator of the original computer science test, which I shall
+
+39
+00:02:27,240 --> 00:02:31,480
+ not name in an email going back and forth, deciding when I started my own company to
+
+40
+00:02:31,480 --> 00:02:35,040
+ teach coding to people whether I should base it on AP computer science.
+
+41
+00:02:35,040 --> 00:02:40,640
+ I turned down several highly paid jobs building computer science, AP computer science programs
+
+42
+00:02:40,640 --> 00:02:44,280
+ for different private schools because I said, no, I refuse to teach it.
+
+43
+00:02:44,280 --> 00:02:46,880
+ It's absolutely stupid.
+
+44
+00:02:46,880 --> 00:02:48,720
+ It's totally the stupidest thing.
+
+45
+00:02:48,720 --> 00:02:51,200
+ It's made by people who don't know how to code at all.
+
+46
+00:02:51,200 --> 00:02:54,920
+ And yet these are the people that our children are learning from in the AP computer science
+
+47
+00:02:54,920 --> 00:03:00,320
+ program, which continues to happily take checks from companies who have to take it.
+
+48
+00:03:00,320 --> 00:03:04,720
+ And also you want to know what the creator there's I'll write to you about the list of
+
+49
+00:03:04,720 --> 00:03:06,800
+ the CS50 creators and people at Harvard.
+
+50
+00:03:06,800 --> 00:03:08,320
+ There's a question out there.
+
+51
+00:03:08,320 --> 00:03:13,320
+ Should I still take computer science one on one or whatever the hell, even though I got
+
+52
+00:03:13,320 --> 00:03:14,320
+ AP credit?
+
+53
+00:03:14,320 --> 00:03:16,520
+ You know what the answer was there and at other universities?
+
+54
+00:03:16,520 --> 00:03:21,120
+ Yes, because we have found that most people who took AP computer science were not properly
+
+55
+00:03:21,120 --> 00:03:22,760
+ prepared for this course.
+
+56
+00:03:22,760 --> 00:03:29,240
+ Therefore you should take the course anyway, kuching because academia, there is not anything
+
+57
+00:03:29,240 --> 00:03:35,280
+ on this planet right now in terms of professionalism that will get under my skin more than this.
+
+58
+00:03:35,280 --> 00:03:41,360
+ People who take money from well-meaning computer teachers and from well-meaning students and
+
+59
+00:03:41,360 --> 00:03:46,080
+ they scroll up and then these people go into the workforce and they don't have an idea
+
+60
+00:03:46,080 --> 00:03:47,560
+ how to do modern programming.
+
+61
+00:03:47,560 --> 00:03:50,800
+ They've never heard of the difference between inheritance versus composition because they
+
+62
+00:03:50,800 --> 00:03:56,880
+ don't even talk about it in the materials.
+
+63
+00:03:56,880 --> 00:03:57,880
+ All right.
+
+64
+00:03:57,880 --> 00:03:58,880
+ That's it.
+
+65
+00:03:58,880 --> 00:04:01,080
+ If you do, if you want more opinions about this, if you want to come talk to me about
+
+66
+00:04:01,080 --> 00:04:03,240
+ what you should do instead, let me know.
+
+67
+00:04:03,240 --> 00:04:05,880
+ In fact, because of this, I started my own company.
+
+68
+00:04:05,880 --> 00:04:10,880
+ I took my own retirement money out at a 40 percent loss to start a computer science education
+
+69
+00:04:10,880 --> 00:04:15,360
+ school and at the time, and it's all available for free now, am I grifting for myself kind
+
+70
+00:04:15,360 --> 00:04:17,640
+ of because I think you don't even have to come to me.
+
+71
+00:04:17,640 --> 00:04:19,120
+ You can go someplace else.
+
+72
+00:04:19,120 --> 00:04:21,520
+ Just don't do college board.
+
+73
+00:04:21,520 --> 00:04:22,600
+ Don't give them their time.
+
+74
+00:04:22,600 --> 00:04:23,680
+ Don't give them their money.
+
+75
+00:04:23,680 --> 00:04:25,560
+ You're not going to learn anything good from there.
+
+76
+00:04:25,560 --> 00:04:29,880
+ You would learn more learning how to write an application in Java for your own usage by
+
+77
+00:04:29,880 --> 00:04:34,280
+ making a mobile app which is Java and that kind of thing caught one than you ever would
+
+78
+00:04:34,280 --> 00:04:38,600
+ going to one of these stupid ass AP computer science classes.
+
+79
+00:04:38,600 --> 00:04:40,120
+ Just don't do it.
+
+80
+00:04:40,120 --> 00:04:41,120
+ Don't.
+
+81
+00:04:41,120 --> 00:04:44,040
+ I'm telling you, if you do it, you're going to be wasting your time.
+
+82
+00:04:44,040 --> 00:04:45,040
+ You're going to be wasting your time.
+
+83
+00:04:45,040 --> 00:04:47,080
+ There's so many better things to do.
+
+84
+00:04:47,080 --> 00:04:50,080
+ Because this thing has made me so angry, the reason I'm writing it right now is because
+
+85
+00:04:50,080 --> 00:04:56,360
+ I have started to write, learn code wizards first spell book so that I can teach the fundamentals
+
+86
+00:04:56,360 --> 00:05:01,360
+ of AP computer science before these kids get into AP computer science.
+
+87
+00:05:01,360 --> 00:05:04,920
+ Because then if they actually, if their parents make them take AP computer science so they
+
+88
+00:05:04,920 --> 00:05:09,600
+ can be a coder someday, they can maybe have a book that will help them use composition
+
+89
+00:05:09,600 --> 00:05:13,800
+ and all those wonderful things before they ever go to AP computer science.
+
+90
+00:05:13,800 --> 00:05:17,280
+ And then they can tell the teacher how wrong they are about everything and get kicked out
+
+91
+00:05:17,280 --> 00:05:19,840
+ of the class and be better off for it.
+
+92
+00:05:19,840 --> 00:05:20,840
+ All right.
+
+93
+00:05:20,840 --> 00:05:21,840
+ I'm done.
+
+94
+00:05:21,840 --> 00:05:22,280
+ I'm done.
+
