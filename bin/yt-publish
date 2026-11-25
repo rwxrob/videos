@@ -32,6 +32,8 @@
 
 set -uo pipefail
 
+export YT_NO_LOGIN=1  # never block an unattended run on a browser login
+
 here=$(CDPATH= cd -- "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 root=$(dirname "$here")
 data=${YT_DATA_DIR:-$root/data}

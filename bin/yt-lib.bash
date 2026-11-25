@@ -54,7 +54,7 @@ do_login() {
 # get_access: exchange the saved refresh token for a short-lived access token.
 get_access() {
   [[ -f $tokfile ]] || return 1
-  curl -sS "$(client_field token_uri)" \
+  curl -sS --max-time 30 "$(client_field token_uri)" \
     --data-urlencode "client_id=$(client_field client_id)" \
     --data-urlencode "client_secret=$(client_field client_secret)" \
     --data-urlencode "refresh_token=$(jq -r .refresh_token "$tokfile")" \
@@ -66,6 +66,9 @@ ensure_access() {
   [[ -f $secret ]] || { echo "missing $secret (download it from Google Cloud)" >&2; exit 1; }
   access=$(get_access || true)
   if [[ -z $access ]]; then
+    # Interactive login waits for a person forever; background jobs set
+    # YT_NO_LOGIN so a failed token refresh just fails and is retried later.
+    [[ -z ${YT_NO_LOGIN:-} ]] || { echo "could not refresh the access token (not logging in: YT_NO_LOGIN)" >&2; exit 1; }
     echo "no valid refresh token; logging in" >&2
     do_login
     access=$(get_access || true)
