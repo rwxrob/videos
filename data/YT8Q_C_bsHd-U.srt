@@ -1,0 +1,1096 @@
+1
+00:00:00,000 --> 00:00:04,040
+ Hopefully that's the thumbnail right there really angry Rob or constipated one of the two
+
+2
+00:00:04,520 --> 00:00:06,520
+ Here's the thing
+
+3
+00:00:06,520 --> 00:00:08,600
+ Chad GPT is not bad
+
+4
+00:00:09,240 --> 00:00:16,640
+ But when it is bad it is really bad and I'm gonna show you why this is a very specific example that I was using today
+
+5
+00:00:17,600 --> 00:00:22,960
+ Of Chad GPT and I'm actually going to show you a good example and I'm going to show you a bad example
+
+6
+00:00:22,960 --> 00:00:24,960
+ And I see that I'm clipping. I'm sorry
+
+7
+00:00:26,080 --> 00:00:28,080
+ You know deal with it
+
+8
+00:00:28,320 --> 00:00:32,540
+ All right, so let's let's actually go to an example of Chad GPT working. I
+
+9
+00:00:33,160 --> 00:00:35,040
+ Realize this is small on the screen. I'm sorry
+
+10
+00:00:35,820 --> 00:00:37,820
+ We're gonna come back to this one right here
+
+11
+00:00:38,280 --> 00:00:42,400
+ This is this is me asking zurtec which actually this is really cool
+
+12
+00:00:43,440 --> 00:00:48,200
+ I'm gonna give you a couple examples of Chad GPT actually totally working and the reason I'm paying a subscription for it
+
+13
+00:00:48,200 --> 00:00:49,440
+ I really love it
+
+14
+00:00:49,440 --> 00:00:51,440
+ There's the white noise as I told you about
+
+15
+00:00:51,840 --> 00:00:57,000
+ Yeah, she's like doing kitchen stuff. I mean, it's ambiance consider ambiance. All right. Anyway
+
+16
+00:00:59,320 --> 00:01:01,480
+ Claude is goaded for code, okay
+
+17
+00:01:01,480 --> 00:01:06,180
+ I'll have to try that so I was asking about zurtec treating long code V to which I've had a problem with them having our time
+
+18
+00:01:06,360 --> 00:01:08,760
+ concentrating a different video about that and
+
+19
+00:01:09,360 --> 00:01:15,120
+ So and the histamines are anecdotally some way to do that and I've been so I was able to ask it some stuff about that and
+
+20
+00:01:15,800 --> 00:01:19,120
+ Then I'm trying to give you another positive example
+
+21
+00:01:20,200 --> 00:01:24,840
+ There's a bunch of attempts to try to do the thing that I'm doing I'm writing code with and it comes pretty damn close
+
+22
+00:01:24,840 --> 00:01:26,600
+ It did give me some ideas
+
+23
+00:01:26,600 --> 00:01:30,040
+ That was some go-code from before you can pause the video if you want to see any of those
+
+24
+00:01:30,920 --> 00:01:33,760
+ I actually asked it about naps recently
+
+25
+00:01:34,920 --> 00:01:37,560
+ What's the optimum size for a lot for a nap?
+
+26
+00:01:38,360 --> 00:01:41,680
+ I think that's like back here. I'm trying to get back to the one piece of good code
+
+27
+00:01:41,680 --> 00:01:45,200
+ This is the ideal code that this doesn't I love you guys already know this
+
+28
+00:01:45,480 --> 00:01:50,480
+ So, you know people who are taking sides on the Chad GPT thing as usual. It's usually not black or white
+
+29
+00:01:50,480 --> 00:01:54,160
+ It's not one side or the other. It's actually a really good tool if you use it right
+
+30
+00:01:54,800 --> 00:01:57,000
+ You just but don't depend on it permanently
+
+31
+00:01:57,000 --> 00:02:02,720
+ You want to make sure to check yourself obviously I asked a lot of questions about sweet pea and music and stuff like that
+
+32
+00:02:02,720 --> 00:02:03,520
+ It's really great at that
+
+33
+00:02:03,520 --> 00:02:08,280
+ It's like way way faster than checking with Google about things that I want to ask it really quickly
+
+34
+00:02:09,240 --> 00:02:11,240
+ But so let me show you this
+
+35
+00:02:13,040 --> 00:02:15,400
+ One a long time ago I asked that I said hey
+
+36
+00:02:15,400 --> 00:02:21,840
+ Can you just can you just count all the leading spaces on the on the function right and it wrote this function for me really quick
+
+37
+00:02:21,840 --> 00:02:27,480
+ And that that kind of thing my friends that is worth it because you know, no amount of time
+
+38
+00:02:27,480 --> 00:02:34,120
+ Yes, I can I'm a fast type or whatever. I'm actually not a very fast programmer. You're being why would you be this loud right now?
+
+39
+00:02:34,120 --> 00:02:36,720
+ I literally told you that I was just about
+
+40
+00:02:39,080 --> 00:02:43,040
+ Okay, I'm gonna wait, I'm gonna I'm gonna walk into my office
+
+41
+00:02:43,040 --> 00:02:47,680
+ I'm gonna walk into my office to complete the video rather than upset my wife by you know
+
+42
+00:02:49,600 --> 00:02:52,180
+ Are you are you making amish things?
+
+43
+00:02:55,120 --> 00:03:01,740
+ Ooh, that sounds good. Okay. All right, so I'm going into the other room going into my yoga room slash office
+
+44
+00:03:02,200 --> 00:03:07,040
+ It's got a totally different lights. Just you know what how about we go out on the patio over here. How about that?
+
+45
+00:03:07,600 --> 00:03:13,160
+ I promise you or not. We're gonna look. This is a look. Just be happy. You have a video. I don't want to hear about it
+
+46
+00:03:13,640 --> 00:03:19,560
+ In the comments, why do you I don't want here? Okay, this is what you get. Otherwise you get no video
+
+47
+00:03:20,240 --> 00:03:22,240
+ okay, so
+
+48
+00:03:22,240 --> 00:03:25,920
+ she have chat GPT bad right no chat GPT is good and bad and
+
+49
+00:03:27,320 --> 00:03:28,040
+ Here we go
+
+50
+00:03:28,040 --> 00:03:34,000
+ so we have counted the leading spaces and you see how it doesn't that's the kind of code that it just like go is pain in the
+
+51
+00:03:34,000 --> 00:03:36,000
+ ass to do this kind of thing and
+
+52
+00:03:36,000 --> 00:03:39,800
+ It just spit it out and it works and immediately you can tell it works just by looking at it
+
+53
+00:03:39,800 --> 00:03:44,080
+ And and that's where chat GPT is really great. I told you about you know looking at minor queries. It's really great
+
+54
+00:03:44,080 --> 00:03:46,080
+ But let me show you
+
+55
+00:03:46,320 --> 00:03:51,700
+ Another another area where it's really really wrong, and this is this is what made me want to make this video, okay?
+
+56
+00:03:52,080 --> 00:03:54,680
+ So I've been writing this I've been writing this
+
+57
+00:03:55,560 --> 00:03:58,320
+ Supposedly easy code. It's not easy for me because I have long COVID right now
+
+58
+00:03:58,320 --> 00:04:00,640
+ my brain is just like not working and
+
+59
+00:04:01,280 --> 00:04:07,560
+ I'm you can tune in with me later about that, but and it I seriously it's taking me three days to make this very minimal
+
+60
+00:04:07,560 --> 00:04:10,720
+ You know you function if you want to know more about that tune in but
+
+61
+00:04:11,920 --> 00:04:16,000
+ And I was actually trying to get a I was trying to get you to do it for me because it's
+
+62
+00:04:16,360 --> 00:04:21,440
+ Super dumb code that I really don't care about and it was about that time that I said, you know
+
+63
+00:04:21,440 --> 00:04:26,520
+ I was like, you know what and if you don't know go I'll tell you about it a little bit, so
+
+64
+00:04:28,040 --> 00:04:30,040
+ In go
+
+65
+00:04:30,320 --> 00:04:33,480
+ You can the object oriented programming part of go
+
+66
+00:04:35,520 --> 00:04:37,520
+ Allows you to do stuff like this
+
+67
+00:04:38,240 --> 00:04:39,560
+ right
+
+68
+00:04:39,560 --> 00:04:45,200
+ You can define a type like this. This is invalid code by the way as you can see from my screen
+
+69
+00:04:45,440 --> 00:04:47,440
+ This is invalid code
+
+70
+00:04:47,440 --> 00:04:50,480
+ and but you can see here go told me that was okay and
+
+71
+00:04:51,440 --> 00:04:57,600
+ You can inline a struct you you can do that you can inline a struct, but you cannot inline methods
+
+72
+00:04:57,600 --> 00:05:00,360
+ It's always been true for go and you know
+
+73
+00:05:00,360 --> 00:05:01,480
+ I
+
+74
+00:05:01,480 --> 00:05:06,640
+ Was wondering if maybe something had changed in one two two that I didn't see in the release notes because I didn't check
+
+75
+00:05:06,640 --> 00:05:10,120
+ Through this notion one two one and one two two probably should go through that make a video about that
+
+76
+00:05:10,520 --> 00:05:12,520
+ but the point of this is that
+
+77
+00:05:13,600 --> 00:05:17,920
+ You know I was like damn that would be really cool because then it would this is a totally stupid example
+
+78
+00:05:17,920 --> 00:05:21,480
+ It made by the way, but it's using exported. You would never do that. You use lowercase, right?
+
+79
+00:05:21,720 --> 00:05:25,840
+ Because you don't this is all within the this is all within a function scope. It's all minimally
+
+80
+00:05:26,360 --> 00:05:30,640
+ You know this this kind of stuff usually comes right here
+
+81
+00:05:31,320 --> 00:05:38,480
+ so so this is completely valid go code all right as you can see the errors went away from my automated, you know
+
+82
+00:05:38,480 --> 00:05:43,160
+ Memthing and that is cooked that compiles right that will totally compile
+
+83
+00:05:44,120 --> 00:05:46,120
+ But the one chat GPT told me
+
+84
+00:05:46,480 --> 00:05:50,040
+ So this this this is the danger and this is the reason for this video
+
+85
+00:05:50,040 --> 00:05:57,840
+ Okay, the reason for this video is is because of how definitive chat GPT sounded and it's very very dangerous because
+
+86
+00:05:58,160 --> 00:06:03,960
+ Chat GPT sounds that has this error of authority like it like it really knows what it's talking about when it clearly doesn't
+
+87
+00:06:03,960 --> 00:06:09,360
+ It's a chat GPT is like you're a very very knowledgeable friend who's fucking totally wrong
+
+88
+00:06:09,640 --> 00:06:16,380
+ Sometimes but then doubles down on how wrong they are rather than come around right that friend only the difference with
+
+89
+00:06:16,380 --> 00:06:22,280
+ Chat GPT is is that if you give it new information it will unlike your your pedantic, you know, know it all friend
+
+90
+00:06:22,440 --> 00:06:25,840
+ It will actually change its mind on you and I want to read this to you
+
+91
+00:06:25,840 --> 00:06:30,640
+ It's very important that that you see at least this example if you before you make any decisions about AI
+
+92
+00:06:32,120 --> 00:06:35,960
+ specifically large language models AI by the way, it's not the same as large language models and
+
+93
+00:06:37,080 --> 00:06:42,000
+ Adam ruins everything did a whole thing where he's like throwing AI under the bus and calling everybody stupid for using it
+
+94
+00:06:42,080 --> 00:06:46,000
+ No, he's stupid for saying that that's AI's got tremendous value
+
+95
+00:06:47,440 --> 00:06:54,280
+ Including these you know significantly wrong large language models on occasion, so so but I just wanted to show you this
+
+96
+00:06:54,280 --> 00:07:01,760
+ So let's after the zertick thing has going always allowed creation of name types like structs within the body of a function
+
+97
+00:07:02,920 --> 00:07:04,840
+ Because I thought I was going crazy, right?
+
+98
+00:07:04,840 --> 00:07:11,400
+ I thought that I was trying to do something that I wasn't seeing the errors pop up from the you know the the real time
+
+99
+00:07:11,840 --> 00:07:16,760
+ Syntax checker either I have you working with my them and and it was and it you know
+
+100
+00:07:16,760 --> 00:07:21,240
+ It turned out to be something out it turned out to be that you can do the inline struct you can even do name structs
+
+101
+00:07:21,720 --> 00:07:30,160
+ But you cannot add methods and a method and go is is a is a is a is a a function with a receiver
+
+102
+00:07:30,360 --> 00:07:32,360
+ That's what this is. This is a receiver
+
+103
+00:07:32,960 --> 00:07:38,120
+ That says it's kind of like hanging up a function off of a struct, right?
+
+104
+00:07:38,120 --> 00:07:40,280
+ I'm which I really love because at runtime even
+
+105
+00:07:41,000 --> 00:07:44,920
+ Actually, no, not at runtime, but yeah, I mean that's a different thing you'd have to use that you'd have to do an assignment
+
+106
+00:07:44,920 --> 00:07:49,200
+ You can't do it or rent them out. So forget I said, but you can have a receiver and do the thing all right?
+
+107
+00:07:49,200 --> 00:07:53,320
+ So you could have this oops you can have this
+
+108
+00:07:54,920 --> 00:07:56,920
+ Right that's totally valid go
+
+109
+00:07:57,360 --> 00:08:01,440
+ But you cannot that stupid to do that you would probably do this instead
+
+110
+00:08:03,160 --> 00:08:07,120
+ Right you have a lower case because you don't care about the scope you want it to be lowered
+
+111
+00:08:07,120 --> 00:08:11,360
+ So you know it's nice. It's easy to remember it reminds you that it's it's a struct that you have in here
+
+112
+00:08:11,360 --> 00:08:16,840
+ You can even you can even do anonymous structs which I had done. That's what this was before I did this
+
+113
+00:08:16,840 --> 00:08:18,840
+ You do type, you know item. I guess
+
+114
+00:08:19,440 --> 00:08:24,800
+ Is a struct no wait you can do inline structs, which are really cool. It's very sea light to do this
+
+115
+00:08:25,480 --> 00:08:29,800
+ We actually assign to one that you're gonna reuse like and you don't want to use
+
+116
+00:08:30,360 --> 00:08:35,600
+ Some sort of map notation, which is really heavy do heavy-handed. So you could do you could do this is an inline struct
+
+117
+00:08:36,800 --> 00:08:43,400
+ So yeah, you do item equals struct and you can define especially if it's an int it's like they're the same type
+
+118
+00:08:43,400 --> 00:08:45,400
+ This is really great. You can say
+
+119
+00:08:45,560 --> 00:08:46,760
+ account
+
+120
+00:08:46,760 --> 00:08:48,760
+ and you can say
+
+121
+00:08:50,200 --> 00:08:56,440
+ Last or something and then make it int and you can actually do that. You can actually initialize it with an initial value the
+
+122
+00:08:56,760 --> 00:09:02,160
+ Default initializer values for instance are zero. So that you don't need to do that and go anyway
+
+123
+00:09:02,160 --> 00:09:06,160
+ That's an inline struct right now. That is normal to use. This is normal to use
+
+124
+00:09:06,440 --> 00:09:11,000
+ But as soon as you try to hang a function off of it, you have an error
+
+125
+00:09:11,880 --> 00:09:15,000
+ Okay, so that's all the go that you need to know here
+
+126
+00:09:16,120 --> 00:09:22,920
+ To be able to follow along with my conclusion, okay, so so there's like no. No, I don't even know that
+
+127
+00:09:22,920 --> 00:09:27,240
+ It's not even go syntax. It's never been go syntax. What the hell are you doing, right?
+
+128
+00:09:27,240 --> 00:09:30,440
+ I don't think you can do this wouldn't that be cool if you could oh
+
+129
+00:09:31,560 --> 00:09:33,560
+ My god
+
+130
+00:09:33,880 --> 00:09:35,880
+ I may have discovered something
+
+131
+00:09:39,160 --> 00:09:40,360
+ No
+
+132
+00:09:40,360 --> 00:09:42,360
+ Wait a second
+
+133
+00:09:42,600 --> 00:09:44,600
+ Wait a second
+
+134
+00:09:45,040 --> 00:09:52,240
+ The scope of this type is within main, but this way way way what what is going on here?
+
+135
+00:09:52,240 --> 00:09:55,080
+ I think it just is but they find something about go. So maybe
+
+136
+00:09:55,640 --> 00:09:59,440
+ Chi GPT is sort of right. Why didn't that bark at me? Is that gonna compile?
+
+137
+00:10:02,240 --> 00:10:07,080
+ So you can define the function you can hang a function off of an end off of the type of you have to do it outside of the
+
+138
+00:10:07,080 --> 00:10:09,080
+ Out of sight of the containing body of the fuck. Oh
+
+139
+00:10:09,840 --> 00:10:14,080
+ If that's always been a go thing and I'm gonna stand corrected and Chi GPT was kind of bright
+
+140
+00:10:14,080 --> 00:10:20,340
+ Even though the example they gave me was totally dead wrong. Let's try this. This this might be worth it all by itself. Go run
+
+141
+00:10:21,440 --> 00:10:24,360
+ Oh, here we go undefined person item declared and not used
+
+142
+00:10:25,680 --> 00:10:28,000
+ Well that I know well, we don't need that one
+
+143
+00:10:28,720 --> 00:10:31,380
+ There's a singing person. Let's go look at this person right here
+
+144
+00:10:32,560 --> 00:10:34,560
+ persona
+
+145
+00:10:35,680 --> 00:10:37,680
+ Person
+
+146
+00:10:37,760 --> 00:10:39,760
+ P dot greet
+
+147
+00:10:39,760 --> 00:10:46,440
+ I'm this this works. I'm gonna freak out undefined person. I thought so okay. That's what I would expect. All right
+
+148
+00:10:46,440 --> 00:10:49,120
+ So yeah, that's what I that's what I've always expect this
+
+149
+00:10:49,120 --> 00:10:54,200
+ This would be completely wrong because a person is supposed to only be visible to step within the main body of the bunch
+
+150
+00:10:54,200 --> 00:10:55,480
+ That's the reason for using
+
+151
+00:10:55,480 --> 00:10:59,680
+ structs like this because you don't want to pollute your global namespace with and you know
+
+152
+00:11:00,120 --> 00:11:04,680
+ With a bunch of stuff you want to put it and so if that had worked out have been really surprised
+
+153
+00:11:04,920 --> 00:11:07,160
+ We already know that this does not work
+
+154
+00:11:07,960 --> 00:11:09,960
+ for the reasons that you're getting there and
+
+155
+00:11:10,280 --> 00:11:15,360
+ Okay, so let's proceed to you know throw chat GPT under the bus for this
+
+156
+00:11:15,560 --> 00:11:17,640
+ So because for what a one second here
+
+157
+00:11:17,640 --> 00:11:20,080
+ I'm like second-guessing myself, which is really great chat GPT
+
+158
+00:11:20,240 --> 00:11:25,680
+ This is where I went wrong and you cannot be me and you can make a better decisions, okay?
+
+159
+00:11:26,120 --> 00:11:30,720
+ I've started to trust chat GPT probably way more than I should I've been using it for a lot
+
+160
+00:11:30,720 --> 00:11:34,680
+ I've been using it for route planning on my bike. I've been all kinds of stuff
+
+161
+00:11:34,680 --> 00:11:39,920
+ I've been talking to it like it's real I've been saying telling to thank you and my mistake was that I started
+
+162
+00:11:39,920 --> 00:11:45,400
+ I started really trusting it and I was like, okay, chat GPT. So did go did the language change
+
+163
+00:11:45,400 --> 00:11:50,320
+ I said did the language change is as it always been possible that I can actually add
+
+164
+00:11:51,920 --> 00:11:53,920
+ structs within the body of my function and
+
+165
+00:11:54,560 --> 00:11:59,360
+ And it said yes go as always allow the creation of name types such as structs with the body of a function
+
+166
+00:11:59,360 --> 00:12:01,560
+ This feature has been available since goes early
+
+167
+00:12:01,560 --> 00:12:06,440
+ This is a very specific answer in go you can define a structure or a custom type within a function
+
+168
+00:12:06,440 --> 00:12:13,480
+ Although the scope of that type will be limited the function is fine that that's that I knew right and then and then here's here's a part
+
+169
+00:12:13,480 --> 00:12:15,840
+ That's both good and bad. So it actually gives me an example here
+
+170
+00:12:15,840 --> 00:12:23,000
+ This is completely valid code kind of stupid because you know person is exported even though we're no exporting happening in this case
+
+171
+00:12:23,200 --> 00:12:25,200
+ Person is blah blah blah. All right now
+
+172
+00:12:26,160 --> 00:12:31,400
+ There's something that I like about chat GPT here and something that I really hate the first thing I like is like
+
+173
+00:12:31,400 --> 00:12:33,400
+ Is can they have receiver methods? I?
+
+174
+00:12:34,520 --> 00:12:39,520
+ That's what one two three four five. That's five. That's a five word question
+
+175
+00:12:40,000 --> 00:12:42,800
+ To chat GPT that's based on the previous context
+
+176
+00:12:42,800 --> 00:12:47,800
+ So I didn't have to rewrite that if I was doing Google searches and stuff that would have taken me a lot longer to ask
+
+177
+00:12:47,960 --> 00:12:50,920
+ But chat GPT is the one thing I do like about chat GPT
+
+178
+00:12:51,280 --> 00:12:56,160
+ Queries is that I can actually supplement it and chat to GPT is a pretty damn good job of
+
+179
+00:12:56,520 --> 00:13:01,520
+ Taking the previous context of the thing that we were talking about and adding on the information and that's what it did
+
+180
+00:13:01,520 --> 00:13:07,240
+ It just got the answer wrong. So it said can they have receiver methods? It knew what a receiver method was
+
+181
+00:13:07,240 --> 00:13:12,060
+ This this is where it gets really weird. Okay. This is where it's your it's your friend
+
+182
+00:13:12,060 --> 00:13:16,080
+ It's wrong, right? I mean it's it knew what a receiver method was which blows my mind
+
+183
+00:13:16,080 --> 00:13:21,520
+ I mean, that's just totally bull's mind. Yes types including structs defined within a function in go can have receiver methods
+
+184
+00:13:21,680 --> 00:13:26,300
+ This is categorically positively false. I've already proven it
+
+185
+00:13:26,300 --> 00:13:29,840
+ We tried to compile the code that is code that won't compile and never has compiled
+
+186
+00:13:30,120 --> 00:13:34,360
+ However, the methods associated with these types of limited scope and value. Okay. This is wrong
+
+187
+00:13:34,360 --> 00:13:40,800
+ And then and then it proceeds to even double down on how wrong it is it actually gives you an example of an embedded
+
+188
+00:13:40,800 --> 00:13:46,120
+ Fection this this code will not compile that is the basis of the code you're looking at on the other part of the screen a
+
+189
+00:13:46,120 --> 00:13:49,600
+ Copy and paste it as is and immediately got all these warnings and errors
+
+190
+00:13:49,600 --> 00:13:53,080
+ I was like I didn't think this was gonna run but I was like God
+
+191
+00:13:53,080 --> 00:13:58,840
+ It is so sure that this is gonna run it is so sure it was very convincing and I was like
+
+192
+00:13:59,320 --> 00:14:04,360
+ Okay, I guess you know more than I do Chad GPT. And so then I went back to look at this stuff
+
+193
+00:14:05,760 --> 00:14:08,320
+ Start person is the finest telling me all about it and everything
+
+194
+00:14:08,320 --> 00:14:12,640
+ Which is really great and then I tried it and it wouldn't compile and I told it it was full of shit
+
+195
+00:14:12,640 --> 00:14:18,720
+ And this is actually really fun. This is also kind of a kind of a lesson in in in de-escalation
+
+196
+00:14:19,360 --> 00:14:26,120
+ So Chad GPT is really good at de-escalating being a moron. This is kind of funny. So this is completely wrong
+
+197
+00:14:26,760 --> 00:14:32,280
+ What are you a noob going programmer? This has never been true. You're absolutely right
+
+198
+00:14:32,280 --> 00:14:38,580
+ I apologize for the confusion in my previous response and go name types like structs cannot be defined inside function bodies
+
+199
+00:14:38,580 --> 00:14:40,580
+ And this has never been allowed in the language
+
+200
+00:14:41,840 --> 00:14:46,920
+ You can define types of the package level but not within a function if you attempt to declare a type inside the function
+
+201
+00:14:46,920 --> 00:14:53,660
+ Go we'll throw a compile-time error. Here's the example of what of what isn't allowed of what isn't allowed in go
+
+202
+00:14:54,120 --> 00:14:58,200
+ Okay, and you know what's really sad about this is that this is also wrong
+
+203
+00:14:58,800 --> 00:15:01,460
+ This is totally allowed. It's right there. I just did it
+
+204
+00:15:02,360 --> 00:15:05,660
+ Go to chat GPT does not know
+
+205
+00:15:06,240 --> 00:15:12,920
+ Does not know that you can define types within a function, but not their method functions
+
+206
+00:15:13,680 --> 00:15:17,920
+ It doesn't know that and it's look at that. It's even tell me so it tried to correct itself
+
+207
+00:15:17,920 --> 00:15:22,040
+ And I actually told you something else is wrong and I want to say this is a result of a compilation
+
+208
+00:15:22,040 --> 00:15:26,360
+ This will not I just did it. It's not a compilation or you dumb piece of shit
+
+209
+00:15:26,880 --> 00:15:31,220
+ Okay, so then I went back here the correct approach is to do this put it outside
+
+210
+00:15:31,240 --> 00:15:35,120
+ It is good, but you don't have to do that again. I apologize for the mistake and then I got mad
+
+211
+00:15:35,120 --> 00:15:39,760
+ I got mad and I said then why would you tell me that you could do it even make an example?
+
+212
+00:15:39,760 --> 00:15:43,560
+ I won't even compile and go and then there's the de-escalation part
+
+213
+00:15:43,680 --> 00:15:47,440
+ I appreciate your patience, and I completely understand your frustration. You're absolutely right
+
+214
+00:15:49,440 --> 00:15:55,000
+ Tell somebody they're right and and if you had a fight with them and my initial response was incorrect what?
+
+215
+00:15:55,800 --> 00:16:01,020
+ Yeah, the mistake I made was entirely on me, and I appreciate you bringing my attention
+
+216
+00:16:01,280 --> 00:16:04,340
+ There is a lesson about life to be had in there
+
+217
+00:16:05,120 --> 00:16:10,240
+ Chad GPT may be in AI, but because it's an AI it has wraps of information and data
+
+218
+00:16:11,340 --> 00:16:18,120
+ Scientifically speaking that tell it that when it's wrong it needs to de-escalate immediately or people will stop paying for it
+
+219
+00:16:18,360 --> 00:16:22,600
+ And I'm like reading that going okay fine. All right. All right. You're right
+
+220
+00:16:22,600 --> 00:16:25,640
+ I was right you were wrong, and I was right. All right. Let's move on
+
+221
+00:16:25,960 --> 00:16:29,680
+ And most humans won't do that ever and if you're in tech you know this
+
+222
+00:16:30,120 --> 00:16:33,640
+ And go name types such as I'll find some way to be right on the side
+
+223
+00:16:33,640 --> 00:16:37,060
+ They'll make an angle to make it right because they're human backfire effect
+
+224
+00:16:38,200 --> 00:16:43,860
+ And go name types such as structs cannot be declared inside functions bullshit. I just did it. Okay
+
+225
+00:16:45,680 --> 00:16:50,880
+ Here's here's the thing so and then it gives me an example now this this is actually compatible good code
+
+226
+00:16:51,600 --> 00:16:57,560
+ They did export the person for no reason which is probably okay, especially if you're using the internal package
+
+227
+00:16:57,660 --> 00:17:02,960
+ Go watch another video for that. What is the internal package if you don't know what the internal package is you should use it
+
+228
+00:17:03,160 --> 00:17:05,160
+ Everybody should use a dear internal package
+
+229
+00:17:06,200 --> 00:17:08,200
+ Okay, so let's go here
+
+230
+00:17:08,660 --> 00:17:13,160
+ The example will work perfectly because the purse the strip person is defined in the package level
+
+231
+00:17:13,160 --> 00:17:19,680
+ I genuinely appreciate you catching your okay, so so the takeaway from this video is is very basic, right?
+
+232
+00:17:19,680 --> 00:17:21,300
+ the takeaway is
+
+233
+00:17:21,300 --> 00:17:27,080
+ Chad GVD is really really great at getting you to where you need to be and getting you to ask the questions
+
+234
+00:17:27,080 --> 00:17:30,520
+ You need to ask and answering some questions for you really quickly
+
+235
+00:17:31,160 --> 00:17:34,800
+ It's also really great at doing the mundane coding that's super easy
+
+236
+00:17:35,920 --> 00:17:40,160
+ You know like iterating and enumerating and that kind of stuff that takes you just way too long to write the code and
+
+237
+00:17:40,400 --> 00:17:45,920
+ And for that reason I am truly training myself to become a Chad GVD prompt engineer and
+
+238
+00:17:46,600 --> 00:17:51,800
+ I this is this is this is a total 180 for me because I when it when I first saw yeah
+
+239
+00:17:51,800 --> 00:17:54,400
+ I was like oh my god. It's never gonna replace people. There's gonna have to be people there
+
+240
+00:17:54,400 --> 00:18:01,240
+ It's true, but it's like sitting next to a guy in a cubicle who thinks he knows everything and is pretty damn smart
+
+241
+00:18:01,240 --> 00:18:05,800
+ But doesn't know everything, but they're like well-rounded about more things than you would ever imagine
+
+242
+00:18:06,120 --> 00:18:09,080
+ They're basic. It's actually just basically your best cubicle buddy
+
+243
+00:18:09,080 --> 00:18:15,960
+ I mean I can get answers from Chad GVD like in a fraction of the time that it takes me to go do even a command line search
+
+244
+00:18:15,960 --> 00:18:19,560
+ And if you know me you know that I do a lot of really you know millisecond
+
+245
+00:18:19,560 --> 00:18:26,600
+ Let level command line searching because I don't like that being able to search really quickly is the single greatest advantage in the number one skill
+
+246
+00:18:26,600 --> 00:18:32,200
+ You need to learn beyond knowing how to learn learning how to learn and let's talk about education for a second
+
+247
+00:18:32,200 --> 00:18:33,880
+ And I'm gonna go ahead and wrap up with that
+
+248
+00:18:33,880 --> 00:18:38,800
+ When I the thing that got me to turn around you know my position on AI some years ago a year and a half ago
+
+249
+00:18:38,800 --> 00:18:46,760
+ Or so was my good buddy LTM Bob who teaches at university at least he did till very recently moving into the corporate sector again
+
+250
+00:18:48,520 --> 00:18:53,320
+ Told me how great it was for education. He's like this is a fantastic tool for education now
+
+251
+00:18:53,320 --> 00:18:56,760
+ And I want to put a bullet point on that right now
+
+252
+00:18:57,400 --> 00:19:02,680
+ Yes, it's great for education, but in this case you would be totally
+
+253
+00:19:03,400 --> 00:19:10,200
+ Pardon my one French word fucked if you use this if you use this and you went and as
+
+254
+00:19:10,680 --> 00:19:16,680
+ With all the confidence and assurance that Chad GPD did you created code that wouldn't even compile
+
+255
+00:19:17,720 --> 00:19:22,880
+ You'd be lapped out of any kind of job interview for go programming anywhere now
+
+256
+00:19:22,880 --> 00:19:26,240
+ Most people who do that kind of interview don't expect you to know all the answers up front
+
+257
+00:19:26,240 --> 00:19:28,400
+ They do expect you to do the things in testing compile
+
+258
+00:19:28,400 --> 00:19:31,560
+ They would this kind of thing they would say compile it and by the way
+
+259
+00:19:31,560 --> 00:19:37,420
+ This dumb friend of ours Chad GPT who's also really smart doesn't have the ability to compile the code to see if it works
+
+260
+00:19:38,520 --> 00:19:42,240
+ So so so don't keep up your personal network of friends
+
+261
+00:19:42,800 --> 00:19:47,140
+ Because you're professional in a group your programming group your meetup group your favorite twitch streamer
+
+262
+00:19:47,200 --> 00:19:52,560
+ You know these kind of things are still gonna be really relevant for you because when you ask those questions when you've done all the work
+
+263
+00:19:52,880 --> 00:19:56,800
+ To answer the question for yourself like the auto diet act that you are and you can't get the answer
+
+264
+00:19:58,000 --> 00:20:00,000
+ You've got to turn to your professional learning network
+
+265
+00:20:00,240 --> 00:20:06,240
+ Not just Chad GPT. Chad GPT is one member of your professional learning network
+
+266
+00:20:06,720 --> 00:20:11,200
+ And i'm going to conclude with that don't ever trust it completely just like you never trust anybody else
+
+267
+00:20:11,760 --> 00:20:13,760
+ you know
+
+268
+00:20:13,760 --> 00:20:15,520
+ and
+
+269
+00:20:15,520 --> 00:20:20,240
+ Yeah, i was going to ask you your your your opinions on love and trust
+
+270
+00:20:21,200 --> 00:20:25,520
+ There's a statement in a movie that we're watching right now or a thing the old man is called
+
+271
+00:20:26,000 --> 00:20:29,440
+ Where they say you can either trust somebody or you can love them
+
+272
+00:20:30,000 --> 00:20:34,720
+ But you can't do both and i feel like that's how you should go with Chad GPT
+
+273
+00:20:36,880 --> 00:20:40,560
+ You should never trust you have each beat but you can love it. You just should never trust it
+
+274
+00:20:41,920 --> 00:20:46,960
+ I i'm done now. I promise i'm done now. I'm gonna go turn off the recording
+
