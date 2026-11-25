@@ -2,7 +2,7 @@
 
 From 2024. I may have changed my mind on some of this.
 
-Explains the reasons for preferring GitHub over GitLab, prompted by a discussion of GCLI, a command line tool that works with both. Covers GitLab's slow UI and API, access barriers, difficult server setup and API design, then compares these with GitHub's speed, command line tool, wider adoption and lower reliance on open source contributions.
+Explains the reasons for preferring GitHub over GitLab, prompted by a discussion of GCLI, a command line tool that works with both. Covers GitLab's slow UI and API, access barriers, difficult server setup and API design, then turns to GitHub's speed, command line tool, wider adoption and lack of dependence on open source contributions.
 
 Chapters:
 0:00 GCLI and the GitLab question
@@ -11,7 +11,7 @@ Chapters:
 1:49 GitHub's command line tool and speed
 2:39 Adoption, open source reliance, and jobs
 
-`#gitlab #github #git #cli #api #opensource #developer`
+`#gitlab #github #cli #api #opensource #developer`
 
 ## Category
 
