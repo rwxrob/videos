@@ -1,4 +1,4 @@
-# 🎄🚀 Holiday Boost Day 1: Learn to Code Go in the Terminal with The Code Mage's First Spellbook
+# 🎄🚀 Code Go in the Terminal with The Code Mage's First Spellbook (Holiday Boost 2024 - #1)
 
 Kicks off a Holiday Boost series by reading through the opening of The Code Mage's First Spellbook, a beginner book on learning to code in Go from the terminal. The book is still in progress and free to read online, and notes cover related books also being written. Topics include its copyright, learners' freedom to take responsibility for their own learning, finding mentors, focusing on one language and the terminal first, and why coding and operations skills matter for careers.
 
