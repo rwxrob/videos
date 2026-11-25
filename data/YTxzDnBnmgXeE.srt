@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:06,040
+ Alright, so you got your terminal, you're using it on your Mac, you're using a Mac terminal,
+
+2
+00:00:06,040 --> 00:00:09,480
+ and you've got it, you've got the pretty colors, you've installed the groove box theme, those
+
+3
+00:00:09,480 --> 00:00:11,720
+ are separate videos.
+
+4
+00:00:11,720 --> 00:00:17,520
+ And now you need to get the missing package manager, it's called Brew, it's pretty much
+
+5
+00:00:17,520 --> 00:00:23,800
+ standard, at this point Mac should probably just put it on the system by default.
+
+6
+00:00:23,800 --> 00:00:27,840
+ And to do that you have to go download it, you have to go get it from the internet and
+
+7
+00:00:27,840 --> 00:00:33,520
+ download it, and right now it's still a little clunky, you have to run it from a very specific
+
+8
+00:00:33,520 --> 00:00:34,520
+ location.
+
+9
+00:00:34,520 --> 00:00:35,520
+ But we're going to fix all of that.
+
+10
+00:00:35,520 --> 00:00:40,200
+ So this video is about getting brew on your system.
+
+11
+00:00:40,200 --> 00:00:43,840
+ Now I already did this so I could test it, but I'm going to go ahead and go through the
+
+12
+00:00:43,840 --> 00:00:45,200
+ steps again.
+
+13
+00:00:45,200 --> 00:00:51,000
+ So if you were just doing it for the first time, you would come out to your web browser
+
+14
+00:00:51,000 --> 00:00:58,960
+ and you'd search for brew for Mac, and you'd see home brew, the missing package manager,
+
+15
+00:00:58,960 --> 00:01:10,200
+ you would go here and cut and paste this into your terminal, and let's actually change
+
+16
+00:01:10,200 --> 00:01:14,480
+ to small so you can see it.
+
+17
+00:01:14,480 --> 00:01:22,480
+ And then, so again, you're over here, you search for brew, you went to brew.sh, and now you
+
+18
+00:01:22,480 --> 00:01:36,640
+ have it, somebody's blurping me, or they're doing it, it was a sticker, it was either sticker
+
+19
+00:01:36,640 --> 00:01:38,640
+ or blurp.
+
+20
+00:01:38,640 --> 00:01:49,720
+ Alright, so here we go, let's go ahead and paste it, so you paste, and then enter, and
+
+21
+00:01:49,720 --> 00:02:03,080
+ then you type in your password, which you should, you know, okay.
+
+22
+00:02:03,080 --> 00:02:08,040
+ And we wait for it to enter, now it's already got it there, but what I want to show you right
+
+23
+00:02:08,040 --> 00:02:13,480
+ here is make sure you pay attention to this, see where it says opt home brew bin, right
+
+24
+00:02:13,480 --> 00:02:21,160
+ here, right there, see where it says opt home brew bin right there, remember that because
+
+25
+00:02:21,160 --> 00:02:24,960
+ you're going to need to type that in, and for now, eventually you'll just be able to
+
+26
+00:02:24,960 --> 00:02:28,960
+ type brew, but for right now you'll need to type that one part in.
+
+27
+00:02:28,960 --> 00:02:35,280
+ So let's go ahead and push enter, and it'll install the whole thing, and it'll get the
+
+28
+00:02:35,280 --> 00:02:46,360
+ latest one, good night, clutch, actually, yeah, alright so, so that goes, it installs
+
+29
+00:02:46,360 --> 00:02:51,840
+ it all, it tells you the commands you should run, I just want to warn you right now, these
+
+30
+00:02:51,840 --> 00:02:58,000
+ commands right here, don't run them, you don't need these commands, these commands are unnecessary,
+
+31
+00:02:58,000 --> 00:03:02,840
+ they are based on Z shell, which we're immediately going to get rid of, and we're going to use
+
+32
+00:03:02,840 --> 00:03:08,160
+ a bash, if you want to use Z shell, because somebody convinces you Z shell is better, fine,
+
+33
+00:03:08,160 --> 00:03:12,920
+ there's a separate video about why we're using bash, which is a default shell on all Linux
+
+34
+00:03:12,920 --> 00:03:20,240
+ systems, except for Kali, so we're going to go with bash, and that's why for right now,
+
+35
+00:03:20,240 --> 00:03:26,840
+ you just need to remember that one by it there, so you can cut and paste this, let's just copy
+
+36
+00:03:26,840 --> 00:03:35,200
+ and paste this right now, let's scroll back down, and this will get us, hopefully, what
+
+37
+00:03:35,200 --> 00:03:40,120
+ we need, okay, so there we go, we can see we got the brew command, and we're going to
+
+38
+00:03:40,120 --> 00:03:45,840
+ use brew to install Tmux and the latest bash, and a bunch of other stuff in other videos,
+
+39
+00:03:45,840 --> 00:03:52,840
+ so that's the end for that video, you know, brew, if you have a, if you have a mag, this
+
+40
+00:03:52,840 --> 00:03:57,240
+ is just the way to go, it's what you really need, so take the time to go and understand
+
+41
+00:03:57,240 --> 00:04:02,200
+ that, install brew, and then come back and we'll watch another video, you can do the rest
+
+42
+00:04:02,200 --> 00:04:02,840
+ with me later.
+
