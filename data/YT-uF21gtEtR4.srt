@@ -1,0 +1,2308 @@
+1
+00:00:00,000 --> 00:00:05,000
+ By default, almost every storage class provisioner,
+
+2
+00:00:06,280 --> 00:00:07,500
+ trying to get my words right,
+
+3
+00:00:08,920 --> 00:00:12,260
+ defaults to delete reclaim policy.
+
+4
+00:00:13,240 --> 00:00:17,840
+ And what that means is that every one of these,
+
+5
+00:00:17,840 --> 00:00:20,800
+ this is very confusing 'cause this is PVC, it's not.
+
+6
+00:00:20,800 --> 00:00:23,960
+ This is a PV, this is a persistent volume
+
+7
+00:00:23,960 --> 00:00:26,640
+ that has been dynamically allocated
+
+8
+00:00:26,640 --> 00:00:31,640
+ for this specific PVC and this specific PVC only.
+
+9
+00:00:31,920 --> 00:00:33,320
+ The most important difference
+
+10
+00:00:33,320 --> 00:00:35,560
+ between a physical persistent volume
+
+11
+00:00:35,560 --> 00:00:39,840
+ and a persistent volume claim is where they live
+
+12
+00:00:39,840 --> 00:00:40,960
+ and where they're managed.
+
+13
+00:00:40,960 --> 00:00:45,560
+ The persistent volume is a cluster level resource.
+
+14
+00:00:47,080 --> 00:00:50,240
+ And therefore, you have to be able to do cluster things.
+
+15
+00:00:50,240 --> 00:00:52,160
+ You have to have admin rights and all that kind of thing.
+
+16
+00:00:52,160 --> 00:00:55,280
+ Which is why most of the storage class providers
+
+17
+00:00:55,280 --> 00:00:57,800
+ dynamically create them.
+
+18
+00:00:57,800 --> 00:01:00,800
+ Because otherwise, the person creating the PVC,
+
+19
+00:01:00,800 --> 00:01:03,560
+ which lives in the namespace,
+
+20
+00:01:03,560 --> 00:01:05,520
+ it's in the user namespace area.
+
+21
+00:01:05,520 --> 00:01:08,920
+ So this is where you're always seeing PVCs get created
+
+22
+00:01:08,920 --> 00:01:10,280
+ by people that are making applications
+
+23
+00:01:10,280 --> 00:01:11,320
+ and deploying them and things.
+
+24
+00:01:11,320 --> 00:01:14,920
+ It's a totally different permission scope, right?
+
+25
+00:01:14,920 --> 00:01:16,920
+ So the reason these storage classes are set up
+
+26
+00:01:16,920 --> 00:01:19,160
+ to automatically create a persistent volume
+
+27
+00:01:19,160 --> 00:01:22,040
+ is because if not, they'd have to trouble the admins
+
+28
+00:01:22,040 --> 00:01:24,880
+ or whoever and have them go create a persistent volume
+
+29
+00:01:24,880 --> 00:01:25,920
+ for everyone.
+
+30
+00:01:25,920 --> 00:01:28,880
+ Therefore, what you end up getting is you're getting,
+
+31
+00:01:28,880 --> 00:01:30,880
+ you end up in most clusters on-prem
+
+32
+00:01:30,880 --> 00:01:32,420
+ and elsewhere in the cloud or stuff,
+
+33
+00:01:32,420 --> 00:01:37,520
+ you end up getting a storage class default,
+
+34
+00:01:37,520 --> 00:01:41,480
+ which is very, you know, painless.
+
+35
+00:01:41,480 --> 00:01:43,640
+ And what that says is, okay,
+
+36
+00:01:43,640 --> 00:01:46,280
+ your storage is not gonna survive
+
+37
+00:01:46,280 --> 00:01:48,680
+ undeplying your namespace or taking it down,
+
+38
+00:01:48,680 --> 00:01:50,240
+ deleting your namespace.
+
+39
+00:01:50,240 --> 00:01:52,640
+ And that means that your storage is a femoral,
+
+40
+00:01:52,640 --> 00:01:53,880
+ just like your containers.
+
+41
+00:01:54,840 --> 00:01:57,640
+ I really, really, really want to hit on this point.
+
+42
+00:01:57,640 --> 00:01:59,640
+ This is probably the most important thing
+
+43
+00:01:59,640 --> 00:02:01,840
+ an old guy like me had to really bang
+
+44
+00:02:01,840 --> 00:02:03,180
+ into his head to understand.
+
+45
+00:02:04,840 --> 00:02:09,200
+ Storage is a femoral in Kubernetes by default.
+
+46
+00:02:09,200 --> 00:02:11,800
+ That means it doesn't hang around.
+
+47
+00:02:11,800 --> 00:02:15,800
+ Your store most Kubernetes systems are set up
+
+48
+00:02:15,800 --> 00:02:19,000
+ so that everything is slash temp
+
+49
+00:02:20,680 --> 00:02:22,780
+ to use a reference from the old days.
+
+50
+00:02:23,760 --> 00:02:25,440
+ I know somebody's gonna yell at me
+
+51
+00:02:25,440 --> 00:02:27,720
+ 'cause they're gonna be pedantic about it.
+
+52
+00:02:27,720 --> 00:02:28,560
+ Because why?
+
+53
+00:02:28,560 --> 00:02:29,360
+ Because it's just easy.
+
+54
+00:02:29,360 --> 00:02:31,080
+ Because if they didn't do that,
+
+55
+00:02:31,080 --> 00:02:33,120
+ you'd have to go through all the management
+
+56
+00:02:33,120 --> 00:02:37,240
+ of creating a persistent volume
+
+57
+00:02:37,240 --> 00:02:39,640
+ for everybody who ever wanted to use a disk
+
+58
+00:02:40,800 --> 00:02:42,100
+ in a Kubernetes cluster.
+
+59
+00:02:42,100 --> 00:02:43,240
+ And then the whole point of it
+
+60
+00:02:43,240 --> 00:02:44,680
+ being able to be used would be hard.
+
+61
+00:02:44,680 --> 00:02:45,600
+ Why does this matter?
+
+62
+00:02:45,600 --> 00:02:49,720
+ Because watch what happens when I undeply the PVC.
+
+63
+00:02:49,720 --> 00:02:51,840
+ And let me give you a very specific,
+
+64
+00:02:51,840 --> 00:02:54,000
+ very, very specific case here.
+
+65
+00:02:54,000 --> 00:02:57,840
+ So I found this because I was testing
+
+66
+00:02:57,840 --> 00:03:00,120
+ backing up the database.
+
+67
+00:03:00,120 --> 00:03:02,760
+ So here you see this physical volume
+
+68
+00:03:02,760 --> 00:03:04,360
+ has got PG dumps, all these PG dumps.
+
+69
+00:03:04,360 --> 00:03:05,280
+ It turned it up to one minute
+
+70
+00:03:05,280 --> 00:03:07,280
+ so I could see them all happening.
+
+71
+00:03:07,280 --> 00:03:09,840
+ And so these are my database backups.
+
+72
+00:03:09,840 --> 00:03:11,000
+ This is rather important
+
+73
+00:03:11,000 --> 00:03:12,960
+ that I have database backups around.
+
+74
+00:03:12,960 --> 00:03:14,480
+ And what I'm about to show you
+
+75
+00:03:14,480 --> 00:03:18,040
+ is that all these backups are gonna be deleted automatically.
+
+76
+00:03:18,040 --> 00:03:20,220
+ And this is very scary.
+
+77
+00:03:20,220 --> 00:03:21,920
+ (upbeat music)
+
+78
+00:03:21,920 --> 00:03:24,800
+ So this is very, very scary
+
+79
+00:03:24,800 --> 00:03:27,520
+ because the whole point of the backup
+
+80
+00:03:27,520 --> 00:03:30,640
+ is to be able to come back and get it again, right?
+
+81
+00:03:30,640 --> 00:03:34,720
+ Well, here is, right now I'm on another,
+
+82
+00:03:34,720 --> 00:03:36,280
+ so this is the harbor.
+
+83
+00:03:36,280 --> 00:03:39,960
+ This is, I told you I have two storage classes, right?
+
+84
+00:03:39,960 --> 00:03:42,120
+ So I just switch storage classes.
+
+85
+00:03:42,120 --> 00:03:43,920
+ I switched to use the new one.
+
+86
+00:03:43,920 --> 00:03:45,600
+ I explicitly am using the new one
+
+87
+00:03:45,600 --> 00:03:47,920
+ which has a policy of retain
+
+88
+00:03:47,920 --> 00:03:49,720
+ because I'm testing what happens
+
+89
+00:03:49,720 --> 00:03:52,040
+ when you delete a physical volume
+
+90
+00:03:52,040 --> 00:03:54,800
+ and when you delete a PVC or you, you know,
+
+91
+00:03:54,800 --> 00:03:56,280
+ indirectly by, you know,
+
+92
+00:03:56,280 --> 00:03:59,880
+ undiplying your entire namespace in this case, harbor.
+
+93
+00:03:59,880 --> 00:04:01,520
+ So, so let's go.
+
+94
+00:04:01,520 --> 00:04:02,760
+ You might have to pause this video
+
+95
+00:04:02,760 --> 00:04:03,640
+ and watch it several times
+
+96
+00:04:03,640 --> 00:04:05,360
+ because it's very complicated.
+
+97
+00:04:05,360 --> 00:04:06,840
+ So there, here's all my,
+
+98
+00:04:06,840 --> 00:04:09,400
+ this is a working harbor instance.
+
+99
+00:04:09,400 --> 00:04:11,220
+ It's absolutely beautiful.
+
+100
+00:04:11,220 --> 00:04:12,600
+ It totally works.
+
+101
+00:04:12,600 --> 00:04:14,640
+ It's running its backups.
+
+102
+00:04:14,640 --> 00:04:15,920
+ The zero doesn't mean not ready, by the way.
+
+103
+00:04:15,920 --> 00:04:17,320
+ That means it's a job or a crown job.
+
+104
+00:04:17,320 --> 00:04:19,240
+ This is actually a big annoyance of mine.
+
+105
+00:04:19,240 --> 00:04:20,760
+ That this is running,
+
+106
+00:04:20,760 --> 00:04:22,080
+ but it doesn't, technically it's not running
+
+107
+00:04:22,080 --> 00:04:22,920
+ because it was a crown job.
+
+108
+00:04:22,920 --> 00:04:24,400
+ Therefore it doesn't ever get a one here,
+
+109
+00:04:24,400 --> 00:04:25,760
+ which means it looks like it's broken already,
+
+110
+00:04:25,760 --> 00:04:27,520
+ but even though it's not, it's absolutely not.
+
+111
+00:04:27,520 --> 00:04:29,160
+ It's totally clean and healthy.
+
+112
+00:04:29,160 --> 00:04:30,760
+ It always was, even though it wasn't wearing me.
+
+113
+00:04:30,760 --> 00:04:32,760
+ So, harbor post-resis of mine we were looking at
+
+114
+00:04:32,760 --> 00:04:34,840
+ and the dump, these dump jobs are the things
+
+115
+00:04:34,840 --> 00:04:37,640
+ that are creating those dump files in the PVC, right?
+
+116
+00:04:37,640 --> 00:04:42,160
+ So this, this is a working running Bitnami harbor chart
+
+117
+00:04:42,160 --> 00:04:44,060
+ that has been the install.
+
+118
+00:04:44,060 --> 00:04:46,280
+ Then you can go look at my, my, my,
+
+119
+00:04:46,280 --> 00:04:51,280
+ Art of X-Rob slash K8S app dash.
+
+120
+00:04:51,440 --> 00:04:53,920
+ Harbor, if you want to see how I'm doing this,
+
+121
+00:04:53,920 --> 00:04:56,920
+ because I want to have Harbor in my own environment at home
+
+122
+00:04:56,920 --> 00:04:59,160
+ and I'm also testing a deployment at work.
+
+123
+00:04:59,160 --> 00:05:02,240
+ So, so this all looks well and good, right?
+
+124
+00:05:02,240 --> 00:05:05,120
+ Everything is running, the PVs are being created,
+
+125
+00:05:05,120 --> 00:05:07,440
+ the files are being created in the physical volume
+
+126
+00:05:07,440 --> 00:05:08,560
+ by themselves.
+
+127
+00:05:08,560 --> 00:05:10,760
+ But let me, let's look, take a look at the PVCs.
+
+128
+00:05:10,760 --> 00:05:15,080
+ Get PVC, whoops, okay, get PVC.
+
+129
+00:05:17,200 --> 00:05:21,560
+ And here you can see you've got all the PVCs, right?
+
+130
+00:05:21,560 --> 00:05:22,760
+ And you can see that they're,
+
+131
+00:05:22,760 --> 00:05:25,320
+ they're using the DC NAS storage glass.
+
+132
+00:05:25,320 --> 00:05:27,160
+ And here's the actual volume.
+
+133
+00:05:27,160 --> 00:05:29,880
+ So this is, even though it's got PVC in the name,
+
+134
+00:05:29,880 --> 00:05:32,880
+ that's because that persistent volume was created
+
+135
+00:05:32,880 --> 00:05:35,800
+ for this and only this PVC.
+
+136
+00:05:35,800 --> 00:05:37,920
+ That's what the RWA means.
+
+137
+00:05:37,920 --> 00:05:42,200
+ The RWA means that nobody gets access
+
+138
+00:05:42,200 --> 00:05:47,200
+ to this storage except for this,
+
+139
+00:05:47,920 --> 00:05:51,040
+ anything that's binding to this, right?
+
+140
+00:05:51,040 --> 00:05:52,560
+ To this, to this PVC.
+
+141
+00:05:52,560 --> 00:05:54,320
+ This is very, very, you know, exclusive.
+
+142
+00:05:54,320 --> 00:05:55,640
+ There's not a lot of things going on there.
+
+143
+00:05:55,640 --> 00:05:58,680
+ That means this physical, this persistent volume
+
+144
+00:05:58,680 --> 00:06:03,600
+ is only visible, I mean, only accessible to this, that's all.
+
+145
+00:06:03,600 --> 00:06:05,840
+ Now, there is a level of complication
+
+146
+00:06:05,840 --> 00:06:09,520
+ where you could actually share a physical volume
+
+147
+00:06:09,520 --> 00:06:11,560
+ across multiple PVCs.
+
+148
+00:06:11,560 --> 00:06:14,480
+ And I haven't played around with that option
+
+149
+00:06:14,480 --> 00:06:16,880
+ because that does require an entirely different source glass.
+
+150
+00:06:16,880 --> 00:06:18,400
+ But the reason we're looking at this
+
+151
+00:06:18,400 --> 00:06:21,120
+ is I want you to see that,
+
+152
+00:06:21,120 --> 00:06:23,080
+ I mean, some of this stuff can go away, right?
+
+153
+00:06:23,080 --> 00:06:25,600
+ Like we need a temporary disk space to like
+
+154
+00:06:25,600 --> 00:06:27,680
+ have the database, to have the server run
+
+155
+00:06:27,680 --> 00:06:29,400
+ and put our configuration files in there
+
+156
+00:06:29,400 --> 00:06:31,840
+ and maybe write some caching and stuff like that.
+
+157
+00:06:31,840 --> 00:06:36,840
+ So most of the time, you know, obliterating the storage
+
+158
+00:06:36,840 --> 00:06:40,280
+ for a running deployment, a running pod is fine.
+
+159
+00:06:40,280 --> 00:06:41,400
+ Most of the time that's fine.
+
+160
+00:06:41,400 --> 00:06:43,840
+ And that's why Kubernetes defaults to this.
+
+161
+00:06:43,840 --> 00:06:45,520
+ But sometimes it's not.
+
+162
+00:06:45,520 --> 00:06:47,920
+ And I want you to see how it's not.
+
+163
+00:06:47,920 --> 00:06:50,640
+ So, I mean, it goes without saying
+
+164
+00:06:50,640 --> 00:06:55,640
+ that these databases backups are important, right?
+
+165
+00:06:56,880 --> 00:06:58,560
+ I mean, that's the whole reason I did this.
+
+166
+00:06:58,560 --> 00:07:00,360
+ The whole point is to keep these databases here.
+
+167
+00:07:00,360 --> 00:07:02,840
+ And I'm gonna, I'm about to conclude here and show you.
+
+168
+00:07:02,840 --> 00:07:06,120
+ Unless you have copied these specific files
+
+169
+00:07:06,120 --> 00:07:09,040
+ out of this directory and onto another
+
+170
+00:07:09,040 --> 00:07:13,160
+ stateful system of some kind, they are going to get blown away
+
+171
+00:07:13,160 --> 00:07:15,600
+ when you try to just reconfigure
+
+172
+00:07:15,600 --> 00:07:17,560
+ or change your namespace or undiploid.
+
+173
+00:07:17,560 --> 00:07:20,840
+ So I have an, here's my deploy script.
+
+174
+00:07:20,840 --> 00:07:23,520
+ My deploy script just, you know, just after we flatten it
+
+175
+00:07:23,520 --> 00:07:26,880
+ and template out, we just do apply, you can look at all that.
+
+176
+00:07:26,880 --> 00:07:29,480
+ And that's the thing that builds up the new application.
+
+177
+00:07:29,480 --> 00:07:30,600
+ And then we have this undiploid.
+
+178
+00:07:30,600 --> 00:07:33,120
+ This is pretty common across all our applications.
+
+179
+00:07:33,120 --> 00:07:34,480
+ And then we have this undiploid, right?
+
+180
+00:07:34,480 --> 00:07:36,680
+ Okay, I'm just gonna delete all those manifests,
+
+181
+00:07:36,680 --> 00:07:39,200
+ which include the namespace, right?
+
+182
+00:07:39,200 --> 00:07:43,320
+ One of the manifests that is written here
+
+183
+00:07:44,600 --> 00:07:47,460
+ is the namespace itself.
+
+184
+00:07:48,560 --> 00:07:52,640
+ And so if you delete the names,
+
+185
+00:07:52,640 --> 00:07:55,760
+ it's very, very common to delete a namespace.
+
+186
+00:07:55,760 --> 00:07:57,920
+ I actually just realized there might be something
+
+187
+00:07:57,920 --> 00:07:59,960
+ I could do differently here rather than delete the namespace.
+
+188
+00:07:59,960 --> 00:08:01,440
+ I could delete all the pieces of it,
+
+189
+00:08:01,440 --> 00:08:03,400
+ but not, but leave the namespace around.
+
+190
+00:08:03,400 --> 00:08:05,080
+ Let me say, show you why.
+
+191
+00:08:05,080 --> 00:08:07,040
+ Because, but that's very uncommon.
+
+192
+00:08:07,040 --> 00:08:09,800
+ The common thing is to just delete the entire namespace
+
+193
+00:08:09,800 --> 00:08:11,840
+ because the namespace is supposed to be sort of
+
+194
+00:08:11,840 --> 00:08:14,680
+ the whole grouped together application, right?
+
+195
+00:08:14,680 --> 00:08:15,800
+ And that's what it's doing.
+
+196
+00:08:15,800 --> 00:08:18,880
+ So, then I do undiploid here.
+
+197
+00:08:18,880 --> 00:08:20,840
+ And it's gonna take a little while,
+
+198
+00:08:20,840 --> 00:08:22,560
+ it's gonna delete all these things.
+
+199
+00:08:26,000 --> 00:08:28,600
+ But watch what happens over here.
+
+200
+00:08:28,600 --> 00:08:31,300
+ So now we do the tree.
+
+201
+00:08:32,320 --> 00:08:36,040
+ And you'll see over time, actually this is,
+
+202
+00:08:36,040 --> 00:08:38,960
+ they just have this on a watch here.
+
+203
+00:08:38,960 --> 00:08:43,000
+ So you can see that they're all gone.
+
+204
+00:08:43,000 --> 00:08:45,320
+ They're all going away.
+
+205
+00:08:45,320 --> 00:08:46,960
+ And now they're all dead.
+
+206
+00:08:46,960 --> 00:08:51,960
+ So every single one of those temporary PVCs,
+
+207
+00:08:52,040 --> 00:08:53,680
+ those temporary persistent volumes,
+
+208
+00:08:53,680 --> 00:08:55,000
+ which if you think about it,
+
+209
+00:08:55,000 --> 00:08:57,920
+ it's kind of ass backwards really, right?
+
+210
+00:08:57,920 --> 00:09:00,360
+ I mean, why call it a persistent volume?
+
+211
+00:09:00,360 --> 00:09:02,320
+ If it's not, but if it only persists as long
+
+212
+00:09:02,320 --> 00:09:04,160
+ as the application is around,
+
+213
+00:09:04,160 --> 00:09:08,040
+ that doesn't sound very persistent to me at all, right?
+
+214
+00:09:08,040 --> 00:09:10,520
+ So that's a pretty bad thing.
+
+215
+00:09:11,560 --> 00:09:13,560
+ I just lost all my backups.
+
+216
+00:09:13,560 --> 00:09:17,520
+ So you better hope you have a copy of them, right?
+
+217
+00:09:17,520 --> 00:09:19,200
+ It gets worse though.
+
+218
+00:09:19,200 --> 00:09:20,680
+ In our prediction environment,
+
+219
+00:09:20,680 --> 00:09:24,360
+ we have a 15 terabytes of container registry storage
+
+220
+00:09:24,360 --> 00:09:27,520
+ where all the containers that are submitted in images
+
+221
+00:09:27,520 --> 00:09:30,920
+ are submitted to harbor are stored on disk.
+
+222
+00:09:31,760 --> 00:09:35,040
+ Now, if I had deployed this,
+
+223
+00:09:35,040 --> 00:09:38,440
+ I would have just lost all 15 terabytes of that data.
+
+224
+00:09:38,440 --> 00:09:40,720
+ And you can't really back that up easily, right?
+
+225
+00:09:40,720 --> 00:09:42,920
+ So what is the solution here?
+
+226
+00:09:42,920 --> 00:09:45,080
+ This is what we're testing.
+
+227
+00:09:45,080 --> 00:09:47,640
+ And I'm going to show you at least my initial attempt.
+
+228
+00:09:47,640 --> 00:09:48,720
+ And I'll probably end the video here
+
+229
+00:09:48,720 --> 00:09:51,040
+ so I can do some more work on this.
+
+230
+00:09:51,040 --> 00:09:53,560
+ But the main crux of this video, it just happened.
+
+231
+00:09:53,560 --> 00:09:56,600
+ When I unduploid the resource, the namespace,
+
+232
+00:09:56,600 --> 00:09:57,880
+ when I undelided the namespace
+
+233
+00:09:57,880 --> 00:09:58,720
+ and everything that went with it,
+
+234
+00:09:58,720 --> 00:10:00,200
+ including PVC, because why?
+
+235
+00:10:00,200 --> 00:10:04,040
+ Because PVC is a namespace resource.
+
+236
+00:10:04,040 --> 00:10:08,640
+ PV is not, PV is cluster level.
+
+237
+00:10:08,640 --> 00:10:12,080
+ PVC is namespace level.
+
+238
+00:10:12,080 --> 00:10:14,320
+ Those two are different.
+
+239
+00:10:14,320 --> 00:10:15,960
+ And they might seem like they're the same
+
+240
+00:10:15,960 --> 00:10:18,240
+ because usually the PV's being dynamically allocated
+
+241
+00:10:18,240 --> 00:10:19,800
+ like I just showed you.
+
+242
+00:10:19,800 --> 00:10:21,280
+ But that's not always the case.
+
+243
+00:10:21,280 --> 00:10:24,440
+ You can specifically create a storage class
+
+244
+00:10:24,440 --> 00:10:29,040
+ and assign to that, or you can specifically create a PV
+
+245
+00:10:29,040 --> 00:10:32,200
+ and changes parameters in a storage,
+
+246
+00:10:32,200 --> 00:10:34,280
+ even in the same old storage class.
+
+247
+00:10:34,280 --> 00:10:36,000
+ So right now I'm experimenting with that, right?
+
+248
+00:10:36,000 --> 00:10:37,160
+ Like, and I don't know.
+
+249
+00:10:37,160 --> 00:10:39,240
+ I don't know what's going to happen here.
+
+250
+00:10:39,240 --> 00:10:42,800
+ So let's go ahead and deploy using,
+
+251
+00:10:43,800 --> 00:10:47,320
+ we're going to deploy the manifest I just built.
+
+252
+00:10:48,440 --> 00:10:51,040
+ And we're going to take a peek and see what happens.
+
+253
+00:10:51,040 --> 00:10:54,600
+ So this is going to start spinning up.
+
+254
+00:10:54,600 --> 00:10:55,440
+ Wait, where are we?
+
+255
+00:10:55,440 --> 00:10:56,760
+ We're on Harbor?
+
+256
+00:10:56,760 --> 00:11:00,360
+ We need to go back to, we want to go back.
+
+257
+00:11:00,360 --> 00:11:01,360
+ Where's NFS Harbor?
+
+258
+00:11:01,360 --> 00:11:02,200
+ Here we go.
+
+259
+00:11:02,200 --> 00:11:05,200
+ Okay, so here we are watching the same directory
+
+260
+00:11:05,200 --> 00:11:10,200
+ on Harbor now and NFS Harbor, right?
+
+261
+00:11:10,840 --> 00:11:12,240
+ So we can close this one.
+
+262
+00:11:12,240 --> 00:11:14,640
+ Wait, okay, this is interesting.
+
+263
+00:11:14,640 --> 00:11:18,920
+ So we still have some PV's popping up on NFA's case,
+
+264
+00:11:18,920 --> 00:11:21,680
+ but we also have stuff popping up on Harbor
+
+265
+00:11:21,680 --> 00:11:23,800
+ on a different storage class.
+
+266
+00:11:23,800 --> 00:11:25,120
+ So we have stuff in two places.
+
+267
+00:11:25,120 --> 00:11:28,920
+ I have two NFS, two NFS exports, two NFS mounts,
+
+268
+00:11:28,920 --> 00:11:31,400
+ that are simulating two different storage classes.
+
+269
+00:11:31,400 --> 00:11:33,560
+ And you can see it up here.
+
+270
+00:11:34,480 --> 00:11:35,720
+ You can see that this is the case one.
+
+271
+00:11:35,720 --> 00:11:38,480
+ This is the dynamically allocated storage of PVC.
+
+272
+00:11:38,480 --> 00:11:42,320
+ And you can see that the backups are not on this one, right?
+
+273
+00:11:42,320 --> 00:11:44,080
+ I mean, you can't really tell that right here,
+
+274
+00:11:44,080 --> 00:11:46,920
+ but you will be able to, it'll start writing it, right?
+
+275
+00:11:46,920 --> 00:11:51,920
+ So actually, let's go in and change that.
+
+276
+00:11:52,000 --> 00:11:57,000
+ So we're gonna change, okay, edit, oh gosh, let's see.
+
+277
+00:12:00,200 --> 00:12:05,200
+ Let's edit the job, is it a job?
+
+278
+00:12:06,520 --> 00:12:08,640
+ I can't remember what it is.
+
+279
+00:12:08,640 --> 00:12:09,880
+ I think it's a cron job, yeah.
+
+280
+00:12:09,880 --> 00:12:13,160
+ Cron job, cron job batch, Harbor close, okay.
+
+281
+00:12:13,160 --> 00:12:18,160
+ Let's go change this from hourly to minute two, three, four, five.
+
+282
+00:12:20,200 --> 00:12:22,720
+ All right, so that's been changed.
+
+283
+00:12:22,720 --> 00:12:23,840
+ Okay, get pods.
+
+284
+00:12:23,840 --> 00:12:26,680
+ So there you see, the pods are almost all up.
+
+285
+00:12:26,680 --> 00:12:29,580
+ Job services are the last one to come up in these core.
+
+286
+00:12:29,580 --> 00:12:34,580
+ And we'll start to see the backup kickoff,
+
+287
+00:12:36,080 --> 00:12:38,560
+ probably at the top of the hour here.
+
+288
+00:12:38,560 --> 00:12:40,200
+ So let's actually do this.
+
+289
+00:12:40,200 --> 00:12:44,480
+ Let's do Washington to get pods.
+
+290
+00:12:44,480 --> 00:12:46,800
+ It's my favorite, there's other ways to do this.
+
+291
+00:12:48,400 --> 00:12:52,040
+ And we're just gonna watch this until a backup shows up.
+
+292
+00:12:52,040 --> 00:12:53,600
+ So here's the case app.
+
+293
+00:12:53,600 --> 00:12:55,720
+ This stuff is largely not gonna change.
+
+294
+00:12:55,720 --> 00:12:58,040
+ This is, you know, configuration files
+
+295
+00:12:58,040 --> 00:13:01,320
+ and actually the trivia stuff.
+
+296
+00:13:02,520 --> 00:13:05,520
+ I think this one down at the bottom here
+
+297
+00:13:05,520 --> 00:13:09,640
+ is where the registry is gonna go
+
+298
+00:13:09,640 --> 00:13:11,200
+ and frankly in my testing,
+
+299
+00:13:11,200 --> 00:13:14,720
+ I should probably create an automatic image creation
+
+300
+00:13:14,720 --> 00:13:16,480
+ into Harbor as a part.
+
+301
+00:13:16,480 --> 00:13:18,840
+ There's a whole, you know, system integration test suite
+
+302
+00:13:18,840 --> 00:13:20,240
+ that I'm starting to work on as well,
+
+303
+00:13:20,240 --> 00:13:22,640
+ a bunch of scripts to actually see
+
+304
+00:13:22,640 --> 00:13:24,280
+ how this stuff is all working.
+
+305
+00:13:24,280 --> 00:13:27,440
+ And I'll be making videos about that later, but, okay.
+
+306
+00:13:27,440 --> 00:13:29,080
+ So we have our backup execute off.
+
+307
+00:13:29,080 --> 00:13:31,560
+ So nothing changed in the NFS case,
+
+308
+00:13:31,560 --> 00:13:35,680
+ but we pointed the backups at the other storage class.
+
+309
+00:13:35,680 --> 00:13:36,900
+ So let's look at that.
+
+310
+00:13:38,280 --> 00:13:40,280
+ That is where is it?
+
+311
+00:13:40,280 --> 00:13:41,280
+ Is this it? No.
+
+312
+00:13:42,880 --> 00:13:43,720
+ Oh, here it is.
+
+313
+00:13:43,720 --> 00:13:45,120
+ Okay, so, so there we go.
+
+314
+00:13:45,120 --> 00:13:46,360
+ There's our dump, right?
+
+315
+00:13:46,360 --> 00:13:48,640
+ So we got our PG dump.
+
+316
+00:13:48,640 --> 00:13:50,480
+ It's now storing it in, you know,
+
+317
+00:13:50,480 --> 00:13:52,920
+ a completely different mount point.
+
+318
+00:13:52,920 --> 00:13:55,600
+ In this case, it's a different machine even,
+
+319
+00:13:55,600 --> 00:13:59,280
+ that a virtual machine that has exported NFS Harbor now.
+
+320
+00:13:59,280 --> 00:14:02,200
+ This is where things are gonna get interesting.
+
+321
+00:14:02,200 --> 00:14:06,720
+ Now what happens when there's two, we get one every minute.
+
+322
+00:14:06,720 --> 00:14:11,720
+ So now, incidentally, we have it set to only show three.
+
+323
+00:14:12,880 --> 00:14:15,240
+ We have an on-fail and success.
+
+324
+00:14:15,240 --> 00:14:17,320
+ You know, they'll only keep three around thing.
+
+325
+00:14:17,320 --> 00:14:19,200
+ If you don't know what I mean.
+
+326
+00:14:19,200 --> 00:14:20,440
+ Okay, so there's our storage volume.
+
+327
+00:14:20,440 --> 00:14:22,640
+ Yeah, we can go ahead and close this one.
+
+328
+00:14:23,600 --> 00:14:24,640
+ What else we got?
+
+329
+00:14:24,640 --> 00:14:26,520
+ So, okay, here's our pods.
+
+330
+00:14:26,520 --> 00:14:29,160
+ So there will only ever be three of these things
+
+331
+00:14:29,160 --> 00:14:32,840
+ that say completed because of a setting
+
+332
+00:14:32,840 --> 00:14:33,640
+ I can't remember right now.
+
+333
+00:14:33,640 --> 00:14:35,920
+ It's something on success and failure.
+
+334
+00:14:35,920 --> 00:14:38,720
+ That's just to show you the last jobs that ran
+
+335
+00:14:38,720 --> 00:14:40,360
+ so you can go in there and check on them
+
+336
+00:14:40,360 --> 00:14:42,320
+ and see what they're doing.
+
+337
+00:14:42,320 --> 00:14:43,800
+ It doesn't save jobs.
+
+338
+00:14:43,800 --> 00:14:46,640
+ The pods that are created for jobs are not retained.
+
+339
+00:14:48,080 --> 00:14:50,280
+ And make sure you set that by the way,
+
+340
+00:14:50,280 --> 00:14:51,440
+ 'cause if you don't set that,
+
+341
+00:14:51,440 --> 00:14:54,440
+ you will blast out your container engine
+
+342
+00:14:54,440 --> 00:14:59,000
+ with a bunch of defunct job pods.
+
+343
+00:14:59,000 --> 00:15:03,240
+ Anyway, so, you know, it's been running for a while
+
+344
+00:15:03,240 --> 00:15:05,940
+ and we've got our stuff here.
+
+345
+00:15:06,840 --> 00:15:07,680
+ There's our dumps.
+
+346
+00:15:07,680 --> 00:15:08,760
+ We got several dumps in here.
+
+347
+00:15:08,760 --> 00:15:13,200
+ Okay, so since this storage class once again is,
+
+348
+00:15:13,200 --> 00:15:15,040
+ is a, wait, what?
+
+349
+00:15:16,400 --> 00:15:18,200
+ Oh, right.
+
+350
+00:15:18,200 --> 00:15:19,960
+ Bad mag, that's a different thing.
+
+351
+00:15:21,040 --> 00:15:22,160
+ I kind of got stuff all over.
+
+352
+00:15:22,160 --> 00:15:24,280
+ I should probably label it better.
+
+353
+00:15:24,280 --> 00:15:25,120
+ What is this?
+
+354
+00:15:25,120 --> 00:15:26,160
+ Is this Kate's?
+
+355
+00:15:26,160 --> 00:15:28,520
+ Yeah, let's label this better.
+
+356
+00:15:28,520 --> 00:15:29,720
+ Let's label this.
+
+357
+00:15:31,520 --> 00:15:33,000
+ NFS, Kate's.
+
+358
+00:15:34,120 --> 00:15:36,800
+ So we can see, and then NFS Harbor.
+
+359
+00:15:36,800 --> 00:15:38,680
+ All right, so we have Zet, NFS Harbor,
+
+360
+00:15:38,680 --> 00:15:41,480
+ and then we have the actual harbor installer thing
+
+361
+00:15:41,480 --> 00:15:44,520
+ and the files, okay.
+
+362
+00:15:44,520 --> 00:15:46,280
+ So K get pods.
+
+363
+00:15:46,280 --> 00:15:47,480
+ I mean, you can see that.
+
+364
+00:15:47,480 --> 00:15:50,400
+ K get, by the way, here's the cluster itself.
+
+365
+00:15:51,600 --> 00:15:53,960
+ I mean, my Kubernetes cluster is just three control plans
+
+366
+00:15:53,960 --> 00:15:54,920
+ and three workers.
+
+367
+00:15:58,720 --> 00:16:01,040
+ All right, so K get SC.
+
+368
+00:16:02,520 --> 00:16:04,720
+ And so they're completed, they're removed
+
+369
+00:16:04,720 --> 00:16:05,840
+ from the container type, yep.
+
+370
+00:16:05,840 --> 00:16:07,640
+ They just keep around so you can describe them.
+
+371
+00:16:07,640 --> 00:16:08,480
+ Look at those.
+
+372
+00:16:13,120 --> 00:16:16,200
+ So they're kept in EdCD, but the container is taken out.
+
+373
+00:16:16,200 --> 00:16:17,480
+ Really, I did not know that.
+
+374
+00:16:17,480 --> 00:16:21,820
+ So LBG is just saying in the chat that the,
+
+375
+00:16:21,820 --> 00:16:24,680
+ that after a job or a crown job completes
+
+376
+00:16:24,680 --> 00:16:27,900
+ that the actual container is immediately gotten rid of,
+
+377
+00:16:27,900 --> 00:16:31,120
+ but it just keeps the information around about it in EdCD,
+
+378
+00:16:31,120 --> 00:16:33,360
+ which is the Kubernetes database.
+
+379
+00:16:33,360 --> 00:16:34,800
+ So you can go look at what happened and stuff.
+
+380
+00:16:34,800 --> 00:16:35,640
+ That's interesting.
+
+381
+00:16:35,640 --> 00:16:36,960
+ Okay, I did not know that.
+
+382
+00:16:38,000 --> 00:16:40,480
+ So again, here are the two storage classes we created.
+
+383
+00:16:40,480 --> 00:16:45,040
+ The only difference between them is the reclaim policy.
+
+384
+00:16:45,040 --> 00:16:50,040
+ And we're about to test what happens when I unduploy
+
+385
+00:16:51,040 --> 00:16:51,880
+ all that stuff.
+
+386
+00:16:51,880 --> 00:16:54,680
+ You saw how that deleted the physical volume,
+
+387
+00:16:54,680 --> 00:16:58,440
+ the persistent volumes when I did it with a retain,
+
+388
+00:16:58,440 --> 00:17:00,520
+ with a reclaim policy of delete.
+
+389
+00:17:00,520 --> 00:17:02,960
+ But I don't know what's going to happen.
+
+390
+00:17:02,960 --> 00:17:03,800
+ Honestly, I don't know.
+
+391
+00:17:03,800 --> 00:17:05,100
+ So let's try it out.
+
+392
+00:17:06,480 --> 00:17:08,140
+ So we're going to unduploy again.
+
+393
+00:17:08,140 --> 00:17:10,640
+ This is just deleting the whole thing.
+
+394
+00:17:10,640 --> 00:17:14,160
+ And we can kind of watch it in real time,
+
+395
+00:17:15,560 --> 00:17:17,760
+ because watch this in real time.
+
+396
+00:17:17,760 --> 00:17:22,240
+ So I'm suspecting this class is going to stay up.
+
+397
+00:17:22,240 --> 00:17:24,240
+ And this one is going to go away.
+
+398
+00:17:24,240 --> 00:17:27,160
+ So this one we watch is being deleted.
+
+399
+00:17:27,160 --> 00:17:29,800
+ And then this one is being retained,
+
+400
+00:17:29,800 --> 00:17:31,680
+ which is what we would expect, right?
+
+401
+00:17:33,280 --> 00:17:35,000
+ And PVC.yaml before you delete it.
+
+402
+00:17:37,920 --> 00:17:39,440
+ PVC.yaml before you delete it.
+
+403
+00:17:39,440 --> 00:17:40,480
+ Dump to PVC.
+
+404
+00:17:41,440 --> 00:17:42,880
+ We don't need to dump the PVC.
+
+405
+00:17:42,880 --> 00:17:43,720
+ I don't need to do that.
+
+406
+00:17:43,720 --> 00:17:46,640
+ I have the manifest board already.
+
+407
+00:17:46,640 --> 00:17:49,000
+ So there we go.
+
+408
+00:17:50,680 --> 00:17:55,680
+ So you can see that by changing the storage class policy
+
+409
+00:17:59,480 --> 00:18:04,480
+ to retain, I got to show you that again, myself again,
+
+410
+00:18:04,800 --> 00:18:08,160
+ by changing the retailing policy to retain
+
+411
+00:18:08,160 --> 00:18:12,600
+ on this storage class, and by explicitly telling
+
+412
+00:18:12,600 --> 00:18:15,760
+ the backups to use that storage class,
+
+413
+00:18:15,760 --> 00:18:19,320
+ you'll notice the other stuff in this particular application
+
+414
+00:18:19,320 --> 00:18:20,200
+ did not, right?
+
+415
+00:18:20,200 --> 00:18:25,200
+ It used the default temporary ephemeral sort of storage.
+
+416
+00:18:26,400 --> 00:18:28,600
+ But by changing, so there it is.
+
+417
+00:18:28,600 --> 00:18:32,480
+ But by changing it to use this other one,
+
+418
+00:18:32,480 --> 00:18:34,840
+ these database backups were saved.
+
+419
+00:18:37,440 --> 00:18:39,440
+ You don't have the additional permanent case added
+
+420
+00:18:39,440 --> 00:18:40,400
+ to bind it to the PV.
+
+421
+00:18:40,400 --> 00:18:41,240
+ Right.
+
+422
+00:18:41,240 --> 00:18:45,880
+ So, and that's kind of the next part of this.
+
+423
+00:18:45,880 --> 00:18:48,040
+ So the next part is, well, okay,
+
+424
+00:18:48,040 --> 00:18:49,600
+ we got our database backups.
+
+425
+00:18:49,600 --> 00:18:51,140
+ They didn't get taken out.
+
+426
+00:18:52,520 --> 00:18:54,920
+ But then the question remains,
+
+427
+00:18:54,920 --> 00:18:57,160
+ well, what do we do with these backups?
+
+428
+00:18:57,160 --> 00:18:59,000
+ Okay, the backups are still there.
+
+429
+00:18:59,000 --> 00:19:01,920
+ The volumes haven't been deleted.
+
+430
+00:19:01,920 --> 00:19:03,560
+ They're not going anywhere,
+
+431
+00:19:03,560 --> 00:19:05,000
+ but now they're really not going anywhere
+
+432
+00:19:05,000 --> 00:19:08,320
+ unless you explicitly get rid of them, right?
+
+433
+00:19:08,320 --> 00:19:12,000
+ And so actually, one of the things that I want to look at now
+
+434
+00:19:12,000 --> 00:19:15,200
+ is this, and this is, LBG is kind of hinting at this.
+
+435
+00:19:15,200 --> 00:19:17,240
+ So if you do,
+
+436
+00:19:19,200 --> 00:19:24,200
+ if we're gonna do a Kget PV, not PVC this time,
+
+437
+00:19:25,640 --> 00:19:30,120
+ and you'll see that there are still volumes
+
+438
+00:19:30,120 --> 00:19:35,120
+ that are in the harbor, well, they're in the,
+
+439
+00:19:36,920 --> 00:19:38,640
+ they're on the harbor storage class,
+
+440
+00:19:38,640 --> 00:19:41,440
+ but somebody was saying, we should dump them
+
+441
+00:19:41,440 --> 00:19:44,080
+ before you delete the, before you unduploid,
+
+442
+00:19:44,080 --> 00:19:47,040
+ you should actually save out the name
+
+443
+00:19:47,040 --> 00:19:51,160
+ of the persistent volume so that you know
+
+444
+00:19:51,160 --> 00:19:54,560
+ which one went with your last running version of your database
+
+445
+00:19:54,560 --> 00:19:56,960
+ 'cause you lose all reference to that,
+
+446
+00:19:56,960 --> 00:19:58,440
+ but it's still there, right?
+
+447
+00:19:58,440 --> 00:19:59,600
+ So in this particular case,
+
+448
+00:19:59,600 --> 00:20:00,720
+ it's not hard for me to figure out,
+
+449
+00:20:00,720 --> 00:20:03,440
+ it's the only one left, right?
+
+450
+00:20:03,440 --> 00:20:05,520
+ And there could be an argument made
+
+451
+00:20:05,520 --> 00:20:08,680
+ that it's really not as important to know in this case
+
+452
+00:20:08,680 --> 00:20:12,200
+ because these are dated, right?
+
+453
+00:20:12,200 --> 00:20:15,360
+ So if you know the content of the PV,
+
+454
+00:20:15,360 --> 00:20:16,720
+ the, you know, you can go back,
+
+455
+00:20:16,720 --> 00:20:19,160
+ I mean, this is a very precise case
+
+456
+00:20:19,160 --> 00:20:22,480
+ because I just need a copy of the flat backup, that's it.
+
+457
+00:20:22,480 --> 00:20:24,800
+ I don't, I don't need, and frankly,
+
+458
+00:20:24,800 --> 00:20:26,480
+ I only need the last one, right?
+
+459
+00:20:26,480 --> 00:20:28,880
+ So I can keep these things running around
+
+460
+00:20:28,880 --> 00:20:32,680
+ and then I'll get one of these sort of crazily named.
+
+461
+00:20:32,680 --> 00:20:33,680
+ Now, why is it named that?
+
+462
+00:20:33,680 --> 00:20:36,280
+ Because it was still dynamically allocated.
+
+463
+00:20:36,280 --> 00:20:38,320
+ It was still dynamically allocated.
+
+464
+00:20:38,320 --> 00:20:41,040
+ That's why the name has got that weird identifier in it.
+
+465
+00:20:41,040 --> 00:20:42,440
+ So it's unique, it doesn't crunch, you know,
+
+466
+00:20:42,440 --> 00:20:45,440
+ crunch back up as and just, you know, disagree with something.
+
+467
+00:20:45,440 --> 00:20:48,240
+ And then you get all of this PG dump date in here.
+
+468
+00:20:48,240 --> 00:20:50,200
+ So potentially, you know,
+
+469
+00:20:50,200 --> 00:20:52,760
+ it would be nice to put in my undiply,
+
+470
+00:20:52,760 --> 00:20:56,880
+ oh, hey, don't forget that your dumps are over here still.
+
+471
+00:20:56,880 --> 00:20:58,440
+ You know what I mean?
+
+472
+00:20:58,440 --> 00:20:59,600
+ In this case, right?
+
+473
+00:20:59,600 --> 00:21:01,360
+ But in order to get this retained policy
+
+474
+00:21:01,360 --> 00:21:02,600
+ for this, we need to do this.
+
+475
+00:21:02,600 --> 00:21:06,840
+ So this has been a very short video to just,
+
+476
+00:21:06,840 --> 00:21:07,680
+ it's relatively long,
+
+477
+00:21:07,680 --> 00:21:11,000
+ but it's a short video to say one thing.
+
+478
+00:21:11,000 --> 00:21:14,200
+ The one, I just, all I want to show is one thing,
+
+479
+00:21:14,200 --> 00:21:18,360
+ that you can have exactly the same storage class
+
+480
+00:21:18,360 --> 00:21:22,760
+ and you can have one of them be the ReKline policy,
+
+481
+00:21:22,760 --> 00:21:24,520
+ delete a one of them retain.
+
+482
+00:21:24,520 --> 00:21:26,240
+ And if you set it to delete,
+
+483
+00:21:26,240 --> 00:21:30,880
+ the underlying data will never be deleted by Kubernetes.
+
+484
+00:21:31,840 --> 00:21:34,920
+ And for somebody who might want that,
+
+485
+00:21:37,240 --> 00:21:38,560
+ yeah, we need image storage backup.
+
+486
+00:21:38,560 --> 00:21:40,560
+ We talked about that at the beginning of the video.
+
+487
+00:21:40,560 --> 00:21:42,240
+ That's coming, that's also going to be added.
+
+488
+00:21:42,240 --> 00:21:45,480
+ So that's kind of taking us to the next point.
+
+489
+00:21:45,480 --> 00:21:49,880
+ So the takeaway from this video is one thing.
+
+490
+00:21:49,880 --> 00:21:52,760
+ If you use the default,
+
+491
+00:21:54,120 --> 00:21:55,640
+ you're going to get burned.
+
+492
+00:21:55,640 --> 00:21:59,520
+ You're going to get burned because for this kind of thing,
+
+493
+00:21:59,520 --> 00:22:01,720
+ you're going to reset, you're going to clear your names,
+
+494
+00:22:01,720 --> 00:22:03,920
+ but it's all very common things that people do all the time
+
+495
+00:22:03,920 --> 00:22:05,200
+ during Kubernetes management.
+
+496
+00:22:05,200 --> 00:22:07,640
+ And your files will be gone
+
+497
+00:22:07,640 --> 00:22:09,080
+ because they're going to get cleaned up
+
+498
+00:22:09,080 --> 00:22:10,160
+ because it was essentially temp
+
+499
+00:22:10,160 --> 00:22:13,600
+ because the retained policy was not set.
+
+500
+00:22:13,600 --> 00:22:15,360
+ And in order to get a retained policy,
+
+501
+00:22:15,360 --> 00:22:17,640
+ you have to have a specific storage class created
+
+502
+00:22:17,640 --> 00:22:19,000
+ that does that.
+
+503
+00:22:19,000 --> 00:22:20,720
+ And then when you do that,
+
+504
+00:22:20,720 --> 00:22:22,960
+ you have to give very, very limited access to that
+
+505
+00:22:22,960 --> 00:22:26,080
+ because anybody that you allow to create
+
+506
+00:22:27,800 --> 00:22:31,040
+ PVCs against the retained storage class,
+
+507
+00:22:31,040 --> 00:22:34,200
+ you need to babysit that yourself now.
+
+508
+00:22:34,200 --> 00:22:35,480
+ Not only do you have to babysit it,
+
+509
+00:22:35,480 --> 00:22:36,920
+ make sure people don't leave it around
+
+510
+00:22:36,920 --> 00:22:38,160
+ because you're going to burn up all your disk
+
+511
+00:22:38,160 --> 00:22:40,720
+ and they're not going to clean it up, right?
+
+512
+00:22:40,720 --> 00:22:43,240
+ But you also have to be able to make sure you know
+
+513
+00:22:43,240 --> 00:22:48,240
+ what PVC, what was the name of it from the last one that ran?
+
+514
+00:22:49,320 --> 00:22:52,120
+ So at that point, it becomes kind of a question of,
+
+515
+00:22:52,120 --> 00:22:53,960
+ okay, what's easier?
+
+516
+00:22:53,960 --> 00:22:58,440
+ Is it easier for me to set up a part of the cron job,
+
+517
+00:22:58,440 --> 00:23:03,240
+ something that SCPs over the PG dump file to something else?
+
+518
+00:23:03,240 --> 00:23:05,760
+ And in the case of PG dump files, that's probably okay.
+
+519
+00:23:05,760 --> 00:23:09,880
+ The size of them is not too big, they're not big,
+
+520
+00:23:09,880 --> 00:23:13,640
+ but that does kind of, somebody mentioned it already.
+
+521
+00:23:13,640 --> 00:23:17,160
+ So all the time, like on upgrade,
+
+522
+00:23:17,160 --> 00:23:19,080
+ you would definitely run it on install.
+
+523
+00:23:19,080 --> 00:23:24,080
+ So when you, I mean, you redeploy and then you deploy a new one,
+
+524
+00:23:24,840 --> 00:23:26,000
+ you never just leave the thing around.
+
+525
+00:23:26,000 --> 00:23:28,480
+ That's the nature of like managing your Kubernetes
+
+526
+00:23:28,480 --> 00:23:29,320
+ applications.
+
+527
+00:23:29,320 --> 00:23:31,880
+ You got to be able to do that in order to build a paper.
+
+528
+00:23:31,880 --> 00:23:33,800
+ Somebody asked about something else,
+
+529
+00:23:33,800 --> 00:23:34,640
+ I'm getting distracted.
+
+530
+00:23:34,640 --> 00:23:39,640
+ So, but, so in this case, in the case of the PG dump files,
+
+531
+00:23:40,440 --> 00:23:43,880
+ these, these, these SQL files are relatively small
+
+532
+00:23:43,880 --> 00:23:47,720
+ and adding a file transfer to a stateful storage system
+
+533
+00:23:47,720 --> 00:23:52,720
+ outside Kubernetes scope is going to be a good thing to do.
+
+534
+00:23:52,840 --> 00:23:55,920
+ That's going to be something that we could totally do.
+
+535
+00:23:55,920 --> 00:23:57,080
+ And it would be really easy.
+
+536
+00:23:57,080 --> 00:24:02,080
+ But what about the 15 terabytes of image registry storage?
+
+537
+00:24:03,000 --> 00:24:03,840
+ Right?
+
+538
+00:24:03,840 --> 00:24:04,760
+ What about that?
+
+539
+00:24:04,760 --> 00:24:06,440
+ How do you back that up?
+
+540
+00:24:06,440 --> 00:24:10,680
+ Right now, if somebody uninstalled harbor or undupled harbor
+
+541
+00:24:10,680 --> 00:24:13,680
+ and deleted the namespace for harbor in our Kubernetes cluster,
+
+542
+00:24:13,680 --> 00:24:15,840
+ which is a very common,
+
+543
+00:24:15,840 --> 00:24:19,280
+ the modern way to do clusters is not to leave things around forever.
+
+544
+00:24:19,280 --> 00:24:22,400
+ It's, it's to be able to bring up and tear down,
+
+545
+00:24:22,400 --> 00:24:25,480
+ tear up, bring up and tear down your applications very easily.
+
+546
+00:24:25,480 --> 00:24:26,920
+ The whole CI/CD kind of idea.
+
+547
+00:24:26,920 --> 00:24:29,400
+ Now, it gets hard when you got 15 terabytes of storage,
+
+548
+00:24:29,400 --> 00:24:31,920
+ you got to figure out some kind of exception to that rule.
+
+549
+00:24:31,920 --> 00:24:34,080
+ But being able to just run unduploy and deploy
+
+550
+00:24:34,080 --> 00:24:36,520
+ and have it be essentially the same as a container,
+
+551
+00:24:36,520 --> 00:24:39,160
+ a femoral and have it not and have it just work
+
+552
+00:24:39,160 --> 00:24:40,200
+ is a big part of that.
+
+553
+00:24:40,200 --> 00:24:42,520
+ But then you have to be really conscious of the stuff
+
+554
+00:24:42,520 --> 00:24:44,920
+ that you absolutely want to persist
+
+555
+00:24:44,920 --> 00:24:47,520
+ beyond, beyond a deploy and an unduploy.
+
+556
+00:24:47,520 --> 00:24:49,920
+ So, so those are the, those are the ways
+
+557
+00:24:49,920 --> 00:24:51,680
+ that we are going to go about doing it.
+
+558
+00:24:51,680 --> 00:24:54,880
+ One of the solutions and this is why I mentioned
+
+559
+00:24:54,880 --> 00:24:59,000
+ the registry thing is if you have 15 terabytes in a thing,
+
+560
+00:24:59,000 --> 00:25:03,280
+ then you definitely want to be able to keep that around.
+
+561
+00:25:03,280 --> 00:25:06,160
+ That was something you probably never, ever wanted to lead.
+
+562
+00:25:06,160 --> 00:25:09,240
+ The, the, you know, it just wouldn't.
+
+563
+00:25:09,240 --> 00:25:11,440
+ In fact, but then, then it becomes a matter of,
+
+564
+00:25:11,440 --> 00:25:15,320
+ well, how do you reassociate that with the other things?
+
+565
+00:25:15,320 --> 00:25:18,000
+ So, so let's say, so a disaster recovery scenario
+
+566
+00:25:18,000 --> 00:25:20,200
+ in that case would be that you would,
+
+567
+00:25:20,200 --> 00:25:23,640
+ you say you tear down your cluster, your application
+
+568
+00:25:23,640 --> 00:25:25,320
+ and then you bring your application back
+
+569
+00:25:25,320 --> 00:25:28,440
+ and then you look up what that PVC is either,
+
+570
+00:25:28,440 --> 00:25:30,000
+ or it's part of your tear down process,
+
+571
+00:25:30,000 --> 00:25:31,680
+ you write it out someplace to a file.
+
+572
+00:25:31,680 --> 00:25:32,680
+ So you know the name.
+
+573
+00:25:32,680 --> 00:25:35,200
+ And then you re-associate that name,
+
+574
+00:25:35,200 --> 00:25:38,880
+ you re-bind that name, that storage class to the PVC.
+
+575
+00:25:38,880 --> 00:25:42,120
+ So, so that you don't lose that 15 terabytes.
+
+576
+00:25:42,120 --> 00:25:42,960
+ All right.
+
+577
+00:25:44,400 --> 00:25:46,320
+ And that's the end of that video.
+
