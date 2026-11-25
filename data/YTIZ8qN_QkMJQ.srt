@@ -1,0 +1,596 @@
+1
+00:00:00,000 --> 00:00:06,320
+ All right. Here we are. It's a new day. We're still working on harbor testing and I want
+
+2
+00:00:06,320 --> 00:00:11,640
+ to report on what we did and what we're going to do in the live stream. This will be the
+
+3
+00:00:11,640 --> 00:00:17,480
+ only video that's posted to YouTube regarding harbor for today. Let's find something major.
+
+4
+00:00:17,480 --> 00:00:22,600
+ So I'm only going to do one summary video. I mean one kind of here's what we're doing
+
+5
+00:00:22,600 --> 00:00:27,560
+ today and here's what we discovered from yesterday and I'll do a video like that every day. So
+
+6
+00:00:27,560 --> 00:00:31,320
+ tomorrow, if you want to see this summary video what I did today, what actually ended
+
+7
+00:00:31,320 --> 00:00:35,240
+ up being in reality, just keep watching it on YouTube and you can go watch that video.
+
+8
+00:00:35,240 --> 00:00:39,640
+ If you want to participate and want to watch me go through the pain and suffering, you
+
+9
+00:00:39,640 --> 00:00:46,080
+ know, live, then come join us on Twitch. All right. So yesterday, yesterday, beyond getting
+
+10
+00:00:46,080 --> 00:00:54,560
+ mini cube installed, we also got harbor to install into mini cube using Postgres version
+
+11
+00:00:54,560 --> 00:01:06,200
+ 16.4. And we did that by fixing the bug in the values.yaml file which results from the,
+
+12
+00:01:06,200 --> 00:01:11,440
+ you know, the regular command show whatever, helm show whatever to get the Amazon. So there's
+
+13
+00:01:11,440 --> 00:01:20,320
+ a bug in the, in the values.yaml file that that pegs the bitnommy harbor chart to version
+
+14
+00:01:20,320 --> 00:01:25,000
+ 13 of Postgres was going to be end of life next year next November. So we want to use
+
+15
+00:01:25,000 --> 00:01:31,600
+ version 16. And we spent a good amount of time way more than I would have care to have
+
+16
+00:01:31,600 --> 00:01:36,600
+ ever done finding any reference to which it was the standard version of Postgres on in
+
+17
+00:01:36,600 --> 00:01:41,720
+ harbor on the harbor documentation. And there is none. There is officially no documentation
+
+18
+00:01:41,720 --> 00:01:47,960
+ stating what the recommended Postgres version is for harbor 2.11 period. If you know of
+
+19
+00:01:47,960 --> 00:01:51,520
+ any, and you found a reference to it, please put it in the comments below or come in my
+
+20
+00:01:51,520 --> 00:01:56,400
+ chat and let me know. Because after all of us spent a lot of time trying to answer that
+
+21
+00:01:56,400 --> 00:02:02,600
+ one simple question, what version of Postgres can I use? We could not do it. We know that
+
+22
+00:02:02,600 --> 00:02:11,340
+ anything past 2.9, according to the documentation, has to be at least version 12 of Postgres.
+
+23
+00:02:11,340 --> 00:02:14,320
+ And then we're talking about the version of Postgres, not the chart. It's really important,
+
+24
+00:02:14,320 --> 00:02:22,600
+ by the way, that you distinguish those two things. And so that leaves us with a question.
+
+25
+00:02:22,600 --> 00:02:31,300
+ Can we even use 16.4? By reviewing the resulting template file from the Helm template command,
+
+26
+00:02:31,300 --> 00:02:36,640
+ we were able to see that there are multiple metadata tags that refer to Postgres version
+
+27
+00:02:36,640 --> 00:02:47,540
+ 16.4. Did I get that right? Yeah. And 16.4 is more or less the latest stable version.
+
+28
+00:02:47,540 --> 00:02:52,080
+ And it appears, we went through looking through the chart, the chart has hard-coded a reference
+
+29
+00:02:52,080 --> 00:03:01,840
+ to the chart.yaml file in the Bitnami GitHub repo has 13 point whatever hard-coded into
+
+30
+00:03:01,840 --> 00:03:09,200
+ the chart.yaml file. It's also hard-coded into the values file with a very outdated
+
+31
+00:03:09,200 --> 00:03:18,500
+ comment saying that this was added to peg this to 13 because version 2.4 of Harbor doesn't
+
+32
+00:03:18,500 --> 00:03:25,280
+ support version 14 of Postgres, which is ancient history at this point. So based on
+
+33
+00:03:25,280 --> 00:03:31,200
+ that, we were of the opinion that we could attempt to change that value in the values
+
+34
+00:03:31,200 --> 00:03:37,600
+ dot yaml file. And that was the only thing I did. So there were other references to 16.4
+
+35
+00:03:37,600 --> 00:03:46,920
+ inside of the inside of the values file, which made me think that, okay, this might work
+
+36
+00:03:46,920 --> 00:03:58,120
+ with 16.4. So I changed the Postgres dot SQ, what is it? Postgres dot image dot tag in
+
+37
+00:03:58,120 --> 00:04:08,920
+ the values file was changed to the latest tag for 16.4 that was referenced. And I was
+
+38
+00:04:08,920 --> 00:04:17,680
+ able to find that exact tag by looking at the Bitnami slash Postgres chart. And that
+
+39
+00:04:17,680 --> 00:04:24,000
+ is the same one from that chart. All of this would seem to indicate that the Bitnami charts
+
+40
+00:04:24,000 --> 00:04:31,240
+ are built based on subcharts, on the Postgres subcharts, on the Redis subcharts, and that
+
+41
+00:04:31,240 --> 00:04:35,840
+ they are being included and that they're being used and that some parts of the chart, the
+
+42
+00:04:35,840 --> 00:04:40,280
+ resulting manifest that comes out of it, the yaml that comes out of it, some parts of that
+
+43
+00:04:40,280 --> 00:04:48,960
+ are updated to 16.4, whereas the critical piece that actually gets the image is still
+
+44
+00:04:48,960 --> 00:04:55,080
+ stuck on 13, unless you overwrite that. I happen to think it's a bug, and I'm trying
+
+45
+00:04:55,080 --> 00:05:03,040
+ to validate that. So today, the plan is to test our Postgres that's been installed to
+
+46
+00:05:03,040 --> 00:05:09,280
+ test our harbor that we've installed in Minicube in my test deployment here on NVM. It's very
+
+47
+00:05:09,280 --> 00:05:15,680
+ possible that something about Minicube running in a VM is not going to allow harbor to work.
+
+48
+00:05:15,680 --> 00:05:22,480
+ So we'll be finding that question out. If that doesn't work, I'll probably be bumping
+
+49
+00:05:22,480 --> 00:05:27,440
+ up the time that I, the date that I buy a new server tower and my other one got fried
+
+50
+00:05:27,440 --> 00:05:33,680
+ in the move. And so, you know, it was refurbished, so whatever. But if we get, if this Minicube
+
+51
+00:05:33,680 --> 00:05:38,320
+ test deployment doesn't work in my home lab, stay tuned out Friday for that. If you want
+
+52
+00:05:38,320 --> 00:05:43,320
+ to come in on home lab Fridays, Friday afternoon, I is just talking about my own home lab and
+
+53
+00:05:43,320 --> 00:05:49,800
+ just sharing notes with everybody. So that's the plan. If this, if it doesn't work in Minicube
+
+54
+00:05:49,800 --> 00:05:54,680
+ for some reason, and we can't validate it, then so what does it mean? What does works
+
+55
+00:05:54,680 --> 00:06:02,520
+ mean, right? And that, that launched me into kind of a, you know, verbose discussion about
+
+56
+00:06:02,520 --> 00:06:08,240
+ testing, particularly at the enterprise and in operations. What does it mean to write a
+
+57
+00:06:08,240 --> 00:06:14,640
+ test and why do you need tests, right? Well, you guys know this, but there's test-driven
+
+58
+00:06:14,640 --> 00:06:20,760
+ development, but many of the concepts of test-driven development, despite the debate around it,
+
+59
+00:06:20,760 --> 00:06:25,480
+ can be applied to enterprise systems development and architecture. And that includes, how do
+
+60
+00:06:25,480 --> 00:06:30,640
+ I check that this whole thing works? And if you fall in one of the more traditional,
+
+61
+00:06:30,640 --> 00:06:37,880
+ like we built, you know, use your, your stories or use cases to define what's going to happen
+
+62
+00:06:37,880 --> 00:06:43,000
+ in the system. If you have those things because you develop the system from scratch, then you
+
+63
+00:06:43,000 --> 00:06:50,800
+ may already have, you know, the steps of validation and a procedure to go to. However, most people
+
+64
+00:06:50,800 --> 00:06:57,520
+ don't have that, right? And, and unfortunately, Harvard doesn't have any, it's actually one
+
+65
+00:06:57,520 --> 00:07:02,760
+ of the biggest failures of the industry, in my opinion. You barely get documentation about
+
+66
+00:07:02,760 --> 00:07:06,280
+ what the system does. This is why you should learn how to read the source code of any system
+
+67
+00:07:06,280 --> 00:07:14,720
+ you're maintaining, because that's where the truth is. And then you can go to the next stage,
+
+68
+00:07:14,720 --> 00:07:20,880
+ which is, how is this thing going to work in our environment? And if you're an architect,
+
+69
+00:07:20,880 --> 00:07:26,200
+ you're in the operations space, you have already kind of had to start thinking about these things,
+
+70
+00:07:26,200 --> 00:07:29,440
+ even though the applications developers may not have given you much. One of the biggest
+
+71
+00:07:29,440 --> 00:07:36,840
+ talking points in all of Kubernetes and, and cloud native, you know, thinking is observability,
+
+72
+00:07:36,840 --> 00:07:40,560
+ because all of these crazy, you know, microservices are out there. How do you know if they're even
+
+73
+00:07:40,560 --> 00:07:46,480
+ working the way they're supposed to? There's really no answer there. Everything's different.
+
+74
+00:07:46,480 --> 00:07:50,040
+ There's no standard and every system is different. So there has to be a difference. You can't
+
+75
+00:07:50,040 --> 00:07:55,680
+ be automated. And so, you know, and then how do you know the system? So this is actually,
+
+76
+00:07:55,680 --> 00:07:59,560
+ this system, this integration testing, the system testing, making sure the thing actually works,
+
+77
+00:07:59,560 --> 00:08:06,080
+ is really key, it's key for lots of reasons. It's key for monitoring. So you can tell, you know,
+
+78
+00:08:06,080 --> 00:08:11,320
+ in real time is the system working has designed, right? I mean, that's the main thing. And then
+
+79
+00:08:11,320 --> 00:08:16,000
+ there's also another one. Our old system just got, we just got lightning strike in our thing,
+
+80
+00:08:16,000 --> 00:08:22,640
+ and we have to recover our entire system. Disaster recovery DR. Can you do it? Once the last time
+
+81
+00:08:22,640 --> 00:08:26,720
+ you actually tested your disaster recovery scenario, I guarantee you, if you work for the government
+
+82
+00:08:26,720 --> 00:08:31,200
+ in certain areas, you've tested it recently. There are and different enterprises. This is one
+
+83
+00:08:31,200 --> 00:08:35,600
+ thing. This is one of those things where Silicon Valley just totally fells on its face. You know,
+
+84
+00:08:35,600 --> 00:08:41,840
+ they're all about making new cool stuff and everything. And they don't care about sustainable
+
+85
+00:08:41,840 --> 00:08:45,680
+ disaster recovery and backup or something. I mean, that's a large sweeping statement. Obviously,
+
+86
+00:08:45,680 --> 00:08:50,480
+ there's probably groups that do. But this is the thing that gets swept under the rug all the time.
+
+87
+00:08:50,480 --> 00:08:54,880
+ And then this is where I get to be, you know, angry man shakes his fist at you. Do you have your
+
+88
+00:08:54,880 --> 00:09:00,560
+ disaster recovery test once the last time you tested it, right? And there's also security testing,
+
+89
+00:09:00,560 --> 00:09:03,920
+ which we're not going to do and we're not. That's not what we're doing. Why am I even talking about
+
+90
+00:09:03,920 --> 00:09:07,600
+ systems integration and disaster recovery? I just want to see if I can get harbor installed in
+
+91
+00:09:07,600 --> 00:09:13,280
+ midi cube, right? The reason I'm talking about it is because I can actually accomplish two things
+
+92
+00:09:13,280 --> 00:09:19,680
+ at the same time right now. I can write the steps to validate that this system is working,
+
+93
+00:09:20,240 --> 00:09:25,200
+ right? In very specific detail, I can write them, actually type them out, not put them in some sort
+
+94
+00:09:25,200 --> 00:09:30,880
+ of automated test framework, not spend, you know, I don't know, two days bike shedding which test
+
+95
+00:09:30,880 --> 00:09:36,080
+ framework to use. I can just write down what I need to do and I can give, I can follow the plan,
+
+96
+00:09:36,080 --> 00:09:41,280
+ the procedure. And so we're going to do that. We're going to do that. Why are we going to do that
+
+97
+00:09:41,280 --> 00:09:47,360
+ today? And it's going to be very boring. But this is going to give me a written form of validation
+
+98
+00:09:47,360 --> 00:09:53,120
+ that the system is working as designed. And it's going to take the form of the user does this and
+
+99
+00:09:53,120 --> 00:09:59,520
+ this and this or the system administrator does this and they see this, right? And those, of course,
+
+100
+00:09:59,520 --> 00:10:06,080
+ a lot of those test cases can be put into some form of automated test driven development. Later,
+
+101
+00:10:06,080 --> 00:10:09,920
+ you can put them into your, you know, your get up actions and all that stuff. But then you have
+
+102
+00:10:09,920 --> 00:10:14,720
+ to start somewhere. So you start by writing the procedure, you know, writing the pseudo code of
+
+103
+00:10:14,720 --> 00:10:20,160
+ the procedure, the user goes to here, click on this, look at that, see if that's there. Yeah,
+
+104
+00:10:20,160 --> 00:10:25,840
+ let's try to add a new user, let's set a delete a user registry, let's, uh, set a project, you know,
+
+105
+00:10:25,840 --> 00:10:30,480
+ and this, it's easy to get bogged down in the details of this, but you actually have to have
+
+106
+00:10:30,480 --> 00:10:35,760
+ this if you don't have this, you never know that your system is up. So after you undergo an upgrade,
+
+107
+00:10:35,760 --> 00:10:42,560
+ how are you going to go regression test? What you have? Well, one of the ways is you run through
+
+108
+00:10:42,560 --> 00:10:46,320
+ your disaster recovery validation and you make sure that this, those procedures and all those steps
+
+109
+00:10:46,320 --> 00:10:51,120
+ over. You can't just, one person's like, Oh, I checked it and it works all working is another
+
+110
+00:10:51,120 --> 00:10:57,360
+ person's like, it's not working. Right. So I can't tell you how many times I can tell you how many
+
+111
+00:10:57,360 --> 00:11:04,640
+ times I have found like critical systems failures by following a procedure for this kind of thing.
+
+112
+00:11:04,640 --> 00:11:11,760
+ And maybe that's why I get the big bucks. I don't get the big bucks. I'm just, it also makes me
+
+113
+00:11:11,760 --> 00:11:17,120
+ insufferable to work with because I don't like systems that aren't tested. And there's a bunch
+
+114
+00:11:17,120 --> 00:11:19,840
+ of cowboys that'll push something else. But why is it taking you so long? Because I'm writing
+
+115
+00:11:19,840 --> 00:11:23,440
+ test cases and I'm validating their works, but you should have had it done two days ago.
+
+116
+00:11:25,600 --> 00:11:26,560
+ Stormy Daniels.
+
+117
+00:11:32,400 --> 00:11:35,360
+ Yay. Stormy. Welcome. Welcome to the stream.
+
+118
+00:11:38,480 --> 00:11:44,320
+ Now I read my YouTube video too. Thank you for that. Okay. So anyway, that's what we're going to do
+
+119
+00:11:44,320 --> 00:11:49,920
+ today. We're going to try to, uh, we're going to try to get this test done. And then we're, if we
+
+120
+00:11:49,920 --> 00:11:55,680
+ have time, we'll move on and we'll start, we'll finish the build script. Uh, we'll, we'll, we'll
+
+121
+00:11:55,680 --> 00:12:00,240
+ inject the harbor namespace building into it, even though a lot of people just assume it's there.
+
+122
+00:12:00,240 --> 00:12:04,880
+ I actually want to add, I like being able to run, uh, just run the build script and have it detect
+
+123
+00:12:04,880 --> 00:12:08,480
+ whether the namespace harbor already exists and say, Oh, I don't want to blow away the existing
+
+124
+00:12:08,480 --> 00:12:13,680
+ namespace in this thing. I want to, I want it, I want the build thing to actually not blow away
+
+125
+00:12:13,680 --> 00:12:18,960
+ the existing one unless it's, you know, explicitly done. And, and if it's not there, add it, right?
+
+126
+00:12:18,960 --> 00:12:23,520
+ So we got to add that. That's pretty easy to add to the build script. Uh, actually that is, um,
+
+127
+00:12:24,480 --> 00:12:29,760
+ that might be, uh, well, let me think about this for a second.
+
+128
+00:12:32,560 --> 00:12:36,640
+ I'm trying to decide whether we want to put it in the, we want the build script. In the current
+
+129
+00:12:36,640 --> 00:12:41,040
+ format, build is not a, well, we'll talk about it later. Uh, whether it goes in there, I, I'm,
+
+130
+00:12:41,040 --> 00:12:46,160
+ I'm hesitating because build doesn't have, doesn't necessarily have visibility into the, into the
+
+131
+00:12:46,160 --> 00:12:52,160
+ cluster to find that out. Um, but possibly it's okay to do that. I'm actually going to ask my
+
+132
+00:12:52,160 --> 00:12:56,240
+ teammate on that. Um, okay. So then we will get to the deploy script. These are all the things
+
+133
+00:12:56,240 --> 00:13:00,320
+ that we have to do. Right. So if you want to stay tuned, you just watch YouTube video tomorrow
+
+134
+00:13:00,320 --> 00:13:06,560
+ and I can report on what we did. Um, if you want to follow along in the repo, the repo is, uh,
+
+135
+00:13:07,120 --> 00:13:16,880
+ that's a harbor docs. Where is the repo? The repo is, uh, no, it's, uh, R W X Rob slash Kate's app
+
+136
+00:13:17,920 --> 00:13:23,920
+ slash harbor. And it's the branch. The branch is, um,
+
+137
+00:13:26,640 --> 00:13:31,840
+ uh, the PR that you want to follow along with is modernizing the latest Kate's app. This is a
+
+138
+00:13:31,840 --> 00:13:37,680
+ draft PR. Um, it should be a draft. Yeah. And you can actually see all the files that were changed.
+
+139
+00:13:37,680 --> 00:13:44,720
+ Um, I did try to put kind of a, uh, I don't know if you saw, but I did try to put a, like,
+
+140
+00:13:44,720 --> 00:13:50,640
+ those things that have to be done here, um, as checkboxes, but I mean, that's, I don't know.
+
+141
+00:13:50,640 --> 00:13:53,680
+ I'm also just using those files. So if you want to keep up with what's going on on that,
+
+142
+00:13:53,680 --> 00:13:57,840
+ let me know. Um, especially if you've got Kubernetes knowledge and you think I'm doing something bad.
+
+143
+00:13:58,400 --> 00:14:09,760
+ Um, uh, hey, you're doing stormy. Um, I actually am not, uh, very good at Kubernetes.
+
+144
+00:14:09,760 --> 00:14:15,280
+ There I said it. I'm not because I don't like it. I'm more of a senior systems API developer,
+
+145
+00:14:15,280 --> 00:14:20,640
+ even though I have, I'm also bad at that. And times I'm not the best. Okay. I'm just not.
+
+146
+00:14:20,640 --> 00:14:26,400
+ So if you're looking at me looking for the best possible thing, you know, no, I, I'm good at stuff,
+
+147
+00:14:26,400 --> 00:14:31,680
+ but this is a good place for you to come figure this stuff out. So it's very likely that I've made
+
+148
+00:14:31,680 --> 00:14:36,160
+ huge mistakes and stuff. And if you've, you've seen anything wrong, let me know. Um, and we'll go with
+
+149
+00:14:36,160 --> 00:14:43,200
+ that. All right. So that's the end of this video. Um, and we'll see you. Bye.
+
