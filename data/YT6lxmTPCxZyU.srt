@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:04,720
+ It probably goes without saying, but I'm going to say it anyway.
+
+2
+00:00:04,720 --> 00:00:08,840
+ You should be having all of your conversations about your development on any project in
+
+3
+00:00:08,840 --> 00:00:13,840
+ GitHub, not Discord, not Reddit, not Slack.
+
+4
+00:00:13,840 --> 00:00:14,840
+ Here's why.
+
+5
+00:00:14,840 --> 00:00:18,080
+ There's a bunch of work and changes that have happened here.
+
+6
+00:00:18,080 --> 00:00:22,680
+ This is a draft VR, so therefore everybody knows that it's not yet ready, but it's under
+
+7
+00:00:22,680 --> 00:00:23,680
+ work.
+
+8
+00:00:23,680 --> 00:00:27,200
+ Somebody makes it, somebody notices something here, as you can see.
+
+9
+00:00:27,200 --> 00:00:33,800
+ They detected I had bash completion, just said to look for bash in the shell thing.
+
+10
+00:00:33,800 --> 00:00:39,520
+ Then I wasn't allowing completion, but Chite has gotten completion to work on Z-Shell by
+
+11
+00:00:39,520 --> 00:00:42,280
+ adding a couple things from it.
+
+12
+00:00:42,280 --> 00:00:45,880
+ They're very basic, a lot of people do it, and I'll do another video about how to get
+
+13
+00:00:45,880 --> 00:00:49,840
+ bash completion on Z-Shell, how to get Complying completion.
+
+14
+00:00:49,840 --> 00:00:55,080
+ The comment says, it's not important, but the comment says, "Look for Complying instead."
+
+15
+00:00:55,080 --> 00:01:00,120
+ This is why you should put all of your comments in here.
+
+16
+00:01:00,120 --> 00:01:09,240
+ The actual change that does what was in the comment comes immediately after the conversation.
+
+17
+00:01:09,240 --> 00:01:12,480
+ The point I'm trying to make is, and by the way, this doesn't have to slow you down at
+
+18
+00:01:12,480 --> 00:01:13,480
+ all.
+
+19
+00:01:13,480 --> 00:01:20,680
+ If you need to make a comment, you can do it right here, G-H-P-R, comment.
+
+20
+00:01:20,680 --> 00:01:21,680
+ I'm going to show you.
+
+21
+00:01:21,680 --> 00:01:27,680
+ Hit Entering with "Thanks," I got that into the last commit.
+
+22
+00:01:27,680 --> 00:01:34,960
+ Then you hit "Yes," and from the command line, while you're doing your coding, if you have
+
+23
+00:01:34,960 --> 00:01:39,980
+ a thought, if you want to remember to come back to something, if you need to add it to
+
+24
+00:01:39,980 --> 00:01:45,600
+ do to the do list, the task list at the top, you can do all of that in line, and it will
+
+25
+00:01:45,600 --> 00:01:50,400
+ be visible to everybody who's monitoring the project in a collaborative way so they can
+
+26
+00:01:50,400 --> 00:01:52,200
+ see it happening.
+
+27
+00:01:52,200 --> 00:01:59,320
+ If you don't do that, all of that conversation is lost, or at best, has to be associated
+
+28
+00:01:59,320 --> 00:02:01,960
+ with the thread of conversation in Discord.
+
+29
+00:02:01,960 --> 00:02:02,960
+ That's all.
+
+30
+00:02:02,960 --> 00:02:03,960
+ Learn it.
+
+31
+00:02:03,960 --> 00:02:04,960
+ Love it.
+
+32
+00:02:04,960 --> 00:02:04,960
+ It's great.
+
