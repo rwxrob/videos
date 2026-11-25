@@ -1,8 +1,8 @@
 # 🎄 Take My Xmas ASCIIArt for Free (It's Fun)
 
-Shows off a Christmas ASCII art fireplace and lights made with AI. Invites viewers to get the art from rwxrob/dot and have fun with it, rather than spending resources on generating their own.
+Shows off Christmas ASCII art, including a fireplace and lights, and mentions using AI to make it. Invites viewers to get the art from rwxrob/dot and have fun with it, rather than spending resources on generating their own.
 
-`#asciiart #christmas #terminal #linux #dotfiles #ai`
+`#asciiart #christmas #dotfiles #ai`
 
 ## Category
 
