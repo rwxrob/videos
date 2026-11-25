@@ -9,9 +9,9 @@ Chapters:
 3:02 HexChat and other IRC client options
 5:09 Setting up WeeChat with dotfiles and OAuth
 6:45 Keeping your Twitch token private
-7:19 Why IRC works well for live chat
+7:22 Why IRC works well for live chat
 
-`#irc #weechat #twitch #terminal #linux #livestreaming #dotfiles #education`
+`#irc #weechat #twitch #terminal #livestreaming #dotfiles #education`
 
 ## Category
 
