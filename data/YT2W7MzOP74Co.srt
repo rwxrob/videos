@@ -1,0 +1,304 @@
+1
+00:00:00,000 --> 00:00:05,200
+ This is a quick video to explain what's going on with coding from the get-go.
+
+2
+00:00:05,200 --> 00:00:10,240
+ The short answer is I put those videos on hold.
+
+3
+00:00:10,240 --> 00:00:12,280
+ They're still coming, I promise.
+
+4
+00:00:12,280 --> 00:00:15,700
+ But the reason is the order is really important.
+
+5
+00:00:15,700 --> 00:00:21,000
+ We need to make sure that when we do one project and then we do another project and we do another
+
+6
+00:00:21,000 --> 00:00:22,320
+ project.
+
+7
+00:00:22,320 --> 00:00:28,880
+ And just so you know, those projects were based on the stepwise idea of learning different
+
+8
+00:00:28,880 --> 00:00:37,320
+ techniques in computer science that I have worked out a lot in Python and in JavaScript.
+
+9
+00:00:37,320 --> 00:00:43,320
+ And this specific reason that I'm putting them on hold is because of the difference when we
+
+10
+00:00:43,320 --> 00:00:44,320
+ do it in Go.
+
+11
+00:00:44,320 --> 00:00:45,800
+ Let me be very specific here.
+
+12
+00:00:45,800 --> 00:00:54,520
+ So Go requires us to talk about functions much earlier than I ever did with Python or
+
+13
+00:00:54,520 --> 00:00:55,520
+ JavaScript.
+
+14
+00:00:55,520 --> 00:01:01,680
+ Python and JavaScript do not require a main function in order to work.
+
+15
+00:01:01,680 --> 00:01:02,680
+ So what happened?
+
+16
+00:01:02,680 --> 00:01:07,360
+ And you'll notice this, I floundered a little bit in those first two videos and I had to
+
+17
+00:01:07,360 --> 00:01:08,360
+ make a decision.
+
+18
+00:01:08,360 --> 00:01:12,280
+ Do I continue to flounder through these really important beginning steps?
+
+19
+00:01:12,280 --> 00:01:16,200
+ Or do we focus on some of the stuff that already assumes you know Go, which is what I'm doing
+
+20
+00:01:16,200 --> 00:01:17,200
+ now.
+
+21
+00:01:17,200 --> 00:01:19,240
+ I'm going to be doing, you can see this stuff on the screen.
+
+22
+00:01:19,240 --> 00:01:23,680
+ I'm going to be doing a project using some advanced techniques that assume you've already
+
+23
+00:01:23,680 --> 00:01:26,840
+ learned all the earlier steps in the coding with the Go.
+
+24
+00:01:26,840 --> 00:01:31,200
+ I know that's backwards, but it's a little bit ironic, but it's easier for me to cover
+
+25
+00:01:31,200 --> 00:01:34,200
+ stuff that assumes you already know most of Go.
+
+26
+00:01:34,200 --> 00:01:37,840
+ You've already been introduced to it because then I don't have to be sure to get everything
+
+27
+00:01:37,840 --> 00:01:39,120
+ in order.
+
+28
+00:01:39,120 --> 00:01:42,440
+ So the reason, that's the reason.
+
+29
+00:01:42,440 --> 00:01:45,640
+ The reason that I put it, I put the brakes on it for a second, I was like, okay, this
+
+30
+00:01:45,640 --> 00:01:53,320
+ is not just a direct port from my Python and JavaScript to Go because primarily I have
+
+31
+00:01:53,320 --> 00:01:59,280
+ to, I got pulled into talking about functions and arguments and return values and functional
+
+32
+00:01:59,280 --> 00:02:01,880
+ programming versus procedures and subroutines.
+
+33
+00:02:01,880 --> 00:02:06,840
+ These are all things that normally in the Python material that I've been doing for years,
+
+34
+00:02:06,840 --> 00:02:12,440
+ I haven't had to talk to until like the fifth or sixth or seventh lesson because, because
+
+35
+00:02:12,440 --> 00:02:15,400
+ you know, it's just, there is no, that doesn't exist.
+
+36
+00:02:15,400 --> 00:02:17,040
+ There's this implied thing.
+
+37
+00:02:17,040 --> 00:02:22,040
+ You won't know about that unless you've done Python, but this is causing me to really, really,
+
+38
+00:02:22,040 --> 00:02:26,520
+ really think, you know, Go as the first language, I'm still going to do it.
+
+39
+00:02:26,520 --> 00:02:32,160
+ But it does mean that we're going to have to introduce concepts in more bite-sized chunks
+
+40
+00:02:32,160 --> 00:02:36,280
+ earlier on, including what is an argument and a parameter.
+
+41
+00:02:36,280 --> 00:02:40,000
+ This is, again, normally five or six into the, into the lesson.
+
+42
+00:02:40,000 --> 00:02:42,200
+ And we had to cover it on, let down day two.
+
+43
+00:02:42,200 --> 00:02:44,440
+ And that, that took me, it took me for a, for a loop.
+
+44
+00:02:44,440 --> 00:02:47,720
+ So that stuff is still coming.
+
+45
+00:02:47,720 --> 00:02:51,240
+ Rather than just not doing any videos on Go programming, I am still working on the book
+
+46
+00:02:51,240 --> 00:02:53,240
+ and everything.
+
+47
+00:02:53,240 --> 00:02:57,920
+ And I am actually, my live streams are me cleaning up my, my dot files, a lot of like,
+
+48
+00:02:57,920 --> 00:03:06,400
+ like 360 dot files, scripts that I've been converting into POSIX show, Pearl or Go.
+
+49
+00:03:06,400 --> 00:03:08,840
+ And so I'm going through that whole thing and I'm going to finish that first because
+
+50
+00:03:08,840 --> 00:03:15,600
+ there's a lot of projects in there that can potentially be used to learn either of those
+
+51
+00:03:15,600 --> 00:03:21,160
+ three languages, which I plan on putting into one of the books someplace.
+
+52
+00:03:21,160 --> 00:03:26,400
+ If you want to stick with the Go thing, I am making a new playlist that it's going to
+
+53
+00:03:26,400 --> 00:03:28,740
+ be doing two different Go projects.
+
+54
+00:03:28,740 --> 00:03:38,200
+ One of them is my conversion from bash, very advanced bash code to go Bonsai to do the clips
+
+55
+00:03:38,200 --> 00:03:39,200
+ that you've seen me do.
+
+56
+00:03:39,200 --> 00:03:43,160
+ We wrote a clips program one weekend and we're going to be porting that over to Go and show
+
+57
+00:03:43,160 --> 00:03:45,960
+ how to use Bonsai to do that.
+
+58
+00:03:45,960 --> 00:03:49,920
+ And so that's something, if you want to follow along, if you haven't ever, program before
+
+59
+00:03:49,920 --> 00:03:53,680
+ it might be over your head, I just want to say that is going to be there and, and the
+
+60
+00:03:53,680 --> 00:03:56,000
+ POMO project, the POModoro timer.
+
+61
+00:03:56,000 --> 00:04:00,660
+ This is another project that, that is, assumes you already know how to code and go.
+
+62
+00:04:00,660 --> 00:04:06,520
+ And it, you know, it's going to take some of those techniques and add them together.
+
+63
+00:04:06,520 --> 00:04:11,840
+ And you know, as I, as I complete my cleanup of my dot files and I see if there's anything
+
+64
+00:04:11,840 --> 00:04:16,880
+ in there that might somehow help us more incrementally learn the stuff from coding together go,
+
+65
+00:04:16,880 --> 00:04:17,880
+ we'll do that.
+
+66
+00:04:17,880 --> 00:04:22,240
+ And it's also the, the ongoing problem of like whether we need to learn terminal velocity
+
+67
+00:04:22,240 --> 00:04:25,040
+ before we learn coding from the get go.
+
+68
+00:04:25,040 --> 00:04:29,700
+ And I'm still, I'm still of, of two minds as they say on that.
+
+69
+00:04:29,700 --> 00:04:32,680
+ Because because, because it should you learn the terminal before you learn Go or should
+
+70
+00:04:32,680 --> 00:04:38,720
+ you learn Go before you learn the terminal, you know, it's, it's, you know, it's a, it's
+
+71
+00:04:38,720 --> 00:04:39,720
+ a tough one.
+
+72
+00:04:39,720 --> 00:04:40,720
+ It's a tough one.
+
+73
+00:04:40,720 --> 00:04:43,080
+ And I don't, I don't, I don't have the answer to that one yet, but stay tuned for the other
+
+74
+00:04:43,080 --> 00:04:44,080
+ stuff.
+
+75
+00:04:44,080 --> 00:04:45,360
+ So I just want to do that quick update.
+
+76
+00:04:45,360 --> 00:04:46,900
+ So hang tight.
+
