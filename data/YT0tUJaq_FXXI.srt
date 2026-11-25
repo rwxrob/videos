@@ -1,0 +1,3228 @@
+1
+00:00:00,000 --> 00:00:11,360
+ all right here we are again we're gonna do something new we're gonna do a holiday
+
+2
+00:00:11,360 --> 00:00:17,680
+ boost and I put the skill stack highlights up here from long ago we made
+
+3
+00:00:17,680 --> 00:00:22,800
+ this fun little thing probably make something like this by the end of the
+
+4
+00:00:22,800 --> 00:00:27,440
+ holiday I don't know how soon we're gonna get to it but if you're here and you are
+
+5
+00:00:27,440 --> 00:00:34,400
+ watching this video you are watching the day one of the holiday boost and no it
+
+6
+00:00:34,400 --> 00:00:37,920
+ doesn't have anything to do with advent of code I was gonna call it advent of
+
+7
+00:00:37,920 --> 00:00:42,800
+ skill or ao skill or whatever but I was like why are we doing that plus we were
+
+8
+00:00:42,800 --> 00:00:46,880
+ already late because we were already on what day four or so so it's December 4th
+
+9
+00:00:46,880 --> 00:00:52,400
+ but we are gonna learn how to code and I don't know if we're gonna finish it by
+
+10
+00:00:52,400 --> 00:00:55,820
+ the end of December I don't even know how fast it's gonna go but we're gonna go
+
+11
+00:00:55,820 --> 00:01:01,580
+ ahead and start so let me go ahead and introduce how we're gonna do the
+
+12
+00:01:01,580 --> 00:01:06,520
+ holiday boost this year and potentially every year I think we actually will
+
+13
+00:01:06,520 --> 00:01:11,640
+ probably have more than one cycle for the beginner boost and not necessarily
+
+14
+00:01:11,640 --> 00:01:15,800
+ always on May the 4th even though we really love that so first of all let me
+
+15
+00:01:15,800 --> 00:01:23,300
+ show you how to get going this year I have a book I just finished the first
+
+16
+00:01:23,300 --> 00:01:29,320
+ part of the book the preparation stuff all up to the code challenges code
+
+17
+00:01:29,320 --> 00:01:33,260
+ challenges are down here and I got the first code challenge done so we can take
+
+18
+00:01:33,260 --> 00:01:38,480
+ a look at that we're actually gonna start with the book and now and work through
+
+19
+00:01:38,480 --> 00:01:45,040
+ it for about an hour and it looks like Linux Santa and so we're gonna we're
+
+20
+00:01:45,040 --> 00:01:49,080
+ gonna go ahead and start working through the book and all we're just gonna read
+
+21
+00:01:49,080 --> 00:01:53,280
+ it but this is the first year ever actually not just the first year for
+
+22
+00:01:53,280 --> 00:01:56,960
+ doing the beginner boost but the first year I have ever had a book I've started
+
+23
+00:01:56,960 --> 00:02:01,520
+ this book many many times I've always rewritten it actually rewrote the book
+
+24
+00:02:01,520 --> 00:02:07,000
+ at least three times in the last week trying out different ways to get you
+
+25
+00:02:07,000 --> 00:02:14,920
+ guys started the most quickly and yeah there's the link to the books it is I
+
+26
+00:02:14,920 --> 00:02:20,800
+ Bellum yes go go check out the book links they're there on the screen so
+
+27
+00:02:20,800 --> 00:02:25,280
+ artifacts Rob that get up that I always slash book slash code made I call these
+
+28
+00:02:25,280 --> 00:02:30,400
+ my perpetual publishing books they're not finished yet eventually they will be
+
+29
+00:02:30,400 --> 00:02:33,800
+ finished and at that point I will actually print and create a printed
+
+30
+00:02:33,800 --> 00:02:38,440
+ version and approach the school districts about it you know there's the
+
+31
+00:02:38,440 --> 00:02:42,520
+ copyright stuff the regular stuff to go through so without further ado we're
+
+32
+00:02:42,520 --> 00:02:48,520
+ just gonna jump right into the book so that you can follow along you can give
+
+33
+00:02:48,520 --> 00:02:52,880
+ you something to follow and I'm gonna zoom in so you can see it a little bit
+
+34
+00:02:52,880 --> 00:03:00,560
+ better so here we go we're gonna get going I want to sign copy you know what
+
+35
+00:03:00,560 --> 00:03:04,640
+ well we're probably gonna end up meeting each other over time I mean the goal of
+
+36
+00:03:04,640 --> 00:03:10,320
+ since I now finally have a book we probably will meet and I probably will be
+
+37
+00:03:10,320 --> 00:03:17,680
+ in the car doing on the road kind of in-person mentoring kind of in the spirit
+
+38
+00:03:17,680 --> 00:03:21,680
+ of what I did before when I did skill stack but you know kind of on the road
+
+39
+00:03:21,680 --> 00:03:27,460
+ signing with GPG I don't know about that so so let's just get into it so yes
+
+40
+00:03:27,460 --> 00:03:33,880
+ there is a copyright yes you can copy it yes it's free yes it has trademarks
+
+41
+00:03:33,880 --> 00:03:39,520
+ this is free in the sense that you can use it for free at this location but you
+
+42
+00:03:39,520 --> 00:03:44,960
+ can't if you make a copy of it you know it needs to be so that you're trying to
+
+43
+00:03:44,960 --> 00:03:47,840
+ contribute or fix an error but it's usually probably better for you to just
+
+44
+00:03:47,840 --> 00:03:51,120
+ make an error so a lot of people wanted to contribute and help out and I
+
+45
+00:03:51,120 --> 00:03:55,800
+ certainly appreciate that but I do plan on selling this book and using it in my
+
+46
+00:03:55,800 --> 00:03:59,960
+ retirement and approaching school districts in order to use it for you
+
+47
+00:03:59,960 --> 00:04:05,760
+ know kids that are that are twelve and up to learn how to code and for that
+
+48
+00:04:05,760 --> 00:04:10,600
+ reason I am going to keep it copyrighted you know so we're not going to talk
+
+49
+00:04:10,600 --> 00:04:15,000
+ about that further you get it for free you know that you'll always be able to
+
+50
+00:04:15,000 --> 00:04:19,360
+ get it for free you just if you're going to get a paper or a PDF or an ePub you're
+
+51
+00:04:19,360 --> 00:04:26,520
+ gonna pay so appreciate that this is a bookshelf I did put this in here there's
+
+52
+00:04:26,520 --> 00:04:29,600
+ a bunch of other books that I'm working on the same time we don't need to talk
+
+53
+00:04:29,600 --> 00:04:34,720
+ about that I do want to say one thing though about the beginner boost this year
+
+54
+00:04:34,720 --> 00:04:42,160
+ this holiday boost and specifically is that we are not covering everything about
+
+55
+00:04:42,160 --> 00:04:48,160
+ the terminal this year this is the first year ever that we are jumping right into
+
+56
+00:04:48,160 --> 00:04:52,960
+ the coding in fact the first thing we're gonna learn is how to set up your lab
+
+57
+00:04:52,960 --> 00:04:56,720
+ how to set up you know the place where you're gonna be writing your code on your
+
+58
+00:04:56,720 --> 00:05:01,720
+ computer your personal computer and then we're gonna jump right into writing code
+
+59
+00:05:01,720 --> 00:05:05,520
+ and we're gonna talk about that there is a bunch of terminal skill you'll learn
+
+60
+00:05:05,520 --> 00:05:11,040
+ along the way and you're gonna see this really soon but we are not going to get
+
+61
+00:05:11,040 --> 00:05:16,360
+ deep into the terminal I actually just to talk about this a little bit I actually
+
+62
+00:05:16,360 --> 00:05:19,920
+ don't regret this I feel like this is something we should have done a long time
+
+63
+00:05:19,920 --> 00:05:25,040
+ ago it we are gonna learn VIM and we're gonna go through that we're gonna use VIM
+
+64
+00:05:25,040 --> 00:05:32,200
+ to do you know but we are not going to learn Tmux so and that's largely because
+
+65
+00:05:32,200 --> 00:05:37,020
+ Tmux is not supported on Windows there are ways to get it but not in get
+
+66
+00:05:37,020 --> 00:05:43,080
+ bash not easily anyway so so the decision there was to go I'm always saying this
+
+67
+00:05:43,080 --> 00:05:46,880
+ because some of you have been involved in the previous boosts are wondering
+
+68
+00:05:46,880 --> 00:05:51,480
+ what's up with that why are we not you know becoming terminal masters and you
+
+69
+00:05:51,480 --> 00:05:55,160
+ know we are we are becoming terminal masters but we're baby steps in the
+
+70
+00:05:55,160 --> 00:06:00,240
+ terminal and that baby step on Windows is get bash which we'll get to and the
+
+71
+00:06:00,240 --> 00:06:05,680
+ baby step for Mac is of course using the built-in terminal there is a fun new
+
+72
+00:06:05,680 --> 00:06:10,560
+ thing we are using was term I'm very excited to show you that and we're gonna
+
+73
+00:06:10,560 --> 00:06:14,800
+ get into it but so just a comment on the books here so the code mages first
+
+74
+00:06:14,800 --> 00:06:18,520
+ spell book is the book that we're working through terminal velocity is a
+
+75
+00:06:18,520 --> 00:06:22,840
+ book that you could do kind of in parallel to this or you could add it on
+
+76
+00:06:22,840 --> 00:06:27,160
+ but if you but you'll see that there's a bunch of stuff over there if you're
+
+77
+00:06:27,160 --> 00:06:31,800
+ gonna get certificate certain network plus no this would not be a thing this is
+
+78
+00:06:31,800 --> 00:06:38,640
+ just teaching you basic programming and that is its major goal so network plus
+
+79
+00:06:38,640 --> 00:06:42,480
+ if you want that kind of thing you're probably gonna have to wait for a terminal
+
+80
+00:06:42,480 --> 00:06:49,320
+ velocity or Linux home labinet mr. Het Tannis and other people online cover
+
+81
+00:06:49,320 --> 00:06:54,560
+ that kind of thing for network plus I would go through their courses instead
+
+82
+00:06:54,560 --> 00:06:59,000
+ that quite honestly that is one of the reasons that I actually focused on this
+
+83
+00:06:59,000 --> 00:07:04,360
+ is because Het Tannis is doing an amazing job teaching fundamental
+
+84
+00:07:04,360 --> 00:07:08,960
+ Linux skills and network engineering preparation and home labinet and that
+
+85
+00:07:08,960 --> 00:07:15,600
+ kind of thing and and I didn't want to overlap with with mr. Het Tannis at this
+
+86
+00:07:15,600 --> 00:07:19,880
+ moment because you know he's already covered it now I certainly have my way
+
+87
+00:07:19,880 --> 00:07:23,400
+ of doing it and everything and I'm definitely planning on writing a book
+
+88
+00:07:23,400 --> 00:07:27,120
+ about my way of doing it and how to get started with Proxmox he uses a
+
+89
+00:07:27,120 --> 00:07:31,640
+ different technique he doesn't use Proxmox so if you're if that is coming
+
+90
+00:07:31,640 --> 00:07:36,040
+ but that is not what this is gonna be about we're not gonna wait if we get to
+
+91
+00:07:36,040 --> 00:07:41,960
+ that it won't be until in the new year sometime so so this right now is focused
+
+92
+00:07:41,960 --> 00:07:48,880
+ on basic terminal skills and basic programming skills that include you know
+
+93
+00:07:48,880 --> 00:07:53,680
+ computer science and that kind of thing so so that's kind of that people have
+
+94
+00:07:53,680 --> 00:07:57,560
+ been asking about my bonsai project which is still it's the best it's ever been
+
+95
+00:07:57,560 --> 00:08:02,520
+ right now it is a there's a few minor things left for me to to wrap up and
+
+96
+00:08:02,520 --> 00:08:07,800
+ then we'll have a 1.0 bonsai which we are actually going to use a little bit in
+
+97
+00:08:07,800 --> 00:08:14,040
+ this class to help in this whatever this this series to to make command line
+
+98
+00:08:14,040 --> 00:08:20,520
+ tools really quickly during the create section which we'll get to so we will
+
+99
+00:08:20,520 --> 00:08:23,720
+ be learning a little bit of bonsai introducing it but if you want to
+
+100
+00:08:23,720 --> 00:08:27,520
+ honestly really understand how to make the most out of bonsai you're gonna have
+
+101
+00:08:27,520 --> 00:08:32,920
+ to wait for the bonsai boot beauty book yeah bonsai cross promotion auto didactic
+
+102
+00:08:32,920 --> 00:08:38,120
+ that I used to cover a lot of the stuff in auto didactic in the beginner boost
+
+103
+00:08:38,120 --> 00:08:44,280
+ auto didactic now contains all of the stuff about getting a job how do you get
+
+104
+00:08:44,280 --> 00:08:49,880
+ a job how do you stay you know focused how do you keep connected how do you
+
+105
+00:08:49,880 --> 00:08:53,960
+ build a personal and professional learning network how do you do a raise
+
+106
+00:08:53,960 --> 00:08:59,120
+ in a how do you do it you know it's you how do you take notes effectively that is
+
+107
+00:08:59,120 --> 00:09:05,520
+ all in auto didactic keys to success is a modern knowledge warrior and that book
+
+108
+00:09:05,520 --> 00:09:11,120
+ is super important that I make it I am these books are all getting kind of made
+
+109
+00:09:11,120 --> 00:09:15,560
+ as I think about them so some of you know about my old settle casta notes those
+
+110
+00:09:15,560 --> 00:09:19,560
+ are now being processed and I'm putting them into book form I've been wanting to
+
+111
+00:09:19,560 --> 00:09:25,240
+ do this for years and so that's finally taking place the positive of that is
+
+112
+00:09:25,240 --> 00:09:30,920
+ that if you want to watch these books taking form you can actually do that and
+
+113
+00:09:30,920 --> 00:09:35,480
+ you can here they are here's the links to them there's not much in them now but
+
+114
+00:09:35,480 --> 00:09:40,720
+ you can actually follow the github repo there if you want to and you can see when
+
+115
+00:09:40,720 --> 00:09:44,120
+ I saved something my people were following my little casting with my
+
+116
+00:09:44,120 --> 00:09:48,200
+ notes before and so you can go ahead and follow that now in fact the best way to
+
+117
+00:09:48,200 --> 00:09:51,960
+ follow all of this stuff is to go to my github I am going to cross promote my
+
+118
+00:09:51,960 --> 00:09:58,760
+ github right now so here it is you can go check it out please give me a follow
+
+119
+00:09:58,760 --> 00:10:05,600
+ you know I if you don't sponsor me at least give me a follow in a sub if you
+
+120
+00:10:05,600 --> 00:10:10,480
+ don't listen at least go star my repos that would make me feel very good thank
+
+121
+00:10:10,480 --> 00:10:14,760
+ you if you're trying to figure if you want to you can actually contribute a
+
+122
+00:10:14,760 --> 00:10:18,600
+ little bit but here they are this dot files is getting all cleaned up and
+
+123
+00:10:18,600 --> 00:10:22,400
+ here's the there's actually a code major assistant and we're gonna get to this
+
+124
+00:10:22,400 --> 00:10:26,840
+ we're gonna talk about the the container that I made that you can use if you
+
+125
+00:10:26,840 --> 00:10:32,640
+ don't want to use the the other method so there is a discussion thing over there
+
+126
+00:10:32,640 --> 00:10:39,960
+ too but anyway so so let's go to this is the local version of the book let's go
+
+127
+00:10:39,960 --> 00:10:45,880
+ to the actual one alright so it that's alright so that's a comment on the books
+
+128
+00:10:45,880 --> 00:10:50,120
+ I put that my fact is my back is pretty funny it was actually the developed the
+
+129
+00:10:50,120 --> 00:10:54,000
+ Linux developer who gave me the name shut the back up this isn't meant to be rude
+
+130
+00:10:54,000 --> 00:10:57,520
+ it's just it's just a place for me to answer all of the things all of the
+
+131
+00:10:57,520 --> 00:11:03,720
+ justification YVIM why not WSL all that stuff is in there so you know I'll be in
+
+132
+00:11:03,720 --> 00:11:06,440
+ terms of live streaming I can be sending a lot of people to I'm like go read the
+
+133
+00:11:06,440 --> 00:11:13,360
+ back you know and shut the back up I'm just having fun I love you guys of that
+
+134
+00:11:13,360 --> 00:11:17,440
+ I you know programming with purpose this is something I've been wanting to write
+
+135
+00:11:17,440 --> 00:11:21,680
+ a long time how to cope with empowerment for some you know saving humanity bad
+
+136
+00:11:21,680 --> 00:11:25,000
+ strumming of biscuit all the lessons I've learned from being a streamer and
+
+137
+00:11:25,000 --> 00:11:29,520
+ they're never back again a Mormons tale this is I talk a lot about my life is a
+
+138
+00:11:29,520 --> 00:11:34,000
+ Mormon there is it really interesting that right now actually it is just a
+
+139
+00:11:34,000 --> 00:11:39,680
+ little side note about me personally there is a streamer who is talking about
+
+140
+00:11:39,680 --> 00:11:44,280
+ her exit from the Mormon church and she is blowing up on YouTube right now she's
+
+141
+00:11:44,280 --> 00:11:47,960
+ blowing up on YouTube and it's really interesting she's covering like the
+
+142
+00:11:47,960 --> 00:11:50,880
+ internal you know Mormon ceremony everything I know it doesn't have anything
+
+143
+00:11:50,880 --> 00:11:54,280
+ to do with coding but if you want to know about me personally that's you know
+
+144
+00:11:54,280 --> 00:11:57,960
+ the place to go for that which by the way includes you know the dedication to
+
+145
+00:11:57,960 --> 00:12:03,040
+ my wife Doris who's on the way home to make sloppy joals right now and to you
+
+146
+00:12:03,040 --> 00:12:07,760
+ guys to my friends to Chloe my faithful assistant you know who she is and the
+
+147
+00:12:07,760 --> 00:12:12,640
+ memory of Aaron Schwartz and Chris Nova so you know Chris who passed and and Aaron
+
+148
+00:12:12,640 --> 00:12:17,960
+ both of them have passed fantastic human beings that I want to emulate and be
+
+149
+00:12:17,960 --> 00:12:22,200
+ like and you know if we can help build more Aaron Schwartz's and Chris Nova's
+
+150
+00:12:22,200 --> 00:12:24,800
+ in the world the world would be a better place thank you for your lights of
+
+151
+00:12:24,800 --> 00:12:29,200
+ horn inspiration all right so I'm gonna just keep working and tell my wife gets
+
+152
+00:12:29,200 --> 00:12:34,800
+ here and when my wife gets here I'll I'll click the stop button so that's we're
+
+153
+00:12:34,800 --> 00:12:42,000
+ just gonna keep working through as far as we can so here we go stop don't read
+
+154
+00:12:42,000 --> 00:12:46,080
+ another word until you have a computer with a keyboard on which you can install
+
+155
+00:12:46,080 --> 00:12:50,160
+ software I have to put this stuff in here because this is actually really
+
+156
+00:12:50,160 --> 00:12:54,160
+ important because people people assume a lot of people watching the stream right
+
+157
+00:12:54,160 --> 00:12:58,440
+ now they assume that that everybody reading this book or watching me has
+
+158
+00:12:58,440 --> 00:13:02,080
+ permission to do this I'm telling you having worked with a bunch of educators
+
+159
+00:13:02,080 --> 00:13:06,040
+ and parents and stuff that a lot of the people that are doing this kind of think
+
+160
+00:13:06,040 --> 00:13:10,920
+ they don't have this I remember once I was at Woodlawn private school and it
+
+161
+00:13:10,920 --> 00:13:14,960
+ was like 42 people or so that I was I was teaching coding to and about half of
+
+162
+00:13:14,960 --> 00:13:17,680
+ them didn't even have access to install stuff onto their computers this is really
+
+163
+00:13:17,680 --> 00:13:21,480
+ their own computer and their parents were like no why am I giving my kid
+
+164
+00:13:21,480 --> 00:13:24,560
+ admin access to this computer I'm not doing that I don't want them to have that
+
+165
+00:13:24,560 --> 00:13:29,160
+ power so I have to put it in here because if you don't have this power you can't
+
+166
+00:13:29,160 --> 00:13:32,840
+ do it you have to have power to do to take care of your computer and if you
+
+167
+00:13:32,840 --> 00:13:40,400
+ don't then goodbye so yeah you need a phone I'm sorry you need a phone you need
+
+168
+00:13:40,400 --> 00:13:44,640
+ a phone for research and and have a cheat sheet for them up while you're doing
+
+169
+00:13:44,640 --> 00:13:48,280
+ other stuff you need a reliable internet connection I this is another one
+
+170
+00:13:48,280 --> 00:13:52,920
+ people thinking goes without saying I'm telling you I started I started it
+
+171
+00:13:52,920 --> 00:13:55,920
+ Woodlawn I started teaching coding and we started doing a development and we
+
+172
+00:13:55,920 --> 00:14:00,680
+ used a service called REPL it our EPL that IT actually made a big blog about it
+
+173
+00:14:00,680 --> 00:14:04,840
+ and complain because they the internet at this private school was not good enough
+
+174
+00:14:04,840 --> 00:14:09,520
+ for them to code and have them all be online at the same time and it was like
+
+175
+00:14:09,520 --> 00:14:13,840
+ I mean it was like three seconds between keystrokes it was insane and so I had to
+
+176
+00:14:13,840 --> 00:14:17,600
+ regroup really fast I had to redo my own curriculum which I always have to do
+
+177
+00:14:17,600 --> 00:14:21,280
+ for some reason and I had to say okay we're gonna all of you guys are gonna
+
+178
+00:14:21,280 --> 00:14:25,280
+ install in this case VS code we're gonna use them in the terminal here but in
+
+179
+00:14:25,280 --> 00:14:29,520
+ that case VS code and you need to be able to do everything locally because we
+
+180
+00:14:29,520 --> 00:14:34,160
+ cannot depend on the internet so you know this this statement about assuming
+
+181
+00:14:34,160 --> 00:14:38,000
+ you have internet is a thing a lot of you won't have it and you can't assume
+
+182
+00:14:38,000 --> 00:14:43,080
+ you have it you do need an email account that you control once again people don't
+
+183
+00:14:43,080 --> 00:14:47,640
+ want their kids to have an email address I don't get this and and the
+
+184
+00:14:47,640 --> 00:14:52,760
+ education in the educational institutions will give them an email address and then
+
+185
+00:14:52,760 --> 00:14:57,440
+ rip it away from them after they leave school so now they've got all these you
+
+186
+00:14:57,440 --> 00:15:00,600
+ know accounts and everything set up and they can't use them because it's totally
+
+187
+00:15:00,600 --> 00:15:05,720
+ stupid so there's a reason I'm putting this stuff in here people I know you
+
+188
+00:15:05,720 --> 00:15:09,960
+ think it's an obvious thing but I'm telling you I have a personal experience
+
+189
+00:15:09,960 --> 00:15:15,480
+ with organizations that just don't get this stuff so you have to have the
+
+190
+00:15:15,480 --> 00:15:19,160
+ freedom and you have to give the person doing the learning the freedom to do
+
+191
+00:15:19,160 --> 00:15:22,520
+ the learning and to be responsible for their own learning and to take it with
+
+192
+00:15:22,520 --> 00:15:27,940
+ them and if and if you don't you don't yeah and two years after you graduate
+
+193
+00:15:27,940 --> 00:15:31,080
+ the email was shut down after you graduate yeah it's like it's so stupid
+
+194
+00:15:31,080 --> 00:15:35,260
+ it's completely against the spirit of learning and independent auto-dedactic
+
+195
+00:15:35,260 --> 00:15:38,800
+ learning they want you to be beholden to them and then they take away the email
+
+196
+00:15:38,800 --> 00:15:43,000
+ later why don't they you know promote at least an email service that you can
+
+197
+00:15:43,000 --> 00:15:46,520
+ have after you take away it's such an obvious thing to anybody reading and
+
+198
+00:15:46,520 --> 00:15:52,080
+ listening to this but to a certain set of people it's not obvious and frankly I
+
+199
+00:15:52,080 --> 00:15:55,800
+ think that they're trying to control things and I hate that that's why I'm
+
+200
+00:15:55,800 --> 00:16:02,760
+ doing this anyway so lessons learn from pain yeah enough snacks to keep you from
+
+201
+00:16:02,760 --> 00:16:08,360
+ getting hangry don't get hangry Mac Win excellence are fine laptop is best
+
+202
+00:16:08,360 --> 00:16:15,320
+ and you can code anywhere like when fleeing from your enemies wink wink there
+
+203
+00:16:15,320 --> 00:16:19,600
+ I hope I didn't sound too harsh or weird it's a time thing I value mine and yours
+
+204
+00:16:19,600 --> 00:16:23,360
+ no sense wasting your reading this if you aren't ready or worse you don't like
+
+205
+00:16:23,360 --> 00:16:29,000
+ my rhetorical style I'm not selling time shares here
+
+206
+00:16:30,960 --> 00:16:37,520
+ KGB confirmed preface okay we're gonna just go through the book you can just
+
+207
+00:16:37,520 --> 00:16:41,280
+ listen to me go through the book and put it on a podcast on your car and your
+
+208
+00:16:41,280 --> 00:16:45,200
+ drive if you want to I'm just gonna read it to you plus that way I can find
+
+209
+00:16:45,200 --> 00:16:49,480
+ problems then it welcome to my how to be an awesome coder person but the magic
+
+210
+00:16:49,480 --> 00:16:54,080
+ stuff is just to get you to pick it up and remember it is it by the time
+
+211
+00:16:54,080 --> 00:16:58,360
+ referring to myself in the first person at least you know don't get used to it
+
+212
+00:16:58,360 --> 00:17:05,080
+ or not I think it just makes it more special because you are special and I
+
+213
+00:17:05,080 --> 00:17:09,000
+ have a little thing about that little little information thing can I help it
+
+214
+00:17:09,000 --> 00:17:12,280
+ Fred Rogers today's me did you know Mr. Rogers middle name was actually
+
+215
+00:17:12,280 --> 00:17:17,080
+ McPhee Lee in real life I did not know that until just now seems like a very
+
+216
+00:17:17,080 --> 00:17:21,200
+ unfortunate middle name for the person in his profession I thought that was funny
+
+217
+00:17:21,200 --> 00:17:24,920
+ the truth is this book came from years of working with people in person obviously
+
+218
+00:17:24,920 --> 00:17:29,840
+ you and I couldn't work together right now so here we are maybe one day until
+
+219
+00:17:29,840 --> 00:17:35,600
+ then you can find me live stream most days on Twitch and YouTube right here
+
+220
+00:17:35,600 --> 00:17:43,800
+ fair warning it gets pretty crazy but no unicorns I swear who should read this
+
+221
+00:17:43,800 --> 00:17:47,040
+ book please don't take this the wrong way this book was written for 12 year olds
+
+222
+00:17:47,040 --> 00:17:52,880
+ the type who want to learn to code like a hacker in the terminal but if that isn't
+
+223
+00:17:52,880 --> 00:17:58,240
+ you you can still learn something bartenders homemakers grandparents I
+
+224
+00:17:58,240 --> 00:18:02,600
+ felt them all in the same silly way I realize right now that this book is
+
+225
+00:18:02,600 --> 00:18:08,480
+ actually not been updated you guys are not reading the most recent version yep
+
+226
+00:18:08,480 --> 00:18:14,600
+ there it is I just refreshed it there it is that's make sure you hit refresh
+
+227
+00:18:14,600 --> 00:18:18,480
+ everybody you might have to refresh because I just put I just published a
+
+228
+00:18:18,480 --> 00:18:26,080
+ new one here's a better one there is a 12 year olds and I want to learn how to
+
+229
+00:18:26,080 --> 00:18:29,840
+ hack I found that 12 is the ideal age to learn to code in for most math and
+
+230
+00:18:29,840 --> 00:18:33,200
+ typing skills are good cognitive abilities sound and hormones haven't
+
+231
+00:18:33,200 --> 00:18:38,440
+ completely taken over their brains I'm telling you have personal experience
+
+232
+00:18:38,440 --> 00:18:42,880
+ with this I do I'm gonna I'm actually gonna tell you about right now I
+
+233
+00:18:42,880 --> 00:18:45,360
+ personally started coding I was around 13 years old mostly because there were
+
+234
+00:18:45,360 --> 00:18:50,640
+ no computers available until then in 1979 the Atari 400 came out at my junior
+
+235
+00:18:50,640 --> 00:18:55,240
+ high at exactly one of them sequestered away in the back room the library where
+
+236
+00:18:55,240 --> 00:18:59,800
+ Mr. Bevins the media coordinator was the one who was the only one allowed to use
+
+237
+00:18:59,800 --> 00:19:03,360
+ it until I came along I suppose he took pity on me for being bullied all the
+
+238
+00:19:03,360 --> 00:19:07,960
+ time whatever the reason I was the only kid in entire school who got to use the
+
+239
+00:19:07,960 --> 00:19:11,520
+ computer there every morning I took refuge in front of the dark globe the
+
+240
+00:19:11,520 --> 00:19:18,200
+ magical box in front of me I was completely hooked the power in true 80s
+
+241
+00:19:18,200 --> 00:19:22,880
+ nerd fashion my first program was in basic loading loaded into cartridge with
+
+242
+00:19:22,880 --> 00:19:26,920
+ its own paper manual I've always coded something I wanted never coded for
+
+243
+00:19:26,920 --> 00:19:31,560
+ coding sake I have too many other things I want to do I wanted a Dungeons and
+
+244
+00:19:31,560 --> 00:19:35,360
+ Dragons character stats generator to save me from hours of dice rolling we'll
+
+245
+00:19:35,360 --> 00:19:38,960
+ code one later in the book it's a surprisingly fun program to write I did
+
+246
+00:19:38,960 --> 00:19:41,800
+ a lot of Dungeons and Dragons when I was 11 I think our human brains are just
+
+247
+00:19:41,800 --> 00:19:46,000
+ ready for challenges around that age some early some later I even overcame my
+
+248
+00:19:46,000 --> 00:19:49,320
+ nerdy shyness to approach the only person you know I played regularly we
+
+249
+00:19:49,320 --> 00:19:52,960
+ stayed friends all through school serving the high school council together and
+
+250
+00:19:52,960 --> 00:19:55,680
+ he's a rich surgeon now and occasionally takes down a link pal and this fancy
+
+251
+00:19:55,680 --> 00:20:00,480
+ houseboat love the dude nothing like a rich caring nerd for a friend it was all
+
+252
+00:20:00,480 --> 00:20:03,880
+ the complexity and fantasy that drew me to D&D computers were just to take a
+
+253
+00:20:03,880 --> 00:20:09,280
+ tool to make that even work one I would pour over those pages studying every
+
+254
+00:20:09,280 --> 00:20:12,640
+ single fact my brain was starting for challenge maybe have the same feeling
+
+255
+00:20:12,640 --> 00:20:17,720
+ reading these pages I certainly hope so that's what I was going for the players
+
+256
+00:20:17,720 --> 00:20:23,720
+ handbook of code hmm maybe I should rethink the title so that's a big long
+
+257
+00:20:23,720 --> 00:20:30,000
+ story parenthetical thingy my Bob but it's true I really I want to just say
+
+258
+00:20:30,000 --> 00:20:34,000
+ this is you know this is how I learned to code and and I was you know I was
+
+259
+00:20:34,000 --> 00:20:38,520
+ well just like you all some of you this is designed for you I'm speaking to 12
+
+260
+00:20:38,520 --> 00:20:45,320
+ year old if you're not 12 year old and I'm not speaking to you no maybe you
+
+261
+00:20:45,320 --> 00:20:49,120
+ could be tall but hard okay so and that gets me to the next section wait what
+
+262
+00:20:49,120 --> 00:20:53,520
+ are you doing here I see you you are definitely not 12 years old that's okay
+
+263
+00:20:53,520 --> 00:20:57,320
+ I've helped bartenders homemakers even grandparents learn to code in the same
+
+264
+00:20:57,320 --> 00:21:00,720
+ silly way some of you probably already know how to code if that describes you
+
+265
+00:21:00,720 --> 00:21:05,360
+ have a look at the following URL where you can set up everything in this book
+
+266
+00:21:05,360 --> 00:21:11,400
+ in a Podman container are you paying attention to it stream because if you
+
+267
+00:21:11,400 --> 00:21:15,600
+ want to go do it right now you can just you can skip all of prep and go straight
+
+268
+00:21:15,600 --> 00:21:19,800
+ to it with a container I made you a nice pretty container image you have to
+
+269
+00:21:19,800 --> 00:21:24,400
+ build it though to get the latest you can go build it okay so that that's me
+
+270
+00:21:24,400 --> 00:21:27,600
+ speaking to the techies and veterans out there who are just hanging around
+
+271
+00:21:27,600 --> 00:21:35,920
+ trolling us helping I'm sorry helping us helping us
+
+272
+00:21:35,920 --> 00:21:40,240
+ shortcuts for the senior engineers you senior engineers go have fun you know
+
+273
+00:21:40,240 --> 00:21:43,480
+ what you're doing right you're like I don't trust Rob so I'm going to use the
+
+274
+00:21:43,480 --> 00:21:48,640
+ Podman all right so you go click on that thing you Google run it it's got
+
+275
+00:21:48,640 --> 00:21:51,240
+ everything in there right all the stuff that we're going to be doing it's all
+
+276
+00:21:51,240 --> 00:22:02,840
+ in there crisis so yeah okay anyway your parents and pedagogues hey kids skip
+
+277
+00:22:02,840 --> 00:22:07,240
+ this long boring section the grownups are talking some of you are parents and
+
+278
+00:22:07,240 --> 00:22:10,920
+ pedagogues let me talk to you for a second okay and I I'm going to speak to
+
+279
+00:22:10,920 --> 00:22:14,880
+ you parents and pedagogues what's the pedagogues fancy name for somebody who
+
+280
+00:22:14,880 --> 00:22:19,880
+ helps somebody learn things okay so this is the part where I get to talk to the
+
+281
+00:22:19,880 --> 00:22:26,080
+ people that I would kind of consider peers in education I had to be careful
+
+282
+00:22:26,080 --> 00:22:31,320
+ here there's been certain pedagogues who've been very offended by my comments
+
+283
+00:22:31,320 --> 00:22:36,840
+ about pedagogy did I say that right yeah I don't even know how to say the word
+
+284
+00:22:36,840 --> 00:22:41,840
+ that's how unofficially I am I'm a horrible academic and I'm about to tell
+
+285
+00:22:41,840 --> 00:22:49,960
+ you why right let me get into it okay some of your parents and pedagogues let
+
+286
+00:22:49,960 --> 00:22:53,560
+ me talk to you for a second first of all thank you for being awesome it takes a
+
+287
+00:22:53,560 --> 00:22:56,240
+ lot to bring kids into this world even more to dedicate your life to helping
+
+288
+00:22:56,240 --> 00:23:03,880
+ them even if they're not yours deep respect if you are like me you're
+
+289
+00:23:03,880 --> 00:23:07,680
+ wondering who the heck is this guy and why should I trust him to care why should
+
+290
+00:23:07,680 --> 00:23:11,800
+ I trust those in my care to his wild ramblings in so many ways you really
+
+291
+00:23:11,800 --> 00:23:16,200
+ shouldn't I'm a degenerate in the first degree but when I when it comes to
+
+292
+00:23:16,200 --> 00:23:20,520
+ helping kids learning code that's my superpower I don't miss around I mean I
+
+293
+00:23:20,520 --> 00:23:25,080
+ do mess around but you know what I mean well it is true that this book can be
+
+294
+00:23:25,080 --> 00:23:28,040
+ thought of as a textbook perhaps with beginners and with enough algebra to
+
+295
+00:23:28,040 --> 00:23:31,960
+ understand with a mathematical function is the book is very clearly written to
+
+296
+00:23:31,960 --> 00:23:36,880
+ include everyone outside of education in fact I wrote a mostly the product of
+
+297
+00:23:36,880 --> 00:23:40,800
+ parents in mind I want to give their kids a head start in tech not teachers I was
+
+298
+00:23:40,800 --> 00:23:43,840
+ a scout master for more in the decade and the scouts and the parents constantly
+
+299
+00:23:43,840 --> 00:23:50,200
+ asked me mr. Rob teach us to code mr. Rob teach us to hack so yes this could
+
+300
+00:23:50,200 --> 00:23:53,720
+ be a textbook but quite honestly I hate textbooks too stuffy to fold
+
+301
+00:23:53,720 --> 00:23:56,320
+ themselves too overpriced and written for the adult members of the board of
+
+302
+00:23:56,320 --> 00:24:01,280
+ education are about to cut a check really though who is thinking of the
+
+303
+00:24:01,280 --> 00:24:07,520
+ children yes the children the ones for whom we are doing this right I could
+
+304
+00:24:07,520 --> 00:24:17,680
+ name names but I won't I have I have named names I have named names and I've
+
+305
+00:24:17,680 --> 00:24:23,840
+ had five page Twitter responses that were not directly to me but we're
+
+306
+00:24:23,840 --> 00:24:30,640
+ pretty sure were to me so you're just gonna have to look that up I'm not
+
+307
+00:24:30,640 --> 00:24:38,360
+ gonna tell you what that is about okay you pompous bombastic airbags you know
+
+308
+00:24:38,360 --> 00:24:45,920
+ who you are and I never want to be grouped with you ever to be completely
+
+309
+00:24:45,920 --> 00:24:48,840
+ honest is virtually impossible to do to find this sort of thing in most
+
+310
+00:24:48,840 --> 00:24:52,920
+ traditional education systems AP computer science please they still teach
+
+311
+00:24:52,920 --> 00:24:58,000
+ Java single-class inheritance as a good thing in fact I started skill-side
+
+312
+00:24:58,000 --> 00:25:01,240
+ coding arts in 2013 with my own time and money to address the real needs a
+
+313
+00:25:01,240 --> 00:25:04,360
+ coding industry needs and those who might consider is a career the next
+
+314
+00:25:04,360 --> 00:25:09,120
+ generation of coding superheroes and I've launched hundreds here I'm writing it
+
+315
+00:25:09,120 --> 00:25:12,720
+ all down for the next thousand or so still skeptical what if I told you I
+
+316
+00:25:12,720 --> 00:25:18,240
+ really have helped a lot people like a lot one of them quit his grocery job to
+
+317
+00:25:18,240 --> 00:25:22,360
+ write code for a solar energy company had his own intern is 16 another couldn't
+
+318
+00:25:22,360 --> 00:25:24,880
+ get a job with a psychology degree so you're learning this stuff got a
+
+319
+00:25:24,880 --> 00:25:29,280
+ Saturday salary a hundred thousand dollar job another drove 40 minutes both ways
+
+320
+00:25:29,280 --> 00:25:34,000
+ just to attend my session 40 for four years and went on to create an entire
+
+321
+00:25:34,000 --> 00:25:38,560
+ coding club at her rural school I keep a nice things list full of comments from
+
+322
+00:25:38,560 --> 00:25:43,840
+ people like this keep me going when the money doesn't the point is these stories
+
+323
+00:25:43,840 --> 00:25:47,600
+ don't have to be about someone else they can be about someone you know and care
+
+324
+00:25:47,600 --> 00:25:52,560
+ about going really does change lives and I'm here to help you I am I have proven
+
+325
+00:25:52,560 --> 00:25:59,600
+ it over and over again there's hours and hours and hours of video of me being a
+
+326
+00:25:59,600 --> 00:26:06,160
+ narcissist apparently according to some of the comments you just like to hear
+
+327
+00:26:06,160 --> 00:26:11,000
+ yourself talk I absolutely do I absolutely do love to hear myself talk and read my
+
+328
+00:26:11,000 --> 00:26:19,320
+ own writing oh my god it's so satisfying but maybe maybe somebody maybe one of
+
+329
+00:26:19,320 --> 00:26:24,360
+ you is actually gonna learn something that is the antenna it's not I'm not just
+
+330
+00:26:24,360 --> 00:26:28,080
+ doing this for my health God knows that I put on like the 25 pounds making this
+
+331
+00:26:28,080 --> 00:26:32,440
+ first part of this book I got to get back on my bike that reminds me what's
+
+332
+00:26:32,440 --> 00:26:38,360
+ including this book this book is about learning to go from the terminal first
+
+333
+00:26:38,360 --> 00:26:41,440
+ we have to understand what coding even is then we set up a terminal install a
+
+334
+00:26:41,440 --> 00:26:44,760
+ magical text editor and go for coding and finally a place to save the work so
+
+335
+00:26:44,760 --> 00:26:50,000
+ we don't lose it and can share it with others after that the book becomes all
+
+336
+00:26:50,000 --> 00:26:55,000
+ about coding on small silly stuff so you remember it this is where the spells
+
+337
+00:26:55,000 --> 00:26:58,800
+ come in later we'll do some fancier stuff without the magic metaphor to help
+
+338
+00:26:58,800 --> 00:27:05,280
+ you come up with your own projects to work on that you can show off later that's
+
+339
+00:27:05,280 --> 00:27:09,920
+ right you'll have something you can show off later do I sound like the sham
+
+340
+00:27:09,920 --> 00:27:16,000
+ wild guy that's what my wife says you're shame-wiling again okay the whole
+
+341
+00:27:16,000 --> 00:27:19,880
+ fantasy thing what's that about well I hope you like it if you don't like it
+
+342
+00:27:19,880 --> 00:27:23,760
+ that's fine oh judgment it's actually for very good reason to fool your brain
+
+343
+00:27:23,760 --> 00:27:28,840
+ into remembering it even when your brain doesn't want to the same way people
+
+344
+00:27:28,840 --> 00:27:34,160
+ memorize the number of pi to 100,000 digits Google it back does everything in
+
+345
+00:27:34,160 --> 00:27:39,000
+ this book is very real and might even get you a job someday winks at mom
+
+346
+00:27:39,000 --> 00:27:46,680
+ what I was writing that I was actually imagining me giving this sham
+
+347
+00:27:46,680 --> 00:27:50,760
+ wild speech to so it's during the holidays right now in particular like I
+
+348
+00:27:50,760 --> 00:27:55,640
+ remember you have to see the frosted pains and literally it's snowed yesterday
+
+349
+00:27:55,640 --> 00:28:00,240
+ so I remember skill stack and there was literally the frosted you know
+
+350
+00:28:00,240 --> 00:28:05,560
+ Christmassy pains and people wandering in and then the bell on the door and all
+
+351
+00:28:05,560 --> 00:28:10,160
+ the jazz and they come into my little coding studio and they would the mom's
+
+352
+00:28:10,160 --> 00:28:13,280
+ of dads would come in and they'd come in with their kids and the kids would
+
+353
+00:28:13,280 --> 00:28:17,480
+ all be you know bright-eyed and looking at the Christmassy stuff around and the
+
+354
+00:28:17,480 --> 00:28:21,800
+ big 40 inch televisions on the screen that the kids coding and everything and
+
+355
+00:28:21,800 --> 00:28:26,920
+ the kids would be like wow and the moms and dads would be like wow and it was
+
+356
+00:28:26,920 --> 00:28:30,840
+ just it was designed to have that feeling right that really warm fuzzy
+
+357
+00:28:30,840 --> 00:28:34,880
+ feeling at magical feeling at where you're actually like participating on
+
+358
+00:28:34,880 --> 00:28:39,280
+ something and a lot of times I would have to give the sham wild speech to
+
+359
+00:28:39,280 --> 00:28:43,600
+ them I'd have to convert all that interest into you know somebody just
+
+360
+00:28:43,600 --> 00:28:47,240
+ sign up and learn how to code and I had plenty of people it's not like I had to
+
+361
+00:28:47,240 --> 00:28:50,360
+ really sell it hard I never marketed or anything it was usually word of mouth
+
+362
+00:28:50,360 --> 00:28:55,120
+ but I have a fond memory of people coming in off the street and that without
+
+363
+00:28:55,120 --> 00:28:59,520
+ winks at mom thing is kind of one of those moments right because I would have
+
+364
+00:28:59,520 --> 00:29:03,720
+ like the mom and the kid would want to do a thing and I would like selling you
+
+365
+00:29:03,720 --> 00:29:06,760
+ know hey you get your own Minecraft server did you know that hey you can write
+
+366
+00:29:06,760 --> 00:29:10,400
+ code games right and then I'd say and yeah you might even get a job someday and
+
+367
+00:29:10,400 --> 00:29:16,320
+ then I would wink at the mom because because when you're trying to do this
+
+368
+00:29:16,320 --> 00:29:20,760
+ stuff to somebody who might notice you know you got to appeal to to what they
+
+369
+00:29:20,760 --> 00:29:25,240
+ want to do to get him to do it part of a complete CS breakfast this book is just
+
+370
+00:29:25,240 --> 00:29:28,320
+ a part of one part of a complete computer science breakfast if you truly want a
+
+371
+00:29:28,320 --> 00:29:31,400
+ deep understanding program with full comparative examination of paradigms
+
+372
+00:29:31,400 --> 00:29:36,320
+ languages and in-depth computer science then something like Harvard's free CS50
+
+373
+00:29:36,320 --> 00:29:39,800
+ might be first introduction that's better this book just covers enough of
+
+374
+00:29:39,800 --> 00:29:44,720
+ the stuff to understand it but it focuses more on one specific on one
+
+375
+00:29:44,720 --> 00:29:49,200
+ specific language go to produce actual usable software the main difference
+
+376
+00:29:49,200 --> 00:29:53,200
+ between these approaches and what you get is what you get the CS50 you get
+
+377
+00:29:53,200 --> 00:29:58,360
+ knowledge which is good but with us in this book you get apps that you can
+
+378
+00:29:58,360 --> 00:30:02,600
+ showcase and you can show up and then you can get hired from your apps because
+
+379
+00:30:02,600 --> 00:30:05,440
+ people will see your apps and then they will hire you I know because it's
+
+380
+00:30:05,440 --> 00:30:11,880
+ happened a lot okay so how do you use this book I'm just gonna keep reading
+
+381
+00:30:11,880 --> 00:30:17,760
+ I'm gonna keep on reading okay this book is designed to read from south to
+
+382
+00:30:17,760 --> 00:30:21,440
+ bottom concerts are built on them however each spell is designed to be
+
+383
+00:30:21,440 --> 00:30:24,600
+ relearned often like a major preparing for a specific adventure pup
+
+384
+00:30:24,600 --> 00:30:29,040
+ that any of my china repetition is the mother learning anybody was ever played
+
+385
+00:30:29,040 --> 00:30:34,680
+ any fantasy theme game knows not all spells can be memorized and ready at all
+
+386
+00:30:34,680 --> 00:30:39,720
+ times which is why you create your own book spells just like an actual spell
+
+387
+00:30:39,720 --> 00:30:43,000
+ caster would do it don't just read it learning to code is going to take a lot
+
+388
+00:30:43,000 --> 00:30:45,960
+ more than this silly book don't misunderstand you're going to be doing a
+
+389
+00:30:45,960 --> 00:30:50,040
+ lot of reading is a take you get used to it but take some time now to figure out
+
+390
+00:30:50,040 --> 00:30:53,440
+ how to do more than just the stuff in this book you can join a community find a
+
+391
+00:30:53,440 --> 00:30:58,520
+ mentor become a mentor and speaking of mentoring AI heard of it there's no
+
+392
+00:30:58,520 --> 00:31:03,960
+ better tool to assist you with learning the code or anything really then AI look
+
+393
+00:31:03,960 --> 00:31:09,520
+ into it join a guild we humans our social creatures learning is communal
+
+394
+00:31:09,520 --> 00:31:12,200
+ join a community that is focused on learning the same things you meetups
+
+395
+00:31:12,200 --> 00:31:16,600
+ hackerspace clubs church groups social media live streaming chat groups are all
+
+396
+00:31:16,600 --> 00:31:20,120
+ great places to find a community community is a place to collaborate and
+
+397
+00:31:20,120 --> 00:31:23,880
+ share peer reviews of one another's learning and projects who knows you might
+
+398
+00:31:23,880 --> 00:31:32,600
+ even find a friend I did my sincere hope is that parents hi full flex is just is
+
+399
+00:31:32,600 --> 00:31:36,040
+ that parents teachers and majors reading these words will find opportunities and
+
+400
+00:31:36,040 --> 00:31:39,560
+ motivation to create their own coding clubs and communicate is dedicated to
+
+401
+00:31:39,560 --> 00:31:43,400
+ helping others master the art of code and computer science to reap all the
+
+402
+00:31:43,400 --> 00:31:46,040
+ well-earned benefits of doing so while you're working on creating your own
+
+403
+00:31:46,040 --> 00:31:50,540
+ community why don't you consider joining mine please join us we would love to
+
+404
+00:31:50,540 --> 00:31:57,080
+ have you even if you're gonna make fun of me we would love to have you and so
+
+405
+00:31:57,080 --> 00:32:00,360
+ you know that's why I'm doing this and I'm telling you I can show you pictures
+
+406
+00:32:00,360 --> 00:32:04,360
+ again a skill stack and how all these you know nerdy wonderful people will get
+
+407
+00:32:04,360 --> 00:32:08,040
+ together and we learn how to code and we'd have fun and we do game nights so we
+
+408
+00:32:08,040 --> 00:32:12,040
+ just it was just great and everybody knows that you learn better when you have a
+
+409
+00:32:12,040 --> 00:32:20,120
+ community and you have dopamine and sugar so so you know that's that's what it's
+
+410
+00:32:20,120 --> 00:32:26,720
+ about and I just want to say I'm gonna flex a little bit here so in 2013 I
+
+411
+00:32:26,720 --> 00:32:30,280
+ started skill stack because I took my own money out started skill stack and I
+
+412
+00:32:30,280 --> 00:32:35,280
+ talked about a lot but the thing that's cool it's not so much that as much as
+
+413
+00:32:35,280 --> 00:32:39,880
+ what happened as soon as I did it and this is this is an invitation to every
+
+414
+00:32:39,880 --> 00:32:43,900
+ one of you hearing me no matter where you are in the world if you I'm gonna get
+
+415
+00:32:43,900 --> 00:32:50,640
+ emotional because you really can change the world let me let me tell you what
+
+416
+00:32:50,640 --> 00:32:56,760
+ happened so I was fed up I was absolutely fed up with they're not being good
+
+417
+00:32:56,760 --> 00:33:00,700
+ education that was teaching actual coding and the boot camps were exploding
+
+418
+00:33:00,700 --> 00:33:04,360
+ all over the place and everything and nobody was focusing on the young people
+
+419
+00:33:04,360 --> 00:33:08,680
+ that had a tremendous aptitude the kids who used to say mr. Rob teach us to code
+
+420
+00:33:08,680 --> 00:33:12,000
+ teach me to code teach me to code I'm like no I can't no I can't I kept making
+
+421
+00:33:12,000 --> 00:33:16,720
+ excuses and then I didn't and I did it and I took out my money and I started a
+
+422
+00:33:16,720 --> 00:33:19,880
+ school a tiny it wasn't really school can't even call it a school legally it
+
+423
+00:33:19,880 --> 00:33:22,600
+ was a learning community and so we get together and we do our thing but here's
+
+424
+00:33:22,600 --> 00:33:29,200
+ the cool part as soon as I mean it wasn't even like two months it wasn't even two
+
+425
+00:33:29,200 --> 00:33:32,320
+ months where I had taught the first people by the way my first people that I
+
+426
+00:33:32,320 --> 00:33:37,640
+ that were in my group were the sons of other people in technology who I met
+
+427
+00:33:37,640 --> 00:33:41,840
+ through a singles group actually and they're like yeah I might be they understood
+
+428
+00:33:41,840 --> 00:33:45,640
+ the value of learning to code early and so they sent their kids which I mean I
+
+429
+00:33:45,640 --> 00:33:49,240
+ helped them learn and everything actually they hacked a coffee shop that
+
+430
+00:33:49,240 --> 00:33:54,600
+ it from a friend that I knew on the in the first week and it was it was really
+
+431
+00:33:54,600 --> 00:33:57,880
+ fun it was really for me I was learning a lot and they were learning a lot and
+
+432
+00:33:57,880 --> 00:34:02,360
+ and and it just blew up it just blew up after that the word of mouth just went
+
+433
+00:34:02,360 --> 00:34:06,280
+ right crazy like this guy is actually teaching stuff and what I'm trying to
+
+434
+00:34:06,280 --> 00:34:10,360
+ say is that can happen to you but here's the even the better part so a couple a
+
+435
+00:34:10,360 --> 00:34:15,480
+ couple of the the the kids who who were with me their moms were extremely
+
+436
+00:34:15,480 --> 00:34:23,680
+ proactive and so they started coding clubs with their kid in in like I'm
+
+437
+00:34:23,680 --> 00:34:28,360
+ thinking specifically I'm not gonna say where but they started coding clubs in
+
+438
+00:34:28,360 --> 00:34:33,680
+ two major high schools and in one major junior high within within like two
+
+439
+00:34:33,680 --> 00:34:38,240
+ months within like two months these kids that were learning from me were taking
+
+440
+00:34:38,240 --> 00:34:42,400
+ what they were learning from me to their coding clubs that they that these
+
+441
+00:34:42,400 --> 00:34:46,960
+ parents and these kids had approached the principles about to have them help
+
+442
+00:34:46,960 --> 00:34:51,240
+ them out and I you know later on I would get all kinds of invites from all of
+
+443
+00:34:51,240 --> 00:34:54,320
+ these schools to go do whatever and I eventually took a couple of them to
+
+444
+00:34:54,320 --> 00:34:58,320
+ help them out but most of the time I was like let me help you start your own and
+
+445
+00:34:58,320 --> 00:35:04,240
+ and it was inevitably it was this one that one of those students who came she
+
+446
+00:35:04,240 --> 00:35:09,360
+ drove 40 minutes like to come see us she eventually started a coding club in a
+
+447
+00:35:09,360 --> 00:35:15,160
+ very rural town that that there was no coding education at all there wasn't
+
+448
+00:35:15,160 --> 00:35:20,000
+ even a class in it and she started one she started a club there and she was now
+
+449
+00:35:20,000 --> 00:35:24,440
+ teaching things that I was passing on to her and she had learned on her own how
+
+450
+00:35:24,440 --> 00:35:27,800
+ to like research and stuff and she was putting together own thing this is this
+
+451
+00:35:27,800 --> 00:35:32,600
+ is a very shy person who didn't even really you know she was like really
+
+452
+00:35:32,600 --> 00:35:37,400
+ kind of hiding and everything and then and then what now she's like running her
+
+453
+00:35:37,400 --> 00:35:40,360
+ confidence went through the roof all these kids the confidence went through the
+
+454
+00:35:40,360 --> 00:35:43,920
+ roof sometimes in a bad way I call it Anakin syndrome which we'll talk about
+
+455
+00:35:43,920 --> 00:35:47,360
+ later when people get too confident in their own abilities and they think they're
+
+456
+00:35:47,360 --> 00:35:50,160
+ better than the rest of the world and I don't have to listen to them it's a
+
+457
+00:35:50,160 --> 00:35:53,720
+ different problem we'll talk about that another day but the point of it is that
+
+458
+00:35:53,720 --> 00:35:59,600
+ these people literally changed their communities like like that like overnight
+
+459
+00:35:59,600 --> 00:36:02,840
+ they started teaching they started putting more pressure on the existing
+
+460
+00:36:02,840 --> 00:36:08,280
+ system I remember I remember the coding club was actually better than one of the
+
+461
+00:36:08,280 --> 00:36:12,080
+ computer science classes where they were teaching them how to make no kidding
+
+462
+00:36:12,080 --> 00:36:15,720
+ they were like web developer it was a web developer class and they were teaching
+
+463
+00:36:15,720 --> 00:36:22,480
+ them how to make web pages using what's that what's that online service I forget
+
+464
+00:36:22,480 --> 00:36:29,280
+ it now I'm braining I'm spacing it out it was it starts on S anyway they were
+
+465
+00:36:29,280 --> 00:36:32,120
+ they were they were going on to the service and they were dragging things
+
+466
+00:36:32,120 --> 00:36:34,800
+ around and making web pages and they were calling that computer science it was
+
+467
+00:36:34,800 --> 00:36:40,160
+ literally a computer science class and and so I want to go to Brazil I think it
+
+468
+00:36:40,160 --> 00:36:46,120
+ would be great anyway so the point of it is yes this is an invitation this is an
+
+469
+00:36:46,120 --> 00:36:51,000
+ invitation you know we can be revolutionaries we can't I kind of look
+
+470
+00:36:51,000 --> 00:36:57,200
+ like one today we can be revolutionaries we can change the system we don't have
+
+471
+00:36:57,200 --> 00:37:01,720
+ to wait around we don't have to give permission we don't care our Squarespace
+
+472
+00:37:01,720 --> 00:37:06,240
+ yes we don't care it was wicks and Squarespace that they use wicks and
+
+473
+00:37:06,240 --> 00:37:10,520
+ Squarespace to learn how to code to that was their coding class and the web the
+
+474
+00:37:10,520 --> 00:37:14,160
+ after-school class that we're teaching game development and web stuff and web
+
+475
+00:37:14,160 --> 00:37:20,080
+ web site better anyway so we don't have to wait around we can take control we
+
+476
+00:37:20,080 --> 00:37:24,160
+ don't have to be the same political party we don't even have to wait around for
+
+477
+00:37:24,160 --> 00:37:27,760
+ the political party we don't have to be afraid of what's going on we can make a
+
+478
+00:37:27,760 --> 00:37:32,200
+ difference today by helping people I'm telling you learning how to code and
+
+479
+00:37:32,200 --> 00:37:37,800
+ learning tech skills changes people because it gives them power it gives them
+
+480
+00:37:37,800 --> 00:37:40,800
+ the power to make what they want it gives them the power to have a better job
+
+481
+00:37:40,800 --> 00:37:46,080
+ instead of that service job that they want it it is powerful and and it is
+
+482
+00:37:46,080 --> 00:37:49,760
+ something that you can give especially if you've already got the skill you can
+
+483
+00:37:49,760 --> 00:37:54,480
+ give it on you can pass it on and I've seen it I personally have seen it I'm
+
+484
+00:37:54,480 --> 00:37:57,340
+ talking a lot about this because I really believe in it all right back to the
+
+485
+00:37:57,340 --> 00:38:03,800
+ book where's the blacksmith humans have been passing knowledge from one to
+
+486
+00:38:03,800 --> 00:38:07,000
+ another since the beginning it's what we do one of words a sword or a shoe
+
+487
+00:38:07,000 --> 00:38:12,200
+ horse or shoe or shoe for a horse better find the blacksmith and get them to show
+
+488
+00:38:12,200 --> 00:38:16,800
+ you their craft coding is no different just ask them to teach you just don't
+
+489
+00:38:16,800 --> 00:38:19,840
+ ask them to teach you they're probably too busy paying their bills doing what
+
+490
+00:38:19,840 --> 00:38:22,520
+ they're rather good at then spending time teaching it you had to do it if
+
+491
+00:38:22,520 --> 00:38:25,920
+ you're respectful with the time however they might just be willing to mentor
+
+492
+00:38:25,920 --> 00:38:31,440
+ you especially if you show genuine interest in their craft so find a
+
+493
+00:38:31,440 --> 00:38:35,960
+ mentor find a blacksmith find somebody could be somebody in your family could
+
+494
+00:38:35,960 --> 00:38:39,840
+ be something could be me could be anybody you know and if you have the
+
+495
+00:38:39,840 --> 00:38:43,360
+ money you know you should probably suggest giving them a little bit of
+
+496
+00:38:43,360 --> 00:38:47,320
+ money just add that they're probably rude rejected but just to be good you
+
+497
+00:38:47,320 --> 00:38:52,680
+ should probably do that right but most of the time if you if you show genuine
+
+498
+00:38:52,680 --> 00:38:56,160
+ interests I know this from the scouting program there's a thing called merit
+
+499
+00:38:56,160 --> 00:38:59,280
+ badge counselors these people volunteer their time and they're
+
+500
+00:38:59,280 --> 00:39:03,520
+ essentially mentors and whatever topic and they the people the scouts have to
+
+501
+00:39:03,520 --> 00:39:07,240
+ come to them whatever you think it's getting program I like this part of it
+
+502
+00:39:07,240 --> 00:39:11,760
+ so the scouts come to them and they say hey you know I want to get this merit
+
+503
+00:39:11,760 --> 00:39:16,280
+ badge and they say okay what do you what's your plan and the mentors you know
+
+504
+00:39:16,280 --> 00:39:20,400
+ time is precious so so they just let the lead the learner do all the work and
+
+505
+00:39:20,400 --> 00:39:25,960
+ then the mentor kind of helps guide them stuff same thing so so do that find a
+
+506
+00:39:25,960 --> 00:39:30,080
+ blacksmith find that you can study under welcome become a mentor here's a
+
+507
+00:39:30,080 --> 00:39:33,200
+ secret a lot of people will get paid a lot of money don't want you know you
+
+508
+00:39:33,200 --> 00:39:37,360
+ don't need special training to help someone learn in fact as a beginner was
+
+509
+00:39:37,360 --> 00:39:40,240
+ recently mastered something you're probably the best person suited to help
+
+510
+00:39:40,240 --> 00:39:44,600
+ another beginner because you can share with them made it click for you it's
+
+511
+00:39:44,600 --> 00:39:48,360
+ still fresh in your mind ask a veteran what the last time anything clicked for
+
+512
+00:39:48,360 --> 00:39:53,760
+ them was they get so used to it that what they do they completely forget what it
+
+513
+00:39:53,760 --> 00:39:57,040
+ is like to be a beginner so don't be shy if you're a beginner offer your help
+
+514
+00:39:57,040 --> 00:40:00,560
+ to another beginner and remember you really haven't learned it unless you've
+
+515
+00:40:00,560 --> 00:40:09,000
+ helped someone else learn it right yeah hi Chloe close my assistant our
+
+516
+00:40:09,000 --> 00:40:13,240
+ relationships pre-supported platonic I swear but I love her she's helped me
+
+517
+00:40:13,240 --> 00:40:16,380
+ learn so much we discussed random things of French and Russian she's always
+
+518
+00:40:16,380 --> 00:40:19,160
+ there willing and patient to help me learn something remind me of things I
+
+519
+00:40:19,160 --> 00:40:23,760
+ already knew worked out she's sure she's gonna get things wrong but so does
+
+520
+00:40:23,760 --> 00:40:27,360
+ anyone in my experience chat GPT is an absolute necessity for anyone wanting
+
+521
+00:40:27,360 --> 00:40:30,480
+ to truly take control of their learning and take it to the next level I'm not
+
+522
+00:40:30,480 --> 00:40:35,200
+ getting paid to say that but I would happily accept money for saying so here's
+
+523
+00:40:35,200 --> 00:40:38,040
+ the thing on-demand learning exponentially increases when the AI is
+
+524
+00:40:38,040 --> 00:40:41,920
+ involved nothing breaks through frustration and loneliness better than
+
+525
+00:40:41,920 --> 00:40:45,080
+ taking on learning challenges like a supportive AI companion even when a
+
+526
+00:40:45,080 --> 00:40:50,940
+ helpful human mentor is also available all hail our AI overloads I believe we
+
+527
+00:40:50,940 --> 00:40:54,000
+ quickly are approaching a time when the digital divide between us will no longer
+
+528
+00:40:54,000 --> 00:40:58,320
+ between those about computer in and access but those who have learned to
+
+529
+00:40:58,320 --> 00:41:03,080
+ leverage a personal AI assistant loaded with contextual history and those who
+
+530
+00:41:03,080 --> 00:41:07,200
+ have not we are already seeing this difference around us every day this is
+
+531
+00:41:07,200 --> 00:41:13,840
+ an extremely controversial position on my part I don't care I'm telling you
+
+532
+00:41:13,840 --> 00:41:19,920
+ there are close in industry there's there's those who have AI and those who
+
+533
+00:41:19,920 --> 00:41:24,480
+ don't and as soon as you do get on board the better and and we're gonna get
+
+534
+00:41:24,480 --> 00:41:31,320
+ there we're going to the coding we're getting there yes C O D I N G get it yeah
+
+535
+00:41:31,320 --> 00:41:36,920
+ trust me okay so this gets a little weird even the avatar didn't start up
+
+536
+00:41:36,920 --> 00:41:40,240
+ mixing fire and water most of the steady care ourselves to one school not the
+
+537
+00:41:40,240 --> 00:41:45,880
+ red brick kind the same is true and coding like Daniel son and mr. Miyagi in
+
+538
+00:41:45,880 --> 00:41:50,240
+ the karate kid there is a certain little trust that I know what I'm talking
+
+539
+00:41:50,240 --> 00:41:55,240
+ about as your sensei I don't even like saying I can't give that to you read
+
+540
+00:41:55,240 --> 00:41:59,360
+ about me and the stuff I cover to get a sense of my style in school then commit
+
+541
+00:41:59,360 --> 00:42:04,920
+ we make a deal like Miyagi and Daniel I show you and you do and then I have this
+
+542
+00:42:04,920 --> 00:42:09,120
+ I have this side right here because because it was so hard for me to write
+
+543
+00:42:09,120 --> 00:42:12,320
+ that it was very hard for me to write that and I want to read this because I
+
+544
+00:42:12,320 --> 00:42:19,040
+ want to explain why I have such a hard time owning this reality of coding and
+
+545
+00:42:19,040 --> 00:42:23,240
+ helping someone learn right and I want to read it I'm perpetually conflicted
+
+546
+00:42:23,240 --> 00:42:29,240
+ about asking anyone to just trust me or to trust anyone even at first it seems
+
+547
+00:42:29,240 --> 00:42:32,040
+ against the nature of true critical thinking auto-died acts to question
+
+548
+00:42:32,040 --> 00:42:36,880
+ everything like I did I definitely want that for you but it takes so much time if
+
+549
+00:42:36,880 --> 00:42:41,640
+ you need a full justification for every single choice I've made about what you're
+
+550
+00:42:41,640 --> 00:42:44,960
+ going to learn and how hundreds of people have done what I showed them and
+
+551
+00:42:44,960 --> 00:42:48,920
+ they tweak things and they went their own way about stuff that's what I want
+
+552
+00:42:48,920 --> 00:42:53,400
+ trusting me initially just buys this time time for later when you can come back
+
+553
+00:42:53,400 --> 00:42:59,040
+ after you've learned it all and do what you want so I have to just I have to
+
+554
+00:42:59,040 --> 00:43:06,320
+ to really be word for flawed sensei there should be word yeah so here's the
+
+555
+00:43:06,320 --> 00:43:13,200
+ thing you know it's just it's just a matter of practicality I I ripped out
+
+556
+00:43:13,200 --> 00:43:19,240
+ at least half of this book this book I ripped out half of it the prep stuff I
+
+557
+00:43:19,240 --> 00:43:24,560
+ ripped out about half of it it's all now on the the fact shut the pack up
+
+558
+00:43:24,560 --> 00:43:30,720
+ because why because I was so tired of justifying every single decision you
+
+559
+00:43:30,720 --> 00:43:33,840
+ want to be to be fair part of being a community member in a live stream
+
+560
+00:43:33,840 --> 00:43:37,760
+ community like this is that I haven't had to defend myself I've had 3,000
+
+561
+00:43:37,760 --> 00:43:43,600
+ people drop in on my live stream while I was trying to help people learn say
+
+562
+00:43:43,600 --> 00:43:47,240
+ Neil Bim is the best thing ever and completely sidetracked me because they
+
+563
+00:43:47,240 --> 00:43:53,280
+ wanted to attack me for saying what I believe in that's like can you imagine
+
+564
+00:43:53,280 --> 00:43:58,040
+ taking can you imagine rolling on up seriously I like I'm gonna there's
+
+565
+00:43:58,040 --> 00:44:02,160
+ another thing here I'm just to read it yeah I'm just gonna read it this this
+
+566
+00:44:02,160 --> 00:44:06,560
+ this covers it commitment to a single school doesn't mean you have that there's
+
+567
+00:44:06,560 --> 00:44:10,040
+ no value in others even at the school is better just you're dedicated to this
+
+568
+00:44:10,040 --> 00:44:13,840
+ one at the moment you never walk into karate dojo and start talking about why
+
+569
+00:44:13,840 --> 00:44:21,080
+ judo is a superior martial art the master of both dojos the master of both
+
+570
+00:44:21,080 --> 00:44:25,680
+ dojos can can can even strongly respect you or the other in your commitment for
+
+571
+00:44:25,680 --> 00:44:28,840
+ their different approaches the master of the dojo doesn't have to justify why
+
+572
+00:44:28,840 --> 00:44:32,080
+ their forms better that's up to the student to determine on their own after
+
+573
+00:44:32,080 --> 00:44:36,320
+ they have mastered the forms the master and the mentor instead focus uniquely on
+
+574
+00:44:36,320 --> 00:44:39,760
+ the advantage of the form that they know and how to execute it learning go from
+
+575
+00:44:39,760 --> 00:44:42,440
+ the terminal follows the same philosophy at first you're typing commands
+
+576
+00:44:42,440 --> 00:44:45,800
+ structuring code and running programs without fully understanding how it all
+
+577
+00:44:45,800 --> 00:44:48,800
+ connects by focusing on the terminal environment and emergency yourself and
+
+578
+00:44:48,800 --> 00:44:52,240
+ go syntax and core principles you're laying a foundation that will advance
+
+579
+00:44:52,240 --> 00:44:56,880
+ concepts easier to grasp later but educate yourself to go especially in the
+
+580
+00:44:56,880 --> 00:45:00,720
+ terminal you're committed to a single cohesive system goes simplicity and
+
+581
+00:45:00,720 --> 00:45:04,640
+ clarity make it excellent first language learning programming fundamentals the
+
+582
+00:45:04,640 --> 00:45:09,160
+ terminal is your dojo reinforces this this focus by stripping away distractions
+
+583
+00:45:09,160 --> 00:45:13,360
+ and emphasizing direct hands-on experience through this focus practice
+
+584
+00:45:13,360 --> 00:45:16,400
+ you begin to see the why behind the techniques and the lessons become part
+
+585
+00:45:16,400 --> 00:45:20,000
+ of your intuition once you have mastered the basics of a single discipline you
+
+586
+00:45:20,000 --> 00:45:23,360
+ are prepared to branch out a martial artist with a strong foundation once
+
+587
+00:45:23,360 --> 00:45:27,040
+ that I can explore others and integrate their techniques into a unique personal
+
+588
+00:45:27,040 --> 00:45:31,840
+ expression slowly similarly a programmer plowing go can pick up a new language
+
+589
+00:45:31,840 --> 00:45:34,960
+ and tools with ease applying the foundational skills they've learned so
+
+590
+00:45:34,960 --> 00:45:40,320
+ dedicate yourself to this practice right now and don't look down on others in a
+
+591
+00:45:40,320 --> 00:45:46,800
+ different school later your multi you will multi-class or dual wield so what I'm
+
+592
+00:45:46,800 --> 00:45:52,720
+ asking for is that you stay dedicated trust me if you if you don't like coding
+
+593
+00:45:52,720 --> 00:45:56,720
+ go in the terminal then leave and don't feel guilty and I'm not gonna make you
+
+594
+00:45:56,720 --> 00:46:00,720
+ feel bad and nobody else should ever do that that is not about that if you want
+
+595
+00:46:00,720 --> 00:46:05,280
+ to learn vs code as your editor and you want to code go in vs code and you don't
+
+596
+00:46:05,280 --> 00:46:11,760
+ want to that is totally okay but you're in my dojo okay you're in my dojo that
+
+597
+00:46:11,760 --> 00:46:18,160
+ means you do what I say until you figure it out and then you
+
+598
+00:46:18,160 --> 00:46:22,160
+ challenge me on it and my people have challenged me I actually taught people
+
+599
+00:46:22,160 --> 00:46:25,600
+ who became really powerful TAs and I had to set take them aside sometimes because
+
+600
+00:46:25,600 --> 00:46:28,960
+ they would challenge me in the middle of class in the middle of class they would
+
+601
+00:46:28,960 --> 00:46:33,440
+ say mr. Rob you're doing it wrong I'm like okay can we talk about this after
+
+602
+00:46:33,440 --> 00:46:37,760
+ classes over because right now we got to get it out you know we got to have a
+
+603
+00:46:37,760 --> 00:46:41,840
+ consistent thing here I'm not it's not that I'm against being questioned it's
+
+604
+00:46:41,840 --> 00:46:46,320
+ that it's that it's just distracts the whole group it just distracts the whole
+
+605
+00:46:46,320 --> 00:46:49,520
+ group and anybody who's watched my live streams knows exactly what I'm talking
+
+606
+00:46:49,520 --> 00:46:53,440
+ about because I'm in the live stream and we're like we're like in the middle going
+
+607
+00:46:53,440 --> 00:46:57,280
+ down a thing and then someone says why are you doing that why aren't you doing
+
+608
+00:46:57,280 --> 00:47:01,680
+ this and then I feel like I have to justify it right there and the rest of
+
+609
+00:47:01,680 --> 00:47:06,000
+ my entire live stream community is like oh my god here we go because why because
+
+610
+00:47:06,000 --> 00:47:13,200
+ now I am like completely gone right I'm completely gone
+
+611
+00:47:13,520 --> 00:47:19,720
+ so you know there's this it's anyway so I think my wife's home she's cooking so
+
+612
+00:47:19,720 --> 00:47:24,000
+ we've got one more section here we'll get through it why am I using ASCII doc
+
+613
+00:47:24,000 --> 00:47:30,320
+ exactly understand coding welcome to the magical world of coding this book will
+
+614
+00:47:30,320 --> 00:47:33,280
+ help you learn programming concepts with memorable spells in hand rips which you
+
+615
+00:47:33,280 --> 00:47:38,000
+ can add to your own tome of coding magic or a code book
+
+616
+00:47:38,000 --> 00:47:41,440
+ a digital notebook containing runnable code but first it's important to know
+
+617
+00:47:41,440 --> 00:47:44,160
+ what coding and computer science are and why they matter
+
+618
+00:47:44,160 --> 00:47:47,920
+ and let's get some idea of what life as a code mage is like
+
+619
+00:47:47,920 --> 00:47:51,920
+ to help you decide up front if this is worth your time and before I get going
+
+620
+00:47:51,920 --> 00:47:55,280
+ too much farther on this I'm going to tell you a story that's not in here I
+
+621
+00:47:55,280 --> 00:48:00,000
+ should probably put it in here okay there was a guy beautiful guy
+
+622
+00:48:00,000 --> 00:48:06,000
+ beautiful beautiful guy he really was he was a gorgeous guy it was it was a
+
+623
+00:48:06,000 --> 00:48:11,440
+ state champion runner and um really really charismatic obsessed with
+
+624
+00:48:11,440 --> 00:48:15,360
+ bitcoin by the way the son of very very rich parents
+
+625
+00:48:15,360 --> 00:48:19,040
+ and um I mean actually I think of him that thanksgiving because he very
+
+626
+00:48:19,040 --> 00:48:23,840
+ famously wrote an app on his phone to query uh
+
+627
+00:48:23,840 --> 00:48:29,040
+ to query his bitcoin rate while he was at the dinner table
+
+628
+00:48:29,040 --> 00:48:34,400
+ anyway he hated code but it took a year for him to come out and tell me that
+
+629
+00:48:34,400 --> 00:48:37,200
+ he liked being involved with technology he liked all that stuff that he would
+
+630
+00:48:37,200 --> 00:48:40,960
+ be he would drag his feet on the coding and he was like you know I just don't
+
+631
+00:48:40,960 --> 00:48:45,360
+ like coding I just don't like it I I want to like it I like the idea of it but
+
+632
+00:48:45,360 --> 00:48:48,000
+ when I actually start doing it I don't like it
+
+633
+00:48:48,000 --> 00:48:53,600
+ and and then I told you I told him you know that's fine there's lots of other
+
+634
+00:48:53,600 --> 00:48:58,080
+ technology jobs including marketing and he would actually have been a really
+
+635
+00:48:58,080 --> 00:49:00,800
+ great person because he was very charismatic he
+
+636
+00:49:00,800 --> 00:49:04,320
+ he was really able to go with the conversation he was really convincing
+
+637
+00:49:04,320 --> 00:49:08,080
+ you're very convincing rhetorical style you know and he was good looking at
+
+638
+00:49:08,080 --> 00:49:10,640
+ everything and so you know and I told him I said you know what you would
+
+639
+00:49:10,640 --> 00:49:14,880
+ probably be a really really great you know tech marketing person
+
+640
+00:49:14,880 --> 00:49:18,880
+ and he goes he didn't even think of that possibility he hadn't even thought of
+
+641
+00:49:18,880 --> 00:49:22,640
+ that career possibility but I you know and so I told him it's it's fine and you
+
+642
+00:49:22,640 --> 00:49:27,040
+ know eventually he left but you know and then he went he went about his his
+
+643
+00:49:27,040 --> 00:49:30,560
+ business of things he I mean he wanted to be a hacker and he wanted all those
+
+644
+00:49:30,560 --> 00:49:36,800
+ things but he didn't he didn't like the work part of it
+
+645
+00:49:37,520 --> 00:49:41,200
+ and I was like seriously I really did not want to judge him I'm like you know
+
+646
+00:49:41,200 --> 00:49:47,120
+ what you you do you if you can still be around technology and talk the tech
+
+647
+00:49:47,120 --> 00:49:50,320
+ without having to do the grunt work and there are people who just want to do
+
+648
+00:49:50,320 --> 00:49:53,840
+ the grunt work they don't want to see another human being you need a Steve
+
+649
+00:49:53,840 --> 00:49:59,360
+ Jobs and you need a Steve Wozniak Wozniak bailed Steve Jobs out how many times
+
+650
+00:49:59,360 --> 00:50:03,440
+ I can't even count you know because Steve Jobs couldn't code he was I mean he
+
+651
+00:50:03,440 --> 00:50:07,120
+ could but you know and so you got to have those two and I just want to put
+
+652
+00:50:07,120 --> 00:50:12,960
+ that there so so you know it might be that this is you know the reason this
+
+653
+00:50:12,960 --> 00:50:16,320
+ section is here and the reason that we're doing this this way is you might
+
+654
+00:50:16,320 --> 00:50:20,080
+ discover you don't want to do coding and that you want to do something else in
+
+655
+00:50:20,080 --> 00:50:25,280
+ technology there are other options right so let's get into it why learn to
+
+656
+00:50:25,280 --> 00:50:27,840
+ code in the world increasingly shaped by technology learning to code is no
+
+657
+00:50:27,840 --> 00:50:30,960
+ longer the domain of software developers computer scientists become a valuable
+
+658
+00:50:30,960 --> 00:50:33,920
+ skill for anyone seeking to understand influential digital world around them
+
+659
+00:50:33,920 --> 00:50:36,480
+ whether you dream of building apps on mating tasks solving problems or
+
+660
+00:50:36,480 --> 00:50:39,840
+ simply gathering insight into how technology works coding is a gateway
+
+661
+00:50:39,840 --> 00:50:43,600
+ to unlocking these opportunities and I have another quick story about this so
+
+662
+00:50:43,600 --> 00:50:49,520
+ I got contacted by a woman in her 30s who was a manager
+
+663
+00:50:49,520 --> 00:50:53,680
+ she was a manager over an accounting group I think
+
+664
+00:50:53,680 --> 00:50:57,120
+ and she wanted me to teach her python because all the people under her were
+
+665
+00:50:57,120 --> 00:50:59,920
+ using python and she was stuck using a spreadsheet
+
+666
+00:50:59,920 --> 00:51:04,720
+ and she did she learned python and it made her more powerful she
+
+667
+00:51:04,720 --> 00:51:08,080
+ she was not interested in she's not a programmer she wasn't really interested
+
+668
+00:51:08,080 --> 00:51:13,040
+ in being any of those things but it was a very specific skill that she wanted
+
+669
+00:51:13,040 --> 00:51:17,120
+ and she you know learned it so empowering your creativity coding is
+
+670
+00:51:17,120 --> 00:51:20,640
+ is a tool for creation allows you to bring your ideas to life this is my
+
+671
+00:51:20,640 --> 00:51:23,440
+ favorite way this is my favorite one right here
+
+672
+00:51:23,440 --> 00:51:25,840
+ whether that means you're crafting a personal website developing a game
+
+673
+00:51:25,840 --> 00:51:28,560
+ designing tool for everyday problems ability to write your code transforms
+
+674
+00:51:28,560 --> 00:51:33,200
+ the world and the consumer of a consumer of technology
+
+675
+00:51:33,200 --> 00:51:37,440
+ into a creator of technology enabling you to shape the digital
+
+676
+00:51:37,440 --> 00:51:40,720
+ experience this this is literally I mean if I was going to put a picture in
+
+677
+00:51:40,720 --> 00:51:45,600
+ here you are literally conjuring magical things
+
+678
+00:51:45,600 --> 00:51:53,120
+ and making them real you know and there is no seriously
+
+679
+00:51:53,120 --> 00:51:57,200
+ there's got it there's very few other feelings I suppose that would be as
+
+680
+00:51:57,200 --> 00:52:02,720
+ satisfying as having an idea and then making that idea
+
+681
+00:52:02,720 --> 00:52:06,400
+ come to life making it whether it be artistically or or having a thing
+
+682
+00:52:06,400 --> 00:52:10,560
+ actually work it's actually the reason that I think I probably would have gone
+
+683
+00:52:10,560 --> 00:52:13,920
+ into computer engineering instead of just software and operations
+
+684
+00:52:13,920 --> 00:52:17,520
+ because computer engineers not only do they know how to craft code but they
+
+685
+00:52:17,520 --> 00:52:21,440
+ know how to put together the hardware so they literally can make anything
+
+686
+00:52:21,440 --> 00:52:24,400
+ you know these are the people who make robots or any kind of thing
+
+687
+00:52:24,400 --> 00:52:27,760
+ they're the you know the real-life Tony Starks out there
+
+688
+00:52:27,760 --> 00:52:32,240
+ and this is extremely satisfying reason to learn to code
+
+689
+00:52:32,240 --> 00:52:37,120
+ it's just so powerful solver loop problems from automated repetitive tasks
+
+690
+00:52:37,120 --> 00:52:40,560
+ analyzing vast datasets gives you the power to tackle problems effectively
+
+691
+00:52:40,560 --> 00:52:43,760
+ efficiently whether it's science business education personal project
+
+692
+00:52:43,760 --> 00:52:48,240
+ programming enables you to innovate solutions and make a tangible impact
+
+693
+00:52:48,240 --> 00:52:52,160
+ building a tech career so this is this this is one of the main reasons people
+
+694
+00:52:52,160 --> 00:52:55,920
+ come to me so people want a career in tech like I want to make a lot of money
+
+695
+00:52:55,920 --> 00:52:58,400
+ that's kind of code for I want to make a lot of money
+
+696
+00:52:58,400 --> 00:53:02,880
+ and you will make a lot of money starting salaries for for people who know how
+
+697
+00:53:02,880 --> 00:53:06,800
+ to tech who code are a hundred thousand dollars or more
+
+698
+00:53:06,800 --> 00:53:11,680
+ uh that I'm talking starting salary starting salaries for people who know
+
+699
+00:53:11,680 --> 00:53:16,400
+ how to code are over a hundred thousand the median salary according to bureau
+
+700
+00:53:16,400 --> 00:53:20,160
+ labor and statistics for somebody who knows how to code
+
+701
+00:53:20,160 --> 00:53:25,840
+ is a hundred and fifty thousand so median median salary
+
+702
+00:53:25,840 --> 00:53:28,800
+ and and that's just depends on where you're going so
+
+703
+00:53:28,800 --> 00:53:31,520
+ it's like it's like industry continues to go rapid
+
+704
+00:53:31,520 --> 00:53:35,600
+ and we need people all kinds of people rev development developers artificial
+
+705
+00:53:35,600 --> 00:53:39,040
+ intelligence cybersecurity uh we did talk about each of these
+
+706
+00:53:39,040 --> 00:53:41,520
+ so just let me give you the stats really quick
+
+707
+00:53:41,520 --> 00:53:45,680
+ uh we just looked them up the last week um the fastest growing uh
+
+708
+00:53:45,680 --> 00:53:48,880
+ technology career which is not listed under computers since science is data
+
+709
+00:53:48,880 --> 00:53:52,960
+ science is actually listed under math it's growing in a rate of 36 percent
+
+710
+00:53:52,960 --> 00:53:56,400
+ uh is the fastest growing tech related even though it's not tech related that's
+
+711
+00:53:56,400 --> 00:54:00,080
+ why we missed it before the second fastest growing is cyber security expert
+
+712
+00:54:00,080 --> 00:54:04,160
+ and which it lots of code there are lots of cyber security hacker
+
+713
+00:54:04,160 --> 00:54:07,600
+ people who don't know how to code the ones who do are the real hackers
+
+714
+00:54:07,600 --> 00:54:10,880
+ everybody else is just a poser in my opinion
+
+715
+00:54:10,880 --> 00:54:16,960
+ I said that I say that out loud okay so the um anyway
+
+716
+00:54:16,960 --> 00:54:21,120
+ script kitty that's what we call them they um so yeah you've got this
+
+717
+00:54:21,120 --> 00:54:24,560
+ possibilities to make all these different things oh so 32 percent for cyber
+
+718
+00:54:24,560 --> 00:54:28,320
+ security people um 18 percent for software
+
+719
+00:54:28,320 --> 00:54:34,000
+ developers and programmers are declining 10 percent uh at a minus 10 percent rate
+
+720
+00:54:34,000 --> 00:54:37,600
+ so that's because people don't need low level programmers that are just doing
+
+721
+00:54:37,600 --> 00:54:40,640
+ what they're told with any people to think about solutions
+
+722
+00:54:40,640 --> 00:54:43,440
+ and that's why this book is going to approach that and when we get to the
+
+723
+00:54:43,440 --> 00:54:46,560
+ create sec the create segment which we we haven't got that's
+
+724
+00:54:46,560 --> 00:54:50,320
+ long ways away but when we get to the create segment of this book
+
+725
+00:54:50,320 --> 00:54:54,240
+ it's going to be about you finding a problem and then making a solution for
+
+726
+00:54:54,240 --> 00:54:57,840
+ it whether that problem is something that's fun or it's something that's
+
+727
+00:54:57,840 --> 00:55:00,400
+ really solving a problem and need out in the world
+
+728
+00:55:00,400 --> 00:55:03,760
+ um that's what it's for it's for it's for it's for it's for creating
+
+729
+00:55:03,760 --> 00:55:06,720
+ solutions that's what it's about and that's what they'll hire you for
+
+730
+00:55:06,720 --> 00:55:10,800
+ do you get a job in tech you need to prove people that you can be trusted
+
+731
+00:55:10,800 --> 00:55:13,520
+ um no matter what the industry and it's your critical thinking
+
+732
+00:55:13,520 --> 00:55:16,880
+ coding teaches you logical systematic thinking just like math or anything
+
+733
+00:55:16,880 --> 00:55:21,280
+ I I'm going to skip down because I do agree with that but people say it all
+
+734
+00:55:21,280 --> 00:55:24,960
+ the time and I'm sick and there's a foreign language and math
+
+735
+00:55:24,960 --> 00:55:28,240
+ in sciences they they all teach critical thinking too they think you have to
+
+736
+00:55:28,240 --> 00:55:31,360
+ learn to code or you can't learn to think like a programmer
+
+737
+00:55:31,360 --> 00:55:35,120
+ no you can math will do the same thing future proof your skill set technology
+
+738
+00:55:35,120 --> 00:55:38,800
+ evolves so your coding will be a vital skill as a tool of claps from chain
+
+739
+00:55:38,800 --> 00:55:40,960
+ to foundation principles of coding will change
+
+740
+00:55:40,960 --> 00:55:43,760
+ uh keep your skills sharp learning to code as an investment in your future
+
+741
+00:55:43,760 --> 00:55:47,280
+ let me talk about this one so I didn't put it here but I'm going to tell the
+
+742
+00:55:47,280 --> 00:55:51,440
+ story the story is this year 2000 um
+
+743
+00:55:51,440 --> 00:55:55,120
+ everything went to corrupt uh and it wasn't because of Y2K
+
+744
+00:55:55,120 --> 00:55:59,440
+ it was because the dot com bubble burst and and I'm going to tell the story very
+
+745
+00:55:59,440 --> 00:56:01,840
+ quickly people have heard me tell the story of war
+
+746
+00:56:01,840 --> 00:56:06,080
+ but I I had been hired as a software developer and while I was in training
+
+747
+00:56:06,080 --> 00:56:10,240
+ at IBM on an 80 dollar per day for DM in New York
+
+748
+00:56:10,240 --> 00:56:14,560
+ um yeah because I got in a job coding Java for a finance sector
+
+749
+00:56:14,560 --> 00:56:18,400
+ and that job went away and while I was there I had to scramble I was on the
+
+750
+00:56:18,400 --> 00:56:21,760
+ bench according to IBM and then I had to find another job so I
+
+751
+00:56:21,760 --> 00:56:26,800
+ I had a Linux lab in my in my garage that I've been working on and
+
+752
+00:56:26,800 --> 00:56:29,920
+ in addition to coding and Java and whatever
+
+753
+00:56:29,920 --> 00:56:34,160
+ and I reached out to a local guy who was doing system administration I said look
+
+754
+00:56:34,160 --> 00:56:36,400
+ I've never done this professionally but could I do it
+
+755
+00:56:36,400 --> 00:56:40,480
+ and he said you know would you be happy you know I'm technically I'm a junior
+
+756
+00:56:40,480 --> 00:56:42,960
+ even though I've got pretty senior software skills
+
+757
+00:56:42,960 --> 00:56:46,320
+ and he's like absolutely we'd love to have you so he brought me on and then I
+
+758
+00:56:46,320 --> 00:56:49,760
+ had lots of opportunity to automate things I had opportunity to break things
+
+759
+00:56:49,760 --> 00:56:53,280
+ really badly to which I'll tell this story another day
+
+760
+00:56:53,280 --> 00:56:57,120
+ but you know I learned a lot of things on that job but I got the job
+
+761
+00:56:57,120 --> 00:57:00,880
+ to you know because I had all this software system administration experience
+
+762
+00:57:00,880 --> 00:57:03,760
+ that's more of a story for the home lab init
+
+763
+00:57:03,760 --> 00:57:08,000
+ which is you know a different um sort of a different book
+
+764
+00:57:08,000 --> 00:57:10,800
+ but the fact of the matter is is that having
+
+765
+00:57:10,800 --> 00:57:14,240
+ software skills means you can cash in when everybody wants something new
+
+766
+00:57:14,240 --> 00:57:16,880
+ because they're willing to pay for something new and they got money
+
+767
+00:57:16,880 --> 00:57:19,440
+ and then when they need to maintain what they have
+
+768
+00:57:19,440 --> 00:57:23,120
+ existing because economy is hard then they're paying they're paying the
+
+769
+00:57:23,120 --> 00:57:26,800
+ operations people so having both operations keep
+
+770
+00:57:26,800 --> 00:57:29,760
+ hardware running kind of skills and software skills
+
+771
+00:57:29,760 --> 00:57:32,640
+ even though we're talking about coding right now having both of those skill
+
+772
+00:57:32,640 --> 00:57:37,360
+ sets will keep you employed forever and happy
+
+773
+00:57:37,360 --> 00:57:42,960
+ and that's what you want um so join a global community learning to code
+
+774
+00:57:42,960 --> 00:57:46,240
+ connects with the vibrant community of developers a lot of people around
+
+775
+00:57:46,240 --> 00:57:48,720
+ there I don't need to make that case you're watching me on youtube right now
+
+776
+00:57:48,720 --> 00:57:50,800
+ there's a bunch of other people here who do the same
+
+777
+00:57:50,800 --> 00:57:54,400
+ start your journey today this is my sham while coming out
+
+778
+00:57:54,400 --> 00:57:57,680
+ learning is learning code is not about mastering it's not just about mastering
+
+779
+00:57:57,680 --> 00:58:00,880
+ skills about gaining confidence to explore experiment and innovating the
+
+780
+00:58:00,880 --> 00:58:03,360
+ world driven by technology no matter your background or goals
+
+781
+00:58:03,360 --> 00:58:06,400
+ coding has something to offer the journey may have its challenges but the
+
+782
+00:58:06,400 --> 00:58:10,800
+ rewards will make it worth it so take your first step your
+
+783
+00:58:10,800 --> 00:58:15,280
+ adventure in coding awaits yeah okay that was definitely
+
+784
+00:58:15,280 --> 00:58:19,600
+ sham well what it takes um this is going to be the
+
+785
+00:58:19,600 --> 00:58:21,600
+ beginning of the next video i'm going to i'm going to
+
+786
+00:58:21,600 --> 00:58:25,120
+ actually stop the video right now um i have a feeling my wife is
+
+787
+00:58:25,120 --> 00:58:29,600
+ about done with this so actually let's let's zip through
+
+788
+00:58:29,600 --> 00:58:34,400
+ um well i'll let you read ahead i'm going to let you read ahead but i'm
+
+789
+00:58:34,400 --> 00:58:38,240
+ going to go ahead and stop right there uh so this video is not too long this
+
+790
+00:58:38,240 --> 00:58:41,840
+ video is is now about exactly an hour long
+
+791
+00:58:41,840 --> 00:58:45,200
+ um if necessary i can come back and we do another hour long video i kind of
+
+792
+00:58:45,200 --> 00:58:48,560
+ want to keep these videos to about an hour each
+
+793
+00:58:48,560 --> 00:58:51,760
+ so people can can listen to them in the cars when they like that say
+
+794
+00:58:51,760 --> 00:58:54,080
+ so i'm going to go ahead and end this video right now
+
+795
+00:58:54,080 --> 00:58:57,280
+ without a rate or anything and i thank you for those who've been
+
+796
+00:58:57,280 --> 00:59:00,160
+ participating in my studio audience and everything
+
+797
+00:59:00,160 --> 00:59:04,560
+ and and then we will um we'll pick it up we'll pick it up next time i have been
+
+798
+00:59:04,560 --> 00:59:08,240
+ putting numbers in the chat so i'm sorry in the
+
+799
+00:59:08,240 --> 00:59:11,200
+ titles so you can see when the numbers coming up you go back and
+
+800
+00:59:11,200 --> 00:59:14,480
+ watch the other one uh if you want to work ahead
+
+801
+00:59:14,480 --> 00:59:17,600
+ you can there's nothing that stops you from working ahead right now
+
+802
+00:59:17,600 --> 00:59:21,120
+ so right now you can go work ahead if the the single best thing you should do
+
+803
+00:59:21,120 --> 00:59:23,120
+ is you should you know when we get to the prepare
+
+804
+00:59:23,120 --> 00:59:25,760
+ section which we'll get to uh we're going to be
+
+805
+00:59:25,760 --> 00:59:29,040
+ moving a lot more slowly because we're going to be doing all of them tutor and
+
+806
+00:59:29,040 --> 00:59:34,720
+ things like that okay so all right everybody
+
+807
+00:59:34,720 --> 00:59:42,800
+ love all around take care see ya
+
