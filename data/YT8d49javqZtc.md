@@ -4,11 +4,11 @@ Shows how to copy a file between two machines with netcat when SSH isn't availab
 
 Chapters:
 0:00 Copying files without SSH using netcat
-0:27 Setting up a UDP netcat listener
+0:29 Setting up a UDP netcat listener
 1:11 Sending a script between two machines
-2:33 Using TCP and checking the copied file
-3:00 Using port 53 and other options
-4:03 Workplace risks and deep packet inspection
+2:35 Using TCP and checking the copied file
+3:03 Using port 53 and other options
+4:04 Workplace risks and deep packet inspection
 
 `#netcat #linux #terminal #networking #commandline #filetransfer #cybersecurity #hacking #protips`
 
