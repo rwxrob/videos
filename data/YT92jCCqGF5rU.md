@@ -2,7 +2,7 @@
 
 Walks through installing Microsoft Visual Studio Code on a Mac using Homebrew. Shows how to find and launch it from the terminal with the code command or open it with Command+Space, then keep it in the Dock.
 
-`#vscode #homebrew #macos #visualstudiocode #terminal #commandline #codingforbeginners #techjobs #learning #brew #editors`
+`#vscode #homebrew #macos #visualstudiocode #terminal #commandline #techjobs #learning #brew #editors`
 
 ## Category
 
