@@ -1,19 +1,29 @@
 # 🎄🚀 Holiday Boost Day 1: Learn to Code Go in the Terminal with The Code Mage's First Spellbook
 
-Kicks off a Holiday Boost series by reading through the opening of The Code Mage's First Spellbook, a free beginner book on learning to code, with notes on related books still being written. Covers its licensing, learner ownership of their work, finding mentors, focusing on one language and the terminal first, and why coding and operations skills matter for careers.
+Kicks off a Holiday Boost series by reading through the opening of The Code Mage's First Spellbook, a beginner book on learning to code in Go from the terminal. The book is still in progress and free to read online, and notes cover related books also being written. Topics include its copyright, learners' freedom to take responsibility for their own learning, finding mentors, focusing on one language and the terminal first, and why coding and operations skills matter for careers.
 
 Chapters:
 0:00 Introducing the Holiday Boost series
 3:00 Mentoring plans, copyright, and free use
-6:00 Mac terminal and the related books
-12:03 Dedication and learners owning their work
-18:02 Young learners and container-based setup
-27:05 Fantasy theme and how to use the book
-33:00 Origins of teaching kids to code
-39:03 Finding mentors and learner-led guidance
-42:04 Trust, critical thinking, and mastering basics
-48:00 Reasons to learn coding and creativity
-54:00 Cybersecurity, job outlook, and operations skills
+4:29 Series scope: coding first, Vim, and terminal basics
+6:10 Related books in progress
+11:54 Book dedication
+12:42 Prerequisites and freedom to learn
+17:43 Who the book is for and learning to code young
+20:49 Experienced readers and the Podman container shortcut
+22:02 A note to parents and educators
+26:32 What the book covers
+27:09 Fantasy theme and SkillStack memories
+30:05 How to use the book and find a community
+32:20 Starting SkillStack and the spread of coding clubs
+37:57 Finding a mentor and becoming one
+40:00 AI as a learning companion
+41:31 Trust, commitment, and mastering one discipline
+47:51 A story about tech careers beyond coding
+50:25 Why learn to code: creativity and problem solving
+52:48 Tech careers, salaries, and job outlook
+55:06 Critical thinking, software, and operations skills
+58:15 Wrap-up and working ahead
 
 `#learntocode #linux #terminal #coding #beginners #mentoring #programming #cybersecurity #education #golang`
 
