@@ -8,13 +8,13 @@ Chapters:
 4:22 Committing to the tech life
 7:13 Work hours, family and time budgets
 10:54 Learn Bash and core skills first
-12:17 Advent challenges and real free time
-14:28 Single life, family time and gaming
+12:24 Advent challenges and real free time
+14:34 Single life, family time and gaming
 17:50 Choosing what to learn and play
-19:39 Projecting your values onto other people
-21:03 Set goals and script your plan
+19:43 Projecting your values onto other people
+21:07 Set goals and script your plan
 
-`#timemanagement #programming #techcareer #worklifebalance #bash #linux #learntocode #productivity #coding #techlife #protips #lifehacks`
+`#timemanagement #programming #techcareer #worklifebalance #bash #learntocode #productivity #coding #techlife #protips #lifehacks`
 
 ## Category
 
