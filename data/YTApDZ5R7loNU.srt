@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:03,740
+ I learned something about Minicube.
+
+2
+00:00:03,740 --> 00:00:05,440
+ As I was setting up a storage class,
+
+3
+00:00:05,440 --> 00:00:07,760
+ I set up a storage class at home.
+
+4
+00:00:07,760 --> 00:00:09,880
+ I mean, I set up a Kubernetes cluster at home
+
+5
+00:00:09,880 --> 00:00:11,840
+ and then realized I did not have a storage class.
+
+6
+00:00:11,840 --> 00:00:14,920
+ Now, I knew that you needed data storage class
+
+7
+00:00:14,920 --> 00:00:17,880
+ and you can watch the big long video of me doing that.
+
+8
+00:00:17,880 --> 00:00:20,840
+ But there's actually a really interesting tidbit
+
+9
+00:00:20,840 --> 00:00:22,960
+ that I learned about Minicube.
+
+10
+00:00:24,080 --> 00:00:28,020
+ Minicube, and I'm gonna read it in chat GPT's words.
+
+11
+00:00:29,040 --> 00:00:33,160
+ Minicube can dynamically provision persistent volumes
+
+12
+00:00:33,160 --> 00:00:35,820
+ for persistent volume claims using host path.
+
+13
+00:00:35,820 --> 00:00:38,960
+ But it does so using an internal default storage class
+
+14
+00:00:38,960 --> 00:00:39,800
+ called standard.
+
+15
+00:00:39,800 --> 00:00:42,040
+ It's very special, it's very customized
+
+16
+00:00:42,040 --> 00:00:44,800
+ and it's this thing that's been added to Minicube.
+
+17
+00:00:44,800 --> 00:00:45,880
+ Why is that important?
+
+18
+00:00:45,880 --> 00:00:48,360
+ Because if you're like me, you're gonna,
+
+19
+00:00:48,360 --> 00:00:51,040
+ you're all proud because you finally got your Kubernetes
+
+20
+00:00:51,040 --> 00:00:53,560
+ cluster on-prem with Kubernetes M running
+
+21
+00:00:53,560 --> 00:00:55,080
+ and you're like, oh, great.
+
+22
+00:00:55,080 --> 00:00:56,600
+ And then you go try out your thing
+
+23
+00:00:56,600 --> 00:00:57,620
+ and all of a sudden there's no,
+
+24
+00:00:57,620 --> 00:01:01,080
+ you can't create any PVC persistent volume claims.
+
+25
+00:01:01,080 --> 00:01:04,800
+ So I had a PVC and the reason that this didn't work
+
+26
+00:01:04,800 --> 00:01:07,000
+ is because any, for those of you who know,
+
+27
+00:01:07,000 --> 00:01:09,440
+ no Kubernetes for any PVC, you need a PV,
+
+28
+00:01:09,440 --> 00:01:11,800
+ a physical, a persistent volume.
+
+29
+00:01:11,800 --> 00:01:15,560
+ But in almost every case, every cluster you ever normally
+
+30
+00:01:15,560 --> 00:01:19,120
+ work with, including Minicube, when you create a PVC,
+
+31
+00:01:19,120 --> 00:01:22,000
+ the system Kubernetes itself, whatever, the provision
+
+32
+00:01:22,000 --> 00:01:23,920
+ or whatever, I don't even know what thing it is,
+
+33
+00:01:23,920 --> 00:01:28,280
+ it will actually create a PV to go with the PVC
+
+34
+00:01:28,280 --> 00:01:32,080
+ if there isn't one there and it will use the system
+
+35
+00:01:32,080 --> 00:01:35,240
+ default storage class, whatever that is.
+
+36
+00:01:35,240 --> 00:01:39,920
+ And in the case of, hey, hi, in the case of this,
+
+37
+00:01:39,920 --> 00:01:43,360
+ we're actually seeing that the persistent volume claim
+
+38
+00:01:43,360 --> 00:01:46,040
+ that's being created is not, was not being created.
+
+39
+00:01:46,040 --> 00:01:48,760
+ And I was like, what the hell, Minicube did it.
+
+40
+00:01:48,760 --> 00:01:51,880
+ And now I'm learning that Minicube is special.
+
+41
+00:01:51,880 --> 00:01:54,860
+ Minicube uses a host path provisioner,
+
+42
+00:01:54,860 --> 00:01:57,600
+ which is, a host path is one of the default storage class.
+
+43
+00:01:57,600 --> 00:01:59,040
+ You still have the added, by the way.
+
+44
+00:01:59,040 --> 00:02:02,480
+ Host path is a storage class that uses the local disk
+
+45
+00:02:02,480 --> 00:02:04,640
+ that's attached to each node.
+
+46
+00:02:04,640 --> 00:02:06,440
+ And you don't normally almost never want to use that
+
+47
+00:02:06,440 --> 00:02:09,960
+ because that means that storage can't be used anywhere else,
+
+48
+00:02:09,960 --> 00:02:10,800
+ right?
+
+49
+00:02:10,800 --> 00:02:12,760
+ So like if you wanted to use, you know,
+
+50
+00:02:12,760 --> 00:02:14,680
+ and that's, you know, we'll get into storage class later.
+
+51
+00:02:14,680 --> 00:02:16,800
+ The video is about one thing.
+
+52
+00:02:16,800 --> 00:02:19,320
+ Minicube breaks the rules.
+
+53
+00:02:19,320 --> 00:02:24,040
+ Minicube creates a persistent volume for a persistent volume
+
+54
+00:02:24,040 --> 00:02:29,040
+ claim, even though host path storage class does not dynamically,
+
+55
+00:02:31,080 --> 00:02:34,520
+ it does not dynamically create PV's for each PVC,
+
+56
+00:02:34,520 --> 00:02:37,680
+ which means that in my case, my manifest,
+
+57
+00:02:37,680 --> 00:02:40,640
+ I did not have the creation of a PV
+
+58
+00:02:40,640 --> 00:02:43,560
+ because I thought it would get automatically created.
+
+59
+00:02:43,560 --> 00:02:44,920
+ Now there's two ways to fix that.
+
+60
+00:02:44,920 --> 00:02:46,600
+ One of them would be, you know,
+
+61
+00:02:46,600 --> 00:02:49,080
+ install a storage class that does dynamic provisioning,
+
+62
+00:02:49,080 --> 00:02:52,160
+ which includes NFS, by the way, which is what I'm going to do,
+
+63
+00:02:52,160 --> 00:02:57,160
+ or use Minicube, which has this built-in hack to make it work.
+
+64
+00:02:58,640 --> 00:03:01,080
+ And yeah, I'm going to avoid a rant right here
+
+65
+00:03:01,080 --> 00:03:02,720
+ because I'm kind of annoyed by this
+
+66
+00:03:02,720 --> 00:03:06,240
+ because Minicube is actually building a false expectation
+
+67
+00:03:06,240 --> 00:03:09,320
+ that your PV's are going to be created for you
+
+68
+00:03:09,320 --> 00:03:11,680
+ when they are not going to be created for you,
+
+69
+00:03:11,680 --> 00:03:12,960
+ unless you do it.
+
+70
+00:03:12,960 --> 00:03:14,920
+ So there you go.
+
+71
+00:03:14,920 --> 00:03:15,840
+ Take care, leave it.
+
+72
+00:03:15,840 --> 00:03:20,760
+ But maybe that'll explain why Minicube worked for your PVC
+
+73
+00:03:20,760 --> 00:03:22,720
+ without your PV manifest
+
+74
+00:03:22,720 --> 00:03:27,080
+ and why an actual Kubernetes cluster doesn't work
+
+75
+00:03:27,080 --> 00:03:28,560
+ doing the same thing.
+
