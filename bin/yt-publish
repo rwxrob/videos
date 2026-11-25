@@ -262,16 +262,19 @@ verify_live() { # id: YouTube can lag a few seconds after an update, so retry
   return 1
 }
 cmd_publish() {
-  local id idf
+  local id idf out until
+  until=$(cat "$cache/quota-pause" 2>/dev/null || echo 0)
+  (( $(date +%s) >= until )) || return 0
   while IFS= read -r id; do
     [[ -n $id ]] || continue
     has published "$id" && continue
     (( $(cat "$cache/pfail/$id.pub" 2>/dev/null || echo 0) < 3 )) || continue
     log "$id: publishing"
-    if "$here/yt-update" -y -- "$id" >>"$cache/yt-publish.log" 2>&1; then
+    out=$(mktemp)
+    if "$here/yt-update" -y -- "$id" >"$out" 2>&1; then
       idf=$(mktemp); printf '%s\n' "$id" > "$idf"
-      if "$here/yt-update" -y privacy "$idf" public >>"$cache/yt-publish.log" 2>&1 \
-         && verify_live "$id"; then
+      if "$here/yt-update" -y privacy "$idf" public >>"$out" 2>&1 \
+         && cat "$out" >>"$cache/yt-publish.log" && : >"$out" && verify_live "$id"; then
         rm -f "$idf"; add published "$id"
         git_ add -- "data/YT$id.md" "data/YT$id.srt" include.txt disclaimers.txt 2>/dev/null
         git_ commit -q -m "publish $id: $(title_of "$id")" 2>/dev/null || true
@@ -280,6 +283,15 @@ cmd_publish() {
       fi
       rm -f "$idf"
     fi
+    cat "$out" >>"$cache/yt-publish.log"
+    # A 403 is almost always the daily API quota (resets at midnight Pacific).
+    # It blocks every video, so pause an hour and do not count it as a failure.
+    if grep -q 'error: 403' "$out" || tail -3 "$cache/yt-publish.log" | grep -q 'error: 403'; then
+      echo $(( $(date +%s) + 3600 )) > "$cache/quota-pause"
+      log "$id: API returned 403 (quota?); publishing paused for 1 hour"
+      rm -f "$out"; return 0
+    fi
+    rm -f "$out"
     n=$(( $(cat "$cache/pfail/$id.pub" 2>/dev/null || echo 0) + 1 )); echo "$n" > "$cache/pfail/$id.pub"
     log "$id: publish step failed ($n/3); see log"
   done < <(comm -12 <(sort "$cache/confirmed.txt") <(sort "$cache/reviewed.txt"))
