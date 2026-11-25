@@ -40,4 +40,3 @@ zE9VpcRH6Iw  # 🍅 Readable interface docs in golang
 vbgSIDLX3Qg  # 🍅 XDG_STATE_HOME (~/.local/state) io.UserStateDir
 p6dcrE617bM  # 🔨Your hammer sucks
 ropH0XqAgPs  # 📺 Porting clip program to Go Bonzai 🌳
-b4tUx-EzWLE  # 🌳 Go Bonzai Command Compositor 😎
