@@ -39,7 +39,7 @@ cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
 manifest=$cache/manifest.json
 model=${YT_PUBLISH_MODEL:-sonnet}
 mkdir -p "$cache/titlenote" "$cache/reviewnote" "$cache/pfail"
-for f in approved prepared reviewed confirmed published rejected; do touch "$cache/$f.txt"; done
+for f in approved prepared reviewed confirmed published rejected toprivate; do touch "$cache/$f.txt"; done
 
 log() { printf '%s %s\n' "$(date '+%F %T')" "$*" | tee -a "$cache/yt-publish.log" >&2; }
 has() { grep -qxF -- "$2" "$cache/$1.txt"; }
@@ -253,6 +253,12 @@ cmd_prepare() {
 }
 
 # ---------------------------------------------------------------- publish
+retry_private() { # drops whose privacy change failed earlier
+  [[ -s $cache/toprivate.txt ]] || return 0
+  if "$here/yt-update" -y privacy "$cache/toprivate.txt" private >>"$cache/yt-publish.log" 2>&1; then
+    log "made private: $(tr '\n' ' ' < "$cache/toprivate.txt")"; : > "$cache/toprivate.txt"
+  fi
+}
 verify_live() { # id: YouTube can lag a few seconds after an update, so retry
   local i
   for i in 1 2 3 4 5 6; do
@@ -265,6 +271,7 @@ cmd_publish() {
   local id idf out until
   until=$(cat "$cache/quota-pause" 2>/dev/null || echo 0)
   (( $(date +%s) >= until )) || return 0
+  retry_private
   while IFS= read -r id; do
     [[ -n $id ]] || continue
     has published "$id" && continue
@@ -340,7 +347,7 @@ cmd_drop() {
     rm -f "$root/include.txt.bak" "$root/disclaimers.txt.bak"
     add rejected "$id"
     idf=$(mktemp); printf '%s\n' "$id" > "$idf"
-    "$here/yt-update" -y privacy "$idf" private >>"$cache/yt-publish.log" 2>&1 || echo "WARNING: could not make $id private; do it by hand" >&2
+    "$here/yt-update" -y privacy "$idf" private >>"$cache/yt-publish.log" 2>&1 || { add toprivate "$id"; echo "could not make $id private yet (quota?); the runner will retry" >&2; }
     rm -f "$idf"
     git_ add -- include.txt disclaimers.txt
     git_ commit -q -m "drop $id (not kept)" || echo "WARNING: nothing committed for $id" >&2
