@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# yt-draft: transcribe candidate videos and suggest titles BEFORE approval.
+#
+#   yt-draft <UID>...   transcribe each video and suggest a title
+#
+# Drafts stay in $YT_CACHE_DIR/drafts/<UID>/ (t.srt, suggestion.json), outside
+# the repo. Nothing is approved and nothing on YouTube changes; it uses no API
+# quota (yt-dlp + ffmpeg + whisper-cli + claude -p). Safe to re-run.
+
+set -uo pipefail
+
+cache=${YT_CACHE_DIR:-$HOME/.cache/videos}
+manifest=$cache/manifest.json
+model=${YT_WHISPER_MODEL:-$HOME/whisper-work/models/ggml-base.en.bin}
+ai=${YT_PUBLISH_MODEL:-sonnet}
+cookiefile=${YT_CONFIG_DIR:-$HOME/.config/videos}/cookies.txt
+
+(( $# )) || { echo "usage: yt-draft <UID>..." >&2; exit 2; }
+[[ ${1:-} == -- ]] && shift
+
+transcribe() { # id dir
+  local id=$1 d=$2 cookies=()
+  [[ -f $d/t.srt ]] && return 0
+  [[ -f $cookiefile ]] && cookies=(--cookies "$cookiefile")
+  yt-dlp -q --no-warnings -f bestaudio ${cookies[@]+"${cookies[@]}"} -o "$d/audio.%(ext)s" \
+    "https://www.youtube.com/watch?v=$id" </dev/null || return 1
+  ffmpeg -loglevel error -y -i "$d"/audio.* -ar 16000 -ac 1 -c:a pcm_s16le "$d/audio.wav" </dev/null || return 1
+  whisper-cli -m "$model" -f "$d/audio.wav" -osrt -of "$d/part" </dev/null >/dev/null 2>&1 || return 1
+  mv "$d/part.srt" "$d/t.srt"
+  rm -f "$d"/audio.*
+}
+
+suggest() { # id dir
+  local id=$1 d=$2 reply json title desc
+  [[ -f $d/suggestion.json ]] && return 0
+  title=$(jq -r --arg i "$id" '.[] | select(.id == $i) | .title' "$manifest")
+  desc=$(jq -r --arg i "$id" '.[] | select(.id == $i) | .description' "$manifest")
+  {
+    cat <<EOF
+Suggest the title for one of rwxrob's YouTube videos from its transcript (rwxrob
+is a Linux/shell/Go/vim/Kubernetes/career educator and streamer). The transcript
+is Whisper base.en output, so technical terms may be misheard. Deliberate
+spellings that must be kept: Bonzai, zet, boost, Lynx, rwxrob.
+
+Rules: at most 100 characters; no "<" or ">"; no hashtags; no raw timestamps or
+"| rwxrob on #Twitch" suffixes; plain, specific, searchable, in the author's
+voice; keep a leading emoji. Keep the current title if it is accurate and
+specific, even if casual. Never invent claims that are not in the transcript.
+Numbered series use "<emoji> <Topic> (<Series Name> - #N)", number stated once.
+
+Also say honestly what the video contains, and flag anything the author should
+know before making it public (no real speech, almost no content, a different
+topic than the title, employer or private information, other people's personal
+details, secrets shown or read aloud).
+
+Reply with ONLY a JSON object, no code fence:
+{"title": "<suggested title, or the current one>", "about": "<one or two sentences>", "flags": "<concerns, or empty string>"}
+
+Current title: $title
+Current description: $desc
+
+Transcript:
+EOF
+    head -c 250000 "$d/t.srt"
+  } > "$d/prompt"
+  reply=$( (cd "${TMPDIR:-/tmp}" && claude -p --model "$ai" --tools "" --no-session-persistence < "$d/prompt") 2>/dev/null) || return 1
+  json=$(printf '%s' "$reply" | jq -ce . 2>/dev/null) \
+    || json=$(printf '%s\n' "$reply" | sed -n '/{/,$p' | sed '/^```/d' | jq -ce . 2>/dev/null) || return 1
+  jq -c --arg id "$id" --arg old "$title" '. + {id: $id, old: $old}' <<<"$json" > "$d/suggestion.json"
+  rm -f "$d/prompt"
+}
+
+# Transcribe one at a time (whisper uses the whole GPU); suggest in parallel.
+for id in "$@"; do
+  d=$cache/drafts/$id; mkdir -p "$d"
+  if transcribe "$id" "$d"; then
+    suggest "$id" "$d" </dev/null &
+  else
+    echo "FAILED to transcribe $id" >&2
+  fi
+done
+wait
+
+for id in "$@"; do
+  f=$cache/drafts/$id/suggestion.json
+  if [[ -f $f ]]; then
+    jq -r '"\(.id)\n  old:   \(.old)\n  new:   \(if .title == .old then "(keep)" else .title end)\n  about: \(.about)\(if (.flags // "") != "" then "\n  FLAG:  \(.flags)" else "" end)"' "$f"
+  else
+    echo "$id: no suggestion"
+  fi
+done
