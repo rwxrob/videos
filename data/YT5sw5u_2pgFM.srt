@@ -1,0 +1,660 @@
+1
+00:00:00,000 --> 00:00:03,900
+ Hallelujah, hallelujah, I'm gonna do
+
+2
+00:00:06,960 --> 00:00:11,200
+ He's just really love this setup. Okay. Thank you. Yeah, I'm gonna do all of the things
+
+3
+00:00:11,200 --> 00:00:15,440
+ I mean, I cannot believe how cool this is so
+
+4
+00:00:16,960 --> 00:00:20,600
+ Hold on to your Kubernetes hats because
+
+5
+00:00:21,240 --> 00:00:28,800
+ all I had to do was add back up enable to the harbor values.yaml file and
+
+6
+00:00:30,200 --> 00:00:37,120
+ I get a Kubernetes a beautiful Kubernetes cron job better than anything that we had written
+
+7
+00:00:37,360 --> 00:00:39,360
+ better than anything that I would have written
+
+8
+00:00:40,240 --> 00:00:48,840
+ That already does a full Postgres dump all back up with a configurable cron job
+
+9
+00:00:50,080 --> 00:00:57,000
+ Pause the video pause for effect if you don't know how cool that is then you need to like play with our person more
+
+10
+00:00:57,000 --> 00:00:59,720
+ Right because you would have had to written right and written all this stuff
+
+11
+00:01:00,000 --> 00:01:02,640
+ So what you're looking at right now this this is a dip of
+
+12
+00:01:04,080 --> 00:01:05,300
+ the
+
+13
+00:01:05,300 --> 00:01:07,200
+ resulting
+
+14
+00:01:07,200 --> 00:01:10,100
+ Manifest file in our case manifest slash
+
+15
+00:01:10,960 --> 00:01:14,300
+ base slash app dot yaml because we use customization
+
+16
+00:01:15,120 --> 00:01:19,440
+ And here you can see a couple of really interesting things so right away you see harbor Postgres
+
+17
+00:01:19,440 --> 00:01:24,980
+ Whoops, you see however Postgres QLPG dump all right you also see this new label
+
+18
+00:01:25,280 --> 00:01:28,400
+ That's on everything all the metadata is there actually by the way
+
+19
+00:01:28,400 --> 00:01:34,760
+ I confirmed that this is actually true because those are those come from the charts dot lock file in
+
+20
+00:01:35,240 --> 00:01:40,360
+ The harbor chart that locks the specific dependency on this chart
+
+21
+00:01:40,400 --> 00:01:45,520
+ Which means that when you do helm template it actually grabs that version of the chart
+
+22
+00:01:45,520 --> 00:01:50,280
+ Even though it's not it's not represented in the yaml and the and the values file and I'll talk about that later
+
+23
+00:01:50,560 --> 00:01:57,120
+ That means that that actually is the version that's being used in the official harbor project despite how fucked up
+
+24
+00:01:57,360 --> 00:02:03,160
+ Sorry, I swore there. I was not supposed to swear the values file is right. It's really messed up
+
+25
+00:02:03,240 --> 00:02:08,220
+ Okay, and so let's keep going so I mean you can go you can go through this you on your own
+
+26
+00:02:08,280 --> 00:02:12,440
+ But this you can see this is like everything you would expect. There's all the Postgres stuff there
+
+27
+00:02:12,600 --> 00:02:19,800
+ Here is the very very good right here is this like really amazing PG dump all if exists stuff going on
+
+28
+00:02:20,360 --> 00:02:24,160
+ It has the password there actually has the volume mounts it creates PVC
+
+29
+00:02:24,240 --> 00:02:27,800
+ Separately and slash backup, which is by the way the same thing we were naming our mount points
+
+30
+00:02:28,040 --> 00:02:36,000
+ So it's all the stuff that you would ever care to have for a PG dump all and it is built in the
+
+31
+00:02:36,280 --> 00:02:39,080
+ official bit Nami harbor chart
+
+32
+00:02:39,440 --> 00:02:46,120
+ So the reason it's important to say that is because this is one less way
+
+33
+00:02:46,340 --> 00:02:52,440
+ That we are going to divert from upstream and if you know what it means
+
+34
+00:02:53,280 --> 00:02:56,600
+ To divert from upstream if you don't know what that means
+
+35
+00:02:56,600 --> 00:03:03,240
+ Let me just tell you it means work it means work and stress and risk any time that you can use a
+
+36
+00:03:03,840 --> 00:03:08,680
+ deployed upstream supported by the community thing in your enterprise
+
+37
+00:03:08,680 --> 00:03:15,320
+ You should do it because almost always you're gonna be better now. Sometimes you get massive failures like helm itself
+
+38
+00:03:15,320 --> 00:03:21,920
+ It's a massive failure. I've been complaining and screaming and yelling and swearing the whole time about how screwed up the architecture is for
+
+39
+00:03:21,920 --> 00:03:23,920
+ Helm doesn't matter. That's what people use
+
+40
+00:03:25,400 --> 00:03:30,680
+ Is also proposed us we're not using the operator for lots of reasons including all the CRD's that are created
+
+41
+00:03:30,680 --> 00:03:33,760
+ If you don't know why we can we can have a debate about that, but thank you for the comment
+
+42
+00:03:34,720 --> 00:03:40,640
+ So every time I talk about postgres I get somebody who suggests that we use the operator and that's a short-sighted recommendation
+
+43
+00:03:41,880 --> 00:03:46,200
+ That's just it's fine. It's just they just not taking into account our sister our situation
+
+44
+00:03:46,680 --> 00:03:51,480
+ This is by the way, this is harbor not postgres. So it's postgres inside our okay
+
+45
+00:03:51,480 --> 00:03:57,480
+ So but when I'm so the takeaway from this very short video is hey look here and look at all I had to do to get that
+
+46
+00:03:57,480 --> 00:04:01,580
+ Let me let me show you the other thing. So by the way, here's the chart lock while we're there
+
+47
+00:04:01,840 --> 00:04:03,840
+ Here's the chart lock that says
+
+48
+00:04:03,920 --> 00:04:07,560
+ You are getting postgres versus a 15.9 of the chart which is
+
+49
+00:04:08,040 --> 00:04:12,280
+ 16.4 version of postgres that is hard-coded and is
+
+50
+00:04:13,120 --> 00:04:19,600
+ The gospel it doesn't matter what's it doesn't matter the devalues files totally screwed up and says and tagged a version 13 of postgres
+
+51
+00:04:19,680 --> 00:04:26,840
+ That is the gospel therefore you can go forth and conquer knowing that that is the way it's supposed to be so if you go back though
+
+52
+00:04:27,480 --> 00:04:33,040
+ you can you can look here now at the the resource file for the values and and
+
+53
+00:04:34,380 --> 00:04:37,080
+ Using Mac OS hell yeah, I'm using Mac OS. Why would I not?
+
+54
+00:04:44,760 --> 00:04:47,480
+ You couldn't hear you couldn't hear I
+
+55
+00:04:48,080 --> 00:04:50,080
+ Feel so bad. Let me do that again for you
+
+56
+00:04:56,680 --> 00:04:58,920
+ Mac is a unique system it qualifies
+
+57
+00:04:59,880 --> 00:05:01,880
+ Unix is way cooler than Linux
+
+58
+00:05:02,240 --> 00:05:04,240
+ So anyway, here we go
+
+59
+00:05:05,560 --> 00:05:09,620
+ X resource values file. So here's the value spell there it is okay
+
+60
+00:05:10,200 --> 00:05:17,680
+ So right away, let me show you how this differentiated from the the actual original harbor one, right?
+
+61
+00:05:18,080 --> 00:05:21,760
+ So and I think I actually have that
+
+62
+00:05:23,240 --> 00:05:26,020
+ Yes, I do so let's let's dip
+
+63
+00:05:27,280 --> 00:05:29,080
+ resources a
+
+64
+00:05:29,080 --> 00:05:31,240
+ values
+
+65
+00:05:31,240 --> 00:05:33,240
+ - Harbor and
+
+66
+00:05:33,840 --> 00:05:40,520
+ Resources values channel. They're the same essentially. So these are the this is the only thing that changed between the two
+
+67
+00:05:42,040 --> 00:05:43,480
+ So
+
+68
+00:05:43,480 --> 00:05:46,200
+ Here we have a tag that's 13.6
+
+69
+00:05:46,640 --> 00:05:50,960
+ Okay, and that's the broken tag. We've already talked about that in a separate video
+
+70
+00:05:51,040 --> 00:05:57,520
+ So we updated it to 16.4, which by the way is consistent with its dependency. I just showed you in the charts dot log file
+
+71
+00:05:58,800 --> 00:06:00,440
+ Right
+
+72
+00:06:00,440 --> 00:06:03,960
+ So I'm not gonna rant anymore about that. I want to
+
+73
+00:06:05,440 --> 00:06:07,440
+ Here we have backup
+
+74
+00:06:07,480 --> 00:06:09,480
+ Enable true, where did I find that I?
+
+75
+00:06:09,880 --> 00:06:13,240
+ Found that because I went to the postcard told you in a previous video
+
+76
+00:06:13,240 --> 00:06:18,200
+ I went into the Postgres bit not me chart and I saw this thing called backup in there
+
+77
+00:06:18,200 --> 00:06:22,760
+ I saw this PG dump stuff and I was like what's that about because I'm about to write all that was already there the whole time
+
+78
+00:06:23,240 --> 00:06:29,440
+ So I just had to turn that to true the reason that's not there is because it's not in the harbor yaml spot that harbor
+
+79
+00:06:29,440 --> 00:06:31,440
+ dot yaml file why because
+
+80
+00:06:31,640 --> 00:06:35,320
+ helm does something very strange with
+
+81
+00:06:35,960 --> 00:06:41,840
+ Dependent subcharts and I'm gonna end with this but it's super important that you understand this if you don't understand anything else
+
+82
+00:06:41,840 --> 00:06:49,440
+ About helm in this video just know this when you do helm the show values in order to generate the values file
+
+83
+00:06:49,440 --> 00:06:53,840
+ That you're gonna go in and then update right and you have some chart dependencies
+
+84
+00:06:53,840 --> 00:06:59,360
+ And you can look for those in charts dot lock or you can look at them at the top of the chart file with the dependency
+
+85
+00:06:59,360 --> 00:07:03,280
+ I don't know why they're both there with authoritative place to look for them honest to God
+
+86
+00:07:03,280 --> 00:07:05,440
+ It's here because it actually has the version locked down
+
+87
+00:07:05,440 --> 00:07:08,200
+ So go look in chart dot lock versus chart dot yaml
+
+88
+00:07:08,360 --> 00:07:13,120
+ So this is more than everyone I know about home, but maybe this will save somebody else pain and suffering
+
+89
+00:07:13,400 --> 00:07:16,480
+ So all of these images and infrastructures and annotations these are wrong
+
+90
+00:07:16,480 --> 00:07:20,680
+ This is completely wrong and this here this list of dependencies is all nice and everything
+
+91
+00:07:20,680 --> 00:07:24,320
+ But it doesn't lock down the version it's like oh you can lock that that version someplace
+
+92
+00:07:24,320 --> 00:07:27,680
+ I don't know this must be because it's metadata or because it's documentation data
+
+93
+00:07:27,680 --> 00:07:31,800
+ I don't know I don't care because the actual version is in chart dot lock
+
+94
+00:07:32,000 --> 00:07:36,040
+ So just know that the actual version for this chart is in chart dot lock
+
+95
+00:07:36,160 --> 00:07:38,640
+ This means that effectively
+
+96
+00:07:39,600 --> 00:07:41,680
+ Effectively when you run if you helm
+
+97
+00:07:42,400 --> 00:07:48,360
+ Template or you run helm install either way what helm is doing and and this could be this
+
+98
+00:07:48,360 --> 00:07:53,560
+ We just confirmed this by looking at the resulting manifest the yaml files that come out of those commands, right?
+
+99
+00:07:53,800 --> 00:07:58,880
+ So what helm does whether it's documented this way or not is it it grabs these
+
+100
+00:07:59,440 --> 00:08:01,120
+ Starts with its own yaml dot
+
+101
+00:08:01,120 --> 00:08:04,040
+ You know values that yaml file and it starts with its own stuff
+
+102
+00:08:04,040 --> 00:08:10,180
+ And it runs its chart file and it uses those values to generate all this stuff and then it grabs the entire
+
+103
+00:08:12,120 --> 00:08:19,020
+ Value default values dot yaml and the entire chart for every one of its dependencies right as Postgres and in this case common
+
+104
+00:08:19,020 --> 00:08:22,800
+ Right and those things become
+
+105
+00:08:24,280 --> 00:08:32,400
+ Logical that logically included into the chart. So that means all of the the values that this is very important
+
+106
+00:08:32,400 --> 00:08:39,280
+ Okay, I'm gonna pause there for a fact all of the values dot yaml from the Postgres pitami chart the penancey
+
+107
+00:08:39,280 --> 00:08:43,120
+ All of the values dot yaml from the reddest chart dependency are
+
+108
+00:08:44,640 --> 00:08:53,200
+ Effectively and logically included when you run the template command even though when you do the show show values
+
+109
+00:08:53,200 --> 00:08:57,480
+ You know to helm show values command to get the harbor values dot yaml file
+
+110
+00:08:57,760 --> 00:09:03,120
+ You are not getting the value files for Redis or Postgres
+
+111
+00:09:03,320 --> 00:09:07,760
+ But they are still valid and then to top it all off
+
+112
+00:09:08,920 --> 00:09:11,200
+ In order to make it easier for us
+
+113
+00:09:11,400 --> 00:09:15,040
+ They have allowed us to put all of that into the values file
+
+114
+00:09:15,040 --> 00:09:19,360
+ Which is why you get crap like this you get this thing, right?
+
+115
+00:09:19,360 --> 00:09:26,520
+ So this is how helm works helm says if there is a you know farthest to the left
+
+116
+00:09:27,360 --> 00:09:32,640
+ Postgres dot SQL in this case that matches one of our helm dependency names
+
+117
+00:09:33,560 --> 00:09:35,560
+ Everything in here is
+
+118
+00:09:35,920 --> 00:09:40,220
+ authoritative everything in here wins over the other
+
+119
+00:09:40,960 --> 00:09:46,360
+ Upstreamed chart values yaml file. That's kind of implicitly loaded but not printed anywhere
+
+120
+00:09:46,360 --> 00:09:52,280
+ Now the thing that bothers the crap out of me is that when you do show values here, there is no option
+
+121
+00:09:52,800 --> 00:09:57,800
+ Let me get this is very important. I looked for it forever and if you know where it is, please put it in the comments
+
+122
+00:09:57,800 --> 00:09:58,920
+ I'll come kiss you on the mouth
+
+123
+00:09:58,920 --> 00:10:05,120
+ There is no option to do helm show values that will get that will pull down
+
+124
+00:10:05,560 --> 00:10:12,360
+ The values dot yaml files for each of these sub-chart dependencies in an organized way
+
+125
+00:10:12,480 --> 00:10:18,320
+ So that you have them all along with your values that yaml file from the the core repo that you're copying
+
+126
+00:10:18,880 --> 00:10:25,480
+ This means that if you want to follow the flatten and then apply kind of idea that most of us do
+
+127
+00:10:25,480 --> 00:10:28,440
+ That's the idea behind my Kate's app and our specification for Kate's apps
+
+128
+00:10:28,440 --> 00:10:30,440
+ If you want to do this properly
+
+129
+00:10:30,840 --> 00:10:36,320
+ Then the only way to do it is to do show values and save up resources
+
+130
+00:10:36,720 --> 00:10:45,240
+ Values dot yaml but in addition to that you have to call that same exact command for every of this one of the subcharts
+
+131
+00:10:45,240 --> 00:10:51,960
+ And then and then this is where they comes. This is where the kicker comes in in order to include those all
+
+132
+00:10:52,280 --> 00:10:58,160
+ Right, so you have them all for reference in order to include those all and to get them all into the final template
+
+133
+00:10:58,280 --> 00:11:03,060
+ You have to modify your build command, which I have not yet done
+
+134
+00:11:03,320 --> 00:11:08,600
+ But you have to modify your build command to include all of those resources
+
+135
+00:11:09,000 --> 00:11:12,080
+ so values - heart values - Postgres
+
+136
+00:11:14,320 --> 00:11:15,840
+ Redis, etc
+
+137
+00:11:15,840 --> 00:11:24,240
+ You can either do that or you can just look at those charts and do what I did with the backup and then go into the
+
+138
+00:11:24,640 --> 00:11:30,800
+ Master values dot yaml file and override them at that location so that you don't have to keep that
+
+139
+00:11:30,800 --> 00:11:34,080
+ But most people most people who are gonna want to flatten
+
+140
+00:11:34,320 --> 00:11:37,920
+ They're gonna want to keep ahold of those charts because they're gonna want to know
+
+141
+00:11:38,200 --> 00:11:45,000
+ What changed between versions and there's no way to know that if you have a dependency like let's say let's say the subchart dependency
+
+142
+00:11:45,000 --> 00:11:52,320
+ We're to change right and you would have no way to know how the values file changed from what you just built to the new one
+
+143
+00:11:52,320 --> 00:11:58,280
+ You have no way of knowing that because you can't dip the previous values and the final not to mention the fact that all the comments
+
+144
+00:11:58,280 --> 00:12:03,240
+ That come in the values file that we've gotten used to reading and knowing oh, I'm gonna go change this thing here
+
+145
+00:12:03,240 --> 00:12:05,240
+ Don't exist they don't exist
+
+146
+00:12:05,680 --> 00:12:10,560
+ Because they are not in the subchart. They're not they're they're not stored anywhere
+
+147
+00:12:10,560 --> 00:12:16,400
+ So you have to go get them by yourself. That's the only way to do it now. There is one
+
+148
+00:12:17,600 --> 00:12:20,640
+ remaining mystery and that is what wins
+
+149
+00:12:21,760 --> 00:12:31,080
+ right I have a feeling that the the the main values file for the main project in this case harbor wins out over everything else
+
+150
+00:12:31,600 --> 00:12:38,080
+ But I'm going to further do some research here to find out if the order of the file inclusions
+
+151
+00:12:38,080 --> 00:12:45,200
+ Which I which was a totally it said multiple files allowed and I was like, oh, okay, so I didn't know that before and
+
+152
+00:12:45,920 --> 00:12:51,040
+ So what this means is that it's very possible that the last file wins
+
+153
+00:12:51,680 --> 00:12:58,600
+ Right, so any place that you have global values that that conflicts with one another and and I'm pretty positive
+
+154
+00:12:58,600 --> 00:13:03,960
+ There's going to be some pretty radical helm scope naming collisions that are going to happen
+
+155
+00:13:03,960 --> 00:13:06,760
+ And so I'm going to proceed to test
+
+156
+00:13:07,320 --> 00:13:09,320
+ what happens when you
+
+157
+00:13:09,320 --> 00:13:17,320
+ Download the entire postgres values file and combine it in this way rather than just overriding it as a tiny little section within the
+
+158
+00:13:17,760 --> 00:13:20,320
+ supported, you know and included postgres
+
+159
+00:13:21,160 --> 00:13:23,560
+ Part of the harbor yaml file
+
+160
+00:13:24,760 --> 00:13:32,680
+ Personally, I don't I would rather not do that right? I would rather have the entire values files or each of the subchart dependencies
+
+161
+00:13:33,040 --> 00:13:35,040
+ available so I know what I'm dealing with and
+
+162
+00:13:35,680 --> 00:13:38,040
+ Hopefully this is helped you understand home a little bit more
+
+163
+00:13:38,040 --> 00:13:42,680
+ I had to make this video because it's driving me absolutely crazy and it's the weekend and I want to get out of here
+
+164
+00:13:42,680 --> 00:13:44,680
+ I hope you had fun
+
+165
+00:13:44,680 --> 00:13:46,840
+ Figuring this out as well as I did. Bye
+
