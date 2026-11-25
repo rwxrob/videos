@@ -1,0 +1,616 @@
+1
+00:00:00,000 --> 00:00:05,840
+ Go by example. I have been hearing about Go by example for years. I've never met
+
+2
+00:00:05,840 --> 00:00:12,360
+ Mark or Eli. They look like wonderful people. However, I have heard from people
+
+3
+00:00:12,360 --> 00:00:17,200
+ who have learned Go for the first time by using Go by example. One of them is the
+
+4
+00:00:17,200 --> 00:00:26,000
+ primary contributor to the the Bonsai project. And his Go code, Chite, is some
+
+5
+00:00:26,000 --> 00:00:29,560
+ of the best Go code I've ever seen. He has a natural understanding. He's extremely
+
+6
+00:00:29,560 --> 00:00:33,800
+ pedantic about his Go code. And he has helped me realize things about Go, like
+
+7
+00:00:33,800 --> 00:00:36,920
+ for example, not necessarily putting an argument identifier if you're not using
+
+8
+00:00:36,920 --> 00:00:44,560
+ it, inline typecasting and a couple of things that I and the use of tagged modules
+
+9
+00:00:44,560 --> 00:00:47,120
+ as long as you put a prefix so you can have model three posts. These are all
+
+10
+00:00:47,120 --> 00:00:52,360
+ things that Chite taught me that he had discovered. And because his first
+
+11
+00:00:52,360 --> 00:00:57,200
+ experience with Go was Go by example, I decided to give it another look. And to
+
+12
+00:00:57,200 --> 00:01:04,280
+ be fair, I looked at Go by example, God, 2019 or something like when it first came
+
+13
+00:01:04,280 --> 00:01:10,120
+ out. And it didn't really impress me at the time. Of course, there's always been a
+
+14
+00:01:10,120 --> 00:01:13,560
+ real drought of resources online. And now there's like, seems like there's a
+
+15
+00:01:13,560 --> 00:01:18,920
+ plethora of resources online, most of which are either overly complicated. Go
+
+16
+00:01:18,920 --> 00:01:23,840
+ one-on-one, right? I'm looking at you or teach you bitwise mathematics, even though
+
+17
+00:01:23,840 --> 00:01:27,760
+ you're an absolute beginner and expect you to already know C, that would be you
+
+18
+00:01:27,760 --> 00:01:30,880
+ tour of Go, which by the way has dropped off. It's not even getting supported
+
+19
+00:01:30,880 --> 00:01:34,200
+ anymore, even though it's listed on the front page. And then there's all of the
+
+20
+00:01:34,200 --> 00:01:38,300
+ books, right? There's Go in action, which is really, really outdated and has big
+
+21
+00:01:38,300 --> 00:01:43,520
+ bugs in it. There's, you know, I had to write an orata for my school when I did
+
+22
+00:01:43,520 --> 00:01:47,200
+ that one. There's the book from Donovan, the K&R people that wrote, you know, the
+
+23
+00:01:47,200 --> 00:01:52,960
+ K&R book, which is ancient. There's the other book that Doxy, the Go, you know,
+
+24
+00:01:52,960 --> 00:01:57,080
+ what is it? The Caleb Doxy book, which is ancient. It covers Go like 1.2. There's,
+
+25
+00:01:57,080 --> 00:02:03,000
+ there's the head first Go, which covers Go 1.7. They're so old. So it's really
+
+26
+00:02:03,000 --> 00:02:09,720
+ hard to know where to go. No pun intended to learn Go. And Go by example, as of this
+
+27
+00:02:09,720 --> 00:02:15,000
+ day, what is the day? I don't even know. But as of this day, Monday, November 18th,
+
+28
+00:02:15,000 --> 00:02:22,800
+ at 8.31 p.m. Go by example, is my single biggest recommendation for learning Go.
+
+29
+00:02:22,800 --> 00:02:29,160
+ If you know how to code, if you don't know how to code, you're gonna be lost.
+
+30
+00:02:29,160 --> 00:02:34,080
+ You're gonna be lost. And people I am working as fast as I can to make a
+
+31
+00:02:34,080 --> 00:02:39,640
+ resource that teaches computer programming, computer science with Go to
+
+32
+00:02:39,640 --> 00:02:43,360
+ absolute beginners who don't even know what a variable is, other than in math.
+
+33
+00:02:43,360 --> 00:02:47,720
+ I'm working because that resource doesn't exist. And if you want to help me
+
+34
+00:02:47,720 --> 00:02:52,680
+ contribute or read feedback and read the book as I'm writing it, I'm using a lot
+
+35
+00:02:52,680 --> 00:02:55,840
+ of AI for that. I'm doing it online. You know, plug for that. If you want to help
+
+36
+00:02:55,840 --> 00:02:58,480
+ me with that, if you want to help me with the Bonsai project, great. But if you're
+
+37
+00:02:58,480 --> 00:03:01,960
+ looking to learn Go fast and you already learned a code in JavaScript or Python
+
+38
+00:03:01,960 --> 00:03:07,920
+ probably, or maybe Java, then you should use Go by example. And this is a big thank
+
+39
+00:03:07,920 --> 00:03:11,840
+ you to Mark and Eli. I am gonna actually work through this a little bit and I want
+
+40
+00:03:11,840 --> 00:03:15,200
+ to show you something that I didn't see it took me a full day to realize this.
+
+41
+00:03:15,200 --> 00:03:19,200
+ And everybody on the stream is making fun of me because I didn't see it right
+
+42
+00:03:19,200 --> 00:03:25,400
+ away. I did a huge spiel about, hey, if you want to make your name in the world,
+
+43
+00:03:25,400 --> 00:03:28,520
+ you should make a PR, you should work the project and make a PR that allows you to
+
+44
+00:03:28,520 --> 00:03:34,920
+ run these examples in the really amazing Go Playground. At least one of you out
+
+45
+00:03:34,920 --> 00:03:39,000
+ there knows what I'm talking about. Can you see it on the screen here? Let's take
+
+46
+00:03:39,000 --> 00:03:43,040
+ a moment to look at the screen. Is it possible that such a thing already exists?
+
+47
+00:03:43,040 --> 00:03:51,320
+ I downloaded the entire source code and still missed it. So maybe you waited in
+
+48
+00:03:51,320 --> 00:03:54,720
+ this video, you're watching. A lot of you signed off of the video early and it's
+
+49
+00:03:54,720 --> 00:03:59,040
+ like, okay, use Go by Go by example, good got it, I'm out of here. But for the few
+
+50
+00:03:59,040 --> 00:04:02,760
+ of you are waiting until this part of the video, let me show you something very
+
+51
+00:04:02,760 --> 00:04:08,680
+ amazing. You can click on this little blob of an icon and it will actually take the
+
+52
+00:04:08,680 --> 00:04:14,800
+ code into the extremely amazing Go Playground. And within the Go Play, if
+
+53
+00:04:14,800 --> 00:04:18,200
+ you're an educator, if you're an educator, this is amazing. If you're an educator,
+
+54
+00:04:18,200 --> 00:04:21,280
+ you're probably stuck teaching if you're computer science, God help you go watch my
+
+55
+00:04:21,280 --> 00:04:26,320
+ video on college board. But you know, you can click on Run right here and you can
+
+56
+00:04:26,320 --> 00:04:28,880
+ run it. Something that's really cool about the Go Playground too is you can click
+
+57
+00:04:28,880 --> 00:04:33,000
+ over here and you can actually change whatever version of Go you want. By the
+
+58
+00:04:33,000 --> 00:04:40,480
+ way, don't learn any version of Go before 1.19. Go one point, there's there's the
+
+59
+00:04:40,480 --> 00:04:45,560
+ world of Go before 1.19. And there's the world of Go after 1.19. And some would
+
+60
+00:04:45,560 --> 00:04:50,160
+ argue that was something similar 1.13 is when they brought in modules. People,
+
+61
+00:04:50,160 --> 00:04:56,120
+ people don't use any Go older than 1.19 unless you have a mandated requirement to
+
+62
+00:04:56,120 --> 00:05:00,080
+ do so. There is just so much about the language that's changed and gotten better,
+
+63
+00:05:00,080 --> 00:05:05,340
+ most notably generics, but also the any untyped interface. A bunch of things that
+
+64
+00:05:05,340 --> 00:05:08,720
+ make computer programming much easier, especially if you're teaching or you're
+
+65
+00:05:08,720 --> 00:05:13,200
+ learning it for the first time. This is the Playground. You can go play with it in
+
+66
+00:05:13,200 --> 00:05:16,240
+ the Playground. You can modify it. You can check out whether a thing is going to
+
+67
+00:05:16,240 --> 00:05:20,440
+ work or not. And oh, thank you for the sub. That was very nice. Well, wait on
+
+68
+00:05:20,440 --> 00:05:24,440
+ Watson has actually just made their first PR against the Bonsai project. Thank
+
+69
+00:05:24,440 --> 00:05:29,120
+ you. It's very timely. So I appreciate you doing that. And by the way, I encourage
+
+70
+00:05:29,120 --> 00:05:33,440
+ you to come on in. I've got plenty of work for you. If you want to help do minor
+
+71
+00:05:33,440 --> 00:05:37,280
+ contributions to the Bonsai or big ones where you're learning Go, I have projects
+
+72
+00:05:37,280 --> 00:05:40,640
+ that you can contribute to if you want to with very specific help wanted things. So
+
+73
+00:05:40,640 --> 00:05:43,840
+ you can put your name out there on on an open source contribution. That's not
+
+74
+00:05:43,840 --> 00:05:48,600
+ insignificant. It's not some help doc, you know, which is always needed. But you
+
+75
+00:05:48,600 --> 00:05:52,880
+ know, so anyway, this is not about that. This is about the Go by Examples tool.
+
+76
+00:05:52,880 --> 00:05:57,440
+ And I want to just tell you so, so the Go by Examples tool, albeit really plain
+
+77
+00:05:57,440 --> 00:06:03,320
+ and simple, is plain and simple. And that's what makes it so great. It's so easy to
+
+78
+00:06:03,320 --> 00:06:08,040
+ get bogged down by all of the, you know, the pain and suffering of this, right?
+
+79
+00:06:08,040 --> 00:06:12,840
+ The one negative I would say is that because it is so plain and simple, it
+
+80
+00:06:12,840 --> 00:06:18,400
+ kind of lacks that, you know, mnemonic device appeal that has been scientifically
+
+81
+00:06:18,400 --> 00:06:21,840
+ proven to help you remember things better. I'm talking about headfirst. And by the
+
+82
+00:06:21,840 --> 00:06:26,240
+ way, the author of Headflow First Go, I forget his name, is amazing. He's one of
+
+83
+00:06:26,240 --> 00:06:30,560
+ the most amazing authors I've ever read. I wish we could get him to write an
+
+84
+00:06:30,560 --> 00:06:36,680
+ updated version of Headfirst Go for Go 1.23. I have read that there is a new
+
+85
+00:06:36,680 --> 00:06:41,640
+ version in the works for Headfirst Go. I am praying for that because that would
+
+86
+00:06:41,640 --> 00:06:46,560
+ be handed to hands down the best possible thing that you could possibly have. And
+
+87
+00:06:46,560 --> 00:06:50,000
+ so here we go. Go is an open source programming language designed to build
+
+88
+00:06:50,000 --> 00:06:53,480
+ scalable blah. Here's the official documentation. Here's your first example.
+
+89
+00:06:53,480 --> 00:06:59,120
+ And then it continues to have all of these very basic things, variadic functions,
+
+90
+00:06:59,120 --> 00:07:03,040
+ closures, recursion, even gets into generics, go routines. And what I find so
+
+91
+00:07:03,040 --> 00:07:07,720
+ amazing about this is just how simple it is. It's like, it doesn't, it's not, it's
+
+92
+00:07:07,720 --> 00:07:10,920
+ not trying to sell you one thing. It's not trying to give you the mnemonic
+
+93
+00:07:10,920 --> 00:07:14,880
+ device. Like my book is where it makes turns everything into a spell, right? But
+
+94
+00:07:14,880 --> 00:07:20,040
+ it like is just simple. And it's really fun. So here we go. Here we have like a
+
+95
+00:07:20,040 --> 00:07:23,760
+ function. We're going to do that function here. And there are a couple of things
+
+96
+00:07:23,760 --> 00:07:27,760
+ that I find wrong about it. So there for example, let me give you a couple of
+
+97
+00:07:27,760 --> 00:07:31,600
+ examples of things that I don't like. And so I did notice that there is the use
+
+98
+00:07:31,600 --> 00:07:35,760
+ of the it seems that most of these examples have not been updated for 1.19
+
+99
+00:07:35,760 --> 00:07:40,680
+ and advanced after that, most notably the use of the of the empty interface
+
+100
+00:07:40,680 --> 00:07:45,160
+ that's called. So you can actually see this there. Anytime you see in the code
+
+101
+00:07:45,160 --> 00:07:51,960
+ you see an interface with, I'm trying to find one here. Oh, I'm trying to find it.
+
+102
+00:07:51,960 --> 00:07:58,000
+ Where are you? Where have you gone? I can't find you now. I don't know where it is.
+
+103
+00:07:58,000 --> 00:08:03,680
+ But if you see there's so there's a thing called any, which is much easier to use
+
+104
+00:08:03,680 --> 00:08:08,920
+ now. I'm not seeing it here. I was impressed that they do have 4n in range
+
+105
+00:08:08,920 --> 00:08:12,280
+ which is how you iterate over integers. That that is not something covered by
+
+106
+00:08:12,280 --> 00:08:17,440
+ most books even though it's very useful. They I'm still trying to find the
+
+107
+00:08:17,440 --> 00:08:22,040
+ untyped interface. I mean the empty interface array idea. Maybe it's down
+
+108
+00:08:22,040 --> 00:08:27,200
+ here in closures functions. I mean the concept this is a good example of why
+
+109
+00:08:27,200 --> 00:08:31,720
+ this isn't good for beginners. The idea of a closure is has it's very hard for
+
+110
+00:08:31,720 --> 00:08:35,440
+ beginners to understand in my experience. It goes towards anonymous functions with
+
+111
+00:08:35,440 --> 00:08:39,880
+ the form closures. That's it, right? And I guess they made a link to what it is on
+
+112
+00:08:39,880 --> 00:08:44,800
+ Wikipedia so you can go read about it. That is probably not the most you know
+
+113
+00:08:44,800 --> 00:08:51,320
+ exposition about what that is and why I would use it. I mean I guess I guess they
+
+114
+00:08:51,320 --> 00:08:54,560
+ tried to focus on just teaching you the principles and letting you go learn
+
+115
+00:08:54,560 --> 00:08:59,360
+ about what a closure is. So if you're an absolute beginner let's actually amend
+
+116
+00:08:59,360 --> 00:09:03,960
+ what I said about not using this. It's possible if you're in I mean it's
+
+117
+00:09:03,960 --> 00:09:08,000
+ possible. I don't know. I haven't sent anybody I can't make a comment on this.
+
+118
+00:09:08,000 --> 00:09:11,160
+ But if you're an absolute beginner who doesn't know anything about programming
+
+119
+00:09:11,160 --> 00:09:17,640
+ the simplicity of these examples might be enough to help you learn about that. So
+
+120
+00:09:17,640 --> 00:09:21,560
+ let's let me so in the auto didactic approach to learning if you're going to
+
+121
+00:09:21,560 --> 00:09:25,000
+ go by examples that assumes you know how to code already and you're reading the
+
+122
+00:09:25,000 --> 00:09:28,800
+ explanation which is ultra ultra simple and is using words you should know from
+
+123
+00:09:28,800 --> 00:09:33,880
+ programming like closure. You might be able to use that and you might be able to
+
+124
+00:09:33,880 --> 00:09:39,200
+ say okay what is a closure and you can go read about closure and you can read
+
+125
+00:09:39,200 --> 00:09:43,400
+ about the computer science principles that are in each of these examples as you
+
+126
+00:09:43,400 --> 00:09:48,560
+ go so that you can supplement your learning about go with a broader learning
+
+127
+00:09:48,560 --> 00:09:52,560
+ about what computer science is and how to program. That is a very likely
+
+128
+00:09:52,560 --> 00:09:56,640
+ possibility. If you do that by the way please let me know. I really want to know
+
+129
+00:09:56,640 --> 00:10:02,200
+ who has never coded before who can actually learn how to code by going
+
+130
+00:10:02,200 --> 00:10:09,440
+ through go by example and my my intent by creating a code wizard's first spell
+
+131
+00:10:09,440 --> 00:10:13,680
+ book learn computer science and program practical programming with go as a first
+
+132
+00:10:13,680 --> 00:10:18,480
+ language is the same thing essentially as these examples except for the examples
+
+133
+00:10:18,480 --> 00:10:23,880
+ are spells and they have been put into a spell form so and with pretty pictures
+
+134
+00:10:23,880 --> 00:10:28,600
+ and stuff so that you can associate you know the setting of a variable for
+
+135
+00:10:28,600 --> 00:10:32,600
+ example by you know putting a rabbit in a hat and then pulling a rabbit out of the
+
+136
+00:10:32,600 --> 00:10:35,920
+ hat and putting a pigeon in the hat you know and those kind of those
+
+137
+00:10:35,920 --> 00:10:39,080
+ nivonic devices but you might not want that you might be a no-nonsense kind of
+
+138
+00:10:39,080 --> 00:10:42,440
+ person who just wants just give me the stuff and that and then like okay well
+
+139
+00:10:42,440 --> 00:10:46,000
+ this is how you do a thing but why would I do that thing right and you can kind of
+
+140
+00:10:46,000 --> 00:10:51,680
+ imply the the reasons for that and that and a lot of this stuff if you're just
+
+141
+00:10:51,680 --> 00:10:54,680
+ starting out learning how to code you just be doing little things in your
+
+142
+00:10:54,680 --> 00:10:58,360
+ code book and tell you figure out how to make something bigger and then it would
+
+143
+00:10:58,360 --> 00:11:03,080
+ be more of a go get you know go get the examples and stuff like that so that's
+
+144
+00:11:03,080 --> 00:11:07,280
+ all I'm gonna say about go by example but have a look at it and and and by the
+
+145
+00:11:07,280 --> 00:11:11,880
+ way if you happen to be the go by example people I strongly encourage you to kind
+
+146
+00:11:11,880 --> 00:11:15,280
+ of accept some of those PR's it looks like your project just hasn't been updated
+
+147
+00:11:15,280 --> 00:11:20,600
+ in like three months so I almost forked the project and did some of those PR
+
+148
+00:11:20,600 --> 00:11:24,640
+ requests and added some stuff to it I don't intend to do that but if there's
+
+149
+00:11:24,640 --> 00:11:29,560
+ no attention to this repo over the next three or four months I might do that and
+
+150
+00:11:29,560 --> 00:11:31,960
+ if you need help please let me know if you need somebody to help manage the
+
+151
+00:11:31,960 --> 00:11:38,120
+ project I'd be happy to help submit some PR's right now though you have almost a
+
+152
+00:11:38,120 --> 00:11:41,720
+ dozen PR's that have had no attention that are fixing things that you need to
+
+153
+00:11:41,720 --> 00:11:45,440
+ have fixed so please take a look at it otherwise I'm not gonna be able to
+
+154
+00:11:45,440 --> 00:11:49,920
+ recommend it or I'm gonna fork it just make my own version of it
+
