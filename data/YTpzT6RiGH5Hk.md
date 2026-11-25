@@ -1,6 +1,6 @@
 # 🎄🐹 Coding from the Get Go - #4: Go Functions vs Procedures, entr, and Example Tests
 
-Continues learning Go from zero by using entr to rerun code and tests automatically whenever files change, then factoring code into subroutines. Explains the difference between procedures and true functions, covers return values and variable assignment, and writes simple math functions checked with Go's built-in example-based tests.
+Continues learning Go from zero by using entr to rerun code and tests automatically whenever files change, then factoring code into subroutines. Explains the difference between procedures and true functions, covers return values and variable assignment, introduces Go's built-in example-based tests with a doubling function and a greeting, and writes more simple math functions.
 
 Is that _really_ a function? Procedures, subroutines, more on variables. Use entr to automatically run tests. Example-based testing builtin to Go
 
@@ -8,15 +8,22 @@ Learn practical computer science and programming with Go as a first language.
 
 Chapters:
 0:00 Rerunning Go code automatically with entr
+4:02 Introducing variables
 6:00 Joining strings with the concatenation operator
 9:03 Factoring repeated code into a subroutine
-15:01 Functions, procedures, and subroutines explained
-21:00 Testing procedures versus true functions
-27:02 Watching all Go files and fixing tests
-33:02 Return values and assigning them to variables
-39:03 Side effects and returning strings with Sprintf
-48:00 Simplifying functions and writing more of them
-54:00 Basic math, increment, and decrement operators
+12:47 Functions, procedures, and subroutines explained
+19:11 Testing procedures versus true functions
+23:00 Writing a true function and an example test
+25:55 Running all tests with entr and go test
+29:58 Watching all Go files and fixing tests
+33:30 Return values and assigning them to variables
+37:38 Why main is a procedure: side effects
+41:20 Returning strings with Sprintf and concatenation
+48:26 Simplifying the double function
+49:24 Operators and operands
+50:45 Writing more math functions
+54:25 Increment and decrement shorthand
+56:16 Review and next steps
 
 `#golang #programming #learntocode #coding #testing #functions #entr #computerscience #educational`
 
