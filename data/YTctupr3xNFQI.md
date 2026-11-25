@@ -5,8 +5,8 @@ Introduces what XML looks like and where it still appears, such as SVG images, M
 Chapters:
 0:00 XML structure and why to skip XHTML
 0:55 SVG images as XML in practice
-1:45 MathML, Word documents and other XML formats
-3:05 Learn JSON and YAML instead
+1:58 MathML, Word documents and other XML formats
+3:08 Learn JSON and YAML instead
 
 `#xml #xhtml #webdevelopment #svg #json #yaml #html5 #beginners #techjobs #learning`
 
