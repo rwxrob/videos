@@ -1,0 +1,348 @@
+1
+00:00:00,000 --> 00:00:08,920
+ I just have to say, claw hammers are the best hammers.
+
+2
+00:00:08,920 --> 00:00:15,440
+ If you're not using a claw hammer, you suck.
+
+3
+00:00:15,440 --> 00:00:18,920
+ Obviously that doesn't make any sense and I'm just trying to make a point real quick.
+
+4
+00:00:18,920 --> 00:00:24,160
+ Every time we keep fighting about religions or actually, frankly, religion, yes, but tools
+
+5
+00:00:24,160 --> 00:00:29,640
+ and stuff, it's really about the best tool for the job.
+
+6
+00:00:29,640 --> 00:00:34,580
+ You would never say to somebody, well, I used, I used, you know, ball peen hammers and that's
+
+7
+00:00:34,580 --> 00:00:37,080
+ the only hammers I'm ever going to use.
+
+8
+00:00:37,080 --> 00:00:38,960
+ So you use a hammer.
+
+9
+00:00:38,960 --> 00:00:42,240
+ I said, I said, I said the ball peen hammer was the best yesterday, now claw hammer is
+
+10
+00:00:42,240 --> 00:00:43,440
+ the best, right?
+
+11
+00:00:43,440 --> 00:00:48,240
+ Because I have new information.
+
+12
+00:00:48,240 --> 00:00:51,960
+ So let's not fight about what hammer is best.
+
+13
+00:00:51,960 --> 00:00:57,040
+ Like seriously, don't go into a forum and declare that your hammer is better than everybody
+
+14
+00:00:57,040 --> 00:01:00,300
+ else's hammer, it's really stupid.
+
+15
+00:01:00,300 --> 00:01:01,300
+ It's stupid.
+
+16
+00:01:01,300 --> 00:01:05,540
+ It doesn't make any sense and that's just not using a claw hammer.
+
+17
+00:01:05,540 --> 00:01:09,640
+ If you're not using a claw hammer, then you must not know what you're doing, you know,
+
+18
+00:01:09,640 --> 00:01:10,640
+ you should never have a job.
+
+19
+00:01:10,640 --> 00:01:11,640
+ No one should ever hire you.
+
+20
+00:01:11,640 --> 00:01:13,960
+ I should fire you for not using the right hammer.
+
+21
+00:01:13,960 --> 00:01:15,560
+ It's totally stupid.
+
+22
+00:01:15,560 --> 00:01:17,120
+ It's always been stupid.
+
+23
+00:01:17,120 --> 00:01:20,520
+ However, and coming in and telling someone else that they should use a hammer because
+
+24
+00:01:20,520 --> 00:01:26,120
+ of a specific reason, sometimes when I'm programming, I really want a hammer though.
+
+25
+00:01:26,120 --> 00:01:27,120
+ They all do.
+
+26
+00:01:27,120 --> 00:01:28,120
+ That's it.
+
+27
+00:01:28,120 --> 00:01:31,880
+ That's all this video is next time ask yourself when you're arguing about an editor or you're
+
+28
+00:01:31,880 --> 00:01:37,040
+ arguing about a programming language, which is, you know, or you're trying to ask, here's
+
+29
+00:01:37,040 --> 00:01:38,040
+ another one.
+
+30
+00:01:38,040 --> 00:01:39,040
+ Here's another one.
+
+31
+00:01:39,040 --> 00:01:40,840
+ What's the best hammer I should learn?
+
+32
+00:01:40,840 --> 00:01:42,080
+ Which hammer should I learn how to use?
+
+33
+00:01:42,080 --> 00:01:44,280
+ I get this question all the time.
+
+34
+00:01:44,280 --> 00:01:46,600
+ I get this question constantly.
+
+35
+00:01:46,600 --> 00:01:51,240
+ People come into my chat and like, Mr. Rob, I really want to learn how to use hammers.
+
+36
+00:01:51,240 --> 00:01:53,000
+ Which hammer should I use?
+
+37
+00:01:53,000 --> 00:01:56,560
+ And you see where I'm going with this?
+
+38
+00:01:56,560 --> 00:01:58,000
+ I mean, it's pretty obvious.
+
+39
+00:01:58,000 --> 00:02:01,160
+ I'm kind of hammering this topic to death.
+
+40
+00:02:01,160 --> 00:02:03,080
+ Oh my God.
+
+41
+00:02:03,080 --> 00:02:06,200
+ The jokes just keep coming.
+
+42
+00:02:06,200 --> 00:02:08,000
+ Dad jokes.
+
+43
+00:02:08,000 --> 00:02:11,720
+ PHP is the best hammer, right?
+
+44
+00:02:11,720 --> 00:02:14,720
+ So you can't ask which hammer is the best.
+
+45
+00:02:14,720 --> 00:02:16,520
+ And usually what will I say back?
+
+46
+00:02:16,520 --> 00:02:17,800
+ I'll say, I don't know.
+
+47
+00:02:17,800 --> 00:02:20,960
+ What do you want to do?
+
+48
+00:02:20,960 --> 00:02:22,160
+ What do you want to do with your hammer?
+
+49
+00:02:22,160 --> 00:02:23,560
+ Why do you want to learn a hammer?
+
+50
+00:02:23,560 --> 00:02:25,520
+ Maybe you need to saw.
+
+51
+00:02:25,520 --> 00:02:27,080
+ What is it you actually want to do?
+
+52
+00:02:27,080 --> 00:02:28,080
+ Tell me what you want to do.
+
+53
+00:02:28,080 --> 00:02:31,840
+ Well, I want to get a job using hammers.
+
+54
+00:02:31,840 --> 00:02:35,320
+ Okay, let's see.
+
+55
+00:02:35,320 --> 00:02:37,200
+ What are the jobs you could use using hammers?
+
+56
+00:02:37,200 --> 00:02:41,080
+ There's like, you could, I mean, you know, construction, there's other thing.
+
+57
+00:02:41,080 --> 00:02:44,200
+ You really don't know what you want to do.
+
+58
+00:02:44,200 --> 00:02:46,280
+ I think the reactions are pretty good too.
+
+59
+00:02:46,280 --> 00:02:49,120
+ I think they've been pretty, they've been pretty open-minded.
+
+60
+00:02:49,120 --> 00:02:52,400
+ The NeoVin thing, which is good because I was really worried.
+
+61
+00:02:52,400 --> 00:02:58,840
+ So, you know, before you ask yourself the question, which hammer should I learn?
+
+62
+00:02:58,840 --> 00:03:02,080
+ Ask yourself the question, what do I want to do?
+
+63
+00:03:02,080 --> 00:03:07,360
+ And if what you want to do is do something that'll help you, you enjoy using hammers.
+
+64
+00:03:07,360 --> 00:03:08,760
+ And that's totally fair.
+
+65
+00:03:08,760 --> 00:03:10,360
+ I just really love using hammers.
+
+66
+00:03:10,360 --> 00:03:11,640
+ I love hammering stuff.
+
+67
+00:03:11,640 --> 00:03:12,640
+ I love it.
+
+68
+00:03:12,640 --> 00:03:13,640
+ I absolutely do.
+
+69
+00:03:13,640 --> 00:03:14,640
+ And some people do, right?
+
+70
+00:03:14,640 --> 00:03:16,400
+ Well, what do you love hammering?
+
+71
+00:03:16,400 --> 00:03:17,400
+ Right?
+
+72
+00:03:17,400 --> 00:03:21,720
+ So, are you like, you know, do you want to do a construction person?
+
+73
+00:03:21,720 --> 00:03:22,720
+ You want a sledgehammer?
+
+74
+00:03:22,720 --> 00:03:24,960
+ You're like really breaking things up?
+
+75
+00:03:24,960 --> 00:03:29,880
+ I'm taking this to, you know, the end level, big for a reason because really that's what
+
+76
+00:03:29,880 --> 00:03:31,400
+ you're ultimately asking.
+
+77
+00:03:31,400 --> 00:03:34,560
+ And so the answer is inside yourself.
+
+78
+00:03:34,560 --> 00:03:35,560
+ What do you want to do?
+
+79
+00:03:35,560 --> 00:03:38,720
+ Do you want to break stuff up like a chain gang with a sledgehammer?
+
+80
+00:03:38,720 --> 00:03:42,520
+ Do you want to, you know, do you want to use your hammer and you want to put crown molding
+
+81
+00:03:42,520 --> 00:03:44,800
+ in because you really like amazing things like that?
+
+82
+00:03:44,800 --> 00:03:46,760
+ Is your hammer a part of another tool?
+
+83
+00:03:46,760 --> 00:03:50,880
+ Does it go with another, like a, like a, and you're like sculpture, you're sculpting out
+
+84
+00:03:50,880 --> 00:03:52,120
+ of it?
+
+85
+00:03:52,120 --> 00:03:56,240
+ What is it that you want to do with your hammer and then ask which hammer is best for that
+
+86
+00:03:56,240 --> 00:03:57,240
+ job?
+
+87
+00:03:57,240 --> 00:03:59,240
+ There, that's all.
+
