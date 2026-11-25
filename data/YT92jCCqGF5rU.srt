@@ -1,0 +1,244 @@
+1
+00:00:00,000 --> 00:00:05,000
+ Right, how do you get visual studio code,
+
+2
+00:00:06,360 --> 00:00:09,520
+ visual studio code, Microsoft visual studio code
+
+3
+00:00:09,520 --> 00:00:12,000
+ onto your Mac?
+
+4
+00:00:12,000 --> 00:00:13,720
+ That's what this video is about.
+
+5
+00:00:13,720 --> 00:00:15,780
+ It's not hard, let's do it.
+
+6
+00:00:16,720 --> 00:00:20,720
+ So, brew, which you should already have installed,
+
+7
+00:00:21,880 --> 00:00:26,880
+ install visual studio code.
+
+8
+00:00:27,760 --> 00:00:30,120
+ We'll let this run, and while this running,
+
+9
+00:00:30,120 --> 00:00:31,080
+ I want to talk about it.
+
+10
+00:00:31,080 --> 00:00:35,920
+ So, what we're doing is we're connecting
+
+11
+00:00:37,320 --> 00:00:41,120
+ to brews, you know, the missing package manager,
+
+12
+00:00:41,120 --> 00:00:43,960
+ separate video on that, and we're downloading that,
+
+13
+00:00:43,960 --> 00:00:46,680
+ and we're going to do the installation.
+
+14
+00:00:46,680 --> 00:00:48,580
+ A separate video about how to get the terminal,
+
+15
+00:00:48,580 --> 00:00:50,280
+ separate video about how to colorize
+
+16
+00:00:50,280 --> 00:00:51,360
+ your terminal with group box.
+
+17
+00:00:51,360 --> 00:00:52,480
+ All those videos exist.
+
+18
+00:00:52,480 --> 00:00:54,160
+ Make sure you go out and find those.
+
+19
+00:00:54,160 --> 00:00:55,120
+ If you're having trouble, by the way,
+
+20
+00:00:55,120 --> 00:00:57,560
+ finding any of these videos in the order,
+
+21
+00:00:57,560 --> 00:01:01,760
+ please go to skillstack.io and look at the outline there,
+
+22
+00:01:01,760 --> 00:01:03,400
+ and you can see all the videos will be linked
+
+23
+00:01:03,400 --> 00:01:08,000
+ from an outline, which is much better than a playlist.
+
+24
+00:01:08,000 --> 00:01:09,160
+ Because you can go to that,
+
+25
+00:01:09,160 --> 00:01:10,880
+ and then you can look at everything.
+
+26
+00:01:10,880 --> 00:01:12,740
+ So, there we have visual studio code.
+
+27
+00:01:13,840 --> 00:01:16,280
+ The thing to note about code from the command line,
+
+28
+00:01:16,280 --> 00:01:17,760
+ whether it's Mac or Windows,
+
+29
+00:01:17,760 --> 00:01:19,960
+ and I'll just do this on both videos,
+
+30
+00:01:19,960 --> 00:01:22,440
+ is you can just do which code,
+
+31
+00:01:22,440 --> 00:01:25,920
+ and that'll tell you where visual studio code is.
+
+32
+00:01:25,920 --> 00:01:28,800
+ We already talked about adding opt-home brew bin
+
+33
+00:01:28,800 --> 00:01:30,360
+ to your directory.
+
+34
+00:01:30,360 --> 00:01:33,000
+ If you don't know how to do that,
+
+35
+00:01:33,000 --> 00:01:34,680
+ and you need to do it for the first time,
+
+36
+00:01:34,680 --> 00:01:37,680
+ you can just do opt-home-brew/bincode for your first time,
+
+37
+00:01:42,640 --> 00:01:44,560
+ if you don't know about that.
+
+38
+00:01:44,560 --> 00:01:47,160
+ It might be, by the way, it might be opt-user,
+
+39
+00:01:47,160 --> 00:01:49,560
+ or user-local on an Intel machine.
+
+40
+00:01:49,560 --> 00:01:52,160
+ This is on the M1, I mean the M3.
+
+41
+00:01:52,160 --> 00:01:55,040
+ So, any of the ARM ones, do you hit enter?
+
+42
+00:01:55,040 --> 00:01:59,120
+ And that is going to open up visuals to your code down here.
+
+43
+00:01:59,120 --> 00:02:01,440
+ And as soon as you have the icon down here,
+
+44
+00:02:01,440 --> 00:02:02,480
+ you can right-click on it,
+
+45
+00:02:02,480 --> 00:02:04,560
+ and you can add it options,
+
+46
+00:02:04,560 --> 00:02:07,720
+ keep in dock, or keep in dock.
+
+47
+00:02:07,720 --> 00:02:10,040
+ And then that way, you can run it there anytime.
+
+48
+00:02:10,040 --> 00:02:13,920
+ So, running from the command line is nice,
+
+49
+00:02:13,920 --> 00:02:15,840
+ and I'll do a separate video just about the things you can do
+
+50
+00:02:15,840 --> 00:02:17,640
+ by using the code command from the command line.
+
+51
+00:02:17,640 --> 00:02:20,480
+ Another way to start this would have been,
+
+52
+00:02:20,480 --> 00:02:22,200
+ let's go ahead and exit it.
+
+53
+00:02:22,200 --> 00:02:25,200
+ Another way to start it would have been to do command space,
+
+54
+00:02:25,200 --> 00:02:29,880
+ and then type code, visual studio code,
+
+55
+00:02:29,880 --> 00:02:31,440
+ and then type enter.
+
+56
+00:02:31,440 --> 00:02:34,800
+ And that would do exactly the same thing.
+
+57
+00:02:34,800 --> 00:02:37,000
+ And you can go ahead and do the same thing, keep in dock.
+
+58
+00:02:37,000 --> 00:02:40,960
+ So, those are the two ways to get visual studio code
+
+59
+00:02:40,960 --> 00:02:43,480
+ onto your Mac using brew.
+
+60
+00:02:43,480 --> 00:02:45,400
+ All those other videos are there.
+
+61
+00:02:45,400 --> 00:02:46,240
+ See you later.
+
