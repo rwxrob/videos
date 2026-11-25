@@ -1,6 +1,6 @@
 # ⚠️ Golang func docs in per-OS files: the first file alphabetically wins
 
-Explains a Go documentation pitfall when the same function is defined in separate files for different target operating systems or architectures. Shows that go doc uses the comment from the alphabetically first file, even if only a later file is documented, so the documentation should go in that first file and cover every platform.
+Explains a Go documentation pitfall when the same function is defined in separate files for different target operating systems or architectures. Shows that go doc uses the documentation from the alphabetically first file, so if that file has none, comments in a later file do not appear. The documentation should either be identical in each file or be placed in the alphabetically first one. Because it applies to all platforms, it should not be specific to just one.
 
 `#golang #go #godoc #programming #documentation #crossplatform #codingtips #warning #protips #coding #education`
 
