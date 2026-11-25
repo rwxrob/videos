@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:07,920
+ All right, we found a bigger problem and I'm just going to show it because it's going
+
+2
+00:00:07,920 --> 00:00:08,920
+ to be very small.
+
+3
+00:00:08,920 --> 00:00:15,880
+ I think this is one of the main reasons that I don't like home is that this can exist.
+
+4
+00:00:15,880 --> 00:00:22,560
+ So Postgres version 13, there's a dependency not only here, but also in the default value
+
+5
+00:00:22,560 --> 00:00:27,520
+ spot, which I've talked about in another video on Postgres version 13.
+
+6
+00:00:27,520 --> 00:00:34,620
+ It's app version 13, the Postgres version 13.16, okay.
+
+7
+00:00:34,620 --> 00:00:44,800
+ And yeah, it says here image 13, right?
+
+8
+00:00:44,800 --> 00:00:48,860
+ So and then again, the values file is hard coded to the tag version of Postgres version
+
+9
+00:00:48,860 --> 00:00:50,400
+ of Postgres.
+
+10
+00:00:50,400 --> 00:00:51,400
+ And maybe I missed something.
+
+11
+00:00:51,400 --> 00:00:53,560
+ So I'm making a video about this.
+
+12
+00:00:53,560 --> 00:00:58,700
+ But down here, we see that the repository dependency, this is this is this is how helm
+
+13
+00:00:58,700 --> 00:01:04,480
+ those sub charts, which I'm not very strong in, but this right here says that there is
+
+14
+00:01:04,480 --> 00:01:13,000
+ a sub chart dependency on version 15 dot X dot X of the chart of the Postgres chart,
+
+15
+00:01:13,000 --> 00:01:17,720
+ the bitnommy chart for Postgres, right?
+
+16
+00:01:17,720 --> 00:01:24,840
+ And if we go to, we use the tool I just wrote to list all of the charts for a given version
+
+17
+00:01:24,840 --> 00:01:33,520
+ of an app version, we can see that the charts, the chart versions for version 16.4 of the
+
+18
+00:01:33,520 --> 00:01:37,680
+ Postgres app start at 15.5.
+
+19
+00:01:37,680 --> 00:01:39,560
+ So 15.5 is the first chart.
+
+20
+00:01:39,560 --> 00:01:49,080
+ So what we can derive from that I think is that there is a hard coded sub chart dependency
+
+21
+00:01:49,080 --> 00:01:59,200
+ on the chart of 15, which is a dependency on Postgres version app version 16.4 or higher.
+
+22
+00:01:59,200 --> 00:02:07,140
+ And yet the image here is 13.16.
+
+23
+00:02:07,140 --> 00:02:13,240
+ I don't know, I don't know what's going on there, but if indeed it is using, so the
+
+24
+00:02:13,240 --> 00:02:19,680
+ good news here is if indeed this is pulling in one of the charts from 15 point, whatever,
+
+25
+00:02:19,680 --> 00:02:25,040
+ we might actually end up getting automated backups through a regular cron job, which can
+
+26
+00:02:25,040 --> 00:02:30,760
+ be configured through the values.yaml file that I found in the most recent version of
+
+27
+00:02:30,760 --> 00:02:38,040
+ Postgres's chart, Benami Postgres, but that was not in the harbor yamels file, values
+
+28
+00:02:38,040 --> 00:02:41,960
+ out file, which we already know is totally screwed up because it's pegged, it's pegged
+
+29
+00:02:41,960 --> 00:02:46,560
+ at 13 because of an old super old dependency.
+
+30
+00:02:46,560 --> 00:02:54,400
+ So what I'm trying to say is the harbor values file is totally screwed up, is totally screwed
+
+31
+00:02:54,400 --> 00:03:02,840
+ up, and there's a fairly strong possibility that it's missing several key areas that
+
+32
+00:03:02,840 --> 00:03:09,280
+ would have come in from the dependencies chart, including the activation of backups by changing
+
+33
+00:03:09,280 --> 00:03:17,400
+ one value from false to true, instead of writing your entire Postgres backup solution and attacking
+
+34
+00:03:17,400 --> 00:03:22,120
+ on your own cron job and your own customized, you know, it's customization as I am, which
+
+35
+00:03:22,120 --> 00:03:25,440
+ we have done in the past, we've spent a lot of time, it's already written, it's all there,
+
+36
+00:03:25,440 --> 00:03:29,860
+ it's all already in the Postgres chart, but you just can't see it because you're just
+
+37
+00:03:29,860 --> 00:03:34,160
+ looking at the yamels file, the values file for harbor, which doesn't include all the
+
+38
+00:03:34,160 --> 00:03:35,880
+ values that are potentially there for Postgres.
+
+39
+00:03:35,880 --> 00:03:41,040
+ I could very well be getting something wrong here, but I'm just going to put this out there
+
+40
+00:03:41,040 --> 00:03:44,800
+ because if you know the answer to this, you want to put a comment in there, please do.
+
+41
+00:03:44,800 --> 00:03:48,880
+ This is making me absolutely despise home even more because the fact I did this even
+
+42
+00:03:48,880 --> 00:03:55,120
+ exists right now, if I'm right about this, then this is a, this, this values file, this
+
+43
+00:03:55,120 --> 00:04:06,440
+ harm, this harm, the same harm, it literally allows people, it's, it's completely broken,
+
+44
+00:04:06,440 --> 00:04:14,720
+ it's completely broken because it says you have to use the chart 15 point X, you know,
+
+45
+00:04:14,720 --> 00:04:22,440
+ but then it also forces the dependency on Postgres 13, but 15 point X of the chart is,
+
+46
+00:04:22,440 --> 00:04:27,400
+ is version 16.4, it's totally broken, that's all, bye.
+
