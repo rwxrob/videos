@@ -7,7 +7,7 @@ Chapters:
 1:09 ShellCheck warning and possible fixes
 2:34 The colon command for redirection
 3:02 Setting default variables with colon
-5:07 Troubleshooting ShellCheck on another machine
+5:02 Troubleshooting ShellCheck
 
 `#bash #shellscripting #shellcheck #linux #terminal #commandline #coding #protips #education`
 
