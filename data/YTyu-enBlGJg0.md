@@ -6,9 +6,9 @@ My sincere apology. Learn nano, sometimes it is all you have.
 
 Chapters:
 0:00 An apology to nano users
-0:54 Why every beginner should learn nano
-1:27 First edits with a terminal config
-2:17 Nano still has a learning curve
+0:49 Why every beginner should learn nano
+1:28 First edits with a terminal config
+2:22 Nano still has a learning curve
 2:56 Ctrl key habits and frozen terminals
 
 `#nano #linux #terminal #vim #bash #commandline #linuxforbeginners #coding #education`
