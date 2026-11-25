@@ -5,14 +5,15 @@ Warns that announced changes to Bitnami's public catalog under Broadcom affect H
 Chapters:
 0:00 Stream intro before the Bitnami video
 1:35 Why to get off Bitnami now
-4:35 Open source licenses versus copyleft
+4:50 Open source licenses versus copyleft
 6:57 Impact on Helm chart flattening and upgrades
 11:37 Reworking Harbor, PostgreSQL, and Redis
-15:01 Community charts, experience, and leaving Broadcom
+14:39 Community charts, experience, and leaving Broadcom
 16:55 Upload break and chat
 27:41 Sharing the Bitnami video on social media
 30:58 Stream status and road trip plans
-39:43 Back to Go and the Unix philosophy
+39:43 Go playlist and casual chat
+40:58 Unix philosophy and text streams
 42:45 Closing chatter and assorted clips
 
 `#kubernetes #bitnami #helm #broadcom #devops #opensource #golang`
