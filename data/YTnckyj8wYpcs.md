@@ -4,12 +4,15 @@ Explains what a container engine is in the context of Kubernetes and Nomad, and 
 
 Chapters:
 0:00 containerd vs Docker in short
-1:48 Why Docker fell out of favor
-4:05 Engines versus tools, CRI, CNI and runc
+1:53 Why Docker fell out of favor
+4:05 Engines versus tools, CNI and runc
 5:54 CRI-O, crictl and the lightweight approach
-8:04 Installing containerd and its Docker ties
-13:33 Anti-pattern: using Kubernetes nodes for Docker
-17:14 Why containerd is the choice here
+8:04 containerd and a custom install script
+8:47 CRI-O, OpenShift and node access
+11:39 containerd's ties to Docker
+13:33 Installing Docker CE or Podman on nodes
+14:01 Anti-pattern: using Kubernetes nodes for Docker
+17:17 Why containerd is the choice here
 
 `#kubernetes #containerd #containers #crio #docker #devops #homelab #linux #comparison`
 
