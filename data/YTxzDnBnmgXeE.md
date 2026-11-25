@@ -1,19 +1,18 @@
 # 🍺 Get brew for your Mac
 
-Shows how to install Homebrew, the package manager for macOS, by copying the install command from brew.sh into the terminal. Points out the Homebrew bin path to note for running brew, and explains why to skip the suggested Zsh setup commands in favor of Bash.
+Shows how to install Homebrew, the package manager for macOS, by copying the install command from brew.sh into the terminal. Explains why to note the /opt/homebrew/bin path and why to skip the Z shell setup commands the installer suggests, since Bash will be used instead.
 
 Chapters:
 0:00 Why your Mac needs Homebrew
-0:40 Finding the install command on brew.sh
+0:40 Finding the install command at brew.sh
 1:38 Running the installer and noting the path
-2:46 Skipping the Zsh commands to use Bash
-3:21 Checking brew works and next steps
+2:46 Skipping Z shell commands and testing brew
 
-`#homebrew #macos #terminal #bash #packagemanager #commandline #techjobs #mac #brew`
+`#homebrew #macos #terminal #brew #bash #commandline #techjobs #mac`
 
 ## Category
 
-Science & Technology
+Howto & Style
 
 ## Transcription
 
