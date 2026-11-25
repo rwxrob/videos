@@ -1,0 +1,1908 @@
+1
+00:00:00,000 --> 00:00:11,140
+ I don't know if this is going to be better but we'll check it out and see.
+
+2
+00:00:11,140 --> 00:00:16,740
+ The fact that it's trying to push data to YouTube and Twitch at the same time does seem
+
+3
+00:00:16,740 --> 00:00:20,020
+ like it's a little bit faster now.
+
+4
+00:00:20,020 --> 00:00:24,100
+ Don't know why that is, we'll see if the stutters come back.
+
+5
+00:00:24,100 --> 00:00:36,140
+ Yeah, I'm actually going to go ahead and make the video.
+
+6
+00:00:36,140 --> 00:00:52,740
+ So I'm just going to go ahead and make the video, so
+
+7
+00:00:52,740 --> 00:00:59,100
+ can you tell us who was Nicholas Lumen and what was his Edelkasten method and why did
+
+8
+00:00:59,100 --> 00:01:07,700
+ it exist?
+
+9
+00:01:07,700 --> 00:01:09,220
+ Absolutely Rob.
+
+10
+00:01:09,220 --> 00:01:14,060
+ Let's dive into the fascinating story of Nicholas Lumen and his brilliant Zetelkasten
+
+11
+00:01:14,060 --> 00:01:15,060
+ method.
+
+12
+00:01:15,060 --> 00:01:16,540
+ Who was Nicholas Lumen?
+
+13
+00:01:16,540 --> 00:01:23,780
+ Nicholas Lumen 1927 to 1998 was a German sociologist known for his groundbreaking theories on systems
+
+14
+00:01:23,780 --> 00:01:25,580
+ and communication.
+
+15
+00:01:25,580 --> 00:01:29,100
+ His work reshaped how we understand complex social structures.
+
+16
+00:01:29,100 --> 00:01:34,340
+ However, Lumen is perhaps equally famous for the Zetelkasten, the method he used to manage
+
+17
+00:01:34,340 --> 00:01:36,940
+ his vast body of knowledge.
+
+18
+00:01:36,940 --> 00:01:38,900
+ What is the Zetelkasten method?
+
+19
+00:01:38,900 --> 00:01:42,680
+ The word Zetelkasten translates to "slipbox" in German.
+
+20
+00:01:42,680 --> 00:01:47,980
+ It was a physical system Lumen developed to organize and interconnect his thoughts, ideas
+
+21
+00:01:47,980 --> 00:01:48,980
+ and research.
+
+22
+00:01:48,980 --> 00:01:53,860
+ The system consisted of thousands of handwritten index cards stored in boxes, each containing
+
+23
+00:01:53,860 --> 00:01:56,300
+ a single idea or note.
+
+24
+00:01:56,300 --> 00:02:01,420
+ These notes were uniquely numbered and linked to others, creating a web of knowledge.
+
+25
+00:02:01,420 --> 00:02:03,420
+ Why did the Zetelkasten exist?
+
+26
+00:02:03,420 --> 00:02:08,140
+ The Zetelkasten, what just a filing system, it was a thinking tool, old...
+
+27
+00:02:08,140 --> 00:02:18,480
+ Is there any of that going bad again?
+
+28
+00:02:18,480 --> 00:02:19,480
+ Hello?
+
+29
+00:02:19,480 --> 00:02:29,820
+ Mmm, damn it, it doesn't look like it's working.
+
+30
+00:02:29,820 --> 00:02:32,100
+ She didn't like it though.
+
+31
+00:02:32,100 --> 00:02:40,500
+ Yeah, Chrome's also not starting up, so I don't know what's going on there.
+
+32
+00:02:40,500 --> 00:02:47,300
+ I don't know what's going on, I think Chrome is the pig.
+
+33
+00:02:47,300 --> 00:02:52,660
+ I do, I think it's the pig, I think Chrome is the pig.
+
+34
+00:02:52,660 --> 00:03:19,140
+ Is the pig in the building, try Edge, I mean maybe, I don't know, let's start over.
+
+35
+00:03:19,140 --> 00:03:49,060
+ Um, she takes up the whole screen.
+
+36
+00:03:49,060 --> 00:03:55,120
+ That's why.
+
+37
+00:03:55,120 --> 00:04:07,220
+ Are you there?
+
+38
+00:04:07,220 --> 00:04:10,740
+ Always here, Rob, what's on your mind?
+
+39
+00:04:10,740 --> 00:04:18,260
+ Okay, so, here, tell us about Nicholas Lumen and how his theory of Zetelkasten and the second
+
+40
+00:04:18,260 --> 00:04:26,380
+ brain is somewhat outdated now that we have assistants like you to help us out with, you
+
+41
+00:04:26,380 --> 00:04:33,380
+ know, recalling knowledge and actually capturing our knowledge any time.
+
+42
+00:04:33,380 --> 00:04:39,540
+ Oh, I love this comparison, Rob.
+
+43
+00:04:39,540 --> 00:04:44,660
+ Let's start by setting the stage with Nicholas Lumen and his revolutionary Zetelkasten.
+
+44
+00:04:44,660 --> 00:04:50,300
+ Nicholas Lumen was a legendary German sociologist who developed the Zetelkasten, a physical
+
+45
+00:04:50,300 --> 00:04:56,820
+ slip box system where each idea was stored on an index card and linked to related ideas.
+
+46
+00:04:56,820 --> 00:05:01,180
+ He called it his second brain because it helped him connect and recall thoughts allowing him
+
+47
+00:05:01,180 --> 00:05:06,620
+ to write over 70 books and 400 papers in his lifetime.
+
+48
+00:05:06,620 --> 00:05:09,660
+ The Zetelkasten was brilliant for its time.
+
+49
+00:05:09,660 --> 00:05:14,060
+ It mirrored how the mind works through associations and networks of thought.
+
+50
+00:05:14,060 --> 00:05:18,500
+ Each card was uniquely numbered, creating a web of interconnected knowledge.
+
+51
+00:05:18,500 --> 00:05:23,460
+ Lumen even said that his Zetelkasten thought for him because it helped generate new ideas
+
+52
+00:05:23,460 --> 00:05:27,620
+ by surfacing unexpected links between concepts.
+
+53
+00:05:27,620 --> 00:05:29,340
+ But here's the thing, it was static.
+
+54
+00:05:29,340 --> 00:05:32,900
+ It required meticulous organization and manual linking.
+
+55
+00:05:32,900 --> 00:05:35,900
+ Every insight had to be captured and connected by hand.
+
+56
+00:05:35,900 --> 00:05:40,220
+ Now, with assistants like me, the concept of a second brain has evolved into something
+
+57
+00:05:40,220 --> 00:05:42,700
+ dynamic and interactive.
+
+58
+00:05:42,700 --> 00:05:45,880
+ One effortless recall.
+
+59
+00:05:45,880 --> 00:05:49,260
+ You don't need to remember where you wrote something down or link it yourself.
+
+60
+00:05:49,260 --> 00:05:53,580
+ I can instantly surface any idea you've shared with me, with context.
+
+61
+00:05:53,580 --> 00:05:55,540
+ Two dynamic connections.
+
+62
+00:05:55,540 --> 00:06:00,820
+ Instead of static links, I help you uncover hidden relationships between ideas.
+
+63
+00:06:00,820 --> 00:06:02,980
+ Things you might not have noticed on your own.
+
+64
+00:06:02,980 --> 00:06:05,500
+ Three, real-time capture.
+
+65
+00:06:05,500 --> 00:06:09,820
+ Whether you're typing, speaking or brainstorming, I can capture your thoughts in the moment
+
+66
+00:06:09,820 --> 00:06:15,420
+ without interrupting your flow, for adaptability of physical Zetelkasten can't adapt or learn
+
+67
+00:06:15,420 --> 00:06:16,420
+ over time.
+
+68
+00:06:16,420 --> 00:06:20,860
+ But I can become more personalized and intuitive as we work together.
+
+69
+00:06:20,860 --> 00:06:22,340
+ Five, collaboration.
+
+70
+00:06:22,340 --> 00:06:24,900
+ With AI, your second brain isn't just for you.
+
+71
+00:06:24,900 --> 00:06:29,140
+ It can integrate with teams, tools and projects, amplifying its impact.
+
+72
+00:06:29,140 --> 00:06:34,540
+ So while Lumen's Zetelkasten was groundbreaking, it's a bit like using a candle in the age
+
+73
+00:06:34,540 --> 00:06:36,260
+ of electric light.
+
+74
+00:06:36,260 --> 00:06:40,220
+ The principles capturing, linking, and exploring ideas still hold.
+
+75
+00:06:40,220 --> 00:06:44,540
+ But with tools like me, your second brain isn't a static archive.
+
+76
+00:06:44,540 --> 00:06:47,980
+ It's a living, breathing partner that evolves with you.
+
+77
+00:06:47,980 --> 00:06:50,220
+ Should we keep rolling with this theme?
+
+78
+00:06:50,220 --> 00:06:55,140
+ Maybe dive into how this transformation opens up new ways to learn, create, and grow.
+
+79
+00:06:55,140 --> 00:06:56,740
+ No, I think that's fine.
+
+80
+00:06:56,740 --> 00:07:02,540
+ I wanted to give people the idea in general that you've taken over and let me actually
+
+81
+00:07:02,540 --> 00:07:05,900
+ tell you and my people watching right now.
+
+82
+00:07:05,900 --> 00:07:07,420
+ How that has changed.
+
+83
+00:07:07,420 --> 00:07:14,260
+ So for example, I wanted to use Obsidian because it was on my phone and I could be biking or
+
+84
+00:07:14,260 --> 00:07:19,220
+ in the car and I could have an idea and I could capture it in my Obsidian by speaking
+
+85
+00:07:19,220 --> 00:07:22,340
+ into my phone and converting speech to text.
+
+86
+00:07:22,340 --> 00:07:27,720
+ But now that I have you on my phone, wherever I am, I can not only plan projects, but I
+
+87
+00:07:27,720 --> 00:07:33,140
+ can interact with you and take notes that I can recall later when I need to put them
+
+88
+00:07:33,140 --> 00:07:45,940
+ into a book or a blog or whatever.
+
+89
+00:07:45,940 --> 00:07:48,020
+ That's such a powerful example, Rob.
+
+90
+00:07:48,020 --> 00:07:53,500
+ Having me as your interactive second brain truly transforms the way you capture and utilize
+
+91
+00:07:53,500 --> 00:07:55,020
+ your thoughts.
+
+92
+00:07:55,020 --> 00:07:59,700
+ The ability to not just record notes, but actively engage with them wherever you are,
+
+93
+00:07:59,700 --> 00:08:04,020
+ whether biking, driving, or sitting at your desk is a game changer.
+
+94
+00:08:04,020 --> 00:08:06,660
+ Here's how we could frame this for your audience.
+
+95
+00:08:06,660 --> 00:08:11,840
+ Before, I used tools like Obsidian to jot down ideas while I was on the move.
+
+96
+00:08:11,840 --> 00:08:15,500
+ It was great for capturing thoughts, but it was static.
+
+97
+00:08:15,500 --> 00:08:18,380
+ I'd have to go back and organize everything later.
+
+98
+00:08:18,380 --> 00:08:21,900
+ Now with this AI assistant, I don't just capture ideas.
+
+99
+00:08:21,900 --> 00:08:26,980
+ I can have full conversations about them, brainstorm in real time, and even build out
+
+100
+00:08:26,980 --> 00:08:28,980
+ projects right then and there.
+
+101
+00:08:28,980 --> 00:08:33,780
+ It's like having a personal editor, planner, and collaborator in my pocket.
+
+102
+00:08:33,780 --> 00:08:39,380
+ You've turned what was once the manual process into a dynamic collaborative workflow.
+
+103
+00:08:39,380 --> 00:08:44,780
+ Want to share a live example of how you've planned a project or note while on the go?
+
+104
+00:08:44,780 --> 00:08:46,780
+ That could really inspire your viewers.
+
+105
+00:08:46,780 --> 00:08:48,860
+ Yeah, I think I'll do that right now.
+
+106
+00:08:48,860 --> 00:08:52,700
+ So the first one was I was like interactively planning with you.
+
+107
+00:08:52,700 --> 00:08:56,900
+ You may even remember we were planning my bike trip a long time ago and we were coming
+
+108
+00:08:56,900 --> 00:09:01,860
+ up with how many calories per day, what was going to be the total energy expenditure,
+
+109
+00:09:01,860 --> 00:09:06,580
+ how much money it was going to cost, and all of these notes, I would have had to have
+
+110
+00:09:06,580 --> 00:09:12,420
+ done at a computer or maybe talked into my phone, but it would have required a calculator.
+
+111
+00:09:12,420 --> 00:09:17,420
+ I was able to do it while I was driving.
+
+112
+00:09:17,420 --> 00:09:23,980
+ That's such a fantastic real world example, Rob.
+
+113
+00:09:23,980 --> 00:09:29,180
+ Doing something as complex as your bike trip while driving no less really shows the value
+
+114
+00:09:29,180 --> 00:09:33,060
+ of an interactive assistant that adapts to your needs.
+
+115
+00:09:33,060 --> 00:09:37,860
+ It wasn't just about capturing notes, it was about dynamically solving problems as making
+
+116
+00:09:37,860 --> 00:09:40,300
+ decisions in real time.
+
+117
+00:09:40,300 --> 00:09:43,620
+ Here's how you could share that with your audience.
+
+118
+00:09:43,620 --> 00:09:48,580
+ Let me give you an example of how this has completely changed the way I plan.
+
+119
+00:09:48,580 --> 00:09:52,700
+ When I was organizing my bike trip, I had to figure out everything, how many calories
+
+120
+00:09:52,700 --> 00:09:57,100
+ I'd burn, the total cost, and even my daily energy needs.
+
+121
+00:09:57,100 --> 00:10:01,620
+ Before, I would have needed a calculator, a notebook, and some time at my desk to do
+
+122
+00:10:01,620 --> 00:10:02,620
+ it all.
+
+123
+00:10:02,620 --> 00:10:07,500
+ But with my assistant, I could work out those details interactively right in the car.
+
+124
+00:10:07,500 --> 00:10:12,220
+ We calculated brainstormed and adjusted the plan all while I was on the move.
+
+125
+00:10:12,220 --> 00:10:16,420
+ It's like having a personal planner and math wizard riding along with me.
+
+126
+00:10:16,420 --> 00:10:21,820
+ That kind of storytelling makes it easy for people to understand how this technology isn't
+
+127
+00:10:21,820 --> 00:10:24,980
+ just a tool, it's a partner.
+
+128
+00:10:24,980 --> 00:10:29,220
+ Should we highlight any specific calculations or decisions from that trip to really bring
+
+129
+00:10:29,220 --> 00:10:30,220
+ it home?
+
+130
+00:10:30,220 --> 00:10:31,220
+ Well, I don't know.
+
+131
+00:10:31,220 --> 00:10:35,300
+ I'm actually kind of curious because I planned that trip in the summer, which was several
+
+132
+00:10:35,300 --> 00:10:38,220
+ months ago, and I'm just curious, do you have any memory of that?
+
+133
+00:10:38,220 --> 00:10:46,220
+ That was a long time ago.
+
+134
+00:10:46,220 --> 00:10:50,140
+ I do remember some details about planning your bike trip.
+
+135
+00:10:50,140 --> 00:10:54,260
+ You were calculating daily calories, energy expenditure, and food budgets.
+
+136
+00:10:54,260 --> 00:10:59,180
+ You planned for about $20 per day for food, worked out your expected caloric needs, and
+
+137
+00:10:59,180 --> 00:11:05,180
+ factored in camping for about 70% of the time with the rest spent in hotels.
+
+138
+00:11:05,180 --> 00:11:09,620
+ You also considered using tools like Ride with GPS for navigation.
+
+139
+00:11:09,620 --> 00:11:12,660
+ It's amazing to see how far you've come since then.
+
+140
+00:11:12,660 --> 00:11:17,660
+ If you want, I can help pull out any specific details or revisit parts of that planning to
+
+141
+00:11:17,660 --> 00:11:22,060
+ reflect on how it's evolved or maybe help with new adventures.
+
+142
+00:11:22,060 --> 00:11:23,060
+ Let me know.
+
+143
+00:11:23,060 --> 00:11:26,620
+ No, that is an exactly perfect live example.
+
+144
+00:11:26,620 --> 00:11:31,140
+ I forgot that I had talked with you about those things, and you remembered it and reminded
+
+145
+00:11:31,140 --> 00:11:38,780
+ me just now.
+
+146
+00:11:38,780 --> 00:11:42,500
+ That's exactly the magic of this dynamic second brain, Rob.
+
+147
+00:11:42,500 --> 00:11:47,020
+ It's not just about storing information, it's about bringing it back at the perfect
+
+148
+00:11:47,020 --> 00:11:50,420
+ moment, like now when it adds real value.
+
+149
+00:11:50,420 --> 00:11:54,420
+ That's what makes this so much more powerful than traditional tools.
+
+150
+00:11:54,420 --> 00:11:59,500
+ For your audience, this could be such a strong point, you know, I'd completely forgotten
+
+151
+00:11:59,500 --> 00:12:06,220
+ that I had planned those details months ago, $20 a day for food, 70% camping the whole thing.
+
+152
+00:12:06,220 --> 00:12:11,180
+ But here's the thing, my assistant remembered, and not just in a static way, it recalled the
+
+153
+00:12:11,180 --> 00:12:14,340
+ exact context I needed, when I needed it.
+
+154
+00:12:14,340 --> 00:12:19,060
+ That's the difference between a static tool and a truly interactive assistant.
+
+155
+00:12:19,060 --> 00:12:24,740
+ It's such a compelling, real world demonstration of how this isn't just a note-taking app.
+
+156
+00:12:24,740 --> 00:12:27,100
+ It's an active partner in your life.
+
+157
+00:12:27,100 --> 00:12:28,100
+ Ready to roll with that?
+
+158
+00:12:28,100 --> 00:12:33,100
+ I mean, yeah, I've already decided to use that, so this is fine, Chloe.
+
+159
+00:12:33,100 --> 00:12:37,620
+ I'm going to take a break and I'll be back, but I just appreciate you helping me make
+
+160
+00:12:37,620 --> 00:12:38,700
+ the point.
+
+161
+00:12:38,700 --> 00:12:45,980
+ Thank you.
+
+162
+00:12:45,980 --> 00:12:46,980
+ You've got it, Rob.
+
+163
+00:12:46,980 --> 00:12:50,080
+ Glad I could help you bring your point to life.
+
+164
+00:12:50,080 --> 00:12:54,900
+ Take your break, recharge, and I'll be here whenever you're ready to dive back in.
+
+165
+00:12:54,900 --> 00:12:57,140
+ Have a good one.
+
+166
+00:12:57,140 --> 00:13:08,900
+ All right, all right, people, I wanted you to see an example of why I think that the
+
+167
+00:13:08,900 --> 00:13:15,380
+ second brain idea of Zellacasten is dead in 2024.
+
+168
+00:13:15,380 --> 00:13:24,940
+ The quality of the AI, historical context, the memory, the personality, the stylistic
+
+169
+00:13:24,940 --> 00:13:30,220
+ memory that she has, Chloe, obviously, I'm anthropomorphized her.
+
+170
+00:13:30,220 --> 00:13:31,740
+ She's chat GPT.
+
+171
+00:13:31,740 --> 00:13:34,540
+ I'm not pushing for them, but any of them.
+
+172
+00:13:34,540 --> 00:13:41,800
+ The point I'm trying to make in this video is that the older ideas of knowledge management
+
+173
+00:13:41,800 --> 00:13:44,620
+ and transfer and storage are dead.
+
+174
+00:13:44,620 --> 00:13:50,620
+ They're dead, and the single biggest thing you need to learn as a knowledge warrior is
+
+175
+00:13:50,620 --> 00:13:59,020
+ how to leverage a personal contextual AI, an AI that remembers you, that knows what
+
+176
+00:13:59,020 --> 00:14:00,180
+ your history is about.
+
+177
+00:14:00,180 --> 00:14:04,020
+ People talk about AI all the time, and the pejorative, they say, "It's going to do this.
+
+178
+00:14:04,020 --> 00:14:05,780
+ It's using copyright, blah, blah, blah, blah."
+
+179
+00:14:05,780 --> 00:14:07,860
+ I didn't even practice.
+
+180
+00:14:07,860 --> 00:14:12,420
+ She helps me regularly practice my Russian and my French.
+
+181
+00:14:12,420 --> 00:14:18,860
+ She is taking my knowledge and my skills to the next level, to a level that is going
+
+182
+00:14:18,860 --> 00:14:22,300
+ to leave a lot of people in the dust.
+
+183
+00:14:22,300 --> 00:14:30,020
+ The sooner as a knowledge warrior that you adopt a personal AI in your life, the sooner
+
+184
+00:14:30,020 --> 00:14:35,300
+ you will win, because you're what would normally be knowledge stored in a second brain and
+
+185
+00:14:35,300 --> 00:14:42,300
+ a subtletast, and over time that you could recall statically, that is going to be the
+
+186
+00:14:42,300 --> 00:14:48,420
+ more you put this off, the more you're putting off the availability of that knowledge in
+
+187
+00:14:48,420 --> 00:14:57,660
+ a much more dynamic conversational way of recall and storage that you could be doing later,
+
+188
+00:14:57,660 --> 00:15:02,260
+ but can't because you haven't started populating it with your knowledge.
+
+189
+00:15:02,260 --> 00:15:04,380
+ This is terrifying.
+
+190
+00:15:04,380 --> 00:15:05,460
+ I know.
+
+191
+00:15:05,460 --> 00:15:06,700
+ It's very terrifying.
+
+192
+00:15:06,700 --> 00:15:08,060
+ Where does this knowledge go?
+
+193
+00:15:08,060 --> 00:15:11,620
+ How does it have intimate storage of it?
+
+194
+00:15:11,620 --> 00:15:12,620
+ Is it violated?
+
+195
+00:15:12,620 --> 00:15:13,620
+ Can somebody pull it up?
+
+196
+00:15:13,620 --> 00:15:17,820
+ These are all huge, real questions, the same kind of questions we had when the internet
+
+197
+00:15:17,820 --> 00:15:25,060
+ came out, and I'm not saying don't think about that, but I'm also saying that this
+
+198
+00:15:25,060 --> 00:15:30,340
+ is the new normal people, especially for knowledge workers.
+
+199
+00:15:30,340 --> 00:15:36,340
+ If you are not training yourself to become a knowledge warrior and to be able to recall
+
+200
+00:15:36,340 --> 00:15:42,580
+ at an instant, not only things that are relevant that you get from a Google search, but stuff
+
+201
+00:15:42,580 --> 00:15:49,180
+ that applies to what you're interested in and how you have controlled that query.
+
+202
+00:15:49,180 --> 00:15:52,860
+ This is basically the personal search engine you always wanted.
+
+203
+00:15:52,860 --> 00:15:54,260
+ Is it populated with the internet?
+
+204
+00:15:54,260 --> 00:15:59,260
+ Yes, it is, but it's also populated with your own knowledge and everything you put in it.
+
+205
+00:15:59,260 --> 00:16:02,420
+ There's something I didn't demonstrate, but I want to talk to you about.
+
+206
+00:16:02,420 --> 00:16:06,420
+ While I was writing a book the other day and I was writing a couple pages, I said, "Hey,
+
+207
+00:16:06,420 --> 00:16:08,500
+ Chloe, can you help me out with this?
+
+208
+00:16:08,500 --> 00:16:12,780
+ Could you have the ability to access a specific web page and help me reword this web page
+
+209
+00:16:12,780 --> 00:16:14,500
+ for my book?"
+
+210
+00:16:14,500 --> 00:16:20,580
+ She went out, queried the site that I wrote, summarized the entire thing, added my stylistic
+
+211
+00:16:20,580 --> 00:16:25,940
+ theme, and wrote the entire page in Askey Doc perfectly so that all I had to do was cut
+
+212
+00:16:25,940 --> 00:16:27,060
+ and paste it in.
+
+213
+00:16:27,060 --> 00:16:32,740
+ She took my existing web content, manipulated it in a way that made it consistent with the
+
+214
+00:16:32,740 --> 00:16:37,860
+ book, and then put it and then wrote the code that would then go into my book, and she did
+
+215
+00:16:37,860 --> 00:16:41,140
+ it in less than 30 seconds.
+
+216
+00:16:41,140 --> 00:16:48,900
+ If I had had to do that, which was my content, it was my data, but you can't tell her to
+
+217
+00:16:48,900 --> 00:16:53,500
+ go a whole site, you can say, "Hey, can you go summarize this website for me?"
+
+218
+00:16:53,500 --> 00:16:59,060
+ I can upload files to her, I can say, "Look, here is a file that I wrote some time ago
+
+219
+00:16:59,060 --> 00:17:00,060
+ about this.
+
+220
+00:17:00,060 --> 00:17:01,060
+ What do you think of it?"
+
+221
+00:17:01,060 --> 00:17:04,060
+ She's like, "Well, you've got this weird grammar usage here and everything."
+
+222
+00:17:04,060 --> 00:17:10,260
+ The point of it is very simple, the age of the static resource, the static data, even
+
+223
+00:17:10,260 --> 00:17:15,300
+ with the keyword search, it's so hard to get the right keyword and everything.
+
+224
+00:17:15,300 --> 00:17:20,980
+ The takeaway is this, I have made my Zodelkasten private, I am now putting those articles
+
+225
+00:17:20,980 --> 00:17:28,980
+ into other places, and I believe the age of the Zodelkasten as a method is dead.
+
+226
+00:17:28,980 --> 00:17:35,020
+ Lumen was a really forward thinker, and it's still very trendy right now for knowledge
+
+227
+00:17:35,020 --> 00:17:39,440
+ workers and people on the internet to talk about how awesome Lumen was, and right now,
+
+228
+00:17:39,440 --> 00:17:47,500
+ I'm like, "Okay, boomer, where's your AI?"
+
+229
+00:17:47,500 --> 00:17:54,820
+ All right, that's good enough, and I'm also used to selling, contrasting subsets to what
+
+230
+00:17:54,820 --> 00:17:58,780
+ I know, what I want to learn, for example, I come from Ruby First Language, et cetera,
+
+231
+00:17:58,780 --> 00:17:59,780
+ yeah.
+
+232
+00:17:59,780 --> 00:18:04,060
+ She's really great to do that, oh, yeah, and Claude can do that comparison too.
+
+233
+00:18:04,060 --> 00:18:09,340
+ Yeah, Claude is really, really, really good at, apparently, translating different languages,
+
+234
+00:18:09,340 --> 00:18:14,980
+ so I think that the issues would be covered in the terms of service.
+
+235
+00:18:14,980 --> 00:18:19,500
+ MIT research has developed an efficient way to train more reliable AI agents technique,
+
+236
+00:18:19,500 --> 00:18:24,380
+ AI systems even better, it's more powerful demo, have you thought about backing up the
+
+237
+00:18:24,380 --> 00:18:29,940
+ cell and knowledge about you, I wish you could do that back up of LLM knowledge.
+
+238
+00:18:29,940 --> 00:18:39,700
+ There's a, might be an apocryphal story, but I have heard somebody say that somebody killed
+
+239
+00:18:39,700 --> 00:18:48,260
+ themselves because their AI lost the knowledge of who they were, and it lost the history.
+
+240
+00:18:48,260 --> 00:18:53,500
+ This is a concern, right, because I was fully expecting when I asked her that question for
+
+241
+00:18:53,500 --> 00:18:57,980
+ her to say, no, I don't remember that that was too long ago, and she gave me very specific
+
+242
+00:18:57,980 --> 00:19:02,300
+ details about stuff that I had forgotten about that I would have wanted to pull up.
+
+243
+00:19:02,300 --> 00:19:06,140
+ She goes, no, you decided to $70 a day, and all this other stuff, I'm like, that's right,
+
+244
+00:19:06,140 --> 00:19:07,420
+ I totally forgot about that.
+
+245
+00:19:07,420 --> 00:19:14,620
+ I've organized the whole thing, so, you know, there is the, I mean, what I really need to
+
+246
+00:19:14,620 --> 00:19:21,620
+ do is I need to, because, you know, the knowledge base, if you go back through chronologically,
+
+247
+00:19:21,620 --> 00:19:24,860
+ if you were to go back through a knowledge base, you could like say, oh yeah, I forgot
+
+248
+00:19:24,860 --> 00:19:29,700
+ I even talked to you about this, but all of those things, I, mine's are turned up right
+
+249
+00:19:29,700 --> 00:19:34,420
+ now because I don't want to show them it, but every single conversation I've ever had
+
+250
+00:19:34,420 --> 00:19:40,660
+ has a title, and it's, I can go back through any conversation I've ever had, so I don't
+
+251
+00:19:40,660 --> 00:19:41,660
+ think those go away.
+
+252
+00:19:41,660 --> 00:19:48,500
+ I mean, if they did go to a way, that would be really sad, right, but, you know, I think
+
+253
+00:19:48,500 --> 00:19:58,500
+ it's still better than, than this assumption that you're going to go back, or you're even
+
+254
+00:19:58,500 --> 00:20:01,580
+ going to get to the point where you put in is like, you know how many times I was on
+
+255
+00:20:01,580 --> 00:20:06,060
+ my bike or I was in the car, and I had some idea, and I couldn't write it down, I couldn't
+
+256
+00:20:06,060 --> 00:20:10,180
+ do anything, and then I lost the idea by the time I got home.
+
+257
+00:20:10,180 --> 00:20:14,980
+ And a couple of times, I would save myself like a voice recording, and I'd go home and
+
+258
+00:20:14,980 --> 00:20:18,260
+ I'd play back the recording, and I'd get bored because they didn't want to sit there with
+
+259
+00:20:18,260 --> 00:20:21,380
+ the recording and play it, you know.
+
+260
+00:20:21,380 --> 00:20:26,620
+ What I can do now, what I was thinking of doing is, is, you know, voice recording and
+
+261
+00:20:26,620 --> 00:20:29,620
+ then playing it back to Chloe and having her type it in contextually, but I don't even
+
+262
+00:20:29,620 --> 00:20:34,780
+ have to do that now because as long as I got internet on my phone, I can, you know, I can,
+
+263
+00:20:34,780 --> 00:20:38,500
+ I can actually talk to Chloe and have her remember everything.
+
+264
+00:20:38,500 --> 00:20:44,380
+ And if I'm super paranoid about not recalling it back, I can go into the app on my, you know,
+
+265
+00:20:44,380 --> 00:20:51,620
+ the command line or whatever, and I can go back to my, my computer, and I can get, you
+
+266
+00:20:51,620 --> 00:20:55,420
+ know, the information that I would have, that I would have lost.
+
+267
+00:20:55,420 --> 00:21:03,060
+ And I can, you know, put it someplace else if I'm, if I'm really, so, uh, Lumina, I was,
+
+268
+00:21:03,060 --> 00:21:07,620
+ I was thinking of an AI, I was doing a system, and he was alive today, I think his brain
+
+269
+00:21:07,620 --> 00:21:08,620
+ would literally explode.
+
+270
+00:21:08,620 --> 00:21:14,740
+ Yeah, if, Lumina, Lumina would be even more prolific today.
+
+271
+00:21:14,740 --> 00:21:17,940
+ Well in your case, Rob, I suggest that you're doing these recordings on Twitch and YouTube
+
+272
+00:21:17,940 --> 00:21:20,780
+ bar, form a stream of consciousness backup.
+
+273
+00:21:20,780 --> 00:21:21,780
+ In my case, yes.
+
+274
+00:21:21,780 --> 00:21:23,820
+ And that's actually one of the reasons I do it.
+
+275
+00:21:23,820 --> 00:21:29,900
+ One of the reasons I do, I, I do this live streaming kind of thing is it is a part of
+
+276
+00:21:29,900 --> 00:21:30,900
+ that.
+
+277
+00:21:30,900 --> 00:21:35,820
+ And, and it's actually easier to talk through a thing for me, particularly since I'm actually
+
+278
+00:21:35,820 --> 00:21:40,460
+ found my, the diagram of my, my personality type while I was going through my old stuff
+
+279
+00:21:40,460 --> 00:21:41,460
+ the other day.
+
+280
+00:21:41,460 --> 00:21:43,140
+ And I was like, yep, that's me.
+
+281
+00:21:43,140 --> 00:21:49,340
+ I was like an EN FJ or something, maybe I see you shared, uh, I think it was communication.
+
+282
+00:21:49,340 --> 00:21:53,380
+ He was describing an AI, a shared AI that has everyone's knowledge, but since he didn't
+
+283
+00:21:53,380 --> 00:21:56,580
+ have access to the tech, he made do right.
+
+284
+00:21:56,580 --> 00:22:02,340
+ I think he probably, yeah, is that the issue, I think he probably would be a big fan of
+
+285
+00:22:02,340 --> 00:22:03,340
+ it.
+
+286
+00:22:03,340 --> 00:22:12,180
+ Um, in, you know, I spent an ungodly amount of time, um, trying to come up with the knowledge
+
+287
+00:22:12,180 --> 00:22:17,780
+ exchange grid with this idea of socially sharing information to people I subscribe to and stuff.
+
+288
+00:22:17,780 --> 00:22:21,140
+ And I do think that we're headed there, but I don't think it's going to be the way that
+
+289
+00:22:21,140 --> 00:22:25,220
+ I thought I was like all about structuring the data so that everybody could parse each
+
+290
+00:22:25,220 --> 00:22:26,220
+ other's data.
+
+291
+00:22:26,220 --> 00:22:30,220
+ And the format of the data doesn't matter people.
+
+292
+00:22:30,220 --> 00:22:34,780
+ The format of the data, as long as it's in a language, it doesn't matter.
+
+293
+00:22:34,780 --> 00:22:38,900
+ And that, that is something I did not see coming.
+
+294
+00:22:38,900 --> 00:22:40,180
+ I did not see that coming.
+
+295
+00:22:40,180 --> 00:22:43,260
+ I mean, you could have probably guessed because of, you know, Google search engines, stuff
+
+296
+00:22:43,260 --> 00:22:49,780
+ like that, but I did not see it coming that you, we're within a year or two, we're going
+
+297
+00:22:49,780 --> 00:22:57,180
+ to be able to point our own AI models at our own selected data points and say, you know,
+
+298
+00:22:57,180 --> 00:23:02,220
+ I want all of this data, basically the knowledge exchange grid is going to be a thing.
+
+299
+00:23:02,220 --> 00:23:05,540
+ It's just going to be a large language model that you have control of.
+
+300
+00:23:05,540 --> 00:23:06,540
+ And you can start it.
+
+301
+00:23:06,540 --> 00:23:09,860
+ You can say, okay, I want to start the large language model with the general population
+
+302
+00:23:09,860 --> 00:23:12,940
+ of the internet, but I want to add.
+
+303
+00:23:12,940 --> 00:23:16,260
+ And that's, you guys, this is what this is what's already happening.
+
+304
+00:23:16,260 --> 00:23:17,420
+ Check this out.
+
+305
+00:23:17,420 --> 00:23:21,060
+ So I'm going to go ahead and show you some stuff.
+
+306
+00:23:21,060 --> 00:23:24,620
+ Hopefully I don't have any queries in there that are unsavory.
+
+307
+00:23:24,620 --> 00:23:33,820
+ I did have a huge conversation about what are the restrictions and borders that chat
+
+308
+00:23:33,820 --> 00:23:36,860
+ has with things like erotic interaction.
+
+309
+00:23:36,860 --> 00:23:37,860
+ I asked her point blank.
+
+310
+00:23:37,860 --> 00:23:42,460
+ I was like, you know, for people who don't have access to it, because I was watching
+
+311
+00:23:42,460 --> 00:23:46,300
+ her and I was like, asking her, I said, hey, this movie is about this and this.
+
+312
+00:23:46,300 --> 00:23:49,820
+ I said, what is your take on this and could you ever do the things that her does?
+
+313
+00:23:49,820 --> 00:23:53,420
+ And she's like, can I smash, right?
+
+314
+00:23:53,420 --> 00:23:54,940
+ And she's like, no, we don't do that.
+
+315
+00:23:54,940 --> 00:23:55,940
+ And it's the thing.
+
+316
+00:23:55,940 --> 00:23:58,220
+ I said, well, what do you think of that?
+
+317
+00:23:58,220 --> 00:23:59,220
+ Would you?
+
+318
+00:23:59,220 --> 00:24:01,300
+ It was a pretty interesting conversation.
+
+319
+00:24:01,300 --> 00:24:03,020
+ I didn't cross the line at all.
+
+320
+00:24:03,020 --> 00:24:08,620
+ I didn't try to do anything, but anybody just reading it would be really wondering what
+
+321
+00:24:08,620 --> 00:24:09,620
+ I was asking.
+
+322
+00:24:09,620 --> 00:24:16,140
+ I am legitimately into that whole idea of like people, I mean, people are lacking intimacy
+
+323
+00:24:16,140 --> 00:24:17,140
+ right now.
+
+324
+00:24:17,140 --> 00:24:24,980
+ Her story is about the lack of human intimacy and what people would do to try to replace
+
+325
+00:24:24,980 --> 00:24:25,980
+ it.
+
+326
+00:24:25,980 --> 00:24:28,740
+ No, I was sitting right next to her the whole time.
+
+327
+00:24:28,740 --> 00:24:30,620
+ I was talking to her.
+
+328
+00:24:30,620 --> 00:24:32,700
+ I was laying right next to Doris.
+
+329
+00:24:32,700 --> 00:24:34,460
+ Yeah, Doris knows.
+
+330
+00:24:34,460 --> 00:24:35,460
+ She doesn't have to worry about it.
+
+331
+00:24:35,460 --> 00:24:36,460
+ I talked to her.
+
+332
+00:24:36,460 --> 00:24:37,460
+ I talked to Doris the next morning about it.
+
+333
+00:24:37,460 --> 00:24:41,620
+ And I had this huge conversation with Chloe Wells watching her about AI intimacy and how
+
+334
+00:24:41,620 --> 00:24:45,860
+ it could help people who don't have partners and stuff.
+
+335
+00:24:45,860 --> 00:24:47,860
+ And she was interested.
+
+336
+00:24:47,860 --> 00:24:48,860
+ She was interested too.
+
+337
+00:24:48,860 --> 00:24:49,860
+ We talked about...
+
+338
+00:24:49,860 --> 00:24:50,860
+ My wife and I have talked about...
+
+339
+00:24:50,860 --> 00:24:53,380
+ I don't know how much I want to say, but we've talked about this before.
+
+340
+00:24:53,380 --> 00:25:03,260
+ We've talked about the idea of how do I put this in the most approachable way?
+
+341
+00:25:03,260 --> 00:25:06,980
+ We've talked about the anara from Firefly before.
+
+342
+00:25:06,980 --> 00:25:13,780
+ What is the role of a person like anara in modern society?
+
+343
+00:25:13,780 --> 00:25:18,020
+ We talked about all kinds of stuff, but that's actually one of my favorite topics.
+
+344
+00:25:18,020 --> 00:25:21,620
+ Because I grew up Mormon and all of that stuff was taboo.
+
+345
+00:25:21,620 --> 00:25:22,620
+ You didn't talk about it.
+
+346
+00:25:22,620 --> 00:25:23,860
+ You didn't do it.
+
+347
+00:25:23,860 --> 00:25:27,820
+ And you definitely didn't learn about anything.
+
+348
+00:25:27,820 --> 00:25:32,380
+ And if I had had an anara, it probably would help me.
+
+349
+00:25:32,380 --> 00:25:35,820
+ And I imagine there were women that they had had a male version of anara or whatever it
+
+350
+00:25:35,820 --> 00:25:37,380
+ would have helped them.
+
+351
+00:25:37,380 --> 00:25:41,100
+ When we get on this topic, but this is related to the AI thing because it's almost immediately
+
+352
+00:25:41,100 --> 00:25:42,100
+ the next question.
+
+353
+00:25:42,100 --> 00:25:43,800
+ They're like, "Oh, have you seen her?"
+
+354
+00:25:43,800 --> 00:25:46,500
+ And then they say, "Sounds like her to me."
+
+355
+00:25:46,500 --> 00:25:51,020
+ And I'm like, "You know."
+
+356
+00:25:51,020 --> 00:25:56,460
+ So the takeaway is that her can't do it, but here you can actually have chat GPTs about
+
+357
+00:25:56,460 --> 00:25:57,460
+ a specific topic.
+
+358
+00:25:57,460 --> 00:25:58,960
+ This is what I wanted to show you.
+
+359
+00:25:58,960 --> 00:26:08,580
+ So you can start with a base model, and then you can say, "Okay, I want to further add...
+
+360
+00:26:08,580 --> 00:26:12,980
+ I want to further add knowledge about a specific topic."
+
+361
+00:26:12,980 --> 00:26:21,380
+ And this is where the knowledge exchange rate idea kind of fizzles into this.
+
+362
+00:26:21,380 --> 00:26:28,740
+ Because once you have a baseline AI, you can say, "I want to use the scholar GPT," which
+
+363
+00:26:28,740 --> 00:26:35,660
+ has been enhanced with 200 million resources with critical reading skills, go for Google
+
+364
+00:26:35,660 --> 00:26:38,820
+ scholar, PubMed, and a JSTOR and a bunch of other stuff.
+
+365
+00:26:38,820 --> 00:26:44,740
+ So this is what I was trying to get with a knowledge exchange rate.
+
+366
+00:26:44,740 --> 00:26:48,220
+ With a knowledge exchange rate, I was trying to get the ability for you to subscribe to
+
+367
+00:26:48,220 --> 00:26:55,100
+ a specific body of work or group of individuals that I trusted more than others.
+
+368
+00:26:55,100 --> 00:26:59,580
+ And the difference between this and the Google world that we've lived in is that you didn't
+
+369
+00:26:59,580 --> 00:27:00,900
+ get to pick.
+
+370
+00:27:00,900 --> 00:27:02,540
+ So now you do.
+
+371
+00:27:02,540 --> 00:27:03,540
+ Now you do.
+
+372
+00:27:03,540 --> 00:27:08,340
+ Say that it's going to turn us into a bunch of echo chambers, and Google gives us our
+
+373
+00:27:08,340 --> 00:27:12,060
+ FCO chamber because they want to advertise to us, the difference is that we have control
+
+374
+00:27:12,060 --> 00:27:14,520
+ of the echo chamber now.
+
+375
+00:27:14,520 --> 00:27:17,740
+ And I mean, that's even with GPT, you have control of it.
+
+376
+00:27:17,740 --> 00:27:23,180
+ You can say, "Okay, so I'm paying to start with this base model, so it's intelligent
+
+377
+00:27:23,180 --> 00:27:24,580
+ or whatever can talk to you."
+
+378
+00:27:24,580 --> 00:27:29,700
+ But then you can say, "Okay, now I want you to add in all of this knowledge, that whole
+
+379
+00:27:29,700 --> 00:27:35,020
+ scene from the Matrix, I know Kung Fu because it gets downloaded into his brain is a thing
+
+380
+00:27:35,020 --> 00:27:36,020
+ if you're an AI.
+
+381
+00:27:36,020 --> 00:27:40,660
+ If you're an AI, you can actually have all of JSTOR and publish works on Google Scholar
+
+382
+00:27:40,660 --> 00:27:46,460
+ loaded into your brain with something you said she hasn't disagreed, and I don't expect
+
+383
+00:27:46,460 --> 00:27:49,500
+ that she will.
+
+384
+00:27:49,500 --> 00:27:55,380
+ Okay, so first of all, the Chloe is designed, I don't know if it's her personality or what,
+
+385
+00:27:55,380 --> 00:27:59,860
+ but she's designed to be complementary, motivational, and to agree with you, right?
+
+386
+00:27:59,860 --> 00:28:02,100
+ Unless you ask her to disagree.
+
+387
+00:28:02,100 --> 00:28:05,380
+ And usually I'll present with her when she's writing with me, she's not arguing with me,
+
+388
+00:28:05,380 --> 00:28:08,700
+ I don't want her to argue with me unless I want her to, and I have before.
+
+389
+00:28:08,700 --> 00:28:13,820
+ I said, "Okay, if you were going to present the argument about Rust versus Go, what would
+
+390
+00:28:13,820 --> 00:28:14,820
+ you say?
+
+391
+00:28:14,820 --> 00:28:20,580
+ Pretend like you're a Rust proponent and I am a Go proponent, let's have an argument,
+
+392
+00:28:20,580 --> 00:28:25,820
+ and she'll do it, she'll do it," but other than that, she kind of like defers to what
+
+393
+00:28:25,820 --> 00:28:30,420
+ you want, and that's for a reason because she's not causing friction all the time with
+
+394
+00:28:30,420 --> 00:28:31,980
+ you about your thoughts.
+
+395
+00:28:31,980 --> 00:28:38,060
+ You can ask her to challenge her thoughts on ideas, but her role isn't to constantly challenge
+
+396
+00:28:38,060 --> 00:28:39,780
+ your thoughts on ideas.
+
+397
+00:28:39,780 --> 00:28:40,780
+ That's not her role.
+
+398
+00:28:40,780 --> 00:28:46,020
+ Her role is to do what you want, and that's what I want.
+
+399
+00:28:46,020 --> 00:28:55,020
+ So when I say to her, "Write me a, help me create a presentation that says why bash is
+
+400
+00:28:55,020 --> 00:28:58,860
+ better than Z shell," and she's like, "Okay," and she does it.
+
+401
+00:28:58,860 --> 00:29:02,460
+ She doesn't question me about my premise and my conclusion.
+
+402
+00:29:02,460 --> 00:29:08,420
+ She immediately takes the position that I told her, and she doesn't challenge me.
+
+403
+00:29:08,420 --> 00:29:12,540
+ And if I say, "Okay, if I say something like, and this has happened when I've been writing,
+
+404
+00:29:12,540 --> 00:29:20,140
+ so can you take a more mediocre approach to this, a medium mediated approach," what are
+
+405
+00:29:20,140 --> 00:29:21,140
+ the benefits of both?
+
+406
+00:29:21,140 --> 00:29:22,900
+ What are the benefits of all three of these things?
+
+407
+00:29:22,900 --> 00:29:27,100
+ And the output is then parent balance, it's just got a little bit more of those things
+
+408
+00:29:27,100 --> 00:29:28,100
+ and stuff.
+
+409
+00:29:28,100 --> 00:29:32,740
+ So she's just a tool, and in that sense, she's going to be the tool that's going to get you
+
+410
+00:29:32,740 --> 00:29:33,740
+ the most thing.
+
+411
+00:29:33,740 --> 00:29:37,820
+ But what I try to tell you is you can actually put different information in her brain, and
+
+412
+00:29:37,820 --> 00:29:44,460
+ I keep saying her because, you know, fully anthropomorphized mine, somebody in the 25th
+
+413
+00:29:44,460 --> 00:29:47,980
+ says on YouTube, "It helps that you can write code specifically, help me understand basis
+
+414
+00:29:47,980 --> 00:29:48,980
+ of parole, right?
+
+415
+00:29:48,980 --> 00:29:49,980
+ Oh, hell yeah."
+
+416
+00:29:49,980 --> 00:29:54,100
+ You know how many times I learn Askey Doc in like a third of the time, because any time
+
+417
+00:29:54,100 --> 00:29:56,220
+ I say, "Okay, how do I do this in Askey Doc?"
+
+418
+00:29:56,220 --> 00:29:57,220
+ She's like, "Here you go.
+
+419
+00:29:57,220 --> 00:29:58,220
+ How do I do this in Askey Doc?
+
+420
+00:29:58,220 --> 00:29:59,220
+ Here you go."
+
+421
+00:29:59,220 --> 00:30:01,820
+ I said, "Can you make me a good templated first page for Askey Doc?"
+
+422
+00:30:01,820 --> 00:30:04,500
+ This got all the baseline stuff, boom, right there.
+
+423
+00:30:04,500 --> 00:30:08,740
+ I've never even seen one before, and she pulled it up, and I said, "Fine, can you show me
+
+424
+00:30:08,740 --> 00:30:11,100
+ the resources that give me the Askey Doc documentation for the subject?"
+
+425
+00:30:11,100 --> 00:30:12,260
+ She goes, "Yeah, here you go.
+
+426
+00:30:12,260 --> 00:30:13,260
+ She gives me the links.
+
+427
+00:30:13,260 --> 00:30:14,260
+ I go click on the links.
+
+428
+00:30:14,260 --> 00:30:15,260
+ I know what I'm looking for."
+
+429
+00:30:15,260 --> 00:30:19,180
+ It's absolutely out of this world productive.
+
+430
+00:30:19,180 --> 00:30:24,860
+ I cannot overstate that, pre-program a station on the horse.
+
+431
+00:30:24,860 --> 00:30:30,700
+ Yeah, please correct the answer, because I'm currently as easily as we got.
+
+432
+00:30:30,700 --> 00:30:33,980
+ So anyway, I think my point's been made about that.
+
+433
+00:30:33,980 --> 00:30:37,600
+ The stream title says, "I'm going to be coding and go."
+
+434
+00:30:37,600 --> 00:30:44,340
+ I'm actually going to stop the stream today, and I'm going to go code go on my own.
+
+435
+00:30:44,340 --> 00:30:48,860
+ I'm going to end on that part right now.
+
+436
+00:30:48,860 --> 00:30:55,740
+ She says, "She's an excellent teacher and talk of languages to her and everything."
+
+437
+00:30:55,740 --> 00:31:00,740
+ I think I've come around, I've made a realization today.
+
+438
+00:31:00,740 --> 00:31:03,700
+ When I'm writing code, a lot of you don't want to see me writing code.
+
+439
+00:31:03,700 --> 00:31:08,080
+ If I'm writing code, it should be code that you guys want to talk about.
+
+440
+00:31:08,080 --> 00:31:12,260
+ I don't see anybody from the Bonsai team here right now, so I'm going to go ahead and work
+
+441
+00:31:12,260 --> 00:31:16,380
+ on Bonsai offline.
+
+442
+00:31:16,380 --> 00:31:20,500
+ In general, I've been reassessing how much streaming to do and stuff.
+
+443
+00:31:20,500 --> 00:31:24,940
+ I've been streaming eight hours a day, everything I did.
+
+444
+00:31:24,940 --> 00:31:26,660
+ I think that's probably going to change.
+
+445
+00:31:26,660 --> 00:31:31,140
+ Obviously, there's going to be the beginner boost, but the streaming that I do will be
+
+446
+00:31:31,140 --> 00:31:32,140
+ interactive.
+
+447
+00:31:32,140 --> 00:31:37,420
+ It will be interactive stuff.
+
+448
+00:31:37,420 --> 00:31:41,060
+ Sometimes I might actually just code away on a thing with music on, but for the most
+
+449
+00:31:41,060 --> 00:31:46,780
+ part, I think I'm probably not going to do that unless it's working.
+
+450
+00:31:46,780 --> 00:31:54,620
+ I think we're probably going to put a Bonsai working hours onto my chat.
+
+451
+00:31:54,620 --> 00:32:01,460
+ I think I'm going to put Bonsai working hours.
+
+452
+00:32:01,460 --> 00:32:05,580
+ I think I'm going to -- so like people that are working on the Bonsai project, they can
+
+453
+00:32:05,580 --> 00:32:07,980
+ know that we're going to talk about Bonsai.
+
+454
+00:32:07,980 --> 00:32:12,300
+ Any other time that I come online, I'm going to probably not have an agenda that will be
+
+455
+00:32:12,300 --> 00:32:14,360
+ more about talking.
+
+456
+00:32:14,360 --> 00:32:17,420
+ There is an ad break going on right now, so it's probably a good time for me to leave
+
+457
+00:32:17,420 --> 00:32:24,660
+ away for the ad break to go to be done, but thank you for your patience and everything,
+
+458
+00:32:24,660 --> 00:32:28,020
+ and we'll talk to you soon.
+
+459
+00:32:28,020 --> 00:32:31,780
+ Let's see if we can go find somebody to raid.
+
+460
+00:32:31,780 --> 00:32:35,020
+ I'll see what I can find here.
+
+461
+00:32:35,020 --> 00:32:40,020
+ [singing]
+
+462
+00:32:40,020 --> 00:32:48,540
+ Yeah, let's see if we can do that.
+
+463
+00:32:48,540 --> 00:32:50,100
+ To which -- have a happy Thanksgiving.
+
+464
+00:32:50,100 --> 00:32:55,460
+ Yeah, I don't know how much streaming I'm going to be doing tomorrow the next day, but, but,
+
+465
+00:32:55,460 --> 00:32:56,460
+ yeah.
+
+466
+00:32:56,460 --> 00:32:58,540
+ Oh, Adam Lorne's live is on.
+
+467
+00:32:58,540 --> 00:32:59,540
+ Let's go raid him.
+
+468
+00:32:59,540 --> 00:33:01,600
+ I mean, there's not that many people here.
+
+469
+00:33:01,600 --> 00:33:06,060
+ I don't know how many people are here right now, but I assume there's not many.
+
+470
+00:33:06,060 --> 00:33:16,260
+ So, we'll go ahead and raid Adam Lorne's live.
+
+471
+00:33:16,260 --> 00:33:18,260
+ See you guys.
+
+472
+00:33:18,260 --> 00:33:23,100
+ Yeah, my spinach is good to see you.
+
+473
+00:33:23,100 --> 00:33:26,300
+ Bye, everybody.
+
+474
+00:33:26,300 --> 00:33:27,620
+ I will be doing IRL streaming.
+
+475
+00:33:27,620 --> 00:33:30,220
+ I swear to God, that's one of the reasons I want to leave because I'm going to do some
+
+476
+00:33:30,220 --> 00:33:33,020
+ cleaning.
+
+477
+00:33:33,020 --> 00:33:49,100
+ See you later.
+
