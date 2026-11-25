@@ -1,4 +1,4 @@
-# 🎄🚀 Shell Redirection, Pipes, Here Docs, and tee (Holiday Boost 2024, Part 15)
+# 🎄🚀 Shell Redirection, Pipes, Here Docs, and tee (Holiday Boost 2024 - #15)
 
 Walks through shell redirection and pipelines, including standard output, standard error, standard input, process substitution, here strings, here docs and tee, with notes on which features work across different shells. Also shows Perl and Vim filters as examples of the Unix philosophy, and ends with a change of position on using Bash for scripting.
 
