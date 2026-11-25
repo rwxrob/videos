@@ -1,4 +1,4 @@
-# 🍎 Why the : at the beginning?
+# 🍎 Why the : at the beginning? Shell colon command for redirects and default variables
 
 Explains why a colon appears before a redirect to truncate a file in shell scripts, and compares it with alternatives such as tee, true and removing the file, including the choice to avoid a subshell. Also shows how the colon command can be used with default parameter expansion at the top of a script, so environment variables can override defaults without argument parsing, followed by some ShellCheck troubleshooting.
 
