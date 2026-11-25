@@ -1,4 +1,4 @@
-# 🎄🚀 Holiday Boost 2024 - #4: Setting Up WezTerm, Bash, Neovim and Vim Plugins
+# 🎄🚀 Setting Up WezTerm, Bash, Neovim and Vim Plugins (Holiday Boost 2024 - #4)
 
 Continues a beginner development environment setup, focusing on installing the WezTerm terminal, configuring it and its fonts with the dotfiles setup script, and getting Bash running in it on Windows and Mac. Also covers the lineage of ed, vi, Vim and Neovim, setting up the Vim and Neovim configuration, checking the Neovim and Vim versions, and activating plugins.
 
