@@ -1,6 +1,6 @@
 # 🌳 Zettelkasten Is Dead: A Personal AI That Remembers Is the New Second Brain
 
-Argues that the Zettelkasten method of knowledge management is outdated now that personal AI assistants can remember context and recall it in conversation, using a live voice chat with ChatGPT that includes recalling details of a bike trip planned months earlier. Also covers privacy and backup concerns, AI-assisted writing and learning, AI intimacy, specialized GPTs, and changes to future streaming and work on the Bonsai Go project.
+Argues that the Zettelkasten method of knowledge management is outdated now that personal AI assistants can remember context and recall it in conversation, using a live voice chat with ChatGPT that includes recalling details of a bike trip planned months earlier. Also covers privacy and backup concerns, AI-assisted writing and learning, AI intimacy, specialized GPTs, and changes to future streaming and work on the Bonzai Go project.
 
 Chapters:
 0:00 Stream setup and Luhmann's Zettelkasten
@@ -13,7 +13,7 @@ Chapters:
 23:17 AI and human intimacy
 25:51 Specialized GPTs and choosing knowledge sources
 27:46 AI agreeableness and learning AsciiDoc
-30:30 Streaming changes, Bonsai plans, and sign-off
+30:30 Streaming changes, Bonzai plans, and sign-off
 
 `#ai #zettelkasten #secondbrain #chatgpt #knowledgemanagement #pkm #obsidian #asciidoc`
 
