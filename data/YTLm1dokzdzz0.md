@@ -5,7 +5,7 @@ Reports on installing Harbor into minikube: Postgres and the build, deploy and t
 Chapters:
 0:00 Recap of Postgres and deploy scripts
 1:23 Minikube drivers and web access struggles
-3:15 Harbor stuck connecting to Redis
+3:18 Harbor stuck connecting to Redis
 4:10 Possible networking, DNS and resource causes
 5:55 Testing access and home lab plans
 7:55 Why minikube over kind
