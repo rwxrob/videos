@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:06,940
+ Hey, it's Christmas, I had to make it so I burned trees and made a fireplace.
+
+2
+00:00:06,940 --> 00:00:08,380
+ I made the lights myself.
+
+3
+00:00:08,380 --> 00:00:09,380
+ I made the lights myself.
+
+4
+00:00:09,380 --> 00:00:10,380
+ Go check them out.
+
+5
+00:00:10,380 --> 00:00:15,580
+ rwxrob/dot if you want to have some ASCII art fun.
+
+6
+00:00:15,580 --> 00:00:21,180
+ I'd rather you use that and, you know, then burn trees and waste water like I did using
+
+7
+00:00:21,180 --> 00:00:22,180
+ my AI to make them.
+
+8
+00:00:22,180 --> 00:00:23,180
+ It's really fun.
+
+9
+00:00:23,180 --> 00:00:25,620
+ I'm a horrible person, but it's really pretty.
+
+10
+00:00:25,620 --> 00:00:26,420
+ Bye.
+
