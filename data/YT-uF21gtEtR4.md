@@ -4,14 +4,14 @@ Explains why dynamically provisioned storage in many Kubernetes clusters uses a 
 
 Chapters:
 0:00 Default reclaim policy and dynamic volumes
-1:45 Why Kubernetes storage is ephemeral by default
+1:41 Why Kubernetes storage is ephemeral by default
 2:55 Harbor setup, database backups, and PVCs
 6:47 Undeploying the namespace deletes the backups
 9:51 Namespaced PVCs versus cluster-level PVs
 10:38 Redeploying with backups on retained storage
 16:38 Testing the retain policy on undeploy
-18:56 Tracking and managing retained volumes
-22:50 Protecting backups and large registry storage
+18:52 Tracking and managing retained volumes
+22:52 Protecting backups and large registry storage
 
 `#kubernetes #devops #storage #harbor #k8s #persistentvolumes #nfs #backups #persistentvolumeclaim #linux #protips #education`
 
