@@ -4,16 +4,16 @@ Reads through and comments on the "What It Takes" section of a book for beginnin
 
 Chapters:
 0:00 Introduction and typing from home row
-6:03 What it takes to code effectively
-9:04 Creativity, learning and passion for coding
-18:02 Why it's never too late to start
-21:00 Enjoying coding and using focus time
-27:00 Lifelong learning and empowerment through code
+5:57 What it takes to code effectively
+8:30 Creativity, learning and passion for coding
+17:42 Why it's never too late to start
+19:13 Life of a code mage, morning routine and focus time
+27:11 Lifelong learning and empowerment through code
 33:02 Building your own coding lab
 39:03 Installing Git Bash on Windows
-42:00 Configuring the terminal appearance
-45:01 Installing Homebrew and Bash on macOS
-54:03 GitHub profiles and creating an account
+41:48 Configuring the terminal appearance
+43:21 Installing Homebrew and Bash on macOS
+53:08 GitHub profiles and creating an account
 
 `#coding #bash #linux #terminal #github #gitbash #homebrew #beginners #techlife #education #protips`
 
