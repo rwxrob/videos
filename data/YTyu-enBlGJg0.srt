@@ -1,0 +1,388 @@
+1
+00:00:00,000 --> 00:00:02,720
+ I owe everybody an apology.
+
+2
+00:00:02,720 --> 00:00:05,800
+ Everybody who's ever used Nano to get started.
+
+3
+00:00:05,800 --> 00:00:07,440
+ I owe you an apology.
+
+4
+00:00:07,440 --> 00:00:09,880
+ I make fun of people who use Nano.
+
+5
+00:00:09,880 --> 00:00:11,000
+ I have made fun of people.
+
+6
+00:00:11,000 --> 00:00:13,560
+ I actually created a project, you can go find it.
+
+7
+00:00:13,560 --> 00:00:16,000
+ It's called No Nano and it's like why learning Nano
+
+8
+00:00:16,000 --> 00:00:17,080
+ is bad for beginners.
+
+9
+00:00:17,080 --> 00:00:22,080
+ And I don't think that that's completely wrong.
+
+10
+00:00:22,240 --> 00:00:25,920
+ I have had to deal with beginners who have tried
+
+11
+00:00:25,920 --> 00:00:28,840
+ different Control X and Control S to control this
+
+12
+00:00:28,840 --> 00:00:30,440
+ because of Nano.
+
+13
+00:00:30,440 --> 00:00:33,480
+ I have had to deal with beginners who have
+
+14
+00:00:33,480 --> 00:00:37,320
+ frozen themselves in their terminal because they were,
+
+15
+00:00:38,720 --> 00:00:42,480
+ they developed a habit of trying things out with Control
+
+16
+00:00:42,480 --> 00:00:45,560
+ because of using Nano.
+
+17
+00:00:45,560 --> 00:00:49,880
+ That's why I am overly hostile towards Nano.
+
+18
+00:00:49,880 --> 00:00:53,440
+ But the intent of Nano is fair and solid
+
+19
+00:00:53,440 --> 00:00:54,800
+ and frankly everybody should learn it.
+
+20
+00:00:54,800 --> 00:00:56,960
+ So in the Holiday Boosted and the Beginner Boosted
+
+21
+00:00:56,960 --> 00:01:00,600
+ in the book, the first editor anybody is going to use
+
+22
+00:01:00,600 --> 00:01:02,720
+ from now on that I teach them is going to be Nano
+
+23
+00:01:02,720 --> 00:01:04,320
+ because it's already on there.
+
+24
+00:01:04,320 --> 00:01:07,360
+ And if they get dumped in Krone job,
+
+25
+00:01:07,360 --> 00:01:08,920
+ like if you use Krone job and you get dumped in there,
+
+26
+00:01:08,920 --> 00:01:10,160
+ they're going to have to use Nano.
+
+27
+00:01:10,160 --> 00:01:12,240
+ So you have to learn it.
+
+28
+00:01:12,240 --> 00:01:14,480
+ It's mandatory learning, even if you only learn it enough
+
+29
+00:01:14,480 --> 00:01:16,040
+ to like never use it again.
+
+30
+00:01:18,720 --> 00:01:21,000
+ You just have to use it, right?
+
+31
+00:01:22,840 --> 00:01:25,600
+ And most beginners won't know yet to set their editor
+
+32
+00:01:25,600 --> 00:01:27,360
+ and set, you know, the visual mode and all that stuff.
+
+33
+00:01:27,360 --> 00:01:28,600
+ And they haven't installed anything else.
+
+34
+00:01:28,600 --> 00:01:31,240
+ So our first experience with editing a file
+
+35
+00:01:31,240 --> 00:01:33,640
+ is setting up Western as you can see here,
+
+36
+00:01:33,640 --> 00:01:36,200
+ which is really fun by the way because Western has,
+
+37
+00:01:36,200 --> 00:01:38,680
+ if you're an absolute beginner or if you're helping
+
+38
+00:01:38,680 --> 00:01:41,120
+ an absolute beginner, setting up your Western configuration
+
+39
+00:01:41,120 --> 00:01:42,640
+ and changing the theme for example,
+
+40
+00:01:42,640 --> 00:01:46,200
+ is immediately hot loaded, which is very satisfying.
+
+41
+00:01:46,200 --> 00:01:47,240
+ Especially if you're just starting out
+
+42
+00:01:47,240 --> 00:01:48,480
+ and you're just starting to realize the power
+
+43
+00:01:48,480 --> 00:01:51,080
+ of the terminal, we've been really having fun with this.
+
+44
+00:01:51,080 --> 00:01:52,520
+ And I've totally messed it up.
+
+45
+00:01:52,520 --> 00:01:55,360
+ I've like started editing this file using the IM keys
+
+46
+00:01:55,360 --> 00:01:57,800
+ and totally messing up my lines and everything.
+
+47
+00:01:57,800 --> 00:02:01,720
+ So I just wanna apologize to anybody that I have like,
+
+48
+00:02:01,720 --> 00:02:05,480
+ you know, maybe joked with immediately about using Nano.
+
+49
+00:02:06,480 --> 00:02:09,800
+ I don't like it, I hate it, but it is a thing
+
+50
+00:02:09,800 --> 00:02:12,280
+ that everybody should learn and you can't know
+
+51
+00:02:12,280 --> 00:02:14,400
+ that you don't like it unless you try it.
+
+52
+00:02:16,200 --> 00:02:17,920
+ So try it, try it.
+
+53
+00:02:17,920 --> 00:02:19,760
+ Let that be the first thing that you use
+
+54
+00:02:19,760 --> 00:02:22,040
+ and at least understand what is going on.
+
+55
+00:02:22,040 --> 00:02:24,520
+ I mean, an absolute beginner is gonna see, you know,
+
+56
+00:02:24,520 --> 00:02:27,120
+ what does this till the X, what does that even mean?
+
+57
+00:02:29,040 --> 00:02:31,000
+ And if somebody was arguing that Nano
+
+58
+00:02:31,000 --> 00:02:32,080
+ is actually harder for beginners,
+
+59
+00:02:32,080 --> 00:02:34,360
+ 'cause they don't know what till the X means,
+
+60
+00:02:34,360 --> 00:02:36,320
+ they have no idea what that means.
+
+61
+00:02:36,320 --> 00:02:38,800
+ So they still have to learn something, right?
+
+62
+00:02:38,800 --> 00:02:41,680
+ And hopefully that they'll figure out that that means,
+
+63
+00:02:41,680 --> 00:02:42,960
+ they don't know what a carer it is,
+
+64
+00:02:42,960 --> 00:02:45,240
+ if you're an absolute beginner, what the hell is that?
+
+65
+00:02:45,240 --> 00:02:46,920
+ Somebody has to tell them, just like they'd have
+
+66
+00:02:46,920 --> 00:02:50,480
+ to tell them with VI to use I to insert and ZZ to escape,
+
+67
+00:02:50,480 --> 00:02:52,160
+ they have to tell them that, right?
+
+68
+00:02:52,160 --> 00:02:54,480
+ Did I say till the, I meant carer, sorry.
+
+69
+00:02:54,480 --> 00:02:56,560
+ I misspoke, obviously.
+
+70
+00:02:56,560 --> 00:02:58,280
+ So is there a way to use Nano
+
+71
+00:02:58,280 --> 00:03:00,160
+ with implementing oneself with the musical
+
+72
+00:03:00,160 --> 00:03:02,480
+ Muscle Memory of Control Hot Key Short Kids?
+
+73
+00:03:02,480 --> 00:03:05,540
+ I think there is, I think there's a way to do that,
+
+74
+00:03:05,540 --> 00:03:09,600
+ but to be fair, the people that ended up
+
+75
+00:03:09,600 --> 00:03:11,880
+ locking themselves out of their terminal,
+
+76
+00:03:11,880 --> 00:03:16,120
+ because just so you know, every default terminal shell,
+
+77
+00:03:16,120 --> 00:03:17,800
+ bash, or do so and everything,
+
+78
+00:03:17,800 --> 00:03:21,160
+ is not properly configured to handle suspend.
+
+79
+00:03:21,160 --> 00:03:23,600
+ And these things, this state specs a really fun thing.
+
+80
+00:03:23,600 --> 00:03:26,600
+ It dates way back to the days when you could overload
+
+81
+00:03:26,600 --> 00:03:30,320
+ the TTY printer in the teletype by sending too much stuff.
+
+82
+00:03:30,320 --> 00:03:32,640
+ So you were able to like suspend the, you know,
+
+83
+00:03:32,640 --> 00:03:34,880
+ the printing, that's why this width's there.
+
+84
+00:03:34,880 --> 00:03:37,480
+ And there, unless you add a couple specific
+
+85
+00:03:37,480 --> 00:03:40,040
+ configuration lines into your RC files,
+
+86
+00:03:40,040 --> 00:03:42,840
+ you're gonna end up suspending your terminal.
+
+87
+00:03:42,840 --> 00:03:44,160
+ It's just gonna happen.
+
+88
+00:03:44,160 --> 00:03:45,960
+ I haven't done it in over a decade
+
+89
+00:03:45,960 --> 00:03:48,200
+ since I've added it to my thing.
+
+90
+00:03:48,200 --> 00:03:50,280
+ But I didn't even learn how to disable that
+
+91
+00:03:50,280 --> 00:03:52,040
+ until I was in my 40s.
+
+92
+00:03:52,040 --> 00:03:54,400
+ So, you know, that's the thing.
+
+93
+00:03:54,400 --> 00:03:55,840
+ That's the reason I don't like nano
+
+94
+00:03:55,840 --> 00:03:59,800
+ is because it teaches people, they learn control X, you know,
+
+95
+00:03:59,800 --> 00:04:03,360
+ and control C and stuff like that, you know.
+
+96
+00:04:03,360 --> 00:04:05,400
+ Who knows, I might end up mapping control C to escape
+
+97
+00:04:05,400 --> 00:04:06,400
+ and they're VIM later.
+
