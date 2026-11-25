@@ -8,7 +8,7 @@ Chapters:
 2:45 Why long inline method comments hurt readability
 5:12 Short inline notes, longer docs below
 
-`#golang #go #documentation #interfaces #programming #vim #coding #protips`
+`#golang #go #documentation #interfaces #programming #coding #protips`
 
 ## Category
 
