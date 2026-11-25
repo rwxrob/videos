@@ -6,3 +6,4 @@ vbNpbNsrySQ  # I Used VSCode for Two Full Years, Then Ran Back to Vim
 Vdd2MTv6vrs  # Lynx Text Web Browser FTW!
 zH3CH6zXTew  # Do NOT Use Vim Pane Splitting (Use TMUX Instead)
 krXhsb1FSDU  # My Window Manager is TMUX
+BzenSt9Hxgc  # 🤷🏻‍♂️ "Why don't you like GitLab?"

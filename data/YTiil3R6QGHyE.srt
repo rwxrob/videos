@@ -1,0 +1,968 @@
+1
+00:00:00,000 --> 00:00:02,740
+ (dramatic music)
+
+2
+00:00:30,000 --> 00:00:32,760
+ (birds chirping)
+
+3
+00:01:00,000 --> 00:01:02,760
+ (birds chirping)
+
+4
+00:01:15,680 --> 00:01:16,520
+ Hey guys.
+
+5
+00:01:30,840 --> 00:01:33,600
+ (birds chirping)
+
+6
+00:01:35,920 --> 00:01:37,160
+ Kind of by a truck stop.
+
+7
+00:01:38,920 --> 00:01:40,380
+ Coding in a truck stop.
+
+8
+00:01:46,120 --> 00:01:47,680
+ Gotta go on this dolphin, though.
+
+9
+00:02:00,000 --> 00:02:02,760
+ (birds chirping)
+
+10
+00:02:30,000 --> 00:02:32,760
+ (birds chirping)
+
+11
+00:03:00,000 --> 00:03:03,000
+ (indistinct chatter)
+
+12
+00:03:30,000 --> 00:03:33,000
+ (indistinct chatter)
+
+13
+00:04:00,000 --> 00:04:03,000
+ (indistinct chatter)
+
+14
+00:04:11,000 --> 00:04:12,800
+ - We found the coffee.
+
+15
+00:04:12,800 --> 00:04:14,800
+ (laughing)
+
+16
+00:04:14,800 --> 00:04:15,800
+ - That's nice, too.
+
+17
+00:04:15,800 --> 00:04:17,200
+ - No, it is, it's fun.
+
+18
+00:04:30,000 --> 00:04:33,000
+ (indistinct chatter)
+
+19
+00:05:00,000 --> 00:05:03,000
+ (indistinct chatter)
+
+20
+00:05:30,000 --> 00:05:33,000
+ (indistinct chatter)
+
+21
+00:06:00,000 --> 00:06:03,000
+ (indistinct chatter)
+
+22
+00:06:04,000 --> 00:06:07,000
+ (indistinct chatter)
+
+23
+00:06:18,000 --> 00:06:20,000
+ (banging)
+
+24
+00:06:20,000 --> 00:06:23,000
+ (indistinct chatter)
+
+25
+00:06:23,000 --> 00:06:26,000
+ (indistinct chatter)
+
+26
+00:06:26,000 --> 00:06:29,000
+ (indistinct chatter)
+
+27
+00:06:30,000 --> 00:06:33,000
+ (indistinct chatter)
+
+28
+00:06:34,000 --> 00:06:37,000
+ (indistinct chatter)
+
+29
+00:06:37,000 --> 00:06:40,000
+ (indistinct chatter)
+
+30
+00:06:40,000 --> 00:06:43,000
+ (indistinct chatter)
+
+31
+00:06:43,000 --> 00:06:46,000
+ (indistinct chatter)
+
+32
+00:06:46,000 --> 00:06:49,000
+ (indistinct chatter)
+
+33
+00:06:49,000 --> 00:06:51,000
+ (indistinct chatter)
+
+34
+00:06:51,000 --> 00:06:54,000
+ - Zrebit Nuba says, why are you not sleeping, Rob?
+
+35
+00:06:54,000 --> 00:06:57,000
+ (indistinct chatter)
+
+36
+00:06:57,000 --> 00:06:59,000
+ (indistinct chatter)
+
+37
+00:06:59,000 --> 00:07:02,000
+ (indistinct chatter)
+
+38
+00:07:02,000 --> 00:07:05,000
+ (indistinct chatter)
+
+39
+00:07:05,000 --> 00:07:08,000
+ (indistinct chatter)
+
+40
+00:07:08,000 --> 00:07:11,000
+ (indistinct chatter)
+
+41
+00:07:11,000 --> 00:07:14,000
+ (indistinct chatter)
+
+42
+00:07:14,000 --> 00:07:17,000
+ (indistinct chatter)
+
+43
+00:07:17,000 --> 00:07:19,000
+ (indistinct chatter)
+
+44
+00:07:19,000 --> 00:07:22,000
+ - Recursive escalator just followed.
+
+45
+00:07:22,000 --> 00:07:25,000
+ (indistinct chatter)
+
+46
+00:07:25,000 --> 00:07:41,000
+ (indistinct chatter)
+
+47
+00:07:41,000 --> 00:07:57,000
+ (indistinct chatter)
+
+48
+00:07:57,000 --> 00:08:00,000
+ (indistinct chatter)
+
+49
+00:08:00,000 --> 00:08:15,000
+ (indistinct chatter)
+
+50
+00:08:15,000 --> 00:08:23,000
+ (indistinct chatter)
+
+51
+00:08:23,000 --> 00:08:28,000
+ (indistinct chatter)
+
+52
+00:08:28,000 --> 00:08:33,000
+ (indistinct chatter)
+
+53
+00:08:33,000 --> 00:08:38,000
+ (indistinct chatter)
+
+54
+00:08:38,000 --> 00:08:43,000
+ (indistinct chatter)
+
+55
+00:08:43,000 --> 00:08:47,000
+ (indistinct chatter)
+
+56
+00:08:47,000 --> 00:08:52,000
+ (indistinct chatter)
+
+57
+00:08:52,000 --> 00:08:54,000
+ - And good to go.
+
+58
+00:08:54,000 --> 00:08:57,000
+ (indistinct chatter)
+
+59
+00:08:57,000 --> 00:09:18,000
+ (indistinct chatter)
+
+60
+00:09:18,000 --> 00:09:32,000
+ (indistinct chatter)
+
+61
+00:09:32,000 --> 00:09:37,000
+ (indistinct chatter)
+
+62
+00:09:37,000 --> 00:09:53,000
+ (indistinct chatter)
+
+63
+00:09:53,000 --> 00:09:54,000
+ - All right, guys.
+
+64
+00:09:54,000 --> 00:09:56,000
+ My hair pumps aren't working right now.
+
+65
+00:09:56,000 --> 00:09:57,000
+ It's a reason.
+
+66
+00:09:57,000 --> 00:10:05,000
+ (indistinct chatter)
+
+67
+00:10:05,000 --> 00:10:07,000
+ (indistinct chatter)
+
+68
+00:10:07,000 --> 00:10:10,000
+ (indistinct chatter)
+
+69
+00:10:10,000 --> 00:10:19,000
+ (indistinct chatter)
+
+70
+00:10:19,000 --> 00:10:20,000
+ - Morning.
+
+71
+00:10:20,000 --> 00:10:22,000
+ That was a breakfast.
+
+72
+00:10:22,000 --> 00:10:27,000
+ Joe checked out the dinosaur museum.
+
+73
+00:10:27,000 --> 00:10:46,000
+ (indistinct chatter)
+
+74
+00:10:46,000 --> 00:11:03,000
+ (indistinct chatter)
+
+75
+00:11:03,000 --> 00:11:10,000
+ (indistinct chatter)
+
+76
+00:11:10,000 --> 00:11:32,000
+ (indistinct chatter)
+
+77
+00:11:32,000 --> 00:11:52,000
+ (indistinct chatter)
+
+78
+00:11:52,000 --> 00:12:01,000
+ (indistinct chatter)
+
+79
+00:12:01,000 --> 00:12:11,000
+ (indistinct chatter)
+
+80
+00:12:11,000 --> 00:12:21,000
+ (indistinct chatter)
+
+81
+00:12:21,000 --> 00:12:26,000
+ (indistinct chatter)
+
+82
+00:12:26,000 --> 00:12:31,000
+ - Yes.
+
+83
+00:12:31,000 --> 00:12:38,000
+ (indistinct chatter)
+
+84
+00:12:38,000 --> 00:12:43,000
+ - Okay.
+
+85
+00:12:43,000 --> 00:12:46,000
+ Actually.
+
+86
+00:12:46,000 --> 00:13:14,000
+ (indistinct chatter)
+
+87
+00:13:14,000 --> 00:13:19,000
+ - All right, there.
+
+88
+00:13:19,000 --> 00:13:33,000
+ (indistinct chatter)
+
+89
+00:13:33,000 --> 00:13:47,000
+ (indistinct chatter)
+
+90
+00:13:47,000 --> 00:14:13,000
+ (indistinct chatter)
+
+91
+00:14:13,000 --> 00:14:18,000
+ - That's not a little bit, right?
+
+92
+00:14:18,000 --> 00:14:23,000
+ That's not why I was freezing.
+
+93
+00:14:23,000 --> 00:14:28,000
+ I was freezing 'cause I couldn't 'cause I pulled the thing in.
+
+94
+00:14:28,000 --> 00:14:30,000
+ Get back to work.
+
+95
+00:14:30,000 --> 00:14:35,000
+ I'm getting back to work.
+
+96
+00:14:35,000 --> 00:14:44,000
+ (indistinct chatter)
+
+97
+00:14:44,000 --> 00:14:49,000
+ I lost my speaker somehow.
+
+98
+00:14:49,000 --> 00:14:55,000
+ (indistinct chatter)
+
+99
+00:14:55,000 --> 00:15:13,000
+ (indistinct chatter)
+
+100
+00:15:13,000 --> 00:15:26,000
+ - There we go.
+
+101
+00:15:26,000 --> 00:15:40,000
+ (indistinct chatter)
+
+102
+00:15:40,000 --> 00:16:00,000
+ (indistinct chatter)
+
+103
+00:16:00,000 --> 00:16:04,000
+ - Probably changed my category.
+
+104
+00:16:04,000 --> 00:16:11,000
+ I'm not streaming IRL.
+
+105
+00:16:11,000 --> 00:16:30,000
+ (indistinct chatter)
+
+106
+00:16:30,000 --> 00:16:51,000
+ (indistinct chatter)
+
+107
+00:16:51,000 --> 00:16:53,000
+ - I don't know what that's going to look like.
+
+108
+00:16:53,000 --> 00:16:55,000
+ That's not going to work.
+
+109
+00:16:55,000 --> 00:16:59,000
+ Get back to work.
+
+110
+00:16:59,000 --> 00:17:04,000
+ (indistinct chatter)
+
+111
+00:17:04,000 --> 00:17:11,000
+ (indistinct chatter)
+
+112
+00:17:11,000 --> 00:17:14,000
+ - All right.
+
+113
+00:17:14,000 --> 00:17:20,000
+ (indistinct chatter)
+
+114
+00:17:20,000 --> 00:17:23,000
+ - Smothers girl.
+
+115
+00:17:23,000 --> 00:17:26,000
+ Smothers girl.
+
+116
+00:17:26,000 --> 00:17:40,000
+ (indistinct chatter)
+
+117
+00:17:40,000 --> 00:17:43,000
+ - Of course we're low on battery.
+
+118
+00:17:43,000 --> 00:17:47,000
+ Of course we are.
+
+119
+00:17:47,000 --> 00:17:54,000
+ (indistinct chatter)
+
+120
+00:17:54,000 --> 00:18:00,000
+ - Damn it.
+
+121
+00:18:00,000 --> 00:18:02,000
+ We're going to get, we're going to be coding,
+
+122
+00:18:02,000 --> 00:18:05,000
+ but I've got to go get also up.
+
+123
+00:18:05,000 --> 00:18:11,000
+ I need to go get my pad, my charger.
+
+124
+00:18:11,000 --> 00:18:15,000
+ Yep.
+
+125
+00:18:15,000 --> 00:18:16,000
+ Nobody's up.
+
+126
+00:18:16,000 --> 00:18:23,000
+ I'm going to give her a shot.
+
+127
+00:18:23,000 --> 00:18:32,000
+ (indistinct chatter)
+
+128
+00:18:32,000 --> 00:18:37,000
+ - It's risky, but I'm going to try it.
+
+129
+00:18:37,000 --> 00:18:59,000
+ (indistinct chatter)
+
+130
+00:18:59,000 --> 00:19:09,000
+ (indistinct chatter)
+
+131
+00:19:09,000 --> 00:19:14,000
+ (indistinct chatter)
+
+132
+00:19:14,000 --> 00:19:36,000
+ (indistinct chatter)
+
+133
+00:19:36,000 --> 00:19:51,000
+ (indistinct chatter)
+
+134
+00:19:51,000 --> 00:20:13,000
+ (indistinct chatter)
+
+135
+00:20:13,000 --> 00:20:38,000
+ (indistinct chatter)
+
+136
+00:20:38,000 --> 00:21:00,000
+ (indistinct chatter)
+
+137
+00:21:00,000 --> 00:21:11,000
+ (indistinct chatter)
+
+138
+00:21:11,000 --> 00:21:36,000
+ (indistinct chatter)
+
+139
+00:21:36,000 --> 00:21:58,000
+ (indistinct chatter)
+
+140
+00:21:58,000 --> 00:22:20,000
+ (indistinct chatter)
+
+141
+00:22:20,000 --> 00:22:42,000
+ (indistinct chatter)
+
+142
+00:22:42,000 --> 00:22:52,000
+ (indistinct chatter)
+
+143
+00:22:52,000 --> 00:22:56,000
+ You like him on a trip?
+
+144
+00:22:56,000 --> 00:23:00,000
+ Remind me later, I can use the iPhone as a webcam.
+
+145
+00:23:00,000 --> 00:23:22,000
+ (indistinct chatter)
+
+146
+00:23:22,000 --> 00:23:44,000
+ I mean, it is what it is, right?
+
+147
+00:23:44,000 --> 00:23:52,000
+ It is good.
+
+148
+00:23:52,000 --> 00:23:53,000
+ All right, let's try it.
+
+149
+00:23:53,000 --> 00:23:59,000
+ I'm going to try to switch.
+
+150
+00:23:59,000 --> 00:24:03,000
+ Yeah, that helps.
+
+151
+00:24:03,000 --> 00:24:04,000
+ That really helps.
+
+152
+00:24:04,000 --> 00:24:05,000
+ All right, I'm going to switch.
+
+153
+00:24:05,000 --> 00:24:08,000
+ I'm going to switch cameras now.
+
+154
+00:24:08,000 --> 00:24:16,000
+ So, give me one second.
+
+155
+00:24:16,000 --> 00:24:18,000
+ God, I'm like, "Hey, yeah, maybe there is a God."
+
+156
+00:24:18,000 --> 00:24:21,000
+ And by the way, if Jesus is the God, I'm all for that.
+
+157
+00:24:21,000 --> 00:24:23,000
+ If Jesus is going to sit me down before he sends me to hell,
+
+158
+00:24:23,000 --> 00:24:25,000
+ and he's going to explain all the shit that went down on Earth
+
+159
+00:24:25,000 --> 00:24:28,000
+ that doesn't make any fucking sense, great, send me to hell.
+
+160
+00:24:28,000 --> 00:24:30,000
+ I'll be happy to go.
+
+161
+00:24:30,000 --> 00:24:31,000
+ I'll be happy to go.
+
+162
+00:24:31,000 --> 00:24:33,000
+ I'll be happy to go because there's so much shit that I don't
+
+163
+00:24:33,000 --> 00:24:35,000
+ understand that doesn't make any fucking sense
+
+164
+00:24:35,000 --> 00:24:37,000
+ that it's even in your Bible with all your shit
+
+165
+00:24:37,000 --> 00:24:39,000
+ in your Bible with dash their heads against the rocks,
+
+166
+00:24:39,000 --> 00:24:43,000
+ dash the babes against the rocks, shit in your Old Testament.
+
+167
+00:24:43,000 --> 00:24:48,000
+ God, out there, I'm not a mugger than you thought.
+
+168
+00:24:48,000 --> 00:25:06,000
+ I don't know what that text is saying.
+
+169
+00:25:06,000 --> 00:25:14,000
+ Yep, I got a good liner, I guess.
+
+170
+00:25:14,000 --> 00:25:24,000
+ Are you guys still there?
+
+171
+00:25:24,000 --> 00:25:27,000
+ Is it a mug?
+
+172
+00:25:27,000 --> 00:25:32,000
+ Can you use mod only commands on Twitch?
+
+173
+00:25:32,000 --> 00:25:36,000
+ No.
+
+174
+00:25:36,000 --> 00:25:46,000
+ No, it doesn't mean that.
+
+175
+00:25:46,000 --> 00:25:52,000
+ The gas station had copy.
+
+176
+00:25:52,000 --> 00:26:04,000
+ Right, guys.
+
+177
+00:26:04,000 --> 00:26:10,000
+ I am the one who codes and drives across the country.
+
+178
+00:26:10,000 --> 00:26:11,000
+ No.
+
+179
+00:26:11,000 --> 00:26:15,000
+ In fact, no commands work for YouTube.
+
+180
+00:26:15,000 --> 00:26:20,000
+ I don't know how to make that work.
+
+181
+00:26:20,000 --> 00:26:23,000
+ I'm wondering if the reason it doesn't work is because
+
+182
+00:26:23,000 --> 00:26:26,000
+ the Restream bot puts a bunch of stuff in front of it.
+
+183
+00:26:26,000 --> 00:26:32,000
+ So that's why that's not working.
+
+184
+00:26:32,000 --> 00:26:34,000
+ What are we doing today?
+
+185
+00:26:34,000 --> 00:26:41,000
+ We're going to be coding a lot of shell.
+
+186
+00:26:41,000 --> 00:26:48,000
+ I've got to do -- I'm probably going to work from three until
+
+187
+00:26:48,000 --> 00:26:52,000
+ three until three until three until three.
+
+188
+00:26:52,000 --> 00:26:58,000
+ Who knows when?
+
+189
+00:26:58,000 --> 00:27:03,000
+ Reg X sit out.
+
+190
+00:27:03,000 --> 00:27:07,000
+ Yeah, I don't know.
+
+191
+00:27:07,000 --> 00:27:12,000
+ We could probably reg X sit out.
+
+192
+00:27:12,000 --> 00:27:17,000
+ That sounds like a good idea.
+
+193
+00:27:17,000 --> 00:27:27,000
+ All right, so is everything charged, by the way?
+
+194
+00:27:27,000 --> 00:27:38,000
+ I've got to keep the phones constantly charged.
+
+195
+00:27:38,000 --> 00:27:46,000
+ All right, so I'm kind of hot.
+
+196
+00:27:46,000 --> 00:27:51,000
+ I'm going to change my shirt.
+
+197
+00:27:51,000 --> 00:27:57,000
+ I'm kind of hot.
+
+198
+00:27:57,000 --> 00:28:03,000
+ Then I don't know whether we should break this video out or not.
+
+199
+00:28:03,000 --> 00:28:08,000
+ Maybe I will.
+
+200
+00:28:08,000 --> 00:28:17,000
+ We could get set up and then I can maybe restart the video.
+
+201
+00:28:17,000 --> 00:28:25,000
+ Get a lemonade.
+
+202
+00:28:25,000 --> 00:28:33,000
+ Yeah, the hydrate is like coffee.
+
+203
+00:28:33,000 --> 00:28:39,000
+ I think a whole bunch of coffee.
+
+204
+00:28:39,000 --> 00:28:43,000
+ Ordering the table.
+
+205
+00:28:43,000 --> 00:28:50,000
+ I'm in the cafeteria so as soon as they open up.
+
+206
+00:28:50,000 --> 00:28:54,000
+ This is why we pay the extra money for a hotel that's got
+
+207
+00:28:54,000 --> 00:29:00,000
+ breakfast because I can come in here and work in the morning.
+
+208
+00:29:00,000 --> 00:29:04,000
+ All right, let's actually do that.
+
+209
+00:29:04,000 --> 00:29:10,000
+ I'm so sorry it took me so long, but let's go ahead and restart
+
+210
+00:29:10,000 --> 00:29:17,000
+ the stream with the proper stuff.
+
+211
+00:29:17,000 --> 00:29:20,000
+ I'll do it like normal.
+
+212
+00:29:20,000 --> 00:29:27,000
+ That way there'll be a video that you can put someplace else.
+
+213
+00:29:27,000 --> 00:29:46,000
+ All right, so I'm going to go ahead and temporarily stop it.
+
+214
+00:29:46,000 --> 00:30:00,000
+ I'm reaching thousand kilos per second.
+
+215
+00:30:00,000 --> 00:30:04,000
+ I won't be sleepy because I'll end up taking a nap.
+
+216
+00:30:04,000 --> 00:30:08,000
+ What will end up happening is I'll want to go to bed at like eight o'clock at night,
+
+217
+00:30:08,000 --> 00:30:09,000
+ which is fine.
+
+218
+00:30:09,000 --> 00:30:10,000
+ That's what happened last night.
+
+219
+00:30:10,000 --> 00:30:13,000
+ Last night I fell asleep at like eight.
+
+220
+00:30:13,000 --> 00:30:16,000
+ I just was out.
+
+221
+00:30:16,000 --> 00:30:21,000
+ All right, we're going to make a YouTube video.
+
+222
+00:30:21,000 --> 00:30:24,000
+ Yeah, there's no frame drops at all.
+
+223
+00:30:24,000 --> 00:30:26,000
+ That's insanely good here.
+
+224
+00:30:26,000 --> 00:30:32,000
+ Do you know what's really weird is that this is going over my Wi-Fi hotspot.
+
+225
+00:30:32,000 --> 00:30:35,000
+ My Wi-Fi hotspot is like ridiculously reliable.
+
+226
+00:30:35,000 --> 00:30:38,000
+ I've been really loving it.
+
+227
+00:30:38,000 --> 00:30:39,000
+ This is not hotel.
+
+228
+00:30:39,000 --> 00:30:41,000
+ This is this.
+
+229
+00:30:41,000 --> 00:30:45,000
+ My Android hotspot has been solid.
+
+230
+00:30:45,000 --> 00:30:48,000
+ I mean, it has been really, really solid.
+
+231
+00:30:48,000 --> 00:30:51,000
+ So that's really good.
+
+232
+00:30:51,000 --> 00:31:00,000
+ That's good to know because then I don't necessarily have to bring a different data modem around.
+
+233
+00:31:00,000 --> 00:31:03,000
+ Yeah.
+
+234
+00:31:03,000 --> 00:31:10,000
+ I could have been wondering if I need another one at all.
+
+235
+00:31:10,000 --> 00:31:16,000
+ Isn't that great?
+
+236
+00:31:16,000 --> 00:31:24,000
+ It does make me wonder if I can maybe drop the...
+
+237
+00:31:24,000 --> 00:31:26,000
+ Anyway, we'll talk about that later.
+
+238
+00:31:26,000 --> 00:31:28,000
+ Okay, we got to stay focused.
+
+239
+00:31:28,000 --> 00:31:30,000
+ Stay focused, Robert.
+
+240
+00:31:30,000 --> 00:31:34,000
+ All right, I'm going to stop the stream and we're going to start up again.
+
+241
+00:31:34,000 --> 00:31:35,000
+ Okay.
+
+242
+00:31:35,000 --> 00:31:36,000
+ Ready.
+

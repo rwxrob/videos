@@ -11,3 +11,35 @@ x3mavzLYxQs  # How are BSD UNIX and Linux different?
 TWca-7q94SU  # How to Learn Vim Quickly and Correctly
 vbNpbNsrySQ  # I Used VSCode for Two Full Years, Then Ran Back to Vim
 Vdd2MTv6vrs  # Lynx Text Web Browser FTW!
+9wCsvmlf5kY  # Best computer for tech and streaming
+iil3R6QGHyE  # late night coding
+oc76y6DEZQU  # go coding cli tool "kuti" for kubernetes
+kQVcqp2CSek  # k8s with kubespray
+X4pfjNvwLkQ  # ⎈🐧 kubernetes home lab kubespray
+xzLC5jNoBig  # 🐧⎈🏠 Breaking Lab
+jl7690X2UPw  # raw → git dotfiles → cozy workstation
+2W7MzOP74Co  # 🐹 Coding from the Get Go
+pzT6RiGH5Hk  # 🎄🐹 Coding from the Get Go - #4
+wRhL5-w4ZGI  # 🎄🐹 Coding from the Get Go - #3
+4MfK7wZFc4k  # 🎄🚀 Holiday Boost 2024 - #15
+kB3e-h-F7Zc  # 🎄🚀 Holiday Boost 2024 - #8
+YC1TQhoCIkE  # 🤷🏻‍♂️ Why don't you learn new stuff?
+Cebo5ZBlJ8M  # 🔰📚 What Go books should I review? 🤷🏻‍♂️
+yu-enBlGJg0  # 🥹 I'm sorry nano
+wRpqguaI7Jc  # 🤦‍♂️ WSL2 secret to opening files and URLS with host apps
+OKAYZyafgY4  # 🎄🚀 Holiday Boost 2024 - #4
+ZRgIqhxCkMQ  # 🎄🚀 Holiday Boost 2024 - #2
+4N8XACFYJ6A  # 😎 Use IRC for Twitch (weechat)
+0tUJaq_FXXI  # 🎄🚀 Holiday Boost - #1
+9rR3QPBxmOg  # 🌳 Go Bonzai CLI framework 📺
+R3kLuUvrttg  # 🌳 Go Bonzai CLI framework 📺
+7KWUwFhXT2w  # 😎 Get GOOD with Go with Go by Example 👍
+Cnj9cI8do-U  # 🤬 AP COMPUTER SCIENCE (COLLEGE BOARD) ROTS YOUR BAIN! 💢
+BzenSt9Hxgc  # 🤷🏻‍♂️ "Why don't you like GitLab?"
+CqB5b0KG1E8  # 😎 It's a UNIX system (with a custom DM)
+6lxmTPCxZyU  # 😎 gh pr FTW
+zE9VpcRH6Iw  # 🍅 Readable interface docs in golang
+vbgSIDLX3Qg  # 🍅 XDG_STATE_HOME (~/.local/state) io.UserStateDir
+p6dcrE617bM  # 🔨Your hammer sucks
+ropH0XqAgPs  # 📺 Porting clip program to Go Bonzai 🌳
+b4tUx-EzWLE  # 🌳 Go Bonzai Command Compositor 😎
