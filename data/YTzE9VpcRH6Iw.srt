@@ -1,0 +1,412 @@
+1
+00:00:00,000 --> 00:00:05,440
+ All right, so one of the biggest pet peeves that I have about the Go language and some
+
+2
+00:00:05,440 --> 00:00:10,440
+ of the standard libraries is the way people write their interface documentation.
+
+3
+00:00:10,440 --> 00:00:16,440
+ And what I'm showing right now is the documentation that I use, my technique of doing this is
+
+4
+00:00:16,440 --> 00:00:20,180
+ there's a few of the people that have done this in the past, I've seen them, but, and
+
+5
+00:00:20,180 --> 00:00:24,080
+ I want to show you the contrast a little bit so you can see the difference.
+
+6
+00:00:24,080 --> 00:00:29,040
+ Right away, when I see the documentation here, I see a little summary, and then I have the
+
+7
+00:00:29,040 --> 00:00:30,040
+ actual interface.
+
+8
+00:00:30,040 --> 00:00:33,880
+ So I can see what the interface is, and particularly if you get more than one, you usually only
+
+9
+00:00:33,880 --> 00:00:37,560
+ have one or two methods, but in this case, like file info, you know, there's more than
+
+10
+00:00:37,560 --> 00:00:38,560
+ one.
+
+11
+00:00:38,560 --> 00:00:43,600
+ So, and, and then the, the, the longer winded documentation comes down below.
+
+12
+00:00:43,600 --> 00:00:49,200
+ And in my, this is something that I do, but I'll add a summary of each of the interface
+
+13
+00:00:49,200 --> 00:00:54,800
+ actions, um, so that you can actually go ahead and I'm going to, I'm in the middle of doing
+
+14
+00:00:54,800 --> 00:00:55,800
+ that.
+
+15
+00:00:55,800 --> 00:00:56,960
+ So here I am like writing it right now, right?
+
+16
+00:00:56,960 --> 00:01:02,840
+ So this is what it looks like, but I mean, this is a really big block of documentation.
+
+17
+00:01:02,840 --> 00:01:03,840
+ Right.
+
+18
+00:01:03,840 --> 00:01:06,160
+ So what is the alternative to this and why do I do it this way?
+
+19
+00:01:06,160 --> 00:01:10,360
+ The main reason I do it this way is because of the reason I just said, I can exit out
+
+20
+00:01:10,360 --> 00:01:11,360
+ of here.
+
+21
+00:01:11,360 --> 00:01:12,360
+ So this is me.
+
+22
+00:01:12,360 --> 00:01:13,360
+ This is another little trick trick here.
+
+23
+00:01:13,360 --> 00:01:16,400
+ If you don't know this trick, this is a way for you to test whether you're struck implements
+
+24
+00:01:16,400 --> 00:01:19,360
+ an interface while you're developing it.
+
+25
+00:01:19,360 --> 00:01:23,160
+ And then you can comment that out and then it'll, it'll, it'll show you whether, whether
+
+26
+00:01:23,160 --> 00:01:24,600
+ you fail to implement that.
+
+27
+00:01:24,600 --> 00:01:26,080
+ That's a separate little thing.
+
+28
+00:01:26,080 --> 00:01:30,720
+ If I, if I actually commented any of these out, uh, might change the name of this, for
+
+29
+00:01:30,720 --> 00:01:34,880
+ example, uh, this will start to fail because they'll say, Oh, you're not implementing driver
+
+30
+00:01:34,880 --> 00:01:37,560
+ anymore because you don't have all the methods, right?
+
+31
+00:01:37,560 --> 00:01:42,520
+ Separate tip, separate video on that, but, um, and now I save it and I'll get it, but,
+
+32
+00:01:42,520 --> 00:01:46,200
+ but like, you know, if you're writing, if you're writing a driver or you're writing an implementation
+
+33
+00:01:46,200 --> 00:01:48,720
+ of interface, you're frequently want to probably pull up the interface.
+
+34
+00:01:48,720 --> 00:01:53,640
+ So this is actually a really great way to develop against an interface is you create
+
+35
+00:01:53,640 --> 00:01:58,960
+ a struct, you create a little technique like this to say it implements the interface and
+
+36
+00:01:58,960 --> 00:02:04,000
+ then you can go back to this line and do capital K and pull up the interface definition and
+
+37
+00:02:04,000 --> 00:02:08,840
+ read about the contract that you have to fulfill with the methods and what they, how they need
+
+38
+00:02:08,840 --> 00:02:11,000
+ to perform and everything while you're doing it.
+
+39
+00:02:11,000 --> 00:02:12,320
+ And then you can go back.
+
+40
+00:02:12,320 --> 00:02:16,360
+ Um, if you, if you're in the middle of it, you might want to, you know, actually another
+
+41
+00:02:16,360 --> 00:02:20,800
+ reason, uh, to have that sort of summary at the top is if you have T marks or something
+
+42
+00:02:20,800 --> 00:02:26,400
+ like it, I mean, you could make a tool to do this or you could just use T mucks and then
+
+43
+00:02:26,400 --> 00:02:32,600
+ go bam and then grab a couple interfaces out and exit out and go back to, um, to, to
+
+44
+00:02:32,600 --> 00:02:34,360
+ pasting those in with T mucks.
+
+45
+00:02:34,360 --> 00:02:37,600
+ And now you can paste your signatures and or something, but you actually don't need to
+
+46
+00:02:37,600 --> 00:02:38,600
+ do that.
+
+47
+00:02:38,600 --> 00:02:40,960
+ Um, it is fun, but you don't have to do that.
+
+48
+00:02:40,960 --> 00:02:45,040
+ So that's a quick technique for, um, the reason for doing that.
+
+49
+00:02:45,040 --> 00:02:50,680
+ Um, I promise you, if you look around hard enough, you'll see people that do this instead.
+
+50
+00:02:50,680 --> 00:02:54,880
+ They will have, you know, they'll have like, I'm just going to, I'm going to do one of
+
+51
+00:02:54,880 --> 00:02:57,120
+ them so you can see how messed up this is.
+
+52
+00:02:57,120 --> 00:03:02,960
+ Um, let's take the, let's take, well, let's see, and take the clear, let's take the three
+
+53
+00:03:02,960 --> 00:03:06,280
+ lines of clear dock and put those in front of clear.
+
+54
+00:03:06,280 --> 00:03:12,040
+ So this, there's lots of standard libraries that do this, um, and I absolutely detest
+
+55
+00:03:12,040 --> 00:03:13,040
+ it.
+
+56
+00:03:13,040 --> 00:03:16,360
+ Um, and let me, let me show you why I don't like it.
+
+57
+00:03:16,360 --> 00:03:20,960
+ Um, so by doing it this way, hey, how are you doing?
+
+58
+00:03:20,960 --> 00:03:25,960
+ So by doing it this way, someone argue, oh, it's like written right there by the thing,
+
+59
+00:03:25,960 --> 00:03:31,880
+ but this makes it very hard to see the interface when you're doing the editing over here.
+
+60
+00:03:31,880 --> 00:03:36,440
+ So, and most of the time, honest to God, I don't need to see all the details.
+
+61
+00:03:36,440 --> 00:03:38,480
+ I only want to look at them if I need them.
+
+62
+00:03:38,480 --> 00:03:40,400
+ I just want that little summary.
+
+63
+00:03:40,400 --> 00:03:41,480
+ So I'll go to the driver again.
+
+64
+00:03:41,480 --> 00:03:43,400
+ Let's go look at it now.
+
+65
+00:03:43,400 --> 00:03:50,440
+ And whoa, wait, what just happened, do I not save?
+
+66
+00:03:50,440 --> 00:03:52,440
+ What just happened?
+
+67
+00:03:52,440 --> 00:03:59,000
+ What just happened?
+
+68
+00:03:59,000 --> 00:04:02,080
+ Something is happening, my friends.
+
+69
+00:04:02,080 --> 00:04:07,840
+ What driver is it pulling in?
+
+70
+00:04:07,840 --> 00:04:17,200
+ That that is weird, LSP didn't update you think.
+
+71
+00:04:17,200 --> 00:04:24,080
+ Interesting, what is going on?
+
+72
+00:04:24,080 --> 00:04:27,480
+ You think I need to exit and then reopen?
+
+73
+00:04:27,480 --> 00:04:30,240
+ Yeah, I've been finished loading packages.
+
+74
+00:04:30,240 --> 00:04:31,240
+ Okay.
+
+75
+00:04:31,240 --> 00:04:32,240
+ Yeah.
+
+76
+00:04:32,240 --> 00:04:33,240
+ Oh God, that was weird.
+
+77
+00:04:33,240 --> 00:04:34,240
+ Yeah.
+
+78
+00:04:34,240 --> 00:04:35,240
+ Okay.
+
+79
+00:04:35,240 --> 00:04:36,240
+ There we go.
+
+80
+00:04:36,240 --> 00:04:37,240
+ Oh my God.
+
+81
+00:04:37,240 --> 00:04:42,840
+ Please, no, please don't do it that way.
+
+82
+00:04:42,840 --> 00:04:48,640
+ If you spend enough time programming go, you will run into this kind of inline documentation
+
+83
+00:04:48,640 --> 00:04:51,800
+ that is just a pain in the ass to digest.
+
+84
+00:04:51,800 --> 00:04:56,000
+ You want to see, as a developer, I want to see exactly what's happening and I want a
+
+85
+00:04:56,000 --> 00:04:57,000
+ short summary.
+
+86
+00:04:57,000 --> 00:05:01,320
+ So I'm going to rest my case at that point and I'm immediately going to delete this
+
+87
+00:05:01,320 --> 00:05:05,880
+ back out of here because we also learned that the LSP doesn't update unless you restart
+
+88
+00:05:05,880 --> 00:05:12,240
+ the computer, I mean, the editor, which makes sense, but annoying, right?
+
+89
+00:05:12,240 --> 00:05:16,400
+ So I'm not against like one line of documentation in here.
+
+90
+00:05:16,400 --> 00:05:19,920
+ So you can get a nice, quick idea of what it does.
+
+91
+00:05:19,920 --> 00:05:23,720
+ But then you can, and there's nothing wrong with putting the big, long stuff here, right?
+
+92
+00:05:23,720 --> 00:05:29,040
+ You can leave it there, just, just, you know, just do it that way and then you get this
+
+93
+00:05:29,040 --> 00:05:31,520
+ nice, oh God, look at how beautiful that is.
+
+94
+00:05:31,520 --> 00:05:32,520
+ It's like so pretty.
+
+95
+00:05:32,520 --> 00:05:35,480
+ It's like all organized at the top and then I can zoom down here.
+
+96
+00:05:35,480 --> 00:05:37,440
+ I want to read more about it.
+
+97
+00:05:37,440 --> 00:05:38,440
+ It's absolutely perfect.
+
+98
+00:05:38,440 --> 00:05:42,600
+ Uh, in TypeScript, the inline comment gets picked up by the LSP, which calls the function
+
+99
+00:05:42,600 --> 00:05:45,000
+ is it the same ago.
+
+100
+00:05:45,000 --> 00:05:46,000
+ Do not know.
+
+101
+00:05:46,000 --> 00:05:47,000
+ Do not know that.
+
+102
+00:05:47,000 --> 00:05:48,680
+ I wish I had an answer.
+
+103
+00:05:48,680 --> 00:05:49,440
+ That's all for that video.
+
