@@ -9,7 +9,7 @@ Chapters:
 2:18 Go team's response on moving telemetry
 2:42 The case for adding UserStateDir to Go
 
-`#golang #xdg #linux #neovim #dotfiles #opensource #desktop #standards`
+`#golang #xdg #linux #neovim #opensource #desktop #standards`
 
 ## Category
 
