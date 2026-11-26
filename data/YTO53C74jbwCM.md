@@ -1,10 +1,10 @@
 # 🔥 All Hail rustdesk
 
-Praises RustDesk as a remote desktop tool after more than an hour of failed attempts to get other options working, including RealVNC on a Windows Home machine. Describes installing it on Windows, Mac and Linux and connecting by entering an ID number, and notes its on-screen scam warning, since its easy setup could let a scammer take full control of someone's computer.
+Praises RustDesk as a remote desktop tool after real VNC failed on a Windows Home machine and other options, including Chrome's remote desktop, did not work out. Describes installing it on Windows, Mac or Linux and connecting by typing in the number it displays, and points out its scam warning, since easy setup could let a scammer take full control of someone's computer.
 
 There's simply no better way to connect to computer desktop GUI interfaces.
 
-`#rustdesk #remotedesktop #windows #vnc #macos #linux #opensource #rust`
+`#rustdesk #remotedesktop #vnc #windows #macos #linux #opensource #rust`
 
 ## Category
 
