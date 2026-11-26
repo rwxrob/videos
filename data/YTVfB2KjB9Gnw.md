@@ -1,4 +1,4 @@
-# Pro Mood Lighting | #rwxrob on #Twitch
+# Pro Mood Lighting
 
 Tries out mood lighting on stream, finds that one light is too harsh, and ends with the mood lighting falling to the ground.
 
