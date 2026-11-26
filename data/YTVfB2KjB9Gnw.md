@@ -1,12 +1,12 @@
 # Pro Mood Lighting Fail: Too Harsh, Then It All Falls Down
 
-Tries out mood lighting on stream, finds that one light is too harsh, and ends with the mood lighting falling to the ground.
+Tries out mood lighting, finds that one light is too harsh, and ends with the mood lighting falling to the ground.
 
 #shorts
 
 https://www.twitch.tv/rwxrob
 
-`#shorts #moodlighting #twitch #livestreaming #streamsetup #rwxrob`
+`#shorts #moodlighting`
 
 ## Category
 
