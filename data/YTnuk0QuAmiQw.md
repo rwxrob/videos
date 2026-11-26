@@ -10,7 +10,7 @@ Chapters:
 1:21 Detecting .venv and caching directory answers
 2:29 Asking, activating, and updating the prompt
 
-`#bash #python #bashrc #venv #linux #terminal #shellscripting #programming`
+`#bash #python #bashrc #venv #terminal #shellscripting #programming`
 
 ## Category
 
