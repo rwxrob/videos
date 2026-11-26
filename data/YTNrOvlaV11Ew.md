@@ -6,7 +6,7 @@ Expresses affection and admiration for Chris Titus, mentioning regular Twitch ra
 
 https://www.twitch.tv/rwxrob
 
-`#christitus #livestreaming #twitch #shorts #devculture`
+`#christitus #livestreaming #twitch #shorts`
 
 ## Category
 
