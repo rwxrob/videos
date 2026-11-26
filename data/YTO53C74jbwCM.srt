@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:09,600
+ Hello friends. I have to say it. Rust desk kicks ass. All hail rust desk. So I spent more
+
+2
+00:00:09,600 --> 00:00:16,160
+ than an hour trying to get BNC, real BNC, remote desktop, which doesn't work on a Windows
+
+3
+00:00:16,160 --> 00:00:23,400
+ machine because I have Windows Home, which is what you buy from Target. And I was going
+
+4
+00:00:23,400 --> 00:00:29,320
+ to put Chrome on my machine, just use Chrome desktop. All of them failed miserably. I've
+
+5
+00:00:29,320 --> 00:00:35,280
+ used real BNC, real BNC pretty successfully for many years. I've used BNC successfully
+
+6
+00:00:35,280 --> 00:00:42,040
+ for more than two decades. But it was such a pain to set up. So Bellum from our stream
+
+7
+00:00:42,040 --> 00:00:45,920
+ is like, why don't you just try rust desk? And then said, all this time I didn't know
+
+8
+00:00:45,920 --> 00:00:51,400
+ rust was written in rust, which I thought was funny. And here we are. Here we are. This
+
+9
+00:00:51,400 --> 00:00:56,800
+ is Windows. I'm actually streaming from a Mac right now. It took me, I kid you not.
+
+10
+00:00:56,800 --> 00:01:02,380
+ It took me less than five minutes to get this up and running. And the reason it does that,
+
+11
+00:01:02,380 --> 00:01:07,200
+ and I'm not going to show my terminal, but you download and then install the, you know,
+
+12
+00:01:07,200 --> 00:01:12,720
+ the MSI or whatever on Windows, you, you brew and sell rust desk on a Mac or you apt install
+
+13
+00:01:12,720 --> 00:01:18,480
+ it on, on anything else. And then it, it pops up the window right away and it has a number
+
+14
+00:01:18,480 --> 00:01:22,120
+ around there. And you take the number and then you put up over on the other computer
+
+15
+00:01:22,120 --> 00:01:26,360
+ and you type the number in and it connects. There's no looking at the IP. It takes care
+
+16
+00:01:26,360 --> 00:01:29,720
+ of all of that as long as you're on the same subnet, it's able to find all of it. It's
+
+17
+00:01:29,720 --> 00:01:35,840
+ absolutely good. In fact, it's so easy to set up that there's like big warning right
+
+18
+00:01:35,840 --> 00:01:42,120
+ here that says thou shalt not be scammed. Be careful. Don't get scammed because it's
+
+19
+00:01:42,120 --> 00:01:49,440
+ so easy. Seriously. It is so freaking easy to get this on. You could totally scam somebody
+
+20
+00:01:49,440 --> 00:01:52,640
+ by calling them and say, Hey, can you just put this thing on? I'll give you some help
+
+21
+00:01:52,640 --> 00:01:57,040
+ and they will take over total control of your whole computer. But if that's what you want
+
+22
+00:01:57,040 --> 00:02:03,440
+ to do, if you want to like live stream installing WSL 2 on Windows, which I'm about to do, then
+
+23
+00:02:03,440 --> 00:02:06,680
+ this is the best tool. I cannot believe how awesome this tool is. Thank you so much for
+
+24
+00:02:06,680 --> 00:02:13,160
+ somebody selling about it. And let it be known that I actually do not hate rust. I hate rust
+
+25
+00:02:13,160 --> 00:02:17,240
+ being used for the wrong tools. And this is actually one of the good ones. So is West
+
+26
+00:02:17,240 --> 00:02:19,720
+ This term shows firecracker, that's all.
+

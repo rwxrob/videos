@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:06,480
+ hey there we have been having fun with making our own prompts that's right you
+
+2
+00:00:06,480 --> 00:00:10,040
+ don't need almost the shell to make your own pretty prompts and one of the things
+
+3
+00:00:10,040 --> 00:00:14,400
+ I hate the most about Python is Python virtual environments and so we made it
+
+4
+00:00:14,400 --> 00:00:19,440
+ do this so right now I'm just in my normal prompt and I want to go into a
+
+5
+00:00:19,440 --> 00:00:26,400
+ directory that has oh look at that it's a directory that has a dot vnv you know
+
+6
+00:00:26,400 --> 00:00:33,600
+ sub whatever you want to call it a sub directory there and so then we're
+
+7
+00:00:33,600 --> 00:00:37,400
+ gonna accept it we say yeah I want to use that and so we say enter and then
+
+8
+00:00:37,400 --> 00:00:41,560
+ never now on it tells us we have a thing and even if we go back to wherever we
+
+9
+00:00:41,560 --> 00:00:46,960
+ were when we come back there we get a cool little Python that tells us we're
+
+10
+00:00:46,960 --> 00:00:50,080
+ in a Python virtual environment and that it has been loaded and you can do
+
+11
+00:00:50,080 --> 00:00:55,040
+ which Python and you can see which Python is there and and all that so how do we
+
+12
+00:00:55,040 --> 00:01:01,320
+ make that it's actually pretty easy once you have your own function or making
+
+13
+00:01:01,320 --> 00:01:07,680
+ your own prompt and why don't you it's not that hard you can do ps1 like this
+
+14
+00:01:07,680 --> 00:01:12,120
+ and you can control it and then you can use you can use the the very powerful
+
+15
+00:01:12,120 --> 00:01:16,820
+ bash prompt command which runs any that runs this every single time your prompt
+
+16
+00:01:16,820 --> 00:01:21,680
+ runs and so we can put the LUNV function inside of that which will now go over
+
+17
+00:01:21,680 --> 00:01:25,100
+ a little bit so the first thing we do is we look to see if there is a
+
+18
+00:01:25,100 --> 00:01:29,960
+ virtual Python virtual environment then we check to see if it's on it's already
+
+19
+00:01:29,960 --> 00:01:35,600
+ been turned on which means that we are you know that Python is in a dot vnv
+
+20
+00:01:35,600 --> 00:01:38,480
+ been Python that's what this is doing this is a regular expression check to
+
+21
+00:01:38,480 --> 00:01:42,960
+ sell to check to see if this is at the end of the string that which Python
+
+22
+00:01:42,960 --> 00:01:49,360
+ shows us where we're at we declare a vnv hash this is only in bash I think 3.5
+
+23
+00:01:49,360 --> 00:01:53,360
+ and big above which are key-value pairs kind of like Redis if you know what it
+
+24
+00:01:53,360 --> 00:01:57,680
+ is and LLE this is found this says do to be
+
+25
+00:01:57,680 --> 00:02:01,080
+ find it if we found one then go ahead and return we already know what we're
+
+26
+00:02:01,080 --> 00:02:05,440
+ doing if we have a virtual environment I go ahead and return or I'm sorry if we
+
+27
+00:02:05,440 --> 00:02:10,200
+ found one we either found a virtual environment or return that means we're
+
+28
+00:02:10,200 --> 00:02:13,640
+ in a directory that doesn't even have dot vnv in it okay and when we get down
+
+29
+00:02:13,640 --> 00:02:17,800
+ here we say okay did I already ask the question about whether it should be used
+
+30
+00:02:17,800 --> 00:02:21,440
+ or not okay so that's what it's saying it's saying okay if I never even asked
+
+31
+00:02:21,440 --> 00:02:24,760
+ the question before or if I have already asked the question and I cashed the
+
+32
+00:02:24,760 --> 00:02:29,840
+ answer in this shell then I'm gonna go keep it right so then then we say okay
+
+33
+00:02:29,840 --> 00:02:32,800
+ if we get this far it's like I don't I haven't asked the question so I'm gonna
+
+34
+00:02:32,800 --> 00:02:36,640
+ go ahead and ask put the answer and answer this drops the case this is a
+
+35
+00:02:36,640 --> 00:02:41,360
+ lower pray lower case so you guys see a bug what bugs you see and then we check
+
+36
+00:02:41,360 --> 00:02:48,500
+ to see if the answer is empty and if I mean if the answer if the answer is
+
+37
+00:02:48,500 --> 00:02:51,760
+ empty then the default answer becomes yes so that you can just push and run it
+
+38
+00:02:51,760 --> 00:02:58,520
+ gets accepted as yeah and so here we go so then we go we add for our current
+
+39
+00:02:58,520 --> 00:03:01,160
+ directory a current working directory we'll go ahead and add the answer in this
+
+40
+00:03:01,160 --> 00:03:04,800
+ case why and then we check to see if the beginning of the answer is why and if
+
+41
+00:03:04,800 --> 00:03:10,640
+ it is then we run the activate script and as soon as it's activated every time
+
+42
+00:03:10,640 --> 00:03:16,040
+ the prompt runs we added a line to the prompt that says we check the cache
+
+43
+00:03:16,040 --> 00:03:21,400
+ every time the prompt runs and say hey do I have an entry and was the entry yes
+
+44
+00:03:21,400 --> 00:03:26,400
+ for this directory and if so we change our dollar dollar you know our dollar
+
+45
+00:03:26,400 --> 00:03:33,200
+ prompt into a python and so that gives us the opportunity to go to see that
+
+46
+00:03:33,200 --> 00:03:36,080
+ we're in a python virtual environment that's already been loaded and it helps
+
+47
+00:03:36,080 --> 00:03:41,520
+ you annoy just one of the many things are annoying about python but hopefully
+
+48
+00:03:41,520 --> 00:03:44,860
+ that helps bye
+
