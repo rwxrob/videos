@@ -1,4 +1,4 @@
-# Pro Mood Lighting Fail: Too Harsh, Then It All Falls Down
+# Pro Mood Lighting
 
 Tries out mood lighting, finds that one light is too harsh, and ends with the mood lighting falling to the ground.
 
