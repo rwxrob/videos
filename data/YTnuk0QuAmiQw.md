@@ -1,16 +1,16 @@
 # 🐍 Python prompt to load venv in 13 lines of .bashrc
 
-Demonstrates a Bash prompt that detects a .venv directory, asks whether to load it, and shows a Python indicator once it is active. Walks through the function behind it, which runs via PROMPT_COMMAND, checks which Python is in use, and caches the answer for each directory in an associative array for the current shell.
+Demonstrates a custom bash prompt that detects a .venv directory, asks whether to load it, and shows a Python indicator once the virtual environment is active. Walks through the function behind it, which runs through PROMPT_COMMAND and remembers the answer for each directory in a bash associative array for the current shell.
 
 The simplest way to remember to load a python virtual environment without all the bloat.
 
 Chapters:
 0:00 Demo of the virtual environment prompt
-0:55 Custom prompts with PS1 and PROMPT_COMMAND
-1:20 Detecting a venv and caching answers
+0:55 Setting PS1 and using PROMPT_COMMAND
+1:21 Detecting .venv and caching directory answers
 2:29 Asking, activating, and updating the prompt
 
-`#bash #python #bashrc #venv #linux #terminal #commandline #programming`
+`#bash #python #bashrc #venv #linux #terminal #shellscripting #programming`
 
 ## Category
 
