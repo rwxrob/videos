@@ -1,12 +1,12 @@
 # I love Chris Titus
 
-Explains a fondness for Chris Titus, mentioning regular raids on the Chris Titus stream. Also jokes about being a bit edgier than Chris, citing some past streaming antics.
+Expresses affection and admiration for Chris Titus, mentioning regular Twitch raids to that channel. Also jokes about being somewhat edgier than Chris, with references to drunken antics and a streaming mishap in a bathroom.
 
 #shorts
 
 https://www.twitch.tv/rwxrob
 
-`#christitus #shorts #livestreaming #twitch #streaming #devculture`
+`#christitus #livestreaming #twitch #shorts #devculture`
 
 ## Category
 
