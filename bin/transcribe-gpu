@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+# transcribe-gpu: transcribe local recordings on the GPU from WSL2.
+#
+# Usage: transcribe-gpu FILE...
+#
+# Runs the Windows build of whisper.cpp (Vulkan) and writes
+# $WHISPER_OUT_DIR/<name>.srt. Skips files that already have one.
+# One-time setup is described in the README.
+#
+# Environment overrides:
+#   WHISPER_GPU_DIR  folder on a Windows drive with bin/ and models/
+#                    (default %USERPROFILE%\whisper-gpu)
+#   WHISPER_MODEL    file name in models/ (default ggml-large-v3-turbo.bin)
+#   WHISPER_PYTHON   Python with the av package, used to extract the audio
+#                    (default ~/whisper-work/venv/bin/python)
+#   WHISPER_OUT_DIR  where the .srt files go (default ~/whisper-work/out)
+
+set -euo pipefail
+
+(($#)) || { echo "usage: transcribe-gpu FILE..." >&2; exit 2; }
+
+gpu=${WHISPER_GPU_DIR:-}
+if [[ -z $gpu ]]; then
+  profile=$(cd /mnt/c && cmd.exe /c 'echo %USERPROFILE%' 2>/dev/null | tr -d '\r')
+  gpu=$(wslpath "$profile")/whisper-gpu
+fi
+model=${WHISPER_MODEL:-ggml-large-v3-turbo.bin}
+python=${WHISPER_PYTHON:-$HOME/whisper-work/venv/bin/python}
+out=${WHISPER_OUT_DIR:-$HOME/whisper-work/out}
+
+for f in "$gpu/bin/whisper-cli.exe" "$gpu/models/$model" "$python"; do
+  [[ -f $f ]] || { echo "missing $f (see the README)" >&2; exit 1; }
+done
+mkdir -p "$out" "$gpu/work"
+
+for src in "$@"; do
+  name=$(basename "${src%.*}")
+  if [[ -e $out/$name.srt ]]; then
+    echo "$name: $out/$name.srt exists, skipping"
+    continue
+  fi
+  start=$SECONDS
+  echo "$name: extracting audio"
+  "$python" -I - "$src" "$gpu/work/$name.wav" <<'PY'
+import av, sys, wave
+container = av.open(sys.argv[1])
+resampler = av.AudioResampler(format="s16", layout="mono", rate=16000)
+with wave.open(sys.argv[2], "wb") as w:
+    w.setnchannels(1)
+    w.setsampwidth(2)
+    w.setframerate(16000)
+    for frame in container.decode(audio=0):
+        for o in resampler.resample(frame):
+            w.writeframes(o.to_ndarray().tobytes())
+    for o in resampler.resample(None):
+        w.writeframes(o.to_ndarray().tobytes())
+PY
+  echo "$name: transcribing"
+  # Relative paths, so the Windows program needs no path translation.
+  if ! (cd "$gpu" && bin/whisper-cli.exe -m "models\\$model" -f "work\\$name.wav" \
+      -l en -mc 0 -osrt -of "work\\$name" </dev/null >"work/$name.log" 2>&1); then
+    echo "$name: whisper-cli failed; see $gpu/work/$name.log" >&2
+    exit 1
+  fi
+  grep -q 'using Vulkan' "$gpu/work/$name.log" ||
+    echo "$name: warning: the log does not show the GPU being used" >&2
+  tr -d '\r' <"$gpu/work/$name.srt" | sed 's/^ //' >"$out/$name.srt.tmp"
+  mv "$out/$name.srt.tmp" "$out/$name.srt"
+  rm "$gpu/work/$name.wav" "$gpu/work/$name.srt" "$gpu/work/$name.log"
+  echo "$name: wrote $out/$name.srt in $((SECONDS - start))s"
+done
