@@ -64,7 +64,7 @@ Never "correct" these in transcripts, titles or descriptions; Whisper often mish
 - Never print `service.json` or the websocket settings; they hold stream keys and passwords.
 - Transcribe on the GPU with `bin/transcribe-gpu <file>...` (setup is in the [README](README.md#transcribing-on-wsl2-with-a-gpu)). It writes `~/whisper-work/out/<name>.srt`, and works before the video has a UID.
 - Check for made-up lines over silence, such as "Thank you." repeating every 30 seconds. Confirm against the audio before removing them.
-- Once the UID is known, copy the `.srt` to `data/<UID>.srt`, create the markdown header ending with `## Transcription`, and run `bin/yt-sync srt2md <UID>`.
+- Once the UID is known, copy the `.srt` to `data/YT<UID>.srt`, create the markdown header ending with `## Transcription`, and run `bin/yt-sync srt2md <UID>`.
 - For the clipboard use `clip.exe`, converting first with `iconv -f utf-8 -t utf-16le`.
 
 ## After a video is processed
