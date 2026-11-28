@@ -1,0 +1,8588 @@
+1
+00:00:00,000 --> 00:00:10,580
+all right we're back and we are able to install Ubuntu so I had to do a reboot
+
+2
+00:00:10,580 --> 00:00:14,760
+to see if you can be able to run the installer and it kind of killed the
+
+3
+00:00:14,760 --> 00:00:20,160
+installer in the middle of the process so you can see all this stuff and so
+
+4
+00:00:20,160 --> 00:00:28,620
+let's do this let's say WSL lists online we want to see all of the
+
+5
+00:00:28,620 --> 00:00:37,500
+possible things we can install here. And you can see Ubuntu Linux, OpenSUSE. Fun fact, that was one
+
+6
+00:00:37,500 --> 00:00:42,220
+of the first ones that I ever installed back in the 90s. It was all in German, I remember, the
+
+7
+00:00:42,220 --> 00:00:49,020
+installer, which was Yast, the Yast installer, I think. We have Rocky Linux, which is a Red Hat
+
+8
+00:00:49,020 --> 00:00:54,900
+variation. SUSE, again, Enterprise. Kali Linux, that's interesting that Kali is now an option.
+
+9
+00:00:54,900 --> 00:00:59,280
+that's cool. Of course, Cali is the hacker in distro, if you don't know.
+
+10
+00:00:59,280 --> 00:01:15,280
+OpenSUSE. You like OpenSUSE? Yeah, there is an OpenSUSE. A lot of people like it. A lot of
+
+11
+00:01:15,280 --> 00:01:19,000
+Europeans, in my opinion, a lot of Europeans like SUSE. Apparently, a big percentage of the SUSE
+
+12
+00:01:19,000 --> 00:01:24,680
+team work for Microsoft. Microsoft is a big, big backer of SUSE there. It runs most of their
+
+13
+00:01:24,680 --> 00:01:30,360
+Azure stuff, apparently. That's a rumor. That's something I've heard secondhand, so don't trust me
+
+14
+00:01:30,360 --> 00:01:39,460
+on that. But, uh, debien, uh, на русском звучит хорошо. Oh yeah, in Russian it's, in Russian it's
+
+15
+00:01:39,460 --> 00:01:46,520
+pretty good. Open Сузья. I don't know. It probably has a word that it is similar to. I don't know
+
+16
+00:01:46,520 --> 00:01:50,620
+what Сузья actually means in Russian, so somebody's gonna have to fill me in in the comments below.
+
+17
+00:01:51,560 --> 00:01:56,680
+Alma Linux is another another Red Hat variation and know that the creators are not Mormon
+
+18
+00:01:56,680 --> 00:02:01,740
+Alma is a is a prophet name from the Mormon Church
+
+19
+00:02:01,740 --> 00:02:08,900
+Arts Linux, of course, is Arch Linux. Aurora is another Red Hat. This is an official Red Hat variation
+
+20
+00:02:08,900 --> 00:02:12,760
+I don't know what LXR is
+
+21
+00:02:12,760 --> 00:02:20,500
+I don't keep up on Linux distros. It's not productive
+
+22
+00:02:21,560 --> 00:02:27,880
+Novell, is it open Suzy? Really? I didn't know that.
+
+23
+00:02:27,880 --> 00:02:34,880
+Suzy Linux Enterprise. So there you go. Oracle Linux. Never in a million years.
+
+24
+00:02:34,880 --> 00:02:42,520
+No, it's not doing it. So I'm going to install Ubuntu. Ubuntu is by far the most user-friendly
+
+25
+00:02:42,520 --> 00:02:47,540
+server Australia is. All of my buddies at work, this is what they run at home, even though
+
+26
+00:02:47,540 --> 00:02:51,140
+they run Red Hat at work.
+
+27
+00:02:51,140 --> 00:02:55,380
+Susie has, I'm sorry, Ubuntu has the biggest following
+
+28
+00:02:55,380 --> 00:02:57,000
+among container distros as well.
+
+29
+00:02:57,000 --> 00:02:59,420
+So if you're going to build a container,
+
+30
+00:02:59,420 --> 00:03:01,260
+usually it's based on Ubuntu or some slummed down
+
+31
+00:03:01,260 --> 00:03:04,360
+version of Ubuntu.
+
+32
+00:03:04,360 --> 00:03:08,180
+There's a thing called CloudInit that Ubuntu spearheaded
+
+33
+00:03:08,180 --> 00:03:12,300
+and has really led the pack in terms
+
+34
+00:03:12,300 --> 00:03:14,540
+of configurable distros.
+
+35
+00:03:14,540 --> 00:03:17,180
+So that's what I'm going to go with.
+
+36
+00:03:17,180 --> 00:03:20,300
+That's what I've always used.
+
+37
+00:03:20,300 --> 00:03:22,480
+And so how do I do that?
+
+38
+00:03:22,480 --> 00:03:24,360
+Well, let's do this.
+
+39
+00:03:24,360 --> 00:03:26,920
+WSL install Ubuntu, which I assume is the latest.
+
+40
+00:03:26,920 --> 00:03:30,440
+So I'm going to go ahead and do that.
+
+41
+00:03:30,440 --> 00:03:32,020
+Can I create a file that already exists?
+
+42
+00:03:32,020 --> 00:03:34,480
+Uh oh.
+
+43
+00:03:34,480 --> 00:03:37,560
+Please consider existing file and open a new issue.
+
+44
+00:03:37,560 --> 00:03:38,460
+That's very odd.
+
+45
+00:03:38,460 --> 00:03:44,760
+Oh, I've already installed it?
+
+46
+00:03:44,760 --> 00:03:45,460
+OK.
+
+47
+00:03:45,460 --> 00:03:51,960
+Well I didn't know that. I didn't... no I didn't install that already. How do I uninstall it?
+
+48
+00:03:51,960 --> 00:03:59,140
+There's no batch completion, so...
+
+49
+00:04:10,660 --> 00:04:15,360
+I aborted the install in the middle and it makes me wonder what it would it actually put on
+
+50
+00:04:15,360 --> 00:04:25,680
+Okay
+
+51
+00:04:25,680 --> 00:04:28,280
+Uninstall is I want a subsystem. Oh, we don't want that
+
+52
+00:04:28,280 --> 00:04:31,780
+We don't want that
+
+53
+00:04:31,780 --> 00:04:34,780
+Set the faults, partition file and bear
+
+54
+00:04:34,780 --> 00:04:38,060
+Mount compact resize
+
+55
+00:04:40,180 --> 00:04:44,500
+Set default user. Hmm. I cancel that.
+
+56
+00:04:44,500 --> 00:04:51,180
+No, debug shell.
+
+57
+00:04:51,180 --> 00:05:01,020
+Okay, so what have we learned? Don't cancel out of the installer.
+
+58
+00:05:01,020 --> 00:05:07,080
+Corporate iOS fork of Davian. That's exactly what it is, including all the drivers.
+
+59
+00:05:07,940 --> 00:05:09,940
+If you want your Linux distro to actually work,
+
+60
+00:05:09,940 --> 00:05:13,900
+the deviant does not work out of the box.
+
+61
+00:05:13,900 --> 00:05:21,900
+Not on modern hardware.
+
+62
+00:05:21,900 --> 00:05:33,980
+Interesting.
+
+63
+00:05:37,940 --> 00:05:53,940
+"There's no uninstall. Do not launch the distro after install. Manage. Move. Set default. Yo, here we go.
+
+64
+00:05:53,940 --> 00:06:05,940
+Manage diff distro. Set default user. Memory resize. Huh. Interesting.
+
+65
+00:06:05,940 --> 00:06:14,600
+It's a default user distribution.
+
+66
+00:06:14,600 --> 00:06:22,180
+I guess you can't get rid of it once you have it on there.
+
+67
+00:06:22,180 --> 00:06:26,820
+Yeah, I'm kind of happy I ran into this.
+
+68
+00:06:26,820 --> 00:06:28,860
+Yep.
+
+69
+00:06:28,860 --> 00:06:31,520
+It makes up for a free software purity.
+
+70
+00:06:31,520 --> 00:06:32,600
+Yep.
+
+71
+00:06:34,540 --> 00:06:39,060
+Bibbit is absolutely fetishizing free software purity.
+
+72
+00:06:39,060 --> 00:06:44,980
+And you can watch the FSF, Linus Torvalds response
+
+73
+00:06:44,980 --> 00:06:48,060
+if you want my opinion.
+
+74
+00:06:48,060 --> 00:06:55,060
+Let's do the status of assessment update.
+
+75
+00:06:55,060 --> 00:06:59,420
+Very interesting, so I already did the install
+
+76
+00:06:59,420 --> 00:07:01,800
+and apparently it's already there and it prompted me
+
+77
+00:07:01,800 --> 00:07:03,640
+for my default username and all of that stuff.
+
+78
+00:07:03,640 --> 00:07:08,060
+So, um, I suspect it's fine.
+
+79
+00:07:08,060 --> 00:07:17,200
+List, what other options do I have with list?
+
+80
+00:07:17,200 --> 00:07:18,420
+Do I have other options?
+
+81
+00:07:18,420 --> 00:07:23,760
+What if I do Ubuntu?
+
+82
+00:07:23,760 --> 00:07:27,520
+Huh.
+
+83
+00:07:27,520 --> 00:07:32,820
+It's not as pure as Tri-School.
+
+84
+00:07:33,640 --> 00:07:49,860
+Hmm. Did not know any of that. Guys, I'm really sorry. Yes. Yes, yes, yes, yes. It's called
+
+85
+00:07:49,860 --> 00:07:59,700
+unregister. WSL unregister Ubuntu. I'm going to read and redo it. Nice. WSL list. I don't
+
+86
+00:07:59,700 --> 00:08:10,160
+have any. Yay. Okay. Scientific Linux. Yes, that's a good one. WSL lists online. We did
+
+87
+00:08:10,160 --> 00:08:17,700
+this already, and we know we want Ubuntu. So in WSL install, oops, install Ubuntu.
+
+88
+00:08:17,700 --> 00:08:26,280
+Downloading Ubuntu from the internets. My stream might hiccup here because I'm not cabled
+
+89
+00:08:26,280 --> 00:08:37,280
+in yet. My cable's coming. My cable's probably in the... wherever. It's cold outside. Are
+
+90
+00:08:37,280 --> 00:08:44,280
+you guys cold? It's 48 degrees and windy outside. I'm still going to go biking, by
+
+91
+00:08:44,280 --> 00:08:51,020
+the way. I'm going to get all bundled up and we're going to go biking tonight. So we're
+
+92
+00:08:51,020 --> 00:08:58,120
+just killing time while we wait for this. How are you doing, Dedin? You happy to see me back?
+
+93
+00:08:58,120 --> 00:09:06,020
+I love you guys, too. I really do. I really am happy to have been reconnecting with all my...
+
+94
+00:09:06,020 --> 00:09:10,440
+I didn't realize... You're going to hate this. I didn't realize how much I was going to miss you
+
+95
+00:09:10,440 --> 00:09:19,540
+guys. Yeah. I mean, I was sore at missing you just in general, and then I started streaming again.
+
+96
+00:09:20,180 --> 00:09:21,260
+Oh, here we go.
+
+97
+00:09:21,260 --> 00:09:26,320
+So, you see how it's asking me for that disastrously bad name
+
+98
+00:09:26,320 --> 00:09:27,720
+that it picked for me on my Windows machine?
+
+99
+00:09:27,720 --> 00:09:29,100
+Very well.
+
+100
+00:09:29,100 --> 00:09:31,180
+Do you even realize how big of an impact you've had on my career?
+
+101
+00:09:31,180 --> 00:09:34,680
+Oh, see, tell me more of that.
+
+102
+00:09:34,680 --> 00:09:35,580
+I need to hear that.
+
+103
+00:09:35,580 --> 00:09:36,940
+That makes me want to stream forever.
+
+104
+00:09:36,940 --> 00:09:39,720
+Honestly, I've been researching.
+
+105
+00:09:39,720 --> 00:09:42,480
+I mean, like, okay, so I knew I had to settle down for a while.
+
+106
+00:09:42,480 --> 00:09:44,820
+I'm turning down the volume of cycling.
+
+107
+00:09:44,820 --> 00:09:46,560
+I'm not biking five hours a day like I was.
+
+108
+00:09:47,200 --> 00:09:52,120
+And I've been thinking, well, what can I do with this time that's positive is going to make an impact on the world?
+
+109
+00:09:52,120 --> 00:09:53,920
+I can go back to tech streaming for a while.
+
+110
+00:09:53,920 --> 00:09:55,460
+Maybe I can help out a little bit that way.
+
+111
+00:09:55,460 --> 00:09:57,120
+And I don't know.
+
+112
+00:09:57,120 --> 00:10:00,460
+I really find it satisfying to help people.
+
+113
+00:10:00,460 --> 00:10:06,120
+So when I hear about somebody who's been actually helped, which I've heard a lot recently and makes me happy.
+
+114
+00:10:06,120 --> 00:10:06,860
+Thank you for that.
+
+115
+00:10:06,860 --> 00:10:15,220
+So even if you can just avoid knocking your teeth out in front of a car or something, it's got to survive.
+
+116
+00:10:16,100 --> 00:10:21,780
+working in the uk for one of the biggest defense companies what damn son
+
+117
+00:10:21,780 --> 00:10:28,420
+protect me if you have to you're like one of the people i put in my very tiny list of
+
+118
+00:10:28,420 --> 00:10:35,060
+people i call in to protect me when i get in trouble yeah like i've been people saying like
+
+119
+00:10:35,060 --> 00:10:40,980
+how are you so open with everything i was like come at me bro if you knew the connections i have
+
+120
+00:10:43,380 --> 00:10:46,580
+With a particular set of skills, I'm like, I'm fine.
+
+121
+00:10:46,580 --> 00:10:54,740
+What's your question?
+
+122
+00:10:54,740 --> 00:10:58,580
+What's your favorite processor?
+
+123
+00:10:58,580 --> 00:11:01,140
+I don't think about it.
+
+124
+00:11:01,140 --> 00:11:04,020
+I often don't think about it.
+
+125
+00:11:04,020 --> 00:11:09,220
+I don't think about it.
+
+126
+00:11:09,220 --> 00:11:12,580
+Why do you think about it?
+
+127
+00:11:13,380 --> 00:11:17,380
+do not ever think about what my favorite processors I don't even know what the
+
+128
+00:11:17,380 --> 00:11:23,520
+processors are I have come so far past that that time look there was a time
+
+129
+00:11:23,520 --> 00:11:32,520
+when I was obsessed with processors and built my own computers and set up air
+
+130
+00:11:32,520 --> 00:11:43,180
+cooling and knew what thermal paste to use and I did all of that in 1997
+
+131
+00:11:43,180 --> 00:11:50,180
+"Какая твоя любимая я... и... у... у... у... язимост?"
+
+132
+00:11:50,180 --> 00:11:53,900
+"Я не знаю, что такое уяз... уязимост."
+
+133
+00:11:53,900 --> 00:11:56,480
+"Что значит, иузи-язимост?"
+
+134
+00:11:56,480 --> 00:11:58,480
+"M4, M6, AMD."
+
+135
+00:11:58,480 --> 00:12:02,200
+"I really don't have a preference."
+
+136
+00:12:02,200 --> 00:12:04,200
+"I don't think it's important to have a preference."
+
+137
+00:12:04,200 --> 00:12:07,460
+"That's like asking me what my favorite skill saw is."
+
+138
+00:12:07,460 --> 00:12:10,240
+"It just depends on what I'm doing."
+
+139
+00:12:10,240 --> 00:12:12,580
+"It's the same as asking me what my favorite language is."
+
+140
+00:12:13,180 --> 00:12:19,220
+Uyazimist is a vulnerability?
+
+141
+00:12:19,220 --> 00:12:25,080
+The WFTP one is a big one, I was talking about that one the other day, yeah, Uyazimist,
+
+142
+00:12:25,080 --> 00:12:31,120
+I gotta remember that word, Uyazimist, Uyazimist, Uyazimist, Uyazimist, vendor neutral right
+
+143
+00:12:31,120 --> 00:12:32,120
+there.
+
+144
+00:12:32,120 --> 00:12:38,220
+No, I'm not trying to just be vendor neutral, I sincerely think that, I actually made a
+
+145
+00:12:38,220 --> 00:12:45,600
+a video about this that I recently republished saying my it was called it's called my uh my saw
+
+146
+00:12:45,600 --> 00:12:54,840
+is better than your saw or my hammer is better than your hammer спасибо um yeah so anyway what's
+
+147
+00:12:54,840 --> 00:13:06,020
+my password gonna be y'all okay by the way first thing first things first this is not this is not
+
+148
+00:13:06,020 --> 00:13:15,300
+internet facing, okay? Who gives them a slug so he gets the job done, right? Temple version four.
+
+149
+00:13:15,300 --> 00:13:25,180
+Yeah. As a rule for this kind of stuff, I make my passwords really simple,
+
+150
+00:13:25,180 --> 00:13:32,620
+mostly so that I never depend on passwords for security. Depending on a password for security
+
+151
+00:13:32,620 --> 00:13:35,560
+is a disaster waiting to happen.
+
+152
+00:13:35,560 --> 00:13:38,020
+Okay, help us improve Ubuntu.
+
+153
+00:13:38,020 --> 00:13:40,540
+Would you like us to spy on you
+
+154
+00:13:40,540 --> 00:13:41,780
+to make our distro better?
+
+155
+00:13:41,780 --> 00:13:46,420
+That's what platform metrics collection means.
+
+156
+00:13:46,420 --> 00:13:49,280
+And I'm like, yeah.
+
+157
+00:13:49,280 --> 00:13:50,900
+No, I'm not.
+
+158
+00:13:50,900 --> 00:13:52,760
+No, screw you.
+
+159
+00:13:52,760 --> 00:13:54,880
+Um.
+
+160
+00:14:02,620 --> 00:14:04,620
+mm-hmm oh
+
+161
+00:14:04,620 --> 00:14:10,920
+Look at that. That's not a bad default ps prompt
+
+162
+00:14:10,920 --> 00:14:18,560
+That's not horrible. Yes, it is. That's disastrously horrible. Oh my god. That's ugly. It's so ugly
+
+163
+00:14:18,560 --> 00:14:23,120
+First things first is this now going to pull up when I type bash
+
+164
+00:14:23,120 --> 00:14:28,000
+Okay, so as you can see I'm already running bash
+
+165
+00:14:29,800 --> 00:14:36,420
+Get get bash. That's what this is, right? Then I run bash again. What happens? Oh, it does the right thing
+
+166
+00:14:36,420 --> 00:14:41,400
+Okay, wait, wait, wait, wait. So is that now gonna work from Western? Let's try
+
+167
+00:14:41,400 --> 00:14:44,700
+We did Western last time
+
+168
+00:14:44,700 --> 00:14:46,980
+We're gonna run Western. Oh
+
+169
+00:14:46,980 --> 00:14:49,360
+What bash is it running?
+
+170
+00:14:49,360 --> 00:14:52,800
+Which bash?
+
+171
+00:14:52,800 --> 00:14:56,580
+Windows app Microsoft Windows app bash. What happens? Oh
+
+172
+00:14:59,800 --> 00:15:05,220
+Snap, okay, so when service finding the right thing, okay, therefore my friends
+
+173
+00:15:05,220 --> 00:15:08,080
+We can now update
+
+174
+00:15:08,080 --> 00:15:11,540
+Western about Lua actually no
+
+175
+00:15:11,540 --> 00:15:17,280
+Wait, where are you? Here you are. Okay, so now we can update Western Lua
+
+176
+00:15:17,280 --> 00:15:20,880
+to not run up homebrew bin bash
+
+177
+00:15:20,880 --> 00:15:23,780
+but
+
+178
+00:15:23,780 --> 00:15:26,240
+Actually back actually we changed this
+
+179
+00:15:27,580 --> 00:15:50,500
+What's going on? Oh, no, no, no, no, no, no, no. This is the one in .files. Yeah. We need to open the other one. All right. So, let's, uh, let's cd enter to go back home. All right. Now, let's open .westerm, which we already know got screwed up because we minimized it completely because we didn't want to fight with it.
+
+180
+00:15:53,260 --> 00:15:56,260
+Oh, okay. And then it opened it in a new file, so here it is.
+
+181
+00:15:56,260 --> 00:15:59,260
+We have "westermlue" and ".westermlue".
+
+182
+00:15:59,260 --> 00:16:03,260
+"westermlue" is the "get repo" one, which is, you know, going to get fixed.
+
+183
+00:16:03,260 --> 00:16:07,260
+This is running this for my default program, my default proggy.
+
+184
+00:16:07,260 --> 00:16:12,260
+I'm going to comment this out, oh, which I can do like this, I just found that out.
+
+185
+00:16:12,260 --> 00:16:17,260
+Yeah, "control/" is a VS code-ism.
+
+186
+00:16:17,260 --> 00:16:21,260
+How do I copy this whole line? Is that a thing? Is that a thing?
+
+187
+00:16:23,260 --> 00:16:29,420
+Oh, fart.
+
+188
+00:16:29,420 --> 00:16:34,120
+Ad break, sorry.
+
+189
+00:16:34,120 --> 00:16:37,160
+How do I copy stuff, y'all?
+
+190
+00:16:37,160 --> 00:16:39,540
+I want to copy the whole line and paste it right here.
+
+191
+00:16:39,540 --> 00:16:44,640
+How do I do that?
+
+192
+00:16:44,640 --> 00:16:49,300
+I'm sure there's a method, I just don't - wait, it's probably under edit.
+
+193
+00:16:49,300 --> 00:16:53,300
+Nope, it's not.
+
+194
+00:16:53,300 --> 00:16:55,300
+Alright, so...
+
+195
+00:16:55,300 --> 00:17:01,300
+Uh...
+
+196
+00:17:01,300 --> 00:17:05,300
+Copy, paste
+
+197
+00:17:05,300 --> 00:17:07,300
+in the Windows fashion. Okay.
+
+198
+00:17:07,300 --> 00:17:09,300
+I'm sorry, that was, like, very painful.
+
+199
+00:17:09,300 --> 00:17:11,300
+Now,
+
+200
+00:17:11,300 --> 00:17:13,300
+what if I just put
+
+201
+00:17:13,300 --> 00:17:17,300
+bash here?
+
+202
+00:17:17,300 --> 00:17:19,660
+I know I don't trust this. I'm gonna ask my AI.
+
+203
+00:17:19,660 --> 00:17:25,300
+You can judge me. That's totally fine.
+
+204
+00:17:25,300 --> 00:17:36,640
+Wes, sell from Westerm on
+
+205
+00:17:36,640 --> 00:17:39,840
+twin
+
+206
+00:17:39,840 --> 00:17:43,740
+wso2-lv
+
+207
+00:17:43,740 --> 00:17:46,680
+Wait, what?
+
+208
+00:17:47,300 --> 00:17:56,300
+Wait what? Replace the button with your exact distro.
+
+209
+00:17:56,300 --> 00:18:02,300
+Wait what?
+
+210
+00:18:02,300 --> 00:18:09,300
+That's it?
+
+211
+00:18:09,300 --> 00:18:12,300
+Huh.
+
+212
+00:18:12,300 --> 00:18:18,200
+well I'll be I was not expecting that I thought I was expecting me to run a
+
+213
+00:18:18,200 --> 00:18:28,520
+specific program it doesn't look like there's even a domain to be run yeah well
+
+214
+00:18:28,520 --> 00:18:42,140
+I don't know let's give it a shot western oh it seems to have worked
+
+215
+00:18:42,300 --> 00:18:44,500
+Yes, sir-ree, Bob.
+
+216
+00:18:44,500 --> 00:18:48,620
+Yeah.
+
+217
+00:18:48,620 --> 00:18:51,240
+Linux.
+
+218
+00:18:51,240 --> 00:18:55,140
+It says Linux.
+
+219
+00:18:55,140 --> 00:19:00,140
+The problem is, is that I can't use that.
+
+220
+00:19:00,140 --> 00:19:04,700
+Okay.
+
+221
+00:19:04,700 --> 00:19:07,500
+It's now time for me to start using OpenCode.
+
+222
+00:19:07,500 --> 00:19:09,360
+So, without further ado,
+
+223
+00:19:10,280 --> 00:19:16,040
+Because all these questions I keep asking my stuff, I could be asking open code on Cloud using my $20 a month plan
+
+224
+00:19:16,040 --> 00:19:20,080
+and have it actually work on the files rather than me just screwing around.
+
+225
+00:19:20,080 --> 00:19:29,640
+However, I cannot abide these colors. I must get rid of them right now.
+
+226
+00:19:29,640 --> 00:19:31,680
+Do I want to kill this one? Yes, I do.
+
+227
+00:19:31,680 --> 00:19:37,680
+Alright, so what I am going to do next is...
+
+228
+00:19:41,160 --> 00:19:43,160
+Something I didn't want to do.
+
+229
+00:19:43,160 --> 00:19:48,160
+Well, okay, first things first.
+
+230
+00:19:48,160 --> 00:19:58,660
+Well, I don't know what to do here. Select all.
+
+231
+00:19:58,660 --> 00:20:04,640
+Copy.
+
+232
+00:20:04,640 --> 00:20:08,260
+I don't know how much to do here.
+
+233
+00:20:10,280 --> 00:20:17,280
+This is like all of my stuff though, my colors and stuff.
+
+234
+00:20:17,280 --> 00:20:23,280
+Western on GUI startup, function, command, blah blah blah.
+
+235
+00:20:23,280 --> 00:20:28,280
+Require Western.
+
+236
+00:20:28,280 --> 00:20:33,280
+Uh, where's my return?
+
+237
+00:20:33,280 --> 00:20:34,280
+Okay.
+
+238
+00:20:34,280 --> 00:20:38,280
+Return, audible build, disable, never prompt, default proggy.
+
+239
+00:20:38,280 --> 00:20:43,280
+I don't think we need to default primary anymore because we have the domain thing.
+
+240
+00:21:01,280 --> 00:21:03,280
+Ruvox material golf
+
+241
+00:21:03,280 --> 00:21:09,600
+Do you guys think it's gonna work?
+
+242
+00:21:09,600 --> 00:21:22,480
+No, I have no faith. I have zero confidence Robert. All right, I'm gonna try this
+
+243
+00:21:22,480 --> 00:21:26,340
+So there
+
+244
+00:21:26,920 --> 00:21:28,920
+Was term
+
+245
+00:21:28,920 --> 00:21:34,740
+Well, we knew that was coming that one we knew was coming the font size is correct, though
+
+246
+00:21:34,740 --> 00:21:40,020
+Now yeah, it's just like totally dead though
+
+247
+00:21:40,020 --> 00:21:45,500
+You see it's still running it's just getting me lots of errors
+
+248
+00:21:45,500 --> 00:21:49,320
+Yeah
+
+249
+00:21:49,320 --> 00:21:52,160
+What is up with these like dead windows?
+
+250
+00:21:56,920 --> 00:22:03,920
+Hmm, unable to set font for your WesTerm-ish thing.
+
+251
+00:22:03,920 --> 00:22:06,920
+Wait.
+
+252
+00:22:06,920 --> 00:22:14,920
+Okay, so this is where setup comes in and all that.
+
+253
+00:22:14,920 --> 00:22:23,920
+So, I don't know the best way to install these onto WSL2.
+
+254
+00:22:23,920 --> 00:22:34,160
+because I don't know if they need to go into WSL or if they need to go into the Linux font system
+
+255
+00:22:34,160 --> 00:22:45,000
+because they're different. You follow me? So like if I, so yeah, let's try this.
+
+256
+00:22:48,600 --> 00:22:49,840
+Paste.
+
+257
+00:22:49,840 --> 00:22:53,060
+We'll keep Gemini helping me out for a bit.
+
+258
+00:22:53,060 --> 00:22:57,440
+West Term is redirected to I have PowerShell, LS, fonts, list system fonts.
+
+259
+00:22:57,440 --> 00:22:59,980
+Wait, what?
+
+260
+00:22:59,980 --> 00:23:02,280
+Select string about two-- I forgot about this.
+
+261
+00:23:02,280 --> 00:23:04,220
+This works on Linux and Mac.
+
+262
+00:23:04,220 --> 00:23:04,720
+I've done it.
+
+263
+00:23:04,720 --> 00:23:07,200
+I've done it before.
+
+264
+00:23:07,200 --> 00:23:08,000
+Ace.
+
+265
+00:23:08,000 --> 00:23:11,440
+Yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes.
+
+266
+00:23:11,440 --> 00:23:11,920
+Paste.
+
+267
+00:23:11,920 --> 00:23:16,220
+Oh, damn.
+
+268
+00:23:16,220 --> 00:23:18,580
+Rust backtrace.
+
+269
+00:23:18,580 --> 00:23:31,420
+rust spotted on an rwx rob stream. Panic. It had a panic. Unable to load the font-specific fonts.
+
+270
+00:23:31,420 --> 00:23:41,820
+Wait, what? Select string command not found. Oh, you know why? Because it's not PowerShell.
+
+271
+00:23:41,820 --> 00:23:47,740
+No, it's not. It's not PowerShell. So we need to do grep, y'all.
+
+272
+00:23:49,440 --> 00:23:57,140
+Hey, Sasha, thank you for that follow-up. Thank you. Thank you. Thank you. So we're gonna do a grep. Oh, damn
+
+273
+00:23:57,140 --> 00:24:04,640
+Unload a lot of fun specified better fun
+
+274
+00:24:04,640 --> 00:24:15,260
+Direct right
+
+275
+00:24:16,620 --> 00:24:18,620
+Wait, what?
+
+276
+00:24:18,620 --> 00:24:22,820
+So it's actually trying to find it
+
+277
+00:24:22,820 --> 00:24:31,240
+All right, all right, all-powerful AI, how do I install it?
+
+278
+00:24:31,240 --> 00:24:34,740
+"Uninstalling Windows, it only has to install WSM"
+
+279
+00:24:34,740 --> 00:24:42,800
+"For all Windows on Windows, if you need to install or reinstall the file on Windows, download a bunch of zip"
+
+280
+00:24:42,800 --> 00:24:45,800
+"Select the CTF files, right-click and blah"
+
+281
+00:24:46,620 --> 00:24:48,880
+I'll do it with some Lua. What's the response?
+
+282
+00:24:48,880 --> 00:24:52,180
+Uh, save the file.
+
+283
+00:24:52,180 --> 00:24:55,920
+Okay, so, wait. Oh, I need Super Whisperer on here.
+
+284
+00:24:55,920 --> 00:24:58,440
+I need a Super Whisperer so I can do this.
+
+285
+00:24:58,440 --> 00:25:00,700
+I'm going to do that right now. Sorry for the sidetrack.
+
+286
+00:25:00,700 --> 00:25:03,960
+I am too sidetracking to install Super Whisperer.
+
+287
+00:25:03,960 --> 00:25:08,760
+Which, I'm sure there's better ones out there, but Super Whisperer is my favorite.
+
+288
+00:25:08,760 --> 00:25:12,860
+It better not be Mac only. I'm going to be really sad.
+
+289
+00:25:15,220 --> 00:25:25,580
+downloading. Is it downloaded? Where are you? Are you downloaded yet?
+
+290
+00:25:25,580 --> 00:25:37,360
+Download. Skip and download. Download for Windows. I don't want to give you my
+
+291
+00:25:37,360 --> 00:25:48,780
+username. Oh, I already downloaded it and I didn't need to do that. Gosh darn it!
+
+292
+00:25:48,780 --> 00:25:58,820
+Now I have two of them. I'm installing Super Whisperer. Super Whisperer is
+
+293
+00:25:58,820 --> 00:26:07,820
+Awesome. There's probably other variations out there, as I said. Mac has
+
+294
+00:26:07,820 --> 00:26:15,420
+built-in transcription is pretty good or STTT, speech-to-text. If it's TTS for
+
+295
+00:26:15,420 --> 00:26:25,160
+text-to-speech, is it STT for speech-to-text? STT, TTS, STT. It makes sense, right?
+
+296
+00:26:25,160 --> 00:26:28,720
+All right, so finish. Run Super Whisperer. Create just after hers. Yes.
+
+297
+00:26:28,720 --> 00:26:33,440
+Now, I'm going to have to put my lifelong key in here,
+
+298
+00:26:33,440 --> 00:26:38,440
+which I cannot show you. Actually,
+
+299
+00:26:38,440 --> 00:26:44,260
+yes, sorry. Continue. Allow microphone access. Yes. Continue.
+
+300
+00:26:44,260 --> 00:26:46,460
+Got it. I can't find it.
+
+301
+00:26:46,460 --> 00:26:49,660
+Easy Super Whisperer. Got it. Check. Check.
+
+302
+00:26:50,960 --> 00:26:55,740
+Continue a lot of pro features. I already have a license put in your license key
+
+303
+00:26:55,740 --> 00:27:03,080
+All right, I have to I have to show you I have to go away for a second
+
+304
+00:27:03,080 --> 00:27:09,400
+I'm gonna go away. I'll be right back. I promise
+
+305
+00:27:09,400 --> 00:27:13,180
+I could just do this so I guess
+
+306
+00:27:13,180 --> 00:27:17,440
+You can see my messy room beholds
+
+307
+00:27:20,960 --> 00:27:24,020
+Yeah, I'm kind of a sad, pathetic single guy, just so you know.
+
+308
+00:27:24,020 --> 00:27:28,200
+If you didn't know that already.
+
+309
+00:27:28,200 --> 00:27:35,680
+All right, where is my license, y'all?
+
+310
+00:27:35,680 --> 00:27:44,020
+Oh, damn.
+
+311
+00:27:44,020 --> 00:27:46,900
+I'm logging into other things.
+
+312
+00:27:46,900 --> 00:27:50,660
+Also because I want to copy it.
+
+313
+00:27:50,960 --> 00:28:08,540
+I don't remember that stuff. You know what? I have another option here. Well,
+
+314
+00:28:08,540 --> 00:28:13,640
+I gotta get this, I have to do this no matter what, so I might as well just go through the
+
+315
+00:28:13,640 --> 00:28:17,280
+pain right now. It is rather painful though, because I have to run in, I have to log into
+
+316
+00:28:17,280 --> 00:28:24,560
+my email and i don't want to do that in this account so i'm going to try a different account
+
+317
+00:28:24,560 --> 00:28:28,480
+temporarily in a separate window
+
+318
+00:28:28,480 --> 00:28:35,200
+and we'll go through the login over here which i also have to do
+
+319
+00:28:35,200 --> 00:28:38,400
+um
+
+320
+00:28:38,400 --> 00:28:42,400
+oh god
+
+321
+00:28:42,400 --> 00:28:46,640
+you can't see any of this can you i hope not
+
+322
+00:28:47,280 --> 00:28:50,280
+I'm going to cover my glasses so you can't see.
+
+323
+00:29:15,880 --> 00:29:17,880
+No, thanks.
+
+324
+00:29:17,880 --> 00:29:23,940
+I'm almost back. I can't believe I'm streaming this. I probably shouldn't stream this. Oh, well. Oh, shit.
+
+325
+00:29:23,940 --> 00:29:34,720
+Some stuff went through that I didn't want to go through.
+
+326
+00:29:34,720 --> 00:29:39,720
+What else am I doing? I'm trying to find Super Whisperer.
+
+327
+00:29:39,720 --> 00:29:43,420
+I'll be right back. I promise.
+
+328
+00:29:43,420 --> 00:29:45,680
+There it is.
+
+329
+00:29:45,880 --> 00:29:55,720
+Are you going to make me type it in?
+
+330
+00:29:55,720 --> 00:29:58,780
+Oh, please, no.
+
+331
+00:29:58,780 --> 00:30:03,220
+Okay, good.
+
+332
+00:30:03,220 --> 00:30:12,240
+All right, so it is, should I do cloud or local?
+
+333
+00:30:12,240 --> 00:30:15,440
+I'm going to continue to use cloud on this.
+
+334
+00:30:15,880 --> 00:30:22,880
+Uh, first control space to start recording, try the shortcut.
+
+335
+00:30:22,880 --> 00:30:28,880
+Um, all right, back, back to the other one.
+
+336
+00:30:28,880 --> 00:30:37,880
+I'm going to fill my paste buffer with something else so I don't accidentally, uh, docks that.
+
+337
+00:30:37,880 --> 00:30:44,880
+So, Mary, happy Black Friday, y'all.
+
+338
+00:30:44,880 --> 00:30:48,440
+I can hear the police cars outside on Black Friday.
+
+339
+00:30:48,440 --> 00:30:51,980
+The world collapseth around us.
+
+340
+00:30:51,980 --> 00:30:54,360
+All right, so what does it say?
+
+341
+00:30:54,360 --> 00:30:59,680
+It says, so we're going to do control space.
+
+342
+00:30:59,680 --> 00:31:02,620
+Hello, this is Rob.
+
+343
+00:31:02,620 --> 00:31:05,340
+This is my first recording with Supervis, bro.
+
+344
+00:31:05,340 --> 00:31:11,040
+Ukrainian speaker wisdom.
+
+345
+00:31:11,040 --> 00:31:14,840
+Where is it even getting the mic from?
+
+346
+00:31:14,880 --> 00:31:18,880
+Wait, what's loud?
+
+347
+00:31:18,880 --> 00:31:22,100
+Could you hear the siren?
+
+348
+00:31:22,100 --> 00:31:27,540
+I forget that I don't have voice isolation on, so you can hear everything, right?
+
+349
+00:31:27,540 --> 00:31:34,440
+When I test Super Whisperer, wait, what?
+
+350
+00:31:34,440 --> 00:31:35,160
+It got louder?
+
+351
+00:31:35,160 --> 00:31:41,060
+Oh, my God.
+
+352
+00:31:44,560 --> 00:31:45,860
+Why is he getting so hot?
+
+353
+00:31:45,860 --> 00:31:50,760
+I'm so sorry, guys.
+
+354
+00:31:50,760 --> 00:32:09,860
+Something's really...
+
+355
+00:32:44,560 --> 00:33:05,040
+It sounds like it switches inputs.
+
+356
+00:33:05,040 --> 00:33:11,200
+I wonder if I need to set the input of SuperWhisperer by default, does that make sense?
+
+357
+00:33:11,200 --> 00:33:17,200
+That would explain a lot.
+
+358
+00:33:17,200 --> 00:33:35,640
+Check one, two, it's still loud, it's not loud and right.
+
+359
+00:33:41,200 --> 00:33:56,640
+Volume, simple classic, off, microphone, system default microphone, oh, that's why, yeah, check,
+
+360
+00:33:56,640 --> 00:34:10,560
+check, check, sound recording playing, off, the shortcut I like, by the way, is not control
+
+361
+00:34:10,560 --> 00:34:18,620
+space it's left at right alt the right alt key that's my favorite um
+
+362
+00:34:18,620 --> 00:34:24,660
+i'm really sorry about that sound being that loud i'm going to do another test here i'm
+
+363
+00:34:24,660 --> 00:34:28,340
+going to disable the sound temporarily so i don't blow your ears out
+
+364
+00:40:10,560 --> 00:40:11,700
+I think I figured that out.
+
+365
+00:40:11,700 --> 00:40:15,000
+Let me just check the input levels again.
+
+366
+00:40:15,000 --> 00:40:24,940
+I want to record, I want to record something here.
+
+367
+00:40:24,940 --> 00:40:28,440
+Alright, we got it.
+
+368
+00:40:28,440 --> 00:40:31,940
+Okay, Whisper, Super Whisper is in the house.
+
+369
+00:40:31,940 --> 00:40:35,320
+There was something I was going to go search and I can't remember now.
+
+370
+00:40:35,320 --> 00:40:37,060
+Oh.
+
+371
+00:40:37,060 --> 00:40:39,520
+Um.
+
+372
+00:40:40,560 --> 00:40:47,860
+Uh, Westerm. What were we doing? You guys remember before this?
+
+373
+00:40:47,860 --> 00:40:49,860
+Um...
+
+374
+00:40:49,860 --> 00:40:59,560
+Did we kill Westerm?
+
+375
+00:40:59,560 --> 00:41:05,560
+I can't remember if we killed it.
+
+376
+00:41:10,560 --> 00:41:27,320
+yeah we did oh okay okay okay okay I remember now I remember now how can we install
+
+377
+00:41:27,320 --> 00:41:34,080
+fonts so that all the Windows users will see it and so that
+
+378
+00:41:34,080 --> 00:41:37,180
+that Westerm will see it under WSL2 as well.
+
+379
+00:41:37,180 --> 00:41:48,800
+So the Fuzz system went on Windows
+
+380
+00:41:48,800 --> 00:41:51,600
+because Westerm renders its videos, its window, and text
+
+381
+00:41:51,600 --> 00:41:53,520
+directly on the Windows host.
+
+382
+00:41:53,520 --> 00:41:55,640
+It only reads fonts from Windows, not from the side
+
+383
+00:41:55,640 --> 00:41:56,860
+of the WSL2 on the Fuzz system.
+
+384
+00:41:56,860 --> 00:41:58,060
+Really?
+
+385
+00:41:58,060 --> 00:42:01,500
+Install for all users on Windows.
+
+386
+00:42:01,500 --> 00:42:03,720
+Extractor, zip code, OK.
+
+387
+00:42:03,720 --> 00:42:09,780
+Make Windows fonts visible inside of this of two Linux apps.
+
+388
+00:42:09,780 --> 00:42:24,420
+Now see Windows fonts.
+
+389
+00:42:24,420 --> 00:42:27,060
+Really?
+
+390
+00:42:27,060 --> 00:42:30,280
+I would not have done this.
+
+391
+00:42:30,280 --> 00:42:31,220
+Yep.
+
+392
+00:42:31,500 --> 00:42:35,040
+The real question is, "Should we make this a PowerShell thing?"
+
+393
+00:42:35,040 --> 00:42:41,560
+When I did this last time, when I was trying to set up installers for beginners,
+
+394
+00:42:41,560 --> 00:42:46,740
+I was like, "Do we have the installer script be a PowerShell script
+
+395
+00:42:46,740 --> 00:42:48,960
+that they run before they install the WSL,
+
+396
+00:42:48,960 --> 00:42:53,360
+or do we have all these things be installed with PowerShell, which is by default?"
+
+397
+00:42:53,360 --> 00:43:00,360
+I don't believe installing WSL2 is complicated enough
+
+398
+00:43:00,360 --> 00:43:05,180
+to require a bunch of PowerShell before WSL2 is installed,
+
+399
+00:43:05,180 --> 00:43:07,380
+and then the installers can be written in bash.
+
+400
+00:43:07,380 --> 00:43:13,920
+Write me a bash shell script that does all that.
+
+401
+00:43:13,920 --> 00:43:19,780
+I don't know how Gemini is gonna do.
+
+402
+00:44:00,360 --> 00:44:11,280
+Is there already a Winget for the fonts that I want?
+
+403
+00:44:30,360 --> 00:44:37,360
+What?
+
+404
+00:44:37,360 --> 00:44:52,840
+It doesn't appear to exist.
+
+405
+00:44:52,840 --> 00:44:57,840
+It doesn't appear to exist.
+
+406
+00:44:57,840 --> 00:45:23,840
+*sad music*
+
+407
+00:45:23,840 --> 00:45:25,840
+Wait, what?
+
+408
+00:45:25,840 --> 00:45:29,260
+It says, "Swinket doesn't carry it."
+
+409
+00:45:29,260 --> 00:45:38,480
+"The PowerShell NerdFonts is on the fast-down windows."
+
+410
+00:45:38,480 --> 00:45:40,640
+Are you sure it's available?
+
+411
+00:45:40,640 --> 00:45:45,360
+Huh.
+
+412
+00:45:45,360 --> 00:45:53,620
+Are you absolutely sure install NerdFonts is going to work?
+
+413
+00:45:55,840 --> 00:46:09,080
+It finishes as a Buntu nerd font.
+
+414
+00:46:09,080 --> 00:46:11,420
+Buntu nerd font Mondo.
+
+415
+00:46:11,420 --> 00:46:12,680
+Oh, I had this problem before.
+
+416
+00:46:12,680 --> 00:46:15,160
+The names didn't match my Western.
+
+417
+00:46:15,160 --> 00:46:17,180
+It was a different Buntu font.
+
+418
+00:46:17,180 --> 00:46:24,940
+I'll trigger the exact fallback error.
+
+419
+00:46:24,940 --> 00:46:27,500
+I saw this here. I saw this here last year.
+
+420
+00:46:27,500 --> 00:46:29,200
+It's still found cache open windows.
+
+421
+00:46:29,200 --> 00:46:33,920
+What's this all running against blah?
+
+422
+00:46:33,920 --> 00:46:37,260
+This is insane.
+
+423
+00:46:37,260 --> 00:46:39,300
+That's a lot of extra work for no reason.
+
+424
+00:46:39,300 --> 00:46:44,300
+I mean, it is what it is.
+
+425
+00:46:44,300 --> 00:46:45,780
+But for a beginner watching this thing,
+
+426
+00:46:45,780 --> 00:46:47,200
+you're like, this is way too much work.
+
+427
+00:46:47,200 --> 00:46:54,680
+Okay, go ahead and make a shell script
+
+428
+00:46:54,680 --> 00:46:58,120
+that installs it using PowerShell only since Winget doesn't work.
+
+429
+00:47:24,680 --> 00:47:39,240
+Make it so I can run it from the wso2 bash command line.
+
+430
+00:47:54,680 --> 00:47:59,180
+What?
+
+431
+00:47:59,180 --> 00:48:05,400
+How has this not been updating this whole time?
+
+432
+00:48:05,400 --> 00:48:10,760
+I have it.
+
+433
+00:48:10,760 --> 00:48:12,680
+I'm dutifully loading my
+
+434
+00:48:12,680 --> 00:48:15,040
+things and it's apparently
+
+435
+00:48:15,040 --> 00:48:16,600
+not loading it. Why not?
+
+436
+00:48:16,600 --> 00:48:20,860
+Why are you
+
+437
+00:48:20,860 --> 00:48:21,760
+no work?
+
+438
+00:48:23,460 --> 00:48:25,940
+I don't know what is going on with my charger.
+
+439
+00:48:25,940 --> 00:48:26,660
+It's not working.
+
+440
+00:48:26,660 --> 00:48:37,260
+Okay, I'll try this one over here.
+
+441
+00:48:37,260 --> 00:48:42,120
+I don't...
+
+442
+00:48:42,120 --> 00:48:44,100
+My charger...
+
+443
+00:48:44,100 --> 00:48:45,800
+It's a stupid Amazon charger.
+
+444
+00:48:45,800 --> 00:48:46,900
+It does not work.
+
+445
+00:48:53,460 --> 00:48:55,740
+Why are you no-worky?
+
+446
+00:48:55,740 --> 00:48:59,060
+Oh my god.
+
+447
+00:48:59,060 --> 00:49:00,640
+This is so annoying.
+
+448
+00:49:00,640 --> 00:49:09,240
+It's not...
+
+449
+00:49:09,240 --> 00:49:11,160
+It's no work.
+
+450
+00:49:11,160 --> 00:49:11,900
+It's no work.
+
+451
+00:49:21,660 --> 00:49:25,080
+Sorry for putting you through this. I left this in the video, unfortunately.
+
+452
+00:49:25,080 --> 00:49:28,740
+I wish I could cut it out.
+
+453
+00:49:28,740 --> 00:49:36,780
+My charger does not seem to be working.
+
+454
+00:49:36,780 --> 00:49:39,800
+Okay, there it goes.
+
+455
+00:49:39,800 --> 00:49:42,960
+I don't know why it didn't do it before.
+
+456
+00:49:47,440 --> 00:49:52,240
+I have to buy new ears.
+
+457
+00:49:52,240 --> 00:49:54,640
+I'm so sorry guys.
+
+458
+00:49:54,640 --> 00:49:57,220
+Did I really blow you away that much?
+
+459
+00:49:57,220 --> 00:50:01,620
+I'm so, so sorry.
+
+460
+00:50:01,620 --> 00:50:06,620
+I should probably take that out of the video.
+
+461
+00:50:15,480 --> 00:50:18,140
+Did I ruin the whole video from that one little piece?
+
+462
+00:50:18,140 --> 00:50:26,900
+I'll have my AI take it out somehow.
+
+463
+00:50:26,900 --> 00:50:42,460
+Yeah.
+
+464
+00:50:45,480 --> 00:51:02,600
+We need a new file, new file.
+
+465
+00:51:02,600 --> 00:51:06,040
+I hate that I'm putting .sh on the end of my files, I've promised myself I would never
+
+466
+00:51:06,040 --> 00:51:28,380
+to do that. So sorry about that. It's going to get the GitHub nerd fonts. Yep. Pretty basic stuff.
+
+467
+00:51:28,380 --> 00:51:36,300
+okay so god that was like with free ai that's already saved let's go run it so
+
+468
+00:51:36,300 --> 00:51:43,100
+cdd actually we can use cdd now
+
+469
+00:51:45,660 --> 00:51:47,120
+I should have found them.
+
+470
+00:51:47,120 --> 00:51:52,640
+Yeah, um, cdd, um, dot.
+
+471
+00:51:52,640 --> 00:51:59,760
+I want-- oh, you know what?
+
+472
+00:51:59,760 --> 00:52:02,160
+It's still a bash terminal.
+
+473
+00:52:02,160 --> 00:52:04,160
+Yep.
+
+474
+00:52:04,160 --> 00:52:07,120
+Yes, sir.
+
+475
+00:52:07,120 --> 00:52:08,380
+We need to make the new defaults.
+
+476
+00:52:08,380 --> 00:52:13,260
+Yeah.
+
+477
+00:52:13,260 --> 00:52:15,440
+We need to make the new terminal default.
+
+478
+00:52:15,660 --> 00:52:36,640
+...settings, terminal, default terminal, no, I want to use the, let me just add this,
+
+479
+00:52:36,640 --> 00:52:38,960
+Let's see if the name is asked if it's new or shortcase.
+
+480
+00:52:38,960 --> 00:52:39,760
+Oh, not about.
+
+481
+00:52:39,760 --> 00:52:46,100
+Selected default terminal profile.
+
+482
+00:52:46,100 --> 00:52:46,960
+It kind of guessed.
+
+483
+00:52:46,960 --> 00:52:54,460
+Prografiles, git, bin, git bash, systemdcd.
+
+484
+00:52:54,460 --> 00:52:59,000
+Ubuntu, WSL, Ubuntu, yes.
+
+485
+00:52:59,000 --> 00:53:02,080
+Command terminal, select default profile results in an error.
+
+486
+00:53:02,080 --> 00:53:03,420
+Object is not extensible.
+
+487
+00:53:06,640 --> 00:53:13,900
+it is so works just fine
+
+488
+00:53:13,900 --> 00:53:21,340
+uh-huh i do not understand the problem
+
+489
+00:53:21,340 --> 00:53:24,460
+what's our profile
+
+490
+00:53:24,460 --> 00:53:28,300
+it's right there
+
+491
+00:53:28,300 --> 00:53:40,320
+It's like here if I'll turn my profile, how about just bash?
+
+492
+00:53:40,320 --> 00:53:55,960
+Oh, I didn't have a problem this time.
+
+493
+00:53:58,300 --> 00:54:12,080
+Oh, gosh dang it.
+
+494
+00:54:28,300 --> 00:54:30,700
+Wait, what?
+
+495
+00:54:30,700 --> 00:54:34,020
+Can someone switch them up and get you to run it backwards?
+
+496
+00:54:34,020 --> 00:54:39,560
+This is external, that's the profiles.
+
+497
+00:54:39,560 --> 00:54:41,560
+Which term should run on windows?
+
+498
+00:54:41,560 --> 00:54:45,120
+What the hell is this?
+
+499
+00:54:45,120 --> 00:54:47,060
+No, a random western.
+
+500
+00:54:47,060 --> 00:54:50,440
+This is way too much configuration.
+
+501
+00:54:50,440 --> 00:54:57,780
+Yeah, I mean, it's fine.
+
+502
+00:54:58,300 --> 00:55:03,240
+It should not take this long, but whatever.
+
+503
+00:55:03,240 --> 00:55:09,920
+Terminal profile by default WSL.
+
+504
+00:55:09,920 --> 00:55:15,740
+We did this already, but it's just not taking.
+
+505
+00:55:15,740 --> 00:55:17,260
+Oh, there it worked!
+
+506
+00:55:17,260 --> 00:55:18,740
+Why didn't it take the first time?
+
+507
+00:55:18,740 --> 00:55:22,520
+Just like everything on Windows, do it twice.
+
+508
+00:55:22,520 --> 00:55:26,360
+I don't understand.
+
+509
+00:55:26,360 --> 00:55:31,000
+Also, why didn't it run my bash or C?
+
+510
+00:55:31,000 --> 00:55:35,320
+Right?
+
+511
+00:55:35,320 --> 00:55:51,120
+I think it's because... oh I know what it is. Watch. It's a different home directory.
+
+512
+00:55:51,120 --> 00:55:55,800
+Yeah, I forgot about this. Yep.
+
+513
+00:55:56,360 --> 00:56:12,600
+So, as safe as this is, this is super important, as safe as it is, WSL has its own idea about
+
+514
+00:56:12,600 --> 00:56:20,640
+a home directory that is separate from the bridged home filesystem directory for your
+
+515
+00:56:20,640 --> 00:56:27,040
+actual machine. So git bash uses the same directory that has our windows files in it.
+
+516
+00:56:27,040 --> 00:56:36,480
+And WSL creates a separate home directory. And you can go into it, but you have to go,
+
+517
+00:56:36,480 --> 00:56:39,200
+you have to create a shortcut. In fact, I have a shortcut somewhere to find it
+
+518
+00:56:39,200 --> 00:56:45,200
+because it's this convoluted look. If I do pwd here, if I do another one, if I do a bash one,
+
+519
+00:56:46,320 --> 00:56:53,680
+Git Bash, right? So now I need to do a pwd, it'll show you. This is in cusers.rvma.rrepos.github.dot, right?
+
+520
+00:56:53,680 --> 00:56:56,480
+Wait, first of all, why did it make that as my default home directory?
+
+521
+00:56:56,480 --> 00:57:01,360
+That's very odd.
+
+522
+00:57:01,360 --> 00:57:07,360
+It's almost like it thinks that's my home directory, which it's not.
+
+523
+00:57:07,360 --> 00:57:13,360
+Oh.
+
+524
+00:57:16,240 --> 00:57:20,960
+that is really weird when it opened up a new git bash it remembered the directory of my previous
+
+525
+00:57:20,960 --> 00:57:27,920
+git bash shell and it put me in there that's very unusual the git bash is kind of weird anyway c uses
+
+526
+00:57:27,920 --> 00:57:38,400
+robma okay so that's that's that's that's that one right um but if i if i go to my other shell
+
+527
+00:57:38,400 --> 00:57:42,320
+you see that it's home right that's why it doesn't know about it
+
+528
+00:57:43,920 --> 00:57:48,720
+it's much much safer and it will actually do symbolic links all the things that i thought
+
+529
+00:57:48,720 --> 00:57:54,000
+it would do before that actually includes installing fonts which which it will install in wsl
+
+530
+00:57:54,000 --> 00:58:02,480
+um that are probably not going to be visible to west term outside of here
+
+531
+00:58:02,480 --> 00:58:11,040
+if that if you follow me so like my installers that i have that install my fonts with west term
+
+532
+00:58:11,920 --> 00:58:16,920
+they will work and they will install fonts into WSL2,
+
+533
+00:58:16,920 --> 00:58:21,600
+but when I start WesTerm, it won't know where those fonts are.
+
+534
+00:58:21,600 --> 00:58:25,300
+Because WesTerm is a Windows thing, not a Linux thing.
+
+535
+00:58:25,300 --> 00:58:27,640
+So this is one of those weird things that only happens
+
+536
+00:58:27,640 --> 00:58:30,020
+on Windows when you're mixing WSL in two.
+
+537
+00:58:30,020 --> 00:58:37,060
+And I almost don't want to try the installer here.
+
+538
+00:58:39,040 --> 00:58:42,640
+Another thing, too, is I have to set up GitHub, right?
+
+539
+00:58:42,640 --> 00:58:45,660
+It's not going to have GitHub command line tool.
+
+540
+00:58:45,660 --> 00:58:46,360
+It doesn't.
+
+541
+00:58:46,360 --> 00:58:49,700
+Now, this is one of those cases where if I wanted to,
+
+542
+00:58:49,700 --> 00:58:51,220
+I could actually--
+
+543
+00:58:51,220 --> 00:58:54,140
+WSL2 is very, very weird.
+
+544
+00:58:54,140 --> 00:58:58,180
+So I could actually set up Git and GitHub
+
+545
+00:58:58,180 --> 00:59:01,000
+so that they fire from WSL2, but they fire off
+
+546
+00:59:01,000 --> 00:59:03,280
+the Windows EXEs instead.
+
+547
+00:59:03,280 --> 00:59:05,320
+But the Windows EXEs are designed
+
+548
+00:59:05,320 --> 00:59:07,200
+to work with the Windows side of the environment,
+
+549
+00:59:07,200 --> 00:59:12,800
+including like carriage return line feed fixes and stuff like that so if i am in wsl2 and i'm using
+
+550
+00:59:12,800 --> 00:59:20,720
+wsl2 shell and i use the windows commands to get in github i could end up with inconsistencies that
+
+551
+00:59:20,720 --> 00:59:28,560
+don't work with github because of the crossover and that's i believe one of the main reasons that
+
+552
+00:59:28,560 --> 00:59:35,360
+they have you put the github stuff i mean they have you use an entirely separate home directory
+
+553
+00:59:36,320 --> 00:59:44,020
+And you have to explicitly say, no, I actually want to use something in /mntc or whatever.
+
+554
+00:59:44,020 --> 00:59:51,000
+But another really, really important crossover is the use of sshconfig.
+
+555
+00:59:51,000 --> 01:00:00,740
+So I made the rather rational choice to use the same sshconfig file for keys and stuff
+
+556
+01:00:00,740 --> 01:00:10,280
+on both GitHub, on Windows, and on WSL2, and I thought that I could have the file over there.
+
+557
+01:00:10,280 --> 01:00:22,460
+But here's the problem. Any file that exists in WSL2 is world-readable. I wonder if they fixed
+
+558
+01:00:22,460 --> 01:00:30,360
+this. This is a major, major, major problem with WSL2. When you're in WSL2, all of the Windows
+
+559
+01:00:30,360 --> 01:00:35,180
+files have full permissions and if you know right if you know I'm talking about
+
+560
+01:00:35,180 --> 01:00:42,420
+with SSH you see where I'm going with this so like if I go if I go into if I
+
+561
+01:00:42,420 --> 01:00:51,960
+go into you what is it you was a C Drive see our rubma what no C Drive what
+
+562
+01:00:51,960 --> 01:00:52,800
+What the hell?
+
+563
+01:00:52,800 --> 01:00:57,420
+I know there's a C driver, I was just there.
+
+564
+01:00:57,420 --> 01:00:58,640
+C user rubma.
+
+565
+01:00:58,640 --> 01:01:02,620
+Oh, no, no, no, no, I think it's mount over here.
+
+566
+01:01:02,620 --> 01:01:04,680
+Yeah, I think it's mount.
+
+567
+01:01:04,680 --> 01:01:09,440
+It's like slash mount C.
+
+568
+01:01:21,280 --> 01:01:21,780
+Mount C.
+
+569
+01:01:21,780 --> 01:01:27,020
+No, you have to go into
+
+570
+01:01:27,020 --> 01:01:28,340
+you have to go into Mount
+
+571
+01:01:28,340 --> 01:01:30,780
+MNT
+
+572
+01:01:30,780 --> 01:01:31,660
+MNTC
+
+573
+01:01:31,660 --> 01:01:34,000
+R
+
+574
+01:01:34,000 --> 01:01:36,200
+Rubma
+
+575
+01:01:36,200 --> 01:01:39,560
+Wait, what?
+
+576
+01:01:39,560 --> 01:01:43,600
+Oh, God.
+
+577
+01:01:43,600 --> 01:01:48,480
+Do I have to do the whole thing? I do.
+
+578
+01:01:50,580 --> 01:01:52,580
+I have to do...
+
+579
+01:01:52,580 --> 01:01:55,140
+Now I remember, this is all coming back.
+
+580
+01:01:55,140 --> 01:02:02,300
+And, you know, you have to find out if all the files have been saved in the right place and everything.
+
+581
+01:02:02,300 --> 01:02:04,400
+But here's the important part.
+
+582
+01:02:04,400 --> 01:02:09,460
+Okay, so if I do an LSHL on .SSH, which I'm not going to show you, right?
+
+583
+01:02:09,460 --> 01:02:11,400
+Look at the permissions.
+
+584
+01:02:11,400 --> 01:02:16,960
+I need to make a clip just about this.
+
+585
+01:02:18,920 --> 01:02:22,260
+is pain in my butt.
+
+586
+01:02:22,260 --> 01:02:26,020
+Okay, who knows SSH?
+
+587
+01:02:26,020 --> 01:02:29,300
+Raise your hand if you know why this is a problem.
+
+588
+01:02:29,300 --> 01:02:32,060
+If you've used SSH in the past,
+
+589
+01:02:32,060 --> 01:02:34,280
+why is this a problem?
+
+590
+01:02:34,280 --> 01:02:36,800
+And why would it burn me so hard?
+
+591
+01:02:36,800 --> 01:02:44,840
+The secret is right here.
+
+592
+01:02:44,840 --> 01:02:46,720
+I want to see how many of you actually know
+
+593
+01:02:46,720 --> 01:02:47,760
+why this is a problem.
+
+594
+01:02:48,920 --> 01:02:50,040
+The secret is right here.
+
+595
+01:02:50,040 --> 01:03:05,700
+And this is another reason that you should never, ever do
+
+596
+01:03:05,700 --> 01:03:12,840
+anything that faces anywhere close to the internet in your WSL.
+
+597
+01:03:12,840 --> 01:03:15,000
+And to me, this is actually a consideration.
+
+598
+01:03:15,000 --> 01:03:17,240
+In fact, I don't even know if you can.
+
+599
+01:03:17,240 --> 01:03:28,280
+I think WSL is probably guarded by a network VPN of some kind in a firewall in addition to the normal one that Windows comes with.
+
+600
+01:03:28,280 --> 01:03:30,520
+And this would be a big reason why.
+
+601
+01:03:30,520 --> 01:03:45,940
+If you break in to a WSL instance on a Windows machine, you have full root access to the entire Windows file system.
+
+602
+01:03:47,240 --> 01:03:48,760
+without even having admin.
+
+603
+01:03:48,760 --> 01:03:53,720
+Let that process for a little bit.
+
+604
+01:03:53,720 --> 01:03:55,080
+If you're a hacker,
+
+605
+01:03:55,080 --> 01:03:58,520
+and it's right here, right in front of you.
+
+606
+01:03:58,520 --> 01:04:03,900
+So the reason this exists is because
+
+607
+01:04:03,900 --> 01:04:08,160
+the very complicated, miraculous, frankly,
+
+608
+01:04:08,160 --> 01:04:10,700
+file system translation layer
+
+609
+01:04:10,700 --> 01:04:12,240
+that they wrote at the kernel level
+
+610
+01:04:12,240 --> 01:04:15,500
+between WSL2 and Windows
+
+611
+01:04:15,500 --> 01:04:25,060
+Windows has no idea about file permissions at all. It doesn't even attempt to translate
+
+612
+01:04:25,060 --> 01:04:30,560
+file permissions between Windows and Linux. And they are two completely separate permissions
+
+613
+01:04:30,560 --> 01:04:42,340
+systems. So what WSL2 does is it punts and it gives full carte blanche access to anything
+
+614
+01:04:42,340 --> 01:04:47,080
+that is mounted on C: drive to anything in WSL
+
+615
+01:04:47,080 --> 01:04:49,180
+without admin access.
+
+616
+01:04:49,180 --> 01:04:57,460
+It's really, really important that you understand that.
+
+617
+01:04:57,460 --> 01:05:01,320
+Because for starters, the way I discovered this, by the way,
+
+618
+01:05:01,320 --> 01:05:06,040
+was on accident when I went--
+
+619
+01:05:06,040 --> 01:05:09,580
+logically, I wanted to use SSH to connect
+
+620
+01:05:09,580 --> 01:05:10,960
+to a different machine.
+
+621
+01:05:10,960 --> 01:05:16,720
+Whether I was using it from Windows or I wanted to use the same keys. I wanted to use the same Github keys
+
+622
+01:05:16,720 --> 01:05:18,220
+from
+
+623
+01:05:18,220 --> 01:05:24,720
+Windows that I was also or Git Bash or whatever for that and I was also wanting to use them from WSL 2
+
+624
+01:05:24,720 --> 01:05:27,300
+And so I said well, I got this key pair here
+
+625
+01:05:27,300 --> 01:05:34,300
+I'll just reuse the Github key pair, but the problem is that SSH is smart enough to catch this permissions problem
+
+626
+01:05:34,300 --> 01:05:38,520
+And it's and so if you try to run SSH against this key, it won't work
+
+627
+01:05:39,460 --> 01:05:44,760
+Because it'll say, no, that's like way, way, way too permissive of a permission on that key file.
+
+628
+01:05:44,760 --> 01:05:46,500
+You need to lock it down.
+
+629
+01:05:46,500 --> 01:05:59,560
+So the only fix for that is either to copy these exact keys into your home whatever under WSL2 file system.
+
+630
+01:05:59,560 --> 01:06:03,280
+But you can't symbolically link them or anything.
+
+631
+01:06:03,280 --> 01:06:07,300
+because this isn't like accessing different file system,
+
+632
+01:06:07,300 --> 01:06:10,640
+which symbolic links don't mount across file system mounts.
+
+633
+01:06:10,640 --> 01:06:11,840
+That's just a given.
+
+634
+01:06:11,840 --> 01:06:15,380
+This is a, even if it didn't mount,
+
+635
+01:06:15,380 --> 01:06:17,540
+the permissions are totally different over there.
+
+636
+01:06:17,540 --> 01:06:21,100
+So that's how they got around it.
+
+637
+01:06:21,100 --> 01:06:22,240
+They used a mount point.
+
+638
+01:06:22,240 --> 01:06:24,180
+They created a mount point under Linux
+
+639
+01:06:24,180 --> 01:06:27,420
+and then they wrote their own mount driver or something
+
+640
+01:06:27,420 --> 01:06:31,560
+that basically loads everything with full perms
+
+641
+01:06:31,560 --> 01:06:32,660
+on the file system over there.
+
+642
+01:06:33,280 --> 01:06:50,300
+So basically, what this says is if you are going to use WSL2, you need to really think about it for the most part as being a separate machine inside of your Windows machine in all ways.
+
+643
+01:06:50,300 --> 01:06:58,720
+That means that you are almost never going to be able to share files across systems.
+
+644
+01:06:59,360 --> 01:07:05,820
+And even when you think that you can use your terminal text editor to modify a file on the
+
+645
+01:07:05,820 --> 01:07:11,080
+Windows side, you might successfully be able to modify that file.
+
+646
+01:07:11,080 --> 01:07:15,860
+But because you're operating on the file from the Linux application, you're doing things
+
+647
+01:07:15,860 --> 01:07:20,080
+to that file that Windows might not like.
+
+648
+01:07:20,080 --> 01:07:24,680
+So it's more important that you think about the file.
+
+649
+01:07:24,680 --> 01:07:31,700
+In fact, I have had problems before using WSL2 because when I was using a Git repo,
+
+650
+01:07:31,700 --> 01:07:36,660
+I was operating on things that were in a Git repo that was mounted under Windows,
+
+651
+01:07:36,660 --> 01:07:41,020
+and I was working on files there, and I went to commit them,
+
+652
+01:07:41,020 --> 01:07:45,820
+and they had invisible weird changes in the files that were not, that didn't, they weren't,
+
+653
+01:07:45,820 --> 01:07:48,320
+and it wasn't just the control, the carriage returns.
+
+654
+01:07:48,320 --> 01:07:49,200
+It was something else.
+
+655
+01:07:49,200 --> 01:07:52,260
+And it basically corrupted my files.
+
+656
+01:07:52,960 --> 01:08:01,160
+So the important takeaway from this is if you're going to do WSL2, it's one thing to copy the file, right?
+
+657
+01:08:01,160 --> 01:08:06,060
+So like if you can try to do that, but it's also really dangerous to do that.
+
+658
+01:08:06,060 --> 01:08:13,280
+It's usually always better to put it into a Git repo and Git commit it from one side if you're going to do that sort of thing.
+
+659
+01:08:13,280 --> 01:08:18,300
+And then pull it down so Git can do the conversion, not just for the carriage returns, but for lots of other reasons.
+
+660
+01:08:19,040 --> 01:08:23,540
+So otherwise, you need to think of it
+
+661
+01:08:23,540 --> 01:08:28,440
+as if I'm going to copy this file onto a USB thumb drive,
+
+662
+01:08:28,440 --> 01:08:31,060
+and I'm going to copy that file over into this Linux file
+
+663
+01:08:31,060 --> 01:08:33,540
+system, because you're going to hit all of the same problems
+
+664
+01:08:33,540 --> 01:08:37,120
+that would happen by doing that.
+
+665
+01:08:37,120 --> 01:08:38,000
+Set owner at what?
+
+666
+01:08:38,000 --> 01:08:39,420
+You can actually fix that one thing.
+
+667
+01:08:39,420 --> 01:08:43,640
+Yeah, I'm not interested in doing that.
+
+668
+01:08:48,440 --> 01:08:53,500
+That's an interesting fix, but there's no way I'm doing that.
+
+669
+01:08:53,500 --> 01:08:56,740
+I think it's just safer to consider the two things separate,
+
+670
+01:08:56,740 --> 01:08:58,080
+the two systems very separate.
+
+671
+01:08:58,080 --> 01:09:04,780
+The downside-- I mean, let's be real.
+
+672
+01:09:04,780 --> 01:09:06,460
+This is only a problem--
+
+673
+01:09:06,460 --> 01:09:08,240
+and I mentioned it early on in the video.
+
+674
+01:09:08,240 --> 01:09:12,020
+This is only a problem because I set up Git Bash and Windows
+
+675
+01:09:12,020 --> 01:09:14,860
+as if I was never going to put WSL2 on this system,
+
+676
+01:09:14,860 --> 01:09:17,680
+because that is enough to do development.
+
+677
+01:09:18,440 --> 01:09:31,900
+"User system read-only." Yeah. Oh, right. So, you know, yeah, you probably could set that.
+
+678
+01:09:31,900 --> 01:09:37,200
+That would be probably wiser. So, yeah, as I said at the beginning of the video,
+
+679
+01:09:37,200 --> 01:09:40,920
+there's like two paths for setting up your Windows machine. If you are just going to stay
+
+680
+01:09:40,920 --> 01:09:47,600
+with like web development and you're going to use VS code and you want a, you know,
+
+681
+01:09:47,600 --> 01:09:52,760
+a richer command line experience, but you don't want to go full on into WSL2,
+
+682
+01:09:52,760 --> 01:09:58,460
+installing Git Bash and installing VS Code and then working that way is perfectly fine.
+
+683
+01:09:58,460 --> 01:10:03,560
+I ran a school that way, I did after-school programs that way, coding. That's plenty. That's
+
+684
+01:10:03,560 --> 01:10:10,220
+plenty good to give to a command line experience that even lets you use Vim if you want, as well
+
+685
+01:10:10,220 --> 01:10:17,300
+as using Git and GitHub and all of that along with VS Code. That all by itself is fine. If you
+
+686
+01:10:17,300 --> 01:10:22,860
+want to go the other if you want to go the other route then you should start by installing wsl2
+
+687
+01:10:22,860 --> 01:10:28,900
+and maybe vs code but even then you don't probably need vs code you you could install vs code if you
+
+688
+01:10:28,900 --> 01:10:33,020
+wanted to have that as a terminal and work but most of the most of the stuff you're going to do
+
+689
+01:10:33,020 --> 01:10:38,400
+in vs code you probably you probably you know i mean if you're going that route you should probably
+
+690
+01:10:38,400 --> 01:10:44,820
+go with a terminal base set or like new of him or something and stick with the terminal and install
+
+691
+01:10:44,820 --> 01:10:53,280
+western or something like that and and and you know install get into WSL and stay entirely in
+
+692
+01:10:53,280 --> 01:11:07,080
+WSL2 oh thank you for the sub so much both both pre prepper both prep both prep so but and the
+
+693
+01:11:07,080 --> 01:11:11,800
+only time you ever have this crossover problem is when you try to do the two together which is what
+
+694
+01:11:11,800 --> 01:11:17,880
+i'm doing so i know this is a really long video but i hope that it documents that that kind of
+
+695
+01:11:17,880 --> 01:11:28,440
+thing oh that's so great thank you for the resub got 33 months that's insane um so anyway so that
+
+696
+01:11:28,440 --> 01:11:37,200
+so that's that's what we're doing here um so if okay so let's pretend there was no vs code in
+
+697
+01:11:37,200 --> 01:11:43,140
+fact, let's back up a bit, okay? Let's pretend there's no such thing as VS Code. Let's pretend
+
+698
+01:11:43,140 --> 01:11:48,400
+as of this moment, and this will be a chapter, let's pretend that you have a brand new system.
+
+699
+01:11:48,400 --> 01:11:55,680
+Let's recap the steps for getting a new Windows computer to act like a Linux computer without
+
+700
+01:11:55,680 --> 01:12:02,580
+VS Code, all right? So the first step, in fact, let's close off VS Code because it's kind of in
+
+701
+01:12:02,580 --> 01:12:15,900
+away right now. We'll come back to the script install our thing later. And so, yeah. So let's
+
+702
+01:12:15,900 --> 01:12:25,560
+actually do this. This will be fun. So step one would be to install, you're going to see my games
+
+703
+01:12:25,560 --> 01:12:33,840
+that I like. Step one would be to install WSL 2. And the steps to do that, you would pull up a
+
+704
+01:12:33,840 --> 01:12:40,200
+terminal. You just type in terminal from the command line. And your terminal would be just
+
+705
+01:12:40,200 --> 01:12:49,380
+a normal PowerShell thing. And you would type WSL dash dash install Ubuntu. Okay. And it will say
+
+706
+01:12:49,380 --> 01:12:54,860
+you're not ready to install Ubuntu. That's what it'll say. And then it'll force you to reboot.
+
+707
+01:12:54,860 --> 01:13:00,540
+And when you reboot, it will download a bunch of system things, and it will come up again fresh.
+
+708
+01:13:00,540 --> 01:13:04,940
+Your computer will be ready for anything, and you pull a terminal up again.
+
+709
+01:13:04,940 --> 01:13:12,700
+And the second time you pull the terminal up after the reboot, you go ahead and run WSL install Ubuntu again.
+
+710
+01:13:12,700 --> 01:13:18,820
+Or if you want to see which things you want to install, you can say list-online,
+
+711
+01:13:18,820 --> 01:13:25,000
+and that will show you all the online versions of Linux that you can install under WSL now that you
+
+712
+01:13:25,000 --> 01:13:30,720
+have enabled it with your system and rebooted. That actually enabled the hypervisor, which allows
+
+713
+01:13:30,720 --> 01:13:36,940
+WSL to run. So now you're ready to install Ubuntu or whatever. And I strongly recommend Ubuntu
+
+714
+01:13:36,940 --> 01:13:43,200
+over the others, but that's your decision. So then it's the same exact command, WSL dash dash
+
+715
+01:13:43,200 --> 01:13:49,620
+install Ubuntu. This used to be much harder by the way. And then you just type install and it will
+
+716
+01:13:49,620 --> 01:13:54,740
+run you through the steps to do the installation. It'll have you pick a username. It'll have you set
+
+717
+01:13:54,740 --> 01:14:02,420
+up your password as passphrase and all of that. Okay. And as soon as you do that, it will dump
+
+718
+01:14:02,420 --> 01:14:07,320
+you into it. Right now you can tell I'm running PowerShell from Windows. I'm in Windows land. I'm
+
+719
+01:14:07,320 --> 01:14:14,080
+in Linux WSL land. When you want to run WSL, you can either type WSL or you can
+
+720
+01:14:14,080 --> 01:14:21,720
+just type bash, in which case it will actually run WSL by default. So then it
+
+721
+01:14:21,720 --> 01:14:26,220
+fired, the reason it took a while there is because it had to fire, I had to go
+
+722
+01:14:26,220 --> 01:14:31,680
+find bash and run it. I mean, I had to go find Ubuntu Linux and fire up the
+
+723
+01:14:31,680 --> 01:14:34,380
+kernel. So all that stuff is running concurrently. If you were to look at your
+
+724
+01:14:34,380 --> 01:14:38,940
+resources on your machine, right now you're burning the resources to run a separate virtual
+
+725
+01:14:38,940 --> 01:14:46,160
+machine for Ubuntu. And that Ubuntu Linux virtual environment is running at the same time in
+
+726
+01:14:46,160 --> 01:14:51,680
+parallel with your Windows kernel. It's kind of amazing because they run simultaneously at the
+
+727
+01:14:51,680 --> 01:15:00,000
+same power and level contacting your direct resources. In fact, WSL has access to most of
+
+728
+01:15:00,000 --> 01:15:07,540
+the things that you need access to. There are some disadvantages. You can do it, but it's hard
+
+729
+01:15:07,540 --> 01:15:12,360
+to get access to a thumb drive, for example. So let's say you have a thumb drive, you have your
+
+730
+01:15:12,360 --> 01:15:15,920
+keys on there or something you want to put your thumb drive in. You have to go through a little
+
+731
+01:15:15,920 --> 01:15:22,180
+bit of magic for it to make it into WSL2, but you can do that. Originally, that was one of the
+
+732
+01:15:22,180 --> 01:15:30,340
+reasons I didn't want to do that. But that is something that you can do. I now have a generic
+
+733
+01:15:30,340 --> 01:15:37,160
+prompt. You can tell it put me in my home directory, mountc users arbravma, and I'm going to cd enter
+
+734
+01:15:37,160 --> 01:15:44,400
+to go to my home directory. And now you can see I am in the actual Ubuntu home directory. So just
+
+735
+01:15:44,400 --> 01:15:52,140
+to recap, there are two home directories once you have WSL2 installed. One of them is your WSL2
+
+736
+01:15:52,140 --> 01:15:57,180
+home directory and the other one is your windows home directory and they may not have the same name
+
+737
+01:15:57,180 --> 01:16:03,300
+so i asked when i installed ubuntu and it put me in rwx rob and the actual windows directory is
+
+738
+01:16:03,300 --> 01:16:09,880
+is mount mntc users robba which you should basically consider a read-only place but it
+
+739
+01:16:09,880 --> 01:16:16,500
+does facilitate file copies and stuff like that for things that are compatible like raw files that
+
+740
+01:16:16,500 --> 01:16:22,080
+are compatible. If they're not raw compatible, then you're in trouble. Text files can sometimes
+
+741
+01:16:22,080 --> 01:16:28,440
+be a problem. So, but now we don't have anything. We don't have a git over here. Oh, wait, we do
+
+742
+01:16:28,440 --> 01:16:33,580
+have a git. That's nice. Okay, how about github? We don't have a github. Okay, so we do have git,
+
+743
+01:16:33,580 --> 01:16:40,420
+but we don't have github. So, but this is 100% Linux. So, and it's 100% Ubuntu, which means that
+
+744
+01:16:40,420 --> 01:16:47,840
+We can install stuff into it that runs under Linux, not under Windows, that's here.
+
+745
+01:16:47,840 --> 01:16:52,360
+So I want to have the GitHub thing so I can do my Linux commands to do that.
+
+746
+01:16:52,360 --> 01:16:55,620
+The first command that I would do, I want to get GitHub.
+
+747
+01:16:55,620 --> 01:16:59,380
+So this is all apps, but this is going to really test me because I haven't done apps
+
+748
+01:16:59,380 --> 01:17:00,040
+in a long time.
+
+749
+01:17:00,040 --> 01:17:03,420
+So we're going to do apt install GitHub.
+
+750
+01:17:03,420 --> 01:17:05,520
+And it's like, nope, couldn't do it.
+
+751
+01:17:05,520 --> 01:17:06,240
+Permission denied.
+
+752
+01:17:06,240 --> 01:17:07,600
+Oh, no, whatsoever.
+
+753
+01:17:07,600 --> 01:17:08,680
+What's going on?
+
+754
+01:17:08,680 --> 01:17:10,040
+Are you roots?
+
+755
+01:17:10,160 --> 01:17:11,040
+No, I'm not rude.
+
+756
+01:17:11,040 --> 01:17:15,940
+OK, sudo-- hey, how you doing, Delegation Flask?
+
+757
+01:17:15,940 --> 01:17:21,260
+So I do sudo apt install GitHub.
+
+758
+01:17:21,260 --> 01:17:24,400
+These are all Linux commands, which will go over in the boost.
+
+759
+01:17:24,400 --> 01:17:26,000
+It's going to ask me to type my password.
+
+760
+01:17:26,000 --> 01:17:29,040
+This is my password for my account
+
+761
+01:17:29,040 --> 01:17:33,200
+that I set up for my rwxrob account on here.
+
+762
+01:17:33,200 --> 01:17:36,140
+And you can probably guess my password.
+
+763
+01:17:36,140 --> 01:17:37,880
+It doesn't matter, because this is never
+
+764
+01:17:37,880 --> 01:17:38,920
+going to be public facing.
+
+765
+01:17:40,160 --> 01:17:50,460
+Um, okay, wait, what? Snap install? No, hell no. Wait, is it YT install now? It's so apt, right?
+
+766
+01:17:50,460 --> 01:17:59,740
+You're telling me there's no GH installer? This is why I have, okay, this is why I have an
+
+767
+01:17:59,740 --> 01:18:04,120
+installer for the GitHub command line tool. On a Mac, it's brew install. On Windows, it's
+
+768
+01:18:04,120 --> 01:18:11,480
+Winget install. On Ubuntu, it's not that. And I refuse to install snaps. I hate snaps.
+
+769
+01:18:11,480 --> 01:18:17,880
+I hate snaps. I just don't like them. Um, so...
+
+770
+01:18:17,880 --> 01:18:22,120
+I don't know.
+
+771
+01:18:31,640 --> 01:18:41,880
+oh i actually have an installer for this so let's do some things wait i need to i need to zoom in
+
+772
+01:18:41,880 --> 01:18:46,520
+because this is like way too small wait that's what we were trying to do we were trying to get
+
+773
+01:18:46,520 --> 01:18:51,000
+win get on when okay let's get westerm on here first and then we'll we'll fix it up a little bit
+
+774
+01:18:51,000 --> 01:18:57,320
+and then then we'll download the dot files this this is a different path of course right so right
+
+775
+01:18:57,320 --> 01:19:01,540
+So right now, we're still running under Windows Terminal.
+
+776
+01:19:01,540 --> 01:19:04,060
+So we're going to go ahead and install WesTerm.
+
+777
+01:19:04,060 --> 01:19:07,060
+We already installed WesTerm using Winget from the command
+
+778
+01:19:07,060 --> 01:19:09,400
+line.
+
+779
+01:19:09,400 --> 01:19:11,140
+Let's do that again.
+
+780
+01:19:11,140 --> 01:19:14,340
+So we're just going to run a terminal.
+
+781
+01:19:14,340 --> 01:19:18,000
+Terminal is running the default to PowerShell,
+
+782
+01:19:18,000 --> 01:19:21,340
+so this would be exactly what you would have.
+
+783
+01:19:21,340 --> 01:19:23,400
+My light got turned off somehow.
+
+784
+01:19:23,400 --> 01:19:33,640
+OK, so now let's do winget install wes.westerm.
+
+785
+01:19:33,640 --> 01:19:36,680
+And that will get us the westerm terminal, which
+
+786
+01:19:36,680 --> 01:19:38,860
+is the terminal that I've already got configured.
+
+787
+01:19:38,860 --> 01:19:42,580
+Oh, god.
+
+788
+01:19:46,220 --> 01:19:54,840
+Windows search-- you can still do all of this
+
+789
+01:19:54,840 --> 01:19:56,260
+in Windows Terminal if you want to.
+
+790
+01:19:56,260 --> 01:19:57,100
+You don't have to do this.
+
+791
+01:19:57,100 --> 01:20:09,660
+Wes term-- what am I doing wrong?
+
+792
+01:20:09,660 --> 01:20:10,600
+Oh, it's already installed.
+
+793
+01:20:10,600 --> 01:20:12,120
+Sorry, I missed that little warning there.
+
+794
+01:20:12,120 --> 01:20:13,980
+So that would install Wes term.
+
+795
+01:20:13,980 --> 01:20:15,820
+And now you can actually run Wes term from here,
+
+796
+01:20:15,820 --> 01:20:18,340
+or you can run it from here, wasterm.
+
+797
+01:20:18,340 --> 01:20:20,140
+And that'll run this terminal.
+
+798
+01:20:20,140 --> 01:20:22,540
+Now, my terminal's got a configuration file on the way.
+
+799
+01:20:22,540 --> 01:20:24,820
+And I'm going to remove that file so that I'm
+
+800
+01:20:24,820 --> 01:20:26,960
+going to simulate what you would see.
+
+801
+01:20:26,960 --> 01:20:30,340
+Let me go ahead and remove that really quick.
+
+802
+01:20:30,340 --> 01:20:32,600
+wasterm.lua.
+
+803
+01:20:32,600 --> 01:20:39,640
+I'm going to turn that into wasterm.lua.
+
+804
+01:20:39,640 --> 01:20:43,840
+And wasterm automatically reloads any time
+
+805
+01:20:43,840 --> 01:20:45,260
+there's a configuration file change.
+
+806
+01:20:45,260 --> 01:20:48,040
+So that's why it's doing all that because they're actually
+
+807
+01:20:48,040 --> 01:20:51,660
+running Westerm processes, which I need to close all.
+
+808
+01:20:51,660 --> 01:20:55,060
+All right, so now we can actually do it again.
+
+809
+01:20:55,060 --> 01:20:58,540
+Westerm, we're going to run that.
+
+810
+01:20:58,540 --> 01:21:02,200
+OK, so this is a very basic Westerm file that's running
+
+811
+01:21:02,200 --> 01:21:02,700
+PS4.
+
+812
+01:21:02,700 --> 01:21:05,000
+There's nothing particularly fancy about it.
+
+813
+01:21:05,000 --> 01:21:08,120
+It's just faster, and there's lots of reasons
+
+814
+01:21:08,120 --> 01:21:10,020
+to run Westerm, which is a different thing.
+
+815
+01:21:10,020 --> 01:21:14,540
+There's a bunch of installers and managers
+
+816
+01:21:14,540 --> 01:21:15,460
+I don't want to consider.
+
+817
+01:21:15,460 --> 01:21:17,520
+I'm just using the built-in managers.
+
+818
+01:21:17,520 --> 01:21:18,920
+So from now on, I'm just going to use
+
+819
+01:21:18,920 --> 01:21:22,940
+WesTerm for everything instead of the built-in Windows
+
+820
+01:21:22,940 --> 01:21:24,980
+terminal, which is also fine.
+
+821
+01:21:24,980 --> 01:21:27,200
+But I just want to use this one.
+
+822
+01:21:27,200 --> 01:21:30,980
+And there's a number of configuration changes
+
+823
+01:21:30,980 --> 01:21:33,680
+that need to happen here.
+
+824
+01:21:33,680 --> 01:21:37,160
+And I have all of those things in a WesTerm configuration file.
+
+825
+01:21:37,160 --> 01:21:47,960
+but um that configuration file is is um you know kind of a kind of a problem uh how you doing
+
+826
+01:21:47,960 --> 01:21:55,080
+11 raiders so we're gonna go ahead and look at that file and try to get it cleaner and try to
+
+827
+01:21:55,080 --> 01:22:00,680
+get my groove box and everything back um but you know how do you edit the file before you have an
+
+828
+01:22:00,680 --> 01:22:08,620
+an editor, etc. Hey, how you doing? How you doing, HoboBiker? I'm Poshy. Poshyo. I love that.
+
+829
+01:22:08,620 --> 01:22:18,260
+Let's see this. Let's say, Woofie Red. How you doing, Auk? So, we're trying to decide whether I
+
+830
+01:22:18,260 --> 01:22:26,160
+want to put this into my default directory. So, I already have Western configuration defaults
+
+831
+01:22:26,160 --> 01:22:33,360
+set up inside of my dot files so you know i already have a github repo set up for that
+
+832
+01:22:33,360 --> 01:22:42,800
+um if i were teaching an absolute beginner at this point i would have them
+
+833
+01:22:42,800 --> 01:22:55,360
+and we have to make a decision so do i do i tell you how to make a github file and configure all
+
+834
+01:22:55,360 --> 01:22:59,040
+all these terminal stuff or do I tell you to just use this one and come up with your own
+
+835
+01:22:59,040 --> 01:23:08,240
+configurations, right? And so right now I would suggest that you go watch another video about
+
+836
+01:23:08,240 --> 01:23:14,160
+Westerm, about how to configure Westerm, either from somebody else or from me, rather than waste
+
+837
+01:23:14,160 --> 01:23:19,660
+your time here trying to go through everything about how to configure Westerm. So my next goal
+
+838
+01:23:19,660 --> 01:23:25,160
+now that I have Westerm running is to set up Westerm to run and to find my fonts and everything
+
+839
+01:23:25,160 --> 01:23:29,140
+as if I were on a Linux system.
+
+840
+01:23:29,140 --> 01:23:33,240
+So I'm going to go ahead and do that.
+
+841
+01:23:33,240 --> 01:23:36,380
+The problem, however, is that when you run Westrom
+
+842
+01:23:36,380 --> 01:23:39,320
+from a Windows box, it's not running under WSL2.
+
+843
+01:23:39,320 --> 01:23:44,540
+So it doesn't know the things that you would normally do.
+
+844
+01:23:44,540 --> 01:23:46,000
+Like if you're on a Linux or a Mac,
+
+845
+01:23:46,000 --> 01:23:48,260
+it would actually know where to find the fonts.
+
+846
+01:23:48,260 --> 01:23:51,360
+But in this case, we have to install the fonts and stuff
+
+847
+01:23:51,360 --> 01:23:54,660
+that we're going to be using, using Windows, right?
+
+848
+01:23:54,660 --> 01:24:02,120
+and that's a little hard to do and so we're going to be making uh i'm probably going to be making an
+
+849
+01:24:02,120 --> 01:24:09,860
+installer for all that stuff uh tonight uh before we get too much farther along um because my and
+
+850
+01:24:09,860 --> 01:24:16,680
+and before we get too much farther along in that i want to install open code and uh i want to install
+
+851
+01:24:16,680 --> 01:24:22,820
+cloud code pro so that i can have it help me update my installer file so that it installs the
+
+852
+01:24:22,820 --> 01:24:29,380
+the proper files um so we're going to go back we are we are running cmd right now
+
+853
+01:24:29,380 --> 01:24:33,300
+and i'm just going to go ahead and execute bash so that we can get into wsl
+
+854
+01:24:33,300 --> 01:24:39,700
+um and there we go but we have this like really ugly directory and we're back and
+
+855
+01:24:39,700 --> 01:24:46,820
+now we're in the home directory um and western again is always configured through what's in the
+
+856
+01:24:46,820 --> 01:24:51,900
+the directory WSL is a must-have on Windows.
+
+857
+01:24:51,900 --> 01:24:53,880
+Yeah, we were talking about that earlier.
+
+858
+01:24:53,880 --> 01:24:58,420
+Bash-- I've taught after-school programs in the school
+
+859
+01:24:58,420 --> 01:25:02,000
+and other things where we just use bash, git bash,
+
+860
+01:25:02,000 --> 01:25:05,180
+and we did JavaScript games in the web browser,
+
+861
+01:25:05,180 --> 01:25:07,260
+and we just used VS code to do that.
+
+862
+01:25:07,260 --> 01:25:10,220
+We didn't learn VIN, we didn't learn WSL2 or any of that.
+
+863
+01:25:10,220 --> 01:25:11,840
+So it is possible to do it without it.
+
+864
+01:25:11,840 --> 01:25:13,920
+I did it for like 10 or 12 years.
+
+865
+01:25:13,920 --> 01:25:16,340
+But at a certain point-- so this part of the video
+
+866
+01:25:16,340 --> 01:25:19,320
+has been more about operations and getting that all started up.
+
+867
+01:25:19,320 --> 01:25:21,520
+And if you're interested in that kind of thing,
+
+868
+01:25:21,520 --> 01:25:25,660
+you already know it, then start with putting in--
+
+869
+01:25:25,660 --> 01:25:27,120
+the very first thing you should do
+
+870
+01:25:27,120 --> 01:25:30,240
+is-- do you remember doing the games?
+
+871
+01:25:30,240 --> 01:25:32,260
+Oh, you might be somebody that I know then.
+
+872
+01:25:32,260 --> 01:25:34,180
+So yeah, we're going to go back to making
+
+873
+01:25:34,180 --> 01:25:39,040
+Phaser and Pixie games and just using JavaScript
+
+874
+01:25:39,040 --> 01:25:40,520
+in the web browser to do all of that.
+
+875
+01:25:40,520 --> 01:25:41,880
+And that's actually really fun.
+
+876
+01:25:41,880 --> 01:25:44,540
+It's a great way to learn the code about the web and everything.
+
+877
+01:25:44,540 --> 01:25:46,820
+But if you want to do more of the operations hacking stuff,
+
+878
+01:25:46,820 --> 01:25:50,520
+you need to use WSL and get Linux on there.
+
+879
+01:25:50,520 --> 01:25:52,280
+And so here I am.
+
+880
+01:25:52,280 --> 01:25:53,520
+I'm stuck in my home directory.
+
+881
+01:25:53,520 --> 01:25:55,980
+I have literally nothing in here.
+
+882
+01:25:55,980 --> 01:25:58,700
+This is a bare bones Linux install.
+
+883
+01:25:58,700 --> 01:26:03,140
+And first of all, I need to get my .files down here.
+
+884
+01:26:03,140 --> 01:26:05,420
+So I'm going to go ahead and do a few things by hand
+
+885
+01:26:05,420 --> 01:26:07,280
+that I have to do by hand.
+
+886
+01:26:07,280 --> 01:26:08,420
+I'm going to go ahead and create.
+
+887
+01:26:08,420 --> 01:26:10,300
+I'm going to pull down my .files repo
+
+888
+01:26:10,300 --> 01:26:13,980
+so I can at least get the prompts the way I want them.
+
+889
+01:26:13,980 --> 01:26:17,320
+And I can eventually add my Groovebox term colors
+
+890
+01:26:17,320 --> 01:26:18,580
+to this whole thing.
+
+891
+01:26:18,580 --> 01:26:23,100
+So the way I'm going to do that is first make the directory
+
+892
+01:26:23,100 --> 01:26:25,180
+repos-- wait, we can do a dash.
+
+893
+01:26:25,180 --> 01:26:27,960
+We can do dash P here.
+
+894
+01:26:27,960 --> 01:26:32,240
+Repos, github.com, rvx-rob.
+
+895
+01:26:32,240 --> 01:26:35,880
+And I can CD into that.
+
+896
+01:26:35,880 --> 01:26:40,020
+And we can go ahead and from here--
+
+897
+01:26:40,020 --> 01:26:41,480
+yeah, it doesn't have Bluetooth.
+
+898
+01:26:41,480 --> 01:26:44,560
+It doesn't have USB mounts.
+
+899
+01:26:44,560 --> 01:26:46,940
+You have to be sneaky with that.
+
+900
+01:26:46,940 --> 01:26:50,780
+You can put USB in there, but you have to explicitly mount it
+
+901
+01:26:50,780 --> 01:26:53,060
+under MNT slash and then go get it that way.
+
+902
+01:26:53,060 --> 01:26:53,840
+But you can do it.
+
+903
+01:26:53,840 --> 01:26:56,420
+It's just a lot harder.
+
+904
+01:26:56,420 --> 01:26:59,720
+And yeah, Bluetooth for things is tough.
+
+905
+01:26:59,720 --> 01:27:05,240
+And if you use a YubiKey for anything,
+
+906
+01:27:05,240 --> 01:27:08,740
+that kind of thing gets really hard if you're doing WSL2.
+
+907
+01:27:08,740 --> 01:27:09,900
+So there's nothing here.
+
+908
+01:27:09,900 --> 01:27:13,280
+And normally, I would do GitHub repo clone,
+
+909
+01:27:13,280 --> 01:27:16,680
+but I can't because I don't have the GitHub, the gh command
+
+910
+01:27:16,680 --> 01:27:17,740
+installed.
+
+911
+01:27:17,740 --> 01:27:23,260
+And you can't apparently install it, which I forgot about.
+
+912
+01:27:23,260 --> 01:27:24,740
+You can't use the app to install it
+
+913
+01:27:24,740 --> 01:27:26,940
+because there's no app installer for it.
+
+914
+01:27:26,940 --> 01:27:28,980
+I'm going to make sure my AI is right
+
+915
+01:27:28,980 --> 01:27:30,100
+on that particular thing.
+
+916
+01:27:30,100 --> 01:27:30,760
+I am.
+
+917
+01:27:30,760 --> 01:27:33,000
+I'm going to go ahead and fire up a--
+
+918
+01:27:33,000 --> 01:27:35,880
+wait, where's Chrome?
+
+919
+01:27:35,880 --> 01:27:38,820
+So we're going to fire up a Chrome.
+
+920
+01:27:38,820 --> 01:27:46,980
+And we can say, can I install GitHub CLI into Ubuntu?
+
+921
+01:27:46,980 --> 01:27:48,960
+I don't think there is an app to install.
+
+922
+01:27:48,960 --> 01:27:51,640
+I think you actually have to run the installer, which is why I wrote one.
+
+923
+01:27:51,640 --> 01:27:54,560
+The official repo.
+
+924
+01:27:54,560 --> 01:27:57,340
+Yeah, you have to do the whole installer thing.
+
+925
+01:27:57,340 --> 01:28:00,800
+So I actually have an installer that does this.
+
+926
+01:28:00,800 --> 01:28:03,520
+It's kind of like a reverse situation.
+
+927
+01:28:03,520 --> 01:28:07,300
+So I have an installer that does all of that.
+
+928
+01:28:08,020 --> 01:28:09,280
+But it's in my .file.
+
+929
+01:28:09,280 --> 01:28:11,080
+So I'm just going to use git to get Rabbit.
+
+930
+01:28:11,080 --> 01:28:16,440
+But the hard part about this is I'm going to have to do all the auth myself.
+
+931
+01:28:16,440 --> 01:28:20,680
+It's like whether you use GitHub to do the auth or you use git by itself to do the auth,
+
+932
+01:28:20,680 --> 01:28:22,220
+it's like which one's easier, right?
+
+933
+01:28:22,220 --> 01:28:26,000
+It's so much easier to do authentication using the GitHub command line tool.
+
+934
+01:28:26,000 --> 01:28:30,540
+But then to get the GitHub command line tool, you have to do all of this, right?
+
+935
+01:28:30,540 --> 01:28:35,740
+So I'm going to cut and paste this and just run it.
+
+936
+01:28:38,020 --> 01:28:40,820
+Oops, is it not even going to paste?
+
+937
+01:28:40,820 --> 01:28:42,920
+That would suck.
+
+938
+01:28:42,920 --> 01:28:45,620
+Wait, why isn't it pasting?
+
+939
+01:28:45,620 --> 01:28:49,320
+Because it's WesTerm.
+
+940
+01:28:49,320 --> 01:28:55,420
+See, Windows Terminal doesn't have this problem.
+
+941
+01:28:55,420 --> 01:29:00,420
+Gerald's went over Bluetooth, but he couldn't. Yeah.
+
+942
+01:29:00,420 --> 01:29:05,320
+I'm like really souring on WesTerm for Windows.
+
+943
+01:29:07,620 --> 01:29:10,060
+There's so many extra setup steps.
+
+944
+01:29:10,060 --> 01:29:14,840
+Yeah.
+
+945
+01:29:14,840 --> 01:29:19,640
+And I forgot that you can't cut and paste.
+
+946
+01:29:19,640 --> 01:29:23,020
+It's not even taking it.
+
+947
+01:29:23,020 --> 01:29:27,100
+Which, that's huge.
+
+948
+01:29:27,100 --> 01:29:33,020
+If I cannot cut and paste from the host file system into Westerm,
+
+949
+01:29:33,020 --> 01:29:35,980
+that's like, that kills it right there for me.
+
+950
+01:29:37,620 --> 01:29:40,200
+Just to say, use the Linux Destroyer.
+
+951
+01:29:40,200 --> 01:29:42,200
+We covered that already in this video.
+
+952
+01:29:42,200 --> 01:29:49,460
+The main reason is running the Linux on desktop is kind of dumb.
+
+953
+01:29:49,460 --> 01:29:52,380
+So if you have the money to have two computers,
+
+954
+01:29:52,380 --> 01:29:54,180
+yeah, it makes a lot of sense.
+
+955
+01:29:54,180 --> 01:29:58,160
+But otherwise, use Linux as your command line thing.
+
+956
+01:29:58,160 --> 01:29:59,780
+A lot of people have a Windows machine,
+
+957
+01:29:59,780 --> 01:30:01,600
+and that's the only machine they have,
+
+958
+01:30:01,600 --> 01:30:03,640
+whether it's before work or because they're a gamer kid
+
+959
+01:30:03,640 --> 01:30:05,360
+and they want to play games.
+
+960
+01:30:05,360 --> 01:30:08,260
+So that's the reason, the main reason to do it.
+
+961
+01:30:08,260 --> 01:30:11,000
+It's the best Linux you can get on a Windows machine.
+
+962
+01:30:11,000 --> 01:30:14,580
+However, I'm, as of this moment,
+
+963
+01:30:14,580 --> 01:30:20,200
+I am ready to abandon Westerm for Windows.
+
+964
+01:30:20,200 --> 01:30:27,160
+Because just the problem that just happened to me right now.
+
+965
+01:30:27,160 --> 01:30:30,380
+Yeah.
+
+966
+01:30:30,380 --> 01:30:33,840
+Yeah, yeah, yeah, yeah.
+
+967
+01:30:33,840 --> 01:30:42,860
+So, I mean, seriously, y'all, okay, so that was a middle click, which is very Unix-like.
+
+968
+01:30:42,860 --> 01:30:44,840
+That's very Unix-like.
+
+969
+01:30:44,840 --> 01:30:46,600
+It did do it, but it took a middle click.
+
+970
+01:30:46,600 --> 01:30:47,900
+Okay, good to know.
+
+971
+01:30:47,900 --> 01:30:49,480
+Good to know.
+
+972
+01:30:49,480 --> 01:30:51,000
+That's very Unix-like.
+
+973
+01:30:51,000 --> 01:30:55,140
+If you're on a Sun OS system, that's what it would do.
+
+974
+01:30:55,140 --> 01:30:56,300
+It would be middle clicking.
+
+975
+01:30:56,300 --> 01:30:59,360
+It wants me to pseudo-authenticate.
+
+976
+01:30:59,360 --> 01:31:00,420
+This is just to local.
+
+977
+01:31:01,740 --> 01:31:05,500
+This is just to my local Ubuntu, which is just a very insecure password.
+
+978
+01:31:05,500 --> 01:31:17,500
+So, um, so yeah, it's an OS, yeah, it's, it is a very historical thing.
+
+979
+01:31:17,500 --> 01:31:19,900
+So that apparently seems to have worked.
+
+980
+01:31:19,900 --> 01:31:35,560
+I already know that I have that in my DAW files, but I just don't have my DAW files yet.
+
+981
+01:31:35,560 --> 01:31:41,580
+Another thing I could have done is I could have done a read-only git clone, right?
+
+982
+01:31:41,580 --> 01:31:49,400
+Let me actually attempt that. I could have done a git clone
+
+983
+01:31:49,400 --> 01:31:57,240
+An HTTPS based git clone so github repos you can clone any repo that's readable without having access
+
+984
+01:31:57,240 --> 01:32:02,340
+I haven't set up any authentication. So I'm gonna do rwg dot. So
+
+985
+01:32:02,340 --> 01:32:08,680
+It was a long time ago. Okay, so that pulled down the dot as a read a read-only directory, right?
+
+986
+01:32:08,680 --> 01:32:13,720
+So once I'm inside of here, I can go into my install and
+
+987
+01:32:17,460 --> 01:32:21,560
+Because see this is where things get interesting because it's
+
+988
+01:32:21,560 --> 01:32:27,560
+a Windows machine
+
+989
+01:32:27,560 --> 01:32:35,980
+So so I have Mac installers I said and my Ubuntu if I go into Ubuntu I have an installer for you know
+
+990
+01:32:35,980 --> 01:32:40,640
+You see what it does it does basically the same things I just did
+
+991
+01:32:40,640 --> 01:32:44,360
+All right
+
+992
+01:32:44,360 --> 01:32:46,140
+It's so fucking great.
+
+993
+01:32:46,140 --> 01:32:48,320
+Oh, how you doing, Dr. WD?
+
+994
+01:32:48,320 --> 01:32:50,140
+Oh, my God.
+
+995
+01:32:50,140 --> 01:32:51,380
+It's so good to see you.
+
+996
+01:32:51,380 --> 01:32:53,140
+It's so good to see you.
+
+997
+01:32:53,140 --> 01:32:53,880
+Thank you for coming.
+
+998
+01:32:53,880 --> 01:32:56,280
+Are you guys watching birds?
+
+999
+01:32:56,280 --> 01:32:58,300
+Are you guys watching birds and stuff?
+
+1000
+01:32:58,300 --> 01:33:00,220
+I should pause the stream to talk to you.
+
+1001
+01:33:00,220 --> 01:33:03,200
+Oh, thank you for coming in.
+
+1002
+01:33:03,200 --> 01:33:06,460
+If you all don't know who Dr. WD is, you need to go definitely check him out.
+
+1003
+01:33:06,460 --> 01:33:08,200
+Yeah.
+
+1004
+01:33:11,260 --> 01:33:17,140
+Yeah, I'm going to go do an IRL bike stream tonight because people are going to be walking
+
+1005
+01:33:17,140 --> 01:33:22,260
+around downtown and I'm just going to be biking around downtown tonight a little bit later.
+
+1006
+01:33:22,260 --> 01:33:24,760
+Extracting 100 from beehives.
+
+1007
+01:33:24,760 --> 01:33:25,080
+What?
+
+1008
+01:33:25,080 --> 01:33:27,000
+That is so cool.
+
+1009
+01:33:27,000 --> 01:33:27,740
+It's awesome.
+
+1010
+01:33:27,740 --> 01:33:28,700
+All right.
+
+1011
+01:33:28,700 --> 01:33:31,340
+I'm actually recording a video, so thank you for stopping by.
+
+1012
+01:33:31,340 --> 01:33:35,600
+We're going to go ahead and install.
+
+1013
+01:33:35,600 --> 01:33:40,520
+I'm going to run my install script and that's going to do the same thing that I would have
+
+1014
+01:33:40,520 --> 01:33:41,180
+already just done.
+
+1015
+01:33:41,260 --> 01:33:47,360
+right? And now I have GH. So now I can do the other thing and I'm going to have to turn the
+
+1016
+01:33:47,360 --> 01:33:52,320
+stream off for this, but I'm going to do a GH auth login. I'm going to do a GH auth login.
+
+1017
+01:33:52,320 --> 01:33:58,160
+It's my messy room. I just moved into the studio apartment in Charlotte less than a month ago and
+
+1018
+01:33:58,160 --> 01:34:05,140
+I'm still setting it up. And yeah, this is a new computer box right here. There's my bike hiding
+
+1019
+01:34:05,140 --> 01:34:12,220
+back there. I don't have anything in this apartment yet. So, okay. So then we're going to do this. I'm
+
+1020
+01:34:12,220 --> 01:34:19,240
+going to say GH auth login. And that's going to ask me if I want github.com. Yes. Log in with a
+
+1021
+01:34:19,240 --> 01:34:27,100
+web browser. Yes. Use SSH. Yes. And it's going to say, do you want to make SSH keys? Yes. Enter
+
+1022
+01:34:27,100 --> 01:34:33,240
+the passphrase. No. And is there a homelab? No. I've had homelabs in the past. The only homelab
+
+1023
+01:34:33,240 --> 01:34:38,300
+i'm building this time is this box right here which because i want to stay mobile for the most
+
+1024
+01:34:38,300 --> 01:34:46,140
+part i don't do prox moxa lab i did that last year i had a 25 000 two server rack cluster that
+
+1025
+01:34:46,140 --> 01:34:53,880
+i donated and i want to stay small so i'm going to do everything either in the cloud on my my cloud
+
+1026
+01:34:53,880 --> 01:35:02,760
+server or on my server here and and keep it that way title for ssh nothing okay it's like asking me
+
+1027
+01:35:02,760 --> 01:35:10,500
+copy this stuff here. Actually, I'm super curious to see if it's going to be able to copy this
+
+1028
+01:35:10,500 --> 01:35:18,880
+within, you know. Oh, look, it couldn't do XTG Open. It couldn't open anything. I had to click
+
+1029
+01:35:18,880 --> 01:35:27,940
+on it to open it. That's kind of sad, actually. That is sad. That is very sad. Continue. Yeah,
+
+1030
+01:35:27,940 --> 01:35:32,460
+I've done the HomeLab thing a million times, and now I'm trying to keep things light this
+
+1031
+01:35:32,460 --> 01:35:40,980
+time. I'm going to use my pass key. I'm going to touch on my security key. I'm using my my YubiKey
+
+1032
+01:35:40,980 --> 01:35:50,200
+to authenticate. Okay, I'm all authenticated and now I'm logged in so I can go back to showing you
+
+1033
+01:35:50,200 --> 01:36:02,340
+what I'm doing. Okay, so we're going back here. So go back to the desktop. All right, so here we go.
+
+1034
+01:36:02,460 --> 01:36:05,960
+We have my Ubuntu is installed.
+
+1035
+01:36:05,960 --> 01:36:09,620
+I was able to install GitHub using my installer.
+
+1036
+01:36:09,620 --> 01:36:13,180
+And this is my .files, which I will talk
+
+1037
+01:36:13,180 --> 01:36:15,140
+about in the Beginner Boost.
+
+1038
+01:36:15,140 --> 01:36:15,740
+Hey, Jan.
+
+1039
+01:36:15,740 --> 01:36:18,740
+How you doing, Jan Ganacode?
+
+1040
+01:36:18,740 --> 01:36:21,780
+And we've got--
+
+1041
+01:36:21,780 --> 01:36:22,780
+I mean, .
+
+1042
+01:36:22,780 --> 01:36:23,860
+if you want to go check it out.
+
+1043
+01:36:23,860 --> 01:36:31,740
+So I am now set up to run my setup here, which sounds like a lot.
+
+1044
+01:36:31,740 --> 01:36:33,900
+And this actually does some attempts
+
+1045
+01:36:33,900 --> 01:36:37,620
+to set up WesTerm, assuming it's on a system that can run it.
+
+1046
+01:36:37,620 --> 01:36:38,760
+But it's actually not.
+
+1047
+01:36:38,760 --> 01:36:40,980
+So we're going to figure that out.
+
+1048
+01:36:40,980 --> 01:36:43,300
+So I'm going to run .setup.
+
+1049
+01:36:43,300 --> 01:36:46,300
+And it picks my time zone.
+
+1050
+01:36:46,300 --> 01:36:49,840
+It's going to set up my GitHub.files.
+
+1051
+01:36:49,840 --> 01:36:52,440
+It's going to install my configure stuff.
+
+1052
+01:36:52,440 --> 01:36:56,700
+It's going to do my SSH configuration.
+
+1053
+01:36:56,700 --> 01:36:58,480
+It's going to say, do you want to use a passphrase?
+
+1054
+01:36:58,480 --> 01:37:01,840
+This is so that my get commits are signed.
+
+1055
+01:37:01,840 --> 01:37:04,040
+This is all enter a new passphrase.
+
+1056
+01:37:04,040 --> 01:37:08,100
+I don't need to, because I already have one.
+
+1057
+01:37:08,100 --> 01:37:10,820
+And the same passphrase again.
+
+1058
+01:37:10,820 --> 01:37:14,620
+And it simlinks my agents and my other configuration files.
+
+1059
+01:37:14,620 --> 01:37:16,060
+And now I can exec.
+
+1060
+01:37:16,060 --> 01:37:21,160
+I can run, actually, exec dash l, bash dash l.
+
+1061
+01:37:21,160 --> 01:37:23,260
+And that will rerun it with my new setup.
+
+1062
+01:37:23,260 --> 01:37:26,180
+So I think I should have fishies and everything running.
+
+1063
+01:37:26,180 --> 01:37:31,040
+Nope, I wonder if it's because it's not compatible.
+
+1064
+01:37:31,040 --> 01:37:35,100
+We checked that your locale settings, oh.
+
+1065
+01:37:35,100 --> 01:37:37,340
+Setting locale failed, interesting.
+
+1066
+01:37:37,340 --> 01:37:38,140
+That's a new error.
+
+1067
+01:37:38,140 --> 01:37:44,620
+This is a new error, this doesn't happen on my other stuff.
+
+1068
+01:37:44,620 --> 01:37:48,740
+I can't locate a term animation in C.
+
+1069
+01:37:48,740 --> 01:37:50,060
+I wonder if it's because my fishies
+
+1070
+01:37:50,060 --> 01:37:51,220
+didn't get installed properly.
+
+1071
+01:37:54,540 --> 01:37:55,960
+What's up with fishies?
+
+1072
+01:37:55,960 --> 01:38:03,020
+Therm animation.
+
+1073
+01:38:03,020 --> 01:38:04,860
+I thought that-- I thought I already had that in there.
+
+1074
+01:38:04,860 --> 01:38:06,760
+I guess not.
+
+1075
+01:38:06,760 --> 01:38:08,300
+I wonder if Xmas is going to work.
+
+1076
+01:38:08,300 --> 01:38:08,880
+Probably not.
+
+1077
+01:38:08,880 --> 01:38:10,820
+Oh, it did.
+
+1078
+01:38:10,820 --> 01:38:13,780
+It did.
+
+1079
+01:38:13,780 --> 01:38:19,660
+So I had my AI make me a screen saver, a text-based animation
+
+1080
+01:38:19,660 --> 01:38:22,300
+that rotates through a bunch of scenes.
+
+1081
+01:38:22,300 --> 01:38:23,300
+And it was really fun.
+
+1082
+01:38:23,300 --> 01:38:27,020
+I made a little video about how to get it if you want it.
+
+1083
+01:38:27,020 --> 01:38:28,160
+It's a fun little thing.
+
+1084
+01:38:28,160 --> 01:38:34,320
+Yeah, but we're still using the baseline terminal colors
+
+1085
+01:38:34,320 --> 01:38:37,320
+because Western with no configuration.
+
+1086
+01:38:37,320 --> 01:38:40,340
+I do not know if I'm going to get Western configurations
+
+1087
+01:38:40,340 --> 01:38:41,220
+if I reload it.
+
+1088
+01:38:41,220 --> 01:38:47,580
+I just don't think I am, actually,
+
+1089
+01:38:47,580 --> 01:38:49,980
+because we have a lot of configuration
+
+1090
+01:38:49,980 --> 01:38:52,640
+that we have to do on the host system.
+
+1091
+01:38:52,640 --> 01:38:58,640
+so um let's go ahead and see if we can work with that a little bit i want to get my western back
+
+1092
+01:38:58,640 --> 01:39:02,640
+running and then i'll be ready to go and i'll be able to just fire up my terminal and work from
+
+1093
+01:39:02,640 --> 01:39:10,000
+windows just as if i was working um from my mac um and that's going to involve uh putting some
+
+1094
+01:39:10,000 --> 01:39:16,720
+files out there um that don't exist so i'm going to go ahead and install cloud code on this as well
+
+1095
+01:39:17,520 --> 01:39:23,920
+and ClockCodeAgent, and install OpenCode. I think I have a method of installing OpenCode already.
+
+1096
+01:39:23,920 --> 01:39:37,760
+GitGrab OpenCode. Install all stuff with Brew. Yeah. So there's a bunch of stuff that you can
+
+1097
+01:39:37,760 --> 01:39:44,480
+install with Brew that you can't install. A lot of the stuff I'm going to also need on Ubuntu that
+
+1098
+01:39:44,480 --> 01:39:48,040
+that I have not-- I did not keep my Ubuntu installer up to date.
+
+1099
+01:39:48,040 --> 01:39:50,880
+So I'm going to need to go through and clean
+
+1100
+01:39:50,880 --> 01:39:54,200
+a bunch of that out up.
+
+1101
+01:39:54,200 --> 01:39:56,280
+And I'm trying to decide which one I'm
+
+1102
+01:39:56,280 --> 01:39:59,120
+going to need right off the bat.
+
+1103
+01:39:59,120 --> 01:40:03,000
+And I think it's probably going to be open code.
+
+1104
+01:40:03,000 --> 01:40:06,340
+Yeah, so we're going to do apt install.
+
+1105
+01:40:06,340 --> 01:40:09,160
+Well, let's see what my Ubuntu installer is going
+
+1106
+01:40:09,160 --> 01:40:11,920
+to install anyway.
+
+1107
+01:40:11,920 --> 01:40:13,960
+Install-- wait.
+
+1108
+01:40:14,480 --> 01:40:19,220
+Install most stuff, let's see.
+
+1109
+01:40:19,220 --> 01:40:39,160
+I want to, I want to install most stuff with app, oh my god, my stuff is so messed up.
+
+1110
+01:40:39,160 --> 01:40:46,840
+I just want to update, install, nmap, jqpq, pcr, grab, links, make, ruby, python is python3,
+
+1111
+01:40:46,840 --> 01:40:52,040
+libcurses, build essential, libcurses, enter and purl, bash completion, scopio,
+
+1112
+01:40:52,040 --> 01:40:55,480
+build a pro-sgress, client, common,
+
+1113
+01:40:55,480 --> 01:41:01,880
+ftransfer, hpsd, certs, curl, gpg, shellcheck, I don't need gpg anymore.
+
+1114
+01:41:01,880 --> 01:41:08,680
+Shellcheck, SMMD3, fio, and neomim. Yes, I need all those.
+
+1115
+01:41:09,160 --> 01:41:16,740
+That's probably, the fact that NeoVim is missing is probably one of the main reasons this is a problem.
+
+1116
+01:41:16,740 --> 01:41:25,280
+Yeah, you know, I don't know if I have, if my configure script,
+
+1117
+01:41:25,280 --> 01:41:31,180
+I got it all set up to work with Mac, I just cleaned that all up,
+
+1118
+01:41:31,180 --> 01:41:34,780
+and now I need to get it to work with Ubuntu, which counts WSL2.
+
+1119
+01:41:34,780 --> 01:41:38,100
+So, yeah.
+
+1120
+01:41:39,160 --> 01:41:47,220
+I'm what I'm trying to I'm wondering if I need another installer branch that is designed for Neo for for WSL 2 Ubuntu
+
+1121
+01:41:47,220 --> 01:41:51,000
+Sorry, there isn't one of those
+
+1122
+01:41:51,000 --> 01:41:54,280
+so
+
+1123
+01:41:54,280 --> 01:41:59,840
+App version is the shitty Python version. Is it really I?
+
+1124
+01:41:59,840 --> 01:42:03,760
+Wonder
+
+1125
+01:42:03,760 --> 01:42:05,980
+Like you just got added back
+
+1126
+01:42:05,980 --> 01:42:08,580
+Okay, um
+
+1127
+01:42:09,160 --> 01:42:16,900
+What do I need first from there?
+
+1128
+01:42:16,900 --> 01:42:22,980
+We don't want to see to install Western we already did that so we need the fonts, but
+
+1129
+01:42:22,980 --> 01:42:28,480
+we don't want to install the fonts into the Ubuntu WSL, but we do want them if we're installing
+
+1130
+01:42:28,480 --> 01:42:32,400
+into an actual Ubuntu desktop.
+
+1131
+01:42:32,400 --> 01:42:43,400
+So, I'm conflicted by how I organize my installers because the West Term installer under WSL2
+
+1132
+01:42:43,400 --> 01:42:44,840
+is substantially different.
+
+1133
+01:42:44,840 --> 01:42:58,760
+I think that the answer is to put that stuff under the Windows directory and to actually
+
+1134
+01:42:58,760 --> 01:43:00,220
+install it with PowerShell.
+
+1135
+01:43:01,500 --> 01:43:10,680
+But that would imply pulling down the .files into something on Windows.
+
+1136
+01:43:10,680 --> 01:43:21,540
+And, yeah, so I'm trying to figure that out.
+
+1137
+01:43:28,540 --> 01:43:34,060
+Because you can run WebStorm under Linux, but if you run it under Windows, you've got to install the fonts in the host Windows system.
+
+1138
+01:43:34,060 --> 01:43:38,360
+So that's kind of an issue, right?
+
+1139
+01:43:38,360 --> 01:43:46,440
+I'm going to pause the video. It's going to be a longer video than I planned on, but we're going to go...
+
+1140
+01:43:46,440 --> 01:43:53,200
+We need to get into the installer, and I'm going to have the AI help me do this,
+
+1141
+01:43:53,200 --> 01:43:57,520
+but I need to have it install the WebStorm configuration file in the right place,
+
+1142
+01:43:57,520 --> 01:44:02,940
+and I need to have it clean up the Westerm configuration file to know what operating system it's on,
+
+1143
+01:44:02,940 --> 01:44:04,880
+which is one of the biggest advantages of Westerm.
+
+1144
+01:44:04,880 --> 01:44:09,740
+With Westerm, you can have a single config file that everything can use, Mac, Windows, Linux, and everything,
+
+1145
+01:44:09,740 --> 01:44:17,420
+and it will just work because it uses Lua as a configuration, which can have business logic in it.
+
+1146
+01:44:17,420 --> 01:44:19,920
+In other words, it can say, if it's this OS, then do this.
+
+1147
+01:44:19,920 --> 01:44:22,600
+And so you don't have to manage multiple configurations.
+
+1148
+01:44:22,600 --> 01:44:28,680
+just have the one and you have it everywhere um which is you know unlike any other solution um
+
+1149
+01:44:28,680 --> 01:44:33,400
+you know it's one of the reasons i like western is that universality but i lost that
+
+1150
+01:44:33,400 --> 01:44:41,320
+uh when i uh optimized it for mac recently and i need to add that back so this is becoming a
+
+1151
+01:44:41,320 --> 01:44:47,800
+video about how to optimize western installation on multiple systems um which i want ai help with
+
+1152
+01:44:48,520 --> 01:44:52,120
+even though the AI already wrote an installer for me.
+
+1153
+01:44:52,120 --> 01:44:54,880
+So that means that I need to get Cloud Code on here.
+
+1154
+01:44:54,880 --> 01:44:59,440
+And I do not have an Ubuntu WSL installer for Cloud Code.
+
+1155
+01:44:59,440 --> 01:45:01,400
+I don't even know what that looks like.
+
+1156
+01:45:01,400 --> 01:45:09,000
+I can take a guess to say it's app install open code,
+
+1157
+01:45:09,000 --> 01:45:11,080
+but apparently not.
+
+1158
+01:45:11,080 --> 01:45:15,400
+So wait, of course, we have to have sudo.
+
+1159
+01:45:15,400 --> 01:45:17,640
+Unable to locate package app.
+
+1160
+01:45:17,640 --> 01:45:24,680
+it's another one of those snap install things. I really don't like snap. I just refuse to do it.
+
+1161
+01:45:24,680 --> 01:45:34,440
+How do I install OpenCode with APT? And it's going to make another installer. OpenCode does
+
+1162
+01:45:34,440 --> 01:45:42,520
+not have a dedicated repo. I downloaded a Linux dev package. Are you kidding me?
+
+1163
+01:45:46,200 --> 01:45:51,400
+studio apt install opencode.dev install the cli via the official script recommended
+
+1164
+01:45:51,400 --> 01:46:01,320
+okay so this is the installer so um we can do that in fact we did it the other day
+
+1165
+01:46:01,320 --> 01:46:05,400
+but i'm going to go ahead and make an installer for that um
+
+1166
+01:46:05,400 --> 01:46:14,040
+for ubuntu and frankly that's that's the same for all of them so
+
+1167
+01:46:16,200 --> 01:46:19,880
+do I have an open code installer for Mac?
+
+1168
+01:46:19,880 --> 01:46:30,520
+I think I did this already, right?
+
+1169
+01:46:30,520 --> 01:46:31,860
+Nope, there it is.
+
+1170
+01:46:31,860 --> 01:46:35,100
+So Brew does have an installer for open code,
+
+1171
+01:46:35,100 --> 01:46:36,220
+so we don't need that for Mac.
+
+1172
+01:46:36,220 --> 01:46:36,780
+That's good.
+
+1173
+01:46:36,780 --> 01:46:43,120
+So for Ubuntu and Red Hat,
+
+1174
+01:46:43,120 --> 01:46:55,720
+We can say install open code shebang bnsh.
+
+1175
+01:46:55,720 --> 01:47:01,500
+I really want my terminal colors, which is a--
+
+1176
+01:47:01,500 --> 01:47:03,780
+that's a was term thing.
+
+1177
+01:47:03,780 --> 01:47:10,300
+So there we go.
+
+1178
+01:47:10,300 --> 01:47:21,820
+so pipe it to bash we could probably write a better one than that but that's fine one line installer
+
+1179
+01:47:21,820 --> 01:47:27,100
+install open code
+
+1180
+01:47:27,100 --> 01:47:32,540
+open code all right so
+
+1181
+01:47:32,540 --> 01:47:38,300
+once we get a open code on here open code has a method of installing
+
+1182
+01:47:39,020 --> 01:47:43,680
+and using the Cloud Code Pro agent, which will go out.
+
+1183
+01:47:43,680 --> 01:47:46,020
+I have Cloud Code Pro sub, and it'll go in there,
+
+1184
+01:47:46,020 --> 01:47:47,420
+and it'll wrap it up, and it'll use that.
+
+1185
+01:47:47,420 --> 01:47:51,900
+So there we go.
+
+1186
+01:47:51,900 --> 01:47:55,160
+So yeah, so we can go into--
+
+1187
+01:47:55,160 --> 01:48:00,560
+it kind of tells where you're at from here.
+
+1188
+01:48:00,560 --> 01:48:03,620
+And I have an open code config, I think.
+
+1189
+01:48:03,620 --> 01:48:07,300
+I need to get grab.
+
+1190
+01:48:09,020 --> 01:48:17,860
+yeah okay so we have other setups and configurations that are here for open
+
+1191
+01:48:17,860 --> 01:48:29,900
+code and I believe that those were run but I don't know so I'm actually going to
+
+1192
+01:48:29,900 --> 01:48:42,540
+to run them. All right, so yeah, that just set up all of our same links, which is
+
+1193
+01:48:42,540 --> 01:48:55,000
+fine. And, yeah, the open code JSON file and everything. CBR, what's up? Are they?
+
+1194
+01:48:55,000 --> 01:49:04,460
+nice they are very nice they're super nice never be mean to him all right so
+
+1195
+01:49:04,460 --> 01:49:14,300
+let's do this let's say we need to get open code to help us this is I need to
+
+1196
+01:49:14,300 --> 01:49:22,260
+make sure cloud code is set up I don't know that it's going to be set up I need
+
+1197
+01:49:22,260 --> 01:49:28,500
+to reload so I have an alias called reload for that that's you have to
+
+1198
+01:49:28,500 --> 01:49:32,100
+reload your shell in order to get the new changes every time so that's how you
+
+1199
+01:49:32,100 --> 01:49:39,120
+do it and OC will get me we'll start a new open code session as you can see my
+
+1200
+01:49:39,120 --> 01:49:46,860
+open code is already Groovebox themed but my terminal isn't so it's a Windows
+
+1201
+01:49:46,860 --> 01:49:56,940
+computer yep yep and so we're gonna go ahead and do this fix a base code base I
+
+1202
+01:49:56,940 --> 01:50:06,380
+don't want use big pic low um let's see how do I add Claude okay I'm gonna use
+
+1203
+01:50:06,380 --> 01:50:12,420
+whisper for this how do I add Claude code pro
+
+1204
+01:50:16,860 --> 01:50:31,280
+And, yeah, we can full screen this now.
+
+1205
+01:50:31,280 --> 01:50:32,700
+You're probably zooming in a little bit.
+
+1206
+01:50:44,640 --> 01:50:49,760
+All right, so allow it to search the web, yes.
+
+1207
+01:50:49,760 --> 01:50:58,860
+Yeah, a bunch of the animations are not working
+
+1208
+01:50:58,860 --> 01:51:01,720
+because the terminal's not configured properly.
+
+1209
+01:51:01,720 --> 01:51:06,720
+Like this thing here is like a kind of a thing.
+
+1210
+01:51:09,660 --> 01:51:11,120
+Open conversion, models.
+
+1211
+01:51:11,120 --> 01:51:19,380
+Configurations, it's using the free models.
+
+1212
+01:51:19,380 --> 01:51:21,480
+There's a bunch of really decent free models.
+
+1213
+01:51:21,480 --> 01:51:23,340
+The Claude Sonnet model hasn't been too bad
+
+1214
+01:51:23,340 --> 01:51:25,040
+for this kind of work.
+
+1215
+01:51:25,040 --> 01:51:29,560
+Shelf-finished, Shelf-Silly, Home-Claude.
+
+1216
+01:51:29,560 --> 01:51:31,580
+Welcome in Claude, Home-Thinking.
+
+1217
+01:51:31,580 --> 01:51:36,440
+Publishing YouTube page, okay, so it says,
+
+1218
+01:51:37,620 --> 01:51:40,440
+Your .flow is already important to point to it.
+
+1219
+01:51:40,440 --> 01:51:43,440
+What's missing is the machine local cloud code login
+
+1220
+01:51:43,440 --> 01:51:48,060
+and the open code connection that it belongs in this repo.
+
+1221
+01:51:48,060 --> 01:51:49,980
+On this machine, cloud isn't on the path.
+
+1222
+01:51:49,980 --> 01:51:54,480
+NPM, MPX aren't available here.
+
+1223
+01:51:54,480 --> 01:51:58,980
+And open code auth list shows no integrations.
+
+1224
+01:51:58,980 --> 01:52:00,900
+So do this in a terminal.
+
+1225
+01:52:00,900 --> 01:52:05,640
+Install upgrade cloud code.
+
+1226
+01:52:05,640 --> 01:52:08,320
+MTM install, blog, cloud update.
+
+1227
+01:52:08,320 --> 01:52:10,540
+Sign with your pro account.
+
+1228
+01:52:10,540 --> 01:52:12,880
+Connected to open code.
+
+1229
+01:52:12,880 --> 01:52:14,060
+Install here, 2.4.
+
+1230
+01:52:14,060 --> 01:52:19,080
+OK.
+
+1231
+01:52:19,080 --> 01:52:25,600
+Put all that in a script under the Ubuntu installer.
+
+1232
+01:52:33,920 --> 01:52:35,620
+I know sit and watch your AI, right?
+
+1233
+01:52:35,620 --> 01:52:44,800
+And we need to, once we do this,
+
+1234
+01:52:44,800 --> 01:52:48,420
+we can actually ask it to configure for our wisdom.
+
+1235
+01:52:48,420 --> 01:52:49,860
+So we could probably ask a big pickle,
+
+1236
+01:52:49,860 --> 01:52:51,160
+it would probably be fine.
+
+1237
+01:52:51,160 --> 01:52:54,220
+But we're gonna go ahead and add that.
+
+1238
+01:53:02,160 --> 01:53:04,320
+We can watch what it's doing.
+
+1239
+01:53:04,320 --> 01:53:08,140
+This is actually asking you to do a lot
+
+1240
+01:53:08,140 --> 01:53:11,060
+because it's actually writing code.
+
+1241
+01:53:11,060 --> 01:53:15,540
+And there's my syntax up there.
+
+1242
+01:53:15,540 --> 01:53:19,480
+Yep.
+
+1243
+01:53:19,480 --> 01:53:23,200
+My face is changing color
+
+1244
+01:53:23,200 --> 01:53:25,340
+because it's like right next to my computer
+
+1245
+01:53:25,340 --> 01:53:26,820
+that's got the glowing thing.
+
+1246
+01:53:26,820 --> 01:53:31,840
+One edit, eight thoughts, 10 reads,
+
+1247
+01:53:31,840 --> 01:53:40,700
+tools. I'll find out how to install layouts conventions. Shell finished Schmoe+X install
+
+1248
+01:53:40,700 --> 01:53:51,160
+clot agent. It did it. We can actually go review the code. I don't have Tmux in here yet, but
+
+1249
+01:53:51,160 --> 01:54:01,720
+that's probably fine. SSH passes, check couldn't complete because shell check and
+
+1250
+01:54:01,720 --> 01:54:03,400
+run DML, demo on our style here.
+
+1251
+01:54:03,400 --> 01:54:15,140
+Add rum DL to install with APT.
+
+1252
+01:54:15,140 --> 01:54:21,360
+I could have done that with two or three keystrokes.
+
+1253
+01:54:21,360 --> 01:54:28,780
+It's actually adding its own--
+
+1254
+01:54:31,720 --> 01:54:35,880
+It's more than I wanted, which is always dangerous.
+
+1255
+01:54:35,880 --> 01:54:40,180
+I should be running this under bubble wrap or some sort of container.
+
+1256
+01:54:40,180 --> 01:54:46,860
+I always say that, but I'm living dangerously, especially with this model.
+
+1257
+01:54:46,860 --> 01:54:53,720
+Let's go ahead and add another terminal so we can take care and look at all this stuff.
+
+1258
+01:54:53,720 --> 01:54:57,720
+Bash to get into WSL.
+
+1259
+01:54:57,720 --> 01:55:10,360
+cd into repos-- wait, cd into dot.
+
+1260
+01:55:10,360 --> 01:55:16,040
+All right, so yeah, it made a bunch of changes.
+
+1261
+01:55:26,480 --> 01:55:30,340
+We need to go in the Ubuntu installer.
+
+1262
+01:55:30,340 --> 01:55:32,580
+All I really needed to do was add it here.
+
+1263
+01:55:32,580 --> 01:55:38,420
+It added an install runDL.
+
+1264
+01:55:38,420 --> 01:55:39,940
+I don't think it needed to add this.
+
+1265
+01:55:39,940 --> 01:55:44,440
+I think this was unnecessary.
+
+1266
+01:55:44,440 --> 01:55:51,760
+See the sudo apt install deb-- wait, what?
+
+1267
+01:55:51,760 --> 01:55:53,640
+RunDL doesn't have an install?
+
+1268
+01:55:56,480 --> 01:56:02,820
+"What is with nothing being an app?"
+
+1269
+01:56:02,820 --> 01:56:10,300
+"There's so much that's not in the app stuff.
+
+1270
+01:56:10,300 --> 01:56:11,300
+Why Windows?"
+
+1271
+01:56:11,300 --> 01:56:16,200
+We've talked about that a million times, but I'll talk to you again, because Windows is
+
+1272
+01:56:16,200 --> 01:56:20,040
+the most common machine that people have, and I want to do stuff on Windows, and I don't
+
+1273
+01:56:20,040 --> 01:56:23,220
+want to have to have a separate Linux machine.
+
+1274
+01:56:23,220 --> 01:56:26,960
+That's the main reason, and I'm not the only one.
+
+1275
+01:56:26,960 --> 01:56:30,640
+Manual terminal is just a skill, old age.
+
+1276
+01:56:30,640 --> 01:56:33,900
+Using the terminal manually is going to be--
+
+1277
+01:56:33,900 --> 01:56:35,080
+it's still a mandatory skill.
+
+1278
+01:56:35,080 --> 01:56:36,580
+And we're going to talk about it in the boost
+
+1279
+01:56:36,580 --> 01:56:41,680
+about why it makes you a better user in general.
+
+1280
+01:56:41,680 --> 01:56:47,120
+I don't have Tmux installed here, so it kind of scares me
+
+1281
+01:56:47,120 --> 01:56:53,220
+that the run dml doesn't have an apt installer at all.
+
+1282
+01:56:53,220 --> 01:56:54,820
+It has a .deb file, but that's it.
+
+1283
+01:56:54,820 --> 01:57:00,620
+You know, that's actually kind of a downside of apt,
+
+1284
+01:57:00,620 --> 01:57:04,640
+I will admit, because Ubuntu is all about their snaps,
+
+1285
+01:57:04,640 --> 01:57:06,820
+and snaps are horrible.
+
+1286
+01:57:06,820 --> 01:57:08,320
+So yeah.
+
+1287
+01:57:08,320 --> 01:57:14,620
+So yeah, I guess we need an installer.
+
+1288
+01:57:14,620 --> 01:57:17,240
+Oh, well, now we got it.
+
+1289
+01:57:17,240 --> 01:57:18,340
+How about Tmux?
+
+1290
+01:57:18,340 --> 01:57:19,580
+Install all the stuff with apt.
+
+1291
+01:57:19,580 --> 01:57:22,060
+Is it in there?
+
+1292
+01:57:22,060 --> 01:57:24,220
+Git for apt-i tmux.
+
+1293
+01:57:24,220 --> 01:57:25,080
+I think it's in there.
+
+1294
+01:57:25,080 --> 01:57:25,700
+It's not?
+
+1295
+01:57:25,700 --> 01:57:28,780
+What?
+
+1296
+01:57:28,780 --> 01:57:43,860
+Let's do the apt install tmux.
+
+1297
+01:57:43,860 --> 01:57:48,020
+I need it 'cause I'm like, my muscle memory's like completely screwed up.
+
+1298
+01:57:48,020 --> 01:57:53,060
+What is up with this stuff here?
+
+1299
+01:57:53,060 --> 01:57:56,660
+Please check that your locale settings...
+
+1300
+01:57:56,660 --> 01:58:03,820
+Why...
+
+1301
+01:58:03,820 --> 01:58:07,740
+Why isn't WSL setting all the locale settings?
+
+1302
+01:58:07,740 --> 01:58:09,660
+I gotta figure that out.
+
+1303
+01:58:09,660 --> 01:58:12,740
+Wait, I need Tmux too.
+
+1304
+01:58:12,980 --> 01:58:21,240
+Okay, so, I left here on stage to check the stops early, run DML aren't installed in the environment.
+
+1305
+01:58:21,240 --> 01:58:27,040
+I think run DML is here now.
+
+1306
+01:58:27,040 --> 01:58:35,980
+Run DL. Run DL is a markdown thing.
+
+1307
+01:58:35,980 --> 01:58:37,780
+JQ is installed.
+
+1308
+01:58:37,780 --> 01:58:38,220
+Okay.
+
+1309
+01:58:38,220 --> 01:58:40,920
+Most stuff with apps.
+
+1310
+01:58:42,400 --> 01:58:44,160
+JQ is here, yeah?
+
+1311
+01:58:44,160 --> 01:58:45,000
+Okay.
+
+1312
+01:58:45,000 --> 01:58:51,160
+I'm really curious, sudo apt install JQ, yes.
+
+1313
+01:58:51,160 --> 01:58:58,200
+Set out WSL and power on Windows machine.
+
+1314
+01:58:58,200 --> 01:59:04,280
+Yeah, that's a good one to remember.
+
+1315
+01:59:04,280 --> 01:59:06,880
+Thank you for that, I'm gonna, I'm gonna,
+
+1316
+01:59:06,880 --> 01:59:09,760
+I added that to my stash,
+
+1317
+01:59:09,760 --> 01:59:12,380
+So I go back and not forget that in my to-do list.
+
+1318
+01:59:12,380 --> 01:59:21,120
+OK, so we have JQ on.
+
+1319
+01:59:21,120 --> 01:59:23,500
+I really want to see which YQ it installs.
+
+1320
+01:59:23,500 --> 01:59:26,100
+I want to see if they fix that.
+
+1321
+01:59:26,100 --> 01:59:27,060
+I doubt they did.
+
+1322
+01:59:27,060 --> 01:59:34,600
+Yeah, it's a Python schnipies.
+
+1323
+01:59:34,600 --> 01:59:37,920
+I almost said a swear word.
+
+1324
+01:59:37,920 --> 01:59:38,760
+Yeah, no.
+
+1325
+01:59:38,760 --> 01:59:42,840
+What is it?
+
+1326
+01:59:42,840 --> 01:59:45,240
+I don't even have, I don't even have completions up.
+
+1327
+01:59:45,240 --> 01:59:46,000
+Ugh.
+
+1328
+01:59:46,000 --> 01:59:58,200
+I hate that the app YQ is so bad.
+
+1329
+01:59:58,200 --> 02:00:00,600
+Look at this, crap.
+
+1330
+02:00:00,600 --> 02:00:05,560
+They made this the standard YQ install on Ubuntu.
+
+1331
+02:00:07,920 --> 02:00:10,080
+It's disastrously bad.
+
+1332
+02:00:10,080 --> 02:00:11,940
+It's so bad.
+
+1333
+02:00:11,940 --> 02:00:14,140
+And now I can't get rid of it.
+
+1334
+02:00:14,140 --> 02:00:17,080
+How do you get rid of stuff?
+
+1335
+02:00:17,080 --> 02:00:18,160
+I keep trying to use Tmux.
+
+1336
+02:00:18,160 --> 02:00:29,000
+How do I uninstall YQ using APT?
+
+1337
+02:00:29,000 --> 02:00:29,460
+Hydrate.
+
+1338
+02:00:29,460 --> 02:00:31,360
+I have been hydrating.
+
+1339
+02:00:31,360 --> 02:00:33,420
+Yeah.
+
+1340
+02:00:37,360 --> 02:00:37,860
+Relink.
+
+1341
+02:00:37,860 --> 02:00:39,380
+That's, no, that's not it.
+
+1342
+02:00:39,380 --> 02:00:53,100
+It's on, it's taking shit out for me.
+
+1343
+02:00:53,100 --> 02:01:00,080
+Install it, but it's all I can do, I can do it.
+
+1344
+02:01:00,080 --> 02:01:04,280
+But if you add it later, I already have it.
+
+1345
+02:01:07,360 --> 02:01:11,460
+sudo apt auto remove, sudo apt remove yq, okay.
+
+1346
+02:01:11,460 --> 02:01:14,560
+sudo
+
+1347
+02:01:14,560 --> 02:01:21,960
+I want to get that thing out of there, I don't want to give them any credit.
+
+1348
+02:01:21,960 --> 02:01:23,960
+That thing needs to leave my environment.
+
+1349
+02:01:23,960 --> 02:01:27,160
+OpenSusie, I'm glad you are Ubuntu.
+
+1350
+02:01:27,160 --> 02:01:29,160
+Oh, I'm using Ubuntu.
+
+1351
+02:01:29,160 --> 02:01:32,160
+Why would I not use Ubuntu?
+
+1352
+02:01:36,560 --> 02:01:38,480
+As soon as he's good, too. Use whatever one you want.
+
+1353
+02:01:38,480 --> 02:01:43,500
+Yeah, there's a lot of things about Ubuntu I don't like, though,
+
+1354
+02:01:43,500 --> 02:01:44,560
+and I'm hitting them all right now.
+
+1355
+02:01:44,560 --> 02:01:47,000
+Yeah, so.
+
+1356
+02:01:47,000 --> 02:01:50,180
+Yeah.
+
+1357
+02:01:50,180 --> 02:01:55,080
+It's a necessary evil.
+
+1358
+02:01:55,080 --> 02:01:56,040
+Unfortunately, it is.
+
+1359
+02:01:56,040 --> 02:01:57,940
+Everything is Ubuntu or Red Hat.
+
+1360
+02:01:57,940 --> 02:02:05,020
+Yep, there we go.
+
+1361
+02:02:06,560 --> 02:02:10,060
+There we go.
+
+1362
+02:02:10,060 --> 02:02:10,960
+That's what I want.
+
+1363
+02:02:10,960 --> 02:02:18,640
+My first YQ.
+
+1364
+02:02:18,640 --> 02:02:19,220
+Yay!
+
+1365
+02:02:19,220 --> 02:02:20,160
+Okay.
+
+1366
+02:02:20,160 --> 02:02:24,240
+What else do we need?
+
+1367
+02:02:24,240 --> 02:02:27,260
+Oh, I need to get Claude Code on here.
+
+1368
+02:02:27,260 --> 02:02:28,900
+I've tried Arch.
+
+1369
+02:02:28,900 --> 02:02:30,020
+I've tried Arch tons.
+
+1370
+02:02:30,020 --> 02:02:31,940
+Why would I use Arch?
+
+1371
+02:02:31,940 --> 02:02:36,520
+I guess, you know what?
+
+1372
+02:02:36,560 --> 02:02:46,540
+But I guess for my WSL instance using Arch would be fine.
+
+1373
+02:02:46,540 --> 02:02:51,600
+The only reason I don't use Arch is because I wrote all these installers for Ubuntu.
+
+1374
+02:02:51,600 --> 02:02:57,080
+And because I use Ubuntu at work and on most of my servers.
+
+1375
+02:02:57,080 --> 02:03:00,080
+And most of my work uses Ubuntu in Red Hat.
+
+1376
+02:03:00,080 --> 02:03:01,720
+That's the reason.
+
+1377
+02:03:01,720 --> 02:03:09,720
+uses Arch in any professional capacity at all. Name me one company that puts Arch on their
+
+1378
+02:03:09,720 --> 02:03:18,440
+servers. You can't because there aren't any. They might allow you to use Arch if you want.
+
+1379
+02:03:18,440 --> 02:03:23,300
+I've been doing a lot of embedded stuff for those SDKs, Mary themselves, very specifically
+
+1380
+02:03:23,300 --> 02:03:28,860
+version of Deviant or Ubuntu and the SDK stack more or less, so it won't work out. Yeah,
+
+1381
+02:03:29,280 --> 02:03:34,820
+Which is why I ended up making so many of my own installers, because every single application has a different method of installation.
+
+1382
+02:03:34,820 --> 02:03:40,460
+And so I ended up just making my own scripts, and it works the best for me long term.
+
+1383
+02:03:40,460 --> 02:03:45,980
+So that's kind of where I'm at.
+
+1384
+02:03:45,980 --> 02:03:51,560
+What else? Let's see. There's lots of other stuff here that I don't need.
+
+1385
+02:03:54,680 --> 02:03:59,740
+every day things just so I certain that's a real yeah, but then you're also assuming that you would use
+
+1386
+02:03:59,740 --> 02:04:05,980
+You would have a desktop Linux machine, which I already made a big a big thing about I would never run desktop Linux again
+
+1387
+02:04:05,980 --> 02:04:08,920
+willingly
+
+1388
+02:04:08,920 --> 02:04:11,220
+Just not just know you say no
+
+1389
+02:04:11,220 --> 02:04:14,920
+And I don't want to get into that fight again
+
+1390
+02:04:14,920 --> 02:04:18,520
+I have a lot of really great friends that I respect to lose use Linux desktops
+
+1391
+02:04:18,520 --> 02:04:24,400
+I use Linux desktop for 15 years and I put Linux desktop on all my computers at school like 25 computers
+
+1392
+02:04:24,400 --> 02:04:28,800
+and I had taught over a thousand people how to do Linux desktop it's not that I'm against Linux
+
+1393
+02:04:28,800 --> 02:04:32,240
+desktop for that and for other people I just don't want to go through the pain and suffering
+
+1394
+02:04:32,240 --> 02:04:37,440
+of Linux desktop ever again um I don't plus I just want to have a single system
+
+1395
+02:04:37,440 --> 02:04:45,200
+that's the main reason I'm doing it this way um okay so we were in the middle of trying to
+
+1396
+02:04:45,200 --> 02:04:49,600
+get open cloud on here and it was telling me that I needed to do some cloud installation stuff
+
+1397
+02:04:50,880 --> 02:04:57,680
+and uh i i think it actually wrote in an open cloud installer and i was i want to expect
+
+1398
+02:04:57,680 --> 02:05:06,960
+inspect that but first let's install tmux uh studio app install tmux uh creating tmux okay
+
+1399
+02:05:06,960 --> 02:05:11,840
+uh the following package will automatically be respond okay we're going to exit here
+
+1400
+02:05:11,840 --> 02:05:19,440
+exit here and we're going to exit here and we are going to reload and run tmux
+
+1401
+02:05:19,440 --> 02:05:29,840
+there now from here we can do oc and pop open my open code again where i was and now i can
+
+1402
+02:05:29,840 --> 02:05:37,600
+actually make new windows with tmux so i can do that stuff didn't mind linux as much as desktop
+
+1403
+02:05:37,600 --> 02:05:41,560
+once I quit using rolling with these scissors just made life hell.
+
+1404
+02:05:41,560 --> 02:05:47,500
+Yeah. Gives you more control over the hardware components. Probably. I made
+
+1405
+02:05:47,500 --> 02:05:53,120
+my own arch sub-distro extended off of arch for hacking that ran
+
+1406
+02:05:53,120 --> 02:05:59,320
+into VM. It was really good for that. So that's the reason I do that.
+
+1407
+02:05:59,320 --> 02:06:03,640
+Yeah. My choices when it comes to Linux are based on what's going to get me a
+
+1408
+02:06:03,640 --> 02:06:10,080
+a job and keep me a job. And there's just really no debating that Red Hat dominates the industry
+
+1409
+02:06:10,080 --> 02:06:15,760
+and Ubuntu secondarily dominates the industry when it comes to Linux. I don't do it out of
+
+1410
+02:06:15,760 --> 02:06:21,140
+fascination anymore. I do it because of necessity and what's used at work. And it doesn't matter
+
+1411
+02:06:21,140 --> 02:06:28,300
+what I think about those choices by the world. It doesn't matter. It's irrelevant. But if you
+
+1412
+02:06:28,300 --> 02:06:34,260
+want to get a job and keep a job, you need to know those things. So he's Manjaro. I loved Manjaro
+
+1413
+02:06:34,260 --> 02:06:40,440
+until it totally screwed me over. That's how I met Chris Titus, by the way, online. That's when I
+
+1414
+02:06:40,440 --> 02:06:45,460
+ran across Chris Titus. Chris Titus had a video about Manjaro going totally south on him and
+
+1415
+02:06:45,460 --> 02:06:51,580
+like destroying all his stuff and everything. So I was watching his video and that's when I discovered
+
+1416
+02:06:51,580 --> 02:06:57,800
+him. I'd still be running Windows for my desktop if it didn't keep turning stuff back on advertising
+
+1417
+02:06:57,800 --> 02:07:03,320
+to me in the OS. Okay, I don't like Windows for any of those reasons. There's all the stuff in the
+
+1418
+02:07:03,320 --> 02:07:08,900
+OS that I hate. Same with Mac. It doesn't matter. If you want to play games, Windows is the thing.
+
+1419
+02:07:08,900 --> 02:07:12,900
+And I do want to play games and do other things related to that, including streaming,
+
+1420
+02:07:12,900 --> 02:07:17,580
+which, if you want to use things like stream avatars, then OBS, it's a Windows-only thing.
+
+1421
+02:07:18,800 --> 02:07:27,600
+so i accept you know my fate um okay so we need to look in our installer
+
+1422
+02:07:27,600 --> 02:07:32,400
+ubuntu and check out what it's going to do what is i don't want to run it until i check it so
+
+1423
+02:07:32,400 --> 02:07:39,760
+it wrote a my agent wrote another agent here okay this is neo of him not being happy um
+
+1424
+02:07:39,760 --> 02:07:47,920
+using list as a string i'm going to copy and paste this to my agent and fix it i'm going to
+
+1425
+02:07:47,920 --> 02:07:49,380
+I'm gonna have my agent fix this.
+
+1426
+02:07:49,380 --> 02:07:54,240
+Pasted four lines.
+
+1427
+02:07:54,240 --> 02:08:02,480
+Linux usually is a better experience out of the box,
+
+1428
+02:08:02,480 --> 02:08:05,980
+excuse me, than what, Linux desktop?
+
+1429
+02:08:05,980 --> 02:08:07,000
+Oh, by far.
+
+1430
+02:08:07,000 --> 02:08:11,040
+Yep, it is now, Windows 11.
+
+1431
+02:08:11,040 --> 02:08:12,120
+You can say what you want about it.
+
+1432
+02:08:12,120 --> 02:08:16,040
+It's got a very clean initial user experience.
+
+1433
+02:08:17,920 --> 02:08:23,300
+I don't like Microsoft. It's not like I'm shilling for them. I'm just telling you my experience.
+
+1434
+02:08:23,300 --> 02:08:37,420
+It's super important that at some point in your life, I think, that you separate your opinions
+
+1435
+02:08:37,420 --> 02:08:46,020
+about the companies from which you buy products, their philosophies, the people that work there,
+
+1436
+02:08:46,020 --> 02:08:52,840
+from their products and I know that that sounds like a stretch for a lot of people
+
+1437
+02:08:52,840 --> 02:08:59,280
+but I'm telling you after being alive for close to 60 years
+
+1438
+02:08:59,280 --> 02:09:09,360
+you can't you will go nuts it will destroy your peace of mind if you nitpick at every single
+
+1439
+02:09:09,360 --> 02:09:16,800
+company that exists about their policies and their philosophies and everything, and you don't
+
+1440
+02:09:16,800 --> 02:09:22,860
+separate the products from the people that are selling them. I mean, at a certain point, it does
+
+1441
+02:09:22,860 --> 02:09:29,760
+get a little insane that you're still supporting them and giving them your money. But on the whole,
+
+1442
+02:09:29,760 --> 02:09:36,520
+if you do that enough, you'll go nuts. You'll go nuts. You'll get really depressed and you won't
+
+1443
+02:09:36,520 --> 02:09:44,880
+buy anything. I mean, seriously, I tried it and it's just not practical. It's not my fault that
+
+1444
+02:09:44,880 --> 02:09:51,320
+Apple is a horrible company or that Microsoft is a horrible company. None of that is my fault.
+
+1445
+02:09:51,320 --> 02:10:01,100
+I just want a job. And I have to work in this world. And I don't, the very fact that I have to
+
+1446
+02:10:01,100 --> 02:10:08,660
+work for a big corporation in order to exist and have a reasonable wage in order to survive
+
+1447
+02:10:08,660 --> 02:10:16,380
+is not my fault. I didn't cause that problem, right? Well, why don't you just check out, man,
+
+1448
+02:10:16,380 --> 02:10:22,040
+and like do your own thing and like live on your own terms? Like, great. I like, you know, to eat
+
+1449
+02:10:22,040 --> 02:10:30,020
+and I like to buy bicycles and things like that. I can't do that by moving like Ted Kaczynski into
+
+1450
+02:10:30,020 --> 02:10:36,160
+the mountains and say I give up on all the world. I've tried it. And it's just, I'm just
+
+1451
+02:10:36,160 --> 02:10:43,680
+telling you, I eat, I detest Chick-fil-A's policies on trans people. I have a trans daughter
+
+1452
+02:10:43,680 --> 02:10:50,740
+and yet I still eat their chicken. They have the best chicken out there. I feel dirty when
+
+1453
+02:10:50,740 --> 02:10:58,920
+I do it every time, but I cannot, I cannot stress about every single thing that every
+
+1454
+02:10:58,920 --> 02:11:05,260
+single company, Patagonia, you know, any of them. I cannot stress about all of those things. All I
+
+1455
+02:11:05,260 --> 02:11:10,160
+can do is tell them that I don't like this policy about them and blah, blah, blah. And I prefer if
+
+1456
+02:11:10,160 --> 02:11:16,460
+they did this and this, but I can't, I can't control that. It's not my fault. It's not my fault
+
+1457
+02:11:16,460 --> 02:11:21,980
+that the person that's in the government right now, I didn't vote for them. I have to live in
+
+1458
+02:11:21,980 --> 02:11:25,900
+that world. I have to live in that world and I have to survive in that world. And I don't like
+
+1459
+02:11:25,900 --> 02:11:30,860
+that i have to do that it could be uh cash kosher
+
+1460
+02:11:30,860 --> 02:11:41,580
+we've got a new meat uh get to bits i just don't know how to prepare it well uh yes our big job is
+
+1461
+02:11:41,580 --> 02:11:46,400
+it's not he's studying he's studying lives off a donation and he's fine with that but he but he
+
+1462
+02:11:46,400 --> 02:11:52,860
+has to stay in syperia yeah you know it's there are a lot of people that do that there are a lot
+
+1463
+02:11:52,860 --> 02:11:59,340
+of people that do. And there are influencers who change their life and they jump around like a
+
+1464
+02:11:59,340 --> 02:12:05,860
+dancing monkey. How is that different than jumping around like a dancing monkey for a corporation
+
+1465
+02:12:05,860 --> 02:12:12,620
+that you dislike horribly, but is still paying the bills? You know, we're all prostitutes at
+
+1466
+02:12:12,620 --> 02:12:19,160
+the end of the day. You know, we are. And I don't, you know, whatever. I'm just sounding like
+
+1467
+02:12:19,160 --> 02:12:20,920
+Chomsky.
+
+1468
+02:12:20,920 --> 02:12:22,420
+Shellscape still checks the old files.
+
+1469
+02:12:22,420 --> 02:12:23,400
+Check it still be completed.
+
+1470
+02:12:23,400 --> 02:12:29,020
+They are completely completed.
+
+1471
+02:12:29,020 --> 02:12:33,220
+So fix.
+
+1472
+02:12:33,220 --> 02:12:34,280
+AutoCommandBuff calls.
+
+1473
+02:12:34,280 --> 02:12:38,420
+Shellscape keeps the list file system.
+
+1474
+02:12:38,420 --> 02:12:40,000
+Cause, the Tmux buffer in your auto system
+
+1475
+02:12:40,000 --> 02:12:41,920
+is a list of arguments with verbose set to four high.
+
+1476
+02:12:41,920 --> 02:12:43,060
+Vim tries to convert the list.
+
+1477
+02:12:43,060 --> 02:12:49,140
+Wait.
+
+1478
+02:12:49,140 --> 02:13:00,020
+you already try to fix that? Just different names and faces. And you know, people will call that
+
+1479
+02:13:00,020 --> 02:13:05,220
+rationalizing or whatever you want. I don't really care. I don't really care. I'm too old.
+
+1480
+02:13:05,220 --> 02:13:15,220
+I'm too old to care. I just want a good chicken sandwich. I want to be able to dance.
+
+1481
+02:13:17,140 --> 02:13:24,080
+You know, it's like I get an unsolicited Patagonia message as soon as I said that.
+
+1482
+02:13:24,080 --> 02:13:26,520
+And not obsolete.
+
+1483
+02:13:26,520 --> 02:13:29,240
+Studio app check install.
+
+1484
+02:13:29,240 --> 02:13:31,320
+I can't install it via app from here.
+
+1485
+02:13:31,320 --> 02:13:34,220
+Studio dash and true false with interactive authentication as required.
+
+1486
+02:13:34,220 --> 02:13:37,180
+No, I only wrote install in the email.
+
+1487
+02:13:37,180 --> 02:13:37,840
+I never ran it.
+
+1488
+02:13:37,840 --> 02:13:38,800
+Shell finished.
+
+1489
+02:13:38,800 --> 02:13:44,660
+Okay, so.
+
+1490
+02:13:45,980 --> 02:13:47,680
+Yeah, let me run it over here.
+
+1491
+02:13:47,680 --> 02:13:51,500
+All right, so this is what it's doing.
+
+1492
+02:13:51,500 --> 02:13:52,760
+God, this terminal is horrible.
+
+1493
+02:13:52,760 --> 02:13:53,600
+The colors are horrible.
+
+1494
+02:13:53,600 --> 02:13:57,860
+I need to get that fixed right away.
+
+1495
+02:13:57,860 --> 02:14:04,720
+God, I almost don't even think I need the other.
+
+1496
+02:14:04,720 --> 02:14:07,340
+Hey, how you doing, trope?
+
+1497
+02:14:07,340 --> 02:14:12,060
+Cloud code.
+
+1498
+02:14:15,040 --> 02:14:19,440
+Install, run the, my CI/CD checking is failing.
+
+1499
+02:14:19,440 --> 02:14:26,740
+Wait, couldn't be used.
+
+1500
+02:14:26,740 --> 02:14:30,440
+Couldn't be accessed by user apt.
+
+1501
+02:14:30,440 --> 02:14:35,140
+Download this performance, have access, route, and file, blah, blah, blah.
+
+1502
+02:14:35,140 --> 02:14:43,340
+What?
+
+1503
+02:14:45,040 --> 02:15:00,480
+I'm going to have my AI fix all this because I don't want to.
+
+1504
+02:15:00,480 --> 02:15:06,700
+Bottom line, I'm too lazy.
+
+1505
+02:15:06,700 --> 02:15:08,680
+I've been streaming for like how many hours?
+
+1506
+02:15:08,680 --> 02:15:11,180
+I want to go eat food and ride my bike.
+
+1507
+02:15:11,180 --> 02:15:13,000
+What time is it?
+
+1508
+02:15:13,000 --> 02:15:23,660
+Maybe go out to dinner. Wouldn't that be fun? Maybe farm life is free Rob. Sheep,
+
+1509
+02:15:23,660 --> 02:15:28,300
+cows, buffalo. You know what's funny about that? I have a person living in
+
+1510
+02:15:28,300 --> 02:15:32,520
+Asheville who's doing that very thing. She's running a farm, her own land that
+
+1511
+02:15:32,520 --> 02:15:36,400
+she bought with goats and llamas and stuff, and she keeps begging me to come
+
+1512
+02:15:36,400 --> 02:15:41,720
+up there and help her. She's like, "Please, please come up here and help me!"
+
+1513
+02:15:41,720 --> 02:15:48,700
+"Was America better in the '80s and '90s for early 2000s?
+
+1514
+02:15:48,700 --> 02:15:52,400
+I cannot compare how I lived here since 2008."
+
+1515
+02:15:52,400 --> 02:15:58,180
+Yeah, yeah, it was a lot.
+
+1516
+02:15:58,180 --> 02:16:01,240
+Yeah, it was considerably better.
+
+1517
+02:16:01,240 --> 02:16:09,040
+In the '80s and '90s, in many ways it was evil, but it wasn't the evil that we are now.
+
+1518
+02:16:09,040 --> 02:16:16,280
+It wasn't rampant violence, and I'm talking about class-on-class violence.
+
+1519
+02:16:16,280 --> 02:16:22,360
+And politically, we might have disagreed and stuff, but there was never the level of division
+
+1520
+02:16:22,360 --> 02:16:23,940
+that we have now.
+
+1521
+02:16:23,940 --> 02:16:27,620
+And it was the beginning of late-stage capitalism, but it was not this bad.
+
+1522
+02:16:27,620 --> 02:16:31,440
+Even in the '90s when everybody was really sad and everybody thought that the world was
+
+1523
+02:16:31,440 --> 02:16:33,860
+ending and stuff like that.
+
+1524
+02:16:33,860 --> 02:16:39,860
+farming orchards. I would love to do that. I want to, you know, I want to pull a Tolstoy
+
+1525
+02:16:39,860 --> 02:16:44,540
+and like maybe in confessions when he talks about leaving everything, it's like
+
+1526
+02:16:44,540 --> 02:16:54,900
+all this stuff is crap. So yeah, what is it saying now? Check now, now fails only on
+
+1527
+02:16:54,900 --> 02:17:05,660
+he'll check. Okay. So that's still in there. I know that's already in my
+
+1528
+02:17:05,660 --> 02:17:15,980
+automated installer. For an answer-crisis, always better. Yep. Yeah.
+
+1529
+02:17:15,980 --> 02:17:35,220
+Yeah. So, yeah. Can you run fire for a pimp?
+
+1530
+02:17:35,660 --> 02:17:42,980
+Oh, that's what I was going to look up on YouTube.
+
+1531
+02:17:42,980 --> 02:17:45,920
+I was going to look up how the boomers totally changed.
+
+1532
+02:17:45,920 --> 02:17:46,920
+I remember.
+
+1533
+02:17:46,920 --> 02:17:47,920
+I totally forgot that.
+
+1534
+02:17:47,920 --> 02:17:48,920
+I was going to play that video.
+
+1535
+02:17:48,920 --> 02:17:50,860
+I can't do it now.
+
+1536
+02:17:50,860 --> 02:17:53,340
+Go look at the SNL video where there's a bunch of hippies.
+
+1537
+02:17:53,340 --> 02:17:54,340
+They're like, "You know what?
+
+1538
+02:17:54,340 --> 02:18:02,340
+In 1985, I think we should have all the money."
+
+1539
+02:18:02,340 --> 02:18:03,340
+It's really funny.
+
+1540
+02:18:03,340 --> 02:18:06,160
+to how they totally, totally change.
+
+1541
+02:18:06,160 --> 02:18:08,800
+Things are getting rough, yes.
+
+1542
+02:18:08,800 --> 02:18:11,220
+Check paths is one, which changes do I commit?
+
+1543
+02:18:11,220 --> 02:18:12,260
+Mine only recommended.
+
+1544
+02:18:12,260 --> 02:18:14,100
+Commit to vim, yes, fix, fix, install,
+
+1545
+02:18:14,100 --> 02:18:16,260
+cloud agent, install, blah, blah, blah, blah.
+
+1546
+02:18:16,260 --> 02:18:19,700
+Everything also commits the best for the hard-coded path,
+
+1547
+02:18:19,700 --> 02:18:22,720
+the QX package edition, and install open code.
+
+1548
+02:18:22,720 --> 02:18:30,000
+Note the hard-coded artifacts conflict with the repos.
+
+1549
+02:18:30,000 --> 02:18:31,920
+Keep that generic rule.
+
+1550
+02:18:33,340 --> 02:18:40,720
+Why are the paths hard-coded?
+
+1551
+02:18:40,720 --> 02:18:49,420
+Let's see mine for now.
+
+1552
+02:18:49,420 --> 02:18:55,180
+It's concert showing on SNL, I know, right?
+
+1553
+02:18:55,180 --> 02:18:59,780
+Yeah.
+
+1554
+02:18:59,780 --> 02:19:09,460
+like the voice of the millennial generation I swear and he really he's
+
+1555
+02:19:09,460 --> 02:19:17,020
+just got that whole deadpan delivery what man what are you talking about free
+
+1556
+02:19:17,020 --> 02:19:27,820
+love what if instead of buying our houses we bought 12
+
+1557
+02:19:29,780 --> 02:19:36,380
+Absolutely, you've kind of watched this kid, it's just so hilarious.
+
+1558
+02:19:36,380 --> 02:19:48,880
+Okay, so the VimFix is in, let's try to edit a file and see if it blows up again.
+
+1559
+02:19:48,880 --> 02:19:57,880
+hey look it didn't blow up and we have we kind of have neo vim is sort of working
+
+1560
+02:19:57,880 --> 02:20:07,780
+not really though let me we need to get a better terminal thing i need to get okay so now that i
+
+1561
+02:20:07,780 --> 02:20:14,620
+got clod actually i don't have clods do i have clod oh let's run it install clod agent please
+
+1562
+02:20:14,620 --> 02:20:16,820
+what the hell
+
+1563
+02:20:16,820 --> 02:20:19,900
+install the cloud agent
+
+1564
+02:20:19,900 --> 02:20:25,060
+have you seen
+
+1565
+02:20:25,060 --> 02:20:26,400
+have you seen
+
+1566
+02:20:26,400 --> 02:20:28,060
+no no no
+
+1567
+02:20:28,060 --> 02:20:30,280
+I am not an owned by zshell person
+
+1568
+02:20:30,280 --> 02:20:31,360
+I despise it
+
+1569
+02:20:31,360 --> 02:20:32,620
+so do the zshell people
+
+1570
+02:20:32,620 --> 02:20:36,180
+talk about unnecessary heavy crap
+
+1571
+02:20:36,180 --> 02:20:38,180
+not to mention zshell itself
+
+1572
+02:20:38,180 --> 02:20:40,000
+being absolute dog shit
+
+1573
+02:20:40,000 --> 02:20:52,980
+i hate z shell i hate it i mean it's just no just no i i'm not going to get into it there's a video
+
+1574
+02:20:52,980 --> 02:20:58,200
+out there that i made somewhere that talks about why i don't like z shell i just really really
+
+1575
+02:20:58,200 --> 02:21:04,020
+don't like it my biggest complaint about bash is the license sorry i'm not attacking you personally
+
+1576
+02:21:04,020 --> 02:21:09,420
+please understand this okay i'm not i'm not attacking you personally i just do not like
+
+1577
+02:21:09,420 --> 02:21:15,360
+they show a good old bash on all the six centuries yeah not to mention it's the
+
+1578
+02:21:15,360 --> 02:21:21,480
+standard yeah yeah okay so sign in to cloud code with your cloud coder pro
+
+1579
+02:21:21,480 --> 02:21:28,700
+account if it doesn't open it authorize this with the authorization this is just
+
+1580
+02:21:28,700 --> 02:21:35,220
+a reference I don't that's not my actual authorization it's something random
+
+1581
+02:21:35,220 --> 02:21:40,640
+And unless somebody else wants to pay for my cloud code, so no, please don't go out there.
+
+1582
+02:21:40,640 --> 02:21:43,740
+I'm going to go try it right now, but just in case it dumps something.
+
+1583
+02:21:43,740 --> 02:21:45,360
+Fish is cool.
+
+1584
+02:21:45,360 --> 02:21:48,460
+Look, your interactive shell, I really don't care.
+
+1585
+02:21:48,460 --> 02:21:52,100
+Your interactive shell is what is you.
+
+1586
+02:21:52,100 --> 02:21:54,000
+You do your own interactive shell.
+
+1587
+02:21:54,000 --> 02:21:58,920
+That is completely up to you.
+
+1588
+02:21:58,920 --> 02:22:03,420
+Continue with Google.
+
+1589
+02:22:03,720 --> 02:22:07,140
+I think I can log in with Google with this.
+
+1590
+02:22:07,140 --> 02:22:09,940
+Choose an account, this account.
+
+1591
+02:22:09,940 --> 02:22:11,960
+I think I associated a Google account with this,
+
+1592
+02:22:11,960 --> 02:22:14,300
+but I cannot remember.
+
+1593
+02:22:14,300 --> 02:22:19,300
+Continue, access Anthropic, authorize.
+
+1594
+02:22:19,300 --> 02:22:24,400
+Paste this cloud, and yeah, so this is the one that,
+
+1595
+02:22:24,400 --> 02:22:28,480
+if you had it, it would be, you'd kind of own me.
+
+1596
+02:22:33,720 --> 02:22:41,940
+so done install agent is working you can clear that out and clear out my buffer
+
+1597
+02:22:41,940 --> 02:22:50,380
+I can close this window and I think I can bring you back now
+
+1598
+02:22:50,380 --> 02:23:07,480
+Okay, the cloud agent is there. You know what I've noticed too? OpenCode is way better at not
+
+1599
+02:23:07,480 --> 02:23:16,720
+doxing things. GitHub Copilot is horrible. It doxes stuff all the time. In fact, OpenCode will
+
+1600
+02:23:16,720 --> 02:23:19,560
+tell me, you know, like, oh, but it would be a horrible thing
+
+1601
+02:23:19,560 --> 02:23:21,700
+for me to put that on the screen.
+
+1602
+02:23:21,700 --> 02:23:24,700
+It's hard-coded into it somehow.
+
+1603
+02:23:24,700 --> 02:23:29,500
+CloudAuthStatus says the sign-in ends between blah and blah.
+
+1604
+02:23:29,500 --> 02:23:32,300
+You need to run CloudCodeAuthLogin again around
+
+1605
+02:23:32,300 --> 02:23:34,340
+and the InstallerScript handles the check if you rerun it.
+
+1606
+02:23:34,340 --> 02:23:34,840
+OK.
+
+1607
+02:23:34,840 --> 02:23:41,380
+Can you switch to the model?
+
+1608
+02:23:41,380 --> 02:23:44,980
+Let's see if we can switch to the model.
+
+1609
+02:23:44,980 --> 02:23:46,120
+Yay, we can.
+
+1610
+02:23:46,720 --> 02:23:58,120
+we can go to sonnet now select a variant how about medium yay so here we go now we can actually do
+
+1611
+02:23:58,120 --> 02:24:04,060
+the other stuff I wanted to do I don't know why I'm doing that bad Rob all right it's like running
+
+1612
+02:24:04,060 --> 02:24:12,240
+PWD through AI bad idea Robert status I want to see if there's anything that's not committed
+
+1613
+02:24:12,240 --> 02:24:24,340
+hard-coded bath breaks like a apt typo install update but it should be studio app get update
+
+1614
+02:24:24,340 --> 02:24:40,220
+this is true um um yes fix both of those and uh you only installed long as you show on the back
+
+1615
+02:24:40,220 --> 02:24:40,880
+yeah
+
+1616
+02:24:40,880 --> 02:24:43,660
+the biggest thing
+
+1617
+02:24:43,660 --> 02:24:44,720
+that most people
+
+1618
+02:24:44,720 --> 02:24:45,660
+use for OMOZ show
+
+1619
+02:24:45,660 --> 02:24:46,820
+is their fancy prompt
+
+1620
+02:24:46,820 --> 02:24:48,820
+and the completion
+
+1621
+02:24:48,820 --> 02:24:49,480
+the tab tab
+
+1622
+02:24:49,480 --> 02:24:50,740
+kind of completion stuff
+
+1623
+02:24:50,740 --> 02:24:52,920
+and I actually
+
+1624
+02:24:52,920 --> 02:24:53,700
+made
+
+1625
+02:24:53,700 --> 02:24:55,240
+a program
+
+1626
+02:24:55,240 --> 02:24:56,400
+to get rid of
+
+1627
+02:24:56,400 --> 02:24:56,980
+CD path
+
+1628
+02:24:56,980 --> 02:24:57,580
+which I use
+
+1629
+02:24:57,580 --> 02:24:59,240
+CD path is a
+
+1630
+02:24:59,240 --> 02:25:00,060
+sort of a better way
+
+1631
+02:25:00,060 --> 02:25:00,900
+to use the OMOZ show
+
+1632
+02:25:00,900 --> 02:25:01,320
+completion
+
+1633
+02:25:01,320 --> 02:25:03,680
+and I actually
+
+1634
+02:25:03,680 --> 02:25:04,220
+made
+
+1635
+02:25:04,220 --> 02:25:05,120
+I had my AI
+
+1636
+02:25:05,120 --> 02:25:05,880
+make a thing
+
+1637
+02:25:05,880 --> 02:25:07,020
+called CD
+
+1638
+02:25:07,020 --> 02:25:08,240
+CDD
+
+1639
+02:25:08,240 --> 02:25:09,720
+I really suggest
+
+1640
+02:25:09,720 --> 02:25:24,780
+you guys go look at it. This is in rwx. Wait, what? Where's my CDD? Oh, it's a thing. It's
+
+1641
+02:25:24,780 --> 02:25:27,160
+the function.
+
+1642
+02:25:27,160 --> 02:25:28,400
+So this is my CDD.
+
+1643
+02:25:28,400 --> 02:25:41,540
+So what's up with all these things?
+
+1644
+02:25:41,540 --> 02:25:47,560
+OK, so VI and Bash are almost always constants.
+
+1645
+02:25:47,560 --> 02:25:50,000
+Agreed.
+
+1646
+02:25:50,000 --> 02:25:52,000
+non-security incident
+
+1647
+02:25:52,000 --> 02:26:01,120
+To access back-end system is still limited customer accounts. Yeah, that's why I would never use a cloud-based password manager. It's insane
+
+1648
+02:26:01,120 --> 02:26:06,520
+So what this does is it
+
+1649
+02:26:06,520 --> 02:26:15,040
+When you CD into something from the current directory on down it automatically traverses your entire directory tree
+
+1650
+02:26:16,240 --> 02:26:22,860
+Excluding all hidden directories, and if it sees it it caches it and it CDs into it
+
+1651
+02:26:22,860 --> 02:26:29,760
+And I'm going to add bash completion so that when you do cd
+
+1652
+02:26:29,760 --> 02:26:33,860
+You can do cd tab tab, and it will give you all the stuff that you've been in recently
+
+1653
+02:26:33,860 --> 02:26:38,360
+And that can all be done from bash
+
+1654
+02:26:38,360 --> 02:26:43,540
+Inside of a function that gets loaded with your bash RC, and it's relatively
+
+1655
+02:26:44,140 --> 02:26:49,820
+Minor amount of code to get you all of that amazing goodness. Now this would take me forever to write myself
+
+1656
+02:26:49,820 --> 02:26:56,520
+But and then because the first time it does the descent it takes quite a while
+
+1657
+02:26:56,520 --> 02:27:01,420
+But then when you do it again the next time it remembers where that put with that location was and it gets immediately
+
+1658
+02:27:01,420 --> 02:27:04,340
+It knows right away and puts it in the cache. So
+
+1659
+02:27:04,340 --> 02:27:07,320
+You know, it's pretty cool
+
+1660
+02:27:07,320 --> 02:27:13,500
+It's basically the same thing that a lot of the fuzzy finders and stuff do except for just works, you know, so
+
+1661
+02:27:14,140 --> 02:27:22,700
+Um, this is in rgbxrob/dot/bin/cdd, or no, no, this isn't in a bin, this is in its own function.
+
+1662
+02:27:22,700 --> 02:27:25,340
+Um, so, you know, it's in my bash rc.
+
+1663
+02:27:25,340 --> 02:27:31,260
+Um, I do want to add completion. I don't think you can add tag completion to a function.
+
+1664
+02:27:31,260 --> 02:27:38,300
+I wonder if it could. Let's ask it. Um, we need to get the terminal colors fixed too.
+
+1665
+02:27:40,140 --> 02:27:49,820
+yeah yeah me too right um how hard how hard would it be to add tab completion
+
+1666
+02:27:49,820 --> 02:28:08,140
+for any of the cached entries for the cdd function
+
+1667
+02:28:10,140 --> 02:28:15,020
+I'd also suggest the last part of each cache path.
+
+1668
+02:28:15,020 --> 02:28:19,360
+I'll send you to cache that name when you pick it, or CDD would search it again, and
+
+1669
+02:28:19,360 --> 02:28:23,460
+might find an erase address with the same name.
+
+1670
+02:28:23,460 --> 02:28:28,460
+Ummm...
+
+1671
+02:28:28,460 --> 02:28:29,460
+Yeah.
+
+1672
+02:28:29,460 --> 02:28:31,080
+About a dozen lines after CDD.
+
+1673
+02:28:31,080 --> 02:28:32,700
+Oh, damn.
+
+1674
+02:28:32,700 --> 02:28:38,780
+The scriptures that no longer exist, I'd use the loop instead of the casual comp W.
+
+1675
+02:28:38,780 --> 02:28:44,380
+Names with slashes, entries like, well, it should work since batch doesn't split words.
+
+1676
+02:28:44,380 --> 02:28:52,220
+What gets suggested? The cache saves that you type, not the dictionary, if you see trace found blah, blah, blah.
+
+1677
+02:28:52,220 --> 02:29:01,860
+If you'd rather see the real directory names, it could also suggest the last part of each cached path.
+
+1678
+02:29:01,860 --> 02:29:06,900
+You'd also need to cache that name when you pick it.
+
+1679
+02:29:06,900 --> 02:29:10,480
+Or cd would search for it again and might find a different directory with the same name.
+
+1680
+02:29:10,480 --> 02:29:17,100
+Yeah, this would be fun.
+
+1681
+02:29:17,100 --> 02:29:26,880
+So, I mean, you know, by the way, while we're over here, we can run another session really quick.
+
+1682
+02:29:26,880 --> 02:29:29,580
+Let's do our Windows installer.
+
+1683
+02:29:31,420 --> 02:29:45,840
+So we need a configurator for WesTerm that is smarter than this.
+
+1684
+02:29:45,840 --> 02:29:48,140
+And this needs to be fixed.
+
+1685
+02:29:48,140 --> 02:29:50,540
+So I'm going to start another agent working over here.
+
+1686
+02:29:50,540 --> 02:29:57,720
+Limitation is for names and spaces.
+
+1687
+02:29:57,720 --> 02:30:00,300
+For names with spaces, completion works
+
+1688
+02:30:00,300 --> 02:30:03,760
+if you stop before the space, such as cdmy.
+
+1689
+02:30:03,760 --> 02:30:07,980
+It won't catch after you type the escape space, as in blah.
+
+1690
+02:30:07,980 --> 02:30:12,900
+The app script fixes are also still uncommitted,
+
+1691
+02:30:12,900 --> 02:30:16,480
+and install open code is still on track.
+
+1692
+02:30:16,480 --> 02:30:17,260
+Let's try it.
+
+1693
+02:30:17,260 --> 02:30:25,300
+Wait, why isn't it making a new one?
+
+1694
+02:30:25,300 --> 02:30:28,660
+All right, so let's try it.
+
+1695
+02:30:28,660 --> 02:30:33,780
+CD, reload.
+
+1696
+02:30:33,780 --> 02:30:52,580
+Wait, I think it's not a nutbound 2.
+
+1697
+02:30:52,580 --> 02:30:57,560
+We're going to project the cds nuts.
+
+1698
+02:30:57,560 --> 02:30:59,540
+My function only uses bash-built-in-complete,
+
+1699
+02:30:59,540 --> 02:31:01,980
+so it doesn't need the bash-completion package.
+
+1700
+02:31:01,980 --> 02:31:03,720
+I'll check what's happening on this machine.
+
+1701
+02:31:03,720 --> 02:31:15,260
+All right, so we have some stuff to do in here.
+
+1702
+02:31:15,260 --> 02:31:18,520
+Let's actually start another session in here.
+
+1703
+02:31:18,520 --> 02:31:22,020
+Expect the string starting with session at session ID.
+
+1704
+02:31:22,020 --> 02:31:26,560
+Oh, you know why?
+
+1705
+02:31:26,560 --> 02:31:29,200
+Because it's doing the OC restart thing.
+
+1706
+02:31:29,200 --> 02:31:43,200
+Reset CCG cache home, so my test--
+
+1707
+02:31:43,200 --> 02:31:45,200
+wait, what?
+
+1708
+02:31:45,200 --> 02:31:46,360
+Wait, wait, wait, wait, wait, what?
+
+1709
+02:31:46,360 --> 02:31:47,340
+This is important.
+
+1710
+02:31:47,340 --> 02:31:51,320
+XDD cache home.
+
+1711
+02:31:51,320 --> 02:31:55,540
+So my test added zebra target entry to your real cache.
+
+1712
+02:31:55,540 --> 02:31:59,240
+The confirm tab works with your existing dot entry.
+
+1713
+02:31:59,240 --> 02:32:00,520
+Oh, no.
+
+1714
+02:32:00,520 --> 02:32:02,120
+Tab completion is fixed.
+
+1715
+02:32:02,120 --> 02:32:04,420
+Run source bash rc.
+
+1716
+02:32:04,420 --> 02:32:05,640
+NCD tab should work.
+
+1717
+02:32:05,640 --> 02:32:06,220
+Complete dot.
+
+1718
+02:32:06,220 --> 02:32:07,640
+The missing package wasn't the cause.
+
+1719
+02:32:07,640 --> 02:32:11,360
+Bash completion is installed.
+
+1720
+02:32:11,360 --> 02:32:14,400
+Cause dot is the first root in CDD.
+
+1721
+02:32:14,400 --> 02:32:21,520
+so cdd saved relative paths. My completion hit any entry whose path didn't exist under her directory.
+
+1722
+02:32:21,520 --> 02:32:26,000
+Interesting. Pick cd now saves the full path that searches again instead of using the old relative
+
+1723
+02:32:26,000 --> 02:32:34,400
+directories. This is crazy. Interactive batch session check my tab. My tab test accidentally
+
+1724
+02:32:34,400 --> 02:32:46,640
+added blah. Nothing is committed. Okay, so let's test it. So reload cdd tab.
+
+1725
+02:32:46,640 --> 02:32:53,600
+That's the only thing in there.
+
+1726
+02:32:53,600 --> 02:33:03,520
+What if we made it so when we had completion on it, it actually put the full path to it?
+
+1727
+02:33:04,400 --> 02:33:14,020
+If I did D, what's it going to go?
+
+1728
+02:33:14,020 --> 02:33:19,980
+That would be so cool.
+
+1729
+02:33:19,980 --> 02:33:24,680
+If you type this shortcut, I mean, that's pretty much a Fuzzle Finder at that point.
+
+1730
+02:33:24,680 --> 02:33:27,260
+Right?
+
+1731
+02:33:31,720 --> 02:33:35,560
+What if we made it so that if it makes a match on tab
+
+1732
+02:33:35,560 --> 02:33:43,700
+That is the only match that it replaces
+
+1733
+02:33:43,700 --> 02:33:47,900
+It with the full path
+
+1734
+02:34:01,720 --> 02:34:15,320
+this is crazy this AI development is just so out of this world crazy fast at everything
+
+1735
+02:34:15,320 --> 02:34:22,320
+a shorthand one that passes very long
+
+1736
+02:34:22,320 --> 02:34:31,240
+yeah well that's the next thing right and then we say can we can we truncate it
+
+1737
+02:34:31,240 --> 02:34:33,320
+with dot dot dot if it's
+
+1738
+02:34:33,320 --> 02:34:34,600
+beyond the width of the terminal.
+
+1739
+02:34:34,600 --> 02:34:37,360
+Right? Which can all
+
+1740
+02:34:37,360 --> 02:34:38,280
+be checked with TPUT.
+
+1741
+02:34:38,280 --> 02:34:43,420
+So, yeah.
+
+1742
+02:34:43,420 --> 02:34:51,040
+Hmm. Okay.
+
+1743
+02:34:51,040 --> 02:34:55,360
+Well, it doesn't
+
+1744
+02:34:55,360 --> 02:34:57,060
+have anything right now because I don't have anything.
+
+1745
+02:35:01,240 --> 02:35:05,240
+Uh-oh, we broke it.
+
+1746
+02:35:05,240 --> 02:35:11,240
+Holy cow!
+
+1747
+02:35:11,240 --> 02:35:25,240
+Yeah.
+
+1748
+02:35:25,240 --> 02:35:29,240
+There's only one thing.
+
+1749
+02:35:31,240 --> 02:35:36,800
+That's cool.
+
+1750
+02:35:36,800 --> 02:35:40,040
+All right, we have to test it.
+
+1751
+02:35:40,040 --> 02:35:43,180
+All right, we need another repo.
+
+1752
+02:35:43,180 --> 02:35:49,360
+Clone Banzai, yes.
+
+1753
+02:35:49,360 --> 02:35:55,100
+All right, now, oh, I already put it there.
+
+1754
+02:35:55,100 --> 02:36:01,220
+Now what, cddbanzai tab, oh, I didn't find it.
+
+1755
+02:36:01,220 --> 02:36:20,000
+hmm this is not good I broke it so I broke because when I add a new repo I
+
+1756
+02:36:20,000 --> 02:36:29,240
+can't find it. I just reverted the whole thing. Nothing's been committed.
+
+1757
+02:36:29,240 --> 02:36:41,880
+Hey, what?
+
+1758
+02:36:49,060 --> 02:36:56,960
+from your folder dot and slash both cdd bonsai and cdd bons went to blog tab can't find it in
+
+1759
+02:36:56,960 --> 02:37:03,380
+my test cdd bons tab returned nothing patient windows directories you've already visited with
+
+1760
+02:37:03,380 --> 02:37:15,120
+cd oh and your cache currently contains only dot that's true that i forgot about that that's thank
+
+1761
+02:37:15,120 --> 02:37:23,040
+you thank you sonnet uh-huh so i have to do bonsai and it will descend and find it and now it will
+
+1762
+02:37:23,040 --> 02:37:30,200
+remember so if i do cddb tab it'll go to the right one so your most common directories are
+
+1763
+02:37:30,200 --> 02:37:50,840
+eventually going to go in there and be seen. Okay, so last thing. If the length of the path
+
+1764
+02:37:50,840 --> 02:38:02,040
+is longer than the width of the terminal, truncate it so that it fits on one line.
+
+1765
+02:38:02,040 --> 02:38:11,000
+The hard part about that is that the argument itself is going to have to be
+
+1766
+02:38:11,000 --> 02:38:17,160
+massaged into the right thing again because it's not just a visual thing, right?
+
+1767
+02:38:19,160 --> 02:38:24,360
+when the full path won't fit on the line after tab what should happen uh until the then name
+
+1768
+02:38:24,360 --> 02:38:32,600
+recommended shorten your home folder to tilde if it still doesn't fit just keep the cached name
+
+1769
+02:38:32,600 --> 02:38:39,720
+which is shown as always something cd can use truncate it with dot dot dot so uh show something
+
+1770
+02:38:39,720 --> 02:38:45,480
+like blah blah dot dot dot and teach cd how to map it back to where it's supposed to go if the
+
+1771
+02:38:45,480 --> 02:38:50,360
+If the toothpaste shortened in the same way, it keeps the name instead.
+
+1772
+02:38:50,360 --> 02:38:54,500
+I like that, but that's like a lot more code.
+
+1773
+02:38:54,500 --> 02:38:55,920
+That's like a lot more code.
+
+1774
+02:38:55,920 --> 02:38:59,660
+But who cares?
+
+1775
+02:38:59,660 --> 02:39:00,300
+I'm not writing it.
+
+1776
+02:39:00,300 --> 02:39:03,920
+I'm not writing it.
+
+1777
+02:39:03,920 --> 02:39:07,600
+Make my AI friend write it for me.
+
+1778
+02:39:07,600 --> 02:39:13,200
+All right.
+
+1779
+02:39:13,720 --> 02:39:15,720
+Need to have another agent work on something else
+
+1780
+02:39:15,720 --> 02:39:34,600
+Make the thing no mistakes. Oh, we don't make mistakes. I'll go find them
+
+1781
+02:39:40,820 --> 02:39:43,480
+No, it should not. Good catch.
+
+1782
+02:39:43,480 --> 02:39:54,100
+Evalling the name of a directory? Hell, that's so dangerous.
+
+1783
+02:40:07,600 --> 02:40:13,840
+We need to change the installer and setup so that when WSL is detected
+
+1784
+02:40:13,840 --> 02:40:21,560
+The configuration file is placed into the proper place
+
+1785
+02:40:21,560 --> 02:40:30,000
+Even when the setup is run from within a WSL
+
+1786
+02:40:30,000 --> 02:40:33,760
+location and
+
+1787
+02:40:36,760 --> 02:40:39,260
+We need to check and install
+
+1788
+02:40:39,260 --> 02:40:45,100
+the required fonts into the host Windows machine.
+
+1789
+02:40:45,100 --> 02:40:50,100
+That's a big one. This might be an opus.
+
+1790
+02:40:50,100 --> 02:40:58,620
+Zoxide. I've had a couple people recommend Zoxide. How you doing, Adri? Good to see ya.
+
+1791
+02:40:58,620 --> 02:41:05,440
+Slapping a toast wrap and saying it's not going anywhere.
+
+1792
+02:41:06,760 --> 02:41:24,000
+I was going to go biking tonight, but I don't know, we'll see, horny.
+
+1793
+02:41:24,000 --> 02:41:26,580
+You're being recorded for the internet, just so you know.
+
+1794
+02:41:26,580 --> 02:41:29,560
+Just be careful what you say.
+
+1795
+02:41:29,560 --> 02:41:35,100
+That's all I have to say about that.
+
+1796
+02:41:35,100 --> 02:41:44,760
+are you? I am really good. I'm really good, yeah. For those of you wondering,
+
+1797
+02:41:44,760 --> 02:41:52,140
+Adria is my biggest hot tub fan. Everybody knows that it's
+
+1798
+02:41:52,140 --> 02:42:00,500
+very public. So I did a hot tub stream once, it's kind of a joke, and I ended up
+
+1799
+02:42:00,500 --> 02:42:08,180
+having a legitimate fan come out of that. So, this goes to show there's hope for
+
+1800
+02:42:08,180 --> 02:42:19,220
+everybody out there. So, let's see a WSL config western setup now puts the
+
+1801
+02:42:19,220 --> 02:42:23,540
+config on Windows side and it sells the font in Windows. I ran it twice on this
+
+1802
+02:42:23,540 --> 02:42:33,280
+machine from the repo inside WSL. What? First run, it copied the config to blah and installed the
+
+1803
+02:42:33,280 --> 02:42:37,500
+Buntu Monitor Fund. Second run, it found... See, this is what I'm talking about. OpenCode does
+
+1804
+02:42:37,500 --> 02:42:43,000
+things without asking, which is super dangerous. Some machine learning is trying to approach me
+
+1805
+02:42:43,000 --> 02:42:48,860
+today. Pixel, that must have been a full-court press because Seabayer had somebody approach
+
+1806
+02:42:48,860 --> 02:42:56,400
+them too. You're the second person who's told me that in the stream. I hate that I'm using sports
+
+1807
+02:42:56,400 --> 02:43:01,040
+metaphors, but I was raised by sports fans, so I don't even know what that is, really.
+
+1808
+02:43:01,040 --> 02:43:10,120
+So, second run. It found both already in place and changed nothing. Checks Westerm Ellis fonts
+
+1809
+02:43:10,120 --> 02:43:15,040
+on Windows now loads the regular and mono versions of the font, so check passes. This is why I knew
+
+1810
+02:43:15,040 --> 02:43:17,120
+if I had loaded my agent up, it would work better.
+
+1811
+02:43:17,120 --> 02:43:20,140
+They tell me, nah, I'm good.
+
+1812
+02:43:20,140 --> 02:43:23,820
+Be nice to them, though, because they think your soul is in peril
+
+1813
+02:43:23,820 --> 02:43:25,020
+and you're going to burn in hell.
+
+1814
+02:43:25,020 --> 02:43:31,760
+So, you know, if you didn't warn your neighbor
+
+1815
+02:43:31,760 --> 02:43:33,100
+and you thought that was going to happen,
+
+1816
+02:43:33,100 --> 02:43:37,000
+you'd be a worse person, right?
+
+1817
+02:43:37,000 --> 02:43:41,280
+I have to keep telling people this because you understand,
+
+1818
+02:43:41,740 --> 02:43:48,760
+These people honestly think in their brain that if you do not accept the gospel and they
+
+1819
+02:43:48,760 --> 02:43:56,020
+come by your place, that you may have rejected the one opportunity you had to learn the true
+
+1820
+02:43:56,020 --> 02:43:56,620
+gospel.
+
+1821
+02:43:56,620 --> 02:44:01,100
+And therefore, you know, you might not make it to heaven.
+
+1822
+02:44:01,100 --> 02:44:08,580
+So, you know, if the Russians were invading or the Nazis or whoever you want to hate on,
+
+1823
+02:44:09,280 --> 02:44:17,800
+If they were invading and you didn't warn your neighbor that their house was about to be invaded, then, you know, who's a bad person?
+
+1824
+02:44:17,800 --> 02:44:18,660
+So, anyway.
+
+1825
+02:44:18,660 --> 02:44:22,640
+Yeah, if you put up a no soliciting sign, they will definitely stop coming by.
+
+1826
+02:44:22,640 --> 02:44:24,740
+Yeah, or supposed to, anyway.
+
+1827
+02:44:24,740 --> 02:44:31,620
+I didn't open a Western window, and I didn't test to change it.
+
+1828
+02:44:31,620 --> 02:44:31,780
+Okay.
+
+1829
+02:44:31,780 --> 02:44:35,260
+Well, that's very interesting.
+
+1830
+02:44:39,280 --> 02:45:03,280
+Can we make the default shell to be WSL Bash instead of Bash if WSL is detected?
+
+1831
+02:45:03,280 --> 02:45:07,420
+I don't know. I don't know how to talk.
+
+1832
+02:45:09,280 --> 02:45:11,280
+Sort of like Florida
+
+1833
+02:45:11,280 --> 02:45:15,940
+My last change you should already do this. On Windows it runs
+
+1834
+02:45:15,940 --> 02:45:21,420
+WSL - - - which starts your default distro's default shell
+
+1835
+02:45:21,420 --> 02:45:23,600
+Cool
+
+1836
+02:45:23,600 --> 02:45:26,460
+I'll check that it really is bashing that the Windows copy is current
+
+1837
+02:45:26,460 --> 02:45:35,140
+What service currently running an open tab to keep you open shop? Quit it completely and reopen it, especially blah blah blah
+
+1838
+02:45:35,140 --> 02:45:38,600
+It's easier defaults of this distro and currently it's done, but you're only on. Okay
+
+1839
+02:45:39,280 --> 02:45:47,140
+"That sounds really great. I should be able to do this y'all and actually come
+
+1840
+02:45:47,140 --> 02:45:49,900
+back to everything because I use tmux for everything. That's one of the main
+
+1841
+02:45:49,900 --> 02:45:53,340
+reasons to use tmux because it keeps everything running in the background so
+
+1842
+02:45:53,340 --> 02:45:56,560
+you can restart your terminal shell and do all kinds of stuff. I can even run it
+
+1843
+02:45:56,560 --> 02:45:59,800
+in a different terminal application completely and still not lose any of my
+
+1844
+02:45:59,800 --> 02:46:04,460
+work or any of my agents." People talk all the time, "Why are you using tmux? It's a
+
+1845
+02:46:04,460 --> 02:46:11,420
+waste just to make different tabs. That's why. Okay. So let me give you an example of this. I'm
+
+1846
+02:46:11,420 --> 02:46:17,680
+about to detach. I'm going to literally shut my terminal down in the middle. Like, oh my gosh,
+
+1847
+02:46:17,680 --> 02:46:23,020
+you're going to kill all of this stuff. Yes. I want to kill this tab and all containing pains.
+
+1848
+02:46:23,020 --> 02:46:28,160
+No, I don't want that. I want to kill the tab, but I don't want to kill the pains.
+
+1849
+02:46:33,800 --> 02:46:39,900
+it should not kill the pains. This is because it's integrated with Tmux. This might actually be bad.
+
+1850
+02:46:39,900 --> 02:46:45,740
+We're going to find out. I kind of need to find out anyway. So now we're going to run West Term again.
+
+1851
+02:46:45,740 --> 02:46:49,040
+West Term. Oh!
+
+1852
+02:46:49,040 --> 02:47:00,380
+Yo, it just worked. And it got my nerd fonts and everything. It even used the proper proportions
+
+1853
+02:47:00,380 --> 02:47:03,200
+and zoom level that I set up on my Mac.
+
+1854
+02:47:03,200 --> 02:47:05,320
+It's exactly the same as on my Mac.
+
+1855
+02:47:05,320 --> 02:47:08,180
+Holy cow!
+
+1856
+02:47:08,180 --> 02:47:09,840
+And it ran bash.
+
+1857
+02:47:09,840 --> 02:47:12,940
+You've got to be kidding me.
+
+1858
+02:47:12,940 --> 02:47:22,960
+I am flabbergasted by that.
+
+1859
+02:47:22,960 --> 02:47:27,480
+And Western.Lua is here.
+
+1860
+02:47:29,420 --> 02:47:32,660
+This is the same Western.Lua.
+
+1861
+02:47:32,660 --> 02:47:43,780
+I can't believe that!
+
+1862
+02:47:43,780 --> 02:47:47,420
+It fixed everything! Look at all the code it wrote!
+
+1863
+02:47:47,420 --> 02:47:53,100
+It wrote a ton of code, y'all.
+
+1864
+02:47:53,100 --> 02:47:56,300
+It's a little bit too dark.
+
+1865
+02:47:58,700 --> 02:48:00,700
+If it's on...
+
+1866
+02:48:00,700 --> 02:48:06,580
+We live in the future, friends. This is insane.
+
+1867
+02:48:06,580 --> 02:48:10,040
+Insane!
+
+1868
+02:48:10,040 --> 02:48:12,040
+Wait.
+
+1869
+02:48:12,040 --> 02:48:14,040
+And my Tmuxes are all still there.
+
+1870
+02:48:14,040 --> 02:48:18,040
+What? Just... what?
+
+1871
+02:48:18,040 --> 02:48:23,560
+What? What is going... this is insane.
+
+1872
+02:48:23,560 --> 02:48:27,540
+Oh my gosh.
+
+1873
+02:48:28,700 --> 02:48:33,440
+I've done everything I had outlined to do today. Time for me to go ride my bike. What time is it?
+
+1874
+02:48:33,440 --> 02:48:41,920
+It's 6:30. It's kind of late. I still kind of want to ride it though. Should we go ride? Should we go ride anyway?
+
+1875
+02:48:41,920 --> 02:48:47,160
+I've been sitting here for so long.
+
+1876
+02:48:47,160 --> 02:48:56,620
+Look at how fast it is. This is because Western. Look at how fast it updates.
+
+1877
+02:48:58,700 --> 02:49:20,460
+It's rust. Yeah, oh, oh, oh, oh, oh, wait, we gotta try it. Sunset. No. What is sunset? Anyway.
+
+1878
+02:49:20,460 --> 02:49:24,500
+Since it's cycling over Utah. What is all that crap in there?
+
+1879
+02:49:24,500 --> 02:49:31,140
+Oh, it had an emoji in it at one point, which you can't understand because I'm on WSL.
+
+1880
+02:49:31,140 --> 02:49:34,880
+Keep the legs moving.
+
+1881
+02:49:34,880 --> 02:49:42,020
+Yeah, I probably should. I probably should go ride it for a bit. Just ride downtown.
+
+1882
+02:49:42,020 --> 02:49:45,060
+I have to really bundle up though. It's cold out there.
+
+1883
+02:49:45,060 --> 02:49:49,820
+Yeah.
+
+1884
+02:49:50,460 --> 02:49:53,720
+I can probably bundle up enough to do that.
+
+1885
+02:49:53,720 --> 02:49:56,520
+Okay, so let's wrap this up.
+
+1886
+02:49:56,520 --> 02:50:00,920
+Bonsai.
+
+1887
+02:50:00,920 --> 02:50:06,100
+Is there a bin directory in here?
+
+1888
+02:50:06,100 --> 02:50:10,540
+Commands.
+
+1889
+02:50:20,460 --> 02:50:26,620
+Sunrise. Watch your eyes. Wait, what?
+
+1890
+02:50:26,620 --> 02:50:33,340
+Wait, what?
+
+1891
+02:50:33,340 --> 02:50:45,820
+How come it's... oh, never mind. Let me check something.
+
+1892
+02:50:45,820 --> 02:50:48,700
+Go... wait.
+
+1893
+02:50:50,460 --> 02:50:52,460
+Let's go install now
+
+1894
+02:50:52,460 --> 02:51:04,440
+Install go
+
+1895
+02:51:04,440 --> 02:51:07,360
+Hey, I want you
+
+1896
+02:51:07,360 --> 02:51:12,080
+No, I want to install go and I go over these sir
+
+1897
+02:51:12,080 --> 02:51:17,920
+So you have to install go wait
+
+1898
+02:51:20,460 --> 02:51:24,040
+"Install Mac"
+
+1899
+02:51:24,040 --> 02:51:30,400
+Wait, what? Can we install Neo here?
+
+1900
+02:51:30,400 --> 02:51:34,120
+Some of the stuff I want in both places
+
+1901
+02:51:34,120 --> 02:51:39,460
+"It's called up for Thanksgiving." It does.
+
+1902
+02:51:39,460 --> 02:51:47,540
+Oh, there's my group box terminal file. I was looking for that. That's the Mac
+
+1903
+02:51:48,760 --> 02:51:52,580
+Goombux terminal. Anyway, it should go under config actually.
+
+1904
+02:51:52,580 --> 02:51:57,140
+Yeah, our term two stuff should go under there as well.
+
+1905
+02:51:57,140 --> 02:52:06,720
+Do I have any install goes in here?
+
+1906
+02:52:17,520 --> 02:52:19,520
+I do
+
+1907
+02:52:19,520 --> 02:52:26,300
+Why is that under bin?
+
+1908
+02:52:26,300 --> 02:52:42,760
+Perl. That's because I don't have Perl installed.
+
+1909
+02:52:45,760 --> 02:52:47,760
+Yeah
+
+1910
+02:52:47,760 --> 02:52:56,400
+Oh
+
+1911
+02:52:56,400 --> 02:53:00,240
+Do CD to enter a directory name exit runs a command last committed
+
+1912
+02:53:00,240 --> 02:53:04,680
+Vastor C does this too so the download or repo and archive message forward to run code
+
+1913
+02:53:04,680 --> 02:53:12,920
+This the cause is that ps puts the directory name into ps2 one. Yes, expands it and runs it. Yeah, that's true
+
+1914
+02:53:15,440 --> 02:53:17,940
+really the same, it's probably also a risk.
+
+1915
+02:53:17,940 --> 02:53:23,600
+That's bad.
+
+1916
+02:53:23,600 --> 02:53:37,220
+We should probably fix the PS1 security problem first.
+
+1917
+02:53:45,440 --> 02:53:50,940
+Yeah, well, what was I going to do?
+
+1918
+02:53:50,940 --> 02:54:04,880
+I'm going to run a new, I'm going to run a new, I'll see, open code, what's new 2.24,
+
+1919
+02:54:04,880 --> 02:54:09,760
+glsb6, open code onboarding, okie dokie.
+
+1920
+02:54:09,760 --> 02:54:23,400
+Um, um, I need to fix that and say, I'll start with the install.
+
+1921
+02:54:23,400 --> 02:54:28,520
+I'll go to the script and your local setup to say, I'll put it shows to some problems.
+
+1922
+02:54:28,520 --> 02:54:30,980
+JQ isn't using JQ.
+
+1923
+02:54:30,980 --> 02:54:32,000
+Yep.
+
+1924
+02:54:32,000 --> 02:54:34,880
+This is true.
+
+1925
+02:54:39,760 --> 02:54:42,240
+Uh, that was just about... oh, yeah.
+
+1926
+02:54:42,240 --> 02:54:45,840
+Uh, West Term.
+
+1927
+02:54:45,840 --> 02:54:49,440
+What's up, West Term?
+
+1928
+02:54:49,440 --> 02:54:54,000
+West Term on Windows now explicitly opens episode bash as a login shell.
+
+1929
+02:54:54,000 --> 02:54:59,680
+Uh, which is fine.
+
+1930
+02:54:59,680 --> 02:55:03,920
+I wonder if it should do that.
+
+1931
+02:55:03,920 --> 02:55:07,360
+Because Kali uses Z shell by default.
+
+1932
+02:55:09,760 --> 02:55:18,060
+I mean this is my west term, so yeah, I run setup which updates to Windows config and save previous one.
+
+1933
+02:55:18,060 --> 02:55:21,440
+Cool.
+
+1934
+02:55:21,440 --> 02:55:25,380
+Wynt, how you doing buddy?
+
+1935
+02:55:25,380 --> 02:55:31,040
+What's the goal on this project? The goal, the first goal on the project was to get
+
+1936
+02:55:31,040 --> 02:55:34,740
+Linux back running on my Windows machine.
+
+1937
+02:55:36,240 --> 02:55:38,180
+And I have that, that's done now.
+
+1938
+02:55:38,180 --> 02:55:40,000
+So I'm just cleaning up some stuff,
+
+1939
+02:55:40,000 --> 02:55:43,280
+some configuration stuff that's kind of left over.
+
+1940
+02:55:43,280 --> 02:55:45,820
+But I'm more or less done with the project for today.
+
+1941
+02:55:45,820 --> 02:55:49,560
+I have two really long videos that are gonna go up
+
+1942
+02:55:49,560 --> 02:55:52,880
+with chapters and everything on the YouTube.
+
+1943
+02:55:52,880 --> 02:55:55,260
+Which reminds me, I need to pull down the videos
+
+1944
+02:55:55,260 --> 02:55:59,700
+and start transcribing them very soon here.
+
+1945
+02:55:59,700 --> 02:56:02,860
+So I just sent back from WSL on the same option.
+
+1946
+02:56:02,860 --> 02:56:08,380
+started a login shell on home. I didn't open any Western wanted to check it
+
+1947
+02:56:08,380 --> 02:56:14,740
+there. Western is currently running and open tabs will keep it current. Quit it
+
+1948
+02:56:14,740 --> 02:56:21,700
+completely and reopen it. Especially if you started it before the config file
+
+1949
+02:56:21,700 --> 02:56:27,260
+existed. If you still don't get WSL Bash, tell me. This is your default WSL
+
+1950
+02:56:27,260 --> 02:56:39,180
+which is currently ubuntu you're only one no okay so this other problem
+
+1951
+02:56:39,180 --> 02:56:46,620
+sudo locale locale gen blah if it says isn't found run sudo app install
+
+1952
+02:56:46,620 --> 02:56:56,360
+locales first the apps installer already had uncommitted changes but this
+
+1953
+02:56:56,360 --> 02:57:02,380
+machine only has the C and CUTF locales. I added locales and locale gen to install
+
+1954
+02:57:02,380 --> 02:57:10,800
+most stuff with API. Good AI. I haven't read anything with sudo. If it says local gen do
+
+1955
+02:57:10,800 --> 02:57:25,480
+that. Okay let's go get that. Actually I can just do this. Copy that. Copy that.
+
+1956
+02:57:25,480 --> 02:57:35,480
+Paste, enter, generation complete, complete.
+
+1957
+02:57:35,480 --> 02:57:48,140
+I think we can get fishies now, dammit.
+
+1958
+02:57:48,140 --> 02:57:53,640
+That's actually, I know what to install there, it's already there.
+
+1959
+02:57:53,640 --> 02:58:18,260
+No libcurse is Perl, that seems to work.
+
+1960
+02:58:18,260 --> 02:58:24,100
+I need to add the C-Pan Dependencies for the Phishies program from Mac as well.
+
+1961
+02:58:24,100 --> 02:58:36,900
+You just hang out at home and check out videos on C++. Oh, yeah, that'd be fun.
+
+1962
+02:58:36,900 --> 02:58:42,740
+Yeah, I'm just yeah, I'm just getting ready for a bunch of tech streams coming up in December.
+
+1963
+02:58:42,740 --> 02:58:47,060
+Uh, clinker for the savings. It's not bad, man.
+
+1964
+02:58:48,260 --> 02:58:54,460
+Like, Sonnet is not too damn bad. And given how much money you're saving, just for 20 bucks a month,
+
+1965
+02:58:54,460 --> 02:58:59,760
+I've gotten so much more done with it. Of course, I'm not really pushing it, you know?
+
+1966
+02:58:59,760 --> 02:59:03,920
+If I'm gonna push it, like, when I start to do Nomad IRL, I'm gonna go to Opus for all that.
+
+1967
+02:59:03,920 --> 02:59:13,760
+So, I can Neon for 20 hours straight. Me? Oh, you are.
+
+1968
+02:59:18,900 --> 02:59:20,900
+That's cool
+
+1969
+02:59:20,900 --> 02:59:28,220
+I need to add CPAN dependencies with a fishy program. Yeah, other fixes banner banner neo watch cow on the same command bug
+
+1970
+02:59:28,220 --> 02:59:31,960
+I guess this I'll go the banner fishes which links to banner neo
+
+1971
+02:59:31,960 --> 02:59:36,140
+Banner font banner fishies
+
+1972
+02:59:36,140 --> 02:59:39,600
+Watch out cities cows say unfortunate
+
+1973
+02:59:39,600 --> 02:59:44,120
+Yeah
+
+1974
+02:59:44,120 --> 02:59:47,280
+This is cool, so
+
+1975
+02:59:48,260 --> 03:00:07,260
+It went to "Install Fishies", "Install", "Install the Fishies"
+
+1976
+03:00:07,260 --> 03:00:16,260
+Christmas, the Christmas thing worked.
+
+1977
+03:00:16,260 --> 03:00:21,240
+So you can make some videos yourself for fear of actually wearing it so you don't forget
+
+1978
+03:00:21,240 --> 03:00:26,160
+you have it when you're in the toilet, like I have done many times.
+
+1979
+03:00:26,160 --> 03:00:28,100
+Fishies are back.
+
+1980
+03:00:28,100 --> 03:00:35,220
+Cup fable satisfaction.
+
+1981
+03:00:35,220 --> 03:00:36,220
+Fishies are back.
+
+1982
+03:00:36,220 --> 03:00:39,260
+The fishies are back.
+
+1983
+03:00:39,260 --> 03:00:41,620
+Very happy little fishies.
+
+1984
+03:00:41,620 --> 03:00:44,660
+Let's full screen them.
+
+1985
+03:00:44,660 --> 03:00:57,900
+screen fishies. The fishies are back. There's my RWX fishy courtesy of, what's his name? My SAP
+
+1986
+03:00:57,900 --> 03:01:09,740
+friend. Um, like, what should we just leave the fishies on? Well, okay. So I have a server on now.
+
+1987
+03:01:10,520 --> 03:01:16,840
+So I am going to make a 24/7
+
+1988
+03:01:16,840 --> 03:01:22,100
+Rwx clips and fishies and music channel.
+
+1989
+03:01:22,100 --> 03:01:25,900
+I'm planning on making that and
+
+1990
+03:01:25,900 --> 03:01:33,480
+It will run even when I'm not streaming, but it'll probably all be on this channel.
+
+1991
+03:01:33,480 --> 03:01:40,360
+So I don't want to make a separate channel. I'm gonna keep it all on the same one, but
+
+1992
+03:01:40,520 --> 03:01:45,280
+So the way things are going because of the server and because I have a UPC and it's going
+
+1993
+03:01:45,280 --> 03:01:52,360
+to be doing everything, it's going to be on all the time, there definitely will be a you
+
+1994
+03:01:52,360 --> 03:01:54,360
+can run what music genre you want.
+
+1995
+03:01:54,360 --> 03:01:56,660
+You can pick which Spotify playlist you want to play.
+
+1996
+03:01:56,660 --> 03:02:05,120
+And then when I actually come in to stream content, I will make it separate.
+
+1997
+03:02:09,320 --> 03:02:12,540
+So that, you know, we have that possibility.
+
+1998
+03:02:12,540 --> 03:02:18,540
+Yeah.
+
+1999
+03:02:18,540 --> 03:02:24,760
+Because I'm definitely going for the 24-7.
+
+2000
+03:02:24,760 --> 03:02:27,380
+Because I found out that to qualify for partner,
+
+2001
+03:02:27,380 --> 03:02:31,340
+you're not penalized for doing 24-7 streams anymore.
+
+2002
+03:02:31,340 --> 03:02:37,700
+To request songs, you'll definitely be using channel points for that.
+
+2003
+03:02:37,700 --> 03:02:39,060
+And I already have that.
+
+2004
+03:02:39,140 --> 03:02:40,440
+That's all built into Nomad.
+
+2005
+03:02:40,440 --> 03:02:46,360
+Nomad has got what are called, what is it, priority points?
+
+2006
+03:02:46,360 --> 03:02:54,800
+And it's a combination of bits, chat reputation, rep, and everything.
+
+2007
+03:02:54,800 --> 03:02:57,100
+Yeah, it's going to be 24-7.
+
+2008
+03:02:57,100 --> 03:03:00,560
+So the RWX channel will be 24-7.
+
+2009
+03:03:00,560 --> 03:03:03,900
+RWX Rob will be 24-7.
+
+2010
+03:03:05,420 --> 03:03:12,540
+And I mean, I had it running 24-7 for a long time, and a lot of people complained because
+
+2011
+03:03:12,540 --> 03:03:14,440
+they're like, oh, it's just fishies and music or whatever.
+
+2012
+03:03:14,440 --> 03:03:20,220
+But I've always felt that that was valuable because they can come in and they can chat
+
+2013
+03:03:20,220 --> 03:03:23,940
+with each other or say a thing, you know, other people can hang out if they want.
+
+2014
+03:03:23,940 --> 03:03:26,520
+They can just stop by and see if anybody's got any questions.
+
+2015
+03:03:26,520 --> 03:03:28,180
+They can use it kind of like the Discord channel.
+
+2016
+03:03:28,180 --> 03:03:35,220
+And I mean, there's a lot of people who are already doing this, and you see 24-7 clips
+
+2017
+03:03:35,220 --> 03:03:40,720
+now is getting really popular is the 86 people that are doing it so and and twitch itself has
+
+2018
+03:03:40,720 --> 03:03:49,160
+really calmed down on the whole 24 7 sort of idea uh that stuff was in his own ego i don't know what
+
+2019
+03:03:49,160 --> 03:04:02,820
+that means um the guy that said that that yeah that that i was like being whatever yeah that
+
+2020
+03:04:02,820 --> 03:04:03,960
+The guy is so strange, by the way.
+
+2021
+03:04:03,960 --> 03:04:06,020
+Yeah, he's a DJ now.
+
+2022
+03:04:06,020 --> 03:04:10,340
+Yeah, I've rated him before, so that's kind of like water under the ridge mostly.
+
+2023
+03:04:10,340 --> 03:04:11,220
+Get it?
+
+2024
+03:04:11,220 --> 03:04:11,940
+Fishies?
+
+2025
+03:04:11,940 --> 03:04:14,040
+Oh, shit.
+
+2026
+03:04:14,040 --> 03:04:15,340
+This is all going into the video.
+
+2027
+03:04:15,340 --> 03:04:16,600
+I've got to stop talking now.
+
+2028
+03:04:16,600 --> 03:04:18,780
+We can't talk about that stuff.
+
+2029
+03:04:18,780 --> 03:04:21,600
+That's all going into YouTube.
+
+2030
+03:04:21,600 --> 03:04:22,440
+I forgot to make it.
+
+2031
+03:04:22,440 --> 03:04:23,760
+But this is all going into the YouTube video.
+
+2032
+03:04:23,760 --> 03:04:27,900
+So, yeah, I'm definitely going to do a 24-7 stream.
+
+2033
+03:04:31,340 --> 03:04:33,340
+But it's going to be more than just fishies.
+
+2034
+03:04:33,340 --> 03:04:37,780
+It's going to be tech tips.
+
+2035
+03:04:37,780 --> 03:04:39,180
+It's going to be clips.
+
+2036
+03:04:39,180 --> 03:04:42,140
+It's going to be kind of like a channel.
+
+2037
+03:04:42,140 --> 03:04:44,840
+So you guys will be able to control it.
+
+2038
+03:04:44,840 --> 03:04:47,240
+If you're tired of the fishies, you can change it to Christmas.
+
+2039
+03:04:47,240 --> 03:04:50,960
+You can watch the Christmas stuff.
+
+2040
+03:04:50,960 --> 03:04:54,300
+If you want to change the music to the Christmas playlist, you can do it.
+
+2041
+03:04:54,300 --> 03:04:58,740
+You know, to a certain degree.
+
+2042
+03:05:00,020 --> 03:05:04,680
+You're only going to be able to play playlists that I approve, though, because I don't want
+
+2043
+03:05:04,680 --> 03:05:09,080
+people to put bad playlists on that or inappropriate for Twitch.
+
+2044
+03:05:09,080 --> 03:05:14,320
+Plus, it's also kind of a, I mean, the fact that we're just playing music like that is
+
+2045
+03:05:14,320 --> 03:05:16,680
+already kind of on the edge.
+
+2046
+03:05:16,680 --> 03:05:22,300
+And one of the things that I will have to do to make this work is I'm going to have
+
+2047
+03:05:22,300 --> 03:05:24,600
+to dynamically change the category.
+
+2048
+03:05:24,600 --> 03:05:30,420
+So like if you put music on, if you decide to change it to music, I have to change the
+
+2049
+03:05:30,420 --> 03:05:31,220
+category to DJ.
+
+2050
+03:05:31,220 --> 03:05:40,220
+And then the DJ category is more or less acceptable to stream Spotify music.
+
+2051
+03:05:40,220 --> 03:05:43,200
+Everybody on Twitch does it, whether it's official or not.
+
+2052
+03:05:43,200 --> 03:05:44,580
+Everybody does it.
+
+2053
+03:05:44,580 --> 03:05:49,380
+So, you know, and because I'm not streaming to YouTube, that's also a thing.
+
+2054
+03:05:49,580 --> 03:05:55,940
+I can't, I might actually end up making a safe list of YouTube videos that you guys can watch
+
+2055
+03:05:55,940 --> 03:06:02,460
+that'll pull up, but you'd have to, it'd have to be pre-approved. And so, you know, you can say,
+
+2056
+03:06:02,460 --> 03:06:05,640
+hey, I want to, this is the YouTube videos that I'm allowing people to watch today or whatever.
+
+2057
+03:06:05,640 --> 03:06:13,880
+And so, you know, I mean, I think it's kind of a fun little project to do that because,
+
+2058
+03:06:14,640 --> 03:06:16,900
+And Twitch is really the only place you can do that.
+
+2059
+03:06:16,900 --> 03:06:21,380
+Maybe kick, but you really can't do it any place besides that.
+
+2060
+03:06:21,380 --> 03:06:28,820
+And a percentage of this is going to be educational content and stuff like that.
+
+2061
+03:06:28,820 --> 03:06:34,580
+Another reason I'm trying to do this is approve videos when I'm offline.
+
+2062
+03:06:34,580 --> 03:06:35,140
+Yeah, absolutely.
+
+2063
+03:06:35,140 --> 03:06:38,340
+If I was offline or if I had mods in here and they wanted to control,
+
+2064
+03:06:38,340 --> 03:06:41,280
+I will definitely be helping the mods do that.
+
+2065
+03:06:42,200 --> 03:06:48,760
+but you know I have to really trust the mods to do that sort of thing the real question is is that
+
+2066
+03:06:48,760 --> 03:06:55,560
+when I do start producing actual IRL content you know am I going to just do it on the channel and
+
+2067
+03:06:55,560 --> 03:06:59,880
+generally speaking it'll probably be a bring the stream down and then bring it back up sort of
+
+2068
+03:06:59,880 --> 03:07:06,040
+situation because there's so many opportunities to watch clips during an IRL stream for example
+
+2069
+03:07:06,600 --> 03:07:13,480
+That I don't feel it necessary to have another channel while I'm live that's 24/7 and a lot of people have that
+
+2070
+03:07:13,480 --> 03:07:19,080
+Multi-device control room to orchestrate teams of 100 coding agents
+
+2071
+03:07:19,080 --> 03:07:24,680
+Well, the other thing too is I was actually going to set up my cameras and stuff
+
+2072
+03:07:24,680 --> 03:07:30,440
+It's actually move right when it's getting cold the summer downtown I will be killer content. Yeah
+
+2073
+03:07:30,440 --> 03:07:34,440
+Summer IRL is great, but it also is winter is also really great
+
+2074
+03:07:35,480 --> 03:07:39,720
+and we went down there over halloween that was a really great iro content yeah it was really fun
+
+2075
+03:07:39,720 --> 03:07:45,960
+so i think i think we're wrapping up the end of this video we we have successfully got linux
+
+2076
+03:07:45,960 --> 03:07:52,200
+working with all my favorite little tools here uh banner fishes and everything has been ported
+
+2077
+03:07:52,200 --> 03:07:56,280
+watch how these cows say unfortunate i didn't add those to the fishes in star
+
+2078
+03:07:56,280 --> 03:08:02,600
+um nothing is committed yet uh banner fonts banner fishes also shows a manny figlet okay
+
+2079
+03:08:03,640 --> 03:08:09,080
+so push uh what we have i'm going to go ahead and push that so far
+
+2080
+03:08:09,080 --> 03:08:15,480
+uh i'm glad it works i think it's committed yet if you want west term
+
+2081
+03:08:15,480 --> 03:08:21,720
+let's see uncommitted pushes so it's it's creating pushes to to get up for me using
+
+2082
+03:08:21,720 --> 03:08:30,520
+the getup command and uh it's already one uncommitted push the commits worked uh jh
+
+2083
+03:08:30,520 --> 03:08:38,280
+logged in but git isn't set up for the city to use that login i'll use wait what uh five commits
+
+2084
+03:08:38,280 --> 03:08:45,000
+one up including the one you hadn't pushed yet uh set up western on windows add fishes in open
+
+2085
+03:08:45,000 --> 03:08:53,880
+code future pushes get playing keep hps uh run gh i'll set up git switch to ssh oh interesting
+
+2086
+03:08:53,880 --> 03:08:57,960
+this needs your ssh key added to the github login we don't have that yet
+
+2087
+03:08:58,840 --> 03:09:03,800
+not just for signing i didn't check that okay fine i'll need to set it get later but that's
+
+2088
+03:09:03,800 --> 03:09:07,800
+that's fine so this stuff is all up there if you want any of the stuff that i worked on today
+
+2089
+03:09:07,800 --> 03:09:14,680
+it's all in rwx rob slash dot and um i don't know if you know about this but you can actually open
+
+2090
+03:09:14,680 --> 03:09:24,200
+that with github github repo view dash w oh this is the thing i was afraid of
+
+2091
+03:09:25,240 --> 03:09:31,740
+At WSL2 you cannot open browsers. I know you can do this. I just don't know how. I'm gonna ask my AI how it does it.
+
+2092
+03:09:31,740 --> 03:09:34,440
+I know it can be done because I've done it.
+
+2093
+03:09:34,440 --> 03:09:40,960
+This is actually one of the benefits of WSL is you can actually run web programs.
+
+2094
+03:09:40,960 --> 03:09:46,280
+You can run graphic programs from WSL2 on Windows and it will run the Windows programs.
+
+2095
+03:09:46,280 --> 03:09:53,000
+So you can like dynamically kick off graphic programs using arguments and input from WSL2.
+
+2096
+03:09:54,520 --> 03:09:59,280
+Found on Linux programs, I'll check what's available and how bin open handles it. Yeah
+
+2097
+03:09:59,280 --> 03:10:04,380
+So it figured it out
+
+2098
+03:10:04,380 --> 03:10:09,360
+It just did it it actually my agent just did it
+
+2099
+03:10:09,360 --> 03:10:15,560
+My agent just opened graphics applications. This is exactly why I wanted this
+
+2100
+03:10:15,560 --> 03:10:22,020
+Because I wanted to say to my agent go open my YouTube channel and blah blah blah and have it do it
+
+2101
+03:10:22,020 --> 03:10:24,020
+It's just like I have a Linux machine
+
+2102
+03:10:24,520 --> 03:10:26,080
+which is super cool.
+
+2103
+03:10:26,080 --> 03:10:31,400
+All right, so, let's see, jsprouse.
+
+2104
+03:10:31,400 --> 03:10:33,380
+I fixed the config bash for standard WSL
+
+2105
+03:10:33,380 --> 03:10:36,020
+if browser isn't set and xdg_open isn't installed
+
+2106
+03:10:36,020 --> 03:10:37,740
+and it has Windows URL handle.
+
+2107
+03:10:37,740 --> 03:10:41,180
+I tested it with GitHub Freefall add.
+
+2108
+03:10:41,180 --> 03:10:44,240
+Reload your settings, source jsprouse.
+
+2109
+03:10:44,240 --> 03:10:45,940
+I haven't committed.
+
+2110
+03:10:45,940 --> 03:10:48,220
+It fixed the entire thing for me
+
+2111
+03:10:48,220 --> 03:10:50,140
+because we live in the future.
+
+2112
+03:10:52,560 --> 03:10:55,400
+I'm just so blown away by it.
+
+2113
+03:10:55,400 --> 03:10:58,220
+It's insane how amazing it is.
+
+2114
+03:10:58,220 --> 03:11:02,120
+I have a lot of other things that I need to add
+
+2115
+03:11:02,120 --> 03:11:04,000
+to help me with, including saving my OBS settings
+
+2116
+03:11:04,000 --> 03:11:05,020
+so I don't lose them.
+
+2117
+03:11:05,020 --> 03:11:08,400
+I use the plane to get push,
+
+2118
+03:11:08,400 --> 03:11:09,720
+fill the same login error.
+
+2119
+03:11:09,720 --> 03:11:10,680
+Commit a push, blah, blah, blah,
+
+2120
+03:11:10,680 --> 03:11:12,480
+open your eyes, blah, blah, blah, check, pass.
+
+2121
+03:11:12,480 --> 03:11:15,840
+Get up, set up, get.
+
+2122
+03:11:15,840 --> 03:11:19,560
+So I use your jhlogin for push only.
+
+2123
+03:11:19,560 --> 03:11:21,620
+So I have this happening.
+
+2124
+03:11:21,620 --> 03:11:27,660
+run this one, skid auth setup -kit. I'll run that after this video is over.
+
+2125
+03:11:27,660 --> 03:11:32,860
+I do have a smart assistant pretty much working for me all the time. So now I can do this.
+
+2126
+03:11:32,860 --> 03:11:41,880
+I can do a reload, and this should actually work. Yep, there we go. So this is the git
+
+2127
+03:11:41,880 --> 03:11:47,940
+repo which I was telling you about. Please drop me a star if you go to my repos and you
+
+2128
+03:11:47,940 --> 03:11:52,320
+like them, please drop me a star. If you want, you can drop me a sponsorship, but
+
+2129
+03:11:52,320 --> 03:11:57,840
+that's up to you. I promise it'll be more useful later. Right now it's just a
+
+2130
+03:11:57,840 --> 03:12:01,980
+bunch of fun stuff that I'm working on. And we've even had other contributors.
+
+2131
+03:12:01,980 --> 03:12:09,900
+We've had other people suggest things that I needed to add. So yeah, there are
+
+2132
+03:12:09,900 --> 03:12:14,760
+not part of that set of Capset Fortunes OBS. So the OBS stuff needs to
+
+2133
+03:12:14,760 --> 03:12:20,520
+copied over for sure. You still need that. Core dependencies. I mean look at look at the stuff
+
+2134
+03:12:20,520 --> 03:12:29,720
+it added. If I go back to the commit history, I want you to see this. So every single commit that
+
+2135
+03:12:29,720 --> 03:12:37,640
+was made has got like full comments and everything. So open URLs in web browser with WSL. It actually
+
+2136
+03:12:37,640 --> 03:12:46,040
+added that line whoa browser equals run dll exe url dot blah blah what if you don't have xdg open
+
+2137
+03:12:46,040 --> 03:12:54,020
+and run i would never have guessed that never i would never have gotten that run dll 32 is your
+
+2138
+03:12:54,020 --> 03:13:02,740
+browser i would never have gotten that that's 100 ai did that they get all ai gets all the credit
+
+2139
+03:13:02,740 --> 03:13:13,460
+for them. So that is going to be it for me today, y'all. I couldn't be happier with all of this
+
+2140
+03:13:13,460 --> 03:13:19,720
+stuff working. I can tell that there's a bright future. It's just a matter of being able to play
+
+2141
+03:13:19,720 --> 03:13:26,760
+my clips now. Yep, I'll be able to play XDG clips pretty soon, and we'll get all those other fun
+
+2142
+03:13:26,760 --> 03:13:28,740
+thing is running.
+
+2143
+03:13:28,740 --> 03:13:30,960
+So I'm going to go ahead and sign off.
+
+2144
+03:13:30,960 --> 03:13:33,400
+And I don't know who we're going to go raid here.
+
+2145
+03:13:33,400 --> 03:13:37,300
+I don't even have a Twitch running right now.
+
+2146
+03:13:37,300 --> 03:13:40,080
+But I'm going to end the video.
+
+2147
+03:13:40,080 --> 03:13:43,400
+So stop recording.
+

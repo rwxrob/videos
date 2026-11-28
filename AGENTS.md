@@ -45,9 +45,10 @@ Never "correct" these in transcripts, titles or descriptions; Whisper often mish
   [00:00:03] These are things that I did not really understand...
   ```
 - Get the title and description from the YouTube page. No `yt-dlp` is needed.
-- Always assume the latest file in `~/Movies` (by modification time) is the video to transcribe. Do not ask for confirmation.
-- To open a file for the user, always use the full path `/usr/bin/open`.
-- Transcribe locally with `ffmpeg` and `whisper-cli` (whisper-cpp), keeping working files outside the repo:
+- Always assume the latest recording (by modification time) is the video to transcribe. Do not ask for confirmation. On macOS recordings are in `~/Movies`; on WSL2 see below.
+- On macOS, to open a file for the user, always use the full path `/usr/bin/open`.
+- On WSL2, follow [On WSL2](#on-wsl2) for finding and transcribing recordings instead of the next step.
+- On macOS, transcribe locally with `ffmpeg` and `whisper-cli` (whisper-cpp), keeping working files outside the repo:
 
   ```sh
   ffmpeg -i "$HOME/Movies/<file>.mov" -ar 16000 -ac 1 -c:a pcm_s16le audio.wav
@@ -55,6 +56,16 @@ Never "correct" these in transcripts, titles or descriptions; Whisper often mish
   ```
 
   Do not pass `-nt`. Convert the `.srt` into `[HH:MM:SS] text` lines for the markdown file, and also save the `.srt` as `data/YT<UID>.srt`.
+
+## On WSL2
+
+- Detect it by `WSL2` in `/proc/sys/kernel/osrelease`.
+- OBS runs on Windows. Its config is in `%APPDATA%\obs-studio` (use `wslpath`). `user.ini` names the active profile (`ProfileDir`), and `basic/profiles/<ProfileDir>/basic.ini` has the recording folder: `FilePath` under `[SimpleOutput]` in Simple mode, `RecFilePath` under `[AdvOut]` in Advanced mode.
+- Never print `service.json` or the websocket settings; they hold stream keys and passwords.
+- Transcribe on the GPU with `bin/transcribe-gpu <file>...` (setup is in the [README](README.md#transcribing-on-wsl2-with-a-gpu)). It writes `~/whisper-work/out/<name>.srt`, and works before the video has a UID.
+- Check for made-up lines over silence, such as "Thank you." repeating every 30 seconds. Confirm against the audio before removing them.
+- Once the UID is known, copy the `.srt` to `data/<UID>.srt`, create the markdown header ending with `## Transcription`, and run `bin/yt-sync srt2md <UID>`.
+- For the clipboard use `clip.exe`, converting first with `iconv -f utf-8 -t utf-16le`.
 
 ## After a video is processed
 

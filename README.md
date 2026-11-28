@@ -68,6 +68,22 @@ For those interested in knowing how I produce videos so that they can be consume
 1. Have AI add a summary and chapters (from the timestamps) to the description in the YFM file
 1. Update the YouTube description to match, either by pasting it in or with `bin/yt-update <UID>` (see [Updating YouTube from the command line](#updating-youtube-from-the-command-line))
 
+### Transcribing on WSL2 with a GPU
+
+`bin/transcribe-gpu <file>...` transcribes recordings from WSL2 using the Windows build of [whisper.cpp](https://github.com/ggml-org/whisper.cpp) with Vulkan, which works with AMD GPUs and needs no `sudo`. On a Radeon RX 9070 XT with the `large-v3-turbo` model, about seven hours of recordings took about 32 minutes.
+
+One-time setup:
+
+1. Create `%USERPROFILE%\whisper-gpu` with `bin` and `models` folders.
+1. Extract `whisper-v1.8.4-windows-vulkan-x64.zip` from [lemonade-sdk/whisper.cpp-rocm v1.8.4](https://github.com/lemonade-sdk/whisper.cpp-rocm/releases/tag/v1.8.4) into `bin`. This is not an official whisper.cpp release. The SHA-256 of the zip used here is `e0d20a0f92e31b98adc0faf71172efc810b701e6391a9d858ca045bff26f77cd`.
+1. Download `ggml-large-v3-turbo.bin` from [ggerganov/whisper.cpp](https://huggingface.co/ggerganov/whisper.cpp) into `models`.
+1. With [uv](https://docs.astral.sh/uv/) installed, create the Python environment that extracts the audio:
+
+   ```sh
+   uv venv --python 3.12 ~/whisper-work/venv
+   uv pip install --python ~/whisper-work/venv/bin/python 'av<17'
+   ```
+
 ### Updating YouTube from the command line
 
 `bin/yt-update <UID>` pushes the title and description (including chapters and hashtags) from `data/YT<UID>.md` to YouTube using the YouTube Data API. It is optional; everything else here works without it. It needs `bash`, `curl`, and [`jq`](https://jqlang.org) (`brew install jq`).
