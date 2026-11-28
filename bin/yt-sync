@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# yt-sync: back-fill data/<UID>.md for every video on your YouTube channel.
+# yt-sync: back-fill data/YT<UID>.md for every video on your YouTube channel.
 #
 # Usage: yt-sync [-l N] <command>
 #   list        fetch every upload on your channel into a manifest
-#   meta        write data/<UID>.md (title, description, hashtags) for videos
+#   meta        write data/YT<UID>.md (title, description, hashtags) for videos
 #               that do not have one yet; never overwrites an existing file
 #   transcribe  download audio with yt-dlp, transcribe locally with whisper,
-#               and write timestamped [HH:MM:SS] lines into data/<UID>.md
-#               (plus data/<UID>.srt) for every file without a transcript
+#               and write timestamped [HH:MM:SS] lines into data/YT<UID>.md
+#               (plus data/YT<UID>.srt) for every file without a transcript
 #   run         list, meta, then transcribe everything (safe to re-run; this is
 #               what the background job runs)
 #   srt2md UID  rebuild the transcript in data/UID.md from data/UID.srt (after you

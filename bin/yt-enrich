@@ -10,7 +10,7 @@
 #   launchd      print a macOS launchd plist that runs `run` hourly
 #   -l N         max videos this run (YT_ENRICH_MAX, default 10)
 #
-# Never touches YouTube. Results are written to data/<UID>.md and committed,
+# Never touches YouTube. Results are written to data/YT<UID>.md and committed,
 # one commit per video, on the current branch (only that file is committed).
 # Review with `git log`, then publish with `yt-update <UID>` (which confirms
 # each one).

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# yt-update: push title and description from data/<UID>.md to YouTube, or the
+# yt-update: push title and description from data/YT<UID>.md to YouTube, or the
 # channel description from channel.md.
 #
 # Usage: yt-update [-n] [-y] <UID>
